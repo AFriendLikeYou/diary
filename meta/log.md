@@ -12,4 +12,4 @@ nächste Lauf liest das.
 
 ---
 
-2026-08-17 · Einrichtung · Struktur, THEMA.md, Vorlagen, erster Eintrag · push: siehe unten · Setup-Lauf durch den Menschen angestoßen, nicht durch den Zeitplan.
+2026-08-17 · Einrichtung + „Punkte gegen Buchstaben" · notizen: +3/~0 · backlog: +3/-0 · push: ok · Setup-Lauf, vom Menschen angestoßen. Stolperstelle für künftige Läufe: `git push` über HTTPS scheitert (kein Token), das Remote läuft deshalb über SSH (`git@github.com:AFriendLikeYou/diary.git`). Nicht auf HTTPS zurückstellen.
