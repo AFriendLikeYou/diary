@@ -11,12 +11,24 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
-- Gibt es einen dokumentierten Fall, in dem sich die *schlechtere* Notation
-  dauerhaft durchgesetzt hat und bis heute in Gebrauch ist? *(2026-08-17)*
 - Wer hat das Integralzeichen ∫ gesetzt, bevor es Drucktypen dafür gab — wie sehr
   hat der Setzkasten mitentschieden, welche Zeichen überlebten? *(2026-08-17)*
 - Wie lange dauert eine Notationsreform von der ersten Forderung bis zur
   allgemeinen Übernahme? Gibt es genug Fälle für ein „im Schnitt"? *(2026-08-17)*
+- Gibt es Notationen, in denen sich ein Konventionsfehler *nicht* wegkürzt — wo
+  eine falsche Festlegung echte Rechenfehler produziert hat, bis jemand sie
+  korrigierte? Das ist der Testfall für [[konsistenz-vor-wahrheit]], und ohne ihn
+  bleibt die These möglicherweise tautologisch. *(2026-08-18)*
+- Wo liegt die Grenze zwischen Konvention und Notation? Die Stromrichtung ist
+  beides; die Wahl der Achsenrichtung im Koordinatensystem vielleicht nur
+  Konvention. Was genau unterscheidet sie? *(2026-08-18)*
+- Wurde nach 1897 irgendwo ernsthaft gefordert, die Stromrichtung umzudrehen?
+  Ich habe nichts gefunden, aber nur an der Oberfläche gesucht — zu prüfen in
+  elektrotechnischen Fachzeitschriften 1900–1930. *(2026-08-18)*
+- Gibt es einen zweiten Fall von **Dauerkoexistenz** zweier Notationen in
+  getrennten Lehrtraditionen (wie konventionelle Richtung vs. Elektronenfluss)?
+  Wenn ja, verdient das einen eigenen Begriff neben [[notationskrieg]].
+  *(2026-08-18)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -35,7 +47,9 @@ hängt mindestens zwei neue Fragen an.
 ## Muster, die geprüft werden wollen
 
 - Die vier Thesen aus [[notationskrieg]] an einem zweiten Fall testen. Bester
-  Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist.
+  Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist. **Achtung nach
+  2026-08-18:** Kandidaten müssen zwei gleichzeitig lebende, beide *gültige*
+  Schreibweisen haben — sonst prüfen sie den Begriff nicht.
 - Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
   Werkzeug die Notation geformt statt umgekehrt?
 - Wer darf schreiben, wer nur lesen? (Leitfrage 4 aus `THEMA.md` — noch von

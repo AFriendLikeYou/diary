@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-17
+zuletzt: 2026-08-18
 ---
 
 # Notation
@@ -25,7 +25,11 @@ Drei Eigenschaften, die eine Notation von bloßer Beschriftung unterscheiden:
 1. **Sie ist rechenbar.** Man kann Zeichen manipulieren, ohne an die Sache zu
    denken, und kommt trotzdem richtig heraus. `dy/dx` erlaubt Kürzen. Römische
    Ziffern erlauben es nicht. Wo Notation gut ist, übernimmt sie einen Teil des
-   Denkens.
+   Denkens. *Nachtrag 2026-08-18:* „Richtig herauskommen" heißt hier **in sich
+   geschlossen**, nicht **wahr**. Eine Notation kann eine falsche Behauptung
+   über die Welt enthalten und trotzdem einwandfrei rechnen, wenn der Fehler
+   sich in ihren eigenen Regeln wegkürzt — siehe [[vorzeichenkonvention]] und
+   [[konsistenz-vor-wahrheit]].
 2. **Sie ist erblich.** Sie wird einmal entschieden und danach übernommen, nicht
    ständig neu verhandelt. Wer sie benutzt, hat die Entscheidung nicht getroffen.
 3. **Sie hat einen Rand.** Was sie nicht ausdrücken kann, wird nicht ausgedrückt
@@ -48,7 +52,11 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - [[leibniz-notation]] — der Fall, an dem die These zuerst sichtbar wurde
 - [[notationskrieg]] — was passiert, wenn zwei Notationen um dasselbe Feld
   konkurrieren
+- [[konsistenz-vor-wahrheit]] — schärft Eigenschaft (1): Geschlossenheit schlägt
+  Wahrheit
+- [[vorzeichenkonvention]] — der Fall, an dem das sichtbar wurde
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
+- `entries/2026/2026-08-18.md`

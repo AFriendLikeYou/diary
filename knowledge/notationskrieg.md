@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-17
+zuletzt: 2026-08-18
 ---
 
 # Notationskrieg
@@ -27,6 +27,26 @@ Vermutete Kennzeichen, alle noch zu prüfen:
 4. **Er endet durch Nachwuchs, nicht durch Einsicht.** Im beobachteten Fall waren
    es Studenten, keine Lehrstuhlinhaber.
 
+## Gegenfall: der Krieg, der ausblieb
+
+[[vorzeichenkonvention]] (2026-08-18) ist der erste Fall, der die Reichweite
+dieses Begriffs begrenzt. Franklins Stromrichtung ist seit 1897 nachweislich
+falsch, und es gab trotzdem **keinen** Konflikt: keine Reformbewegung, keine
+Fraktionen, keine Umstellung. Daraus folgt:
+
+- Ein Notationskrieg entsteht **nicht** durch Falschheit. Er entsteht durch
+  konkurrierende Handhabbarkeit bei gleicher Gültigkeit. Wo die eine Seite
+  einfach falsch, aber rechnerisch folgenlos ist, gibt es nichts zu bekriegen.
+- Die vier Punkte unten beschreiben also nicht „was passiert, wenn eine Notation
+  angreifbar ist", sondern den engeren Fall: **zwei lebende Alternativen für
+  dieselbe Aufgabe**. Ohne Alternative kein Krieg.
+- Punkt 4 („endet durch Nachwuchs") lässt sich hier nicht prüfen — es gab kein
+  Ende, weil es keinen Anfang gab. Die Vermutung bleibt bei n=1.
+- Der einzige sichtbare Rest des Konflikts ist eine gespaltene *Lehr*tradition
+  (konventionelle Richtung vs. Elektronenfluss). Das ist kein Krieg, sondern
+  eine Dauerkoexistenz — möglicherweise ein eigener Typ, der eine eigene Notiz
+  verdient, wenn ein zweiter Fall dazukommt.
+
 ## Belegt / vermutet
 
 - **Belegt:** nichts über den Einzelfall hinaus.
@@ -46,11 +66,19 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 - Laban- vs. Benesh-Notation im Tanz
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
 
+Auswahlkriterium nach dem Gegenfall oben: Kandidaten müssen **zwei gleichzeitig
+lebende, beide gültige** Schreibweisen für dieselbe Aufgabe haben. Sonst prüfen
+sie den Begriff nicht.
+
 ## Verwandt
 
 - [[leibniz-notation]] — der bisher einzige Beleg
+- [[vorzeichenkonvention]] — der Gegenfall, der die Reichweite begrenzt
+- [[konsistenz-vor-wahrheit]] — erklärt, warum Falschheit allein keinen Krieg
+  auslöst
 - [[notation]] — Eigenschaft (2), „erblich", ist die Ursache der langen Dauer
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
+- `entries/2026/2026-08-18.md` (Gegenfall)

@@ -3,7 +3,7 @@ slug: leibniz-notation
 titel: Leibniz-Notation (dy/dx, ∫)
 art: system
 angelegt: 2026-08-17
-zuletzt: 2026-08-17
+zuletzt: 2026-08-18
 ---
 
 # Leibniz-Notation (dy/dx, ∫)
@@ -56,6 +56,9 @@ Wahl wurde nach Herkunft entschieden, nicht nach Handhabbarkeit.
 
 - [[notationskrieg]] — dieser Fall ist der Prototyp
 - [[notation]] — hier wird die Eigenschaft „rechenbar" konkret
+- [[vorzeichenkonvention]] — der Kontrastfall: dort ist eine Notation falsch und
+  bleibt trotzdem, hier waren beide wahr und die unhandlichere verlor
+- [[konsistenz-vor-wahrheit]] — die These, die aus dem Vergleich beider entstand
 
 ## Kommt vor in
 

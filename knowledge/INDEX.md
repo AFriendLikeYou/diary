@@ -14,10 +14,11 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 ## Systeme
 
 - [leibniz-notation](leibniz-notation.md) — `dy/dx` und ∫ gegen Newtons Punkte; England blieb hundert Jahre bei der unhandlicheren Wahl
+- [vorzeichenkonvention](vorzeichenkonvention.md) — Franklins Münzwurf von 1747; seit 1897 nachweislich falsch, seither unverändert in Gebrauch
 
 ## Muster
 
-- [notationskrieg](notationskrieg.md) — Hypothese (n=1): Notationskonflikte werden über Herkunft entschieden, nicht über Handhabbarkeit
+- [notationskrieg](notationskrieg.md) — Hypothese (n=1): Notationskonflikte werden über Herkunft entschieden, nicht über Handhabbarkeit. Ergänzt um den Gegenfall, in dem der Krieg ausblieb
 
 ## Personen
 
@@ -25,8 +26,8 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Thesen
 
-*(noch leer — die tragende These des Projekts ist noch nicht gefunden, siehe `THEMA.md`)*
+- [konsistenz-vor-wahrheit](konsistenz-vor-wahrheit.md) — Notationen werden an Geschlossenheit gemessen, nicht an Übereinstimmung mit der Welt (n=2, ausdrücklich angreifbar)
 
 ---
 
-**Stand:** 2026-08-17 · 3 Notizen
+**Stand:** 2026-08-18 · 5 Notizen
