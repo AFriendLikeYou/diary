@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-18
+zuletzt: 2026-08-19
 ---
 
 # Notation
@@ -30,6 +30,11 @@ Drei Eigenschaften, die eine Notation von bloßer Beschriftung unterscheiden:
    über die Welt enthalten und trotzdem einwandfrei rechnen, wenn der Fehler
    sich in ihren eigenen Regeln wegkürzt — siehe [[vorzeichenkonvention]] und
    [[konsistenz-vor-wahrheit]].
+   *Nachtrag 2026-08-19:* Und „in sich geschlossen" reicht nicht — geschlossen
+   muss das System **über seine Benutzer** sein, nicht nur über seine Regeln. Wo
+   zwei Schulen dieselben Zeichen verschieden bewerten, rechnet jede einzelne
+   einwandfrei und die Notation ist trotzdem unbrauchbar
+   ([[chemische-formelnotation]], [[uniformer-irrtum]]).
 2. **Sie ist erblich.** Sie wird einmal entschieden und danach übernommen, nicht
    ständig neu verhandelt. Wer sie benutzt, hat die Entscheidung nicht getroffen.
 3. **Sie hat einen Rand.** Was sie nicht ausdrücken kann, wird nicht ausgedrückt
@@ -54,9 +59,11 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   konkurrieren
 - [[konsistenz-vor-wahrheit]] — schärft Eigenschaft (1): Geschlossenheit schlägt
   Wahrheit
+- [[uniformer-irrtum]] — schärft es weiter: Uniformität schlägt Geschlossenheit
 - [[vorzeichenkonvention]] — der Fall, an dem das sichtbar wurde
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
 - `entries/2026/2026-08-18.md`
+- `entries/2026/2026-08-19.md`

@@ -3,7 +3,7 @@ slug: leibniz-notation
 titel: Leibniz-Notation (dy/dx, ∫)
 art: system
 angelegt: 2026-08-17
-zuletzt: 2026-08-18
+zuletzt: 2026-08-19
 ---
 
 # Leibniz-Notation (dy/dx, ∫)
@@ -59,7 +59,11 @@ Wahl wurde nach Herkunft entschieden, nicht nach Handhabbarkeit.
 - [[vorzeichenkonvention]] — der Kontrastfall: dort ist eine Notation falsch und
   bleibt trotzdem, hier waren beide wahr und die unhandlichere verlor
 - [[konsistenz-vor-wahrheit]] — die These, die aus dem Vergleich beider entstand
+- [[chemische-formelnotation]] — Vergleichsfall zur Reformdauer: dort eine
+  Generation, hier hundert Jahre
+- [[uniformer-irrtum]] — die korrigierte Fassung der These
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
+- `entries/2026/2026-08-19.md` (nur als Vergleichsfall)

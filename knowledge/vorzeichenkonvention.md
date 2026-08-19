@@ -3,7 +3,7 @@ slug: vorzeichenkonvention
 titel: Franklins Vorzeichenkonvention (konventionelle Stromrichtung)
 art: system
 angelegt: 2026-08-18
-zuletzt: 2026-08-18
+zuletzt: 2026-08-19
 ---
 
 # Franklins Vorzeichenkonvention
@@ -36,6 +36,10 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
   gehen als Produkt in jede Rechnung ein. Beide umgedreht ergibt dasselbe
   Ergebnis. Ohm, Kirchhoff, Maxwell und jede Schaltungsanalyse bleiben gültig.
   Ein doppelter Vorzeichenfehler ist keiner. → [[konsistenz-vor-wahrheit]]
+  *Nachtrag 2026-08-19:* Der entscheidende Punkt ist nicht die Geschlossenheit
+  der Regeln, sondern dass **alle denselben Fehler machen**. Uniformer Irrtum
+  kürzt sich weg, uneinheitlicher nicht → [[uniformer-irrtum]],
+  [[chemische-formelnotation]].
 - **Sichtbarstes Artefakt:** Der Diodenpfeil. Die Dreiecksspitze im Dioden- und
   Transistorsymbol zeigt in die konventionelle Stromrichtung, also dorthin, wo
   die Elektronen herkommen.
@@ -66,6 +70,8 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
 ## Verwandt
 
 - [[konsistenz-vor-wahrheit]] — die These, für die dieser Fall der Hauptbeleg ist
+- [[uniformer-irrtum]] — deren korrigierte Fassung; dieser Fall ist auch dort der
+  Hauptbeleg für die erste Hälfte
 - [[notationskrieg]] — der Gegenfall: der Konflikt, der ausblieb
 - [[notation]] — Eigenschaft (1), „rechenbar", ist hier stärker als Wahrheit
 - [[leibniz-notation]] — dort waren beide Schreibweisen wahr und unterschiedlich
@@ -74,3 +80,4 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
 ## Kommt vor in
 
 - `entries/2026/2026-08-18.md`
+- `entries/2026/2026-08-19.md` (Kontrastfall)

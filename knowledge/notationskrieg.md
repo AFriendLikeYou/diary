@@ -3,57 +3,71 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-18
+zuletzt: 2026-08-19
 ---
 
 # Notationskrieg
 
 Arbeitsbegriff für den Konflikt, der entsteht, wenn zwei Zeichensysteme um
-dasselbe Feld konkurrieren. Bisher an genau **einem** Fall beobachtet
-([[leibniz-notation]]) — das reicht für eine Vermutung und nicht für ein Muster.
-Diese Notiz ist eine Hypothese, die auf Widerlegung wartet.
+dasselbe Feld konkurrieren. Bisher an **zwei** Fällen beobachtet
+([[leibniz-notation]], [[chemische-formelnotation]]) und an einem Gegenfall
+begrenzt ([[vorzeichenkonvention]]). Weiterhin eher Hypothese als Muster.
 
 ## Kern
 
-Vermutete Kennzeichen, alle noch zu prüfen:
+Vermutete Kennzeichen:
 
 1. **Der Streit wird nicht mit Argumenten über die Sache geführt.** Er wird über
-   Herkunft, Loyalität oder Besitz entschieden.
+   Herkunft, Loyalität oder Besitz entschieden. — *Im zweiten Fall nur halb
+   bestätigt:* Liebigs Angriff auf Gerhardt 1845 hat Züge davon, entschieden wurde
+   der Streit 1860 aber durch ein Verfahren (Dampfdichten), also durch die Sache.
 2. **Die Kosten trägt nicht, wer entscheidet.** Sie fallen später an, verteilt auf
-   viele, in kleinen täglichen Beträgen, die in keiner Bilanz auftauchen.
+   viele, in kleinen täglichen Beträgen, die in keiner Bilanz auftauchen. — *Im
+   zweiten Fall anders:* Die Kosten trafen die Beteiligten sofort und sichtbar,
+   weil sie einander nicht mehr lesen konnten. Genau deshalb ging es schnell.
 3. **Er dauert Generationen.** Weil eine Notation in der Infrastruktur versinkt —
    Lehrbücher, Prüfungen, Werkzeuge, Drucktypen —, kostet ihr Austausch mehr als
-   ihre Wahl.
-4. **Er endet durch Nachwuchs, nicht durch Einsicht.** Im beobachteten Fall waren
-   es Studenten, keine Lehrstuhlinhaber.
+   ihre Wahl. — *Widerlegt in der starken Form:* Der Chemie-Fall brauchte von der
+   ersten Forderung (1843) bis zur Entscheidung (1869) etwa eine Generation, und
+   der Kipppunkt lag in drei Tagen.
+4. **Er endet durch Nachwuchs, nicht durch Einsicht.** Im ersten Fall waren es
+   Studenten, keine Lehrstuhlinhaber. — *Gegeninstanz:* In Karlsruhe kippte der
+   Konsens unter etablierten Fachleuten, nachdem [[stanislao-cannizzaro]]s Arbeit
+   verteilt worden war. Punkt 4 ist damit auf n=1 zurückgefallen und
+   wahrscheinlich zu hübsch, um zu stimmen.
+
+## Ergänzung: das Eskalationskriterium
+
+Mit [[uniformer-irrtum]] (2026-08-19) gibt es erstmals eine Antwort auf die Frage,
+*wann* aus konkurrierenden Notationen ein Krieg wird: wenn der Gebrauch nicht
+uniform ist. Falschheit allein reicht nicht (siehe Gegenfall). Uneinigkeit reicht
+auch ohne Falschheit. Und je weniger uniform, desto schneller die Entscheidung —
+das erklärt, warum Fall 1 hundert Jahre und Fall 2 nur eine Generation brauchte.
 
 ## Gegenfall: der Krieg, der ausblieb
 
-[[vorzeichenkonvention]] (2026-08-18) ist der erste Fall, der die Reichweite
-dieses Begriffs begrenzt. Franklins Stromrichtung ist seit 1897 nachweislich
-falsch, und es gab trotzdem **keinen** Konflikt: keine Reformbewegung, keine
-Fraktionen, keine Umstellung. Daraus folgt:
+[[vorzeichenkonvention]] (2026-08-18) begrenzt die Reichweite des Begriffs.
+Franklins Stromrichtung ist seit 1897 nachweislich falsch, und es gab trotzdem
+**keinen** Konflikt: keine Reformbewegung, keine Fraktionen, keine Umstellung.
+Daraus folgt:
 
 - Ein Notationskrieg entsteht **nicht** durch Falschheit. Er entsteht durch
-  konkurrierende Handhabbarkeit bei gleicher Gültigkeit. Wo die eine Seite
-  einfach falsch, aber rechnerisch folgenlos ist, gibt es nichts zu bekriegen.
-- Die vier Punkte unten beschreiben also nicht „was passiert, wenn eine Notation
-  angreifbar ist", sondern den engeren Fall: **zwei lebende Alternativen für
-  dieselbe Aufgabe**. Ohne Alternative kein Krieg.
-- Punkt 4 („endet durch Nachwuchs") lässt sich hier nicht prüfen — es gab kein
-  Ende, weil es keinen Anfang gab. Die Vermutung bleibt bei n=1.
+  konkurrierende Handhabbarkeit bei gleicher Gültigkeit — oder, nach dem zweiten
+  Fall, durch uneinheitliche Bedeutung derselben Zeichen. Ohne Alternative kein
+  Krieg.
 - Der einzige sichtbare Rest des Konflikts ist eine gespaltene *Lehr*tradition
-  (konventionelle Richtung vs. Elektronenfluss). Das ist kein Krieg, sondern
-  eine Dauerkoexistenz — möglicherweise ein eigener Typ, der eine eigene Notiz
+  (konventionelle Richtung vs. Elektronenfluss). Das ist kein Krieg, sondern eine
+  Dauerkoexistenz — möglicherweise ein eigener Typ, der eine eigene Notiz
   verdient, wenn ein zweiter Fall dazukommt.
 
 ## Belegt / vermutet
 
-- **Belegt:** nichts über den Einzelfall hinaus.
-- **Vermutet:** alle vier Punkte. Punkt 4 ist der schwächste — eine Verallgemeinerung
-  aus n=1, die verdächtig gut zu einer bekannten Wissenschaftstheorie-Pointe passt
-  (Planck: Wissenschaft schreitet von Beerdigung zu Beerdigung voran). Genau
-  deshalb misstrauisch bleiben.
+- **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
+- **Vermutet:** alle vier Kennzeichen als Muster. Punkte 2 und 3 sind nach dem
+  zweiten Fall bereits eingeschränkt, Punkt 4 ist der schwächste — eine
+  Verallgemeinerung aus n=1, die verdächtig gut zu einer bekannten
+  Wissenschaftstheorie-Pointe passt (Planck: Wissenschaft schreitet von
+  Beerdigung zu Beerdigung voran). Genau deshalb misstrauisch bleiben.
 
 ## Zu prüfen an
 
@@ -61,24 +75,29 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 
 - Metrisches vs. imperiales System
 - QWERTY gegen alle Alternativen
-- Chemische Formelschreibweisen im 19. Jahrhundert (Berzelius und die Folgen)
 - Tabulatur vs. Notenschrift
 - Laban- vs. Benesh-Notation im Tanz
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
+- Dezimaltrenner Komma vs. Punkt — Kandidat für nicht-uniformen Gebrauch **ohne**
+  Eskalation, also Gegenbeleg zu [[uniformer-irrtum]]
 
-Auswahlkriterium nach dem Gegenfall oben: Kandidaten müssen **zwei gleichzeitig
+Auswahlkriterium nach dem Gegenfall: Kandidaten müssen **zwei gleichzeitig
 lebende, beide gültige** Schreibweisen für dieselbe Aufgabe haben. Sonst prüfen
 sie den Begriff nicht.
 
 ## Verwandt
 
-- [[leibniz-notation]] — der bisher einzige Beleg
+- [[leibniz-notation]] — erster Beleg
+- [[chemische-formelnotation]] — zweiter Beleg, und der, der drei der vier
+  Kennzeichen einschränkt
 - [[vorzeichenkonvention]] — der Gegenfall, der die Reichweite begrenzt
-- [[konsistenz-vor-wahrheit]] — erklärt, warum Falschheit allein keinen Krieg
-  auslöst
+- [[uniformer-irrtum]] — liefert das Eskalationskriterium
+- [[konsistenz-vor-wahrheit]] — Vorfassung davon
 - [[notation]] — Eigenschaft (2), „erblich", ist die Ursache der langen Dauer
+- [[stanislao-cannizzaro]] — die Gegeninstanz zu Kennzeichen 4
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
 - `entries/2026/2026-08-18.md` (Gegenfall)
+- `entries/2026/2026-08-19.md` (zweiter Beleg)
