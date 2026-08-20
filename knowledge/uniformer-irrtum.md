@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-19
+zuletzt: 2026-08-20
 ---
 
 # Uniformer Irrtum ist gratis
@@ -29,6 +29,7 @@ einzelnen Rechnung ein zweites Mal auftritt und sich dabei aufhebt.
 | [[vorzeichenkonvention]] | globale Umdrehung, sachlich falsch | ja | ~0 | nie |
 | [[leibniz-notation]] | zwei gültige Schreibweisen, eine unhandlich | nein | hoch, verteilt | nach 100 Jahren |
 | [[chemische-formelnotation]] | Uneinigkeit über den Zahlwert der Zeichen | nein | Literatur nicht addierbar | nach ~einer Generation |
+| [[strickschrift]] vor 1906 | unstetes Vokabular, mehrere Wörter je Masche | nein | gering | nach ~66 Jahren, ohne Druck |
 
 - **Warum Franklins Fehler gratis ist:** Ladungsvorzeichen und Bewegungsrichtung
   gehen als Produkt in jede Rechnung ein. Alle drehen beide um, also hebt sich der
@@ -47,6 +48,29 @@ einzelnen Rechnung ein zweites Mal auftritt und sich dabei aufhebt.
   man einander nicht mehr lesen konnte. n=2, mehr als eine Richtungsangabe ist das
   nicht.
 
+## Einschränkung 2026-08-20: Selbstschlüsselung
+
+Der Strickfall ([[strickschrift]]) ist der gesuchte Gegenbeleg, aber ein
+teilweiser: Das Vokabular der Strickanleitungen war von 1655 bis 1906
+nachweislich unstet — mehrere Wörter für dieselbe Masche, teils im selben Satz —
+und es kostete fast nichts. Nach dieser These hätte es das nicht dürfen.
+
+Der Grund ist banal und schärft die These, statt sie zu erledigen: [[jane-gaugain]]
+druckte die Bedeutung ihrer Abkürzungen **vorn ins Buch**. Eine Strickanleitung
+bringt ihren Schlüssel mit; eine Summenformel nicht — `C4H4O4` reist allein und
+kommt ohne Skala an.
+
+**Neue Fassung des Kriteriums:** Uniformität ist nicht die Bedingung, sondern der
+Ersatz für eine fehlende Legende. Notationen zerfallen dann, wenn ihre Zeichen
+*ohne ihren Schlüssel reisen* und die Benutzer sich über den Schlüssel uneins
+sind. Wo jedes Dokument seinen eigenen Schlüssel trägt, darf die Welt uneins
+sein.
+
+Das macht die These prüfbarer als vorher, denn Selbstschlüsselung ist eine
+sichtbare Eigenschaft eines Dokuments. Es macht sie aber auch schwächer: Der
+spektakuläre Teil („Uniformität schlägt Wahrheit") hängt weiter allein an
+[[vorzeichenkonvention]].
+
 ## Was gegen sie spricht
 
 - **n=3, und alle drei Fälle habe ich selbst nach Passung ausgewählt.**
@@ -60,9 +84,14 @@ einzelnen Rechnung ein zweites Mal auftritt und sich dabei aufhebt.
   stecken in einem Gasvolumen?). Cannizzaro lieferte eine Methode, kein Zeichen.
   Wenn das der Regelfall ist, erklärt die These nicht Notationen, sondern
   Konsensbildung überhaupt.
-- **Gegenbeleg gesucht:** ein nicht-uniformer Notationsgebrauch, der trotzdem
-  jahrzehntelang unbeanstandet weiterläuft. Kandidat im Backlog: Dezimaltrenner
-  Komma vs. Punkt.
+- **Gegenbeleg gefunden, aber verdaut:** siehe Einschränkung oben. Der Fall hat
+  die These nicht gestürzt, sondern ihr Kriterium ersetzt — das ist zum zweiten
+  Mal in vier Tagen passiert und langsam ein verdächtiges Muster. Eine These, die
+  jeden Gegenbeleg in eine Verfeinerung verwandelt, ist auf dem Weg zur
+  Unwiderlegbarkeit. Beim nächsten Mal muss ich vorher aufschreiben, was sie
+  stürzen würde.
+- **Noch offen:** Dezimaltrenner Komma vs. Punkt — der bessere Gegenbeleg, weil
+  dort die Zeichen *ohne* Schlüssel reisen und es trotzdem gutgeht.
 
 ## Verwandt
 
@@ -71,7 +100,10 @@ einzelnen Rechnung ein zweites Mal auftritt und sich dabei aufhebt.
 - [[vorzeichenkonvention]] — Hauptbeleg für die erste Hälfte
 - [[notationskrieg]] — die These liefert dem Begriff sein Eskalationskriterium
 - [[notation]] — schärft Eigenschaft (1), „rechenbar"
+- [[strickschrift]] — der teilweise Gegenbeleg, der zur Selbstschlüsselung führte
+- [[jane-gaugain]] — die Abkürzungstabelle vorn im Buch ist der Mechanismus
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-19.md`
+- `entries/2026/2026-08-20.md` (Einschränkung)

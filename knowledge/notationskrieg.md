@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-19
+zuletzt: 2026-08-20
 ---
 
 # Notationskrieg
@@ -57,8 +57,30 @@ Daraus folgt:
   Krieg.
 - Der einzige sichtbare Rest des Konflikts ist eine gespaltene *Lehr*tradition
   (konventionelle Richtung vs. Elektronenfluss). Das ist kein Krieg, sondern eine
-  Dauerkoexistenz — möglicherweise ein eigener Typ, der eine eigene Notiz
-  verdient, wenn ein zweiter Fall dazukommt.
+  Dauerkoexistenz — möglicherweise ein eigener Typ.
+
+## Zwei Arten von Dauerkoexistenz (2026-08-20)
+
+Der gesuchte zweite Fall ist da, aber er ist **nicht derselbe Typ**, und das ist
+der Ertrag. [[strickschrift]]: Kürzelanleitung und Symboldiagramm bestehen seit
+Jahrzehnten nebeneinander, häufig in derselben Publikation, ohne jede Spur eines
+Konflikts. Der Grund ist nicht Toleranz, sondern dass sie **verschiedene
+Gegenstände notieren** — Handlung gegen Anblick, siehe
+[[handlungs-vs-ergebnis-notation]].
+
+Damit zwei Mechanismen, die man auseinanderhalten muss:
+
+1. **Getrennte Lehrtraditionen, gleicher Gegenstand** ([[vorzeichenkonvention]]).
+   Ein latenter Konflikt, der nicht ausbricht, weil beide Seiten dasselbe
+   ausrechnen. Kosten: ein Übersetzungsschritt beim Nachwuchs.
+2. **Verschiedene Gegenstände** ([[strickschrift]]). Gar kein Konflikt, weil es
+   keine Konkurrenz gibt. Beide Notationen sind gleichzeitig nützlich, und
+   erfahrene Benutzer beherrschen beide.
+
+Daraus eine zweite, vom Uniformitätskriterium unabhängige Vorbedingung für einen
+Notationskrieg: **gemeinsamer Gegenstand**. Ich hatte das stillschweigend
+vorausgesetzt („um dasselbe Feld konkurrieren") und nicht gesehen, dass dasselbe
+Feld nicht derselbe Gegenstand ist.
 
 ## Belegt / vermutet
 
@@ -75,7 +97,10 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 
 - Metrisches vs. imperiales System
 - QWERTY gegen alle Alternativen
-- Tabulatur vs. Notenschrift
+- Tabulatur vs. Notenschrift — **aufgewertet zum besten nächsten Kandidaten:**
+  nach [[handlungs-vs-ergebnis-notation]] müsste hier gar kein Krieg stattfinden,
+  weil Griff und Klang verschiedene Gegenstände sind. Falls doch einer
+  stattgefunden hat, ist die neue Vorbedingung falsch.
 - Laban- vs. Benesh-Notation im Tanz
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
 - Dezimaltrenner Komma vs. Punkt — Kandidat für nicht-uniformen Gebrauch **ohne**
@@ -95,9 +120,12 @@ sie den Begriff nicht.
 - [[konsistenz-vor-wahrheit]] — Vorfassung davon
 - [[notation]] — Eigenschaft (2), „erblich", ist die Ursache der langen Dauer
 - [[stanislao-cannizzaro]] — die Gegeninstanz zu Kennzeichen 4
+- [[strickschrift]] — der Fall ohne Krieg, zweiter Typ von Dauerkoexistenz
+- [[handlungs-vs-ergebnis-notation]] — liefert die zweite Vorbedingung
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
 - `entries/2026/2026-08-18.md` (Gegenfall)
 - `entries/2026/2026-08-19.md` (zweiter Beleg)
+- `entries/2026/2026-08-20.md` (Dauerkoexistenz zweiter Art)

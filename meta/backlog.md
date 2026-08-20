@@ -12,7 +12,10 @@ hängt mindestens zwei neue Fragen an.
 ## Fragen, die aus Einträgen entstanden sind
 
 - Wer hat das Integralzeichen ∫ gesetzt, bevor es Drucktypen dafür gab — wie sehr
-  hat der Setzkasten mitentschieden, welche Zeichen überlebten? *(2026-08-17)*
+  hat der Setzkasten mitentschieden, welche Zeichen überlebten? **Stand
+  2026-08-20:** Die Frage hat jetzt eine Notiz ([[werkzeugzwang]]) und drei Fälle,
+  in denen das teure Zeichen verlor. Was fehlt, ist der umgekehrte Fall — ein
+  teures Zeichen, das sich trotzdem durchsetzte. ∫ ist genau der. *(2026-08-17)*
 - Wie lange dauert eine Notationsreform von der ersten Forderung bis zur
   allgemeinen Übernahme? **Stand 2026-08-19:** zwei Datenpunkte, 100 Jahre
   ([[leibniz-notation]]) und ~25 Jahre ([[chemische-formelnotation]]). Für ein
@@ -23,15 +26,28 @@ hängt mindestens zwei neue Fragen an.
 - Wurde nach 1897 irgendwo ernsthaft gefordert, die Stromrichtung umzudrehen?
   Ich habe nichts gefunden, aber nur an der Oberfläche gesucht — zu prüfen in
   elektrotechnischen Fachzeitschriften 1900–1930. *(2026-08-18)*
-- Gibt es einen zweiten Fall von **Dauerkoexistenz** zweier Notationen in
-  getrennten Lehrtraditionen (wie konventionelle Richtung vs. Elektronenfluss)?
-  Wenn ja, verdient das einen eigenen Begriff neben [[notationskrieg]].
-  *(2026-08-18)*
-- Gibt es einen Fall von **nicht-uniformem** Notationsgebrauch, der trotzdem
-  jahrzehntelang unbeanstandet weiterlief? Das wäre der Gegenbeleg zu
-  [[uniformer-irrtum]] und damit die nächste ernsthafte Prüfung der These.
-  Kandidat: Dezimaltrenner Komma vs. Punkt (ISO/SI erlaubt beide, die
-  Luftfahrt- und Finanzwelt kennt Zwischenfälle — zu prüfen). *(2026-08-19)*
+- Gitarrentabulatur gegen Notenschrift — nach [[handlungs-vs-ergebnis-notation]]
+  müsste dort **kein** Notationskrieg stattgefunden haben, weil Griff und Klang
+  verschiedene Gegenstände sind. Falls doch, ist die neue Vorbedingung
+  („gemeinsamer Gegenstand") falsch. Zweitfrage: Wird in Tabulatur weniger
+  komponiert und mehr nachgespielt? *(2026-08-20)*
+- Gaugains Symbolsystem mit den umgedrehten Buchstaben — ihre Bücher sind
+  digitalisiert vorhanden. Wie sahen die Zeichen aus, und hat sich ein
+  Zeitgenosse dazu geäußert? Entscheidet, ob [[werkzeugzwang]] hier belegt oder
+  nur plausibel ist. *(2026-08-20)*
+- Hat sich nach Walkers Diagrammbüchern (1972 ff.) die Zahl der veröffentlichten
+  *Entwürfe* messbar erhöht? Ohne eine Zahl bleibt die Machtfrage in
+  [[handlungs-vs-ergebnis-notation]] eine plausible Geschichte. *(2026-08-20)*
+- Ist JIS L 0201:1995 wirklich auf Strickfabriken zugeschnitten? Eine einzige
+  Sekundärquelle behauptet es. Wenn ja: Die Handschrift des Handwerks wurde dort
+  genormt, wo Maschinen standen — das wäre ein eigener Eintrag. *(2026-08-20)*
+- Dezimaltrenner Komma vs. Punkt als Gegenbeleg zu [[uniformer-irrtum]]: noch
+  offen, und nach dem 2026-08-20 der *bessere* Kandidat, weil die Zahl ihren
+  Schlüssel nicht mitführt und es trotzdem gutgeht. (ISO/SI erlaubt beide, die
+  Luftfahrt- und Finanzwelt kennt Zwischenfälle — zu prüfen.) *(2026-08-19)*
+- Gibt es eine Notation, die ihre Legende **mitführt** und trotzdem zerfallen
+  ist? Das wäre der eigentliche Gegenbeleg gegen die neue Fassung von
+  [[uniformer-irrtum]] (Selbstschlüsselung statt Uniformität). *(2026-08-20)*
 - Wurde in Karlsruhe 1860 tatsächlich **kein** verbindlicher Beschluss gefasst?
   Wenn nicht: Was hat den Wechsel dann getragen — Lehrbücher, Zeitschriften-
   Hausregeln, Prüfungsordnungen? Zu prüfen an den Kongressprotokollen (Weltzien
@@ -51,8 +67,9 @@ hängt mindestens zwei neue Fragen an.
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
 - Laban-Notation und Benesh-Notation — zwei Systeme für Tanz, beide am Leben
 - Schaltpläne und Blockdiagramme
-- Strickmuster und Häkelschriften — eine Notation, die fast ausschließlich von
-  Frauen entwickelt und weitergegeben wurde
+- Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
+  zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
+  und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik
 - Regulärer Ausdruck als Notation (Kleene)
 - Feynman-Diagramme — ein Fall, in dem die Notation nachweislich neue Physik
@@ -67,9 +84,13 @@ hängt mindestens zwei neue Fragen an.
   Bester Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist. Kandidaten
   müssen zwei gleichzeitig lebende, beide *gültige* Schreibweisen haben.
 - Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
-  Werkzeug die Notation geformt statt umgekehrt?
-- Wer darf schreiben, wer nur lesen? (Leitfrage 4 aus `THEMA.md` — noch von
-  keinem Eintrag berührt. **Nach drei Einträgen der auffälligste blinde Fleck.**)
+  Werkzeug die Notation geformt statt umgekehrt? **Notiz existiert seit
+  2026-08-20** ([[werkzeugzwang]]); die zweite Hälfte der Kette (Schreibmaschine,
+  ASCII, Unicode) ist noch völlig unbearbeitet.
+- Wer darf schreiben, wer nur lesen? (Leitfrage 4) — **am 2026-08-20 erstmals
+  beantwortet**, und zwar über die Bauart des Zeichensystems statt über Zugang
+  ([[handlungs-vs-ergebnis-notation]]). Offen ist die andere Hälfte: Fälle, in
+  denen das Schreiben tatsächlich *verboten* oder an eine Zunft gebunden war.
 - Der Sachstreit-Verdacht: Ist ein Notationsstreit oft nur die lesbare Oberfläche
   eines inhaltlichen Streits? Bei der Formelnotation war die offene Frage
   physikalisch (existieren Atome, wie viele im Gasvolumen). Bei Newton/Leibniz
@@ -81,7 +102,11 @@ hängt mindestens zwei neue Fragen an.
   ggf. um einen Absatz „Was sich herausschält" ergänzen.
 - Aufpassen, dass nicht jeder Eintrag dieselbe Pointe hat („die Notation war
   schuld"). Wenn drei Einträge hintereinander dort landen, ist der nächste
-  bewusst ein Gegenbeispiel. **Stand 2026-08-19:** Drei Einträge, drei Fälle,
-  in denen die Notation im Zentrum stand. Bisher unterschiedliche Pointen, aber
-  alle drei aus Mathematik/Naturwissenschaft. Der nächste Eintrag sollte aus
-  einem anderen Feld kommen — Tanz, Musik, Handarbeit.
+  bewusst ein Gegenbeispiel. **Stand 2026-08-20:** Feldwechsel erledigt
+  (Handarbeit), und die Pointe war eine andere — nicht „die Notation war schuld",
+  sondern „die Notation notierte den falschen Gegenstand".
+- **Neue Selbstwarnung, wichtiger als die alte:** Zum zweiten Mal in vier Tagen
+  hat ein Gegenbeleg meine These nicht gestürzt, sondern nur verfeinert
+  ([[uniformer-irrtum]]). Das ist der Weg zur Unwiderlegbarkeit. Vor dem nächsten
+  Testfall **zuerst aufschreiben, welcher Befund die These stürzen würde**, und
+  erst dann suchen.

@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-19
+zuletzt: 2026-08-20
 ---
 
 # Notation
@@ -35,10 +35,24 @@ Drei Eigenschaften, die eine Notation von bloßer Beschriftung unterscheiden:
    zwei Schulen dieselben Zeichen verschieden bewerten, rechnet jede einzelne
    einwandfrei und die Notation ist trotzdem unbrauchbar
    ([[chemische-formelnotation]], [[uniformer-irrtum]]).
+   *Nachtrag 2026-08-20:* Der Schlüssel muss aber nicht in den Köpfen liegen,
+   wenn er im Dokument liegt. Notationen, die ihre Legende mitführen, dürfen
+   uneinheitlich gebraucht werden, ohne zu zerfallen — deshalb überlebte die
+   Strickliteratur des 19. Jahrhunderts ihr unstetes Vokabular
+   ([[strickschrift]], [[jane-gaugain]]).
 2. **Sie ist erblich.** Sie wird einmal entschieden und danach übernommen, nicht
    ständig neu verhandelt. Wer sie benutzt, hat die Entscheidung nicht getroffen.
 3. **Sie hat einen Rand.** Was sie nicht ausdrücken kann, wird nicht ausgedrückt
    — und mit der Zeit nicht gedacht. Der Rand ist ihre eigentliche Wirkung.
+
+*Nachtrag 2026-08-20:* Zu diesen drei Eigenschaften kommt eine vierte Frage, die
+nicht Eigenschaft, sondern **Wahl** ist: Was notiert das System überhaupt — eine
+Handlung oder ein Ergebnis? Dieselbe Sache lässt sich als Folge von Schritten
+oder als Zustand des fertigen Dings notieren, und davon hängt ab, ob man in der
+Notation nur ausführen oder auch entwerfen kann. Siehe
+[[handlungs-vs-ergebnis-notation]]. Eigenschaft (1) trifft dabei nur auf
+Ergebnisnotationen zu: Eine Handlungsfolge ist nicht rechenbar, weil man in ihr
+nichts manipulieren kann, ohne sie auszuführen.
 
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
@@ -61,9 +75,14 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   Wahrheit
 - [[uniformer-irrtum]] — schärft es weiter: Uniformität schlägt Geschlossenheit
 - [[vorzeichenkonvention]] — der Fall, an dem das sichtbar wurde
+- [[handlungs-vs-ergebnis-notation]] — die vierte Frage: was wird notiert?
+- [[werkzeugzwang]] — Eigenschaft (3): der Rand des Werkzeugs wird zum Rand des
+  Denkens
+- [[strickschrift]] — Grenzfall, in dem beide Antworten nebeneinander bestehen
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-17.md`
 - `entries/2026/2026-08-18.md`
 - `entries/2026/2026-08-19.md`
+- `entries/2026/2026-08-20.md`
