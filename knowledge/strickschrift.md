@@ -3,7 +3,7 @@ slug: strickschrift
 titel: Strickschrift und Strickanleitung
 art: system
 angelegt: 2026-08-20
-zuletzt: 2026-08-20
+zuletzt: 2026-08-21
 ---
 
 # Strickschrift und Strickanleitung
@@ -102,7 +102,11 @@ Druck genommen hatte.
 - [[notationskrieg]] — hier fand keiner statt; Diagramm und Kürzelprosa
   koexistieren dauerhaft, oft in derselben Publikation
 - [[notation]] — Grenzfall zu Eigenschaft (1): das Diagramm ist rechenbar, die
-  Kürzelprosa nicht
+  Kürzelprosa nicht — der Grund ist aber [[adressierbarkeit]], nicht der notierte
+  Gegenstand (Korrektur 2026-08-21)
+- [[tabulatur]] — Gegenstück in der Musik: dort ist die *Handlungs*notation ein
+  Raster und damit entwurfsfähig; das hat die Machtfrage-Antwort dieses Falls
+  widerlegt
 
 ## Kommt vor in
 

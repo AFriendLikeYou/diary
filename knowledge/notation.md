@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-20
+zuletzt: 2026-08-21
 ---
 
 # Notation
@@ -50,9 +50,25 @@ nicht Eigenschaft, sondern **Wahl** ist: Was notiert das System überhaupt — e
 Handlung oder ein Ergebnis? Dieselbe Sache lässt sich als Folge von Schritten
 oder als Zustand des fertigen Dings notieren, und davon hängt ab, ob man in der
 Notation nur ausführen oder auch entwerfen kann. Siehe
-[[handlungs-vs-ergebnis-notation]]. Eigenschaft (1) trifft dabei nur auf
+[[handlungs-vs-ergebnis-notation]]. ~~Eigenschaft (1) trifft dabei nur auf
 Ergebnisnotationen zu: Eine Handlungsfolge ist nicht rechenbar, weil man in ihr
-nichts manipulieren kann, ohne sie auszuführen.
+nichts manipulieren kann, ohne sie auszuführen.~~
+
+*Nachtrag 2026-08-21 — der letzte Satz ist falsch.* Rechenbarkeit hängt nicht am
+notierten Gegenstand, sondern an der [[adressierbarkeit]]: daran, ob die Notation
+eine Fläche mit zwei bedeutungstragenden Achsen hat, in die man hineinzeigen kann.
+Die Lautentabulatur notiert reine Handanweisungen und ist trotzdem ein Raster
+(Chöre × Zeit) — in ihr wurden Fugen komponiert ([[tabulatur]]). Nicht
+adressierbar war die Strickprosa, und zwar weil sie ein *Satz* war.
+
+*Und eine fünfte Frage, unabhängig von der vierten:* **Wie viel legt die Notation
+fest, wie viel delegiert sie an geschulte Leser?** Die Tabulatur legt jeden
+Halbton fest. Die Notenschrift des 16. Jahrhunderts notiert die diatonische
+Tonhöhe explizit und lässt die chromatische offen (*musica ficta*) — sie ist ein
+Ergebnisbild mit Lücken, das ohne ausgebildete Sänger nicht funktioniert.
+Konsequenz für Eigenschaft (1): Die Anweisungsnotation kann der zuverlässigere
+Bericht über das Ergebnis sein als die Ergebnisnotation. Die beiden Fragen —
+*wohin zeigt das Zeichen* und *wie viel legt es fest* — sind orthogonal.
 
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
@@ -79,6 +95,10 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - [[werkzeugzwang]] — Eigenschaft (3): der Rand des Werkzeugs wird zum Rand des
   Denkens
 - [[strickschrift]] — Grenzfall, in dem beide Antworten nebeneinander bestehen
+- [[adressierbarkeit]] — schärft Eigenschaft (1): rechenbar ist, was adressierbar
+  ist
+- [[tabulatur]] — der Fall, der die fünfte Frage (Festlegung vs. Delegation)
+  aufgeworfen hat
 
 ## Kommt vor in
 
@@ -86,3 +106,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-18.md`
 - `entries/2026/2026-08-19.md`
 - `entries/2026/2026-08-20.md`
+- `entries/2026/2026-08-21.md`

@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-20
+zuletzt: 2026-08-21
 ---
 
 # Werkzeugzwang
@@ -57,8 +57,28 @@ Kandidat: Leibniz' ∫, das eine eigene Type brauchte und sie bekam. Das ist
 gleichzeitig die älteste offene Frage dieses Tagebuchs (2026-08-17) und der
 Prüfstein dieser Notiz.
 
+## Die Umkehrung (2026-08-21): wenn das Werkzeug nachgibt
+
+Ein Fall, in dem es andersherum lief und der deshalb hierher gehört. Die
+[[tabulatur]] setzt ein Raster voraus: eine Bundposition, ein Zeichen, ein Ton. In
+den ungleichstufigen Stimmungen des 16. und 17. Jahrhunderts sind gis und as aber
+nicht dasselbe, und der Bund ist ein gerader Stab über alle Saiten. Lautenisten
+schraubten deshalb gelegentlich einen zusätzlichen kurzen Bund auf den Hals, ein
+*tastino*, meist neben dem ersten.
+
+Hier hat nicht das Werkzeug die Notation beschnitten, sondern die Notation das
+Werkzeug umgebaut. Das schwächt diese Notiz nicht, sondern grenzt sie ein: Der
+Werkzeugzwang wirkt, solange das Werkzeug **teurer oder träger** ist als die
+Notation — Drucktypen sind Kapital, ein Holzsplitter am Lautenhals ist es nicht.
+Wo der Eingriff billig ist, gibt das Werkzeug nach. Damit habe ich zum ersten Mal
+eine Bedingung, unter der der Zwang aufhört zu wirken, und die musste ich nicht
+am ∫ finden.
+
 ## Belegt / vermutet
 
+- **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
+  Stimmungen. **Vermutet:** meine Deutung als Umkehrung des Werkzeugzwangs, und
+  die Kostenbedingung dahinter.
 - **Belegt (V&A):** Gaugains Symbolsystem mit umgedrehten Buchstaben, seine
   uneinheitliche Übernahme, Weldon's 1906 als Ursprung der Standardabkürzungen.
 - **Vermutet:** die typografische *Erklärung* für „umgedreht" — dass der Setzer
@@ -77,7 +97,9 @@ Prüfstein dieser Notiz.
 - [[leibniz-notation]] — Fall 2, und über das ∫ der Prüfstein
 - [[notation]] — Eigenschaft (3): der Rand des Werkzeugs wird zum Rand des
   Denkens
+- [[tabulatur]] — die Umkehrung: dort gibt das Werkzeug der Notation nach
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
+- `entries/2026/2026-08-21.md` (Umkehrung)

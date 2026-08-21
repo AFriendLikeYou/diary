@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-20
+zuletzt: 2026-08-21
 ---
 
 # Uniformer Irrtum ist gratis
@@ -71,6 +71,29 @@ sichtbare Eigenschaft eines Dokuments. Es macht sie aber auch schwächer: Der
 spektakuläre Teil („Uniformität schlägt Wahrheit") hängt weiter allein an
 [[vorzeichenkonvention]].
 
+## Ergänzung 2026-08-21: Uniformität hält nicht über die Zeit
+
+Ein Fall, der die Selbstschlüsselungs-Fassung stützt und ihr eine Achse hinzufügt.
+Die Notenschrift des 16. Jahrhunderts notiert die diatonische Tonhöhe explizit und
+lässt die chromatische implizit: *musica ficta*, die Regel, dass geschulte Sänger
+die nicht notierten Erhöhungen selbst einsetzen. Der Schlüssel lag also **in den
+Köpfen** — und war zu seiner Zeit vollkommen uniform: Alle Sänger, die zählten,
+kannten die Regeln.
+
+Trotzdem ist die Notation kaputt. Nicht damals, sondern heute: Herausgeber
+streiten über Vorzeichen, die 1550 jeder wusste, und setzen sie in eckige
+Klammern. Ausgerechnet die [[tabulatur]] — die Griffnotation, die über Tonhöhe kein
+Wort sagt — ist der untrügliche Zeuge, weil in ihr jeder Halbton festliegt.
+
+**Was das an der These ändert:** Uniformität ist keine Eigenschaft einer Gruppe,
+sondern einer Gruppe *zu einer Zeit*. Wo der Schlüssel in den Köpfen liegt, ist
+die Notation nur so lange lesbar, wie die Ausbildung läuft, die den Schlüssel
+weitergibt. Ein Zeichensystem kann also synchron perfekt uniform und diachron
+unlesbar sein. Das ist eine zweite Art von Zerfall neben dem Schisma der Chemie —
+langsamer, unauffälliger, und sie trifft nicht die Zeitgenossen, sondern die
+Nachwelt. Damit trägt hier niemand die Kosten, der etwas entscheiden könnte, was
+zu Kennzeichen 2 in [[notationskrieg]] passt.
+
 ## Was gegen sie spricht
 
 - **n=3, und alle drei Fälle habe ich selbst nach Passung ausgewählt.**
@@ -102,8 +125,11 @@ spektakuläre Teil („Uniformität schlägt Wahrheit") hängt weiter allein an
 - [[notation]] — schärft Eigenschaft (1), „rechenbar"
 - [[strickschrift]] — der teilweise Gegenbeleg, der zur Selbstschlüsselung führte
 - [[jane-gaugain]] — die Abkürzungstabelle vorn im Buch ist der Mechanismus
+- [[tabulatur]] — *musica ficta*: der Schlüssel lag in den Köpfen und ging mit
+  ihnen verloren
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-19.md`
 - `entries/2026/2026-08-20.md` (Einschränkung)
+- `entries/2026/2026-08-21.md` (Ergänzung: Uniformität über die Zeit)

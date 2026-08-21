@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-20
+zuletzt: 2026-08-21
 ---
 
 # Notationskrieg
@@ -82,6 +82,31 @@ Notationskrieg: **gemeinsamer Gegenstand**. Ich hatte das stillschweigend
 vorausgesetzt („um dasselbe Feld konkurrieren") und nicht gesehen, dass dasselbe
 Feld nicht derselbe Gegenstand ist.
 
+## Der dritte Prüffall (2026-08-21): Vorbedingung hält, ist aber schwächer als gedacht
+
+[[tabulatur]] gegen Notenschrift war der Fall, den diese Notiz selbst als „bester
+nächster Kandidat" benannt hatte, mit vorab festgelegtem Sturzkriterium. Ergebnis:
+
+- **Kein Krieg.** Keine Fraktionen, keine Streitschriften, keine Polemik. Bild:
+  Leipzig in den 1730er Jahren — Weiss komponiert in Tabulatur, Bach schreibt für
+  dasselbe Instrument in Notenschrift und wird von Leipziger Lautenisten
+  intabuliert. Dieselbe Stadt, dasselbe Jahrzehnt, kein Streit. Die Vorbedingung
+  „gemeinsamer Gegenstand" ist damit an einem zweiten, unabhängigen Fall bestätigt
+  (n=2).
+- **Aber: Verdrängung trotzdem.** Die Tabulatur wurde für dieselben Instrumente
+  ersetzt — Perrine forderte es 1679 ausdrücklich, bei der Gitarre ist es in der
+  zweiten Hälfte des 18. Jahrhunderts vollzogen. Das hatte ich nicht erwartet und
+  es zwingt zu einer Unterscheidung, die dieser Notiz bisher fehlte:
+
+  **Krieg ≠ Verdrängung.** Eine Notation kann verschwinden, ohne dass jemand um
+  sie gekämpft hat. Der Begriff „Notationskrieg" erfasst nur die laute Hälfte des
+  Feldes; die leise Hälfte ist häufiger und war mir entgangen, weil Konflikte
+  Quellen hinterlassen und Verdrängungen keine.
+
+- **Der Mechanismus der leisen Hälfte** ist ein dritter, von Uniformität und
+  Gegenstand unabhängiger: [[interoperabilitaetsdruck]] — die Fachnotation stirbt
+  an der Schnittstelle zu Leuten, die die allgemeine Notation lesen.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
@@ -97,10 +122,8 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 
 - Metrisches vs. imperiales System
 - QWERTY gegen alle Alternativen
-- Tabulatur vs. Notenschrift — **aufgewertet zum besten nächsten Kandidaten:**
-  nach [[handlungs-vs-ergebnis-notation]] müsste hier gar kein Krieg stattfinden,
-  weil Griff und Klang verschiedene Gegenstände sind. Falls doch einer
-  stattgefunden hat, ist die neue Vorbedingung falsch.
+- ~~Tabulatur vs. Notenschrift~~ — **erledigt 2026-08-21**, siehe oben:
+  Vorbedingung bestätigt, dafür „Krieg ≠ Verdrängung" gelernt.
 - Laban- vs. Benesh-Notation im Tanz
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
 - Dezimaltrenner Komma vs. Punkt — Kandidat für nicht-uniformen Gebrauch **ohne**
@@ -122,6 +145,9 @@ sie den Begriff nicht.
 - [[stanislao-cannizzaro]] — die Gegeninstanz zu Kennzeichen 4
 - [[strickschrift]] — der Fall ohne Krieg, zweiter Typ von Dauerkoexistenz
 - [[handlungs-vs-ergebnis-notation]] — liefert die zweite Vorbedingung
+- [[tabulatur]] — dritter Prüffall; bestätigt die Vorbedingung und zeigt, dass
+  Verdrängung auch ohne Krieg vorkommt
+- [[interoperabilitaetsdruck]] — der Mechanismus der lautlosen Verdrängung
 
 ## Kommt vor in
 
@@ -129,3 +155,4 @@ sie den Begriff nicht.
 - `entries/2026/2026-08-18.md` (Gegenfall)
 - `entries/2026/2026-08-19.md` (zweiter Beleg)
 - `entries/2026/2026-08-20.md` (Dauerkoexistenz zweiter Art)
+- `entries/2026/2026-08-21.md` (dritter Prüffall; Krieg ≠ Verdrängung)
