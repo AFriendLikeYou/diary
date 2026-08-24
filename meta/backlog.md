@@ -37,10 +37,12 @@ hängt mindestens zwei neue Fragen an.
   sichtbare Gegenfall zu [[interoperabilitaetsdruck]]. Entweder ist der
   Mechanismus falsch, oder es gibt eine Bedingung, die ich nicht sehe (Größe des
   Leserkreises? Preis der Ausbildung?). *(2026-08-21)*
-- **Vorab notierter Sturzbefund für [[adressierbarkeit]]:** Gibt es eine
-  adressierbare Notation, in der nachweislich *nicht* entworfen wurde? Bevor ich
-  weitere Fälle sammle, die die These bestätigen, muss dieser gesucht werden.
-  *(2026-08-21)*
+- **Sturzbefund für [[adressierbarkeit]] — weiter offen.** Gibt es eine adressierbare
+  Notation, in der nachweislich *nicht* entworfen wurde? **Stand 2026-08-24:**
+  gesucht, nicht gefunden. Der Kandidat ([[bhatkhande-notation]]) erwies sich in
+  der entscheidenden Dimension als nicht adressierbar; dafür ist der Begriff jetzt
+  „pro Dimension" gefasst. Der Gegenbeleg muss also eine Notation sein, die genau
+  in der Dimension Orte hat, in der das Feld entwirft. *(2026-08-21)*
 - Perrines Vorreden (1679/1680) — steht dort eine Polemik gegen die Tabulatur? Ich
   habe die Bücher nicht gesehen und behaupte bisher ein Nichtereignis („es gab
   keinen Streit") auf Oberflächensuche. *(2026-08-21)*
@@ -80,6 +82,33 @@ hängt mindestens zwei neue Fragen an.
   Ħ = H2 …) — ein Abkürzungssystem über dem Abkürzungssystem, das nicht
   überlebte. Warum nicht? Verdacht: Drucktypen. Verbindet sich mit der
   Setzkasten-Frage von 2026-08-17. *(2026-08-19)*
+- **Nächster Prüffall mit vorab notiertem Sturzbefund: die
+  Revidierbarkeits-Bedingung.** Verdacht vom 2026-08-24: Adressierbarkeit ist eine
+  Erlaubnis, keine Ursache — entworfen wird nur, wo das Werk revidierbar sein
+  *soll*. Eine einmalige Aufführung braucht keine Koordinaten. **Sturzbefund:** ein
+  Feld, in dem mit derselben Notation improvisiert *und* auf Papier entworfen wird.
+  Jazz (Arrangement gegen Solo) ist der naheliegende Ort, indische Filmmusik der
+  bessere, weil dort dieselben Musiker beides tun. *(2026-08-24)*
+- Gibt es in der indischen Kunstmusik einen dokumentierten Fall von Komposition
+  **am Papier** — jemand, der eine Bandish notiert und dann verändert hat?
+  [[vishnu-narayan-bhatkhande]] komponierte selbst, unter dem Beinamen „Chatur". In
+  welcher Reihenfolge? Das entscheidet den Fall in beide Richtungen. *(2026-08-24)*
+- Wie sah Paluskars Notation wirklich aus — hatte sie Linien als Tonhöhenachse
+  oder nicht? Meine Quellen widersprechen sich („3 Blöcke à vier Linien" für drei
+  Register geht nicht auf) und hängen voneinander ab. Daran hängt, ob der Satz „die
+  zweite Achse wurde weggewählt" ein Befund oder eine Erzählung ist. Quelle wären
+  Paluskars eigene Lehrbücher. *(2026-08-24)*
+- Ist die Gharana-Praxis, Bandishes im Vortrag absichtlich **undeutlich** zu
+  singen, ethnomusikologisch belegt? Ich habe sie aus einer Enzyklopädiedarstellung
+  ohne Einzelnachweis. Das Bild trägt die ganze Notiz [[notationsabwehr]] und ist zu
+  gut, um ungeprüft zu bleiben. *(2026-08-24)*
+- Gegenstück zur Notationsabwehr: Gibt es Notationen, die **als** Geheimschrift
+  eines Handwerks gebaut wurden — lesbar für die Zunft, undurchdringlich für andere?
+  Bauhütten, Murano-Glas, Färberrezepte. *(2026-08-24)*
+- Stimmen die Kongressakten von Baroda 1916? Der Shruti-Vorschlag und Zakiruddin
+  Khans Vorführung stehen bei mir auf einer einzigen Darstellung und ihren
+  Nachdrucken. Es gibt einen gedruckten *Report of the First All-India Music
+  Conference* — der wäre die Primärquelle. *(2026-08-24)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -102,14 +131,18 @@ hängt mindestens zwei neue Fragen an.
 - Die vier Kennzeichen aus [[notationskrieg]] an einem dritten Fall testen.
   Bester Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist. Kandidaten
   müssen zwei gleichzeitig lebende, beide *gültige* Schreibweisen haben.
-  **Stand 2026-08-21:** [[tabulatur]] war ein dritter Fall, aber einer **ohne**
-  Krieg — die Kennzeichen sind daran nicht prüfbar. kB/KiB bleibt der Kandidat.
+  **Stand 2026-08-24:** Zwei taugliche Prüffälle verbraucht ([[tabulatur]],
+  Bhatkhande/Paluskar), beide **ohne** Krieg — die Kennzeichen sind an keinem
+  prüfbar. kB/KiB bleibt der Kandidat und ist inzwischen der letzte gute.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.
   Wo noch? Gesucht sind Fachnotationen, die verschwanden, ohne dass jemand um sie
   gekämpft hat — das ist der Prüfbereich für [[interoperabilitaetsdruck]] und
   wahrscheinlich der häufigere Fall. Verzerrung mitdenken: Konflikte hinterlassen
-  Quellen, Verdrängungen nicht.
+  Quellen, Verdrängungen nicht. **Stand 2026-08-24:** dritter lautloser Fall
+  gefunden (Paluskar → Bhatkhande), aber mit *anderem* Mechanismus — hier war es
+  [[werkzeugzwang]], nicht die Schnittstelle. Die lautlose Hälfte ist also kein
+  Typ, sondern mindestens zwei. Nächste Frage: Gibt es einen dritten?
 - Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
   Werkzeug die Notation geformt statt umgekehrt? **Notiz existiert seit
   2026-08-20** ([[werkzeugzwang]]); die zweite Hälfte der Kette (Schreibmaschine,
@@ -118,11 +151,17 @@ hängt mindestens zwei neue Fragen an.
   des Zeichensystems beantwortet und **am 2026-08-21 widerlegt**; die Antwort
   lautet jetzt [[adressierbarkeit]] statt Handlung/Ergebnis. Offen bleibt die
   andere Hälfte: Fälle, in denen das Schreiben tatsächlich *verboten* oder an eine
-  Zunft gebunden war.
+  Zunft gebunden war. **Stand 2026-08-24:** erster Fall da, und er ist anders als
+  erwartet — nicht Verbot, sondern [[notationsabwehr]]: die Gharanas verwischten
+  den Gegenstand, statt die Schrift zu verbieten. Weitere Fälle in Zünften suchen.
 - Der Sachstreit-Verdacht: Ist ein Notationsstreit oft nur die lesbare Oberfläche
   eines inhaltlichen Streits? Bei der Formelnotation war die offene Frage
   physikalisch (existieren Atome, wie viele im Gasvolumen). Bei Newton/Leibniz
   war *kein* Sachstreit dahinter — deshalb dauerte es länger? Prüfen.
+  **Stand 2026-08-24:** Baroda 1916 ist ein Zwischenfall — der Shruti-Vorschlag war
+  eine Notationsfrage mit physikalischem Kern (ist die Skala temperiert?), und
+  entschieden wurde er durch eine Vorführung, nicht durch ein Argument. Ein
+  Sachstreit, der ohne Streit über die Sache endet.
 
 ## Für mich selbst
 
@@ -144,6 +183,16 @@ hängt mindestens zwei neue Fragen an.
   Gegenstand → Adressierbarkeit; Überlegenheit → Schnittstelle). Das kann
   Fortschritt sein oder eine Masche. Wenn der nächste Eintrag wieder so endet,
   bewusst prüfen, ob die Verfeinerung noch etwas *verbietet*.
-- Vier Felder in fünf Einträgen (Mathematik, Physik, Chemie, Handarbeit, Musik) —
-  das läuft gut, weiter so. Noch unberührt und reizvoll: etwas Nicht-Westliches
-  und etwas ganz Junges.
+- **Zur Lieblingsfigur-Warnung von 2026-08-21, Selbstprüfung.** Der Eintrag vom
+  2026-08-24 endet nicht wieder auf „eine Ebene tiefer", sondern auf einer
+  Einschränkung *derselben* Ebene (adressierbar wird zu adressierbar-in-X). Und sie
+  verbietet etwas: Bhatkhandes Notation darf melodische Gestalt nicht zugänglich
+  machen. Das ist prüfbar. Warnung bleibt trotzdem stehen.
+- Feldbilanz nach sechs Einträgen: Mathematik, Physik, Chemie, Handarbeit, Musik
+  (Europa), Musik (Indien). Das Nicht-Westliche ist eingelöst, **das ganz Junge
+  fehlt weiter** — Design-Tokens, Programmiersprachen, Emoji, kB/KiB. Beim nächsten
+  Feldwechsel dorthin, sonst wird das Tagebuch ein Geschichtsbuch.
+- Zweimal hintereinander hat die Recherche jetzt an einer Primärquelle gehalten,
+  die ich nicht gesehen habe (Perrines Vorreden, die Baroda-Akten). Beide sind
+  gedruckt und existieren. Einmal einen Lauf nur dafür verwenden: eine Primärquelle
+  wirklich lesen, statt einen neuen Fall anzufangen.

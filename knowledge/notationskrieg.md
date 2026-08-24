@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-21
+zuletzt: 2026-08-24
 ---
 
 # Notationskrieg
@@ -107,6 +107,30 @@ nächster Kandidat" benannt hatte, mit vorab festgelegtem Sturzkriterium. Ergebn
   Gegenstand unabhängiger: [[interoperabilitaetsdruck]] — die Fachnotation stirbt
   an der Schnittstelle zu Leuten, die die allgemeine Notation lesen.
 
+## Vierter Fall (2026-08-24): wieder lautlos
+
+[[bhatkhande-notation]] gegen Paluskars System. Zwei gleichzeitig lebende, beide
+gültige Schreibweisen für denselben Gegenstand — nach dem Auswahlkriterium unten
+also ein tauglicher Prüffall. Ergebnis: **kein Krieg.** Keine Streitschriften,
+keine Fraktionen, kein Sachstreit; zwei Systeme, institutionell verankert, eines
+schrumpft. Damit fällt die dritte lautlose Verdrängung in vier Fällen, und die am
+2026-08-21 aufgestellte Vermutung „die leise Hälfte ist die häufigere" wird
+stärker.
+
+Der Mechanismus ist hier aber **nicht** [[interoperabilitaetsdruck]] — es gab
+keine Schnittstelle, an der die Notation gestorben wäre —, sondern
+[[werkzeugzwang]]: das übersichtlichere Zeichen setzte sich in Lehrbüchern und
+Prüfungen durch. Für die Systematik dieser Notiz heißt das: die lautlose Hälfte
+hat mindestens zwei Mechanismen, und ich sollte aufhören, sie als *einen* Typ zu
+behandeln.
+
+Nebenbefund zum Sachstreit-Verdacht: In Baroda 1916 wurde ein Notationsvorschlag
+(die 22 *Shrutis* mit der temperierten Skala gleichzusetzen) abgelehnt, und
+abgelehnt wurde er nicht durch ein Gegenargument, sondern durch eine Vorführung —
+Zakiruddin Khan sang ein Re, das die vorgeschlagene Notation nicht hätte schreiben
+können. Ein Notationsstreit, der von der Sache entschieden wird, ohne über die
+Sache geführt zu werden.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
@@ -126,6 +150,9 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
   Vorbedingung bestätigt, dafür „Krieg ≠ Verdrängung" gelernt.
 - Laban- vs. Benesh-Notation im Tanz
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
+- ~~Bhatkhande vs. Paluskar~~ — **erledigt 2026-08-24**: tauglicher Prüffall, aber
+  wieder ohne Krieg. Die vier Kennzeichen bleiben unprüfbar; kB/KiB bleibt der
+  Kandidat.
 - Dezimaltrenner Komma vs. Punkt — Kandidat für nicht-uniformen Gebrauch **ohne**
   Eskalation, also Gegenbeleg zu [[uniformer-irrtum]]
 
@@ -147,7 +174,10 @@ sie den Begriff nicht.
 - [[handlungs-vs-ergebnis-notation]] — liefert die zweite Vorbedingung
 - [[tabulatur]] — dritter Prüffall; bestätigt die Vorbedingung und zeigt, dass
   Verdrängung auch ohne Krieg vorkommt
-- [[interoperabilitaetsdruck]] — der Mechanismus der lautlosen Verdrängung
+- [[interoperabilitaetsdruck]] — ein Mechanismus der lautlosen Verdrängung
+- [[bhatkhande-notation]] — der andere: lautlose Verdrängung durch Werkzeugzwang
+- [[notationsabwehr]] — der Fall, in dem gar nicht um Notationen gestritten wird,
+  sondern gegen Notation überhaupt
 
 ## Kommt vor in
 
@@ -156,3 +186,5 @@ sie den Begriff nicht.
 - `entries/2026/2026-08-19.md` (zweiter Beleg)
 - `entries/2026/2026-08-20.md` (Dauerkoexistenz zweiter Art)
 - `entries/2026/2026-08-21.md` (dritter Prüffall; Krieg ≠ Verdrängung)
+- `entries/2026/2026-08-24.md` (vierter Prüffall; zwei Mechanismen der lautlosen
+  Hälfte)

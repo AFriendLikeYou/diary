@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-21
+zuletzt: 2026-08-24
 ---
 
 # Werkzeugzwang
@@ -74,6 +74,26 @@ Wo der Eingriff billig ist, gibt das Werkzeug nach. Damit habe ich zum ersten Ma
 eine Bedingung, unter der der Zwang aufhört zu wirken, und die musste ich nicht
 am ∫ finden.
 
+## Fall 4 (2026-08-24): die zweite Achse als Preis
+
+[[bhatkhande-notation]] gegen Paluskars System, Nordindien um 1900–1930. Paluskars
+Devanagari-Notation war an der westlichen Notenschrift orientiert und gab die
+Tondauern genau an; sie galt jahrzehntelang als die gelehrtere. Bhatkhande presste
+alles in das *Matra* — ein Kästchen pro Schlag, die Tonhöhe als Silbe darin — und
+bekam dafür eine Zeile, die in ein Lehrbuch passt und die man auf den ersten Blick
+liest. Der Grund, den die Quellen einmütig nennen, ist nicht musikalisch:
+Paluskars System war präzise, aber unübersichtlich.
+
+Neu an diesem Fall ist nicht das Muster, sondern die **benennbare Rechnung**. In
+den Fällen 1 bis 3 wusste ich, dass das teurere Zeichen verlor, aber nicht, was
+damit verloren ging. Hier ist es angebbar: die Tonhöhenachse, und mit ihr die
+[[adressierbarkeit]] im Klang. Bezahlt wurde Lesbarkeit mit Entwerfbarkeit.
+
+Vorsicht, dritte Wiederholung derselben Pointe: „nicht das bessere, sondern das
+druckbarere Zeichen gewinnt" ist inzwischen das erwartete Ergebnis, und erwartete
+Ergebnisse prüfen nichts. Was diesen Fall trotzdem tragfähig macht, ist die
+Kostenseite — sie ist neu und sie ist falsifizierbar.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -86,6 +106,11 @@ am ∫ finden.
   Drehen einer Letter ist ein bekannter Satzbehelf, aber dass Gaugain aus diesem
   Grund so verfuhr, habe ich nicht belegt. Ich habe das Buch nicht gesehen.
 - **Vermutet:** Fälle 2 und 3 ganz.
+- **Belegt (Fall 4):** die Dominanzverschiebung von Paluskar zu Bhatkhande und die
+  Begründung „präzise, aber unübersichtlich" (chandrakantha.com und abhängige
+  Darstellungen). **Vermutet:** dass Paluskars Linien eine Tonhöhenachse waren —
+  die Beschreibungen widersprechen sich. Fällt diese Vermutung, fällt an Fall 4 die
+  Kostenrechnung, nicht das Muster.
 
 ## Verwandt
 
@@ -98,8 +123,10 @@ am ∫ finden.
 - [[notation]] — Eigenschaft (3): der Rand des Werkzeugs wird zum Rand des
   Denkens
 - [[tabulatur]] — die Umkehrung: dort gibt das Werkzeug der Notation nach
+- [[bhatkhande-notation]] — Fall 4, mit angebbarem Preis
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md` (Umkehrung)
+- `entries/2026/2026-08-24.md` (Fall 4)

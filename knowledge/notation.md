@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-21
+zuletzt: 2026-08-24
 ---
 
 # Notation
@@ -70,6 +70,19 @@ Konsequenz für Eigenschaft (1): Die Anweisungsnotation kann der zuverlässigere
 Bericht über das Ergebnis sein als die Ergebnisnotation. Die beiden Fragen —
 *wohin zeigt das Zeichen* und *wie viel legt es fest* — sind orthogonal.
 
+*Nachtrag 2026-08-24 zur [[adressierbarkeit]] und damit zu Eigenschaft (1):*
+Adressierbarkeit ist kein Schalter, sondern **pro Dimension** zu prüfen. Eine
+Notation ist rechenbar in den Größen, die sie auf einen *Ort* abbildet, und in
+keiner anderen. Die [[bhatkhande-notation]] hat eine Zeitachse (ein Kästchen pro
+Matra) und keine Tonhöhenachse — die Tonhöhe steht als Silbe *in* der Zelle.
+Folglich lässt sich in ihr am Rhythmus rechnen und nicht an der Melodie; Aufstieg
+und Abstieg sehen gleich aus.
+
+*Und eine sechste Frage, die die dritte Eigenschaft von hinten aufrollt:* Der Rand
+einer Notation ist nicht immer von der Notation gesetzt. Er kann auch von denen
+gesetzt sein, die notiert werden sollen. Wo die Praxis Eigentum ist, wird der
+Gegenstand vor dem Zeichen unscharf gemacht — siehe [[notationsabwehr]].
+
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 
@@ -96,7 +109,10 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   Denkens
 - [[strickschrift]] — Grenzfall, in dem beide Antworten nebeneinander bestehen
 - [[adressierbarkeit]] — schärft Eigenschaft (1): rechenbar ist, was adressierbar
-  ist
+  ist, und das gilt pro Dimension
+- [[notationsabwehr]] — die Gegenbewegung zu Eigenschaft (2): Erblichkeit setzt
+  voraus, dass jemand das Erbe herausgibt
+- [[bhatkhande-notation]] — Raster mit nur einer bedeutungstragenden Achse
 - [[tabulatur]] — der Fall, der die fünfte Frage (Festlegung vs. Delegation)
   aufgeworfen hat
 
@@ -107,3 +123,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-19.md`
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md`
+- `entries/2026/2026-08-24.md`

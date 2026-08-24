@@ -13,6 +13,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Systeme
 
+- [bhatkhande-notation](bhatkhande-notation.md) — Taktraster mit nur einer bedeutungstragenden Achse: die Tonhöhe steht als Silbe in der Zelle, nicht als Ort
 - [chemische-formelnotation](chemische-formelnotation.md) — zwei Gewichtsskalen, dieselben Buchstaben: 19 Formeln für Essigsäure, aufgelöst in Karlsruhe 1860
 - [leibniz-notation](leibniz-notation.md) — `dy/dx` und ∫ gegen Newtons Punkte; England blieb hundert Jahre bei der unhandlicheren Wahl
 - [strickschrift](strickschrift.md) — Prosa 1655, Kürzel 1840, Diagramm ab ~1960: zwei Notationen für dasselbe Gewirk, die verschiedene Gegenstände notieren
@@ -21,16 +22,18 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Muster
 
-- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand — seit 2026-08-21 der tragende Mechanismus
+- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand; seit 2026-08-24 **pro Dimension** zu prüfen, nicht als Schalter
 - [handlungs-vs-ergebnis-notation](handlungs-vs-ergebnis-notation.md) — Handlung oder Ergebnis; die Kernfolge ist am 2026-08-21 **widerlegt**, die Konfliktvorhersage hält
 - [interoperabilitaetsdruck](interoperabilitaetsdruck.md) — Fachnotationen sterben an der Schnittstelle, nicht am Gegenstand (n=2, mit einem offenen Gegenfall)
-- [notationskrieg](notationskrieg.md) — Hypothese (n=3): vier Kennzeichen, Eskalationskriterium, Vorbedingung „gemeinsamer Gegenstand" bestätigt; seit 2026-08-21 dazu Krieg ≠ Verdrängung
-- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; klarster Fall Gaugain 1840, seit 2026-08-21 mit einer Umkehrung (*tastino*)
+- [notationsabwehr](notationsabwehr.md) — Widerstand gegen Verschriftlichung; zweite Stufe: den Gegenstand verwischen, damit ihn niemand mitschreiben kann (n=1)
+- [notationskrieg](notationskrieg.md) — Hypothese (4 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, und die lautlose Hälfte hat zwei Mechanismen
+- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; klarster Fall Gaugain 1840, eine Umkehrung (*tastino*), und seit 2026-08-24 ein Fall mit angebbarem Preis
 
 ## Personen
 
 - [jane-gaugain](jane-gaugain.md) — schrieb 1840 die ersten Strick-Abkürzungen und daneben ein Symbolsystem, das verschwand
 - [stanislao-cannizzaro](stanislao-cannizzaro.md) — beendete 1858/1860 die Formelverwirrung, ohne ein einziges Zeichen zu erfinden
+- [vishnu-narayan-bhatkhande](vishnu-narayan-bhatkhande.md) — Jurist, der einer mündlichen Musik Notation, Systematik und Lehrplan gab; Uniformität als Programm
 
 ## Thesen
 
@@ -39,4 +42,4 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-08-21 · 15 Notizen
+**Stand:** 2026-08-24 · 18 Notizen

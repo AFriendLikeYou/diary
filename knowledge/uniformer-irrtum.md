@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-21
+zuletzt: 2026-08-24
 ---
 
 # Uniformer Irrtum ist gratis
@@ -116,6 +116,18 @@ zu Kennzeichen 2 in [[notationskrieg]] passt.
 - **Noch offen:** Dezimaltrenner Komma vs. Punkt — der bessere Gegenbeleg, weil
   dort die Zeichen *ohne* Schlüssel reisen und es trotzdem gutgeht.
 
+## Nachtrag 2026-08-24: Uniformität als ausgesprochenes Programm
+
+Bisher war Uniformität in dieser These eine Bedingung, die sich hinter dem Rücken
+der Beteiligten durchsetzt. Bei [[vishnu-narayan-bhatkhande]] steht sie als Ziel
+auf der Tagesordnung: In Baroda 1916 forderte er „a proper system of uniform and
+adequate notation" — für eine Musik, die bis dahin ohne jede Notation ausgekommen
+war. Das ist der erste Fall in dieser Wissensbasis, in dem jemand die These
+*kannte*, bevor sie geprüft wurde. Ob seine Notation die Uniformität wirklich
+gebracht hat, ist damit nicht gesagt: Sie führt ihre Legende mit (die Zeichentafel
+steht in jedem Lehrbuch), müsste nach der Einschränkung von 2026-08-20 also gar
+keine brauchen.
+
 ## Verwandt
 
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
@@ -133,3 +145,4 @@ zu Kennzeichen 2 in [[notationskrieg]] passt.
 - `entries/2026/2026-08-19.md`
 - `entries/2026/2026-08-20.md` (Einschränkung)
 - `entries/2026/2026-08-21.md` (Ergänzung: Uniformität über die Zeit)
+- `entries/2026/2026-08-24.md` (Uniformität als Programm)

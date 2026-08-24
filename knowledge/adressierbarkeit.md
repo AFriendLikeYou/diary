@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-21
+zuletzt: 2026-08-24
 ---
 
 # Adressierbarkeit
@@ -26,6 +26,7 @@ Achse nicht erklärt, sondern ersetzt.
 | Strickdiagramm ab ~1960 | Anblick | ja (Raster) | ja |
 | [[tabulatur]] | Handlung (Griff) | **ja** (Saite × Zeit) | **ja** — Weiss schrieb Fugen darin |
 | Notenschrift | Klang | ja (Tonhöhe × Zeit) | ja |
+| [[bhatkhande-notation]] ab 1920 | Klangskelett | **nur in der Zeit** (Matra-Spalten; Tonhöhe ist Silbe, nicht Ort) | Lehrplan ja, Musik nicht belegt |
 
 Die Zeile, die die alte Erklärung erledigt, ist die dritte. Eine Lautentabulatur
 notiert reine Handanweisungen und ist trotzdem ein Raster: Chöre senkrecht, Zeit
@@ -44,8 +45,48 @@ Deshalb ist Adressierbarkeit auch teuer und historisch spät: Sie braucht Raster
 Fläche und Sonderzeichen, nicht bloß eine Zeile im Fließtext (siehe
 [[werkzeugzwang]]).
 
+## Nachtrag 2026-08-24: adressierbar ist keine Eigenschaft, sondern eine Richtung
+
+Der oben vorab notierte Gegenbeleg wurde gesucht und **nicht gefunden** — statt
+dessen musste der Begriff selbst nachgeschärft werden. Prüffall war die
+[[bhatkhande-notation]] für die nordindische Kunstmusik: ein Taktraster mit
+senkrechten Vibhag-Strichen, Sam- und Khali-Marken, Spalte für Spalte ein Matra.
+Auf den ersten Blick ein Raster, also ein Fall.
+
+Auf den zweiten Blick trägt nur **eine** Achse Bedeutung. Waagerecht die Zeit;
+senkrecht liegen Ton, Liedtext und Taktzeichen, also Textsorten, keine Skala. Die
+Tonhöhe steht als Sargam-Silbe *in* der Zelle — sie ist ein Buchstabe, kein Ort.
+Aufstieg und Abstieg sehen identisch aus: vier Silben in vier Kästchen.
+
+Daraus die Korrektur:
+
+> Eine Notation ist adressierbar **in denjenigen Größen, die sie auf einen Ort
+> abbildet** — und in keiner anderen. Adressierbarkeit ist kein Schalter, sondern
+> pro Dimension zu prüfen.
+
+Das ist ausdrücklich keine Rettung durch Umdefinition: Das Kriterium „Fläche mit
+zwei bedeutungstragenden Achsen, von denen eine die Zeit ist" steht seit dem
+2026-08-21 in dieser Notiz, aufgeschrieben an Laute und Strickmuster, ohne
+Kenntnis des indischen Falls. Der Fall erfüllt es nicht, und zwar nach der
+älteren Formulierung.
+
+Der Preis dafür ist eine **Vorhersage, die schiefgehen kann:** Bhatkhandes
+Notation müsste rhythmische Fragen zugänglich machen (Textsilbe auf Schlag,
+Teilung eines Matra, Lage des Sam) und melodische Gestalt unzugänglich lassen.
+Was die Literatur über sie sagt — sie liefere das Skelett ohne Ornamentik —
+stimmt damit überein, ist aber kein unabhängiger Test.
+
+**Offen bleibt der eigentliche Gegenbeleg.** Und es gibt eine rivalisierende
+Erklärung, die die ganze Notiz unterlaufen könnte: Vielleicht wird in dieser
+Musik nicht auf Papier entworfen, weil ihr Werk nicht revidierbar sein *soll*.
+Eine einmalige Ausführung braucht keine Koordinaten. Dann läge es nicht an der
+fehlenden zweiten Achse, sondern daran, dass niemand sie gebraucht hätte —
+Adressierbarkeit wäre eine Erlaubnis, keine Ursache.
+
 ## Belegt / vermutet
 
+- **Belegt:** Aufbau und Achsenlage der [[bhatkhande-notation]] (Raag Hindustani,
+  chandrakantha.com).
 - **Belegt:** dass in Tabulatur original komponiert wurde, einschließlich Fugen
   (Londoner Manuskript, siehe [[tabulatur]]). Damit ist die Gegenthese widerlegt,
   nicht bloß eingeschränkt.
@@ -54,12 +95,15 @@ Fläche und Sonderzeichen, nicht bloß eine Zeile im Fließtext (siehe
   war Berufsvirtuose an einem Fürstenhof; die Strickerinnen, um die es am
   2026-08-20 ging, waren Kundinnen einer Wollindustrie. Der Unterschied könnte
   ebenso gut daran liegen.
-- **Offen:** ob es eine adressierbare Notation gibt, in der trotzdem nachweislich
-  nicht entworfen wurde. Das wäre der Gegenbeleg. (Vorab notiert, damit die
-  nächste Runde nicht wieder nur verfeinert.)
+- **Offen, weiterhin:** ob es eine adressierbare Notation gibt, in der trotzdem
+  nachweislich nicht entworfen wurde. Das wäre der Gegenbeleg. Am 2026-08-24
+  gesucht und nicht gefunden — der Kandidat ([[bhatkhande-notation]]) erwies sich
+  in der entscheidenden Dimension als *nicht* adressierbar. Die Suche steht damit
+  wieder am Anfang, aber mit einem geschärften Begriff.
 
 ## Verwandt
 
+- [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
 - [[handlungs-vs-ergebnis-notation]] — die Achse, die hierdurch ersetzt wird
 - [[tabulatur]] — der Fall, der die Trennung erzwang
 - [[strickschrift]] — der Fall, an dem beides zusammenfiel und mich täuschte
@@ -70,3 +114,4 @@ Fläche und Sonderzeichen, nicht bloß eine Zeile im Fließtext (siehe
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
+- `entries/2026/2026-08-24.md` (pro Dimension)
