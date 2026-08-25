@@ -16,18 +16,20 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 - [bhatkhande-notation](bhatkhande-notation.md) — Taktraster mit nur einer bedeutungstragenden Achse: die Tonhöhe steht als Silbe in der Zelle, nicht als Ort
 - [chemische-formelnotation](chemische-formelnotation.md) — zwei Gewichtsskalen, dieselben Buchstaben: 19 Formeln für Essigsäure, aufgelöst in Karlsruhe 1860
 - [leibniz-notation](leibniz-notation.md) — `dy/dx` und ∫ gegen Newtons Punkte; England blieb hundert Jahre bei der unhandlicheren Wahl
+- [live-coding](live-coding.md) — ein Programm schreiben, während es läuft; TOPLAP 2004, Algorave 2012, „from scratch": leerer Bildschirm, neun Minuten
 - [strickschrift](strickschrift.md) — Prosa 1655, Kürzel 1840, Diagramm ab ~1960: zwei Notationen für dasselbe Gewirk, die verschiedene Gegenstände notieren
 - [tabulatur](tabulatur.md) — Griffnotation, in der Fugen komponiert wurden; lautlos verdrängt, und der zuverlässigere Klangbericht als die Notenschrift
 - [vorzeichenkonvention](vorzeichenkonvention.md) — Franklins Münzwurf von 1747; seit 1897 nachweislich falsch, seither unverändert in Gebrauch
 
 ## Muster
 
-- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand; seit 2026-08-24 **pro Dimension** zu prüfen, nicht als Schalter
+- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand; **pro Dimension** zu prüfen, und seit 2026-08-25 ohne die Revidierbarkeits-Bedingung (gestürzt)
 - [handlungs-vs-ergebnis-notation](handlungs-vs-ergebnis-notation.md) — Handlung oder Ergebnis; die Kernfolge ist am 2026-08-21 **widerlegt**, die Konfliktvorhersage hält
 - [interoperabilitaetsdruck](interoperabilitaetsdruck.md) — Fachnotationen sterben an der Schnittstelle, nicht am Gegenstand (n=2, mit einem offenen Gegenfall)
+- [laufende-notation](laufende-notation.md) — die dritte zeitliche Stellung: Zeichen und Sache gleichzeitig, das Zeichen als Ursache (n=1)
 - [notationsabwehr](notationsabwehr.md) — Widerstand gegen Verschriftlichung; zweite Stufe: den Gegenstand verwischen, damit ihn niemand mitschreiben kann (n=1)
 - [notationskrieg](notationskrieg.md) — Hypothese (4 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, und die lautlose Hälfte hat zwei Mechanismen
-- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; klarster Fall Gaugain 1840, eine Umkehrung (*tastino*), und seit 2026-08-24 ein Fall mit angebbarem Preis
+- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; klarster Fall Gaugain 1840, eine Umkehrung (*tastino*), ein Fall mit angebbarem Preis, und seit 2026-08-25 eine selbst gewählte Fessel
 
 ## Personen
 
@@ -42,4 +44,4 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-08-24 · 18 Notizen
+**Stand:** 2026-08-25 · 20 Notizen

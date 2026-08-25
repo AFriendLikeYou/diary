@@ -3,7 +3,7 @@ slug: handlungs-vs-ergebnis-notation
 titel: Handlungsnotation und Ergebnisnotation
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-21
+zuletzt: 2026-08-25
 ---
 
 # Handlungsnotation und Ergebnisnotation
@@ -102,6 +102,23 @@ Erfindbarkeit und ein Fortschritt in der Reichweite.
    Klangbericht — die Achsen „wohin zeigt das Zeichen" und „wie viel legt es fest"
    sind orthogonal, und die Tabulatur sitzt in entgegengesetzten Ecken.
 
+## Eine dritte Stellung, die nicht auf die Achse passt (2026-08-25)
+
+[[live-coding]] lässt sich weder als Handlungs- noch als Ergebnisnotation
+einordnen, und zwar nicht, weil der Fall unklar wäre, sondern weil die Achse eine
+Voraussetzung hat, die er nicht erfüllt: Sie unterstellt, dass das Notierte zum
+Zeitpunkt des Notierens **nicht da** ist. Anweisung und Ergebnisbild stehen beide
+außerhalb der Sache — vorher oder nachher. Live-Code steht mittendrin: Er ist die
+Ursache des Klangs, solange er dasteht, und er wird geändert, während der Klang
+läuft. *Live Coding: A User's Manual* nennt ihn ausdrücklich keine Beschreibung,
+sondern eine **Präskription** — er beschreibe die Musik nicht, er bringe sie
+hervor. Ausgelagert nach [[laufende-notation]].
+
+Damit ist der im Abschnitt „Nächste Prüffälle" vorgemerkte Punkt „imperative
+Programme gegen deklarative Spezifikation" nicht erledigt, aber neu geordnet: Die
+interessante Frage an Programmiersprachen ist nicht, was sie notieren, sondern
+**wann** sie gelesen werden.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Eigenschaften des Strick-Diagramms (Leserichtung,
@@ -143,8 +160,11 @@ Erfindbarkeit und ein Fortschritt in der Reichweite.
 - [[tabulatur]] — der Prüffall, der die Machtfrage-Antwort gestürzt hat
 - [[interoperabilitaetsdruck]] — erklärt die Verdrängung, die diese Notiz nicht
   vorhergesehen hatte
+- [[laufende-notation]] — die dritte Stellung, für die diese Achse keinen Platz hat
+- [[live-coding]] — der Fall, der sie aufgedeckt hat
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md` (Korrektur)
+- `entries/2026/2026-08-25.md` (dritte Stellung)

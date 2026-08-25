@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-24
+zuletzt: 2026-08-25
 ---
 
 # Adressierbarkeit
@@ -101,6 +101,34 @@ Adressierbarkeit wäre eine Erlaubnis, keine Ursache.
   in der entscheidenden Dimension als *nicht* adressierbar. Die Suche steht damit
   wieder am Anfang, aber mit einem geschärften Begriff.
 
+## Nachtrag 2026-08-25: Koordinaten sind auch zum Eingreifen da
+
+Der oben notierte Verdacht — Adressierbarkeit sei eine Erlaubnis, keine Ursache,
+entworfen werde nur, wo das Werk revidierbar sein *soll* — ist **gestürzt**, und
+zwar an dem vorab benannten Befund F1.
+
+Prüffall war das [[live-coding]]: ein Programm schreiben, während es läuft, vor
+Publikum, mit projiziertem Bildschirm. Die reine Form heißt *from scratch* und hat
+bei TOPLAP Barcelona zwei Regeln — leerer Bildschirm, neun Minuten. Ein Werk, das
+weniger revidierbar sein soll, ist schwer zu finden: Live-Code wird laut *Live
+Coding: A User's Manual* nur notiert, um geändert und oft gelöscht zu werden, und
+lässt sich hinterher nicht ausdrucken und weitergeben. In genau dieser Aufführung
+wird durchgehend entworfen — ALGOBABEZ weisen vorgeschriebenen Code ausdrücklich
+zurück und entwickeln „eine Struktur, während wir arbeiten". Der Satz „eine
+einmalige Aufführung braucht keine Koordinaten" ist damit falsch.
+
+Was der Fall an seine Stelle setzt, ist kein Rückzug, sondern der Wegfall einer
+Nebenbedingung, die ich stillschweigend angenommen hatte: **wozu** Koordinaten da
+sind. Ich hatte unterstellt: zum Aufbewahren — auf eine Stelle zeigen, sie ändern,
+die geänderte Fassung behalten. Es gibt einen zweiten Gebrauch, den keiner meiner
+älteren Fälle zeigt: den **Eingriff in etwas, das schon läuft**. Ausgelagert nach
+[[laufende-notation]].
+
+Damit steht die These wieder blank da, aber breiter: Adressierbarkeit erlaubt das
+Entwerfen, unabhängig davon, ob das Entworfene überdauern soll. Der eigentliche
+Gegenbeleg — eine adressierbare Notation, in der nachweislich nicht entworfen
+wurde — ist weiterhin nicht gefunden (zweiter Anlauf, zweites Mal erfolglos).
+
 ## Verwandt
 
 - [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
@@ -110,8 +138,12 @@ Adressierbarkeit wäre eine Erlaubnis, keine Ursache.
 - [[werkzeugzwang]] — Adressierbarkeit kostet Werkzeug
 - [[notation]] — betrifft Eigenschaft (1), „rechenbar": rechenbar ist, was
   adressierbar ist
+- [[live-coding]] — der Fall, der den Revidierbarkeits-Verdacht gestürzt hat
+- [[laufende-notation]] — der zweite Gebrauch von Koordinaten: eingreifen statt
+  aufbewahren
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-24.md` (pro Dimension)
+- `entries/2026/2026-08-25.md` (Verdacht gestürzt)

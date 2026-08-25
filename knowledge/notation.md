@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-24
+zuletzt: 2026-08-25
 ---
 
 # Notation
@@ -83,6 +83,19 @@ einer Notation ist nicht immer von der Notation gesetzt. Er kann auch von denen
 gesetzt sein, die notiert werden sollen. Wo die Praxis Eigentum ist, wird der
 Gegenstand vor dem Zeichen unscharf gemacht — siehe [[notationsabwehr]].
 
+*Nachtrag 2026-08-25 — eine siebte Frage, und die einfachste von allen:* **Wann
+wird die Notation gelesen — vorher, nachher oder währenddessen?** Bis hierher
+hatte ich stillschweigend angenommen, dass Zeichen und Sache nie gleichzeitig da
+sind: Die Anweisung geht der Sache voraus, der Bericht folgt ihr. Im
+[[live-coding]] fallen sie zusammen, und das Zeichen ist nicht Abbild, sondern
+Ursache — geändert wird die laufende Musik, indem die laufende Zeile geändert
+wird ([[laufende-notation]]). Für Eigenschaft (3), den Rand, hat das eine Folge:
+Eine Notation, die während ihres Gegenstands geschrieben wird, hat keinen Leser
+außer der Maschine und dem Zuschauer, und sie überdauert nichts. Der Grenzfall
+„Programmiersprache", den diese Notiz seit dem 2026-08-17 als zu prüfen vormerkt,
+ist damit angefangen — und er zeigt sofort, dass die Grenze zur
+Bedienoberfläche mindestens so unscharf ist wie die zur Sprache.
+
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 
@@ -115,6 +128,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - [[bhatkhande-notation]] — Raster mit nur einer bedeutungstragenden Achse
 - [[tabulatur]] — der Fall, der die fünfte Frage (Festlegung vs. Delegation)
   aufgeworfen hat
+- [[laufende-notation]] — die siebte Frage: wann wird gelesen?
+- [[live-coding]] — der Grenzfall Programmiersprache, angefangen
 
 ## Kommt vor in
 
@@ -124,3 +139,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-24.md`
+- `entries/2026/2026-08-25.md`

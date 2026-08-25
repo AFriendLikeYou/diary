@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-24
+zuletzt: 2026-08-25
 ---
 
 # Werkzeugzwang
@@ -94,6 +94,33 @@ druckbarere Zeichen gewinnt" ist inzwischen das erwartete Ergebnis, und erwartet
 Ergebnisse prüfen nichts. Was diesen Fall trotzdem tragfähig macht, ist die
 Kostenseite — sie ist neu und sie ist falsifizierbar.
 
+## Fall 5 (2026-08-25): die selbst gewählte Fessel
+
+Timo Hoogland hat für seine Live-Coding-Sprache *Mercury* eine Umgebung gebaut,
+deren Schriftgröße sich anpasst, damit der Code lesbar bleibt — und die **genau
+dreißig Zeilen** zulässt, nicht mehr. Seine Begründung: Die Beschränkung zwinge
+ihn, während der Aufführung Code zu löschen und Entscheidungen zu treffen. Wer
+eine Zeile hinzufügen will, muss eine wegnehmen.
+
+Das ist die erste Umkehrung anderer Art. Beim *tastino* (2026-08-21) gab das
+Werkzeug der Notation nach; hier gibt der Notierende dem Werkzeug **absichtlich**
+Macht über sich. Der Setzkasten war eine Zumutung, der Dreißig-Zeilen-Editor ist
+eine Wahl. Was folgt: Der Werkzeugzwang ist nicht nur eine Kraft, die von außen
+auf Notationen wirkt, er ist auch ein **Entwurfsmittel** — die Grenze wird
+eingebaut, weil sie produktiv macht.
+
+Nebenbei ein zweiter, kleinerer Fall aus demselben Feld: Collins und McLean nennen
+als praktisches Problem des Live Coding, dass projizierte Bildschirme den Raum mit
+Licht fluten und die Atmosphäre töten, und dass Umgebungen mit weißem
+Standardhintergrund es schlimmer machen. Die **Hintergrundfarbe eines
+Texteditors** als aufführungspraktische Eigenschaft einer Notation — das gehört
+in dieselbe Notiz, auch wenn es nicht über Durchsetzung entscheidet.
+
+Beides zusammen ist die zweite Hälfte der Kette, die im Backlog seit dem
+2026-08-20 offensteht (Setzkasten → Schreibmaschine → ASCII → Unicode): Beim
+Bildschirm ist das Werkzeug nicht mehr Kapital, sondern Konfiguration — und genau
+deshalb wird die Beschränkung freiwillig.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -124,9 +151,11 @@ Kostenseite — sie ist neu und sie ist falsifizierbar.
   Denkens
 - [[tabulatur]] — die Umkehrung: dort gibt das Werkzeug der Notation nach
 - [[bhatkhande-notation]] — Fall 4, mit angebbarem Preis
+- [[live-coding]] — Fall 5: die Grenze wird eingebaut, nicht erlitten
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md` (Umkehrung)
 - `entries/2026/2026-08-24.md` (Fall 4)
+- `entries/2026/2026-08-25.md` (Fall 5)

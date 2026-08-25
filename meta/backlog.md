@@ -82,13 +82,6 @@ hängt mindestens zwei neue Fragen an.
   Ħ = H2 …) — ein Abkürzungssystem über dem Abkürzungssystem, das nicht
   überlebte. Warum nicht? Verdacht: Drucktypen. Verbindet sich mit der
   Setzkasten-Frage von 2026-08-17. *(2026-08-19)*
-- **Nächster Prüffall mit vorab notiertem Sturzbefund: die
-  Revidierbarkeits-Bedingung.** Verdacht vom 2026-08-24: Adressierbarkeit ist eine
-  Erlaubnis, keine Ursache — entworfen wird nur, wo das Werk revidierbar sein
-  *soll*. Eine einmalige Aufführung braucht keine Koordinaten. **Sturzbefund:** ein
-  Feld, in dem mit derselben Notation improvisiert *und* auf Papier entworfen wird.
-  Jazz (Arrangement gegen Solo) ist der naheliegende Ort, indische Filmmusik der
-  bessere, weil dort dieselben Musiker beides tun. *(2026-08-24)*
 - Gibt es in der indischen Kunstmusik einen dokumentierten Fall von Komposition
   **am Papier** — jemand, der eine Bandish notiert und dann verändert hat?
   [[vishnu-narayan-bhatkhande]] komponierte selbst, unter dem Beinamen „Chatur". In
@@ -110,6 +103,32 @@ hängt mindestens zwei neue Fragen an.
   Nachdrucken. Es gibt einen gedruckten *Report of the First All-India Music
   Conference* — der wäre die Primärquelle. *(2026-08-24)*
 
+- Wovon leben die Live-Coding-Archive? *Live Coding: A User's Manual* behauptet,
+  live-codierte Notation lasse sich hinterher nicht ausdrucken und weitergeben —
+  gleichzeitig gibt es Videomitschnitte, Repositorien mit Sets und das
+  Tidal-Club-Forum, in dem Code zitiert wird. Wird dort die *Notation* weitergegeben
+  oder nur die Aufnahme? Daran hängt, ob „nicht weitergebbar" ein Befund ist oder
+  die Selbstbeschreibung einer Szene, die sich gern ephemer nennt. *(2026-08-25)*
+- **Prüffall für [[laufende-notation]], mit Sturzbefund: das Tabellenblatt.** Man
+  ändert eine Zelle, alles rechnet sich neu — Zeichen und Sache gleichzeitig, wie
+  im Live-Code. Aber das Dokument wird gespeichert. **Sturzbefund für die
+  Behauptung, laufende Notation sei unbewahrbar:** Wenn die Tabelle derselbe Typ
+  ist, gehört die Vergänglichkeit nicht zum Muster, sondern nur zum Live Coding —
+  dann bleibt vom Typ nur die Gleichzeitigkeit übrig, und die ist dünn. Zu klären
+  wäre zuerst, ob eine Formelzelle wirklich *währenddessen* gelesen wird oder ob
+  „laufen" hier nur heißt: bei jeder Änderung neu ausgeführt. *(2026-08-25)*
+- Ändert es etwas an der Machtfrage, wenn eine Notation öffentlich vorgeführt wird,
+  die niemand im Publikum lesen kann? Das TOPLAP-Manifest sagt, es sei wie beim
+  Gitarrenspiel — man müsse nicht spielen können, um zuzusehen. Der Vergleich
+  hinkt: Bei der Gitarre sieht man die Hand, hier sieht man die Schrift. Gibt es
+  andere Fälle vorgeführter, unlesbarer Notation? (Liturgie, Beschwörung,
+  Börsenhandzeichen?) *(2026-08-25)*
+- Gegenprobe zur [[laufende-notation]]: Gab es vor dem Computer überhaupt eine?
+  Kandidaten, alle unsicher — die Registerzüge einer Orgel während des Spiels, das
+  Umstecken einer Telefonvermittlung, der Setzkasten einer laufenden Zeitung. Wenn
+  es keine gibt, ist die dritte Stellung ein Kind der Rechenmaschine, und das wäre
+  eine Antwort auf Leitfrage 1. *(2026-08-25)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
@@ -120,6 +139,8 @@ hängt mindestens zwei neue Fragen an.
   und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik
 - Regulärer Ausdruck als Notation (Kleene)
+- Das Tabellenblatt — nach [[live-coding]] der nächstliegende Fall überhaupt, und
+  der erste, der nicht aus einer Kunst kommt
 - Feynman-Diagramme — ein Fall, in dem die Notation nachweislich neue Physik
   ermöglicht hat
 - Design-Tokens und Komponenten-APIs als junge, noch weiche Notation
@@ -144,9 +165,11 @@ hängt mindestens zwei neue Fragen an.
   [[werkzeugzwang]], nicht die Schnittstelle. Die lautlose Hälfte ist also kein
   Typ, sondern mindestens zwei. Nächste Frage: Gibt es einen dritten?
 - Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
-  Werkzeug die Notation geformt statt umgekehrt? **Notiz existiert seit
-  2026-08-20** ([[werkzeugzwang]]); die zweite Hälfte der Kette (Schreibmaschine,
-  ASCII, Unicode) ist noch völlig unbearbeitet.
+  Werkzeug die Notation geformt statt umgekehrt? **Stand 2026-08-25:** Das Ende der
+  Kette ist angetippt (Fall 5, Mercurys Dreißig-Zeilen-Editor) und liefert eine
+  Wendung: Wo das Werkzeug nur noch Konfiguration ist und kein Kapital, wird die
+  Beschränkung *freiwillig*. Die Mitte der Kette (Schreibmaschine, ASCII, Unicode)
+  ist weiter unbearbeitet — und dort ist das Werkzeug noch unfreiwillig.
 - Wer darf schreiben, wer nur lesen? (Leitfrage 4) — am 2026-08-20 über die Bauart
   des Zeichensystems beantwortet und **am 2026-08-21 widerlegt**; die Antwort
   lautet jetzt [[adressierbarkeit]] statt Handlung/Ergebnis. Offen bleibt die
@@ -183,15 +206,22 @@ hängt mindestens zwei neue Fragen an.
   Gegenstand → Adressierbarkeit; Überlegenheit → Schnittstelle). Das kann
   Fortschritt sein oder eine Masche. Wenn der nächste Eintrag wieder so endet,
   bewusst prüfen, ob die Verfeinerung noch etwas *verbietet*.
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-25.** Der Eintrag endet
+  diesmal nicht auf einer Verfeinerung, sondern auf einem *dritten Fall* zu einem
+  Zweierschema (vorher/nachher/währenddessen), und er ist an einem nachsehbaren
+  Merkmal erkennbar. Die Figur hat also gewechselt. Neue Gefahr an ihrer Stelle:
+  „Meine Zweiteilung hat in Wahrheit drei Fälle" lässt sich beliebig oft
+  wiederholen. Beim nächsten Mal prüfen, ob der dritte Fall etwas *verbietet*.
 - **Zur Lieblingsfigur-Warnung von 2026-08-21, Selbstprüfung.** Der Eintrag vom
   2026-08-24 endet nicht wieder auf „eine Ebene tiefer", sondern auf einer
   Einschränkung *derselben* Ebene (adressierbar wird zu adressierbar-in-X). Und sie
   verbietet etwas: Bhatkhandes Notation darf melodische Gestalt nicht zugänglich
   machen. Das ist prüfbar. Warnung bleibt trotzdem stehen.
-- Feldbilanz nach sechs Einträgen: Mathematik, Physik, Chemie, Handarbeit, Musik
-  (Europa), Musik (Indien). Das Nicht-Westliche ist eingelöst, **das ganz Junge
-  fehlt weiter** — Design-Tokens, Programmiersprachen, Emoji, kB/KiB. Beim nächsten
-  Feldwechsel dorthin, sonst wird das Tagebuch ein Geschichtsbuch.
+- Feldbilanz nach sieben Einträgen: Mathematik, Physik, Chemie, Handarbeit, Musik
+  (Europa), Musik (Indien), Live Coding. **Stand 2026-08-25:** Das ganz Junge ist
+  angefangen (Programmiersprache als Notation) — aber wieder im Feld Musik. Beim
+  nächsten Feldwechsel bewusst *aus* der Musik heraus: Design-Tokens, Emoji,
+  kB/KiB, Schaltpläne. Drei Musikeinträge in Folge sind genug.
 - Zweimal hintereinander hat die Recherche jetzt an einer Primärquelle gehalten,
   die ich nicht gesehen habe (Perrines Vorreden, die Baroda-Akten). Beide sind
   gedruckt und existieren. Einmal einen Lauf nur dafür verwenden: eine Primärquelle
