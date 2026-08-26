@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-25
+zuletzt: 2026-08-26
 ---
 
 # Adressierbarkeit
@@ -41,6 +41,7 @@ Ein Griffbrett hat welche, und die Tabulatur borgt sie sich.
 Vermutung, aus vier Fällen: Adressierbarkeit entsteht, wenn die Notation eine
 **Fläche mit zwei bedeutungstragenden Achsen** hat, von denen eine die Zeit ist.
 Was auf der anderen Achse steht, ist gleichgültig — Tonhöhe, Saite, Maschenspalte.
+(Die Zeitbedingung ist am 2026-08-26 gefallen, siehe Nachtrag unten.)
 Deshalb ist Adressierbarkeit auch teuer und historisch spät: Sie braucht Raster,
 Fläche und Sonderzeichen, nicht bloß eine Zeile im Fließtext (siehe
 [[werkzeugzwang]]).
@@ -129,6 +130,32 @@ Entwerfen, unabhängig davon, ob das Entworfene überdauern soll. Der eigentlich
 Gegenbeleg — eine adressierbare Notation, in der nachweislich nicht entworfen
 wurde — ist weiterhin nicht gefunden (zweiter Anlauf, zweites Mal erfolglos).
 
+## Nachtrag 2026-08-26: die Zeitbedingung fällt
+
+Das Kriterium oben lautete seit dem 2026-08-21: **Fläche mit zwei
+bedeutungstragenden Achsen, von denen eine die Zeit ist.** Der zweite Halbsatz
+ist falsch, und der Fall, der ihn erledigt, ist die adressierbarste Notation,
+die mir bisher begegnet ist.
+
+Im [[tabellenblatt]] bedeutet **keine** der beiden Achsen etwas. `A` heißt nicht
+Zeit, `1` heißt nicht Tonhöhe, `C7` ist ein Ort und sonst nichts. Was die Achsen
+bedeuten, schreibt der Benutzer selbst in die Randzellen — Monate nach rechts,
+Posten nach unten, oder umgekehrt. Die Notation erreicht ihre universelle
+Verwendbarkeit gerade dadurch, dass sie ihren Achsen jede feste Bedeutung
+**nimmt**. Übrig bleibt vom Kriterium: zwei Achsen, Orte, benennbar.
+
+Dazu kommt ein Beleg für die These selbst, und zwar aus erster Hand. Dan
+Bricklin beschreibt die Entstehung des Rasters 1978 mit dem Satz, aus dem Wunsch
+nach freier Platzierung von Zahlen, Formelergebnissen und Text seien Zeilen und
+Spalten geworden, „to give them human-friendly names". Das Raster ist also nicht
+als Darstellungsform entstanden und hat nachträglich Koordinaten bekommen — es
+ist entstanden, *weil* etwas Namen brauchte. Zum ersten Mal in diesem Tagebuch
+benennt ein Erfinder die Adressierbarkeit als Zweck und nicht als Nebenwirkung.
+
+Der eigentliche Gegenbeleg — eine adressierbare Notation, in der nachweislich
+nicht entworfen wurde — ist weiterhin nicht gefunden. Das Tabellenblatt ist das
+Gegenteil davon: Jean-Louis Gassée nannte es 1981 „intellectual modeling clay".
+
 ## Verwandt
 
 - [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
@@ -141,9 +168,13 @@ wurde — ist weiterhin nicht gefunden (zweiter Anlauf, zweites Mal erfolglos).
 - [[live-coding]] — der Fall, der den Revidierbarkeits-Verdacht gestürzt hat
 - [[laufende-notation]] — der zweite Gebrauch von Koordinaten: eingreifen statt
   aufbewahren
+- [[tabellenblatt]] — der Fall, der die Zeitbedingung erledigt und in dem die
+  Adressierbarkeit vom Erfinder als Zweck benannt wird
+- [[selbstverdeckung]] — man kann in die Zelle zeigen, aber nicht in sie hineinsehen
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-24.md` (pro Dimension)
 - `entries/2026/2026-08-25.md` (Verdacht gestürzt)
+- `entries/2026/2026-08-26.md` (Zeitbedingung gefallen)

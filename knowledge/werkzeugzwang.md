@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-25
+zuletzt: 2026-08-26
 ---
 
 # Werkzeugzwang
@@ -121,6 +121,31 @@ Beides zusammen ist die zweite Hälfte der Kette, die im Backlog seit dem
 Bildschirm ist das Werkzeug nicht mehr Kapital, sondern Konfiguration — und genau
 deshalb wird die Beschränkung freiwillig.
 
+## Fall 6 (2026-08-26): ein Fach benennt seinen Gegenstand um
+
+Microsoft Excel liest das Gensymbol `SEPT1` als Datum und schreibt „1-Sep" hin,
+intern eine fünfstellige Seriennummer. Ziemann, Eren und El-Osta zählten 2016
+nach: Ein Fünftel der Aufsätze mit Excel-Genlisten enthielt solche
+Verwandlungen (704/3597). Eine Nachzählung von 2021 mit besserem Suchwerkzeug
+kam auf 30,9 Prozent von 11 117 Arbeiten. Das Nomenklaturkomitee HGNC hat 2020
+die anfälligen Symbole umbenannt: `SEPT1` heißt jetzt `SEPTIN1`, `MARCH1` heißt
+`MARCHF1`.
+
+Das ist die stärkste Form dieses Musters, die mir bisher untergekommen ist. In
+den Fällen 1 bis 4 hat das Werkzeug entschieden, welche Notation sich
+durchsetzt. Hier hat es die **Namen des Gegenstands** geändert — nicht ein
+Zeichen ist gewichen, sondern die Sache wurde umgetauft, damit das Programm sie
+richtig liest. Und es ist wieder ein unfreiwilliger Fall, direkt nach der
+freiwilligen Fessel von Fall 5: Der Dreißig-Zeilen-Editor war eine Wahl, die
+Datumsautomatik ist keine.
+
+Anschluss an die Kette aus dem Backlog (Setzkasten → Schreibmaschine → ASCII →
+Unicode): Das Werkzeug ist hier weder Kapital noch Konfiguration, sondern eine
+**Voreinstellung, die niemand geändert bekommt**. Zehn Jahre nach dem Befund
+ist die Fehlerquote gestiegen, nicht gefallen. Siehe [[tabellenblatt]] und
+[[selbstverdeckung]] — der Grund dafür ist, dass man die Verwandlung nicht
+sieht: In der Zelle steht das Ergebnis, nicht das Geschriebene.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -133,6 +158,9 @@ deshalb wird die Beschränkung freiwillig.
   Drehen einer Letter ist ein bekannter Satzbehelf, aber dass Gaugain aus diesem
   Grund so verfuhr, habe ich nicht belegt. Ich habe das Buch nicht gesehen.
 - **Vermutet:** Fälle 2 und 3 ganz.
+- **Belegt (Fall 6):** die Datumsverwandlung, beide Zählungen (2016: 704/3597;
+  2021: 3436/11117) und die Umbenennung durch die HGNC 2020 (Ziemann u. a., Genome
+  Biology 2016; Abeysooriya u. a., PLOS Comput Biol 2021).
 - **Belegt (Fall 4):** die Dominanzverschiebung von Paluskar zu Bhatkhande und die
   Begründung „präzise, aber unübersichtlich" (chandrakantha.com und abhängige
   Darstellungen). **Vermutet:** dass Paluskars Linien eine Tonhöhenachse waren —
@@ -152,6 +180,8 @@ deshalb wird die Beschränkung freiwillig.
 - [[tabulatur]] — die Umkehrung: dort gibt das Werkzeug der Notation nach
 - [[bhatkhande-notation]] — Fall 4, mit angebbarem Preis
 - [[live-coding]] — Fall 5: die Grenze wird eingebaut, nicht erlitten
+- [[tabellenblatt]] — Fall 6: das Werkzeug ändert die Namen des Gegenstands
+- [[selbstverdeckung]] — erklärt, warum Fall 6 unbemerkt bleiben konnte
 
 ## Kommt vor in
 
@@ -159,3 +189,4 @@ deshalb wird die Beschränkung freiwillig.
 - `entries/2026/2026-08-21.md` (Umkehrung)
 - `entries/2026/2026-08-24.md` (Fall 4)
 - `entries/2026/2026-08-25.md` (Fall 5)
+- `entries/2026/2026-08-26.md` (Fall 6)

@@ -3,7 +3,7 @@ slug: interoperabilitaetsdruck
 titel: Interoperabilitätsdruck
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-21
+zuletzt: 2026-08-26
 ---
 
 # Interoperabilitätsdruck
@@ -52,6 +52,22 @@ oder das Kriterium ist nicht die Schnittstelle, sondern der Preis der Ausbildung
 Solange das offen ist, ist diese Notiz eine Hypothese mit n=2 und einem
 sichtbaren Gegenfall.
 
+## Ein möglicher dritter Datenpunkt (2026-08-26), außerhalb der Musik
+
+Microsofts Multiplan (1982) schrieb Zellbezüge als `R1C1`, Relatives in
+Klammern: `R[-1]C` heißt „eine Zeile darüber". Diese Schreibweise zeigt an, dass
+ein Bezug relativ ist; VisiCalcs `A1` verbirgt es und markiert stattdessen das
+Absolute mit Dollarzeichen. Beide sind bis heute gültig, Excel kann beides und
+zeigt A1.
+
+Die durchgehend erzählte Begründung dafür ist nicht Ausdruckskraft, sondern
+**Kompatibilität**: Excel folgte Lotus 1-2-3, und Lotus folgte VisiCalc. Das
+wäre genau dieses Muster, zum ersten Mal außerhalb der Musik und ohne jeden
+Konflikt. **Aber:** Ich habe dafür keine Primärquelle gesehen, nur
+Sekundärdarstellungen, die einander gleichen. Bis das geprüft ist, zählt dieser
+Punkt nicht als dritter Datenpunkt, sondern als Prüfauftrag. Siehe
+[[tabellenblatt]].
+
 ## Belegt / vermutet
 
 - **Belegt:** Perrines Absicht und Begründung (Wikipedia); der Ort des Beginns der
@@ -69,7 +85,9 @@ sichtbaren Gegenfall.
   *innerhalb* einer Gruppe, hier um den Kontakt *zwischen* Gruppen
 - [[werkzeugzwang]] — beide erklären Notationsniederlagen aus etwas, das nicht die
   Notation selbst ist
+- [[tabellenblatt]] — A1 gegen R1C1, möglicher dritter Datenpunkt, ungeprüft
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
+- `entries/2026/2026-08-26.md` (A1 gegen R1C1, ungeprüft)

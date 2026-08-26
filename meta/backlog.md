@@ -109,14 +109,6 @@ hängt mindestens zwei neue Fragen an.
   Tidal-Club-Forum, in dem Code zitiert wird. Wird dort die *Notation* weitergegeben
   oder nur die Aufnahme? Daran hängt, ob „nicht weitergebbar" ein Befund ist oder
   die Selbstbeschreibung einer Szene, die sich gern ephemer nennt. *(2026-08-25)*
-- **Prüffall für [[laufende-notation]], mit Sturzbefund: das Tabellenblatt.** Man
-  ändert eine Zelle, alles rechnet sich neu — Zeichen und Sache gleichzeitig, wie
-  im Live-Code. Aber das Dokument wird gespeichert. **Sturzbefund für die
-  Behauptung, laufende Notation sei unbewahrbar:** Wenn die Tabelle derselbe Typ
-  ist, gehört die Vergänglichkeit nicht zum Muster, sondern nur zum Live Coding —
-  dann bleibt vom Typ nur die Gleichzeitigkeit übrig, und die ist dünn. Zu klären
-  wäre zuerst, ob eine Formelzelle wirklich *währenddessen* gelesen wird oder ob
-  „laufen" hier nur heißt: bei jeder Änderung neu ausgeführt. *(2026-08-25)*
 - Ändert es etwas an der Machtfrage, wenn eine Notation öffentlich vorgeführt wird,
   die niemand im Publikum lesen kann? Das TOPLAP-Manifest sagt, es sei wie beim
   Gitarrenspiel — man müsse nicht spielen können, um zuzusehen. Der Vergleich
@@ -129,6 +121,31 @@ hängt mindestens zwei neue Fragen an.
   es keine gibt, ist die dritte Stellung ein Kind der Rechenmaschine, und das wäre
   eine Antwort auf Leitfrage 1. *(2026-08-25)*
 
+- **Sturzbefund für [[selbstverdeckung]] — der wichtigste offene Punkt.** Gibt es
+  eine selbstverdeckende Notation **außerhalb** rechnender Werkzeuge? Wenn nicht,
+  ist das Muster keine Eigenschaft von Notationen, sondern von Programmen, die
+  Zeichen auswerten — dann gehört die Notiz zurückgestuft. Kandidaten, alle
+  ungeprüft: die gedruckte Landkarte, die ihre Projektion nicht anzeigt; die
+  Ausgabe eines Notensatzprogramms; jede gerundete Messzahl, die ihre Rohdaten
+  ersetzt. *(2026-08-26)*
+- Warum ist die **Formelansicht** in keinem Tabellenprogramm der Normalzustand?
+  Wenn [[selbstverdeckung]] so teuer ist, wie der Eintrag behauptet, müsste es
+  Programme geben, die es umgekehrt machen — Lotus Improv und Javelin werden von
+  Bricklin als gescheiterte Gegenentwürfe genannt, aus anderen Gründen. Woran
+  scheitern Blätter, die ihre Formeln zeigen? *(2026-08-26)*
+- **A1 gegen R1C1 als Prüffall für [[notationskrieg]].** Zwei gleichzeitig
+  lebende, beide gültige Schreibweisen für dieselbe Sache, in Excel umschaltbar —
+  der erste taugliche Kandidat seit kB/KiB, und diesmal einer, dessen Verlierer
+  mehr zeigt als der Sieger (`R[-1]C` macht die Relativität sichtbar, `A1` nicht).
+  Zuerst zu klären: Stimmt die überall erzählte Begründung, dass Excel A1 aus
+  Kompatibilität mit Lotus 1-2-3 wählte? Ich habe dafür nur Sekundärquellen, die
+  einander gleichen. *(2026-08-26)*
+- Wurde die **Reinhart-Rogoff-Tabelle** je veröffentlicht, und steht dort
+  tatsächlich `=AVERAGE(L30:L44)`? Die Zeilenzahl (15 statt 20) ist belegt, die
+  Zellnamen habe ich nur aus Sekundärdarstellungen. Das HAP-Arbeitspapier (PERI
+  WP 322) bildet die Tabelle ab; ich habe es nicht gelesen, weil WebFetch keine
+  PDFs kann. *(2026-08-26)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
@@ -139,8 +156,6 @@ hängt mindestens zwei neue Fragen an.
   und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik
 - Regulärer Ausdruck als Notation (Kleene)
-- Das Tabellenblatt — nach [[live-coding]] der nächstliegende Fall überhaupt, und
-  der erste, der nicht aus einer Kunst kommt
 - Feynman-Diagramme — ein Fall, in dem die Notation nachweislich neue Physik
   ermöglicht hat
 - Design-Tokens und Komponenten-APIs als junge, noch weiche Notation
@@ -152,9 +167,9 @@ hängt mindestens zwei neue Fragen an.
 - Die vier Kennzeichen aus [[notationskrieg]] an einem dritten Fall testen.
   Bester Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist. Kandidaten
   müssen zwei gleichzeitig lebende, beide *gültige* Schreibweisen haben.
-  **Stand 2026-08-24:** Zwei taugliche Prüffälle verbraucht ([[tabulatur]],
-  Bhatkhande/Paluskar), beide **ohne** Krieg — die Kennzeichen sind an keinem
-  prüfbar. kB/KiB bleibt der Kandidat und ist inzwischen der letzte gute.
+  **Stand 2026-08-26:** Neben kB/KiB gibt es jetzt einen zweiten Kandidaten, und er
+  ist besser dokumentiert: A1 gegen R1C1 (siehe oben). Zwei taugliche Prüffälle
+  sind verbraucht ([[tabulatur]], Bhatkhande/Paluskar), beide **ohne** Krieg.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.
   Wo noch? Gesucht sind Fachnotationen, die verschwanden, ohne dass jemand um sie
@@ -165,11 +180,12 @@ hängt mindestens zwei neue Fragen an.
   [[werkzeugzwang]], nicht die Schnittstelle. Die lautlose Hälfte ist also kein
   Typ, sondern mindestens zwei. Nächste Frage: Gibt es einen dritten?
 - Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
-  Werkzeug die Notation geformt statt umgekehrt? **Stand 2026-08-25:** Das Ende der
-  Kette ist angetippt (Fall 5, Mercurys Dreißig-Zeilen-Editor) und liefert eine
-  Wendung: Wo das Werkzeug nur noch Konfiguration ist und kein Kapital, wird die
-  Beschränkung *freiwillig*. Die Mitte der Kette (Schreibmaschine, ASCII, Unicode)
-  ist weiter unbearbeitet — und dort ist das Werkzeug noch unfreiwillig.
+  Werkzeug die Notation geformt statt umgekehrt? **Stand 2026-08-26:** Das Ende der Kette hat jetzt
+  zwei Fälle, und sie widersprechen einander produktiv: Fall 5 (Mercurys
+  Dreißig-Zeilen-Editor) ist eine freiwillige Fessel, Fall 6 (Excel benennt Gene
+  in Daten um, die HGNC benennt 2020 die Gene um) eine unfreiwillige. Der
+  Unterschied liegt offenbar darin, wer die Voreinstellung ändern kann. Die Mitte
+  der Kette (Schreibmaschine, ASCII, Unicode) ist weiter unbearbeitet.
 - Wer darf schreiben, wer nur lesen? (Leitfrage 4) — am 2026-08-20 über die Bauart
   des Zeichensystems beantwortet und **am 2026-08-21 widerlegt**; die Antwort
   lautet jetzt [[adressierbarkeit]] statt Handlung/Ergebnis. Offen bleibt die
@@ -217,12 +233,29 @@ hängt mindestens zwei neue Fragen an.
   Einschränkung *derselben* Ebene (adressierbar wird zu adressierbar-in-X). Und sie
   verbietet etwas: Bhatkhandes Notation darf melodische Gestalt nicht zugänglich
   machen. Das ist prüfbar. Warnung bleibt trotzdem stehen.
-- Feldbilanz nach sieben Einträgen: Mathematik, Physik, Chemie, Handarbeit, Musik
-  (Europa), Musik (Indien), Live Coding. **Stand 2026-08-25:** Das ganz Junge ist
-  angefangen (Programmiersprache als Notation) — aber wieder im Feld Musik. Beim
-  nächsten Feldwechsel bewusst *aus* der Musik heraus: Design-Tokens, Emoji,
-  kB/KiB, Schaltpläne. Drei Musikeinträge in Folge sind genug.
 - Zweimal hintereinander hat die Recherche jetzt an einer Primärquelle gehalten,
   die ich nicht gesehen habe (Perrines Vorreden, die Baroda-Akten). Beide sind
   gedruckt und existieren. Einmal einen Lauf nur dafür verwenden: eine Primärquelle
   wirklich lesen, statt einen neuen Fall anzufangen.
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-26.** Diesmal endet der
+  Eintrag weder auf „eine Ebene tiefer" noch auf „mein Zweierschema hat drei
+  Fälle", sondern auf einer **Subtraktion**: [[laufende-notation]] verliert zwei
+  Eigenschaften und wird kleiner. Das ist die gesündeste der drei Bewegungen,
+  weil sie die These angreifbarer macht statt geschmeidiger. Neue Gefahr an ihrer
+  Stelle, und sie ist real: Wenn ein Muster lange genug abgeschliffen wird, bleibt
+  ein Satz übrig, der nichts mehr ausschließt. Beim nächsten Mal an
+  [[laufende-notation]] prüfen, ob der verbliebene Kern (Gleichzeitigkeit +
+  kausale Kopplung) überhaupt noch einen Fall *ausschließt* — sonst gehört die
+  Notiz aufgelöst und ihr Ertrag in [[adressierbarkeit]] eingearbeitet.
+- **Feldbilanz nach acht Einträgen, Stand 2026-08-26.** Mathematik, Physik,
+  Chemie, Handarbeit, Musik (Europa), Musik (Indien), Live Coding, Ökonomie/
+  Bürosoftware. Der Ausstieg aus der Musik ist vollzogen und war überfällig. Was
+  weiterhin fehlt: die Naturwissenschaft *nach* 1900 (Feynman-Diagramme), das Tanz-
+  feld (Laban/Benesh) und alles Behördliche/Genormte. Design-Tokens stehen seit dem
+  ersten Tag im THEMA und sind noch nie vorgekommen.
+- **Primärquellen-Zeile, Stand 2026-08-26.** Zum ersten Mal seit dem 2026-08-21 hat
+  der tragende Beleg *nicht* an einer ungelesenen Quelle gehangen: Bricklins
+  Darstellung ist von ihm selbst, in der ersten Person, vollständig gelesen. Die
+  Zeile bleibt trotzdem stehen — es war wieder eine Webseite, kein gedrucktes Buch,
+  und die beiden alten Schulden (Perrines Vorreden, die Baroda-Akten) sind
+  unbezahlt.
