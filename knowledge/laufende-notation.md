@@ -3,7 +3,7 @@ slug: laufende-notation
 titel: Laufende Notation
 art: muster
 angelegt: 2026-08-25
-zuletzt: 2026-08-26
+zuletzt: 2026-08-27
 ---
 
 # Laufende Notation
@@ -91,6 +91,19 @@ kostet. Weil das Blatt aufbewahrt und von Dritten gelesen wird, wird sichtbar,
 was am Live Coding folgenlos bleibt: dass die laufende Notation von ihrem
 eigenen Ergebnis verdeckt wird. Ausgelagert nach [[selbstverdeckung]].
 
+## Prüfung 2026-08-27: schließt der Kern noch etwas aus?
+
+Der Backlog hat diese Prüfung verlangt, weil der Typ am 26. August zwei
+Eigenschaften verloren hat und ein abgeschliffenes Muster irgendwann nichts mehr
+verbietet. Übrig ist: Der Gegenstand existiert, während geschrieben wird, und er
+ändert sich mit dem Zeichen.
+
+Das schließt aus. Die [[mercator-projektion]] erfüllt es nicht — die Küstenlinie
+rührt sich nicht, wenn ich die Karte umzeichne; die Karte hat einen Gegenstand,
+der ohne sie und vor ihr da ist. Ebenso fallen Strickanleitung, Summenformel und
+Bhatkhandes Sammlung heraus. Der Kern trennt also weiter, und zwar an einem
+Merkmal, das man nachsehen kann. Die Notiz bleibt stehen, weiter bei n=2.
+
 ## Verwandt
 
 - [[live-coding]] — der Fall, an dem das Muster entstanden ist
@@ -106,3 +119,4 @@ eigenen Ergebnis verdeckt wird. Ausgelagert nach [[selbstverdeckung]].
 
 - `entries/2026/2026-08-25.md`
 - `entries/2026/2026-08-26.md` (Punkt 3 widerlegt)
+- `entries/2026/2026-08-27.md` (Prüfung: der Kern schließt weiter aus)

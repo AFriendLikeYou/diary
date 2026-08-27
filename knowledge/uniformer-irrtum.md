@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-24
+zuletzt: 2026-08-27
 ---
 
 # Uniformer Irrtum ist gratis
@@ -128,6 +128,24 @@ gebracht hat, ist damit nicht gesagt: Sie führt ihre Legende mit (die Zeichenta
 steht in jedem Lehrbuch), müsste nach der Einschränkung von 2026-08-20 also gar
 keine brauchen.
 
+## Nachtrag 2026-08-27: der Schlüssel als Zeichnung, und sein Wegfall
+
+Bisher war Selbstschlüsselung etwas Sprachliches: Die Strickanleitung bringt ihre
+Abkürzungsliste mit, die Summenformel nicht. Die [[mercator-projektion]] zeigt eine
+dritte Bauart — der Schlüssel ist **in das Ergebnis gezeichnet**. Das Gradnetz
+lässt die Rechenvorschrift am Bild nachmessen: dass 60→70° weiter auseinanderliegt
+als 0→10°, sieht man mit dem Lineal. Eine Notation kann ihren Schlüssel also auf
+derselben Fläche mitführen, auf der sie ihr Ergebnis zeigt, ohne ein Wort dazu.
+
+Wichtiger ist der zweite Teil, und er berührt die offene Backlog-Frage nach einer
+Notation, die ihre Legende mitführt und trotzdem zerfällt. Ein Zerfall ist das
+nicht, aber die halbe Bewegung: Mercators Karte von 1569 führt Titel, Legenden und
+Gradnetz mit; ihr Nachfahre Web Mercator führt **nichts** davon mehr mit. Der
+Schlüssel ging nicht verloren, weil ihn niemand mehr verstand, sondern weil er
+weggelassen wurde — er kostete Platz auf einer Fläche, die scrollt. Selbstschlüsselung
+ist damit keine Eigenschaft eines Systems, sondern eine, die eine Fassung haben
+und die nächste verlieren kann. Siehe [[selbstverdeckung]].
+
 ## Verwandt
 
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
@@ -146,3 +164,4 @@ keine brauchen.
 - `entries/2026/2026-08-20.md` (Einschränkung)
 - `entries/2026/2026-08-21.md` (Ergänzung: Uniformität über die Zeit)
 - `entries/2026/2026-08-24.md` (Uniformität als Programm)
+- `entries/2026/2026-08-27.md` (Nachtrag: der gezeichnete Schlüssel)

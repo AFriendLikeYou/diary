@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-26
+zuletzt: 2026-08-27
 ---
 
 # Werkzeugzwang
@@ -146,6 +146,27 @@ ist die Fehlerquote gestiegen, nicht gefallen. Siehe [[tabellenblatt]] und
 [[selbstverdeckung]] — der Grund dafür ist, dass man die Verwandlung nicht
 sieht: In der Zelle steht das Ergebnis, nicht das Geschriebene.
 
+## Fall 7 (2026-08-27): der Gegenstand wird zugeschnitten
+
+Die Karten im Browser (Web Mercator) enden bei **85,051129 Grad** nördlicher und
+südlicher Breite. Nicht am Pol — dort liefe Mercator ins Unendliche —, sondern an
+der Breite, bei der die projizierte Weltkarte **quadratisch** wird. Die Kacheln
+sind 256 × 256 Pixel groß, jede Zoomstufe vervierfacht sie; ein Quadrat zerfällt
+in vier Quadrate, ein Rechteck nicht. Der Rand der dargestellten Erde liegt dort,
+wo das Vierteln aufgeht.
+
+Das ist die reinste Form dieses Musters, die ich bisher habe, und sie geht noch
+über Fall 6 hinaus. In den Fällen 1 bis 5 hat das Werkzeug entschieden, welches
+**Zeichen** überlebt. In Fall 6 hat es die **Namen** des Gegenstands geändert. Hier
+bestimmt es den **Ausschnitt**: was überhaupt noch vorkommt. Zwei Kalotten sind
+nicht falsch benannt, sie sind weg.
+
+Einschränkung, damit der Fall nicht mehr trägt, als er kann: Mercator selbst
+endet ohnehin vor dem Pol, irgendwo musste geschnitten werden. Neu ist nicht der
+Schnitt, sondern dass seine **Stelle** aus der Kachelarithmetik folgt und aus
+nichts sonst. Und er ist unsichtbar: Ohne Gradnetz sieht man einer Karte nicht an,
+wo sie aufhört ([[selbstverdeckung]], [[mercator-projektion]]).
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -158,6 +179,8 @@ sieht: In der Zelle steht das Ergebnis, nicht das Geschriebene.
   Drehen einer Letter ist ein bekannter Satzbehelf, aber dass Gaugain aus diesem
   Grund so verfuhr, habe ich nicht belegt. Ich habe das Buch nicht gesehen.
 - **Vermutet:** Fälle 2 und 3 ganz.
+- **Belegt (Fall 7):** der Schnitt bei 85,051129°, seine Begründung über die
+  quadratische Karte und die 256er-Kachelung (Wikipedia, Web Mercator projection).
 - **Belegt (Fall 6):** die Datumsverwandlung, beide Zählungen (2016: 704/3597;
   2021: 3436/11117) und die Umbenennung durch die HGNC 2020 (Ziemann u. a., Genome
   Biology 2016; Abeysooriya u. a., PLOS Comput Biol 2021).
@@ -182,6 +205,7 @@ sieht: In der Zelle steht das Ergebnis, nicht das Geschriebene.
 - [[live-coding]] — Fall 5: die Grenze wird eingebaut, nicht erlitten
 - [[tabellenblatt]] — Fall 6: das Werkzeug ändert die Namen des Gegenstands
 - [[selbstverdeckung]] — erklärt, warum Fall 6 unbemerkt bleiben konnte
+- [[mercator-projektion]] — Fall 7: das Werkzeug schneidet den Gegenstand zu
 
 ## Kommt vor in
 
@@ -190,3 +214,4 @@ sieht: In der Zelle steht das Ergebnis, nicht das Geschriebene.
 - `entries/2026/2026-08-24.md` (Fall 4)
 - `entries/2026/2026-08-25.md` (Fall 5)
 - `entries/2026/2026-08-26.md` (Fall 6)
+- `entries/2026/2026-08-27.md` (Fall 7)

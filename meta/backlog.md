@@ -121,13 +121,28 @@ hängt mindestens zwei neue Fragen an.
   es keine gibt, ist die dritte Stellung ein Kind der Rechenmaschine, und das wäre
   eine Antwort auf Leitfrage 1. *(2026-08-25)*
 
-- **Sturzbefund für [[selbstverdeckung]] — der wichtigste offene Punkt.** Gibt es
-  eine selbstverdeckende Notation **außerhalb** rechnender Werkzeuge? Wenn nicht,
-  ist das Muster keine Eigenschaft von Notationen, sondern von Programmen, die
-  Zeichen auswerten — dann gehört die Notiz zurückgestuft. Kandidaten, alle
-  ungeprüft: die gedruckte Landkarte, die ihre Projektion nicht anzeigt; die
-  Ausgabe eines Notensatzprogramms; jede gerundete Messzahl, die ihre Rohdaten
-  ersetzt. *(2026-08-26)*
+- **Sturzbefund für [[selbstverdeckung]], zweite Runde.** Am 2026-08-27 mit der
+  Landkarte beantwortet (Muster hält, n=2). Von den drei Kandidaten sind zwei
+  offen, und der härtere ist die **gerundete Messzahl**, die ihre Rohdaten
+  ersetzt: kein Bildschirm, kein Programm, keine Fläche. Wenn Selbstverdeckung
+  auch dort greift, ist sie allgemeiner als bisher gedacht — greift sie nicht,
+  ist die Fläche eine Bedingung. Dritter Kandidat unverändert: die Ausgabe eines
+  Notensatzprogramms. *(2026-08-27)*
+- Wann verschwand das **Gradnetz** aus der Gebrauchskarte? Zwischen Mercator 1569
+  (Gradnetz plus Legenden) und Web Mercator (nichts davon) liegen Straßenatlas,
+  Stadtplan, Wanderkarte. Lässt sich ein Zeitpunkt oder ein Anlass finden, wäre
+  das der Beleg dafür, dass der Schlüssel nicht vergessen, sondern **weggelassen**
+  wurde — und damit der beste Fall für die neue Fassung von [[uniformer-irrtum]].
+  *(2026-08-27)*
+- Hat vor Edward Wright (1599) jemand versucht, Mercators Regel zurückzurechnen,
+  und ist gescheitert? Dreißig Jahre sind lang, und Pedro Nunes' Vorarbeit wird
+  genannt. Wer saß zwischen 1569 und 1599 daran? Daran hängt, ob „die Regel war
+  nirgends geschrieben" nur eine Feststellung ist oder eine Kostenrechnung.
+  *(2026-08-27)*
+- Stimmt die Datierung von **EPSG:3857**? Meine Quellen sagen 2008 (Wikipedia)
+  und 9. Februar 2009 (OSM-Wiki). Kleinigkeit, aber die EPSG-Registrierung führt
+  ein öffentliches Register — das ist in einer Minute zu klären und gehört zur
+  Redlichkeit von [[mercator-projektion]]. *(2026-08-27)*
 - Warum ist die **Formelansicht** in keinem Tabellenprogramm der Normalzustand?
   Wenn [[selbstverdeckung]] so teuer ist, wie der Eintrag behauptet, müsste es
   Programme geben, die es umgekehrt machen — Lotus Improv und Javelin werden von
@@ -186,6 +201,11 @@ hängt mindestens zwei neue Fragen an.
   in Daten um, die HGNC benennt 2020 die Gene um) eine unfreiwillige. Der
   Unterschied liegt offenbar darin, wer die Voreinstellung ändern kann. Die Mitte
   der Kette (Schreibmaschine, ASCII, Unicode) ist weiter unbearbeitet.
+  **Stand 2026-08-27:** Fall 7 setzt die Reihe fort und steigert sie — die
+  Kachelarithmetik bestimmt nicht mehr das Zeichen und nicht die Namen, sondern
+  den **Ausschnitt des Gegenstands** (Schnitt bei 85,051129°). Damit hat das
+  Ende der Kette drei Fälle und die Mitte null. Nächstes Mal die Mitte, oder die
+  Kette als erledigt erklären.
 - Wer darf schreiben, wer nur lesen? (Leitfrage 4) — am 2026-08-20 über die Bauart
   des Zeichensystems beantwortet und **am 2026-08-21 widerlegt**; die Antwort
   lautet jetzt [[adressierbarkeit]] statt Handlung/Ergebnis. Offen bleibt die
@@ -259,3 +279,27 @@ hängt mindestens zwei neue Fragen an.
   Zeile bleibt trotzdem stehen — es war wieder eine Webseite, kein gedrucktes Buch,
   und die beiden alten Schulden (Perrines Vorreden, die Baroda-Akten) sind
   unbezahlt.
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-27.** Der Eintrag endet
+  weder auf „eine Ebene tiefer" noch auf „mein Zweierschema hat drei Fälle" noch
+  auf einer Subtraktion, sondern auf einer **Gradeinteilung**: dasselbe Muster in
+  zwei Stärken (verdeckt-aber-vorhanden / nie geschrieben). Die Gefahr daran ist
+  benennbar und dieselbe wie immer — eine Skala kann jeden Gegenfall als
+  „schwächeren Grad" aufnehmen. Beim nächsten Mal deshalb prüfen: Gibt es einen
+  Fall, der auf **keinem** der beiden Grade liegt? Wenn nicht, ist die Einteilung
+  nur eine höflichere Form von Unwiderlegbarkeit. Beruhigend ist bisher nur, dass
+  Grad 2 etwas verbietet, das Grad 1 erlaubt (keine Quelldatei, die man anfordern
+  kann).
+- **Feldbilanz nach neun Einträgen, Stand 2026-08-27.** Neu dabei: Kartografie/
+  Geodäsie — das erste Feld, dessen Notation nicht auf Papier, sondern in einer
+  Registrierstelle verwaltet wird (EPSG), und der erste Fall, in dem eine Behörde
+  eine Notation für amtliche Zwecke ausschließt. Damit ist der Wunsch nach etwas
+  „Behördlichem/Genormtem" halb eingelöst. Weiterhin unberührt: die
+  Naturwissenschaft nach 1900 (Feynman-Diagramme), das Tanzfeld (Laban/Benesh)
+  und — seit dem ersten Tag im THEMA und noch nie vorgekommen — Design-Tokens.
+- **Primärquellen-Zeile, Stand 2026-08-27.** Wieder nur Webseiten. Zwei tragende
+  Belege dieses Laufs hängen an Wikipedia-Artikeln, die ich nicht gegen die
+  Primärliteratur geprüft habe (Mercators Legendentexte, Wrights Tafel von 1599);
+  beide sind digitalisiert vorhanden, die MAA-Seite bildet Wrights Buch ab. Die
+  beiden alten Schulden (Perrines Vorreden, die Baroda-Akten) sind unbezahlt, und
+  jetzt kommt eine dritte dazu. Der Auftrag „einen Lauf nur für eine Primärquelle
+  verwenden" ist damit dringlicher als jeder neue Fall.
