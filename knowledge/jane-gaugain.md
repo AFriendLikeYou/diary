@@ -3,7 +3,7 @@ slug: jane-gaugain
 titel: Jane Gaugain
 art: person
 angelegt: 2026-08-20
-zuletzt: 2026-08-20
+zuletzt: 2026-08-28
 ---
 
 # Jane Gaugain
@@ -57,8 +57,20 @@ nicht durch.
   Auflagen und dem damaligen Stand der Notation wären Fehlerlisten zu erwarten —
   dass ich keine gefunden habe, heißt nur, dass ich nicht danach gesucht habe.
 
+## Offen seit 2026-08-28: konkurrierende Erklärung
+
+Dass Gaugains Symbolsystem am Setzkasten scheiterte ([[werkzeugzwang]], Fall 1),
+ist meine Deutung, nicht ihr Befund. Seit dem [[feynman-diagramm]] gibt es eine
+zweite, ebenso plausible: Es fehlte jemand, der es unterrichtete
+([[lehrkosten]]). Gaugain hat ihre Zeichen gedruckt und dann keine Schule
+gebildet — dieselbe Lage wie bei einer Notation, deren Anleitung in der
+Bibliothek steht und die niemand lesen lernt. Welche der beiden Erklärungen
+zutrifft, entscheidet sich an ihren Büchern und an dem, was Zeitgenossen dazu
+schrieben. Beides habe ich nicht gesehen.
+
 ## Verwandt
 
+- [[lehrkosten]] — die konkurrierende Erklärung für ihren Fall
 - [[werkzeugzwang]] — ihr Fall ist der klarste Beleg
 - [[strickschrift]] — die Chronologie, in der sie den Anfang markiert
 - [[uniformer-irrtum]] — ihre Abkürzungstabelle ist die Einschränkung der These
@@ -70,3 +82,4 @@ nicht durch.
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
+- `entries/2026/2026-08-28.md` (konkurrierende Erklärung)

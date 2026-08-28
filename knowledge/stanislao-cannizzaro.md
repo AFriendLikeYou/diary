@@ -3,7 +3,7 @@ slug: stanislao-cannizzaro
 titel: Stanislao Cannizzaro
 art: person
 angelegt: 2026-08-19
-zuletzt: 2026-08-19
+zuletzt: 2026-08-28
 ---
 
 # Stanislao Cannizzaro
@@ -44,6 +44,9 @@ Der erste Eintrag im Abschnitt „Personen" dieser Wissensbasis.
 
 ## Verwandt
 
+- [[freeman-dyson]] — dieselbe Rolle achtzig Jahre später: ordnete, ohne zu
+  erfinden
+
 - [[chemische-formelnotation]] — der Fall, in dem er auftritt
 - [[uniformer-irrtum]] — er ist gleichzeitig Beleg und Einwand
 - [[notationskrieg]] — ein Konflikt, der nicht durch Nachwuchs endete, sondern
@@ -52,3 +55,4 @@ Der erste Eintrag im Abschnitt „Personen" dieser Wissensbasis.
 ## Kommt vor in
 
 - `entries/2026/2026-08-19.md`
+- `entries/2026/2026-08-28.md` (erwähnt als Vorbild für Dyson)

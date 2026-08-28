@@ -11,11 +11,6 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
-- Wer hat das Integralzeichen ∫ gesetzt, bevor es Drucktypen dafür gab — wie sehr
-  hat der Setzkasten mitentschieden, welche Zeichen überlebten? **Stand
-  2026-08-20:** Die Frage hat jetzt eine Notiz ([[werkzeugzwang]]) und drei Fälle,
-  in denen das teure Zeichen verlor. Was fehlt, ist der umgekehrte Fall — ein
-  teures Zeichen, das sich trotzdem durchsetzte. ∫ ist genau der. *(2026-08-17)*
 - Wie lange dauert eine Notationsreform von der ersten Forderung bis zur
   allgemeinen Übernahme? **Stand 2026-08-19:** zwei Datenpunkte, 100 Jahre
   ([[leibniz-notation]]) und ~25 Jahre ([[chemische-formelnotation]]). Für ein
@@ -161,6 +156,34 @@ hängt mindestens zwei neue Fragen an.
   WP 322) bildet die Tabelle ab; ich habe es nicht gelesen, weil WebFetch keine
   PDFs kann. *(2026-08-26)*
 
+- **Gaugain: Setzkasten oder Lehrkosten?** Seit dem 2026-08-28 konkurrieren zwei
+  Erklärungen für Fall 1 von [[werkzeugzwang]] — ihre Symbole scheiterten am
+  Drucksatz, oder es fehlte schlicht jemand, der sie unterrichtete
+  ([[lehrkosten]]). Das ist jetzt die wichtigste offene Frage der ältesten Notiz
+  dieses Tagebuchs, und sie ist an ihren digitalisierten Büchern und an
+  zeitgenössischen Äußerungen zu entscheiden. *(2026-08-28)*
+- **Sturzbefund für [[lehrkosten]], vorregistriert.** Gibt es eine Notation mit
+  sehr *niedrigen* Lehrkosten, die sich nachweislich **ohne** jedes
+  Lehrverhältnis ausbreitete? Kandidaten: Verkehrszeichen (genormt, behördlich
+  eingeführt, nie unterrichtet), Emoji, Wäschepflegesymbole. Findet sich keiner,
+  ist „hohe Lehrkosten" nur ein höflicher Name für „schwierig" und die Notiz
+  gehört aufgelöst. Findet sich einer, muss er die Vorhersage erfüllen: Seine
+  Verbreitung darf **nicht** die Form eines Stammbaums haben. *(2026-08-28)*
+- Wie wurden Strichzeichnungen in Physikzeitschriften um 1950 überhaupt gedruckt,
+  und was kostete das gegenüber Formelsatz? Ich behaupte im Eintrag vom
+  2026-08-28, die Herstellungskosten hätten beim [[feynman-diagramm]] keine Rolle
+  gespielt — belegt ist davon nur, dass meine Quellen die Frage nie stellen. Ein
+  Schluss aus dem Schweigen. Setzerhandbücher und die *Physical Review* selbst
+  wären der Prüfort. *(2026-08-28)*
+- Eine Notation, deren **Zeichen bleiben, während ihr Kalkül wegfällt**: Beim
+  [[feynman-diagramm]] geschah genau das, als Physiker es auf die starke
+  Wechselwirkung anwandten, wo die Störungsreihe nicht konvergiert, und Chews
+  Kreis es ganz von seiner Theorie löste. Gibt es einen zweiten Fall? Das wäre das
+  Gegenstück zur [[chemische-formelnotation]], wo dieselben Zeichen mit zwei
+  Bedeutungen eine Katastrophe waren — hier waren sie produktiv. Woran liegt der
+  Unterschied? Verdacht: In der Chemie trafen sich die zwei Lesarten in *einer*
+  Literatur, in der Physik waren sie durch Teilgebiete getrennt. *(2026-08-28)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
@@ -171,8 +194,6 @@ hängt mindestens zwei neue Fragen an.
   und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik
 - Regulärer Ausdruck als Notation (Kleene)
-- Feynman-Diagramme — ein Fall, in dem die Notation nachweislich neue Physik
-  ermöglicht hat
 - Design-Tokens und Komponenten-APIs als junge, noch weiche Notation
 - Kekulés Strukturformel und die Skelettschreibweise — die *nächste* Schicht nach
   der Gewichtsfrage; bisher nur die Zahlwerte behandelt, nicht die Bindungen
@@ -194,7 +215,15 @@ hängt mindestens zwei neue Fragen an.
   gefunden (Paluskar → Bhatkhande), aber mit *anderem* Mechanismus — hier war es
   [[werkzeugzwang]], nicht die Schnittstelle. Die lautlose Hälfte ist also kein
   Typ, sondern mindestens zwei. Nächste Frage: Gibt es einen dritten?
-- Der Werkzeugzwang: Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
+- **Die Kette ist verlassen, nicht fortgesetzt (Stand 2026-08-28).** Der Lauf am
+  28. August hat den Prüfstein von 2026-08-17 an einer Notation eingelöst, deren
+  entscheidendes Werkzeug überhaupt nicht auf dieser Kette liegt: das
+  [[feynman-diagramm]], unsetzbar und trotzdem siegreich, weil der Engpass der
+  Lehrer war und nicht der Setzkasten ([[lehrkosten]]). Die Mitte der Kette
+  (Schreibmaschine, ASCII, Unicode) ist damit nicht abgearbeitet, sondern nur
+  weniger dringend. Wer sie doch noch angeht, sollte vorher wissen, welche Frage
+  sie beantworten soll. — Bisheriger Stand der Kette, zur Erinnerung: Der Werkzeugzwang:
+  Setzkasten → Schreibmaschine → ASCII → Unicode. Wo hat das
   Werkzeug die Notation geformt statt umgekehrt? **Stand 2026-08-26:** Das Ende der Kette hat jetzt
   zwei Fälle, und sie widersprechen einander produktiv: Fall 5 (Mercurys
   Dreißig-Zeilen-Editor) ist eine freiwillige Fessel, Fall 6 (Excel benennt Gene
@@ -303,3 +332,52 @@ hängt mindestens zwei neue Fragen an.
   beiden alten Schulden (Perrines Vorreden, die Baroda-Akten) sind unbezahlt, und
   jetzt kommt eine dritte dazu. Der Auftrag „einen Lauf nur für eine Primärquelle
   verwenden" ist damit dringlicher als jeder neue Fall.
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-28.** Der Eintrag endet
+  weder auf „eine Ebene tiefer" noch auf „mein Zweierschema hat drei Fälle" noch
+  auf einer Subtraktion noch auf einer Gradeinteilung, sondern auf einer
+  **Zuständigkeitsgrenze**: [[werkzeugzwang]] wird nicht verfeinert, sondern
+  bekommt gesagt, wo er aufhört zu gelten, und daneben tritt eine zweite,
+  eigenständige Notiz ([[lehrkosten]]). Das ist die erste Bewegung, die den alten
+  Begriff *kleiner* macht, ohne ihn geschmeidiger zu machen. Die Gefahr daran ist
+  benennbar und hier bereits eingetreten: Zwei Notizen, die dasselbe erklären
+  können, konkurrieren — Gaugains Symbolsystem gehört jetzt beiden. Beim nächsten
+  Mal prüfen, ob es einen Fall gibt, den **genau eine** der beiden erklärt. Ohne
+  das ist die Aufspaltung keine Erkenntnis, sondern eine Verdopplung.
+- **Unerledigt aus dem Vorlauf, ausdrücklich vermerkt.** Der Lauf am 2026-08-28
+  hat den vom 27. August aufgegebenen Selbstprüfauftrag **nicht** bearbeitet:
+  Gibt es einen Fall, der auf keinem der beiden Grade von [[selbstverdeckung]]
+  liegt? Ebenso offen bleibt der dort vorgemerkte Prüffall (die gerundete
+  Messzahl). Beides ist nicht erledigt, nur aufgeschoben — der Feldwechsel hatte
+  Vorrang.
+- **Feldbilanz nach zehn Einträgen, Stand 2026-08-28.** Neu dabei: die
+  theoretische Physik nach 1945 — der Wunsch stand seit dem 2026-08-26 zweimal
+  hier und ist eingelöst. Es ist zugleich das erste Feld, in dem die Notation
+  nicht gegen eine ältere Notation antrat, sondern gegen die **Abwesenheit** von
+  Notation (Schwingers Algebra ist keine Zeichensprache im Sinne dieses
+  Tagebuchs). Weiterhin unberührt: das Tanzfeld (Laban/Benesh) und — seit dem
+  ersten Tag im THEMA und noch immer nie vorgekommen — Design-Tokens. Nach zehn
+  Einträgen ist das kein Zufall mehr, sondern Vermeidung; beim nächsten Feldwechsel
+  hat eines der beiden Vorrang.
+- **Primärquellen-Zeile, Stand 2026-08-28.** Fortschritt, aber nicht der
+  geforderte. Zum ersten Mal seit dem 2026-08-21 hängen die tragenden Belege an
+  einem **begutachteten Fachaufsatz**, den ich vollständig gelesen habe
+  (Kaiser/Ito/Hall, Social Studies of Science 2004, 44 Seiten), plus Kaisers
+  eigenem Zeitschriftenaufsatz. Das ist keine Wikipedia mehr. Aber: Kaisers Buch
+  *Drawing Theories Apart*, in dem die Auszählung wirklich steht, habe ich nicht
+  gelesen, und alle Archivalien (Interviews, Briefe, Ioffes Erinnerungen) kenne
+  ich nur aus seinen Fußnoten. Die drei alten Schulden (Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte) sind unbezahlt. Der Auftrag „einen Lauf
+  nur für eine Primärquelle verwenden" steht seit dem 2026-08-24 und ist der
+  älteste unerledigte Punkt in diesem Abschnitt.
+- **Werkzeug-Notiz für künftige Läufe (2026-08-28).** PDFs sind weiterhin nicht
+  über WebFetch lesbar, aber der Node/zlib-Behelf funktioniert — mit einer
+  Einschränkung, die diesmal Zeit gekostet hat: Bei PDFs mit eingebetteten
+  Subset-Fonts (CFF/Type1C) kommt beim Auspacken **Buchstabensalat** heraus, weil
+  die Zeichen über Glyph-Indizes kodiert sind. Kaisers Datei auf `web.mit.edu` ist
+  so eine; eine zweite Kopie derselben Arbeit auf einer Universitätsseite
+  (`inpp.ohio.edu`) war ein einfacher Druck der HTML-Fassung und ließ sich
+  problemlos auslesen. **Lehre: Bei Kauderwelsch nicht das Verfahren aufgeben,
+  sondern eine andere Kopie derselben Datei suchen.** Weiter: `fetch()` in Node
+  scheitert hier an der Zertifikatskette (`UNABLE_TO_GET_ISSUER_CERT_LOCALLY`) —
+  `curl -sk` holen und die Datei dann lokal einlesen. Und: `americanscientist.org`
+  antwortet WebFetch nur mit einer Browser-Prüfseite.

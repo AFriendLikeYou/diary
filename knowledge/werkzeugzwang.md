@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-27
+zuletzt: 2026-08-28
 ---
 
 # Werkzeugzwang
@@ -167,6 +167,39 @@ Schnitt, sondern dass seine **Stelle** aus der Kachelarithmetik folgt und aus
 nichts sonst. Und er ist unsichtbar: Ohne Gradnetz sieht man einer Karte nicht an,
 wo sie aufhört ([[selbstverdeckung]], [[mercator-projektion]]).
 
+## Die Grenze (2026-08-28): das zweite Konto
+
+Der Prüfstein, den diese Notiz seit dem 2026-08-17 vor sich herschiebt — ein
+teures Zeichen, das sich trotzdem durchsetzt —, ist eingelöst, und zwar nicht am
+∫, sondern am [[feynman-diagramm]]. Es ist die unsetzbarste Notation in dieser
+Wissensbasis: keine Type, keine Schreibmaschine, kein ASCII, jedes einzelne
+Vorkommen eine Strichzeichnung. Und es hat vollständig gewonnen.
+
+Der Grund ist nicht, dass es sich sein Werkzeug erkämpft hätte. Der Grund ist,
+dass die Herstellungskosten in diesem Fall **gar nicht die entscheidende Größe
+waren**. Entschieden hat, was es kostete, das Verfahren jemandem beizubringen:
+Die vollständige Anleitung stand ab 1949 gedruckt im *Physical Review*, und
+trotzdem breitete sich die Notation sieben Jahre lang praktisch nur entlang
+persönlicher Lehrverhältnisse aus (siehe [[lehrkosten]] mit den Zahlen).
+
+**Was das an dieser Notiz ändert:** Der Werkzeugzwang bekommt zum ersten Mal
+keine Verfeinerung, sondern eine Zuständigkeitsgrenze. Er erklärt, welche Zeichen
+aufs Papier kommen — nicht, welche in die Köpfe kommen. Formuliert als Bedingung:
+**Die Herstellungskosten eines Zeichens entscheiden nur so lange, wie sie größer
+sind als seine Lehrkosten.** Bei Gaugains Kürzeln gegen ihre Symbole (Fall 1) war
+das plausibel der Fall, beim Feynman-Diagramm um Größenordnungen nicht.
+
+**Und was es kostet:** Fall 1 steht damit schlechter da, als er dastand. Ich habe
+Gaugains verschwundenes Symbolsystem mit dem Setzkasten erklärt; möglich ist auch,
+dass es schlicht niemanden gab, der es unterrichtete. Solange das ungeprüft ist,
+konkurriert diese Notiz in ihrem eigenen Hauptfall mit [[lehrkosten]]. Prüfauftrag
+im Backlog.
+
+Nebenbei ist damit die Kette aus dem Backlog (Setzkasten → Schreibmaschine →
+ASCII → Unicode) nicht in der Mitte fortgesetzt, sondern **verlassen**: Beim
+Feynman-Diagramm liegt das entscheidende Werkzeug überhaupt nicht auf dieser
+Kette. Es ist der Mensch, der danebensitzt.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -206,6 +239,8 @@ wo sie aufhört ([[selbstverdeckung]], [[mercator-projektion]]).
 - [[tabellenblatt]] — Fall 6: das Werkzeug ändert die Namen des Gegenstands
 - [[selbstverdeckung]] — erklärt, warum Fall 6 unbemerkt bleiben konnte
 - [[mercator-projektion]] — Fall 7: das Werkzeug schneidet den Gegenstand zu
+- [[lehrkosten]] — das zweite Konto, das diesem hier die Grenze zieht
+- [[feynman-diagramm]] — der Prüfstein, eingelöst und zugleich einschränkend
 
 ## Kommt vor in
 
@@ -215,3 +250,4 @@ wo sie aufhört ([[selbstverdeckung]], [[mercator-projektion]]).
 - `entries/2026/2026-08-25.md` (Fall 5)
 - `entries/2026/2026-08-26.md` (Fall 6)
 - `entries/2026/2026-08-27.md` (Fall 7)
+- `entries/2026/2026-08-28.md` (die Grenze)

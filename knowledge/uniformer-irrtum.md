@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-27
+zuletzt: 2026-08-28
 ---
 
 # Uniformer Irrtum ist gratis
@@ -146,6 +146,27 @@ weggelassen wurde — er kostete Platz auf einer Fläche, die scrollt. Selbstsch
 ist damit keine Eigenschaft eines Systems, sondern eine, die eine Fassung haben
 und die nächste verlieren kann. Siehe [[selbstverdeckung]].
 
+## Nachtrag 2026-08-28: Selbstschlüsselung ist nicht hinreichend
+
+Bisher stand die Einschränkung von 2026-08-20 so da, als sei ein mitgeführter
+Schlüssel die Lösung: Wo jedes Dokument seine Legende dabeihat, darf die Welt
+uneins sein. Das [[feynman-diagramm]] zeigt die andere Hälfte. Sein Schlüssel lag
+nicht nur vor — er war gedruckt, vollständig, kanonisch, aus ersten Prinzipien
+hergeleitet und in der besten Zeitschrift des Fachs zitierfähig ([[freeman-dyson]],
+Physical Review 75, 1949). Besser kann eine Notation ihren Schlüssel nicht
+mitführen.
+
+Und er hat drei Moskauer Physikern ein Jahr ganztägiger Arbeit gekostet, und Henry
+Stapp in Berkeley hat er gar nichts genützt (siehe [[lehrkosten]]). Die These
+bekommt damit eine zweite Bedingung neben der Selbstschlüsselung: Ein Schlüssel
+hilft nur, wenn er **lesbar ohne Lehrer** ist. Wo die Lehrkosten hoch sind,
+verhält sich eine vollständig dokumentierte Notation wie eine undokumentierte —
+sie erreicht nur die, die jemanden kennen.
+
+Das schwächt die These nicht, es verschiebt ihre Reichweite: Uniformität und
+Selbstschlüsselung erklären, ob eine Notation **zerfällt**. Sie erklären nicht,
+ob sie überhaupt irgendwo **ankommt**.
+
 ## Verwandt
 
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
@@ -157,6 +178,8 @@ und die nächste verlieren kann. Siehe [[selbstverdeckung]].
 - [[jane-gaugain]] — die Abkürzungstabelle vorn im Buch ist der Mechanismus
 - [[tabulatur]] — *musica ficta*: der Schlüssel lag in den Köpfen und ging mit
   ihnen verloren
+- [[lehrkosten]] — der gedruckte Schlüssel, der trotzdem nicht reichte
+- [[feynman-diagramm]] — der Fall dazu
 
 ## Kommt vor in
 
@@ -165,3 +188,4 @@ und die nächste verlieren kann. Siehe [[selbstverdeckung]].
 - `entries/2026/2026-08-21.md` (Ergänzung: Uniformität über die Zeit)
 - `entries/2026/2026-08-24.md` (Uniformität als Programm)
 - `entries/2026/2026-08-27.md` (Nachtrag: der gezeichnete Schlüssel)
+- `entries/2026/2026-08-28.md` (Nachtrag: Selbstschlüsselung reicht nicht)

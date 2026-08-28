@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-25
+zuletzt: 2026-08-28
 ---
 
 # Notation
@@ -42,6 +42,13 @@ Drei Eigenschaften, die eine Notation von bloßer Beschriftung unterscheiden:
    ([[strickschrift]], [[jane-gaugain]]).
 2. **Sie ist erblich.** Sie wird einmal entschieden und danach übernommen, nicht
    ständig neu verhandelt. Wer sie benutzt, hat die Entscheidung nicht getroffen.
+   *Nachtrag 2026-08-28:* Das ist wörtlicher gemeint, als ich es geschrieben
+   hatte. Beim [[feynman-diagramm]] hat die Vererbung Namen, Orte und
+   Jahreszahlen — über vier Fünftel der frühen Benutzer waren noch in Ausbildung,
+   ältere Physiker stiegen nicht mehr um, und wohin kein Schüler von
+   [[freeman-dyson]] zog, kam die Notation nicht. Erblichkeit ist keine Metapher
+   für „konventionell", sondern eine Aussage über Personen, und sie hat einen
+   Preis: die [[lehrkosten]].
 3. **Sie hat einen Rand.** Was sie nicht ausdrücken kann, wird nicht ausgedrückt
    — und mit der Zeit nicht gedacht. Der Rand ist ihre eigentliche Wirkung.
 
@@ -125,6 +132,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   ist, und das gilt pro Dimension
 - [[notationsabwehr]] — die Gegenbewegung zu Eigenschaft (2): Erblichkeit setzt
   voraus, dass jemand das Erbe herausgibt
+- [[lehrkosten]] — was Eigenschaft (2) im Einzelfall kostet
+- [[feynman-diagramm]] — der Fall, an dem die Erblichkeit nachzählbar wird
 - [[bhatkhande-notation]] — Raster mit nur einer bedeutungstragenden Achse
 - [[tabulatur]] — der Fall, der die fünfte Frage (Festlegung vs. Delegation)
   aufgeworfen hat
@@ -140,3 +149,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-24.md`
 - `entries/2026/2026-08-25.md`
+- `entries/2026/2026-08-28.md`
