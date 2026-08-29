@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-24
+zuletzt: 2026-08-29
 ---
 
 # Notationskrieg
@@ -148,7 +148,16 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 - QWERTY gegen alle Alternativen
 - ~~Tabulatur vs. Notenschrift~~ — **erledigt 2026-08-21**, siehe oben:
   Vorbedingung bestätigt, dafür „Krieg ≠ Verdrängung" gelernt.
-- Laban- vs. Benesh-Notation im Tanz
+- ~~Laban- vs. Benesh-Notation im Tanz~~ — **erledigt 2026-08-29**, und der
+  Ausgang ist ein dritter: weder Krieg noch Verdrängung, sondern **Teilung**.
+  Beide leben seit Jahrzehnten, beide sind gültig, und sie haben das Gebiet
+  aufgeteilt (Benesh in den Ballettkompanien, Labanotation im amerikanischen
+  Archiv- und Hochschulbetrieb). Der Grund liegt nicht im Verhältnis der beiden
+  zueinander, sondern darin, dass keine von ihnen je einen Leserkreis hatte, um
+  den sich streiten ließe — beide werden von Berufslesern bedient
+  ([[stellvertreterlesung]]). Die Auswahlbedingung unten ist damit **nicht
+  hinreichend**: Es braucht zusätzlich Leser, die selbst wählen. Drei taugliche
+  Prüffälle sind nun verbraucht, keiner mit Krieg.
 - SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
 - ~~Bhatkhande vs. Paluskar~~ — **erledigt 2026-08-24**: tauglicher Prüffall, aber
   wieder ohne Krieg. Die vier Kennzeichen bleiben unprüfbar; kB/KiB bleibt der
@@ -158,7 +167,9 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 
 Auswahlkriterium nach dem Gegenfall: Kandidaten müssen **zwei gleichzeitig
 lebende, beide gültige** Schreibweisen für dieselbe Aufgabe haben. Sonst prüfen
-sie den Begriff nicht.
+sie den Begriff nicht. **Ergänzung 2026-08-29:** und sie müssen einen Leserkreis
+haben, der zwischen beiden wählen kann. Wo stellvertretend gelesen wird, kann es
+keinen Krieg geben, weil die Betroffenen keine Partei sind.
 
 ## Verwandt
 
@@ -172,6 +183,8 @@ sie den Begriff nicht.
 - [[stanislao-cannizzaro]] — die Gegeninstanz zu Kennzeichen 4
 - [[strickschrift]] — der Fall ohne Krieg, zweiter Typ von Dauerkoexistenz
 - [[handlungs-vs-ergebnis-notation]] — liefert die zweite Vorbedingung
+- [[stellvertreterlesung]] — liefert die dritte: Wo stellvertretend gelesen wird,
+  sind die Betroffenen keine Partei, und es kann keinen Krieg geben
 - [[tabulatur]] — dritter Prüffall; bestätigt die Vorbedingung und zeigt, dass
   Verdrängung auch ohne Krieg vorkommt
 - [[interoperabilitaetsdruck]] — ein Mechanismus der lautlosen Verdrängung
@@ -188,3 +201,4 @@ sie den Begriff nicht.
 - `entries/2026/2026-08-21.md` (dritter Prüffall; Krieg ≠ Verdrängung)
 - `entries/2026/2026-08-24.md` (vierter Prüffall; zwei Mechanismen der lautlosen
   Hälfte)
+- `entries/2026/2026-08-29.md` (fünfter Prüffall; Teilung als dritter Ausgang)

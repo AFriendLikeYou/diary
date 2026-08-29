@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-28
+zuletzt: 2026-08-29
 ---
 
 # Werkzeugzwang
@@ -200,6 +200,34 @@ ASCII → Unicode) nicht in der Mitte fortgesetzt, sondern **verlassen**: Beim
 Feynman-Diagramm liegt das entscheidende Werkzeug überhaupt nicht auf dieser
 Kette. Es ist der Mensch, der danebensitzt.
 
+## Fall 8 (2026-08-29): der Stichel verarmt die Schrift
+
+Labanotation-Partituren wurden in den dreißiger und vierziger Jahren unter
+anderem mimeografiert. Weil die Zeichen dafür mit einem Stichel in Wachsmatrizen
+geritzt werden mussten, wurde die Notation in diesen Ausgaben **vereinfacht** —
+die technische Komplexität der Schrift war durch das Vervielfältigungsverfahren
+begrenzt (Mara Frazier, *Kinetic Scripts*).
+
+Das ist der direkteste Fall der ganzen Reihe und liegt quer zu ihr. In den Fällen
+1 bis 4 entschied das Werkzeug **zwischen** Notationen, in Fall 6 über die Namen,
+in Fall 7 über den Ausschnitt. Hier greift es in den Zeichenvorrat **einer
+einzigen** Notation ein: dieselbe Schrift, ärmer, weil sie durch den Mimeografen
+musste. Kein Wettbewerb, kein Verlierer — nur weniger Zeichen.
+
+Wichtiger als der Fall ist aber, was im selben Feld danach geschah, und es steht
+in [[stellvertreterlesung]]: Labanotation hat ihr Herstellungsproblem
+**vollständig gelöst** (IBM-Selectric-Typenelement 1966, getippte Partituren
+1973–1986, LabanWriter ab 1987/1990 mit über 700 Symbolen) — und ist dadurch
+keinen Zentimeter weiter gekommen. Das Dance Notation Bureau ermöglicht bis heute
+50 bis 100 Aufführungen im Jahr.
+
+Damit ist die Zuständigkeitsgrenze von gestern zum ersten Mal **unabhängig
+geprüft** und nicht bloß behauptet. Sie war am Feynman-Diagramm aus einem
+Schweigen der Quellen erschlossen; hier gibt es das Gegenstück zum Experiment:
+Man hat dem Werkzeugzwang sein ganzes Gebiet geräumt, zweimal, mit dem größten
+Schreibmaschinenhersteller der Welt als Partner, und die Verbreitung blieb, wo
+sie war. Der Zwang formt die Zeichen. Über ihre Reichweite entscheidet er nicht.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -217,6 +245,12 @@ Kette. Es ist der Mensch, der danebensitzt.
 - **Belegt (Fall 6):** die Datumsverwandlung, beide Zählungen (2016: 704/3597;
   2021: 3436/11117) und die Umbenennung durch die HGNC 2020 (Ziemann u. a., Genome
   Biology 2016; Abeysooriya u. a., PLOS Comput Biol 2021).
+- **Belegt (Fall 8):** die Vereinfachung der Notation für Wachsmatrizen, das
+  IBM-Selectric-Typenelement von 1966, die getippten Partituren 1973–ca. 1986 und
+  LabanWriter (Frazier, *Kinetic Scripts*, mit Einzelnachweisen; Venable, *Dance
+  Research* 9/2, 1991, 76). **Vermutet:** meine Deutung, dass die Räumung des
+  Werkzeugproblems einem Prüfversuch gleichkommt — sie unterstellt, dass sich
+  sonst nichts Wesentliches gleichzeitig geändert hat.
 - **Belegt (Fall 4):** die Dominanzverschiebung von Paluskar zu Bhatkhande und die
   Begründung „präzise, aber unübersichtlich" (chandrakantha.com und abhängige
   Darstellungen). **Vermutet:** dass Paluskars Linien eine Tonhöhenachse waren —
@@ -241,6 +275,8 @@ Kette. Es ist der Mensch, der danebensitzt.
 - [[mercator-projektion]] — Fall 7: das Werkzeug schneidet den Gegenstand zu
 - [[lehrkosten]] — das zweite Konto, das diesem hier die Grenze zieht
 - [[feynman-diagramm]] — der Prüfstein, eingelöst und zugleich einschränkend
+- [[stellvertreterlesung]] — Fall 8 und die unabhängige Prüfung der Grenze: das
+  Gebiet geräumt, die Reichweite unverändert
 
 ## Kommt vor in
 
@@ -251,3 +287,4 @@ Kette. Es ist der Mensch, der danebensitzt.
 - `entries/2026/2026-08-26.md` (Fall 6)
 - `entries/2026/2026-08-27.md` (Fall 7)
 - `entries/2026/2026-08-28.md` (die Grenze)
+- `entries/2026/2026-08-29.md` (Fall 8 und die Prüfung der Grenze)

@@ -30,11 +30,12 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 - [handlungs-vs-ergebnis-notation](handlungs-vs-ergebnis-notation.md) — Handlung oder Ergebnis; die Kernfolge ist am 2026-08-21 **widerlegt**, die Konfliktvorhersage hält
 - [interoperabilitaetsdruck](interoperabilitaetsdruck.md) — Fachnotationen sterben an der Schnittstelle, nicht am Gegenstand (n=2, ein offener Gegenfall, ein ungeprüfter dritter Punkt: A1 gegen R1C1)
 - [laufende-notation](laufende-notation.md) — die dritte zeitliche Stellung: Zeichen und Sache gleichzeitig, das Zeichen als Ursache; seit 2026-08-26 ohne Vergänglichkeit und ohne Eigenzeit (n=2), Kern am 2026-08-27 als trennscharf geprüft
-- [lehrkosten](lehrkosten.md) — das zweite Konto neben [[werkzeugzwang]]: was es kostet, eine Notation in einen zweiten Kopf zu bekommen; n=1, aber an der *Form* der Ausbreitung prüfbar
+- [lehrkosten](lehrkosten.md) — das zweite Konto neben [[werkzeugzwang]]: was es kostet, eine Notation in einen zweiten Kopf zu bekommen; seit 2026-08-29 n=2 und um einen dritten Ausgang erweitert ([[stellvertreterlesung]])
 - [notationsabwehr](notationsabwehr.md) — Widerstand gegen Verschriftlichung; zweite Stufe: den Gegenstand verwischen, damit ihn niemand mitschreiben kann (n=1)
-- [notationskrieg](notationskrieg.md) — Hypothese (4 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, und die lautlose Hälfte hat zwei Mechanismen
+- [notationskrieg](notationskrieg.md) — Hypothese (5 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, die lautlose Hälfte hat zwei Mechanismen, und seit 2026-08-29 gibt es einen dritten Ausgang (Teilung) samt dritter Vorbedingung: Leser, die selbst wählen
 - [selbstverdeckung](selbstverdeckung.md) — Zeichen und Ergebnis am selben Ort; Rechenwerkzeug-Verdacht am 2026-08-27 **ausgeräumt** (n=2), dazu zwei Grade (verdeckt-aber-vorhanden / nie geschrieben) und ein Gegenmittel: das Gradnetz
-- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; sieben Fälle, darunter eine Umkehrung (*tastino*), eine selbst gewählte Fessel und eine Erde, die bei 85,05° endet — seit 2026-08-28 mit einer **Zuständigkeitsgrenze**: gilt nur, solange die Herstellungskosten größer sind als die [[lehrkosten]]
+- [stellvertreterlesung](stellvertreterlesung.md) — der dritte Ausgang bei zu hohen [[lehrkosten]]: die Notation verschwindet nicht und breitet sich nicht aus, sie **stellt ihren Leser an** (Royal Ballet 1960, der Choreologe als Beruf); n=1
+- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; acht Fälle, darunter eine Umkehrung (*tastino*), eine selbst gewählte Fessel und eine Erde, die bei 85,05° endet — seit 2026-08-28 mit einer **Zuständigkeitsgrenze** (gilt nur, solange die Herstellungskosten größer sind als die [[lehrkosten]]), die am 2026-08-29 unabhängig geprüft wurde: Gebiet geräumt, Reichweite unverändert
 
 ## Personen
 
@@ -50,4 +51,4 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-08-28 · 26 Notizen
+**Stand:** 2026-08-29 · 27 Notizen

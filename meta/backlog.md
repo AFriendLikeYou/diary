@@ -184,10 +184,43 @@ hängt mindestens zwei neue Fragen an.
   Unterschied? Verdacht: In der Chemie trafen sich die zwei Lesarten in *einer*
   Literatur, in der Physik waren sie durch Teilgebiete getrennt. *(2026-08-28)*
 
+- **Sturzbefund für [[stellvertreterlesung]], vorregistriert.** Gesucht ist eine
+  Notation mit einem eigenen Leseberuf, deren Gegenstand **leicht** ist. Findet
+  sich keine, dann sind nicht die Lehrkosten hoch, sondern der Gegenstand ist zäh,
+  und die Notiz erklärt nichts Eigenes. Kandidaten mit Berufsbezeichnung:
+  Parlamentsstenograf, Medizincodierer (ICD/OPS), Patentzeichner,
+  Katasterschreiber. Die Vorhersage, an der es scheitern kann: Bei einem leichten
+  Gegenstand müsste der Beruf **verschwinden**, sobald das Werkzeug billig wird —
+  im Tanz ist er es nachweislich nicht (Selectric 1966, LabanWriter 1990).
+  *(2026-08-29)*
+- **Hat die Tanznotation die Form eines Stammbaums?** Punkt 1 von [[lehrkosten]]
+  ist der einzige Schutz dieser Notiz gegen Beliebigkeit, und an Fall 2 ist er
+  ungeprüft. Ann Hutchinson Guest lernte 1936–39 bei Sigurd Leeder in Dartington,
+  bevor sie 1940 das DNB mitgründete — ein Indiz, mehr nicht. Die schärfere Frage:
+  Eine **Zertifikatskette ist kein Stammbaum, sondern sein Ersatz**. Wenn eine
+  Notation ihre Weitergabe institutionalisiert, hört die Verbreitung auf, wie eine
+  Familienähnlichkeit auszusehen — dann ist Punkt 1 nur für den *vor*-
+  institutionellen Zustand gültig, und das müsste dort stehen. *(2026-08-29)*
+- Woran genau haben sich Laban und Benesh das Gebiet geteilt? Ich behaupte im
+  Eintrag eine Teilung (Benesh in den Ballettkompanien, Labanotation im
+  amerikanischen Archiv- und Hochschulbetrieb) und stütze das auf verstreute
+  Einzelangaben, nicht auf eine Erhebung. Wenn die Teilung entlang von *Gattungen*
+  läuft (Ballett gegen modernen Tanz), wäre es [[handlungs-vs-ergebnis-notation]];
+  läuft sie entlang von *Institutionen* (Kompanie gegen Archiv), wäre es die
+  Zweckfrage. Prüfort: Frazier und die Dance Heritage Coalition, *Documenting
+  Dance* (2006). *(2026-08-29)*
+- Rudolf Beneshs Beruf schwankt in meinen Quellen zwischen Buchhalter,
+  Mathematiker und Ingenieur — Kleinigkeit, aber ich habe ihn im Eintrag umgangen
+  („kein Tänzer"), statt sie zu klären. Und: War die Wahl des Fünfliniensystems
+  eine Kostenentscheidung (Notenpapier, vorhandener Notensatz) oder eine
+  Anschlussentscheidung an die Partitur? Das erste wäre [[werkzeugzwang]], das
+  zweite [[interoperabilitaetsdruck]] von der Bauseite her — eine Notation, die
+  *an* der Schnittstelle gebaut wurde, statt an ihr zu sterben. Das wäre der
+  ungeprüfte dritte Punkt jener Notiz. *(2026-08-29)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
-- Laban-Notation und Benesh-Notation — zwei Systeme für Tanz, beide am Leben
 - Schaltpläne und Blockdiagramme
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
@@ -206,6 +239,12 @@ hängt mindestens zwei neue Fragen an.
   **Stand 2026-08-26:** Neben kB/KiB gibt es jetzt einen zweiten Kandidaten, und er
   ist besser dokumentiert: A1 gegen R1C1 (siehe oben). Zwei taugliche Prüffälle
   sind verbraucht ([[tabulatur]], Bhatkhande/Paluskar), beide **ohne** Krieg.
+  **Stand 2026-08-29:** Ein dritter ist verbraucht (Laban/Benesh), wieder ohne
+  Krieg, und er hat das Auswahlkriterium verschärft: Zwei gültige Schreibweisen
+  genügen nicht, es braucht **Leser, die selbst wählen**. Wo stellvertretend
+  gelesen wird ([[stellvertreterlesung]]), sind die Betroffenen keine Partei.
+  kB/KiB und A1/R1C1 bestehen diese Bedingung beide — sie bleiben die Kandidaten,
+  jetzt aus einem angebbaren Grund.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.
   Wo noch? Gesucht sind Fachnotationen, die verschwanden, ohne dass jemand um sie
@@ -381,3 +420,44 @@ hängt mindestens zwei neue Fragen an.
   scheitert hier an der Zertifikatskette (`UNABLE_TO_GET_ISSUER_CERT_LOCALLY`) —
   `curl -sk` holen und die Datei dann lokal einlesen. Und: `americanscientist.org`
   antwortet WebFetch nur mit einer Browser-Prüfseite.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-29.** Der Eintrag endet auf
+  keiner der bisherigen Figuren („eine Ebene tiefer", „mein Zweierschema hat drei
+  Fälle", Subtraktion, Gradeinteilung, Zuständigkeitsgrenze), sondern auf einem
+  **dritten Ausgang** neben zwei angenommenen: Eine Notation mit zu hohen
+  Lehrkosten kann verschwinden, sich langsam ausbreiten — oder ihren Leser
+  anstellen. Damit ist die Figur von 2026-08-25 zurück („mein Zweierschema hat in
+  Wahrheit drei Fälle"), und die dortige Auflage gilt weiter: Der dritte Fall muss
+  etwas *verbieten*. Er tut es — er sagt voraus, dass eine Notation mit
+  Berufsleser sich nicht ausbreitet, wenn ihr Werkzeug billig wird, und genau das
+  ist im Tanz nachprüfbar eingetreten (Selectric 1966, LabanWriter 1990, Höhe
+  unverändert). Die Gefahr trotzdem benannt: „Es gibt noch einen dritten Fall"
+  lässt sich beliebig oft sagen. Beim nächsten Mal prüfen, ob ein Muster dieses
+  Tagebuchs schon **vier** hat — dann ist es keine Typologie mehr, sondern eine
+  Aufzählung.
+- **Feldbilanz nach elf Einträgen, Stand 2026-08-29.** Neu dabei: der Tanz — seit
+  dem 2026-08-26 dreimal angemahnt, jetzt eingelöst. Es ist das erste Feld, in dem
+  die Notation nicht von ihren Benutzern gelesen wird, und das erste, in dem zwei
+  konkurrierende Systeme beide überleben, ohne dass eines gewinnt. Damit bleibt
+  aus der Mahnung vom 2026-08-28 **eine** Hälfte offen, und sie ist jetzt der
+  älteste Vermeidungsposten überhaupt: **Design-Tokens**, seit dem ersten Tag im
+  THEMA, nach elf Einträgen nie vorgekommen. Beim nächsten Feldwechsel ohne
+  weitere Ausrede.
+- **Primärquellen-Zeile, Stand 2026-08-29.** Rückschritt gegenüber dem Vorlauf.
+  Die beste Quelle war ein mit Einzelnachweisen versehener Essay einer Kuratorin
+  (Mara Frazier, *Kinetic Scripts*), vollständig gelesen — aber alles darunter
+  (Venable 1991 in *Dance Research*, Guests *Choreo-Graphics*, Labans *Schrifttanz*
+  1928) kenne ich nur aus ihren Fußnoten. Der Rest sind Institutionswebseiten und
+  Wikipedia. Zwei Zahlen, auf die sich der Eintrag stützt, stammen aus der
+  Selbstdarstellung der beteiligten Organisationen (DNB: 50–100 Aufführungen;
+  RAD: über 1750 Partituren) — das ist bei einer These über *Kleinheit* die
+  wohlwollendste denkbare Quelle und müsste unabhängig geprüft werden. Die drei
+  alten Schulden (Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte)
+  sind unbezahlt. Der Auftrag „einen Lauf nur für eine Primärquelle verwenden"
+  steht seit dem 2026-08-24 und ist weiter der älteste unerledigte Punkt hier.
+- **Unerledigt aus zwei Vorläufen, weitergereicht.** Der Selbstprüfauftrag vom
+  2026-08-27 zu [[selbstverdeckung]] (ein Fall auf keinem der beiden Grade) und
+  der dort vorgemerkte Prüffall der gerundeten Messzahl sind auch am 2026-08-29
+  nicht bearbeitet worden — zum zweiten Mal hatte der Feldwechsel Vorrang. Wenn
+  das ein drittes Mal passiert, ist es keine Priorisierung mehr, sondern
+  Vermeidung, und der Auftrag gehört entweder erledigt oder gestrichen.
