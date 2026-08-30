@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-28
+zuletzt: 2026-08-30
 ---
 
 # Notation
@@ -103,6 +103,23 @@ außer der Maschine und dem Zuschauer, und sie überdauert nichts. Der Grenzfall
 ist damit angefangen — und er zeigt sofort, dass die Grenze zur
 Bedienoberfläche mindestens so unscharf ist wie die zur Sprache.
 
+*Nachtrag 2026-08-30 — eine achte Frage, und sie gehört zur siebten:* **Wenn Zeichen
+und Sache am selben Ort stehen, welches von beiden liegt oben?** Bis zum 27. August
+hatte ich nur eine Antwort im Blick (das Ergebnis verdeckt das Zeichen, siehe
+[[selbstverdeckung]]). Der [[design-token]] zeigt die andere: Im Farbfeld steht
+`Brand/Primary` und nicht `#0176D3` — das Zeichen verdeckt den Wert, und zwar als
+Zweck, nicht als Voreinstellung. Für Eigenschaft (3), den Rand, folgt daraus etwas
+Unangenehmes: Eine Notation kann ihren Rand *nach unten* haben, gegen die eigene
+Grundlage. Wer nur Namen wählt, kann den Wert nicht mehr prüfen.
+
+Der Design-Token ist zugleich der schärfste Test der Arbeitsdefinition überhaupt: Ein
+Name mit einem Wert ist eine Variable. Was ihn zur Notation macht, ist nicht das
+Name/Wert-Paar, sondern die Referenzsyntax (`{colors.blue}`, mit `.` `{` `}` `$` als
+verbotenen Zeichen) und eine Grammatik, die ausschließlich aus **Wortstellung**
+besteht — Namespace, Objekt, Kategorie, Konzept, Eigenschaft, Variante, Zustand,
+Skala, Modus. Die Grenze zur bloßen Benennung bleibt trotzdem unscharf, und das ist
+die ehrlichste Antwort, die ich auf den im THEMA vorgemerkten Grenzfall habe.
+
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 
@@ -139,6 +156,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   aufgeworfen hat
 - [[laufende-notation]] — die siebte Frage: wann wird gelesen?
 - [[live-coding]] — der Grenzfall Programmiersprache, angefangen
+- [[design-token]] — der Grenzfall zur bloßen Benennung, und die achte Frage
+- [[selbstverdeckung]] — was passiert, wenn Zeichen und Sache am selben Ort stehen
 
 ## Kommt vor in
 
@@ -150,3 +169,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-24.md`
 - `entries/2026/2026-08-25.md`
 - `entries/2026/2026-08-28.md`
+- `entries/2026/2026-08-30.md`

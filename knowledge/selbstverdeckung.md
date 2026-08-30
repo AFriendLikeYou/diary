@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-08-27
+zuletzt: 2026-08-30
 ---
 
 # Selbstverdeckung
@@ -81,6 +81,41 @@ Grad 2 ist der teurere und, soweit ich sehe, der ältere. Die Vorhersage oben gi
 für beide, wird für Grad 2 aber schärfer: Dort gibt es keine Quelldatei, die man
 sich geben lassen könnte.
 
+## Die zweite Achse: Richtung (2026-08-30)
+
+Die beiden Grade oben setzten stillschweigend voraus, dass immer **das Zeichen** das
+Verdeckte ist und das Ergebnis das Verdeckende. Das ist nicht so. Der [[design-token]]
+dreht es um: Im Farbfeld eines Designwerkzeugs steht `Brand/Primary` statt `#0176D3`.
+Derselbe Ort, dieselbe Ausschließlichkeit — aber hier verdeckt das Zeichen den Wert.
+Der Vergleich trägt, weil der Hexwert selbst ein Zeichen ist: Verdeckt wird Zeichen
+durch Zeichen, und welches oben liegt, entscheidet das Werkzeug.
+
+Bewusst **kein dritter Grad**, sondern eine zweite Achse. Ein Muster, das jeden neuen
+Fall als weiteren Grad aufnimmt, ist eine Aufzählung, keine Typologie.
+
+- **Grad** (verdeckt-aber-vorhanden / nie geschrieben): wie tief das Verdeckte liegt.
+- **Richtung** (Ergebnis über Zeichen / Zeichen über Wert): was verdeckt wird.
+
+Dazu ein Unterschied, der nicht in die Achsen passt, aber dazugehört: Beim
+[[tabellenblatt]] und bei der [[mercator-projektion]] ist das Verdecken ein Unfall
+oder eine Voreinstellung, beim Design-Token ist es der **verkaufte Vorteil**. Wer
+`text-secondary` schreibt, soll den Grauwert nicht kennen. Der Satz weiter unten
+unter „Verwandt", Selbstverdeckung geschehe „ohne Absicht", gilt seit heute nur noch
+für die eine Richtung.
+
+## Die Vorhersage, richtungsabhängig (2026-08-30)
+
+Die Vorhersage oben hält in beiden Richtungen, aber sie sagt verschiedene Fehler
+voraus:
+
+- **Ergebnis über Zeichen → Rechenfehler.** Findet, wer sich die Quelldatei geben
+  lässt (Herndon 2013).
+- **Zeichen über Wert → Bedeutungsfehler.** Der Wert ist richtig berechnet und
+  trotzdem falsch gewählt; kein Leser findet das, nur ein Messgerät. Beleg:
+  Salesforce empfiehlt heute, die eigenen Design-Tokens zugunsten der „global color
+  styling hooks" zu verlassen, um die Kontrastanforderungen der WCAG 2.1 einzuhalten.
+  Die Namen stimmten. Die Farben dahinter nicht.
+
 ## Das Gegenmittel (2026-08-27)
 
 Die Karte hat etwas, das dem [[tabellenblatt]] fehlt: das **Gradnetz**. Es ist die
@@ -97,7 +132,13 @@ mitgeführten Legende zu keiner.
 
 ## Was weiter dagegen spricht
 
-**n=2, und die beiden Fälle sind ungleich.** Beim Tabellenblatt ist die verdeckte
+**n=3, und der dritte ist der ungleichste.** Beim [[design-token]] ist die verdeckte
+Sache der Wert, nicht die Regel und nicht die Formel; wer das Muster eng fasst („das
+Zeichen verschwindet hinter seinem Ergebnis"), muss den Fall verwerfen. Ich fasse es
+weit, weil die Struktur — zwei Zeichen, ein Ort, eines sichtbar — identisch ist und
+die Vorhersage in beiden Richtungen etwas verbietet.
+
+**Die alte Sorge, unverändert:** Beim Tabellenblatt ist die verdeckte
 Sache ein geschriebenes Zeichen in der Notation; bei der Karte ist sie die *Regel*
 der Notation, kein Zeichen in ihr. Wer diesen Unterschied für wesentlich hält,
 muss den Kartenfall verwerfen — dann steht die Notiz wieder bei n=1. Ich halte ihn
@@ -122,7 +163,9 @@ irgendwer sie umgedreht.
   der Gegenstand flüchtig, hier genau umgekehrt
 - [[adressierbarkeit]] — man kann in die Zelle zeigen, aber nicht in sie hineinsehen
 - [[notationsabwehr]] — verwandt im Effekt, nicht im Motiv: dort wird der
-  Gegenstand absichtlich verwischt, hier verdeckt die Notation sich ohne Absicht
+  Gegenstand absichtlich verwischt, hier verdeckt die Notation sich ohne Absicht —
+  *seit 2026-08-30 eingeschränkt: das gilt nur für die Richtung Ergebnis über Zeichen*
+- [[design-token]] — der Fall der anderen Richtung, und der erste mit Absicht
 - [[notation]] — betrifft die Arbeitsdefinition: was ist ein Zeichen, das man im
   Normalbetrieb nicht sieht?
 - [[mercator-projektion]] — der zweite Fall, außerhalb rechnender Werkzeuge, mit
@@ -134,3 +177,4 @@ irgendwer sie umgedreht.
 
 - `entries/2026/2026-08-26.md`
 - `entries/2026/2026-08-27.md`
+- `entries/2026/2026-08-30.md`

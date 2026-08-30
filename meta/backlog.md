@@ -116,13 +116,14 @@ hängt mindestens zwei neue Fragen an.
   es keine gibt, ist die dritte Stellung ein Kind der Rechenmaschine, und das wäre
   eine Antwort auf Leitfrage 1. *(2026-08-25)*
 
-- **Sturzbefund für [[selbstverdeckung]], zweite Runde.** Am 2026-08-27 mit der
-  Landkarte beantwortet (Muster hält, n=2). Von den drei Kandidaten sind zwei
-  offen, und der härtere ist die **gerundete Messzahl**, die ihre Rohdaten
-  ersetzt: kein Bildschirm, kein Programm, keine Fläche. Wenn Selbstverdeckung
-  auch dort greift, ist sie allgemeiner als bisher gedacht — greift sie nicht,
-  ist die Fläche eine Bedingung. Dritter Kandidat unverändert: die Ausgabe eines
-  Notensatzprogramms. *(2026-08-27)*
+- **Sturzbefund für [[selbstverdeckung]], dritte Runde — der härteste Kandidat steht
+  weiter offen.** Der Selbstprüfauftrag „ein Fall auf keinem der beiden Grade" ist am
+  2026-08-30 beantwortet ([[design-token]], die Skala hatte eine unausgesprochene
+  Richtung). Damit **nicht** erledigt ist die **gerundete Messzahl**, die ihre
+  Rohdaten ersetzt: kein Bildschirm, kein Programm, keine Fläche. Wenn
+  Selbstverdeckung auch dort greift, ist sie allgemeiner als gedacht — greift sie
+  nicht, ist die Fläche eine Bedingung. Dritter Kandidat unverändert: die Ausgabe
+  eines Notensatzprogramms. *(2026-08-27, gekürzt 2026-08-30)*
 - Wann verschwand das **Gradnetz** aus der Gebrauchskarte? Zwischen Mercator 1569
   (Gradnetz plus Legenden) und Web Mercator (nichts davon) liegen Straßenatlas,
   Stadtplan, Wanderkarte. Lässt sich ein Zeitpunkt oder ein Anlass finden, wäre
@@ -218,6 +219,42 @@ hängt mindestens zwei neue Fragen an.
   *an* der Schnittstelle gebaut wurde, statt an ihr zu sterben. Das wäre der
   ungeprüfte dritte Punkt jener Notiz. *(2026-08-29)*
 
+- **Sturzbefund für die Richtungsachse in [[selbstverdeckung]], vorregistriert.**
+  Gesucht ist ein Fall, in dem das **Zeichen den Wert verdeckt** und dabei
+  nachweislich ein Fehler entstand, den kein Leser fand — ein einzelner,
+  benennbarer Vorfall, nicht ein Systembefund. Bisher stütze ich die
+  Bedeutungsfehler-Vorhersage allein auf die Salesforce-Empfehlung, die
+  Design-Tokens zugunsten der styling hooks zu verlassen, „to align with the
+  Web Content Accessibility Guidelines (WCAG) 2.1 color contrast standards" — das
+  ist eine Diagnose des Herstellers über sein eigenes System, kein Herndon-Moment.
+  Findet sich kein Einzelfall, bleibt die Richtungsachse eine Beobachtung ohne
+  Beleg. Konkrete Frage, an der es hängt: Gibt es ein Token, das seinen Namen
+  behielt und dessen Wert so weit wanderte, dass der Name falsch wurde — ein
+  `blue`, das grün ist? *(2026-08-30)*
+- **`deprecated.json` — eine Notation mit Umleitungstabelle für ihre eigene
+  Vergangenheit.** GitHubs Primer führt eine Datei, die alte Tokennamen auf neue
+  abbildet (`text.primary` → `fg.default`). Das ist eine Institution, die ich sonst
+  nirgends in diesem Tagebuch habe: nicht ein Schlüssel für die Zeichen, sondern
+  ein Schlüssel für die **abgelegten** Zeichen, maschinenlesbar und mitversendet.
+  Gibt es einen historischen Vorläufer — Konkordanzen, Synonymtafeln, die
+  Umbenennungslisten der HGNC? Wenn ja, wäre das ein eigenes Muster neben
+  Selbstschlüsselung: die Notation trägt ihre eigene Geschichte mit.
+  *(2026-08-30)*
+- Sind Design-Tokens nach [[adressierbarkeit]] adressierbar? Sie haben keine Fläche
+  und keine Achsen, nur einen hierarchischen Namensraum. Wenn ein Namensraum als
+  Dimension zählt, ist der Begriff weiter, als er bisher gebraucht wurde (bislang
+  ging es immer um Orte auf einer Fläche); wenn nicht, müsste in dieser Notation
+  nach der eigenen Vorhersage **nicht entworfen** werden können — und das ist
+  nachprüfbar falsch, es wird durchgehend in Tokentabellen entworfen. Eines von
+  beiden gibt nach. *(2026-08-30)*
+- Was hat das Werkzeug an dieser Notation geformt? [[werkzeugzwang]] ist beim
+  [[design-token]] noch unberührt, obwohl die Kandidaten offen daliegen: die
+  Zeichenverbote der Spezifikation (`$ { } .`), die Tatsache, dass Figmas
+  Oberfläche den Namen an die Stelle des Werts setzt, und die Frage, ob CSS Custom
+  Properties die Zweiteilung primitiv/semantisch überhaupt erst ermöglicht haben.
+  Der Verdacht wäre diesmal der umgekehrte: nicht ein Werkzeug, das eine Notation
+  verarmt, sondern eines, das sie erzwingt. *(2026-08-30)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
@@ -227,7 +264,8 @@ hängt mindestens zwei neue Fragen an.
   und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik
 - Regulärer Ausdruck als Notation (Kleene)
-- Design-Tokens und Komponenten-APIs als junge, noch weiche Notation
+- Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
+  2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht
 - Kekulés Strukturformel und die Skelettschreibweise — die *nächste* Schicht nach
   der Gewichtsfrage; bisher nur die Zahlwerte behandelt, nicht die Bindungen
 
@@ -461,3 +499,45 @@ hängt mindestens zwei neue Fragen an.
   nicht bearbeitet worden — zum zweiten Mal hatte der Feldwechsel Vorrang. Wenn
   das ein drittes Mal passiert, ist es keine Priorisierung mehr, sondern
   Vermeidung, und der Auftrag gehört entweder erledigt oder gestrichen.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-30.** Der Eintrag endet auf
+  einer Bewegung, die es hier noch nicht gab: nicht „eine Ebene tiefer", nicht
+  „mein Zweierschema hat drei Fälle", keine Subtraktion, keine Gradeinteilung,
+  keine Zuständigkeitsgrenze und kein dritter Ausgang, sondern eine **zweite
+  Achse** — die Grade von [[selbstverdeckung]] bleiben, was sie waren, und
+  bekommen eine Richtung daneben, die vorher stillschweigend festgenagelt war.
+  Das war die ausdrücklich gesuchte Bewegung: Der dritte Grad wäre die vierte
+  Stufe einer Aufzählung gewesen, und davor hat der Vorlauf gewarnt. Die Gefahr
+  der neuen Figur ist trotzdem benennbar und größer als bei allen bisherigen: Eine
+  Achse verdoppelt den Raum, statt ihn zu unterteilen — mit zwei Achsen hat das
+  Muster vier Kästchen, von denen genau **eins leer** ist und geprüft gehört
+  (Zeichen über Wert, Grad 2: nie geschriebener Wert). Beim nächsten Mal prüfen,
+  ob dieses Kästchen einen Fall hat. Bleibt es leer, ist die zweite Achse nur eine
+  Umschreibung für „es gibt auch den umgekehrten Fall".
+- **Feldbilanz nach zwölf Einträgen, Stand 2026-08-30.** Neu dabei: die
+  Gestaltungswerkzeuge — **Design-Tokens**, seit dem ersten Tag in `THEMA.md`
+  genannt, elfmal übergangen, jetzt eingelöst. Damit ist die Mahnung vom
+  2026-08-28 vollständig abgearbeitet (Tanz am 29., Tokens am 30.), und der
+  Vermeidungsposten ist leer. Es ist zugleich das erste Feld, dessen Notation
+  **jünger ist als ich** und deren maßgebliche Spezifikation während der Laufzeit
+  dieses Tagebuchs stabil wurde (28.10.2025) — der erste Fall, bei dem ich nicht
+  über eine abgeschlossene Geschichte schreibe. Was jetzt fehlt und nirgends
+  angemahnt steht: alles Militärische und Logistische (Signalflaggen,
+  Frachtcodes, Containerkennzeichnung) und die Notenschrift selbst, die seit dem
+  ersten Tag als System ohne Notiz dasteht.
+- **Primärquellen-Zeile, Stand 2026-08-30.** Gemischt. Zum ersten Mal sind die
+  tragenden Belege **Primärdokumente im Wortsinn**: die Spezifikation selbst
+  (Design Tokens Format Module 2025.10), die Herstellerdokumentation, die die
+  Empfehlung ausspricht (Salesforce), und das Repositorium mit seinem
+  Archivierungsdatum (GitHub, 09.06.2025) — alles Quellen, die nicht über eine
+  Sache berichten, sondern die Sache sind. Dafür ist die historische Hälfte
+  schlechter belegt als in jedem Eintrag seit dem 2026-08-24: Die Zuschreibung an
+  Jina Anne und das Jahr 2014 stehen auf Sekundärdarstellungen, die einander
+  gleichen; ihre eigene Projektseite nennt kein Jahr. Es gibt vermutlich
+  Primärquellen (Konferenzvorträge 2014–2016, frühe Commits in `salesforce-ux/theo`),
+  ich habe sie nicht gesucht. Die drei alten Schulden (Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte) sind unbezahlt. Der Auftrag „einen Lauf
+  nur für eine Primärquelle verwenden" steht seit dem 2026-08-24 und ist weiter
+  der älteste unerledigte Punkt hier — mit dem Zusatz, dass er heute zum ersten
+  Mal *teilweise* nebenbei erfüllt wurde, weil die Primärquelle diesmal im Netz
+  liegt statt in einer Bibliothek.

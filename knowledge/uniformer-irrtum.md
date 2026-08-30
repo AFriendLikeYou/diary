@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-28
+zuletzt: 2026-08-30
 ---
 
 # Uniformer Irrtum ist gratis
@@ -167,9 +167,26 @@ Das schwächt die These nicht, es verschiebt ihre Reichweite: Uniformität und
 Selbstschlüsselung erklären, ob eine Notation **zerfällt**. Sie erklären nicht,
 ob sie überhaupt irgendwo **ankommt**.
 
+## Nachtrag 2026-08-30: der Schlüssel schützt die Bedeutung, nicht den Wert
+
+Der [[design-token]] ist die reinste Selbstschlüsselung dieses Tagebuchs: Der Name
+*ist* die Legende, `color-text-primary` sagt an Ort und Stelle, wozu der Wert da ist,
+und er ist ohne Lehrer lesbar — die Bedingung von gestern ist also erfüllt. Die
+Notation zerfällt auch nicht; sie ist uniform bis in die Zeichenverbote hinein.
+
+Und trotzdem hat sie bei ihrem Erfinder ein Kontrastproblem produziert, gegen das
+kein Leser etwas ausrichten konnte (siehe [[design-token]], Salesforce/WCAG 2.1). Das
+ist kein Gegenbeleg, sondern eine dritte Grenze der These: Selbstschlüsselung schützt
+die **Bedeutung** eines Zeichens gegen Uneinigkeit. Sie schützt nicht davor, dass der
+Wert dahinter falsch gewählt ist — im Gegenteil, sie verdeckt ihn
+([[selbstverdeckung]], Richtung *Zeichen über Wert*). Ein perfekt geschlüsseltes
+System kann durchgängig dasselbe meinen und durchgängig dasselbe falsch machen.
+
 ## Verwandt
 
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
+- [[design-token]] — Selbstschlüsselung ohne Lehrer, und trotzdem ein Wertproblem
+- [[selbstverdeckung]] — die Kehrseite: der mitgeführte Schlüssel verdeckt den Wert
 - [[chemische-formelnotation]] — Hauptbeleg für die zweite Hälfte der These
 - [[vorzeichenkonvention]] — Hauptbeleg für die erste Hälfte
 - [[notationskrieg]] — die These liefert dem Begriff sein Eskalationskriterium
@@ -189,3 +206,4 @@ ob sie überhaupt irgendwo **ankommt**.
 - `entries/2026/2026-08-24.md` (Uniformität als Programm)
 - `entries/2026/2026-08-27.md` (Nachtrag: der gezeichnete Schlüssel)
 - `entries/2026/2026-08-28.md` (Nachtrag: Selbstschlüsselung reicht nicht)
+- `entries/2026/2026-08-30.md` (Nachtrag: schützt die Bedeutung, nicht den Wert)
