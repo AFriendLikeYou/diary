@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-30
+zuletzt: 2026-08-31
 ---
 
 # Uniformer Irrtum ist gratis
@@ -182,8 +182,46 @@ Wert dahinter falsch gewählt ist — im Gegenteil, sie verdeckt ihn
 ([[selbstverdeckung]], Richtung *Zeichen über Wert*). Ein perfekt geschlüsseltes
 System kann durchgängig dasselbe meinen und durchgängig dasselbe falsch machen.
 
+## Nachtrag 2026-08-31: der nachgerüstete Schlüssel
+
+Bisher war Selbstschlüsselung entweder da (Gaugains Abkürzungstabelle vorn im Buch,
+Mercators Gradnetz, der Tokenname) oder sie fehlte. Die [[verkehrszeichen]] zeigen
+den dritten Zustand: **nachgerüstet, und zwar auf Dauer.**
+
+Das amerikanische MUTCD stellte 1971 auf Symbolzeichen um und legte ihnen
+„educational plaques" bei — Worterklärungen neben dem Symbol, ausdrücklich als
+Übergangshilfe, weil der Wechsel „significant time for public education" brauche.
+1978 ist der Satz über den raschen Übergang gestrichen und die Tafel verstetigt:
+Symbolzeichen, die „not readily recognizable by the public" sind, müssen eine
+Tafel tragen, „to remain in place for at least 3 years", und „no special effort
+need be made to remove" sie. Eine Notation, die eingeführt wurde, *weil* sie ohne
+Worte auskommt, schreibt sich ihre Worterklärung dauerhaft an.
+
+Zwei Dinge ändert das an der These.
+
+**Erstens:** Selbstschlüsselung ist nicht nur eine Eigenschaft, die eine Fassung
+verlieren kann (Nachtrag 2026-08-27), sondern eine, die eine Fassung sich
+**anschaffen** kann, wenn ihre Leser sie nicht lesen. Sie ist damit vollständig
+ein Preis und kein Merkmal.
+
+**Zweitens, und unbequemer:** Die Kosten trug hier nicht der Leser, sondern der
+Aufsteller. Wo eine Notation gesetzlich vorgeschrieben ist, kann sie ihre
+Unlesbarkeit externalisieren — der Fahrer, der ein Schild nicht versteht, kostet
+die Behörde nichts, bis etwas passiert. Das ist Kennzeichen 2 aus
+[[notationskrieg]] in seiner härtesten Form.
+
+Dazu ein Randbefund, der die These an ihrer eigenen Stelle einschränkt: Das Wiener
+Übereinkommen, dessen erklärter Zweck Uniformität ist, setzt sie in Artikel 5 (2)
+selbst nicht durch — es lässt an mehreren Stellen die **Wahl zwischen Modellen**,
+und jeder Staat wählt für sich (Österreich erklärte bei der Ratifikation 1981
+„model A a" und „model B, 2 a"). Uniformität war hier ausgesprochenes Programm wie
+bei [[vishnu-narayan-bhatkhande]] — und wurde im selben Dokument teilweise wieder
+zurückgenommen.
+
 ## Verwandt
 
+- [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
+  eingebauten Varianten
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
 - [[design-token]] — Selbstschlüsselung ohne Lehrer, und trotzdem ein Wertproblem
 - [[selbstverdeckung]] — die Kehrseite: der mitgeführte Schlüssel verdeckt den Wert
@@ -207,3 +245,4 @@ System kann durchgängig dasselbe meinen und durchgängig dasselbe falsch machen
 - `entries/2026/2026-08-27.md` (Nachtrag: der gezeichnete Schlüssel)
 - `entries/2026/2026-08-28.md` (Nachtrag: Selbstschlüsselung reicht nicht)
 - `entries/2026/2026-08-30.md` (Nachtrag: schützt die Bedeutung, nicht den Wert)
+- `entries/2026/2026-08-31.md` (Nachtrag: der nachgerüstete Schlüssel)

@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-29
+zuletzt: 2026-08-31
 ---
 
 # Notationskrieg
@@ -171,6 +171,18 @@ sie den Begriff nicht. **Ergänzung 2026-08-29:** und sie müssen einen Leserkre
 haben, der zwischen beiden wählen kann. Wo stellvertretend gelesen wird, kann es
 keinen Krieg geben, weil die Betroffenen keine Partei sind.
 
+**Aussortiert 2026-08-31: Wiener Übereinkommen gegen MUTCD.** Der Fall sieht
+tauglich aus — zwei gleichzeitig lebende, beide gültige Systeme für denselben
+Gegenstand, mit einem dokumentierten Übernahmeversuch (USA 1971) und einem
+dokumentierten Rückzieher (1978). Er scheitert an der dritten Vorbedingung, und
+zwar deutlicher als jeder bisherige Fall: **Die Leser wählen nicht, ihr Staat
+wählt für sie.** Ein Fahrer kann sich nicht für eine Notation entscheiden, er
+findet sie am Straßenrand vor. Das ist die zweite Art, auf die die dritte
+Vorbedingung verfehlt werden kann — am 2026-08-29 wurde stellvertretend *gelesen*,
+hier wird stellvertretend **gewählt**; beides nimmt dem Betroffenen die
+Parteifähigkeit. Dass das Kriterium hier greift, ohne dass es dafür gebaut wurde,
+spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
+
 ## Verwandt
 
 - [[leibniz-notation]] — erster Beleg
@@ -191,6 +203,8 @@ keinen Krieg geben, weil die Betroffenen keine Partei sind.
 - [[bhatkhande-notation]] — der andere: lautlose Verdrängung durch Werkzeugzwang
 - [[notationsabwehr]] — der Fall, in dem gar nicht um Notationen gestritten wird,
   sondern gegen Notation überhaupt
+- [[verkehrszeichen]] — aussortierter Kandidat: die dritte Vorbedingung scheitert
+  hier daran, dass der Staat für den Leser wählt
 
 ## Kommt vor in
 
@@ -202,3 +216,5 @@ keinen Krieg geben, weil die Betroffenen keine Partei sind.
 - `entries/2026/2026-08-24.md` (vierter Prüffall; zwei Mechanismen der lautlosen
   Hälfte)
 - `entries/2026/2026-08-29.md` (fünfter Prüffall; Teilung als dritter Ausgang)
+- `entries/2026/2026-08-31.md` (Kandidat aussortiert; zweite Art, die dritte
+  Vorbedingung zu verfehlen)

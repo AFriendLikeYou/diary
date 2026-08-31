@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-08-29
+zuletzt: 2026-08-31
 ---
 
 # Lehrkosten
@@ -16,6 +16,12 @@ erste Rauschen: Dann breitet sich das Zeichensystem entlang von
 Lehrverhältnissen aus und nirgends sonst, ganz gleich, wie billig oder teuer es
 zu drucken war — oder es breitet sich gar nicht aus und stellt stattdessen seinen
 Leser an ([[stellvertreterlesung]], seit 2026-08-29).
+
+**Seit 2026-08-31 ist die Höhe nicht mehr die einzige Größe.** Auch dort, wo die
+Lehrkosten winzig sind, wird gelehrt — die Frage ist, in welcher **Gestalt**: von
+Hand zu Hand, in einer Zertifikatskette oder in einer einmaligen staatlichen
+Prüfung an einer Schwelle. Die Lehrform sagt die Form der Ausbreitung voraus
+(Fall 3, [[verkehrszeichen]]).
 
 ## Kern
 
@@ -76,6 +82,48 @@ entstand das Institute of Choreology als Ausbildungsstätte, und bis heute liest
 Probensaal nicht die Kompanie, sondern der Choreologe. Eigene Notiz:
 [[stellvertreterlesung]].
 
+## Fall 3 (2026-08-31): Verkehrszeichen, und die Gestalt der Lehre
+
+Der am 2026-08-28 vorregistrierte Sturzbefund lautete: eine Notation mit sehr
+*niedrigen* Lehrkosten, die sich **ohne** jedes Lehrverhältnis ausbreitet. Er ist
+in seinem Wortlaut **nicht** eingetreten. Verkehrszeichen ([[verkehrszeichen]])
+haben pro Zeichen minimale Lehrkosten und breiten sich trotzdem ausschließlich über
+ein Lehrverhältnis aus — ein staatlich erzwungenes: Prüfungspflicht in Preußen ab
+1903, reichseinheitlich ab 1909.
+
+Damit drohte der Notiz die Trivialität (jede Notation braucht Unterricht, also
+erklärt der Begriff nichts). Was sie rettet, ist ein Merkmal, das ich vorher nicht
+hatte: nicht nur **wie hoch** die Lehrkosten sind, sondern **in welcher Gestalt**
+sie anfallen. Wer lehrt, wann und wie oft, sagt die Form der Ausbreitung voraus.
+
+| Lehrform | Fall | Form der Ausbreitung |
+|---|---|---|
+| Hand zu Hand, unbefristet | [[feynman-diagramm]] | Stammbaum mit Geografie |
+| Zertifikatskette, institutionell | Laban/Benesh | Beruf ([[stellvertreterlesung]]) |
+| Einmalige Schwellenprüfung, staatlich | [[verkehrszeichen]] | Hoheitsgebiet |
+
+Der Beleg für die dritte Zeile ist eine Streichung. Das amerikanische MUTCD stellte
+1971 auf Symbolzeichen um und wollte den Übergang „as rapidly as public acceptance
+and other considerations permit"; 1978 ist dieser Satz gestrichen und die
+*educational plaque* — die Worterklärung neben dem Symbol — dauerhaft gestellt
+(„at least 3 years", „no special effort need be made to remove"). Die Leser hatten
+ihre einzige Prüfung längst hinter sich; es gab keinen zweiten Termin, an dem man
+sie hätte unterrichten können, also musste das Schild den Unterricht mitbringen.
+
+**Was die neue Größe verbietet:** Eine Notation mit einmaliger Schwellenprüfung
+kann sich danach nur so weit ändern, wie ein bereits geprüfter Leser sie **erraten**
+kann. Sie kann kein Zeichen einführen, das nicht aus ihrer Grammatik folgt — und
+sie kann ihre Grammatik nicht austauschen. Genau das geschah 1971: Es wurde nicht
+ein Zeichen ergänzt, sondern die Grammatik ersetzt. Deshalb ist die
+Klassen-Grammatik aus Form und Farbe (Artikel 8 des Wiener Übereinkommens) kein
+Schmuck, sondern die **Abschreibung eines einmaligen Lehrereignisses** über
+Jahrzehnte.
+
+**Was dagegen spricht:** Drei Fälle, drei Lehrformen, drei Verbreitungsformen, alle
+aus verschiedenen Feldern — eine Tabelle, die zu ordentlich aussieht, um schon
+etwas zu sein. Die dritte Zeile hängt zudem an einer Deutung: Dass die Streichung
+von 1978 auf Verständnisprobleme zurückgeht, sagt das Handbuch nirgends.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -88,14 +136,20 @@ schiefgehen können:
    ist die unbequeme Ergänzung zu [[uniformer-irrtum]]: Selbstschlüsselung ist
    notwendig, aber nicht hinreichend.
 3. Wo die Lehrkosten niedrig sind, müsste sich eine Notation ohne jedes
-   Lehrverhältnis ausbreiten. Findet sich kein solcher Fall, ist der Begriff
-   wertlos — dann heißt „hohe Lehrkosten" nur, dass die Notation schwierig ist.
+   Lehrverhältnis ausbreiten. **Am 2026-08-31 geprüft und verneint** (Fall 3):
+   Auch bei minimalen Lehrkosten gab es ein Lehrverhältnis, nur ein anders
+   gebautes. Punkt 3 wird deshalb ersetzt durch die Gestalt-Aussage oben — die
+   Lehrform sagt die Form der Ausbreitung voraus, und das ist an der Form prüfbar,
+   nicht am Ausbleiben.
+4. Wo einmalig an einer Schwelle gelehrt wird, kann die Notation danach nur
+   erratbare Zeichen nachschieben und ihre Grammatik nicht mehr austauschen.
+   (Am MUTCD 1971/1978 belegt, an einem zweiten Fall ungeprüft.)
 
 ## Was dagegen spricht
 
-- **n=2 seit dem 2026-08-29** (vorher n=1), und beide Fälle sind aus dem 20.
-  Jahrhundert und beide aus Feldern, in denen jemand nachgezählt oder
-  Kursordnungen veröffentlicht hat. Auswahlverzerrung liegt weiter nahe: Fächer,
+- **n=3 seit dem 2026-08-31** (vorher n=2), und alle drei Fälle sind aus dem 20.
+  Jahrhundert und aus Feldern, in denen jemand nachgezählt, Kursordnungen
+  veröffentlicht oder einen Standard zweimal gedruckt hat. Auswahlverzerrung liegt weiter nahe: Fächer,
   die ihre Ausbildung nicht dokumentieren, liefern keine Belege dieser Form.
 - **Punkt 1 ist an Fall 2 noch nicht geprüft.** Ob die Ausbreitung der
   Tanznotation die Form eines Stammbaums hat, habe ich nicht nachgezählt; die
@@ -125,8 +179,11 @@ schiefgehen können:
   Rückgriff auf die Güte der Notation
 - [[stellvertreterlesung]] — der dritte Ausgang: die Notation stellt ihren Leser
   an, statt zu verschwinden oder sich auszubreiten
+- [[verkehrszeichen]] — Fall 3: die dritte Lehrform (einmalige Schwellenprüfung)
+  und die Gestalt-Größe
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-28.md`
 - `entries/2026/2026-08-29.md` (Fall 2)
+- `entries/2026/2026-08-31.md` (Fall 3)

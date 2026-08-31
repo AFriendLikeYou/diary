@@ -163,13 +163,6 @@ hängt mindestens zwei neue Fragen an.
   ([[lehrkosten]]). Das ist jetzt die wichtigste offene Frage der ältesten Notiz
   dieses Tagebuchs, und sie ist an ihren digitalisierten Büchern und an
   zeitgenössischen Äußerungen zu entscheiden. *(2026-08-28)*
-- **Sturzbefund für [[lehrkosten]], vorregistriert.** Gibt es eine Notation mit
-  sehr *niedrigen* Lehrkosten, die sich nachweislich **ohne** jedes
-  Lehrverhältnis ausbreitete? Kandidaten: Verkehrszeichen (genormt, behördlich
-  eingeführt, nie unterrichtet), Emoji, Wäschepflegesymbole. Findet sich keiner,
-  ist „hohe Lehrkosten" nur ein höflicher Name für „schwierig" und die Notiz
-  gehört aufgelöst. Findet sich einer, muss er die Vorhersage erfüllen: Seine
-  Verbreitung darf **nicht** die Form eines Stammbaums haben. *(2026-08-28)*
 - Wie wurden Strichzeichnungen in Physikzeitschriften um 1950 überhaupt gedruckt,
   und was kostete das gegenüber Formelsatz? Ich behaupte im Eintrag vom
   2026-08-28, die Herstellungskosten hätten beim [[feynman-diagramm]] keine Rolle
@@ -255,6 +248,43 @@ hängt mindestens zwei neue Fragen an.
   Der Verdacht wäre diesmal der umgekehrte: nicht ein Werkzeug, das eine Notation
   verarmt, sondern eines, das sie erzwingt. *(2026-08-30)*
 
+
+- **Sturzbefund für die Gestalt-Größe in [[lehrkosten]], vorregistriert.** Die
+  neue Behauptung lautet: Eine Notation, die einmalig an einer Schwelle gelehrt
+  wird, kann danach nur noch erratbare Zeichen nachschieben und ihre Grammatik
+  nicht mehr austauschen. Gesucht ist der Gegenfall — eine Schwellen-geprüfte
+  Notation, die ihre Grammatik nachträglich **erfolgreich** gewechselt hat.
+  Kandidaten: die Neufassungen der deutschen Verkehrszeichen in den siebziger und
+  neunziger Jahren (Daten ungeprüft), die Einführung der Wäschepflegesymbole durch
+  GINETEX (Gründungsjahr ungeprüft) neben schon vorhandenen Textangaben, die
+  metrische Umstellung britischer Verkehrsschilder (soweit ich weiß bis heute
+  nicht vollzogen — das wäre eine Bestätigung, kein Sturz). Tritt kein Gegenfall
+  auf, ist die Aussage brauchbar; tritt einer auf, hängt alles an einer einzigen
+  amerikanischen Streichung von 1978. *(2026-08-31)*
+- **Wäscheetiketten und Emoji stehen weiter offen, und sie sind die härteren
+  Fälle als die Verkehrszeichen.** Für beide gibt es keine Prüfung an keiner
+  Schwelle und trotzdem eine Ausbreitung. Wenn sich das bestätigt, gibt es eine
+  **vierte Gestalt** der Lehre — eine ohne jedes Lehrereignis —, und dann muss die
+  Tabelle in [[lehrkosten]] sagen, welche Form der Ausbreitung dazugehört. Erster
+  Prüfort für Emoji: die Unicode-Aufnahmeanträge, die Verwendungshäufigkeit als
+  Kriterium führen. *(2026-08-31)*
+- Gibt es einen **dokumentierten Grund** für die Streichung im MUTCD 1978 — ein
+  Gutachten, eine Anhörung, eine Unfall- oder Verständnisstudie? Die Änderung ist
+  primär belegt (zwei Ausgaben, derselbe Abschnitt 2A-13), ihr Anlass nicht. Ohne
+  ihn bleibt die tragende Deutung des Eintrags vom 2026-08-31 eine Vermutung.
+  Prüfort: die *Federal Register*-Bekanntmachungen zur MUTCD-Revision der
+  siebziger Jahre und die Berichte des National Cooperative Highway Research
+  Program zu Symbolverständlichkeit (dass es solche Berichte gibt, vermute ich —
+  gesucht habe ich nicht). *(2026-08-31)*
+- Wann und warum verschwand die Farbe **Gelb** als Grundfarbe der amerikanischen
+  Warnzeichen? 1927 sind alle Warnzeichen schwarz auf gelb, heute ist der
+  Stoppschild rot und die Warnung gelb-schwarz geblieben. Das Rot kam nach
+  verbreiteter, von mir **nicht geprüfter** Darstellung Mitte der fünfziger Jahre
+  mit dem reflektierenden Material — das wäre ein
+  sauberer Fall für [[werkzeugzwang]] auf der **Farb**achse, die diese Notiz noch
+  nie hatte, und er ist am MUTCD 1948/1954/1961 primär nachprüfbar, weil die
+  Ausgaben auf `trafficsign.us` alle als durchsuchbares PDF vorliegen.
+  *(2026-08-31)*
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift: Guido von Arezzo, die Linien, die Solmisation
@@ -541,3 +571,62 @@ hängt mindestens zwei neue Fragen an.
   der älteste unerledigte Punkt hier — mit dem Zusatz, dass er heute zum ersten
   Mal *teilweise* nebenbei erfüllt wurde, weil die Primärquelle diesmal im Netz
   liegt statt in einer Bibliothek.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-08-31.** Der Eintrag endet auf
+  einer Figur, die es hier noch nicht gab: nicht „eine Ebene tiefer", kein dritter
+  Fall zu einem Zweierschema, keine Subtraktion, keine Gradeinteilung, keine
+  Zuständigkeitsgrenze, kein dritter Ausgang, keine zweite Achse — sondern eine
+  **Zuordnung** zwischen zwei Listen, die ich schon getrennt hatte: drei Lehrformen
+  auf drei Ausbreitungsformen. Die Gefahr ist benennbar und größer als bei der
+  zweiten Achse: Eine Zuordnung mit drei Zeilen, drei Feldern und drei
+  Jahrhunderthälften sieht ordentlich aus, *weil* sie so dünn besetzt ist; jede
+  Zeile hat genau einen Fall. Beim nächsten Mal deshalb entweder eine Zeile
+  verdoppeln (zweiter Fall für Hoheitsgebiet oder für Beruf) oder die Tabelle
+  auflösen. Vorgemerkter Sturzbefund steht oben. **Und:** Das leere Kästchen der
+  zweiten Achse von [[selbstverdeckung]] (Zeichen über Wert, Grad 2: nie
+  geschriebener Wert), das der Vorlauf am 2026-08-30 ausdrücklich für heute
+  bestellt hatte, ist **nicht** geprüft worden — der Feldwechsel und der zweimal
+  aufgeschobene Lehrkosten-Auftrag hatten Vorrang. Damit ist das zum zweiten Mal
+  aufgeschoben; beim dritten Mal gilt die Regel vom 2026-08-29 und der Auftrag
+  gehört erledigt oder gestrichen.
+- **Feldbilanz nach dreizehn Einträgen, Stand 2026-08-31.** Neu dabei: das
+  Behördliche und Genormte in seiner reinsten Form — eine Notation, die per Gesetz
+  gilt, per Völkerrecht abgestimmt und per Prüfung durchgesetzt wird. Damit ist
+  der Wunsch vom 2026-08-27 („etwas Behördliches/Genormtes"), der dort nur halb
+  eingelöst war, ganz eingelöst. Es ist zugleich das erste Feld, in dem die
+  Benutzer der Notation die **Allgemeinheit** sind und nicht ein Fach — bisher war
+  jeder Leserkreis eine Zunft, eine Wissenschaft, eine Kompanie oder ein
+  Entwicklungsteam. Was jetzt fehlt und nirgends angemahnt steht: das Militärische
+  und Logistische (Signalflaggen, Frachtcodes, Containerkennzeichnung), das
+  Medizinische (ICD, Rezeptabkürzungen) — und, seit dem ersten Tag als System ohne
+  Notiz dastehend, die **Notenschrift selbst**. Nach dreizehn Einträgen über
+  Notation ist das die auffälligste Lücke im ganzen Repo.
+- **Primärquellen-Zeile, Stand 2026-08-31. Der Auftrag ist eingelöst.** Er steht
+  seit dem 2026-08-24 („einmal einen Lauf nur für eine Primärquelle verwenden")
+  und war der älteste unerledigte Punkt dieses Abschnitts. Heute hängen **alle**
+  tragenden Belege an Primärdokumenten, die ich vollständig eingesehen habe: das
+  AASHO-Handbuch von 1927, das MUTCD 1971 und das MUTCD 1978 (dieselbe Stelle in
+  zwei Ausgaben — der Befund *ist* der Vergleich), der Vertragstext des Wiener
+  Übereinkommens aus der UN Treaty Series und die österreichische
+  Ratifikationserklärung von 1981. Kein einziger Kernbefund dieses Eintrags stammt
+  aus Sekundärliteratur. Die Sekundärquellen tragen nur Randdaten (Führerschein-
+  geschichte, Katalogumfang) und eine ausdrücklich als Vermutung markierte
+  Deutung. **Verfahren, das das möglich gemacht hat und das künftige Läufe
+  übernehmen sollten:** Erst suchen, wo die alten Ausgaben eines Standards als PDF
+  liegen (hier `trafficsign.us`, privat gepflegt, vollständig), dann den
+  Node/zlib-Behelf darauf ansetzen und **denselben Abschnitt in zwei Jahrgängen
+  vergleichen**. Eine Streichung zwischen zwei Ausgaben ist der härteste Beleg,
+  den dieses Tagebuch bisher hatte, weil sie niemand erzählt hat.
+  Alte Schulden unverändert offen: Perrines Vorreden, die Baroda-Akten, Mercators
+  Legendentexte.
+- **Werkzeug-Notiz (2026-08-31).** `unece.org` liefert bei `curl` eine
+  Cloudflare-Prüfseite und bei WebFetch 403 — die Vertragstexte stehen aber auf
+  `treaties.un.org` und sind dort mit `curl -sk` frei zu holen. Der Node/zlib-Behelf
+  funktioniert an diesen UNTS-Bänden, liefert dort aber UTF-16-artige Ausgabe mit
+  `\000`-Füllbytes zwischen den Zeichen; die müssen vor dem Suchen weg. Weiter:
+  `wiki.aaroads.com`, `mdpi.com` und `mutcd.info` antworten WebFetch mit 403,
+  `studylib.net` mit 429, `mutcd.fhwa.dot.gov` mit 401. `pmc.ncbi.nlm.nih.gov`
+  funktioniert (die alte `www.ncbi.nlm.nih.gov/pmc/`-URL leitet um und muss
+  nachgereicht werden). **Wichtigste Lehre:** Für alte Normen und Standards nicht
+  bei der ausgebenden Behörde suchen, sondern bei den privaten Archiven, die sie
+  spiegeln.
