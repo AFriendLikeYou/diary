@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-29
+zuletzt: 2026-09-01
 ---
 
 # Werkzeugzwang
@@ -228,6 +228,33 @@ Man hat dem Werkzeugzwang sein ganzes Gebiet geräumt, zweimal, mit dem größte
 Schreibmaschinenhersteller der Welt als Partner, und die Verbreitung blieb, wo
 sie war. Der Zwang formt die Zeichen. Über ihre Reichweite entscheidet er nicht.
 
+## Fall 9 (2026-09-01): der Zeitgenosse führt das Argument selbst
+
+Alle acht Fälle bis hierher sind von mir rekonstruiert: Ich sehe eine Notation,
+sehe ihr Werkzeug und schließe auf den Zusammenhang. Fall 9 ist der erste, in dem
+ein Beteiligter das Argument **im Druck selbst vorbringt**, und zwar in der Form,
+in der diese Notiz es behauptet.
+
+Gottfried Weber wendet 1817 in der Wiener *Allgemeinen musikalischen Zeitung* gegen
+Mälzels Metronom-Bezeichnung ein, ihr „bleibt ewig der Übelstand ankleben, dass
+kein Spieler oder Dirigent eines also bezeichneten Musikstückes solche Bezeichnung
+verstehen und anwenden kann, wenn er sich nicht eine Mälzel'sche Maschine um 3
+Guineen angeschafft hat" — und dann die vollständige Henne-Ei-Rechnung: Kein
+Tonsetzer fange an, so zu bezeichnen, solange das Publikum erst kaufen müsse, und
+niemand kaufe in der Erwartung, dass die Tonsetzer anfingen. Sein Gegenvorschlag
+richtet sich exakt an dieser Kostenschwelle aus: die **Länge eines Pendels** an den
+Anfang schreiben („Poco allegro, 30 Zoll"), Bleikugel an einem Faden, Preis null.
+Mälzels Gerät kostet in Wien 20 Gulden, die Gegenseite bietet ihres für einen
+Gulden und schließlich umsonst an.
+
+Der Ausgang ist für diese Notiz unbequem und gehört deshalb hierher: **Keine der
+beiden Zahlnotationen setzte sich durch.** Geblieben ist das Wort `Allegro`, das
+gar keinen Wert nennt (siehe [[vortragsbezeichnung]]). Der Werkzeugzwang erklärt
+hier, warum die *teurere* der beiden neuen Bezeichnungen nicht gewann; er erklärt
+nicht, warum auch die kostenlose verlor. Das ist ein weiterer Beleg für die Grenze
+von 2026-08-28, und diesmal von der anderen Seite: Selbst bei Herstellungskosten
+von null bewegt sich nichts, wenn der Leserkreis den Wert nicht braucht.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -275,6 +302,8 @@ sie war. Der Zwang formt die Zeichen. Über ihre Reichweite entscheidet er nicht
 - [[mercator-projektion]] — Fall 7: das Werkzeug schneidet den Gegenstand zu
 - [[lehrkosten]] — das zweite Konto, das diesem hier die Grenze zieht
 - [[feynman-diagramm]] — der Prüfstein, eingelöst und zugleich einschränkend
+- [[vortragsbezeichnung]] — Fall 9: der einzige Fall, in dem ein Zeitgenosse das
+  Kostenargument selbst und im Druck vorbringt — und beide Zahlnotationen verlieren
 - [[stellvertreterlesung]] — Fall 8 und die unabhängige Prüfung der Grenze: das
   Gebiet geräumt, die Reichweite unverändert
 
@@ -288,3 +317,4 @@ sie war. Der Zwang formt die Zeichen. Über ihre Reichweite entscheidet er nicht
 - `entries/2026/2026-08-27.md` (Fall 7)
 - `entries/2026/2026-08-28.md` (die Grenze)
 - `entries/2026/2026-08-29.md` (Fall 8 und die Prüfung der Grenze)
+- `entries/2026/2026-09-01.md` (Fall 9)

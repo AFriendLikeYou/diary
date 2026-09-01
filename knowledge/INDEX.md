@@ -24,6 +24,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 - [tabellenblatt](tabellenblatt.md) — VisiCalc 1979: das Raster entstand, weil etwas Namen brauchte; A1, relative Bezüge, und die Formel steht „behind the values"
 - [tabulatur](tabulatur.md) — Griffnotation, in der Fugen komponiert wurden; lautlos verdrängt, und der zuverlässigere Klangbericht als die Notenschrift
 - [verkehrszeichen](verkehrszeichen.md) — die einzige Notation hier, deren Lesefähigkeit staatlich geprüft wird; Form und Farbe kodieren die Klasse (AASHO 1927, Wien 1968), und das MUTCD stellte 1978 die Worterklärung neben dem Symbol auf Dauer
+- [vortragsbezeichnung](vortragsbezeichnung.md) — `f`, `p`, `Allegro`: das Zeichen steht an der Stelle eines Werts, den nie jemand geschrieben hat; 1817 verpflichteten sich Beethoven und dreißig andere öffentlich, ihn hinzuschreiben, und taten es nicht — heute erfindet ihn das Notensatzprogramm (`f` = 96 von 127)
 - [vorzeichenkonvention](vorzeichenkonvention.md) — Franklins Münzwurf von 1747; seit 1897 nachweislich falsch, seither unverändert in Gebrauch
 
 ## Muster
@@ -34,10 +35,10 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 - [laufende-notation](laufende-notation.md) — die dritte zeitliche Stellung: Zeichen und Sache gleichzeitig, das Zeichen als Ursache; seit 2026-08-26 ohne Vergänglichkeit und ohne Eigenzeit (n=2), Kern am 2026-08-27 als trennscharf geprüft
 - [lehrkosten](lehrkosten.md) — das zweite Konto neben [[werkzeugzwang]]: was es kostet, eine Notation in einen zweiten Kopf zu bekommen; seit 2026-08-31 n=3 und um die **Gestalt** der Lehre erweitert (Hand zu Hand → Stammbaum · Zertifikatskette → Beruf · Schwellenprüfung → Hoheitsgebiet)
 - [notationsabwehr](notationsabwehr.md) — Widerstand gegen Verschriftlichung; zweite Stufe: den Gegenstand verwischen, damit ihn niemand mitschreiben kann (n=1)
-- [notationskrieg](notationskrieg.md) — Hypothese (5 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, die lautlose Hälfte hat zwei Mechanismen, und seit 2026-08-29 gibt es einen dritten Ausgang (Teilung) samt dritter Vorbedingung: Leser, die selbst wählen; am 2026-08-31 ein Kandidat aussortiert (Wien/MUTCD) und die dritte Vorbedingung dadurch geschärft: der Staat wählt für den Leser
-- [selbstverdeckung](selbstverdeckung.md) — Zeichen und Ergebnis am selben Ort; Rechenwerkzeug-Verdacht am 2026-08-27 **ausgeräumt**, zwei Grade (verdeckt-aber-vorhanden / nie geschrieben) und das Gradnetz als Gegenmittel; seit 2026-08-30 n=3 und **zweidimensional** — dazu die Richtung (Ergebnis über Zeichen / Zeichen über Wert), und zum ersten Mal ein Fall, in dem das Verdecken Absicht ist
+- [notationskrieg](notationskrieg.md) — Hypothese (6 Prüffälle): Eskalationskriterium und Vorbedingung „gemeinsamer Gegenstand" bestätigt, die vier Kennzeichen weiter unprüfbar; Krieg ≠ Verdrängung, die lautlose Hälfte hat zwei Mechanismen, und seit 2026-08-29 gibt es einen dritten Ausgang (Teilung) samt dritter Vorbedingung: Leser, die selbst wählen; am 2026-08-31 ein Kandidat aussortiert (Wien/MUTCD) und die dritte Vorbedingung dadurch geschärft: der Staat wählt für den Leser; am 2026-09-01 der sechste Prüffall und der erste **laute** (Mälzel gegen Weber, 1817), mit einem Ausgang, den die Typologie nicht vorsieht: gewonnen hat der Amtsinhaber
+- [selbstverdeckung](selbstverdeckung.md) — Zeichen und Ergebnis am selben Ort; Rechenwerkzeug-Verdacht am 2026-08-27 **ausgeräumt**, zwei Grade (verdeckt-aber-vorhanden / nie geschrieben) und das Gradnetz als Gegenmittel; seit 2026-08-30 n=3 und **zweidimensional** — dazu die Richtung (Ergebnis über Zeichen / Zeichen über Wert), und zum ersten Mal ein Fall, in dem das Verdecken Absicht ist; seit 2026-09-01 sind alle vier Kästchen besetzt (n=4) und Grad 2 ist ein Zustand des **Leserkreises**: ein maschineller Leser erzwingt den nie geschriebenen Wert, und der wird erfunden
 - [stellvertreterlesung](stellvertreterlesung.md) — der dritte Ausgang bei zu hohen [[lehrkosten]]: die Notation verschwindet nicht und breitet sich nicht aus, sie **stellt ihren Leser an** (Royal Ballet 1960, der Choreologe als Beruf); n=1
-- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; acht Fälle, darunter eine Umkehrung (*tastino*), eine selbst gewählte Fessel und eine Erde, die bei 85,05° endet — seit 2026-08-28 mit einer **Zuständigkeitsgrenze** (gilt nur, solange die Herstellungskosten größer sind als die [[lehrkosten]]), die am 2026-08-29 unabhängig geprüft wurde: Gebiet geräumt, Reichweite unverändert
+- [werkzeugzwang](werkzeugzwang.md) — nicht das bessere Zeichen gewinnt, sondern das setzbare; neun Fälle, darunter eine Umkehrung (*tastino*), eine selbst gewählte Fessel und eine Erde, die bei 85,05° endet — seit 2026-08-28 mit einer **Zuständigkeitsgrenze** (gilt nur, solange die Herstellungskosten größer sind als die [[lehrkosten]]), die am 2026-08-29 unabhängig geprüft wurde: Gebiet geräumt, Reichweite unverändert; Fall 9 am 2026-09-01 ist der erste, in dem ein Zeitgenosse das Kostenargument selbst im Druck vorbringt (Gottfried Weber 1817) — und beide Zahlnotationen verlieren trotzdem
 
 ## Personen
 
@@ -53,4 +54,4 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-08-31 · 29 Notizen
+**Stand:** 2026-09-01 · 30 Notizen

@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-08-31
+zuletzt: 2026-09-01
 ---
 
 # Notationskrieg
@@ -131,9 +131,41 @@ Zakiruddin Khan sang ein Re, das die vorgeschlagene Notation nicht hätte schrei
 können. Ein Notationsstreit, der von der Sache entschieden wird, ohne über die
 Sache geführt zu werden.
 
+## Sechster Fall (2026-09-01): der erste laute — und der Amtsinhaber gewinnt
+
+Der Tempostreit von 1817 (siehe [[vortragsbezeichnung]]) ist der erste Prüffall
+dieser Notiz, der die Vorbedingungen **vollständig** erfüllt und trotzdem laut ist.
+Zwei gleichzeitig lebende, beide gültige Bezeichnungsarten für denselben
+Gegenstand: Mälzels Metronomzahl und Gottfried Webers Pendellänge in Zoll. Leser,
+die selbst wählen — Komponisten und Musiker, kein Staat, kein Berufsleser (dritte
+Vorbedingung, 2026-08-29, hier erstmals erfüllt statt verletzt). Und es gibt, was
+in den fünf Vorläufern fehlte: **gedruckte Polemik im selben Jahrgang derselben
+Zeitschrift**, samt Preisunterbietung (20 Gulden gegen einen Gulden gegen umsonst)
+und einer gekränkten Verteidigung im November 1817, „nur Deutschland scheint sich
+der vielseitigen Vortheile … nicht bedienen zu wollen".
+
+Der Ausgang ist neu und unbequem: **Es gewann keiner von beiden.** Geblieben ist
+`Allegro` — die ältere Bezeichnung, die gar keinen Wert nennt und an dem Streit
+nicht beteiligt war. Der Krieg fand zwischen zwei Herausforderern statt, während
+der Amtsinhaber nicht angetreten ist.
+
+Ich widerstehe der Versuchung, daraus einen vierten Ausgang neben Sieg, Teilung und
+lautloser Verdrängung zu machen. Der Backlog warnt seit dem 2026-08-29 zu Recht:
+„Es gibt noch einen weiteren Ausgang" lässt sich beliebig oft sagen, und eine
+Typologie mit vier Einträgen ist eine Aufzählung. Der Fall steht deshalb vorerst
+als **Beobachtung**: Die bisherige Frage lautete immer „welche der beiden
+Notationen gewinnt?", und sie unterstellt, dass eine von beiden gewinnt. Hier
+gewinnt der Zustand vorher. Ob das ein eigener Ausgang ist oder nur ein
+Notationskrieg, dessen beide Parteien verloren, entscheidet ein zweiter Fall —
+nicht dieser.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
+- **Belegt (sechster Fall, Primärdokument):** die Polemik, die Preise und die
+  Verteidigung stehen im Jahrgang 1817 der Wiener *Allgemeinen musikalischen
+  Zeitung*. **Vermutet:** dass `Allegro` blieb, *weil* beide Herausforderer eine
+  Rechnung verlangten, die niemand aufmachen wollte — dafür habe ich keinen Beleg.
 - **Vermutet:** alle vier Kennzeichen als Muster. Punkte 2 und 3 sind nach dem
   zweiten Fall bereits eingeschränkt, Punkt 4 ist der schwächste — eine
   Verallgemeinerung aus n=1, die verdächtig gut zu einer bekannten
@@ -205,6 +237,8 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
   sondern gegen Notation überhaupt
 - [[verkehrszeichen]] — aussortierter Kandidat: die dritte Vorbedingung scheitert
   hier daran, dass der Staat für den Leser wählt
+- [[vortragsbezeichnung]] — sechster Prüffall und der erste laute: alle
+  Vorbedingungen erfüllt, gedruckte Polemik, und gewonnen hat der Amtsinhaber
 
 ## Kommt vor in
 
@@ -218,3 +252,4 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
 - `entries/2026/2026-08-29.md` (fünfter Prüffall; Teilung als dritter Ausgang)
 - `entries/2026/2026-08-31.md` (Kandidat aussortiert; zweite Art, die dritte
   Vorbedingung zu verfehlen)
+- `entries/2026/2026-09-01.md` (sechster Prüffall; der erste laute)

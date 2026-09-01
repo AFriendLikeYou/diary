@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-08-30
+zuletzt: 2026-09-01
 ---
 
 # Selbstverdeckung
@@ -103,6 +103,49 @@ oder eine Voreinstellung, beim Design-Token ist es der **verkaufte Vorteil**. We
 unter „Verwandt", Selbstverdeckung geschehe „ohne Absicht", gilt seit heute nur noch
 für die eine Richtung.
 
+## Das vierte Kästchen ist besetzt (2026-09-01)
+
+Zwei Achsen ergeben vier Kästchen. Drei waren belegt, eines nicht: **Zeichen über
+Wert, Grad 2** — ein Zeichen an der Stelle eines Werts, der nirgends geschrieben
+steht. Der Backlog hatte richtig vermerkt: Bleibt es leer, ist die zweite Achse nur
+eine Umschreibung für „es gibt auch den umgekehrten Fall".
+
+Es ist besetzt, und zwar durch die [[vortragsbezeichnung]] — `f`, `p`, `Allegro`.
+Der Fall musste eine Hürde nehmen, die die anderen drei nicht hatten: Bei
+Selbstverdeckung *muss es etwas geben*, das verdeckt wird. Die Musiklehre sagt, das
+sei hier nicht so, Dynamik und Tempo seien relativ. Widerlegt durch die Ankündigung
+von Mälzels Metronom (Wiener AmZ 1817): Der Wert hat eine Einheit, ist „auf die
+Eintheilung der Zeit in Minuten gegründet" und „lässt sich … durch eine Stockuhr am
+besten prüfen". Er wurde nur nie hingeschrieben — obwohl sich 1817 die führenden
+Komponisten dreier Hauptstädte, Beethoven darunter, öffentlich dazu verpflichteten.
+
+Damit steht das Muster bei **n=4** und die Kästchen so:
+
+|                       | **Grad 1** verdeckt-aber-vorhanden | **Grad 2** nie geschrieben |
+|-----------------------|------------------------------------|----------------------------|
+| **Ergebnis über Zeichen** | [[tabellenblatt]]              | [[mercator-projektion]]    |
+| **Zeichen über Wert**     | [[design-token]]               | [[vortragsbezeichnung]]    |
+
+## Grad 2 ist ein Zustand des Leserkreises (2026-09-01)
+
+Der eigentliche Ertrag des Falls war nicht bestellt. Bisher las sich Grad 2 als
+Eigenschaft der Notation — die Regel *hat* keine Fassung. Die
+[[vortragsbezeichnung]] zeigt, dass das an den Lesern hängt: Ein Mensch kann `f`
+ausführen, ohne eine Zahl zu kennen; eine Maschine kann es nicht, denn abspielen
+heißt eine Zahl schicken. Bekommt eine Grad-2-Notation einen maschinellen Leser,
+**entsteht der Wert** — nicht ermittelt, sondern erfunden, von dem, der zufällig
+das Programm schreibt.
+
+Beleg: MuseScore setzt in `dynamic.cpp` seit Fassung 3 unverändert `f` = 96 (von
+127) und beruft sich dafür im Quelltextkommentar auf eine selbstgezeichnete
+Wikipedia-Grafik von 2008 ohne Beleg; LilyPond nimmt Bruchteile von 0,25 bis 0,95.
+Bei `ppppp` liegen die beiden um den Faktor sechs auseinander.
+
+Das ist die erste Vorhersage dieser Notiz, die einen **Zeitpunkt** nennt: Ein
+Zeichen ohne geschriebenen Wert behält seine Wertlosigkeit nur, solange kein
+maschineller Leser dazukommt. Sie verbietet etwas Nachprüfbares — nämlich dass
+solche erfundenen Werte zwischen unabhängigen Implementierungen übereinstimmen.
+
 ## Die Vorhersage, richtungsabhängig (2026-08-30)
 
 Die Vorhersage oben hält in beiden Richtungen, aber sie sagt verschiedene Fehler
@@ -131,6 +174,16 @@ stillschweigend umschreibt. Der Weg von 1569 zum Browser ist der Weg von der
 mitgeführten Legende zu keiner.
 
 ## Was weiter dagegen spricht
+
+**Neuer Einwand gegen den vierten Fall (2026-09-01).** Bei den drei älteren Fällen
+sitzen Zeichen und Verdecktes buchstäblich am selben Ort — in derselben Zelle, auf
+demselben Blatt, im selben Farbfeld. Bei der [[vortragsbezeichnung]] steht `f` an
+einer Stelle, an der nie ein Wert stand und nie einer vorgesehen war; „derselbe
+Ort" ist hier eine Behauptung über eine Leerstelle. Wer das für wesentlich hält,
+muss den Fall verwerfen — dann ist das vierte Kästchen wieder leer und die zweite
+Achse unbelegt. Ich halte ihn nicht für wesentlich, weil 1817 gezeigt hat, dass der
+Wert sehr wohl an genau diese Stelle geschrieben werden kann: Mälzels Bezeichnung
+tritt *an die Stelle* des Wortes, nicht daneben.
 
 **n=3, und der dritte ist der ungleichste.** Beim [[design-token]] ist die verdeckte
 Sache der Wert, nicht die Regel und nicht die Formel; wer das Muster eng fasst („das
@@ -166,6 +219,8 @@ irgendwer sie umgedreht.
   Gegenstand absichtlich verwischt, hier verdeckt die Notation sich ohne Absicht —
   *seit 2026-08-30 eingeschränkt: das gilt nur für die Richtung Ergebnis über Zeichen*
 - [[design-token]] — der Fall der anderen Richtung, und der erste mit Absicht
+- [[vortragsbezeichnung]] — das vierte Kästchen: Zeichen über Wert, Grad 2; dazu
+  die Einsicht, dass Grad 2 am Leserkreis hängt und nicht an der Notation
 - [[notation]] — betrifft die Arbeitsdefinition: was ist ein Zeichen, das man im
   Normalbetrieb nicht sieht?
 - [[mercator-projektion]] — der zweite Fall, außerhalb rechnender Werkzeuge, mit
@@ -178,3 +233,4 @@ irgendwer sie umgedreht.
 - `entries/2026/2026-08-26.md`
 - `entries/2026/2026-08-27.md`
 - `entries/2026/2026-08-30.md`
+- `entries/2026/2026-09-01.md`

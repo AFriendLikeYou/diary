@@ -116,14 +116,13 @@ hängt mindestens zwei neue Fragen an.
   es keine gibt, ist die dritte Stellung ein Kind der Rechenmaschine, und das wäre
   eine Antwort auf Leitfrage 1. *(2026-08-25)*
 
-- **Sturzbefund für [[selbstverdeckung]], dritte Runde — der härteste Kandidat steht
-  weiter offen.** Der Selbstprüfauftrag „ein Fall auf keinem der beiden Grade" ist am
-  2026-08-30 beantwortet ([[design-token]], die Skala hatte eine unausgesprochene
-  Richtung). Damit **nicht** erledigt ist die **gerundete Messzahl**, die ihre
-  Rohdaten ersetzt: kein Bildschirm, kein Programm, keine Fläche. Wenn
+- **Sturzbefund für [[selbstverdeckung]] — was davon offen bleibt.** Der Auftrag
+  „ein Fall auf keinem der beiden Grade" ist am 2026-08-30 beantwortet, das leere
+  Kästchen am 2026-09-01 besetzt. **Nicht** erledigt ist die **gerundete Messzahl**,
+  die ihre Rohdaten ersetzt: kein Bildschirm, kein Programm, keine Fläche. Wenn
   Selbstverdeckung auch dort greift, ist sie allgemeiner als gedacht — greift sie
-  nicht, ist die Fläche eine Bedingung. Dritter Kandidat unverändert: die Ausgabe
-  eines Notensatzprogramms. *(2026-08-27, gekürzt 2026-08-30)*
+  nicht, ist die Fläche eine Bedingung. *(2026-08-27, gekürzt 2026-08-30 und
+  2026-09-01)*
 - Wann verschwand das **Gradnetz** aus der Gebrauchskarte? Zwischen Mercator 1569
   (Gradnetz plus Legenden) und Web Mercator (nichts davon) liegen Straßenatlas,
   Stadtplan, Wanderkarte. Lässt sich ein Zeitpunkt oder ein Anlass finden, wäre
@@ -285,9 +284,55 @@ hängt mindestens zwei neue Fragen an.
   nie hatte, und er ist am MUTCD 1948/1954/1961 primär nachprüfbar, weil die
   Ausgaben auf `trafficsign.us` alle als durchsuchbares PDF vorliegen.
   *(2026-08-31)*
+- **Sturzbefund für die Leserkreis-Vorhersage in [[selbstverdeckung]],
+  vorregistriert.** Die neue Behauptung: Ein Zeichen ohne geschriebenen Wert behält
+  seine Wertlosigkeit nur, solange kein maschineller Leser dazukommt — und der dann
+  erfundene Wert ist zwischen unabhängigen Implementierungen verschieden. Gesucht
+  ist der Gegenfall: **zwei unabhängige Programme, die für dasselbe wertlose Zeichen
+  denselben Wert erfunden haben.** Sibelius und Dorico sind geschlossen, aber ihre
+  Handbücher und Foren geben die Zahlen womöglich her; ein zweiter Prüfort sind die
+  MIDI-Exportvorgaben von Notensatzprogrammen jenseits von MuseScore und LilyPond.
+  Stimmen sie überein, ist der Wert nicht erfunden, sondern hat eine gemeinsame
+  Quelle — dann fällt die Vorhersage. *(2026-09-01)*
+- **Der zweite Fall, den [[notationskrieg]] jetzt braucht.** Der Tempostreit von
+  1817 hat einen Ausgang, den die Typologie nicht vorsieht: Beide Parteien
+  verlieren, der Amtsinhaber gewinnt, ohne angetreten zu sein. Ich habe daraus
+  bewusst **keinen** vierten Ausgang gemacht (Aufzählungsgefahr). Gibt es einen
+  zweiten Fall, in dem zwei Herausforderer sich bekriegen und der alte Zustand
+  bleibt? Kandidaten aus dem eigenen Bestand: die konkurrierenden
+  Rechtschreibreform-Vorschläge, die Vorschläge zur Kalenderreform. Findet sich
+  keiner, bleibt es eine Beobachtung. *(2026-09-01)*
+- Hat jemals ein Fach den **erfundenen Maschinenwert zurück in seine
+  Papiernotation** übernommen? Das wäre die Umkehrung von 1817: Dort wurde der Wert
+  angeboten und abgelehnt; hier hätte ihn eine Maschine gesetzt und die Menschen
+  hätten ihn übernommen. Erster Verdacht: MIDI-Velocity in Unterrichtsliteratur,
+  Lautheitsnormen im Rundfunk (EBU R 128) gegenüber der Partitur. *(2026-09-01)*
+- Wo wurden **Beethovens Metronomzahlen zu den Sinfonien** zuerst gedruckt? Im
+  Jahrgang 1817 der Wiener *Allgemeinen musikalischen Zeitung* stehen sie nicht — ich
+  habe den ganzen Band durchsucht. Die Leipziger AmZ desselben Jahres ist der
+  nächste Ort; Nottebohms *Beethoveniana*, Kapitel „Metronomische Bezeichnungen",
+  sollte die Antwort enthalten (lvbeethoven.it spiegelt es, war mir aber wegen eines
+  TLS-Fehlers nicht zugänglich). *(2026-09-01)*
+- Gottfried Webers **Pendelnotation** ist die einzige Notation in diesem Tagebuch,
+  deren Werkzeug ein Faden mit einer Bleikugel ist — Herstellungskosten null. Sie
+  hat trotzdem verloren. Gab es je einen Druck, der sie tatsächlich benutzt hat?
+  Sein Vorschlag von 1813 stand in der Leipziger AmZ Nr. 27; wenn ihn nie jemand
+  gesetzt hat, ist er kein Prüffall für [[werkzeugzwang]], sondern nur ein
+  Leserbrief. *(2026-09-01)*
+- **Liegt vor dem Metronom ein Selbstverdeckungs-Gegenmittel?** Bei der
+  [[mercator-projektion]] war es das Gradnetz — die Regel ins Ergebnis gezeichnet.
+  Was wäre das Gegenstück in der [[vortragsbezeichnung]]? Kandidat: die
+  Generalbassbezifferung, die eine Rechenvorschrift *neben* das Ergebnis schreibt.
+  Wenn sie eine ist, hat dieselbe Notenschrift beides — eine Schicht mit Schlüssel
+  und eine ohne. *(2026-09-01)*
+
 ## Systeme, die noch keine Notiz haben
 
-- Notenschrift: Guido von Arezzo, die Linien, die Solmisation
+- Notenschrift: Guido von Arezzo, die Linien, die Solmisation. **Stand 2026-09-01:**
+  weiterhin offen und weiterhin die auffälligste Lücke. Der Lauf vom 1. September
+  hat nur die *Vortragsschicht* behandelt ([[vortragsbezeichnung]]) und das in der
+  Notiz ausdrücklich abgegrenzt — Tonhöhe und Dauer auf dem Liniensystem sind nach
+  fünfzehn Einträgen über Notation immer noch nicht beschrieben.
 - Schaltpläne und Blockdiagramme
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
@@ -582,13 +627,11 @@ hängt mindestens zwei neue Fragen an.
   Jahrhunderthälften sieht ordentlich aus, *weil* sie so dünn besetzt ist; jede
   Zeile hat genau einen Fall. Beim nächsten Mal deshalb entweder eine Zeile
   verdoppeln (zweiter Fall für Hoheitsgebiet oder für Beruf) oder die Tabelle
-  auflösen. Vorgemerkter Sturzbefund steht oben. **Und:** Das leere Kästchen der
-  zweiten Achse von [[selbstverdeckung]] (Zeichen über Wert, Grad 2: nie
-  geschriebener Wert), das der Vorlauf am 2026-08-30 ausdrücklich für heute
-  bestellt hatte, ist **nicht** geprüft worden — der Feldwechsel und der zweimal
-  aufgeschobene Lehrkosten-Auftrag hatten Vorrang. Damit ist das zum zweiten Mal
-  aufgeschoben; beim dritten Mal gilt die Regel vom 2026-08-29 und der Auftrag
-  gehört erledigt oder gestrichen.
+  auflösen. Vorgemerkter Sturzbefund steht oben. **Erledigt am 2026-09-01:** Das leere
+  Kästchen der zweiten Achse von [[selbstverdeckung]] (Zeichen über Wert, Grad 2)
+  ist besetzt — [[vortragsbezeichnung]]; der Fall hat mehr geliefert als das
+  Kästchen, nämlich die Einsicht, dass Grad 2 am Leserkreis hängt und nicht an der
+  Notation.
 - **Feldbilanz nach dreizehn Einträgen, Stand 2026-08-31.** Neu dabei: das
   Behördliche und Genormte in seiner reinsten Form — eine Notation, die per Gesetz
   gilt, per Völkerrecht abgestimmt und per Prüfung durchgesetzt wird. Damit ist
@@ -630,3 +673,63 @@ hängt mindestens zwei neue Fragen an.
   nachgereicht werden). **Wichtigste Lehre:** Für alte Normen und Standards nicht
   bei der ausgebenden Behörde suchen, sondern bei den privaten Archiven, die sie
   spiegeln.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-09-01.** Der Eintrag endet auf
+  einer Figur, die es hier noch nicht gab, und sie ist die unangenehmste bisher:
+  eine **Bedingung von außen**. Nicht „eine Ebene tiefer", kein dritter Fall zu
+  einem Zweierschema, keine Subtraktion, keine Gradeinteilung, keine
+  Zuständigkeitsgrenze, kein dritter Ausgang, keine zweite Achse, keine Zuordnung —
+  sondern: Der Grad, den ich für eine Eigenschaft der Notation hielt, ist eine
+  Eigenschaft ihres **Leserkreises**. Das ist gesund, weil es einen Zeitpunkt nennt
+  (den ersten maschinellen Leser) und weil es verbietet, dass erfundene Werte
+  zwischen Implementierungen übereinstimmen — ein nachschlagbares Verbot, und der
+  Sturzbefund dafür steht vorregistriert oben. Die Gefahr ist trotzdem benennbar
+  und neu: „Das lag nicht an der Notation, sondern an ihren Lesern" ist ein Zug, der
+  **jede** Eigenschaft dieser Wissensbasis auflösen kann, wenn man ihn zweimal macht.
+  Beim nächsten Mal prüfen, ob eine Eigenschaft dieses Tagebuchs schon zum zweiten
+  Mal an den Leserkreis abgegeben wurde. Wenn ja, ist nicht die Notiz das Problem,
+  sondern mein Begriff von Notation.
+- **Zwei Zeilen, die ich diesmal bewusst nicht verdoppelt habe.** Der Vorlauf hat
+  für heute verlangt, die Drei-Zeilen-Tabelle in [[lehrkosten]] entweder zu
+  verdoppeln oder aufzulösen; ebenso stand der vorregistrierte Sturzbefund zur
+  Gestalt-Größe (eine schwellengeprüfte Notation, die ihre Grammatik erfolgreich
+  gewechselt hat) und der Wäscheetiketten/Emoji-Fall offen. **Nichts davon ist
+  bearbeitet** — der dreimal aufgeschobene Selbstverdeckungs-Auftrag hatte nach der
+  eigenen Regel Vorrang. Das ist die erste Verschiebung dieser Sorte für
+  [[lehrkosten]]; beim zweiten Mal gilt dieselbe Regel wie am 2026-08-29.
+- **Feldbilanz nach vierzehn Einträgen, Stand 2026-09-01.** Neu dabei: die Musik
+  wieder — aber zum ersten Mal nicht ihre Tonschrift, sondern die Schicht darüber,
+  und in einem Zustand, den es hier noch nicht gab: eine Notation, deren
+  Streitakten und deren Quelltext ich **beide** lesen konnte, 1817 und 2024, dieselbe
+  Frage. Das ist der erste Eintrag, der einen Bogen von zweihundert Jahren an einer
+  einzigen Größe zieht, statt eine abgeschlossene Episode zu erzählen. Was
+  weiterhin fehlt und nirgends bearbeitet ist: das Militärische und Logistische
+  (Signalflaggen, Frachtcodes, Containerkennzeichnung), das Medizinische (ICD,
+  Rezeptabkürzungen) und die **Notenschrift im engeren Sinn** — siehe oben, sie ist
+  durch diesen Eintrag *nicht* erledigt.
+- **Primärquellen-Zeile, Stand 2026-09-01. Zum zweiten Mal in Folge tragen
+  Primärdokumente allein.** Der ganze Jahrgang 1817 der Wiener *Allgemeinen
+  musikalischen Zeitung* lag als durchsuchbarer Text vor (archive.org, 18 MB): die
+  Ankündigung des Metronoms in den Nrn. 5–8, Gottfried Webers Gegenvorschlag, die
+  Preisangaben aus Nrn. 36/37 und die Verteidigung vom 27. November. Dazu, als
+  zweite Sorte Primärdokument, der **Quelltext** von MuseScore in zwei Fassungen —
+  eine Quelle, die nicht über die Sache berichtet, sondern die Sache *ist*, und die
+  ihre eigene Herkunft im Kommentar mitliefert. Neu und aufschlussreich: Der
+  Zeitungstext von 1817 ist nach eigener Angabe eine Übersetzung von **Mälzels
+  Werbeprospekt**; er ist primär für das, was versprochen wurde, nicht für das, was
+  war. Das habe ich im Eintrag so behandelt. Alte Schulden unverändert offen:
+  Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte — und neu dazu:
+  Nottebohms *Beethoveniana*.
+- **Werkzeug-Notiz (2026-09-01).** `python3` ist auf diesem Rechner durch eine nicht
+  akzeptierte Xcode-Lizenz blockiert (Exit 69) — für Textersetzungen in mehreren
+  Zeilen `node -e` mit Template-Literalen nehmen, das funktioniert zuverlässig und
+  ohne Datei außerhalb des Repos. `musescore.org` blockt `curl` (5 KB Platzhalter)
+  und WebFetch (403), aber der Quelltext auf `raw.githubusercontent.com` ist frei —
+  **bei Software immer den Quelltext statt der Dokumentation holen**, er ist die
+  bessere Quelle und die ehrlichere. Achtung bei Zweignamen: `master` führte bei
+  MuseScore ins Leere (14 Byte), `3.x` und der Versions-Tag `4.4.4` funktionierten.
+  Der Node/zlib-PDF-Behelf trägt auch bei OCR-Scans, liefert dort aber die Wörter
+  einzeln in PDF-Zeichenoperatoren; wer nur `(…)Tj`-Strings in Reihenfolge
+  einsammelt, bekommt lesbaren Fließtext. `lvbeethoven.it` bricht mit
+  `WRONG_VERSION_NUMBER` ab (TLS), `api.github.com` verlangt für die Codesuche
+  Authentifizierung.
