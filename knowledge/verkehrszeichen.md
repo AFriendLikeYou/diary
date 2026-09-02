@@ -3,7 +3,7 @@ slug: verkehrszeichen
 titel: Verkehrszeichen
 art: system
 angelegt: 2026-08-31
-zuletzt: 2026-08-31
+zuletzt: 2026-09-02
 ---
 
 # Verkehrszeichen
@@ -121,6 +121,10 @@ ist deshalb kein Schmuck, sondern die Abschreibung eines einmaligen Lehrereignis
   Klassen-Grammatik, erblich über die Prüfungsordnung
 - [[werkzeugzwang]] — hier unberührt; der Verdacht (fehlender Reflexanstrich
   zwingt zum bedeutungstragenden Umriss) ist ungeprüft
+- [[pflegekennzeichnung]] — die Schwesternotation ohne Staat: dieselbe Bauart (die
+  Form kodiert die Klasse, Zusätze die Stärke, die Durchkreuzung das Verbot), aber
+  kein Lehrereignis, keine Prüfung — und die Zeichen gehören jemandem
+  (2026-09-02)
 
 ## Kommt vor in
 

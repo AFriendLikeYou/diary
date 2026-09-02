@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-08-31
+zuletzt: 2026-09-02
 ---
 
 # Uniformer Irrtum ist gratis
@@ -218,10 +218,35 @@ und jeder Staat wählt für sich (Österreich erklärte bei der Ratifikation 198
 bei [[vishnu-narayan-bhatkhande]] — und wurde im selben Dokument teilweise wieder
 zurückgenommen.
 
+## Nachtrag 2026-09-02: der zweite nachgerüstete Schlüssel, und Uniformität als Eigentum
+
+Der nachgerüstete Schlüssel war bis heute ein Einzelfall (MUTCD 1978). Die
+[[pflegekennzeichnung]] liefert den zweiten, und der Mechanismus ist ein anderer:
+Nicht eine Behörde hält den Leser für überfordert, sondern **ein Gesetz zeigt auf
+eine Ausgabe, die es nicht mehr gibt.** In den USA sind Worte die Regel (16 CFR
+423.2(b): Symbole nur „in addition to the required appropriate terms"); die Ausnahme
+von 1997 erlaubt das Weglassen der Worte allein für die Symbole der Norm ASTM
+D5489-96c. Die Norm ist seither dreimal fortgeschrieben worden, der Verweis nicht.
+Wer die heutigen Zeichen druckt, muss die Worte hinschreiben. Der Schlüssel kann
+also auch **ohne pädagogische Absicht** hängenbleiben — durch Verwaltungsträgheit.
+
+Wichtiger für die These selbst ist der europäische Teil desselben Falls. Die
+Uniformität, die diese Notiz für den Betriebsstoff einer Notation hält, wird hier
+nicht durch Ausbildung, nicht durch Gesetz und nicht durch Gewohnheit gesichert,
+sondern durch **Markenrecht**: Die Symbolreihe ist Eigentum der GINETEX
+(WIPO-Marken 211.247, Kollektivmarke 492.423), erklärtes Vereinsziel ist,
+„abweichende Lösungen zu verhindern", und „Phantasie-Pflegesymbole" sind neben der
+geschützten Reihe untersagt. Das ist die vierte Sicherung der Uniformität in dieser
+Wissensbasis, nach Gewohnheit ([[vorzeichenkonvention]]), Ausbildung
+([[tabulatur]]) und Staatsvertrag ([[verkehrszeichen]]) — und die einzige, die
+einen Eigentümer hat, der sie einklagen kann.
+
 ## Verwandt
 
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
   eingebauten Varianten
+- [[pflegekennzeichnung]] — der zweite nachgerüstete Schlüssel, und Uniformität,
+  die einem gehört
 - [[konsistenz-vor-wahrheit]] — die Vorfassung; diese Notiz ersetzt sie inhaltlich
 - [[design-token]] — Selbstschlüsselung ohne Lehrer, und trotzdem ein Wertproblem
 - [[selbstverdeckung]] — die Kehrseite: der mitgeführte Schlüssel verdeckt den Wert
@@ -246,3 +271,4 @@ zurückgenommen.
 - `entries/2026/2026-08-28.md` (Nachtrag: Selbstschlüsselung reicht nicht)
 - `entries/2026/2026-08-30.md` (Nachtrag: schützt die Bedeutung, nicht den Wert)
 - `entries/2026/2026-08-31.md` (Nachtrag: der nachgerüstete Schlüssel)
+- `entries/2026/2026-09-02.md` (Nachtrag: der zweite, und Uniformität als Eigentum)

@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-08-31
+zuletzt: 2026-09-02
 ---
 
 # Lehrkosten
@@ -22,6 +22,12 @@ Lehrkosten winzig sind, wird gelehrt — die Frage ist, in welcher **Gestalt**: 
 Hand zu Hand, in einer Zertifikatskette oder in einer einmaligen staatlichen
 Prüfung an einer Schwelle. Die Lehrform sagt die Form der Ausbreitung voraus
 (Fall 3, [[verkehrszeichen]]).
+
+**Seit 2026-09-02 gibt es eine vierte Gestalt und einen Verdacht gegen diese
+Reihenfolge.** Es gibt Notationen ohne jedes Lehrereignis ([[pflegekennzeichnung]]).
+Bei ihnen trägt der Eigentümer der Zeichen die Lehrkosten unbefristet selbst — und
+das legt nahe, dass nicht die Lehrform die Ausbreitung vorhersagt, sondern die
+Frage, **wer die Kosten trägt und ob einmal oder dauerhaft.**
 
 ## Kern
 
@@ -96,11 +102,15 @@ erklärt der Begriff nichts). Was sie rettet, ist ein Merkmal, das ich vorher ni
 hatte: nicht nur **wie hoch** die Lehrkosten sind, sondern **in welcher Gestalt**
 sie anfallen. Wer lehrt, wann und wie oft, sagt die Form der Ausbreitung voraus.
 
-| Lehrform | Fall | Form der Ausbreitung |
-|---|---|---|
-| Hand zu Hand, unbefristet | [[feynman-diagramm]] | Stammbaum mit Geografie |
-| Zertifikatskette, institutionell | Laban/Benesh | Beruf ([[stellvertreterlesung]]) |
-| Einmalige Schwellenprüfung, staatlich | [[verkehrszeichen]] | Hoheitsgebiet |
+| Lehrform | Fall | Form der Ausbreitung | wer trägt die Kosten |
+|---|---|---|---|
+| Hand zu Hand, unbefristet | [[feynman-diagramm]] | Stammbaum mit Geografie | das Fach |
+| Zertifikatskette, institutionell | Laban/Benesh | Beruf ([[stellvertreterlesung]]) | die Kompanie |
+| Einmalige Schwellenprüfung, staatlich | [[verkehrszeichen]] | Hoheitsgebiet | der Staat, einmal |
+| **kein Lehrereignis** | [[pflegekennzeichnung]] | **Warenstrom** | der Eigentümer, unbefristet |
+
+Die vierte Zeile und die vierte Spalte sind am 2026-09-02 dazugekommen; die Spalte
+ist das Wichtigere, siehe Fall 4.
 
 Der Beleg für die dritte Zeile ist eine Streichung. Das amerikanische MUTCD stellte
 1971 auf Symbolzeichen um und wollte den Übergang „as rapidly as public acceptance
@@ -124,6 +134,44 @@ aus verschiedenen Feldern — eine Tabelle, die zu ordentlich aussieht, um schon
 etwas zu sein. Die dritte Zeile hängt zudem an einer Deutung: Dass die Streichung
 von 1978 auf Verständnisprobleme zurückgeht, sagt das Handbuch nirgends.
 
+## Fall 4 (2026-09-02): kein Lehrereignis, und wer stattdessen zahlt
+
+Der am 2026-08-31 vorregistrierte Sturzbefund zur Gestalt-Größe lautete: eine
+schwellengeprüfte Notation, die ihre Grammatik nachträglich **erfolgreich**
+gewechselt hat. Geprüft an der [[pflegekennzeichnung]], und er ist **nicht**
+eingetreten — dafür ist F1 eingetreten, die vierte Gestalt.
+
+Waschsymbole werden nirgends gelehrt: keine Prüfung, kein Kurs, kein Zertifikat,
+keine Schwelle. Sie reisen mit dem Gegenstand, den sie beschreiben — das Etikett
+„muss während der gesamten Lebensdauer des Artikels beständig und voll lesbar
+bleiben" — und sind deshalb dort, wo der Warenstrom hinkommt. Das ist eine vierte
+Ausbreitungsform, und sie zwingt die Tabelle zu einer Umdeutung: **Was die
+Ausbreitung vorhersagt, ist nicht die Lehrform, sondern wer die Lehrkosten dauerhaft
+trägt.** Bei Stammbaum, Beruf und Hoheitsgebiet zahlt das Fach, die Kompanie, der
+Staat — und im dritten Fall genau einmal. Hier zahlt der Eigentümer der Zeichen,
+unbefristet und aus eigenem Interesse (Kampagne, App, Verbraucherumfrage,
+Lizenzbedingung), weil es keinen Termin gibt, an dem er es hinter sich bringen
+könnte. Uniformität wird entsprechend nicht durch Ausbildung gesichert, sondern
+durch **Markenrecht**: „abweichende Lösungen zu verhindern" steht in den
+Vereinszielen, „Phantasie-Pflegesymbole" sind untersagt.
+
+**Punkt 4 hält, und zum ersten Mal nicht als mein Schluss.** In den Grundsätzen des
+Systems steht die Verfahrensregel selbst: „Anpassungen … sind nach Möglichkeit
+**ohne neue Symbole und Zusätze** im Rahmen des bestehenden Systems vorzunehmen."
+Eine Notation ohne zweiten Lehrtermin verbietet sich das Erfinden schriftlich. Und
+als 2014 doch etwas Neues zu sagen war (nachhaltige Pflege), kam kein sechstes
+Zeichen, sondern ein Logo mit Webadresse, ausdrücklich „kein technisches Symbol".
+
+**Was dagegen spricht, und es ist ernst.** ISO 3758:2023 hat vorhandene Zeichen
+*geändert* (Verneinungsform von Bügeln, Bleichen, Waschen, Handwäsche) und neue
+ergänzt. Das ist kein Grammatikwechsel — die neuen Zeichen entstehen durch
+Anwendung vorhandener Operatoren —, aber der Wortlaut von Punkt 4 hält damit nur
+noch am Wort „erratbar", und das ist ungeprüft. Der Balken unter dem Waschbottich
+ist nach derselben Richtlinie eine **nachträgliche** Ergänzung; er ist ein neuer
+*Operator*, nicht ein neues Zeichen, und es gibt keinen Grund, warum ihn jemand
+erraten sollte. Zweitens: Belegt ausgebreitet sind Etiketten, nicht Lesefähigkeit —
+alle Verständniszahlen stammen aus der Umfrage des Markeninhabers.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -143,11 +191,18 @@ schiefgehen können:
    nicht am Ausbleiben.
 4. Wo einmalig an einer Schwelle gelehrt wird, kann die Notation danach nur
    erratbare Zeichen nachschieben und ihre Grammatik nicht mehr austauschen.
-   (Am MUTCD 1971/1978 belegt, an einem zweiten Fall ungeprüft.)
+   (Am MUTCD 1971/1978 belegt; **am 2026-09-02 an einem zweiten Fall geprüft** und
+   nicht gestürzt, aber der Fall hat gezeigt, dass alles am ungeprüften Wort
+   „erratbar" hängt — siehe Fall 4.)
+5. Wo es **gar kein** Lehrereignis gibt, muss jemand die Lehrkosten dauerhaft
+   tragen, sonst gibt es keine Ausbreitung. (2026-09-02, n=1 — das ist die
+   angreifbarste Aussage dieser Notiz, weil ihr Gegenfall billig zu finden sein
+   müsste: eine Notation ohne Lehrereignis und ohne Kostenträger, die trotzdem
+   verbreitet ist. Emoji sind der offene Kandidat.)
 
 ## Was dagegen spricht
 
-- **n=3 seit dem 2026-08-31** (vorher n=2), und alle drei Fälle sind aus dem 20.
+- **n=4 seit dem 2026-09-02** (vorher n=3), und alle vier Fälle sind aus dem 20.
   Jahrhundert und aus Feldern, in denen jemand nachgezählt, Kursordnungen
   veröffentlicht oder einen Standard zweimal gedruckt hat. Auswahlverzerrung liegt weiter nahe: Fächer,
   die ihre Ausbildung nicht dokumentieren, liefern keine Belege dieser Form.
@@ -181,9 +236,12 @@ schiefgehen können:
   an, statt zu verschwinden oder sich auszubreiten
 - [[verkehrszeichen]] — Fall 3: die dritte Lehrform (einmalige Schwellenprüfung)
   und die Gestalt-Größe
+- [[pflegekennzeichnung]] — Fall 4: kein Lehrereignis, Ausbreitung im Warenstrom,
+  und die Frage nach dem Kostenträger
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-28.md`
 - `entries/2026/2026-08-29.md` (Fall 2)
 - `entries/2026/2026-08-31.md` (Fall 3)
+- `entries/2026/2026-09-02.md` (Fall 4)
