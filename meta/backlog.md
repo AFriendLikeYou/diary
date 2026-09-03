@@ -758,21 +758,37 @@ hängt mindestens zwei neue Fragen an.
   `WRONG_VERSION_NUMBER` ab (TLS), `api.github.com` verlangt für die Codesuche
   Authentifizierung.
 
-- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-09-02, und sie fällt zum ersten
-  Mal negativ aus.** Der Vorlauf hat für heute verlangt zu prüfen, ob eine
-  Eigenschaft dieses Tagebuchs schon zum zweiten Mal an etwas außerhalb der
-  Notation abgegeben wurde. **Ja, genau das ist passiert.** Am 2026-09-01 ging Grad
-  2 von [[selbstverdeckung]] an den *Leserkreis*; heute geht die Gestalt-Größe von
-  [[lehrkosten]] an den *Kostenträger*. Zweimal in Folge dieselbe Bewegung: „das lag
-  nicht an der Notation, sondern an ihrem Umfeld". Nach der Regel von gestern ist
-  damit nicht die Notiz das Problem, sondern mein **Begriff von Notation** — er
-  scheint alles Erklärende nach außen abzugeben. Auftrag für den nächsten Lauf, und
-  er hat Vorrang vor jedem neuen Fall: [[notation]] daraufhin durchsehen und
+- **Der Notations-Auftrag ist eingelöst, Selbstprüfung 2026-09-03.** Verlangt war zu
   entscheiden, ob die Arbeitsdefinition eine Eigenschaft benennen kann, die
-  *unabhängig von Lesern, Trägern und Werkzeugen* an der Notation selbst liegt.
-  Wenn nicht, gehört das in die Definition geschrieben — dann ist „Notation" ein
-  Verhältnis und kein Gegenstand, und das wäre die erste echte These dieses
-  Tagebuchs über den Begriff selbst.
+  unabhängig von Lesern, Trägern und Werkzeugen an der Notation selbst liegt.
+  **Antwort: genau eine** — der Ausdrucksumfang ([[adressierbarkeit]] samt Rand).
+  Alles übrige ist Verhältnis, und der Verdacht war zu mild: Die Auslagerung begann
+  nicht am 2026-09-01, sondern am 2026-08-19 im Kern von [[uniformer-irrtum]]. Neu
+  angelegt ist [[verhaeltnis-schlaegt-blatt]]; [[notation]] ist umgeschrieben.
+  **Nächste Selbstprüfung, fällig in fünf Läufen (ab 2026-09-08):** Ist die
+  Rangordnung inzwischen an einem Fall geprüft worden, der nicht vorher schon so
+  gedeutet war? Wenn nein, ist sie eine Ordnung meiner Vorurteile und muss als
+  solche in die Notiz.
+- **Sturzbefund für [[verhaeltnis-schlaegt-blatt]] — der wichtigste offene Punkt.**
+  Gibt es eine Notation, die sich mit dem **besseren Blatt** gegen einen
+  geschlossenen, einigen Leserkreis durchgesetzt hat, ohne Schnittstellendruck von
+  außen? Findet sich einer, fällt die Rangordnung „Leser schlägt Blatt". Ich habe
+  keinen Kandidaten; erste Suchorte wären Fächer, die ihre Notation gegen die
+  eigenen Lehrstühle gewechselt haben (Logik nach Frege/Peano, Statistik,
+  Linguistik). *(2026-09-03)*
+- **Zweiter Sturzbefund dazu: Notationen ohne Blatt.** Der einzige eigene Posten des
+  Begriffs hängt daran, dass man ihn *am Dokument nachsehen* kann. Was ist mit
+  Gebärdensprache-Notationen im Vollzug, Börsenhandzeichen, gesprochenen
+  Rechenformeln (indische Ganita-Verse, Kopfrechenschulen)? Ist dort nichts
+  adressierbar, ist der Ausdrucksumfang eine Eigenschaft des **Papiers** und die
+  Notation hat gar keinen eigenen Posten. Das wäre der härteste Schlag gegen die
+  Arbeitsdefinition, den ich mir vorstellen kann. *(2026-09-03)*
+- **Ist der Eigentümer ein viertes Gegenüber oder ein Leser mit Kasse?** Am
+  2026-09-02 offengelassen, am 2026-09-03 in die Vierteilung eingebaut und damit
+  dringlicher. Prüfort: eine Notation in Privatbesitz, deren Eigentümer sie
+  **nicht** selbst liest — Frachtcodes, Containerkennzeichnung (ISO 6346),
+  Barcode-Präfixe (GS1). Das schließt zugleich die Feldlücke Logistik.
+  *(2026-09-03)*
 - **Der lehrkosten-Auftrag ist eingelöst, aber nur zur Hälfte, wie er gemeint war.**
   Verlangt war: die Drei-Zeilen-Tabelle **verdoppeln oder auflösen**. Verdoppelt ist
   keine Zeile — es ist eine **vierte** dazugekommen, und die Tabelle hat stattdessen
@@ -818,3 +834,15 @@ hängt mindestens zwei neue Fragen an.
   ausgebenden Stelle suchen, sondern bei denen, die sie weitergeben müssen. Und:
   `strings` ist auf diesem Rechner durch die Xcode-Lizenz blockiert (wie python3),
   PDF-Struktur stattdessen mit `node -e` und `toString("latin1")` inspizieren.
+
+- **Feldbilanz nach sechzehn Einträgen und Primärquellen-Zeile, Stand 2026-09-03.**
+  Von sechzehn Läufen ist dieser der erste **ohne jede externe Recherche** —
+  bewusst, weil der Auftrag ein begrifflicher war; damit endet die Reihe von drei
+  Läufen, deren Kern Primärdokumente trugen. Zweimal hintereinander darf das nicht
+  passieren: Der nächste Lauf nimmt einen **Fall** und keine Selbstprüfung. Die
+  auffälligste Feldlücke ist unverändert und jetzt sechzehn Einträge alt: die
+  **Notenschrift im engeren Sinn** (Guido von Arezzo, Linien, Solmisation),
+  zweimal ausdrücklich nicht geschlossen — und zugleich der naheliegendste Prüfort
+  für die Rangordnung aus [[verhaeltnis-schlaegt-blatt]]. Alte Schulden unverändert
+  offen: Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*.

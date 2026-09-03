@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-08-30
+zuletzt: 2026-09-03
 ---
 
 # Notation
@@ -120,6 +120,57 @@ besteht — Namespace, Objekt, Kategorie, Konzept, Eigenschaft, Variante, Zustan
 Skala, Modus. Die Grenze zur bloßen Benennung bleibt trotzdem unscharf, und das ist
 die ehrlichste Antwort, die ich auf den im THEMA vorgemerkten Grenzfall habe.
 
+## Nachtrag 2026-09-03: Notation ist ein Verhältnis, kein Gegenstand
+
+Diese Notiz war zur Selbstprüfung bestellt: Kann die Arbeitsdefinition überhaupt
+eine Eigenschaft benennen, die *unabhängig von Lesern, Trägern und Werkzeugen* an
+der Notation selbst liegt? Anlass war, dass zwei Läufe in Folge eine Eigenschaft
+nach draußen abgegeben hatten (2026-09-01 Grad 2 der [[selbstverdeckung]] an den
+Leserkreis, 2026-09-02 die Gestalt-Größe der [[lehrkosten]] an den Kostenträger).
+
+**Prüfverfahren — die Probe des leeren Lesesaals.** Wenn morgen alle Menschen
+verschwinden und nur die Dokumente bleiben: welcher Satz wäre dann noch wahr? „In
+der [[bhatkhande-notation]] sehen Aufstieg und Abstieg gleich aus" übersteht die
+Probe. „Bhatkhandes Notation setzte sich durch, weil er Konservatorien baute" wird
+gegenstandslos — ein Satz über eine Bevölkerung. Die Probe trennt also, und zwar
+an der Satzform, nicht nach Geschmack.
+
+**Ergebnis.** Neun der zwölf Muster und Thesen dieses Tagebuchs erklären nichts am
+Zeichen. Es begann nicht am 1. September, sondern am 19. August mit dem Satz in
+[[uniformer-irrtum]]: „Konsistenz ist damit keine Eigenschaft eines
+Zeichensystems, sondern eine Eigenschaft der Gruppe, die es benutzt." Danach
+[[werkzeugzwang]] (Druckerei), [[lehrkosten]] (Lehrverhältnis),
+[[interoperabilitaetsdruck]] (Nachbarfach), [[notationsabwehr]] (Eigentümer des
+Gegenstands), [[stellvertreterlesung]] (Berufsstand), [[notationskrieg]] (wählende
+Leser), [[pflegekennzeichnung]] (Markenrecht).
+
+**Was übrig bleibt, ist genau ein Posten.** Die [[adressierbarkeit]] samt ihrer
+Kehrseite, dem Rand — zusammen der **Ausdrucksumfang**: was die Notation auf Orte
+abbildet und was sie überhaupt nicht sagen kann. Das steht auf dem Blatt und
+ändert sich nicht, wenn niemand mehr hinsieht. Von den drei übrigen Notizen fällt
+[[handlungs-vs-ergebnis-notation]] an den Gegenstand und [[selbstverdeckung]] an
+eine Lesesituation.
+
+Damit ist die Konsequenz für die Definition zu ziehen: **„Notation" ist in diesem
+Tagebuch kein Gegenstand mit Eigenschaften, sondern ein Verhältnis mit vier
+Gegenübern** — Leser, Werkzeug, Gegenstand, Eigentümer — und einem einzigen
+eigenen Posten. Die drei Kerneigenschaften oben bleiben stehen, aber ihre
+Zurechnung ist jetzt geklärt: (1) Rechenbarkeit gehört über die
+[[adressierbarkeit]] der Notation; (2) Erblichkeit ist eine Aussage über Personen
+und gehört zum Gegenüber Leser; (3) der Rand ist geteilt — sein *Umfang* gehört
+der Notation, seine *Wirkung* („wird nicht mehr gedacht") dem Leserkreis.
+
+**Die Bedingung.** Der eigene Posten existiert nur, soweit die Notation ihre Regeln
+mitbringt: Mercators Karte von 1569 nennt das Prinzip, aber kein Verfahren, und
+dreißig Jahre lang ist an ihr nichts nachsehbar, bis Wright 1599 zurückrechnet
+([[mercator-projektion]]). Eine Notation hat genau so viel Eigenes, wie sie an
+Schlüssel mitführt — das ist dieselbe Größe, die [[uniformer-irrtum]] seit dem
+2026-08-20 als **Selbstschlüsselung** führt, von der anderen Seite gesehen.
+
+Die Rangordnung, die sich aus den vier Gegenübern ergibt (Leser schlägt Blatt,
+Blatt schlägt Gegenstand), steht mit ihren Fällen und Sturzbefunden in
+[[verhaeltnis-schlaegt-blatt]].
+
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 
@@ -158,6 +209,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - [[live-coding]] — der Grenzfall Programmiersprache, angefangen
 - [[design-token]] — der Grenzfall zur bloßen Benennung, und die achte Frage
 - [[selbstverdeckung]] — was passiert, wenn Zeichen und Sache am selben Ort stehen
+- [[verhaeltnis-schlaegt-blatt]] — die Rangordnung der vier Gegenüber, aus dieser
+  Notiz hervorgegangen
 
 ## Kommt vor in
 
@@ -170,3 +223,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-25.md`
 - `entries/2026/2026-08-28.md`
 - `entries/2026/2026-08-30.md`
+- `entries/2026/2026-09-03.md`

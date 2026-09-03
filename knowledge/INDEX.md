@@ -9,7 +9,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Begriffe
 
-- [notation](notation.md) — Arbeitsdefinition: rechenbar, erblich, mit einem Rand; dazu die vierte Frage (was wird notiert?) und die fünfte (wie viel legt es fest?); Erblichkeit seit 2026-08-28 wörtlich zu lesen; seit 2026-08-30 eine achte Frage (welches Zeichen liegt oben?) und der Grenzfall zur bloßen Benennung
+- [notation](notation.md) — Arbeitsdefinition: rechenbar, erblich, mit einem Rand; dazu die vierte Frage (was wird notiert?) und die fünfte (wie viel legt es fest?); Erblichkeit seit 2026-08-28 wörtlich zu lesen; seit 2026-08-30 eine achte Frage (welches Zeichen liegt oben?) und der Grenzfall zur bloßen Benennung; **seit 2026-09-03 ein Verhältnis und kein Gegenstand** — vier Gegenüber, ein einziger eigener Posten (Ausdrucksumfang), und die drei Kerneigenschaften sind zugerechnet
 
 ## Systeme
 
@@ -30,7 +30,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Muster
 
-- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand; **pro Dimension** zu prüfen, ohne die Revidierbarkeits-Bedingung (2026-08-25) und ohne die Zeitachsen-Bedingung (2026-08-26)
+- [adressierbarkeit](adressierbarkeit.md) — kann man hineinzeigen? Daran hängt das Entwerfen, nicht am notierten Gegenstand; **pro Dimension** zu prüfen, ohne die Revidierbarkeits-Bedingung (2026-08-25) und ohne die Zeitachsen-Bedingung (2026-08-26); seit 2026-09-03 die **einzige** Notiz, die die Probe des leeren Lesesaals übersteht — und damit der ganze Eigenanteil des Begriffs, samt Sturzbefund „Notation ohne Blatt"
 - [handlungs-vs-ergebnis-notation](handlungs-vs-ergebnis-notation.md) — Handlung oder Ergebnis; die Kernfolge ist am 2026-08-21 **widerlegt**, die Konfliktvorhersage hält
 - [interoperabilitaetsdruck](interoperabilitaetsdruck.md) — Fachnotationen sterben an der Schnittstelle, nicht am Gegenstand (n=2, ein offener Gegenfall, ein ungeprüfter dritter Punkt: A1 gegen R1C1)
 - [laufende-notation](laufende-notation.md) — die dritte zeitliche Stellung: Zeichen und Sache gleichzeitig, das Zeichen als Ursache; seit 2026-08-26 ohne Vergänglichkeit und ohne Eigenzeit (n=2), Kern am 2026-08-27 als trennscharf geprüft
@@ -50,9 +50,10 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ## Thesen
 
-- [uniformer-irrtum](uniformer-irrtum.md) — **aktuelle Fassung**: Uniformität vor Wahrheit — eingeschränkt auf Notationen, die ihre Legende *nicht* mitführen, seit 2026-08-21 auch zeitlich, seit 2026-08-27 mit dem gezeichneten Schlüssel (Gradnetz) und seinem Wegfall, seit 2026-08-28 mit der Einsicht, dass Selbstschlüsselung **nicht hinreichend** ist, seit 2026-08-30 mit einer dritten Grenze: sie schützt die Bedeutung, nicht den Wert, seit 2026-08-31 mit dem **nachgerüsteten** Schlüssel (MUTCD 1978: die Worterklärung bleibt hängen), seit 2026-09-02 mit dessen zweitem Fall — hängen bleibt er dort ohne pädagogische Absicht, durch einen veralteten Gesetzesverweis — und mit einer vierten Sicherung der Uniformität: dem **Markenrecht**
+- [uniformer-irrtum](uniformer-irrtum.md) — **aktuelle Fassung**: Uniformität vor Wahrheit — eingeschränkt auf Notationen, die ihre Legende *nicht* mitführen, seit 2026-08-21 auch zeitlich, seit 2026-08-27 mit dem gezeichneten Schlüssel (Gradnetz) und seinem Wegfall, seit 2026-08-28 mit der Einsicht, dass Selbstschlüsselung **nicht hinreichend** ist, seit 2026-08-30 mit einer dritten Grenze: sie schützt die Bedeutung, nicht den Wert, seit 2026-08-31 mit dem **nachgerüsteten** Schlüssel (MUTCD 1978: die Worterklärung bleibt hängen), seit 2026-09-02 mit dessen zweitem Fall — hängen bleibt er dort ohne pädagogische Absicht, durch einen veralteten Gesetzesverweis — und mit einer vierten Sicherung der Uniformität: dem **Markenrecht**; seit 2026-09-03 ist Selbstschlüsselung außerdem die Bedingung der **Zurechnung**, und der Kernsatz von 2026-08-19 gilt als die erste Auslagerung dieses Tagebuchs
+- [verhaeltnis-schlaegt-blatt](verhaeltnis-schlaegt-blatt.md) — die erste These über den Begriff selbst: eine Notation hat genau einen eigenen Posten (Ausdrucksumfang), alles übrige sind Verhältnisse zu vier Gegenübern (Leser · Werkzeug · Gegenstand · Eigentümer) — und die stehen in einer Rangordnung: Leser schlägt Blatt, Blatt schlägt Gegenstand (n=4, alle aus der eigenen Basis, kein neuer Fall)
 - [konsistenz-vor-wahrheit](konsistenz-vor-wahrheit.md) — Vorfassung vom 2026-08-18, am 2026-08-19 korrigiert; bleibt als Zwischenstand stehen
 
 ---
 
-**Stand:** 2026-09-02 · 31 Notizen
+**Stand:** 2026-09-03 · 32 Notizen

@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-26
+zuletzt: 2026-09-03
 ---
 
 # Adressierbarkeit
@@ -156,6 +156,25 @@ Der eigentliche Gegenbeleg — eine adressierbare Notation, in der nachweislich
 nicht entworfen wurde — ist weiterhin nicht gefunden. Das Tabellenblatt ist das
 Gegenteil davon: Jean-Louis Gassée nannte es 1981 „intellectual modeling clay".
 
+## Nachtrag 2026-09-03: der einzige eigene Posten
+
+Bei der Selbstprüfung des Begriffs [[notation]] hat sich diese Notiz als die
+**einzige** herausgestellt, die die Probe des leeren Lesesaals übersteht: Ob eine
+Notation eine Größe auf einen Ort abbildet oder in eine Zelle schreibt, kann man am
+Dokument nachsehen, auch wenn niemand es mehr liest. Neun der zwölf Muster und
+Thesen dieses Tagebuchs erklären dagegen etwas am Umfeld — Leser, Werkzeug,
+Gegenstand, Eigentümer (siehe [[verhaeltnis-schlaegt-blatt]]). Adressierbarkeit,
+zusammen mit ihrer Kehrseite, dem Rand, heißt dort **Ausdrucksumfang**.
+
+Das ist kein Lob, sondern eine Last: Die ganze Zurechnung „das liegt an der
+Notation selbst" hängt jetzt an dieser einen Notiz. Und sie hängt an einer
+Bedingung — nachsehbar ist nur, was das Dokument mit seinen Regeln mitbringt
+([[mercator-projektion]], 1569 bis 1599). Der offene Sturzbefund dazu ist neu:
+Notationen **ohne Blatt** (Gebärden, Börsenhandzeichen, gesprochene
+Rechenformeln). Wenn dort nichts adressierbar ist, ist Adressierbarkeit eine
+Eigenschaft des Papiers und nicht der Notation, und dann hat die Notation gar
+keinen eigenen Posten.
+
 ## Verwandt
 
 - [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
@@ -171,6 +190,8 @@ Gegenteil davon: Jean-Louis Gassée nannte es 1981 „intellectual modeling clay
 - [[tabellenblatt]] — der Fall, der die Zeitbedingung erledigt und in dem die
   Adressierbarkeit vom Erfinder als Zweck benannt wird
 - [[selbstverdeckung]] — man kann in die Zelle zeigen, aber nicht in sie hineinsehen
+- [[verhaeltnis-schlaegt-blatt]] — dort ist diese Eigenschaft der einzige Posten,
+  der der Notation selbst gehört
 
 ## Kommt vor in
 
@@ -178,3 +199,4 @@ Gegenteil davon: Jean-Louis Gassée nannte es 1981 „intellectual modeling clay
 - `entries/2026/2026-08-24.md` (pro Dimension)
 - `entries/2026/2026-08-25.md` (Verdacht gestürzt)
 - `entries/2026/2026-08-26.md` (Zeitbedingung gefallen)
+- `entries/2026/2026-09-03.md` (einziger eigener Posten)

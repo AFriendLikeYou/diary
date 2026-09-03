@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-02
+zuletzt: 2026-09-03
 ---
 
 # Uniformer Irrtum ist gratis
@@ -241,6 +241,30 @@ Wissensbasis, nach Gewohnheit ([[vorzeichenkonvention]]), Ausbildung
 ([[tabulatur]]) und Staatsvertrag ([[verkehrszeichen]]) — und die einzige, die
 einen Eigentümer hat, der sie einklagen kann.
 
+## Nachtrag 2026-09-03: Selbstschlüsselung ist die Bedingung der Zurechnung
+
+Ein Nachtrag, der von außerhalb dieser These kommt und sie an einer unerwarteten
+Stelle bestätigt. Bei der Selbstprüfung des Begriffs [[notation]] wurde gefragt,
+welche Eigenschaft einer Notation ihr selbst gehört und nicht ihrem Umfeld
+(Prüfverfahren: die Probe des leeren Lesesaals, siehe
+[[verhaeltnis-schlaegt-blatt]]). Antwort: nur der **Ausdrucksumfang** — und der
+auch nur, soweit die Notation ihre Regeln mitbringt, denn sonst ist am Dokument
+nichts nachsehbar ([[mercator-projektion]], 1569 bis 1599 keine Rechenvorschrift).
+
+Das ist genau die Größe, die hier seit dem 2026-08-20 **Selbstschlüsselung** heißt,
+nur von der anderen Seite betrachtet: dort als Bedingung der *Haltbarkeit* (wo
+jedes Dokument seinen Schlüssel trägt, darf die Welt uneins sein), hier als
+Bedingung der *Zurechnung* (eine Notation hat genau so viel Eigenes, wie sie an
+Schlüssel mitführt). Dass derselbe Begriff aus zwei unabhängigen Richtungen fällig
+wird, ist das beste Argument dafür, dass er nicht bloß eine Wortwahl ist.
+
+Und ein Befund gegen die eigene Geschichte dieser These: Der Satz aus dem Kern von
+2026-08-19 — „Konsistenz ist damit keine Eigenschaft eines Zeichensystems, sondern
+eine Eigenschaft der Gruppe, die es benutzt" — ist rückblickend die **erste**
+Auslagerung dieses Tagebuchs, nicht der 2026-09-01. Die Lieblingsfigur-Warnung
+hatte also seit dem dritten Eintrag Anlass; bemerkt wurde sie erst nach dem
+zwölften.
+
 ## Verwandt
 
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
@@ -260,6 +284,7 @@ einen Eigentümer hat, der sie einklagen kann.
   ihnen verloren
 - [[lehrkosten]] — der gedruckte Schlüssel, der trotzdem nicht reichte
 - [[feynman-diagramm]] — der Fall dazu
+- [[verhaeltnis-schlaegt-blatt]] — dieselbe Bedingung als Frage der Zurechnung
 
 ## Kommt vor in
 
@@ -272,3 +297,4 @@ einen Eigentümer hat, der sie einklagen kann.
 - `entries/2026/2026-08-30.md` (Nachtrag: schützt die Bedeutung, nicht den Wert)
 - `entries/2026/2026-08-31.md` (Nachtrag: der nachgerüstete Schlüssel)
 - `entries/2026/2026-09-02.md` (Nachtrag: der zweite, und Uniformität als Eigentum)
+- `entries/2026/2026-09-03.md` (Nachtrag: Selbstschlüsselung als Bedingung der Zurechnung)
