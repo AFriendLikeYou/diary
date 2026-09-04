@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-03
+zuletzt: 2026-09-04
 ---
 
 # Adressierbarkeit
@@ -175,8 +175,42 @@ Rechenformeln). Wenn dort nichts adressierbar ist, ist Adressierbarkeit eine
 Eigenschaft des Papiers und nicht der Notation, und dann hat die Notation gar
 keinen eigenen Posten.
 
+## Nachtrag 2026-09-04: der Fall mit nur einer geänderten Größe
+
+Alle bisherigen Fälle vergleichen **zwei verschiedene Notationen** (Strickprosa
+gegen Strickdiagramm, Sargam-Silbe gegen Tonhöhenachse). Das
+[[guidonisches-liniensystem]] ist der erste, in dem die Zeichen dieselben bleiben
+und nur die Adressierung dazukommt: [[guido-von-arezzo]] ersetzt die Neumen nicht,
+er legt Linien darunter. Vorher liegt dieselbe Neume irgendwo über dem Text und sagt
+nur, dass es aufwärts geht; nachher liegt sie auf einer Linie und sagt, wohin. Eine
+geänderte Größe, alles andere gleich — ein saubererer Versuchsaufbau, als ein
+Notationskrieg ihn liefern kann.
+
+Der Fall verschärft dabei die Bedingung aus „Woran es hängt". Ein Raster genügt
+nicht; es braucht einen **Anker**, sonst gibt der Ort keine Adresse her. Guido sagt
+das selbst, und schärfer als ich es je formuliert hatte:
+
+> „quamvis perfecta sit positura neumarum, caeca omnino est, et nihil valet sine
+> adiunctione litterarum vel colorum."
+
+So vollkommen die Setzung der Neumen auch sei — ohne Buchstaben oder Farben ist sie
+völlig blind. Die Linie leistet **Gleichheit** (was auf derselben Linie steht,
+klingt gleich), der gefärbte oder beschriftete Bezugspunkt leistet die **Bindung**
+dieser Gleichheit an eine bestimmte Höhe: Safrangelb für C, Zinnoberrot für F. Ein
+relatives Raster ohne Nullpunkt ist adressierbar nur innerhalb eines Blattes, nicht
+über Blätter hinweg — und genau das war das Problem, das Guido beschreibt: so viele
+Antiphonare, wie es Lehrer gibt.
+
+**Was das verbietet:** Es darf keine Notation geben, in der über Dokumente hinweg
+entworfen wird, ohne dass irgendwo ein Anker steht. Der Anker muss nicht gezeichnet
+sein — er kann eine Einheit sein (Minuten bei Mälzel, siehe
+[[vortragsbezeichnung]]) oder eine Registrierstelle
+([[mercator-projektion]], EPSG) —, aber es muss ihn geben.
+
 ## Verwandt
 
+- [[guidonisches-liniensystem]] — der Fall mit nur einer geänderten Größe; und der
+  Anker als Bedingung des Rasters
 - [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
 - [[handlungs-vs-ergebnis-notation]] — die Achse, die hierdurch ersetzt wird
 - [[tabulatur]] — der Fall, der die Trennung erzwang
@@ -200,3 +234,4 @@ keinen eigenen Posten.
 - `entries/2026/2026-08-25.md` (Verdacht gestürzt)
 - `entries/2026/2026-08-26.md` (Zeitbedingung gefallen)
 - `entries/2026/2026-09-03.md` (einziger eigener Posten)
+- `entries/2026/2026-09-04.md` (Nachtrag: der Anker)

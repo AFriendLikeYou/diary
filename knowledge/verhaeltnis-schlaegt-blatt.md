@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-03
+zuletzt: 2026-09-04
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -51,6 +51,46 @@ Die Rangordnung, vier Fälle aus der eigenen Basis, alle in dieselbe Richtung:
   nachweislich falsch, kürzt sich in jeder Rechnung weg und ist nie reformiert
   worden.
 
+## Nachtrag 2026-09-04: die Vorbedingung zerfällt in zwei
+
+Der unten vorregistrierte **Sturz der Rangordnung** wurde am
+[[guidonisches-liniensystem]] geprüft und ist **nicht** eingetreten. Er hat aber die
+Bedingung getroffen, in der ich zwei Wörter für eines gehalten hatte: „geschlossen,
+einig". Das sind zwei Eigenschaften, und sie können auseinanderfallen.
+
+[[guido-von-arezzo]] hatte um 1025 das bessere Blatt und wurde von seinem eigenen
+Leserkreis dafür vertrieben („me vides prolixis finibus exulatum"). Entschieden hat
+es kein Blatt, sondern ein Leser von außen: Papst Johannes XIX. (1024–1032) lud ihn
+mit drei Boten nach Rom und prüfte selbst — er stand nicht von seinem Platz auf, bis
+er einen ungehörten Vers aus dem Antiphonar gelernt hatte. Erst *danach* bereute der
+Abt von Pomposa und bat ihn zurück. Reihenfolge: besseres Blatt → Verbannung → Rom →
+Reue. Die Rangordnung hält also, und zwar in der schärfsten Form: Das Blatt hat
+innerhalb des Kreises verloren.
+
+Warum es trotzdem gewann, sagt derselbe Prolog. Guidos Leserkreis war **geschlossen
+und zugleich zerstritten**: „Vix denique unus concordat alteri, non magistro
+discipulus, nec discipulus condiscipulo", und es gebe so viele Antiphonare, wie es
+Lehrer in den einzelnen Kirchen gibt. Daraus die neue Fassung:
+
+> **Nicht jeder geschlossene Leserkreis schlägt das Blatt — nur der einige tut es.
+> Ein geschlossener, aber zerstrittener Kreis lässt sich von außen überstimmen.**
+
+Der Gegenpol steht schon in der Basis: England nach Newton war geschlossen **und**
+einig, und das bessere Blatt verlor hundert Jahre lang, ohne dass jemand von außen
+dazwischenkam ([[leibniz-notation]]). Zwei Fälle, entgegengesetzter Ausgang, ein
+Unterschied.
+
+**Was das verbietet:** Ein Fall, in dem eine Instanz von außen einen geschlossenen
+und *einigen* Kreis erfolgreich überstimmt hat, stürzt die Rangordnung weiterhin.
+Und umgekehrt: Bleibt ein zerstrittener geschlossener Kreis trotz äußerer Instanz
+bei seiner Notation, ist die neue Bedingung falsch. n=1 in jede Richtung.
+
+**Was dagegen spricht:** Alles Entscheidende an diesem Fall ist Guidos eigene
+Darstellung in einem rhetorischen Brief — primär für das Behauptete, nicht für das
+Geschehene. Und die Nähe zur dritten Vorbedingung von [[notationskrieg]]
+(2026-08-31, der Staat wählt für den Leser) ist groß genug, dass zu prüfen bleibt,
+ob hier zwei Begriffe dasselbe sagen.
+
 ## Die Bedingung, ohne die die These nichts behauptet
 
 Der Ausdrucksumfang übersteht die Probe nur, wenn die Notation ihre **Regeln
@@ -70,7 +110,9 @@ Argument dafür, dass die Unterscheidung nicht bloß Wortwahl ist.
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
   einen geschlossenen, einigen Leserkreis durchgesetzt hat — ohne
-  Schnittstellendruck von außen. Bisher kein Kandidat.
+  Schnittstellendruck von außen. **Am 2026-09-04 an Guido geprüft und nicht
+  eingetreten**; die Bedingung ist dabei in zwei zerfallen (siehe Nachtrag). Der
+  Sturzbefund gilt unverändert weiter, jetzt mit Betonung auf *einig*.
 - **Sturz der Vierteilung:** der Eigentümer ist kein eigenes Gegenüber, sondern ein
   zahlungskräftiger Leser. Prüfort: eine Notation in Privatbesitz, deren Eigentümer
   sie **nicht** liest (Frachtcodes, Containerkennzeichnung).
@@ -96,7 +138,11 @@ Argument dafür, dass die Unterscheidung nicht bloß Wortwahl ist.
   (Selbstschlüsselung)
 - [[werkzeugzwang]] — das Gegenüber Werkzeug, mit eigener Zuständigkeitsgrenze
 - [[lehrkosten]] — das Gegenüber Leser, in seiner teuersten Gestalt
+- [[guidonisches-liniensystem]] — Prüffall 2026-09-04, der die Vorbedingung teilt
+- [[guido-von-arezzo]] — der Erfinder, den sein eigener Leserkreis hinauswarf
+- [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-03.md`
+- `entries/2026/2026-09-04.md` (Prüfung der Rangordnung)

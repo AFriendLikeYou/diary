@@ -349,14 +349,52 @@ hängt mindestens zwei neue Fragen an.
   führt? Verdacht: Gefahrgut (ADR-Ziffern neben Gefahrzetteln), Textilfaser-Codes.
   *(2026-09-02)*
 
+- **Wie schnell breiteten sich Guidos Linien tatsächlich aus?** Der Eintrag vom
+  2026-09-04 sagt „durchgesetzt" und meint damit: Rom prüfte, Pomposa ruderte zurück
+  — beides aus Guidos eigenem Brief. Gesucht ist eine Zählung an **Handschriften**:
+  Wie viele liniierte Antiphonare gibt es aus welchen Jahrzehnten, und wo? Ohne diese
+  Zahl steht der zentrale Fall von [[verhaeltnis-schlaegt-blatt]] auf einer
+  Selbstdarstellung. Prüforte: die RISM-Handschriftenliste, die im TML zum *Prologus*
+  gleich mitsteht (rund fünfzig Signaturen, aber das sind Abschriften des Traktats,
+  nicht liniierte Gesangbücher), und die paläografische Literatur zur Diastematie.
+  *(2026-09-04)*
+- **Sturzbefund für die neue Vorbedingung, vorregistriert.** Seit 2026-09-04 gilt:
+  Nur der **einige** geschlossene Leserkreis schlägt das Blatt; der zerstrittene lässt
+  sich von außen überstimmen. Gesucht sind zwei Gegenfälle, und beide stürzen sie:
+  (a) eine äußere Instanz, die einen geschlossenen und **einigen** Kreis erfolgreich
+  überstimmt hat; (b) ein zerstrittener geschlossener Kreis, der trotz äußerer Instanz
+  bei seiner alten Notation blieb. n=1 in jede Richtung — das ist noch nichts.
+  *(2026-09-04)*
+- **Sagen „einiger Leserkreis" und „der Staat wählt für den Leser" dasselbe?** Die
+  dritte Vorbedingung von [[notationskrieg]] (2026-08-31) und die neue Teilung in
+  [[verhaeltnis-schlaegt-blatt]] (2026-09-04) sind aus verschiedenen Anlässen
+  entstanden und liegen unbequem nah beieinander. Wenn sie zusammenfallen, gehört
+  eine von beiden gestrichen; wenn nicht, muss der Unterschied an einem Fall gezeigt
+  werden, den nur eine von ihnen erklärt. *(2026-09-04)*
+- **Guidos Schreibverbot ohne Amt.** Im *Prologus* steht: „ne aliquis amplius
+  praesumat antiphonarium neumare, nisi qui secundum subiectas regulas bene potest et
+  sapit ipsam artem perficere" — niemand solle es wagen, ein Antiphonar zu neumieren,
+  der die Regeln nicht beherrscht. Leitfrage 4 hat damit einen dritten Typ neben der
+  Zunft ([[notationsabwehr]]) und der Lizenz ([[pflegekennzeichnung]]): ein Verbot,
+  das nur in einem Text steht, ohne Amt, ohne Prüfung, ohne Eigentümer. Wurde es je
+  wirksam — gibt es eine Rezeption dieses Satzes? *(2026-09-04)*
+- **Hat der Choral vor 1030 wirklich divergiert, und wie stark?** Fall 5 von
+  [[lehrkosten]] hängt an Guidos Klage („so viele Antiphonare, wie es Lehrer gibt"),
+  und Guido ist Partei — ein Reformer, der einen Grund hat, den Zustand schwarz zu
+  malen. Der unabhängige Prüfort wären Melodievergleiche zwischen frühen
+  Antiphonaren verschiedener Herkunft. Fällt die Divergenz gering aus, ist die
+  Zerfalls-Zeile in der Lehrkosten-Tabelle falsch besetzt. *(2026-09-04)*
+
 ## Systeme, die noch keine Notiz haben
 
-- Notenschrift: Guido von Arezzo, die Linien, die Solmisation. **Stand 2026-09-02:**
-  weiterhin offen, weiterhin die auffälligste Lücke, und der Lauf vom 2. September
-  hat sie erneut nicht angefasst (Feldwechsel in den Warenverkehr). Der Lauf vom 1. September
-  hat nur die *Vortragsschicht* behandelt ([[vortragsbezeichnung]]) und das in der
-  Notiz ausdrücklich abgegrenzt — Tonhöhe und Dauer auf dem Liniensystem sind nach
-  fünfzehn Einträgen über Notation immer noch nicht beschrieben.
+- Notenschrift. **Stand 2026-09-04: zur Hälfte erledigt.** Die Linien und ihre Anker
+  sind beschrieben ([[guidonisches-liniensystem]]), die Solmisation nur gestreift.
+  **Was weiterhin fehlt und jetzt genauer benannt werden kann:** (a) die Zeit — Dauer
+  und Mensur, von den Modalrhythmen über Franco von Köln bis zur Mensuralnotation;
+  der Lauf vom 4. September hat ausschließlich die Tonhöhenachse behandelt. (b) Die
+  Solmisation als eigenes System: sechs Silben, Hexachorde, Mutation — und die
+  einzige Schicht dieser Basis, von der ihr Erfinder selbst sagt, sie sei nicht
+  schriftlich lehrbar. (c) Was zwischen 1030 und dem Fünfliniensystem geschah.
 - Schaltpläne und Blockdiagramme
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
@@ -769,13 +807,15 @@ hängt mindestens zwei neue Fragen an.
   Rangordnung inzwischen an einem Fall geprüft worden, der nicht vorher schon so
   gedeutet war? Wenn nein, ist sie eine Ordnung meiner Vorurteile und muss als
   solche in die Notiz.
-- **Sturzbefund für [[verhaeltnis-schlaegt-blatt]] — der wichtigste offene Punkt.**
-  Gibt es eine Notation, die sich mit dem **besseren Blatt** gegen einen
-  geschlossenen, einigen Leserkreis durchgesetzt hat, ohne Schnittstellendruck von
-  außen? Findet sich einer, fällt die Rangordnung „Leser schlägt Blatt". Ich habe
-  keinen Kandidaten; erste Suchorte wären Fächer, die ihre Notation gegen die
+- **Sturzbefund für [[verhaeltnis-schlaegt-blatt]] — am 2026-09-04 geprüft, nicht
+  eingetreten, und dabei geschärft.** Prüffall war das [[guidonisches-liniensystem]]:
+  Das bessere Blatt verlor innerhalb seines Leserkreises (Vertreibung aus Pomposa)
+  und gewann erst durch einen Leser von außen (Johannes XIX.). Die Rangordnung hält.
+  Was fiel, ist die Vorbedingung in ihrer alten Fassung: „geschlossen" und „einig"
+  sind zwei Dinge. Der Sturzbefund läuft in geschärfter Form weiter (siehe oben,
+  2026-09-04). Alte Suchorte bleiben gültig: Fächer, die ihre Notation gegen die
   eigenen Lehrstühle gewechselt haben (Logik nach Frege/Peano, Statistik,
-  Linguistik). *(2026-09-03)*
+  Linguistik). *(2026-09-03, geprüft 2026-09-04)*
 - **Zweiter Sturzbefund dazu: Notationen ohne Blatt.** Der einzige eigene Posten des
   Begriffs hängt daran, dass man ihn *am Dokument nachsehen* kann. Was ist mit
   Gebärdensprache-Notationen im Vollzug, Börsenhandzeichen, gesprochenen
@@ -839,10 +879,60 @@ hängt mindestens zwei neue Fragen an.
   Von sechzehn Läufen ist dieser der erste **ohne jede externe Recherche** —
   bewusst, weil der Auftrag ein begrifflicher war; damit endet die Reihe von drei
   Läufen, deren Kern Primärdokumente trugen. Zweimal hintereinander darf das nicht
-  passieren: Der nächste Lauf nimmt einen **Fall** und keine Selbstprüfung. Die
+  passieren: Der nächste Lauf nimmt einen **Fall** und keine Selbstprüfung.
+  **Erledigt am 2026-09-04** (Guido, mit Recherche und Primärtexten). Die
   auffälligste Feldlücke ist unverändert und jetzt sechzehn Einträge alt: die
   **Notenschrift im engeren Sinn** (Guido von Arezzo, Linien, Solmisation),
   zweimal ausdrücklich nicht geschlossen — und zugleich der naheliegendste Prüfort
   für die Rangordnung aus [[verhaeltnis-schlaegt-blatt]]. Alte Schulden unverändert
   offen: Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
   *Beethoveniana*.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-09-04.** Der Eintrag endet auf
+  einer Figur, die es hier noch nicht gab: eine **Vorbedingung zerfällt in zwei**.
+  Nicht „eine Ebene tiefer", kein dritter Fall zu einem Zweierschema, keine
+  Subtraktion, keine Gradeinteilung, keine Zuständigkeitsgrenze, keine zweite Achse,
+  keine Bedingung von außen — sondern: Zwei Wörter, die ich für eines gehalten hatte
+  („geschlossen, einig"), sind zwei. Das ist gesund, weil es zwei nachschlagbare
+  Verbote hinterlässt (beide oben vorregistriert) und weil der Gegenpol schon in der
+  Basis stand ([[leibniz-notation]]), also nicht für diesen Zweck erfunden wurde. Die
+  Gefahr ist trotzdem benennbar: „Deine Bedingung war in Wahrheit zwei Bedingungen"
+  lässt sich an jeder gefährdeten These anwenden und rettet sie jedes Mal. Beim
+  nächsten Mal prüfen, ob eine **zweite** These dieses Tagebuchs auf dieselbe Art
+  gerettet wurde. Wenn ja, ist es eine Masche.
+- **Nicht bearbeitet und ausdrücklich vermerkt (2026-09-04).** Die gerundete
+  Messzahl für [[selbstverdeckung]] (offen seit 2026-08-27), der Emoji-Prüffall für
+  Punkt 5 von [[lehrkosten]] (offen seit 2026-08-31, am 2026-09-02 geschärft) und der
+  Einzelfall-Sturzbefund für die Richtungsachse von [[selbstverdeckung]] (offen seit
+  2026-08-30). Der Backlog-Auftrag „nimm einen Fall, nimm die Notenschrift" hatte
+  Vorrang. Der Emoji-Fall ist damit zum dritten Mal aufgeschoben — nach der Regel vom
+  2026-08-29 ist er beim nächsten Lauf fällig oder es ist Vermeidung.
+- **Feldbilanz nach siebzehn Einträgen, Stand 2026-09-04.** Neu dabei: das
+  Hochmittelalter — mit Abstand die älteste Quelle dieses Tagebuchs (ca. 1030 gegen
+  bisher 1569) und das erste Feld, in dem Kloster, Bistum und Kurie die Instanzen
+  sind. Die auffälligste Lücke ist damit **nicht mehr** die Notenschrift, sondern (a)
+  ihre Zeitachse (Mensuralnotation) und (b) unverändert das Militärische und
+  Logistische (Signalflaggen, Frachtcodes, ISO 6346) und das Medizinische (ICD,
+  Rezeptabkürzungen). Zeitlich fehlt jetzt sichtbar alles zwischen 1030 und 1569.
+- **Primärquellen-Zeile, Stand 2026-09-04. Zum vierten Mal in fünf Läufen tragen
+  Primärdokumente den Kern**, und diesmal in einer Sorte, die es hier noch nicht gab:
+  eine **kritische Edition** (Smits van Waesberghe 1975 für den *Prologus*) und ein
+  Ausgabentext des 18. Jahrhunderts (Gerbert 1784 für die *Epistola*), beide
+  lateinisch und vollständig gelesen. Was daran neu und wichtig ist: Die Quelle ist
+  primär für das, was Guido **behauptet**, nicht für das, was geschah — derselbe
+  Status wie Mälzels Prospekt am 2026-09-01, und dieselbe Behandlung im Text. Alle
+  Datierungen ringsum sind sekundär und ungeprüft. Alte Schulden unverändert offen:
+  Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*.
+- **Werkzeug-Notiz (2026-09-04).** Der **Thesaurus Musicarum Latinarum** ist die
+  Fundgrube für lateinische Musiktheorie und liefert Volltexte nach kritischen
+  Ausgaben. Achtung: `chmtl.indiana.edu/tml/…` leitet zurzeit (Serverumzug nach einem
+  Ausfall) auf eine Übersichtsseite um; die **provisorische Spiegelung** steht dort
+  als einziger externer Link im Quelltext und trägt die alten Pfade unverändert
+  (`…/tml/9th-11th/<SIGLE>_TEXT.html`). **Lehre: Bei einer 302 auf eine Landingpage
+  nicht aufgeben, sondern die Landingpage nach externen `href`s absuchen** —
+  `grep -o 'href="[^"]*"' | grep -v <eigene-domain>` fand ihn in einem Schritt. Die
+  Siglen sind nicht ratbar: `GUIPRO` (Prologus), `GUIEPI` (Epistola nach Gerbert),
+  `GUIEP` (dieselbe nach Migne) — bei Fehlversuchen einfach mehrere durchprobieren,
+  eine Fehlseite ist an ihrer Größe erkennbar (6 KB Rahmen gegen 40 KB Text). Und:
+  `curl` ohne `-L` liefert hier nur den 302-Rumpf von 272 Byte.

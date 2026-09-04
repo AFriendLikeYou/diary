@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-02
+zuletzt: 2026-09-04
 ---
 
 # Lehrkosten
@@ -105,6 +105,7 @@ sie anfallen. Wer lehrt, wann und wie oft, sagt die Form der Ausbreitung voraus.
 | Lehrform | Fall | Form der Ausbreitung | wer trägt die Kosten |
 |---|---|---|---|
 | Hand zu Hand, unbefristet | [[feynman-diagramm]] | Stammbaum mit Geografie | das Fach |
+| Hand zu Hand, unbefristet | Choral vor Guido | **Zerfall**, nicht Stammbaum | die Kirche, dauernd |
 | Zertifikatskette, institutionell | Laban/Benesh | Beruf ([[stellvertreterlesung]]) | die Kompanie |
 | Einmalige Schwellenprüfung, staatlich | [[verkehrszeichen]] | Hoheitsgebiet | der Staat, einmal |
 | **kein Lehrereignis** | [[pflegekennzeichnung]] | **Warenstrom** | der Eigentümer, unbefristet |
@@ -172,6 +173,45 @@ ist nach derselben Richtlinie eine **nachträgliche** Ergänzung; er ist ein neu
 erraten sollte. Zweitens: Belegt ausgebreitet sind Etiketten, nicht Lesefähigkeit —
 alle Verständniszahlen stammen aus der Umfrage des Markeninhabers.
 
+## Fall 5 (2026-09-04): die zweite Besetzung von Zeile 1, und was sie kostet
+
+Der Backlog verlangte seit dem 2026-09-02 eine **zweite Besetzung einer vorhandenen
+Zeile**, sonst sei die Tabelle eine Aufzählung mit Rahmen. Sie ist da, und sie
+bestätigt die Zeile nicht, sondern hängt ihr eine Bedingung an.
+
+Der Gesang vor dem [[guidonisches-liniensystem]] ist der reinste Fall von „Hand zu
+Hand, unbefristet", den ich habe, und die Kostenrechnung stammt von einem
+Zeitgenossen. [[guido-von-arezzo]] schreibt im *Prologus* (ca. 1030), Sänger würden,
+auch wenn sie „per centum annos cotidie cantent", ohne Lehrer nie von sich aus auch
+nur eine winzige Antiphon singen; und in der *Epistola* (ca. 1032), die Schüler
+seiner Vorgänger hätten „vix decennio", kaum in zehn Jahren, eine unvollkommene
+Kenntnis erreicht, er dagegen mache „annali spatio, aut si multum, biennio perfectum
+cantorem". Zehn Jahre gegen ein bis zwei. Es ist die einzige Stelle in dieser
+Wissensbasis, an der jemand die Lehrkosten seiner eigenen Notation **beziffert**.
+
+Punkt 1 sagt: Wo die Lehrkosten hoch sind, hat die Verbreitung die Form eines
+**Stammbaums**. Hier hatte sie das nicht. Sie hatte die Form eines **Zerfalls**:
+„Vix denique unus concordat alteri, non magistro discipulus, nec discipulus
+condiscipulo", und deshalb gebe es so viele Antiphonare, wie es Lehrer in den
+einzelnen Kirchen gibt; man sage schon nicht mehr, es sei Gregors Antiphonar,
+sondern Leos oder Alberts. Ein Stammbaum ist auch ein Zerfall, aber ein
+nachverfolgbarer — beim Feynman-Diagramm konnte man 1954 sagen, wer es von wem
+hatte, und die Zeichen waren überall dieselben. Hier war nach vierhundert Jahren
+Weitergabe nicht mehr dasselbe da.
+
+**Der Unterschied ist benennbar, und er verbindet diese Notiz mit
+[[uniformer-irrtum]]:** Das Feynman-Diagramm hatte neben der Hand-zu-Hand-Lehre
+einen gedruckten, kanonischen Schlüssel ([[freeman-dyson]] 1949), an dem sich jede
+Abweichung korrigieren ließ. Der Choral hatte keinen. Hand-zu-Hand-Weitergabe
+erzeugt also einen Stammbaum nur dort, wo es einen **festen Bezugstext** gibt,
+gegen den sie sich prüfen kann; ohne ihn erzeugt sie Divergenz. Punkt 2 dieser Notiz
+(„der gedruckte Schlüssel ändert nichts") und Punkt 1 sind damit nicht unabhängig:
+Der Schlüssel ändert nichts an der *Geschwindigkeit*, aber alles an der *Gestalt*.
+
+**Was dagegen spricht:** Das ist eine Deutung über einen Zeitraum, den ich nicht
+überblicke, gestützt auf die Klage eines Reformers, der einen Grund hatte, den
+Zustand schwarz zu malen. Guido ist hier Partei.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -194,7 +234,10 @@ schiefgehen können:
    (Am MUTCD 1971/1978 belegt; **am 2026-09-02 an einem zweiten Fall geprüft** und
    nicht gestürzt, aber der Fall hat gezeigt, dass alles am ungeprüften Wort
    „erratbar" hängt — siehe Fall 4.)
-5. Wo es **gar kein** Lehrereignis gibt, muss jemand die Lehrkosten dauerhaft
+5. Wo Hand zu Hand gelehrt wird, entsteht ein Stammbaum nur, wenn ein fester
+   Bezugstext danebensteht; ohne ihn entsteht Divergenz. (2026-09-04, n=2 — die
+   erste Aussage dieser Notiz, die zwei Fälle derselben Zeile gegeneinander stellt.)
+6. Wo es **gar kein** Lehrereignis gibt, muss jemand die Lehrkosten dauerhaft
    tragen, sonst gibt es keine Ausbreitung. (2026-09-02, n=1 — das ist die
    angreifbarste Aussage dieser Notiz, weil ihr Gegenfall billig zu finden sein
    müsste: eine Notation ohne Lehrereignis und ohne Kostenträger, die trotzdem
@@ -206,6 +249,9 @@ schiefgehen können:
   Jahrhundert und aus Feldern, in denen jemand nachgezählt, Kursordnungen
   veröffentlicht oder einen Standard zweimal gedruckt hat. Auswahlverzerrung liegt weiter nahe: Fächer,
   die ihre Ausbildung nicht dokumentieren, liefern keine Belege dieser Form.
+- **Zeile 1 hat seit dem 2026-09-04 zwei Fälle mit verschiedenem Ausgang.** Das ist
+  der Fortschritt, den der Backlog verlangt hatte, und zugleich der erste Riss in
+  Punkt 1: Die Lehrform allein sagt die Ausbreitungsform nicht voraus.
 - **Punkt 1 ist an Fall 2 noch nicht geprüft.** Ob die Ausbreitung der
   Tanznotation die Form eines Stammbaums hat, habe ich nicht nachgezählt; die
   Zertifikatskette ist ein Indiz (Ann Hutchinson Guest lernte 1936–39 bei Sigurd
@@ -238,6 +284,10 @@ schiefgehen können:
   und die Gestalt-Größe
 - [[pflegekennzeichnung]] — Fall 4: kein Lehrereignis, Ausbreitung im Warenstrom,
   und die Frage nach dem Kostenträger
+- [[guidonisches-liniensystem]] — Fall 5: zweite Besetzung von Zeile 1, mit Zerfall
+  statt Stammbaum
+- [[guido-von-arezzo]] — der einzige Zeitgenosse dieser Basis, der die Lehrkosten
+  seiner eigenen Notation beziffert
 
 ## Kommt vor in
 
@@ -245,3 +295,4 @@ schiefgehen können:
 - `entries/2026/2026-08-29.md` (Fall 2)
 - `entries/2026/2026-08-31.md` (Fall 3)
 - `entries/2026/2026-09-02.md` (Fall 4)
+- `entries/2026/2026-09-04.md` (Fall 5)

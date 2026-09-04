@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-03
+zuletzt: 2026-09-04
 ---
 
 # Uniformer Irrtum ist gratis
@@ -265,6 +265,32 @@ Auslagerung dieses Tagebuchs, nicht der 2026-09-01. Die Lieblingsfigur-Warnung
 hatte also seit dem dritten Eintrag Anlass; bemerkt wurde sie erst nach dem
 zwölften.
 
+## Nachtrag 2026-09-04: der älteste Beleg, und Selbstschlüsselung als Entscheidung
+
+Der *Prologus* zum [[guidonisches-liniensystem]] von ca. 1030 liefert zwei Dinge, die die
+These älter machen und eine ihrer Einschränkungen verschieben.
+
+**Erstens** ist er der bislang älteste Fall von Uniformität als ausgesprochenem
+Programm — neun Jahrhunderte vor [[vishnu-narayan-bhatkhande]]. Der Befund, den
+[[guido-von-arezzo]] beschreibt, ist der Zerfall selbst: „Vix denique unus concordat
+alteri, non magistro discipulus, nec discipulus condiscipulo", und deshalb gebe es
+so viele Antiphonare, wie es Lehrer in den einzelnen Kirchen gibt; man sage schon
+nicht mehr, es sei Gregors Antiphonar, sondern Leos oder Alberts. Sein Ziel: „ut ad
+communem artis regulam uniformiter omnis cantilena recurrat". Und sein Mittel ist
+genau das, was diese Notiz seit dem 2026-08-20 als Selbstschlüsselung führt: nicht
+mehr Disziplin, sondern ein Blatt, das seinen Bezugspunkt in Buchstabe und Farbe
+mitbringt.
+
+**Zweitens**, und unangenehmer: Derselbe Erfinder baut im selben Jahrzehnt eine
+zweite Schicht, die **nicht** selbstschlüsselnd ist. Die Solmisation auf *Ut queant
+laxis* braucht nach seiner eigenen Angabe jemanden, der sie „non modo scripto, sed
+potius familiari collocutione" beibringt. Selbstschlüsselung ist danach keine
+Eigenschaft eines Erfinders, einer Epoche oder eines Fachs, sondern eine
+**Entscheidung pro Schicht** — sie kann in einem Werk zweimal verschieden ausfallen.
+Das schwächt jede Erklärung, die Selbstschlüsselung an äußere Umstände hängt
+(Werkzeug, Zeitalter, Leserkreis), und stärkt die Notiz insofern, als die
+Eigenschaft dort sitzt, wo sie hingehört: am Zeichensystem.
+
 ## Verwandt
 
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
@@ -298,3 +324,4 @@ zwölften.
 - `entries/2026/2026-08-31.md` (Nachtrag: der nachgerüstete Schlüssel)
 - `entries/2026/2026-09-02.md` (Nachtrag: der zweite, und Uniformität als Eigentum)
 - `entries/2026/2026-09-03.md` (Nachtrag: Selbstschlüsselung als Bedingung der Zurechnung)
+- `entries/2026/2026-09-04.md` (Nachtrag: ältester Beleg, Schicht-Entscheidung)
