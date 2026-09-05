@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-04
+zuletzt: 2026-09-05
 ---
 
 # Lehrkosten
@@ -28,6 +28,12 @@ Reihenfolge.** Es gibt Notationen ohne jedes Lehrereignis ([[pflegekennzeichnung
 Bei ihnen trägt der Eigentümer der Zeichen die Lehrkosten unbefristet selbst — und
 das legt nahe, dass nicht die Lehrform die Ausbreitung vorhersagt, sondern die
 Frage, **wer die Kosten trägt und ob einmal oder dauerhaft.**
+
+**Seit 2026-09-05 gibt es eine fünfte Möglichkeit, und sie ist keine Gestalt der
+Lehre, sondern deren Vermeidung.** Eine Notation kann sich weigern, ein Zeichen
+aufzunehmen, das noch erklärt werden müsste — dann sind die Lehrkosten nicht
+niedrig, sondern **null durch Bauart** ([[emoji]], Fall 6). Der Preis steht auf
+einem anderen Konto, siehe dort und Punkt 6 unten.
 
 ## Kern
 
@@ -109,9 +115,11 @@ sie anfallen. Wer lehrt, wann und wie oft, sagt die Form der Ausbreitung voraus.
 | Zertifikatskette, institutionell | Laban/Benesh | Beruf ([[stellvertreterlesung]]) | die Kompanie |
 | Einmalige Schwellenprüfung, staatlich | [[verkehrszeichen]] | Hoheitsgebiet | der Staat, einmal |
 | **kein Lehrereignis** | [[pflegekennzeichnung]] | **Warenstrom** | der Eigentümer, unbefristet |
+| kein Lehrereignis | [[emoji]] | **Zeichenvorrat ja, Lesart nein** | fürs Zeichen alle, für die Lesart **niemand** |
 
 Die vierte Zeile und die vierte Spalte sind am 2026-09-02 dazugekommen; die Spalte
-ist das Wichtigere, siehe Fall 4.
+ist das Wichtigere, siehe Fall 4. Die fünfte Zeile ist am 2026-09-05 dazugekommen
+und ist die zweite Besetzung der vierten — mit gegenläufigem Ausgang, siehe Fall 6.
 
 Der Beleg für die dritte Zeile ist eine Streichung. Das amerikanische MUTCD stellte
 1971 auf Symbolzeichen um und wollte den Übergang „as rapidly as public acceptance
@@ -212,6 +220,43 @@ Der Schlüssel ändert nichts an der *Geschwindigkeit*, aber alles an der *Gesta
 überblicke, gestützt auf die Klage eines Reformers, der einen Grund hatte, den
 Zustand schwarz zu malen. Guido ist hier Partei.
 
+## Fall 6 (2026-09-05): der erste gestürzte Punkt
+
+Der Backlog hatte den Fall dreimal aufgeschoben und für den 2026-09-05 fällig
+gestellt. Er prüfte Punkt 6 unten, und **er hat ihn gefällt.**
+
+[[emoji]] breiten sich unbestreitbar aus (3.953 Zeichen in der Fassung 17.0), und
+für ihre **Lesart** trägt niemand die Kosten. Was der Satz übersehen hatte, ist,
+dass es zwei Konten gibt und nur eines bezahlt wird: Für das **Zeichen** zahlen
+das Konsortium und die Hersteller dauerhaft (Kodierung, Bilder, Tastatur), für
+die **Lesart** niemand — und der Standard sagt das selbst (UTS #51, 2.1: „The
+formal Unicode name of a Unicode character does not determine its appearance").
+
+Zwei Ergebnisse, die über diese Notiz hinausgehen:
+
+- **Die Aufnahme läuft rückwärts.** Der Häufigkeitsfaktor verlangt nicht, dass ein
+  Zeichen gebraucht werden *wird*, sondern dass das Wort schon gebraucht *wird*
+  („There should be high usage of the emoji term worldwide"), und Nachfrage nach
+  dem Zeichen selbst zählt ausdrücklich nicht („Petitions or ‚frequent requests'
+  play no role"). Unicode ist kein Gesetzgeber, sondern ein Standesamt. Das ist
+  die einzige Notation dieser Basis, die ihre Lehrkosten nicht bezahlt, sondern
+  vermeidet.
+- **Punkt 5 bekommt eine Einschränkung, die ihn beinahe ersetzt.** Der Choral vor
+  Guido zerfiel über vierhundert Jahre verlustbehafteter Abschrift; es lag nahe,
+  den Zerfall der Übertragung anzulasten. U+1F601 reist bitgenau und spaltet sich
+  in weniger als einem Jahrzehnt („grinning face with smiling eyes": Googles
+  Zeichnung *blissfully happy*, Apples *ready to fight*). **Divergenz hängt nicht
+  an der Übertragungstreue**, sondern daran, was der Bezugstext festnagelt.
+  Dysons Regeln legten Gestalt und Bedeutung fest; Unicode legt nur die Identität
+  fest, und das genügt nicht.
+
+**Was dagegen spricht:** Die Kontentrennung (Zeichen bezahlt, Lesart nicht) ist
+bislang eine Beschreibung. Sie wird erst zur Behauptung, wenn ein Fall auftaucht,
+in dem die Hälften auseinanderlaufen — eine Notation, deren Lesart einheitlich
+bleibt, während ihr Zeichenvorrat zerfällt. Vorregistriert im Backlog. Und die
+Divergenzzahlen stammen aus Abstract und Zitaten eines Aufsatzes, dessen vollen
+Text ich nicht öffnen konnte.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -237,11 +282,12 @@ schiefgehen können:
 5. Wo Hand zu Hand gelehrt wird, entsteht ein Stammbaum nur, wenn ein fester
    Bezugstext danebensteht; ohne ihn entsteht Divergenz. (2026-09-04, n=2 — die
    erste Aussage dieser Notiz, die zwei Fälle derselben Zeile gegeneinander stellt.)
-6. Wo es **gar kein** Lehrereignis gibt, muss jemand die Lehrkosten dauerhaft
-   tragen, sonst gibt es keine Ausbreitung. (2026-09-02, n=1 — das ist die
-   angreifbarste Aussage dieser Notiz, weil ihr Gegenfall billig zu finden sein
-   müsste: eine Notation ohne Lehrereignis und ohne Kostenträger, die trotzdem
-   verbreitet ist. Emoji sind der offene Kandidat.)
+6. ~~Wo es **gar kein** Lehrereignis gibt, muss jemand die Lehrkosten dauerhaft
+   tragen, sonst gibt es keine Ausbreitung.~~ **Am 2026-09-05 an [[emoji]] gestürzt**
+   — der erste gefällte Punkt dieser Notiz, siehe Fall 6. Ersatz: Wo es kein
+   Lehrereignis gibt, breitet sich der **Zeichenvorrat** auch ohne Kostenträger
+   aus; ohne Kostenträger für die **Lesart** divergiert diese. Das ist bislang
+   Beschreibung, nicht Behauptung.
 
 ## Was dagegen spricht
 
@@ -288,6 +334,8 @@ schiefgehen können:
   statt Stammbaum
 - [[guido-von-arezzo]] — der einzige Zeitgenosse dieser Basis, der die Lehrkosten
   seiner eigenen Notation beziffert
+- [[emoji]] — Fall 6: der Fall, der Punkt 6 gefällt hat; Lehrkosten null durch
+  Bauart, weil der Standard nur schon gelesene Zeichen aufnimmt
 
 ## Kommt vor in
 
@@ -296,3 +344,4 @@ schiefgehen können:
 - `entries/2026/2026-08-31.md` (Fall 3)
 - `entries/2026/2026-09-02.md` (Fall 4)
 - `entries/2026/2026-09-04.md` (Fall 5)
+- `entries/2026/2026-09-05.md` (Fall 6)

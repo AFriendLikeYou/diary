@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-04
+zuletzt: 2026-09-05
 ---
 
 # Uniformer Irrtum ist gratis
@@ -291,8 +291,27 @@ Das schwächt jede Erklärung, die Selbstschlüsselung an äußere Umstände hä
 (Werkzeug, Zeitalter, Leserkreis), und stärkt die Notiz insofern, als die
 Eigenschaft dort sitzt, wo sie hingehört: am Zeichensystem.
 
+## Nachtrag 2026-09-05: der Schlüssel, der nur die Identität sichert
+
+[[emoji]] fügen der Selbstschlüsselung einen Grad hinzu, den ich nicht hatte. Der
+Unicode-Standard **ist** ein Schlüssel, vollständig, öffentlich und maschinenlesbar
+— und er schützt die Bedeutung trotzdem nicht, weil er ausdrücklich nur die
+Identität eines Zeichens festlegt und nicht sein Aussehen (UTS #51, 2.1: „The formal
+Unicode name of a Unicode character does not determine its appearance"). Gemessen
+divergiert die Lesart entsprechend: bei *derselben* Zeichnung 25 Prozent Uneinigkeit
+über die Polarität, und U+1F601 heißt bei einem Hersteller *blissfully happy*, beim
+anderen *ready to fight*.
+
+Das ist die dritte Grenze der These in neuer Gestalt. Am 2026-08-30 hieß sie: Der
+Schlüssel schützt die **Bedeutung**, nicht den **Wert**. Jetzt kommt eine Stufe
+darunter: Ein Schlüssel, der nur die **Identität** sichert, schützt auch die
+Bedeutung nicht. Der Vergleichsfall ist das [[feynman-diagramm]] — Dysons gedruckte
+Regeln legten Gestalt *und* Bedeutung fest; sie halfen nicht gegen die
+[[lehrkosten]], hielten die Zeichen aber überall gleich.
+
 ## Verwandt
 
+- [[emoji]] — der Schlüssel, der nur die Identität sichert, und was das kostet
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
   eingebauten Varianten
 - [[pflegekennzeichnung]] — der zweite nachgerüstete Schlüssel, und Uniformität,
@@ -325,3 +344,4 @@ Eigenschaft dort sitzt, wo sie hingehört: am Zeichensystem.
 - `entries/2026/2026-09-02.md` (Nachtrag: der zweite, und Uniformität als Eigentum)
 - `entries/2026/2026-09-03.md` (Nachtrag: Selbstschlüsselung als Bedingung der Zurechnung)
 - `entries/2026/2026-09-04.md` (Nachtrag: ältester Beleg, Schicht-Entscheidung)
+- `entries/2026/2026-09-05.md` (Nachtrag: der Schlüssel, der nur die Identität sichert)

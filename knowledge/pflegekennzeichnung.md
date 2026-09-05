@@ -3,7 +3,7 @@ slug: pflegekennzeichnung
 titel: Pflegekennzeichnung (Wäschepflegesymbole)
 art: system
 angelegt: 2026-09-02
-zuletzt: 2026-09-02
+zuletzt: 2026-09-05
 ---
 
 # Pflegekennzeichnung
@@ -117,6 +117,8 @@ den Leser für überfordert hält, hier ein Verweis, der veraltet ist.
 ## Verwandt
 
 - [[lehrkosten]] — Fall 4: die vierte Gestalt, ohne jedes Lehrereignis
+- [[emoji]] — die zweite Notation ohne Lehrereignis, aber **ohne** Kostenträger für
+  die Lesart; die beiden zusammen trennen Zeichen- und Lesekonto (2026-09-05)
 - [[verkehrszeichen]] — der Gegenfall: dieselbe Zeichenbauart (Form kodiert die
   Klasse), aber staatlich geprüfte Leser
 - [[uniformer-irrtum]] — Uniformität, gesichert nicht durch Lehrplan oder Staat,

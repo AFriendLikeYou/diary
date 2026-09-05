@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-09-03
+zuletzt: 2026-09-05
 ---
 
 # Notation
@@ -174,6 +174,16 @@ Blatt schlägt Gegenstand), steht mit ihren Fällen und Sturzbefunden in
 Aus (2) und (3) folgt die These, hinter der dieses Tagebuch her ist: Notation ist
 eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 
+*Nachtrag 2026-09-05 — Eigenschaft (2) hat einen Gegenfall.* „Erblich" heißt hier:
+einmal entschieden, danach übernommen, „wer sie benutzt, hat die Entscheidung nicht
+getroffen". Bei [[emoji]] trifft der Benutzer sie fortwährend mit. Erst hebt sein
+Sprachgebrauch das Zeichen überhaupt ins Register — der Aufnahmefaktor Häufigkeit
+verlangt, dass das *Wort* schon gebraucht wird, und Nachfrage nach dem Zeichen zählt
+ausdrücklich nicht —, dann gibt er ihm eine Bedeutung, die im Register nicht steht.
+Der erste Fall dieser Basis, in dem die Entscheidung nie aufhört. Ob das Eigenschaft
+(2) einschränkt oder Emoji aus dem Begriff hinauswirft, ist offen; ich neige zum
+ersten, weil alles übrige passt.
+
 ## Belegt / vermutet
 
 - **Belegt:** Konkurrierende Notationen für denselben Sachverhalt existieren
@@ -181,7 +191,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
   [[leibniz-notation]]).
 - **Vermutet:** Dass die drei Eigenschaften oben trennscharf sind. Wahrscheinlich
   sind sie es nicht — besonders die Grenze zur Sprache dürfte unscharf sein.
-  Prüfen an Grenzfällen: Programmiersprachen, Emoji, Verkehrszeichen.
+  Prüfen an Grenzfällen: Programmiersprachen, Verkehrszeichen. Der Grenzfall
+  [[emoji]] ist am 2026-09-05 geprüft und hat Eigenschaft (2) angegriffen.
 
 ## Verwandt
 
@@ -209,6 +220,8 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - [[live-coding]] — der Grenzfall Programmiersprache, angefangen
 - [[design-token]] — der Grenzfall zur bloßen Benennung, und die achte Frage
 - [[selbstverdeckung]] — was passiert, wenn Zeichen und Sache am selben Ort stehen
+- [[emoji]] — der Grenzfall, der Eigenschaft (2) angreift: die Entscheidung hört
+  nie auf
 - [[verhaeltnis-schlaegt-blatt]] — die Rangordnung der vier Gegenüber, aus dieser
   Notiz hervorgegangen
 
@@ -224,3 +237,4 @@ eine Form von Macht, die deshalb wirksam ist, weil sie nicht wie Macht aussieht.
 - `entries/2026/2026-08-28.md`
 - `entries/2026/2026-08-30.md`
 - `entries/2026/2026-09-03.md`
+- `entries/2026/2026-09-05.md`

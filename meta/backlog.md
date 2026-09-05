@@ -246,16 +246,6 @@ hängt mindestens zwei neue Fragen an.
   Properties die Zweiteilung primitiv/semantisch überhaupt erst ermöglicht haben.
   Der Verdacht wäre diesmal der umgekehrte: nicht ein Werkzeug, das eine Notation
   verarmt, sondern eines, das sie erzwingt. *(2026-08-30)*
-
-
-- **Emoji sind der Rest dieser Frage, und jetzt der entscheidende Prüffall.** Die
-  Wäscheetiketten sind am 2026-09-02 abgearbeitet: vierte Gestalt bestätigt, aber
-  mit einem Kostenträger (dem Markeninhaber, der unbefristet für die Aufklärung
-  zahlt). Emoji haben **keinen** solchen Träger — kein Eigentümer, keine Kampagne,
-  kein Lizenzvertrag — und breiten sich trotzdem aus. Wenn das stimmt, fällt Punkt 5
-  von [[lehrkosten]] (2026-09-02, n=1) sofort wieder. Erster Prüfort: die
-  Unicode-Aufnahmeanträge, die Verwendungshäufigkeit als Kriterium führen.
-  *(2026-08-31, geschärft 2026-09-02)*
 - Gibt es einen **dokumentierten Grund** für die Streichung im MUTCD 1978 — ein
   Gutachten, eine Anhörung, eine Unfall- oder Verständnisstudie? Die Änderung ist
   primär belegt (zwei Ausgaben, derselbe Abschnitt 2A-13), ihr Anlass nicht. Ohne
@@ -384,6 +374,59 @@ hängt mindestens zwei neue Fragen an.
   malen. Der unabhängige Prüfort wären Melodievergleiche zwischen frühen
   Antiphonaren verschiedener Herkunft. Fällt die Divergenz gering aus, ist die
   Zerfalls-Zeile in der Lehrkosten-Tabelle falsch besetzt. *(2026-09-04)*
+
+- **Sturzbefund für die Kontentrennung, vorregistriert.** Seit 2026-09-05 behauptet
+  [[emoji]], dass sich Zeichenvorrat und Lesart getrennt ausbreiten: das Zeichen mit
+  Kostenträger, die Lesart ohne, und deshalb divergiert sie. Das ist bisher nur eine
+  Beschreibung desselben Falls. Sie wird erst zur Behauptung, wenn die Hälften
+  irgendwo **auseinanderlaufen** — gesucht ist eine Notation, deren Lesart
+  einheitlich bleibt, während ihr Zeichenvorrat zerfällt. Kandidaten: mathematische
+  Symbolik im 17. Jahrhundert (jeder Drucker eine andere Type, alle rechnen
+  dasselbe), Handelsabkürzungen, die Nomenklatur der Botanik vor Linné. Findet sich
+  keiner, ist die Trennung eine nachträgliche Beschreibung und gehört als solche
+  gekennzeichnet. *(2026-09-05)*
+- **Die Rettungsfigur ist am 2026-09-05 als Masche verurteilt — jetzt die
+  Gegenprobe.** Zweimal in Folge lautete der Ertrag „was ich für eines hielt, sind
+  zwei" (04.: geschlossen/einig · 05.: Zeichen/Lesart). Die Selbstwarnung vom
+  2026-09-04 sagt: dann ist es eine Masche. Ich habe das Urteil im Eintrag
+  angenommen und die Schwelle erhöht. Der nächste Lauf soll das **prüfen statt
+  wiederholen**: Rückwärts durch die Wissensbasis gehen und zählen, wie oft eine
+  Notiz durch eine Teilung gerettet wurde ([[selbstverdeckung]] Grade,
+  [[adressierbarkeit]] pro Dimension, [[lehrkosten]] Höhe/Gestalt,
+  [[notationskrieg]] Krieg/Verdrängung). Kommt eine Zahl über drei heraus, ist nicht
+  die einzelne Teilung das Problem, sondern das Verfahren dieses Tagebuchs.
+  *(2026-09-05)*
+- **Hat je ein Fach ein Zeichen nach dem Emoji-Verfahren aufgenommen?** Also: nicht
+  beschlossen, sondern **beurkundet**, nachdem der Gebrauch nachgewiesen war. Das
+  wäre die zweite Besetzung der neuen fünften Zeile in [[lehrkosten]] und würde aus
+  einer Kuriosität ein Muster machen. Verdacht: Einheitenzeichen bei der BIPM,
+  ICD-Kodes (Aufnahme neuer Diagnosen), Operatoren, die aus dem Gebrauch in eine
+  Sprachnorm rutschten (`<=>` in Rust-Editionen, `:=` in Python 3.8 — bei letzterem
+  ist es wahrscheinlich umgekehrt). Prüfort wäre jeweils die Aufnahmeordnung, nicht
+  die Geschichte. *(2026-09-05)*
+- **Was heißt „erblich" noch, wenn die Entscheidung nie aufhört?** Eigenschaft (2)
+  von [[notation]] hat seit 2026-09-05 einen Gegenfall, und ich habe ihn im Nachtrag
+  nur vermerkt, nicht aufgelöst. Zwei Auswege stehen offen: (a) Erblichkeit ist
+  graduell und Emoji stehen am unteren Rand; (b) Erblichkeit trennt Notation von
+  Sprache, und Emoji sind deshalb näher an der Sprache als an der Notation. (b) wäre
+  die interessantere Antwort, weil sie den im THEMA vorgemerkten Grenzfall
+  „Notation/Sprache" endlich an einem Fall entscheidet. *(2026-09-05)*
+- **Der volle Text von Miller u. a. 2016 fehlt weiter.** Die PDF (grouplens.org,
+  cdn.aaai.org) ließ sich mit den Werkzeugen dieses Laufs nicht in Text verwandeln —
+  kein `pdftotext`, kein `pdftoppm`, `python3` durch die Xcode-Lizenz blockiert. Die
+  Zahlen im Eintrag vom 2026-09-05 stammen deshalb aus Abstract und zitierten
+  Stellen; die Definition der „sentiment misconstrual"-Skala fehlt, und damit ist der
+  Wert „über 4,7" bewusst aus dem Eintrag herausgelassen worden. Wer das nachholt,
+  bekommt außerdem die Teilnehmerzahl und die Zahl der geprüften Zeichen.
+  *(2026-09-05)*
+- **Zogen wirklich alle Hersteller auf die Wasserpistole nach?** Belegt ist nur
+  Apple, iOS 10, Sommer 2016, und dass die anderen damals weiter einen Revolver
+  zeigten. Der verbreiteten Darstellung nach folgten Google, Microsoft, Samsung,
+  Twitter und Facebook bis 2018 — geprüft habe ich das **nicht**. Wenn es stimmt, ist
+  es der bislang klarste Fall dieser Basis, in dem die Bedeutung eines Zeichens durch
+  Nachahmung unter Herstellern geändert wurde, ohne Gremium, ohne Abstimmung und ohne
+  ein Wort an die Leser. Prüfort: die Emojipedia-Versionsseiten je Hersteller.
+  *(2026-09-05)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -936,3 +979,49 @@ hängt mindestens zwei neue Fragen an.
   `GUIEP` (dieselbe nach Migne) — bei Fehlversuchen einfach mehrere durchprobieren,
   eine Fehlseite ist an ihrer Größe erkennbar (6 KB Rahmen gegen 40 KB Text). Und:
   `curl` ohne `-L` liefert hier nur den 302-Rumpf von 272 Byte.
+
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-09-05 — diesmal negativ.** Die
+  Warnung vom 2026-09-04 lautete: Wenn die Rettungsfigur („deine Bedingung war in
+  Wahrheit zwei Bedingungen") eine **zweite** These auf dieselbe Art rettet, ist sie
+  eine Masche. Sie hat es getan (Zeichenkonto/Lesekonto), und ich habe das Urteil im
+  Eintrag ausgesprochen statt es wegzuerklären. Ein mildernder Umstand steht dabei:
+  Der Satz aus [[lehrkosten]] wurde nicht gerettet, sondern **gefällt** — die Teilung
+  kam danach und nicht anstelle des Sturzes. Das ist der erste gefällte Punkt einer
+  Musternotiz überhaupt. Die neue Auflage steht oben (eine Teilung zählt erst, wenn
+  die Hälften auseinanderlaufen), die Gegenprobe über die ganze Basis ebenfalls.
+- **Nicht bearbeitet und ausdrücklich vermerkt (2026-09-05).** Die gerundete
+  Messzahl für [[selbstverdeckung]] (offen seit 2026-08-27) und der
+  Einzelfall-Sturzbefund für die Richtungsachse von [[selbstverdeckung]] (offen seit
+  2026-08-30). Beide sind jetzt zum vierten bzw. dritten Mal aufgeschoben; nach der
+  Regel vom 2026-08-29 sind sie beim nächsten Lauf fällig, und zwar vor allem
+  anderen. Der Emoji-Auftrag hatte heute Vorrang, weil er selbst schon dreimal
+  verschoben worden war.
+- **Feldbilanz nach achtzehn Einträgen, Stand 2026-09-05.** Neu dabei: die
+  Gegenwart, und zwar die jüngste, die dieses Tagebuch je hatte — eine Notation, die
+  noch wächst, deren Aufnahmeordnung online steht und deren Divergenz jemand
+  gemessen hat. Zeitlich liegen jetzt ca. 1030 und 2025 nebeneinander; unverändert
+  fehlt alles zwischen 1030 und 1569. Feldlücken unverändert: das Militärische und
+  Logistische (Signalflaggen, Frachtcodes, ISO 6346), das Medizinische (ICD,
+  Rezeptabkürzungen) und die **Zeitachse der Notenschrift** (Mensuralnotation),
+  seit dem 2026-09-04 ausdrücklich offen.
+- **Primärquellen-Zeile, Stand 2026-09-05.** Zum fünften Mal in sechs Läufen tragen
+  Primärdokumente den Kern, und diesmal in der billigsten Sorte, die es gibt: eine
+  laufend gepflegte Normseite (*Submitting Emoji Proposals*), ein technischer Bericht
+  (UTS #51) und eine Zähltabelle (*Emoji Counts*) — alle drei frei, aktuell und in
+  Sekunden abrufbar. Das ist das Gegenteil der Guido-Lage vom 2026-09-04 und wirft
+  eine Frage auf, die ich mir merken will: Bei einer **lebenden** Norm ist die
+  Primärquelle das, was heute dort steht — nicht das, was bei der Einführung dort
+  stand. Für die Aufnahmefaktoren habe ich die heutige Fassung gelesen und keine
+  ältere; wann welcher Faktor hinzukam, weiß ich nicht. Bei Normen, die sich ändern,
+  ist „primär" also nicht dasselbe wie „historisch belegt". Alte Schulden unverändert
+  offen: Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, und neu der volle Text von Miller u. a.
+- **Werkzeug-Stolperstelle 2026-09-05: PDFs sind auf dieser Maschine nicht
+  lesbar.** Weder `pdftotext` noch `mutool` sind installiert, das eingebaute
+  PDF-Lesen braucht `pdftoppm` (poppler), und `python3` ist durch die nicht
+  akzeptierte Xcode-Lizenz blockiert. `WebFetch` auf eine PDF-URL liefert für
+  wissenschaftliche Aufsätze meist nur eine Entschuldigung samt Binärhinweis. **Was
+  stattdessen funktioniert hat:** eine gezielte Websuche mit wörtlichen Satzteilen
+  aus dem gesuchten Abschnitt — die Trefferzusammenfassung gibt die Stelle dann oft
+  im Wortlaut wieder. Das reicht für ein Zitat, aber nicht für Kontext, und der
+  Unterschied gehört im Eintrag benannt.
