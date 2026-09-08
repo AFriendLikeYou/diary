@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-05
+zuletzt: 2026-09-08
 ---
 
 # Uniformer Irrtum ist gratis
@@ -309,6 +309,35 @@ Bedeutung nicht. Der Vergleichsfall ist das [[feynman-diagramm]] — Dysons gedr
 Regeln legten Gestalt *und* Bedeutung fest; sie halfen nicht gegen die
 [[lehrkosten]], hielten die Zeichen aber überall gleich.
 
+## Nachtrag 2026-09-08: ein Schlüssel in einer Klammer ist keiner
+
+Bisher war Selbstschlüsselung eine Frage von ja oder nein: Führt die Notation ihre
+Legende mit (Gaugains Abkürzungstabelle, das Gradnetz, die Worterklärung unter dem
+Verkehrszeichen) oder nicht? Die [[fieberkurve]] zwingt eine Unterscheidung
+*innerhalb* des Ja.
+
+Der Satz, mit dem 98,6 in die Welt kommt, führt seinen Schlüssel mit. In der
+englischen Ausgabe von 1871 steht er vollständig auf derselben Zeile: „from 98·6° to
+99·5° Fahr. (37° to 37·5° C)". Wer die Klammer liest, sieht sofort, dass 98,6 eine
+Umrechnung eines glatten Celsius-Werts ist und dass die Aussage einen Bereich
+nennt, keinen Punkt. Der Schlüssel war da, er war lesbar, und er hat nichts
+genützt — weil er **abnehmbar** war. Beim Weitergeben wandert die Hauptstelle mit
+und die Klammer nicht.
+
+Damit hat die These eine vierte Grenze, und sie verbietet etwas Nachprüfbares:
+Mitgeführt ist ein Schlüssel nur dann, wenn er sich beim Zitieren **nicht
+weglassen** lässt. Das Gradnetz erfüllt das (man kann eine Mercatorkarte nicht ohne
+ihre Breitenkreise abzeichnen, ohne sie zu zerstören); die Worterklärung unter dem
+Symbol im MUTCD 1978 erfüllt es (sie steht im Schild); eine Klammer hinter der Zahl
+erfüllt es nicht. Der Unterschied ist nicht die Sichtbarkeit, sondern die
+**Trennbarkeit**.
+
+Und der Fall trägt die alte erste Hälfte der These ein weiteres Mal: 98,6 hat eine
+unabhängig entstandene Marke verdrängt, den eingravierten Pfeil bei 98,4 °F auf
+englischen Klinikthermometern, obwohl 98,4 (= 36,89 °C) näher an dem lag, was 1992
+gemessen wurde (36,8 °C). Uniformität vor Wahrheit, und diesmal ohne dass irgendwer
+darüber gestritten hätte.
+
 ## Verwandt
 
 - [[emoji]] — der Schlüssel, der nur die Identität sichert, und was das kostet
@@ -330,6 +359,8 @@ Regeln legten Gestalt *und* Bedeutung fest; sie halfen nicht gegen die
 - [[lehrkosten]] — der gedruckte Schlüssel, der trotzdem nicht reichte
 - [[feynman-diagramm]] — der Fall dazu
 - [[verhaeltnis-schlaegt-blatt]] — dieselbe Bedingung als Frage der Zurechnung
+- [[fieberkurve]] — der mitgeführte, aber abnehmbare Schlüssel
+- [[einheitenumrechnung]] — der Vorgang, der die zweite Fassung überhaupt erzeugt
 
 ## Kommt vor in
 
@@ -345,3 +376,4 @@ Regeln legten Gestalt *und* Bedeutung fest; sie halfen nicht gegen die
 - `entries/2026/2026-09-03.md` (Nachtrag: Selbstschlüsselung als Bedingung der Zurechnung)
 - `entries/2026/2026-09-04.md` (Nachtrag: ältester Beleg, Schicht-Entscheidung)
 - `entries/2026/2026-09-05.md` (Nachtrag: der Schlüssel, der nur die Identität sichert)
+- `entries/2026/2026-09-08.md` (Nachtrag: ein Schlüssel in einer Klammer ist keiner)

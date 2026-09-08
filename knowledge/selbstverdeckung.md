@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-09-01
+zuletzt: 2026-09-08
 ---
 
 # Selbstverdeckung
@@ -12,7 +12,9 @@ Eine Notation verdeckt sich selbst, wenn ihr **Ergebnis genau den Platz
 einnimmt, an dem das Zeichen steht** — wenn also Zeichen und Gegenstand nicht
 nebeneinander liegen, sondern am selben Ort, so dass immer nur eines von beiden
 zu sehen ist. Der Normalfall ist dann, dass man den Gegenstand sieht und die
-Notation nicht.
+Notation nicht. Seit 2026-09-08 ist „derselbe Ort" nicht mehr notwendig eine
+Stelle auf einer Fläche: Er kann auch die Hauptstelle eines Satzes sein, deren
+Nebenform in einer Klammer steht (siehe unten).
 
 ## Kern
 
@@ -126,6 +128,11 @@ Damit steht das Muster bei **n=4** und die Kästchen so:
 | **Ergebnis über Zeichen** | [[tabellenblatt]]              | [[mercator-projektion]]    |
 | **Zeichen über Wert**     | [[design-token]]               | [[vortragsbezeichnung]]    |
 
+Seit dem 2026-09-08 kommt ein fünfter Fall hinzu, der in die obere Zeile gehört,
+aber in **kein** einzelnes Kästchen: die [[fieberkurve]] beginnt auf Grad 1 (der
+Messwert steht 1871 in der Klammer daneben) und endet auf Grad 2 (nach hundert
+Jahren Zitieren steht er nirgends mehr, wo ihn jemand sieht).
+
 ## Grad 2 ist ein Zustand des Leserkreises (2026-09-01)
 
 Der eigentliche Ertrag des Falls war nicht bestellt. Bisher las sich Grad 2 als
@@ -145,6 +152,59 @@ Das ist die erste Vorhersage dieser Notiz, die einen **Zeitpunkt** nennt: Ein
 Zeichen ohne geschriebenen Wert behält seine Wertlosigkeit nur, solange kein
 maschineller Leser dazukommt. Sie verbietet etwas Nachprüfbares — nämlich dass
 solche erfundenen Werte zwischen unabhängigen Implementierungen übereinstimmen.
+
+## Der Ort ist keine Fläche (2026-09-08)
+
+Der härteste vorgemerkte Prüffall — „die gerundete Messzahl, die ihre Rohdaten
+ersetzt: kein Bildschirm, kein Programm, keine Fläche" — ist eingelöst, und er
+**greift**. Damit fällt die Fläche als Bedingung des Musters.
+
+Der Fall ist die [[fieberkurve]]. Wunderlich schreibt 1868 in § 2 einen Bereich,
+„37° — 37,5°", und für die Achselhöhle „durchschnittlich 37°". Sein englischer
+Übersetzer rechnet 1871 um und stellt das Ergebnis nach vorn: „from 98·6° to 99·5°
+Fahr. (37° to 37·5° C)". Die Zahl 98,6 kommt in keiner deutschen Ausgabe vor. Sie
+ist keine Messung, sondern das Produkt einer Multiplikation mit 1,8
+([[einheitenumrechnung]]) — und sie hat den gemessenen Wert vollständig ersetzt.
+
+Was sich dadurch ändert, ist der **Ort**. „Derselbe Ort" war bisher eine Aussage
+über Dokumente: dieselbe Zelle, dasselbe Blatt, dasselbe Farbfeld. Hier gibt es
+kein Dokument, in dem sich etwas überdeckt — es gibt einen **Satz**, dessen
+Hauptstelle die Umrechnung einnimmt und dessen Klammer den Messwert trägt. 1871
+stand beides auf derselben Zeile. Verdeckt wurde nicht beim Schreiben, sondern beim
+**Kopieren**: Wer den Satz weitergibt, gibt die Hauptstelle weiter und lässt die
+Klammer weg.
+
+Zwei Folgen, und beide sind neu:
+
+1. **Das Verdecken hat einen Täter, und der ist nicht die Notation.** In allen vier
+   früheren Fällen verdeckt die Notation oder ihr Werkzeug (Voreinstellung,
+   Weglassung, Absicht des Herstellers). Hier verdeckt die **Überlieferung**. Das
+   Muster ist damit nicht mehr nur eine Eigenschaft von Zeichensystemen, sondern
+   auch eine von Zitierketten — was es angreifbarer macht, siehe unten.
+2. **Grad 1 kann in Grad 2 übergehen, ohne dass sich an der Notation etwas
+   ändert.** Die Quelle bleibt vorhanden und auffindbar; nur sieht sie niemand mehr
+   an. Bisher las sich der Grad wie ein Zustand der Notation, seit dem 2026-09-01
+   wie einer des Leserkreises — jetzt ist er zusätzlich eine Funktion der **Zeit**.
+
+Die Vorhersage der Notiz ist am Fall bestätigt, und zwar auffällig sauber: Gefunden
+hat den Fehler niemand beim Lesen. Gefunden haben ihn Mackowiak, Wasserman und
+Levine 1992 durch eigenes Nachmessen und Mackowiak und Worden 1994 dadurch, dass sie
+Wunderlichs Buch selbst aufschlugen. Hundertzwanzig Jahre, ein Satz, eine Klammer.
+
+Damit steht das Muster bei **n=5**, und der fünfte Fall passt in dieselbe Zeile wie
+[[mercator-projektion]] (Ergebnis über Zeichen), aber nicht auf einen der beiden
+Grade allein: Er beginnt auf Grad 1 und endet auf Grad 2. Bewusst **kein dritter
+Grad** und **keine dritte Achse** — die Bewegung ist eine andere: Die konstitutive
+Bedingung des Musters („derselbe Ort") wandert vom Dokument in die Überlieferung.
+
+**Der Einwand dagegen, und er ist der bisher stärkste.** Vielleicht ist das gar kein
+Notationsbefund, sondern gewöhnlicher Zitierverlust: Leute kürzen Klammern weg, und
+das ist keine Eigenschaft von Zeichensystemen. Was dagegen spricht: Der Konkurrent
+um die Hauptstelle entsteht hier nicht durch Nachlässigkeit, sondern durch eine
+Rechenvorschrift, die zuverlässig ein Zeichen mit **mehr Stellen** herstellt als das
+Original. Ohne Dezimalbruchschreibung und ohne zwei konkurrierende Skalen gibt es
+kein 98,6. Wer den Einwand für zwingend hält, muss den Fall verwerfen — dann steht
+die Notiz wieder bei n=4 und die Fläche bleibt Bedingung.
 
 ## Die Vorhersage, richtungsabhängig (2026-08-30)
 
@@ -197,8 +257,9 @@ der Notation, kein Zeichen in ihr. Wer diesen Unterschied für wesentlich hält,
 muss den Kartenfall verwerfen — dann steht die Notiz wieder bei n=1. Ich halte ihn
 nicht für wesentlich, weil das Gradnetz zeigt, dass die Regel sehr wohl eine
 geschriebene Fassung *auf demselben Blatt* haben kann; sie wurde nur weggelassen.
-Der härtere, noch ungeprüfte Kandidat ist die gerundete Messzahl, die ihre
-Rohdaten ersetzt: kein Bildschirm, kein Programm, keine Fläche.
+Der härtere Kandidat war die gerundete Messzahl, die ihre Rohdaten ersetzt: kein
+Bildschirm, kein Programm, keine Fläche. Er ist am 2026-09-08 eingelöst
+([[fieberkurve]]) und hat die Fläche als Bedingung gekostet.
 
 Zweiter Einwand, ernster als er klingt: Vielleicht ist das gar keine Eigenschaft
 der Notation, sondern eine **Voreinstellung**, also Bedienoberfläche. Dagegen
@@ -227,6 +288,10 @@ irgendwer sie umgedreht.
   dem zweiten Grad und dem Gegenmittel
 - [[uniformer-irrtum]] — dieselbe Bedingung von der anderen Seite: führt die
   Notation ihren Schlüssel mit?
+- [[fieberkurve]] — der fünfte Fall: ohne Fläche, ohne Programm, und der erste,
+  in dem nicht die Notation verdeckt, sondern die Überlieferung
+- [[einheitenumrechnung]] — die zuverlässigste Quelle konkurrierender Zeichen für
+  dieselbe Stelle
 
 ## Kommt vor in
 
@@ -234,3 +299,4 @@ irgendwer sie umgedreht.
 - `entries/2026/2026-08-27.md`
 - `entries/2026/2026-08-30.md`
 - `entries/2026/2026-09-01.md`
+- `entries/2026/2026-09-08.md`
