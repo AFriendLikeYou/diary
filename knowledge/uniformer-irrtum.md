@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-08
+zuletzt: 2026-09-09
 ---
 
 # Uniformer Irrtum ist gratis
@@ -168,6 +168,9 @@ Selbstschlüsselung erklären, ob eine Notation **zerfällt**. Sie erklären nic
 ob sie überhaupt irgendwo **ankommt**.
 
 ## Nachtrag 2026-08-30: der Schlüssel schützt die Bedeutung, nicht den Wert
+
+> **Am 2026-09-09 eingeschränkt** — dieser Nachtrag gilt nur für Namen, die den
+> Wert *bezeichnen*. Namen, die ihn *messen*, schützen ihn. Siehe unten.
 
 Der [[design-token]] ist die reinste Selbstschlüsselung dieses Tagebuchs: Der Name
 *ist* die Legende, `color-text-primary` sagt an Ort und Stelle, wozu der Wert da ist,
@@ -338,6 +341,44 @@ englischen Klinikthermometern, obwohl 98,4 (= 36,89 °C) näher an dem lag, was 
 gemessen wurde (36,8 °C). Uniformität vor Wahrheit, und diesmal ohne dass irgendwer
 darüber gestritten hätte.
 
+## Nachtrag 2026-09-09: die dritte Grenze war zu weit gefasst
+
+Am 2026-08-30 stand hier: Selbstschlüsselung schützt die **Bedeutung** eines
+Zeichens, nie seinen **Wert**. Das ist zu allgemein. Der [[farbgrad]] ist ein
+Schlüssel, der genau den Wert schützt — weil er ihn **misst** statt ihn zu
+**bezeichnen**. `gray-cool-50` sagt nicht, wozu die Farbe da ist, sondern in
+welchem Band relativer Luminanz sie liegt, und aus der Differenz zweier solcher
+Namen lässt sich der Kontrast ausrechnen (ab 50 WCAG AA, ab 70 AAA). Ein falscher
+Wert unter richtigem Namen wird damit maschinell prüfbar: Ein Werkzeug rechnet
+nach und dementiert den Namen.
+
+**Die Grenze fällt also nicht, sie wird bedingt.** Selbstschlüsselung schützt
+
+- die **Bedeutung**, wenn der Name den Zweck nennt (`action-primary`) — das ist
+  der Normalfall dieses Tagebuchs;
+- auch den **Wert**, wenn der Name eine Messung nennt (`gray-cool-50`).
+
+Der zweite Fall ist selten, und der Grund liegt in derselben Literatur: Die
+Standardregel für [[design-token]] verbietet Komponenten die primitive Ebene und
+empfiehlt die semantische — also gerade die, die den Wert nicht schlüsselt.
+Uniformität wird belohnt, Nachprüfbarkeit nicht.
+
+**Der Gegenfall zum Gegenfall, im selben Feld.** Die [[css-farbnamen]] behaupten
+mit `darkgray`/`gray`/`lightgray` ebenfalls eine Ordnung über Werte — aber eine
+bloß behauptete, von niemandem gemessen. Sie ist nachweislich falsch (`darkgray`
+#a9a9a9 ist heller als `gray` #808080), der Fehler wurde 2002 im Last Call
+öffentlich benannt, und die Norm hat die Namen trotzdem übernommen: „not because
+they are good, but because their use and implementation has been widespread for
+decades." Pembertons Satz „darkgray is lighter than gray!" steht heute als
+Fußnote *in* CSS Color 4, samt „Thus, their use is *not encouraged*". Das ist die
+reinste Bestätigung dieser These, die dieses Tagebuch bisher hat: Die Norm nennt
+den Irrtum, nennt ihn beim Namen, rät von der eigenen Notation ab — und ändert
+nichts, weil die Verbreitung teurer ist als die Wahrheit.
+
+Damit steht die Unterscheidung, die zählt: **behauptete** Ordnung schützt nichts,
+**gemessene** Ordnung schützt den Wert. Der Unterschied ist nicht die
+Sichtbarkeit des Schlüssels, sondern seine Nachrechenbarkeit.
+
 ## Verwandt
 
 - [[emoji]] — der Schlüssel, der nur die Identität sichert, und was das kostet
@@ -361,6 +402,9 @@ darüber gestritten hätte.
 - [[verhaeltnis-schlaegt-blatt]] — dieselbe Bedingung als Frage der Zurechnung
 - [[fieberkurve]] — der mitgeführte, aber abnehmbare Schlüssel
 - [[einheitenumrechnung]] — der Vorgang, der die zweite Fassung überhaupt erzeugt
+- [[css-farbnamen]] — der reinste Beleg: die Norm nennt den Irrtum, rät von der
+  eigenen Notation ab und ändert nichts
+- [[farbgrad]] — der Gegenfall zur dritten Grenze: ein Schlüssel, der misst
 
 ## Kommt vor in
 
@@ -377,3 +421,4 @@ darüber gestritten hätte.
 - `entries/2026/2026-09-04.md` (Nachtrag: ältester Beleg, Schicht-Entscheidung)
 - `entries/2026/2026-09-05.md` (Nachtrag: der Schlüssel, der nur die Identität sichert)
 - `entries/2026/2026-09-08.md` (Nachtrag: ein Schlüssel in einer Klammer ist keiner)
+- `entries/2026/2026-09-09.md`

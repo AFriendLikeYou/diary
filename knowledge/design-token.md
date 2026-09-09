@@ -3,7 +3,7 @@ slug: design-token
 titel: Design-Token
 art: system
 angelegt: 2026-08-30
-zuletzt: 2026-08-30
+zuletzt: 2026-09-09
 ---
 
 # Design-Token
@@ -79,8 +79,29 @@ grammatik — nicht das Name/Wert-Paar für sich.
   Anne stammen aus Sekundärdarstellungen; ihre eigene Projektseite nennt kein Jahr,
   eine Primärquelle von 2014 habe ich nicht gesehen. Ebenso sekundär: Style
   Dictionary 2017, Community Group 2019.
-- **Nicht geprüft:** ob es einen dokumentierten Einzelfall gibt, in dem ein Token
-  seinen Namen behielt und der Name durch einen Wertwechsel falsch wurde.
+- ~~**Nicht geprüft:** ob es einen dokumentierten Einzelfall gibt, in dem ein Token
+  seinen Namen behielt und der Name durch einen Wertwechsel falsch wurde.~~
+  **Erledigt am 2026-09-09, aber außerhalb der Gattung:** Der Fall existiert nicht
+  bei Design-Tokens, sondern eine Gattungsstufe darunter, bei den
+  [[css-farbnamen]] — `gray` wechselte von #bebebe auf #808080 und machte damit
+  `darkgray` unwahr. Für Design-Tokens selbst habe ich weiterhin **keinen**
+  Einzelfall dieser Art gefunden, nur Salesforces Diagnose über das eigene System.
+  Das ist kein Zufall, sondern die Pointe der semantischen Ebene: Ein Name, der
+  den Zweck nennt, *kann* durch einen Wertwechsel nicht falsch werden — der
+  Fehler verschiebt sich stattdessen vom Namen in den Kontrast, wo ihn kein Leser
+  sieht.
+
+## Nachtrag 2026-09-09: die dritte Namensschicht
+
+Die Notiz kannte bisher zwei Ebenen: primitiv (`blue-500`, sagt *was*) und
+semantisch (`action-primary`, sagt *wozu*), mit der Standardregel, dass
+Komponenten nur die semantische benutzen. Es gibt eine dritte, und sie steht
+unter [[farbgrad]]: Namen, die eine **Messung** nennen (`gray-cool-50` — Grad 50
+heißt: relative Luminanz in einem Band, das gegen Weiß und Schwarz 4,5:1 hält).
+Diese Schicht sieht aus wie die primitive, verhält sich aber umgekehrt: Sie ist
+nicht die tabu-Ebene, sondern die einzige, an der man den Wert prüfen kann, ohne
+ihn zu kennen. Damit hat die Gattung eine Antwort auf das Kontrastproblem, das
+sie bei ihrem Erfinder erzeugt hat — nur nicht die, die die Literatur empfiehlt.
 
 ## Verwandt
 
@@ -95,7 +116,13 @@ grammatik — nicht das Name/Wert-Paar für sich.
   Dictionary, CSS Custom Properties) an dieser Notation geformt?
 - [[tabellenblatt]] — die Umkehrung im selben Feld: dort Wert über Formel, hier Name
   über Wert
+- [[css-farbnamen]] — die Gattungsstufe darunter: dieselbe Bauart (Wort statt
+  Wert), aber ohne Referenzsyntax und ohne Grammatik, und mit dem Wertwechsel,
+  den es hier nicht gibt
+- [[farbgrad]] — die dritte Namensschicht: ein Name, der misst statt zu
+  bezeichnen
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-30.md`
+- `entries/2026/2026-09-09.md`

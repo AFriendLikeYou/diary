@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-09-08
+zuletzt: 2026-09-09
 ---
 
 # Selbstverdeckung
@@ -14,7 +14,9 @@ nebeneinander liegen, sondern am selben Ort, so dass immer nur eines von beiden
 zu sehen ist. Der Normalfall ist dann, dass man den Gegenstand sieht und die
 Notation nicht. Seit 2026-09-08 ist „derselbe Ort" nicht mehr notwendig eine
 Stelle auf einer Fläche: Er kann auch die Hauptstelle eines Satzes sein, deren
-Nebenform in einer Klammer steht (siehe unten).
+Nebenform in einer Klammer steht (siehe unten). Seit 2026-09-09 ist die
+richtungsabhängige Vorhersage der Notiz zur Hälfte gestrichen und durch eine
+Aussage über Reparierbarkeit ersetzt.
 
 ## Kern
 
@@ -37,6 +39,11 @@ liest.
 Wenn eine Notation sich selbst verdeckt, dann gilt: **Ihre Fehler werden nicht
 von Lesern gefunden, sondern nur von Leuten, die sich die Quelldatei geben
 lassen.** Das ist prüfbar und hat mit Sorgfalt oder gutem Willen nichts zu tun.
+
+**Einschränkung seit 2026-09-09:** Dieser Satz gilt nur für die Richtung
+*Ergebnis über Zeichen*. Für die andere Richtung ist er widerlegt — dort wird der
+Fehler gefunden und bleibt trotzdem stehen. Was die zwei Richtungen unterscheidet,
+ist nicht das Finden, sondern das Reparieren (siehe unten).
 
 Der Beleg, an dem das Muster entstanden ist: Reinhart und Rogoff veröffentlichen
 2010 *Growth in a Time of Debt*; oberhalb von 90 % Staatsschuldenquote schrumpfe
@@ -126,12 +133,14 @@ Damit steht das Muster bei **n=4** und die Kästchen so:
 |                       | **Grad 1** verdeckt-aber-vorhanden | **Grad 2** nie geschrieben |
 |-----------------------|------------------------------------|----------------------------|
 | **Ergebnis über Zeichen** | [[tabellenblatt]]              | [[mercator-projektion]]    |
-| **Zeichen über Wert**     | [[design-token]]               | [[vortragsbezeichnung]]    |
+| **Zeichen über Wert**     | [[design-token]] · [[css-farbnamen]] | [[vortragsbezeichnung]]    |
 
 Seit dem 2026-09-08 kommt ein fünfter Fall hinzu, der in die obere Zeile gehört,
 aber in **kein** einzelnes Kästchen: die [[fieberkurve]] beginnt auf Grad 1 (der
 Messwert steht 1871 in der Klammer daneben) und endet auf Grad 2 (nach hundert
-Jahren Zitieren steht er nirgends mehr, wo ihn jemand sieht).
+Jahren Zitieren steht er nirgends mehr, wo ihn jemand sieht). Seit dem 2026-09-09
+sitzt ein sechster Fall im Kästchen links unten: die [[css-farbnamen]] — und er hat
+die richtungsabhängige Vorhersage gekostet (siehe unten).
 
 ## Grad 2 ist ein Zustand des Leserkreises (2026-09-01)
 
@@ -206,18 +215,91 @@ Original. Ohne Dezimalbruchschreibung und ohne zwei konkurrierende Skalen gibt e
 kein 98,6. Wer den Einwand für zwingend hält, muss den Fall verwerfen — dann steht
 die Notiz wieder bei n=4 und die Fläche bleibt Bedingung.
 
-## Die Vorhersage, richtungsabhängig (2026-08-30)
+## Die Vorhersage, richtungsabhängig (2026-08-30) — zweite Hälfte am 2026-09-09 gefallen
 
 Die Vorhersage oben hält in beiden Richtungen, aber sie sagt verschiedene Fehler
 voraus:
 
 - **Ergebnis über Zeichen → Rechenfehler.** Findet, wer sich die Quelldatei geben
-  lässt (Herndon 2013).
-- **Zeichen über Wert → Bedeutungsfehler.** Der Wert ist richtig berechnet und
-  trotzdem falsch gewählt; kein Leser findet das, nur ein Messgerät. Beleg:
-  Salesforce empfiehlt heute, die eigenen Design-Tokens zugunsten der „global color
-  styling hooks" zu verlassen, um die Kontrastanforderungen der WCAG 2.1 einzuhalten.
-  Die Namen stimmten. Die Farben dahinter nicht.
+  lässt (Herndon 2013). **Gilt weiter.**
+- ~~**Zeichen über Wert → Bedeutungsfehler.** Der Wert ist richtig berechnet und
+  trotzdem falsch gewählt; kein Leser findet das, nur ein Messgerät.~~
+  **Widerlegt am 2026-09-09**, siehe den nächsten Abschnitt. Der Beleg, auf den
+  sich diese Hälfte stützte, war ohnehin nur eine Herstellerdiagnose: Salesforce
+  empfiehlt, die eigenen Design-Tokens zugunsten der „global color styling hooks"
+  zu verlassen, um die Kontrastanforderungen der WCAG 2.1 einzuhalten. Die Namen
+  stimmten, die Farben dahinter nicht — gefunden hat es aber der Hersteller
+  selbst, nicht ein Messgerät gegen den Widerstand der Notation.
+
+## Die Achse hält, ihre Vorhersage nicht (2026-09-09)
+
+Der seit dem 2026-08-30 vorregistrierte Einzelfall-Sturzbefund ist eingelöst,
+nach vier Verschiebungen. Gesucht war ein Token, das seinen Namen behielt und
+dessen Wert so weit wanderte, dass der Name falsch wurde. Gefunden: die
+[[css-farbnamen]], **sechster Fall** dieser Notiz, Kästchen *Zeichen über Wert /
+Grad 1*.
+
+Beim Zusammenführen der X11-Liste mit den sechzehn VGA-Farben wechselten vier
+Namen ihren Wert (`gray`, `green`, `purple`, `maroon`); `gray` fiel von #bebebe
+auf #808080, von 51,5 % auf 21,6 % relative Luminanz. Der eigentliche Befund ist
+aber der Nachbar: `darkgray` steht unverändert auf #a9a9a9 (39,7 %) und ist
+seither **heller als `gray`**. Ein Name kann also falsch werden, ohne dass sein
+eigener Wert wandert — es genügt, dass der Wert wandert, gegen den er benannt ist.
+
+**Was daran die Vorhersage tötet.** Ich hatte behauptet, so ein Fehler bleibe
+unentdeckt, weil das Zeichen den Wert deckt. Er blieb nicht unentdeckt. Am
+22. Mai 2002, in den offiziellen Last-Call-Kommentaren zum CSS3-Farbmodul — also
+zum billigsten möglichen Zeitpunkt — schreibt Steven Pemberton: „darkgray is
+lighter than gray! lightpink is darker than pink!", nennt die Liste „an
+abomination" und sieht „no possible reason that the X11 names should be added to
+CSS". Aufgenommen wurde sie trotzdem, und die Norm sagt selbst, warum: „not
+because they are good, but because their use and implementation has been
+widespread for decades". Pembertons Beobachtung steht heute als Fußnote *in*
+CSS Color 4. Gefunden, gedruckt, zitiert, folgenlos.
+
+**Der Ersatz, und er ordnet alle vier Kästchen.** Die zwei Richtungen
+unterscheiden sich nicht darin, wie schwer der Fehler zu **finden** ist, sondern
+darin, wie schwer er zu **reparieren** ist — und zwar gegenläufig:
+
+| Richtung | Finden | Beheben |
+|---|---|---|
+| **Ergebnis über Zeichen** | teuer (Quelldatei anfordern; 3 bzw. 30 Jahre) | billig (korrigierte Zahl, gedruckte Tafel) |
+| **Zeichen über Wert** | billig (hinsehen, nebeneinanderlegen) | teuer bis unmöglich (Rückwärtskompatibilität, keine zuständige Stelle) |
+
+Geprüft an allen vier Kästchen: [[tabellenblatt]] — Herndon musste drei Jahre
+nach der Datei fragen, danach war die Korrektur in Wochen publiziert.
+[[mercator-projektion]] — dreißig Jahre bis Wright, dann eine Druckseite.
+[[css-farbnamen]] — eine Nachmittagslektüre 2002, seit vierundzwanzig Jahren
+unverändert. [[vortragsbezeichnung]] — dass MuseScore `f` = 96 setzt und LilyPond
+etwas anderes, sieht man durch Nebeneinanderlegen; geändert wird es nicht, weil
+keine Stelle zuständig ist. Der Fehler dieser Richtung ist nicht versteckt, er
+ist **immun**.
+
+Das verbietet etwas Nachprüfbares: In der Richtung *Zeichen über Wert* darf es
+keinen Fall geben, in dem ein falscher Wert unter beibehaltenem Namen korrigiert
+wurde. Der gefährlichste Kandidat ist der eigene — Salesforce hat seine Tokens
+nicht repariert, sondern durch styling hooks *ersetzt*. Ersetzen ist keine
+Reparatur; ob es als Gegenbeleg zählt, ist offen.
+
+**Ganz ohne Messgerät kommt die Achse nicht davon**, nur betrifft es eine andere
+Frage. Ob `darkgray` heller ist als `gray`, sieht man. Welches der beiden Grau
+den Namen *verdient*, sieht man nicht: #bebebe ist halb nach Messung, #808080
+halb nach Ziffer (0x80 = 128 von 256). Gewonnen hat die Ziffer, und die Folge ist
+unsichtbar — `gray` erreicht gegen Weiß nur 3,95:1 und verfehlt die 4,5:1 der
+WCAG. Das Messgerät entscheidet hier nicht, *ob* ein Fehler vorliegt, sondern
+*welches Zeichen im Recht war*.
+
+**Das Gegenmittel für diese Richtung** steht unter [[farbgrad]]: ein Tokenname,
+der ein gemessenes Luminanzband nennt (`gray-cool-50` = #71767a, 17,9 %, 4,59:1
+gegen Weiß, 4,57:1 gegen Schwarz). Das ist für *Zeichen über Wert*, was das
+Gradnetz für die andere Richtung ist.
+
+**Einwand, offen gelassen.** Deckt die Farbnamensliste den Wert überhaupt? Jede
+Tabelle nennt das Hex daneben, kein Werkzeug versteckt es. Wer „derselbe Ort"
+streng liest, muss den Fall verwerfen — dann bleibt die Achse ohne Einzelbeleg
+und die Notiz bei n=5. Ich verwerfe ihn nicht, weil das Entscheidende gerade
+*nicht* die Verdeckung ist: Der Fall zeigt, dass es sie für diese Richtung nicht
+braucht.
 
 ## Das Gegenmittel (2026-08-27)
 
@@ -292,6 +374,11 @@ irgendwer sie umgedreht.
   in dem nicht die Notation verdeckt, sondern die Überlieferung
 - [[einheitenumrechnung]] — die zuverlässigste Quelle konkurrierender Zeichen für
   dieselbe Stelle
+- [[css-farbnamen]] — der sechste Fall: der Fehler war zu sehen und wurde 2002
+  ausgesprochen; geschützt hat ihn nicht die Verdeckung, sondern die
+  Unreparierbarkeit
+- [[farbgrad]] — das Gegenmittel für die Richtung Zeichen über Wert: ein Name,
+  der ein gemessenes Luminanzband nennt
 
 ## Kommt vor in
 
@@ -300,3 +387,4 @@ irgendwer sie umgedreht.
 - `entries/2026/2026-08-30.md`
 - `entries/2026/2026-09-01.md`
 - `entries/2026/2026-09-08.md`
+- `entries/2026/2026-09-09.md`

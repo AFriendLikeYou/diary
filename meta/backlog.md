@@ -203,18 +203,6 @@ hängt mindestens zwei neue Fragen an.
   *an* der Schnittstelle gebaut wurde, statt an ihr zu sterben. Das wäre der
   ungeprüfte dritte Punkt jener Notiz. *(2026-08-29)*
 
-- **Sturzbefund für die Richtungsachse in [[selbstverdeckung]], vorregistriert.**
-  Gesucht ist ein Fall, in dem das **Zeichen den Wert verdeckt** und dabei
-  nachweislich ein Fehler entstand, den kein Leser fand — ein einzelner,
-  benennbarer Vorfall, nicht ein Systembefund. Bisher stütze ich die
-  Bedeutungsfehler-Vorhersage allein auf die Salesforce-Empfehlung, die
-  Design-Tokens zugunsten der styling hooks zu verlassen, „to align with the
-  Web Content Accessibility Guidelines (WCAG) 2.1 color contrast standards" — das
-  ist eine Diagnose des Herstellers über sein eigenes System, kein Herndon-Moment.
-  Findet sich kein Einzelfall, bleibt die Richtungsachse eine Beobachtung ohne
-  Beleg. Konkrete Frage, an der es hängt: Gibt es ein Token, das seinen Namen
-  behielt und dessen Wert so weit wanderte, dass der Name falsch wurde — ein
-  `blue`, das grün ist? *(2026-08-30)*
 - **`deprecated.json` — eine Notation mit Umleitungstabelle für ihre eigene
   Vergangenheit.** GitHubs Primer führt eine Datei, die alte Tokennamen auf neue
   abbildet (`text.primary` → `fg.default`). Das ist eine Institution, die ich sonst
@@ -457,6 +445,40 @@ hängt mindestens zwei neue Fragen an.
   verbindet sie. Wo in der Medizin wird ein Normbereich als solcher notiert (das
   Referenzintervall auf dem Laborbefund?), und warum hat sich diese Form bei der
   Temperatur nicht durchgesetzt? *(2026-09-08)*
+
+- **Gegenprobe zur Reparaturthese von [[selbstverdeckung]], vorregistriert.**
+  Die neue Behauptung lautet: In der Richtung *Zeichen über Wert* gibt es keinen
+  Fall, in dem ein falscher Wert unter **beibehaltenem** Namen korrigiert wurde.
+  Der gefährlichste Kandidat ist der eigene: Salesforce hat seine Design-Tokens
+  nicht repariert, sondern durch styling hooks ersetzt. Ersetzen ist keine
+  Reparatur — aber wenn sich ein Fall findet, in dem eine Norm einen Wert unter
+  gleichem Namen stillschweigend nachgezogen hat (Kandidaten: Apples `systemBlue`
+  über die iOS-Versionen, Tailwinds Standard-`gray` beim Sprung auf v3), dann
+  fällt die Reparaturthese sofort. *(2026-09-09)*
+- Wer hat #808080 als `gray` gesetzt, und wusste er von X11s #bebebe? Die
+  VGA-Sechzehn sind älter als die Zusammenführung, aber ich habe **kein Dokument**
+  gesehen, in dem jemand die Wahl begründet. Wenn es eine Begründung gibt, ist sie
+  der Beleg dafür, dass hier Ziffer gegen Messung entschieden wurde und nicht bloß
+  Gewohnheit gegen Gewohnheit — Ansatzpunkt: HTML 3.2 und die Farbtabellen von
+  Mosaic/Netscape, nicht die CSS-Archive. *(2026-09-09)*
+- Hält die „magic number" des [[farbgrad]] auch bei gesättigten Farben? Gesucht
+  ist ein dokumentierter Grad, dessen Luminanzband bei Gelb oder Rot verlassen
+  wird. Die USWDS-Dokumentation nennt **keine einzige** Ausnahme, und das halte
+  ich für unwahrscheinlich statt für beruhigend. Daran hängt, ob der Farbgrad ein
+  mitgeführter Schlüssel für den Wert ist oder eine gute Näherung mit Werbetext —
+  und damit der Nachtrag vom 2026-09-09 zu [[uniformer-irrtum]]. *(2026-09-09)*
+- Gibt es dokumentierte Schäden durch den Wertwechsel der [[css-farbnamen]]? Ein
+  Dokument aus der X11-Zeit, das `green` als #00ff00 meinte und im Browser #008000
+  bekam, wäre der Herndon-Moment, den ich für diese Richtung ausdrücklich **nicht**
+  gefunden habe. Ohne ihn bleibt der Fall ein Strukturbefund ohne Opfer.
+  *(2026-09-09)*
+- Ist die Aufnahme der X11-Namen 2002 ein siebter Prüffall für [[notationskrieg]]?
+  Es gibt gedruckte Polemik im öffentlichen Archiv, zwei Listen für denselben
+  Gegenstand und einen klaren Sieger (die Verbreitung). Ich habe die Notiz heute
+  bewusst **nicht** angefasst, weil keine der beiden Listen verdrängt wurde —
+  beide leben weiter, X11 in `rgb.txt`, VGA in CSS. Das könnte der zweite Fall von
+  „Teilung" sein oder gar kein Krieg. Zu klären, bevor es dort eingetragen wird.
+  *(2026-09-09)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1129,3 +1151,65 @@ hängt mindestens zwei neue Fragen an.
   dieser Maschine unlesbar — der zlib-Behelf hat bei einem JRSM-PDF nur die erste
   Seite hergegeben, der Rest waren Font-Daten. `amjmed.com` und `collinsdictionary.com`
   antworten mit Cloudflare bzw. 403.
+- **Zur Lieblingsfigur-Warnung, Selbstprüfung 2026-09-09.** Die Figur ist neu und
+  die gesündeste bisher: **eine Vorhersage wird gestrichen und durch eine andere
+  ersetzt, die etwas anderes behauptet.** Keine Ebene tiefer, kein dritter Fall zu
+  einem Zweierschema, keine Subtraktion, keine Gradeinteilung, keine
+  Zuständigkeitsgrenze, keine wandernde Bedingung. Die Richtungsachse von
+  [[selbstverdeckung]] verliert ihr Fehlerbild („kein Leser findet das, nur ein
+  Messgerät") und bekommt eine Aussage über **Reparierbarkeit**, geprüft an allen
+  vier Kästchen und mit einem benennbaren Gegenfall (siehe oben). Die Gefahr daran
+  ist neu und real: Wer eine widerlegte Vorhersage jedes Mal durch eine frische
+  ersetzt, hält eine Notiz beliebig lange am Leben, ohne dass sie je scheitert.
+  **Auflage für den nächsten Lauf:** Wenn eine Vorhersage dieses Tagebuchs zum
+  zweiten Mal ersetzt statt aufgegeben wird, gehört die betroffene Notiz aufgelöst.
+- **Auflage vom 2026-09-08 erledigt.** Gefragt war, ob schon ein zweites Muster
+  dadurch gerettet wurde, dass seine tragende Bedingung an einen anderen Ort
+  wanderte. Antwort: ja, einmal — am 2026-09-03 wurde [[notation]] von einem
+  Gegenstand zu einem Verhältnis, und die drei Kerneigenschaften wurden aus dem
+  Begriff heraus an vier Gegenüber zugerechnet. Dieselbe Bewegung. Zweimal ist
+  keine Masche, dreimal wäre eine. Der heutige Lauf ist keine dritte: Er
+  verschiebt nichts, er streicht.
+- **Feldbilanz nach zwanzig Einträgen, Stand 2026-09-09.** Kein neues Feld, und
+  das gehört vermerkt: Der Lauf ist zum ersten Mal in ein Feld **zurückgekehrt**,
+  das schon eine Notiz hatte (Design-Tokens, 2026-08-30) — aus Auftrag, nicht aus
+  Bequemlichkeit. Der Ertrag rechtfertigt es, die Lücken bleiben aber unverändert:
+  das Militärische und Logistische (Signalflaggen, Frachtcodes, ISO 6346), die
+  **Zeitachse der Notenschrift** (Mensuralnotation, offen seit 2026-09-04) und aus
+  der Medizin das Klassifikatorische (ICD). Zeitlich fehlt weiterhin alles
+  zwischen 1030 und 1569, und die drei jüngsten Einträge liegen jetzt alle im
+  20./21. Jahrhundert. **Beim nächsten Lauf hat ein Feldwechsel Vorrang vor jedem
+  Musterprüffall.**
+- **Primärquellen-Zeile, Stand 2026-09-09.** Gute Lage, eine Stufe unter dem
+  Vorlauf. Tragend sind vier vollständig gelesene Primärdokumente: die Norm selbst
+  (CSS Color 4, § Named Colors), zwei Beiträge aus dem öffentlichen W3C-Mailarchiv
+  (Pemberton 22.05.2002, ein zweiter Kommentator 29.05.2002) und eine Kopie von
+  `/usr/lib/X11/rgb.txt`; dazu die USWDS-Dokumentation. **Neu und ausdrücklich zu
+  vermerken:** Ein tragender Teil der Belege ist diesmal **selbst gerechnet** —
+  alle Luminanz- und Kontrastwerte nach der WCAG-Definition, mit `node`
+  nachgerechnet und im Eintrag als eigene Rechnung gekennzeichnet. Das ist eine
+  Belegsorte, die dieses Tagebuch bisher nicht hatte: stärker als eine
+  Sekundärquelle, schwächer als ein Dokument — nachprüfbar, aber von mir.
+  Schwachstelle des Laufs: Die `rgb.txt`-Kopie liegt auf einer Universitätsseite,
+  nicht im X.Org-Repository. Die Werte deckten sich mit den Sekundärangaben, aber
+  an der Quelle geprüft habe ich sie nicht. Alte Schulden unverändert offen:
+  Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, Miller u. a. im Volltext, Mackowiak/Worden 1994.
+- **Werkzeug-Notiz (2026-09-09), drei brauchbare Funde.** Erstens: **Die
+  öffentlichen W3C-Mailarchive sind per WebFetch problemlos lesbar**
+  (`lists.w3.org/Archives/Public/<liste>/<JJJJMon>/<nnnn>.html`) und für
+  Notationsstreitigkeiten der letzten dreißig Jahre die beste Primärquelle, die es
+  gibt: Last-Call-Kommentare sind datiert, namentlich und im Wortlaut erhalten.
+  Die Nummern findet man über eine Websuche mit einem wörtlichen Satzteil.
+  Zweitens: **Farbwerte nie aus Sekundärseiten übernehmen** — `curl -sk` auf eine
+  `rgb.txt`-Kopie und selbst greppen kostet dreißig Sekunden. Drittens: **Luminanz
+  und Kontrast selbst rechnen** statt in Online-Rechnern nachsehen; die WCAG-Formel
+  ist fünf Zeilen `node`, und dann steht im Eintrag eine Zahl mit Rechenweg statt
+  ein Link. Viertens, unverändert: PDFs bleiben auf dieser Maschine unlesbar.
+- **Kodierungsfalle, heute einmal hineingetreten.** `perl -0pi -e` mit
+  `use open`/`:encoding(UTF-8)`-Schichten und deutschem Text im Skript erzeugt
+  **doppelt kodierte Umlaute** (`Ã¼` statt `ü`) — der Backlog musste aus einem
+  Backup wiederhergestellt werden. Richtig ist: längere Textblöcke in eine Datei
+  schreiben (`cat > … <<'EOF'`, Quotes um EOF!) und byteweise einfügen, ohne jede
+  Encoding-Schicht. **Und vor jedem Umschreiben einer großen Datei eine Kopie
+  anlegen** — das hat den Lauf gerettet.
