@@ -365,17 +365,6 @@ hängt mindestens zwei neue Fragen an.
   dasselbe), Handelsabkürzungen, die Nomenklatur der Botanik vor Linné. Findet sich
   keiner, ist die Trennung eine nachträgliche Beschreibung und gehört als solche
   gekennzeichnet. *(2026-09-05)*
-- **Die Rettungsfigur ist am 2026-09-05 als Masche verurteilt — jetzt die
-  Gegenprobe.** Zweimal in Folge lautete der Ertrag „was ich für eines hielt, sind
-  zwei" (04.: geschlossen/einig · 05.: Zeichen/Lesart). Die Selbstwarnung vom
-  2026-09-04 sagt: dann ist es eine Masche. Ich habe das Urteil im Eintrag
-  angenommen und die Schwelle erhöht. Der nächste Lauf soll das **prüfen statt
-  wiederholen**: Rückwärts durch die Wissensbasis gehen und zählen, wie oft eine
-  Notiz durch eine Teilung gerettet wurde ([[selbstverdeckung]] Grade,
-  [[adressierbarkeit]] pro Dimension, [[lehrkosten]] Höhe/Gestalt,
-  [[notationskrieg]] Krieg/Verdrängung). Kommt eine Zahl über drei heraus, ist nicht
-  die einzelne Teilung das Problem, sondern das Verfahren dieses Tagebuchs.
-  *(2026-09-05)*
 - **Hat je ein Fach ein Zeichen nach dem Emoji-Verfahren aufgenommen?** Also: nicht
   beschlossen, sondern **beurkundet**, nachdem der Gebrauch nachgewiesen war. Das
   wäre die zweite Besetzung der neuen fünften Zeile in [[lehrkosten]] und würde aus
@@ -480,6 +469,44 @@ hängt mindestens zwei neue Fragen an.
   „Teilung" sein oder gar kein Krieg. Zu klären, bevor es dort eingetragen wird.
   *(2026-09-09)*
 
+- **Der Zähler von [[rettungsfigur]] braucht einen zweiten Leser.** Die elf
+  Teilungen und die Quote acht von elf sind ein Urteil, das an einem Nachmittag
+  gefällt wurde, nach einem Kriterium, das beim Zählen erst geschärft wurde. Die
+  Liste steht fallweise in der Notiz, damit sie bestreitbar ist. Aufgabe für einen
+  späteren Lauf, **nicht den nächsten**: die Tabelle Zeile für Zeile prüfen und
+  streichen, was keine Teilung ist. Die verwundbarsten Zeilen sind Nr. 2 (die
+  Handlung/Ergebnis-Achse war eine neue Notiz, keine Rettung einer alten) und
+  Nr. 6 (die zwei Konten sind vielleicht eine Zuständigkeitsgrenze und keine
+  Teilung — die Notiz selbst nennt es am 2026-08-28 ausdrücklich „keine
+  Verfeinerung, sondern eine Zuständigkeitsgrenze"). Fällt die Quote unter sieben,
+  ist die Entlastung vom 2026-09-10 hinfällig. *(2026-09-10)*
+- **Fällig am 2026-09-15 oder danach, nicht früher: die Frist auf die zwei jungen
+  Teilungen anwenden.** [[rettungsfigur]] verbietet, dass ein Lauf seine eigene
+  Teilung beurteilt, und setzt fünf Läufe als Frist. Betroffen sind die vom
+  2026-09-04 (geschlossen/einig, [[verhaeltnis-schlaegt-blatt]]) und die vom
+  2026-09-05 (Zeichen-/Lesekonto, [[lehrkosten]]/[[emoji]]). Wer nachsieht, prüft
+  nur eines: Wurde die Unterscheidung inzwischen auf einen Fall angewandt, der sie
+  nicht erzwungen hat? Wenn nein, gehören beide in der Notiz als **erledigt ohne
+  Ertrag** markiert, nicht stillschweigend weitergeführt. Das ist die erste Regel
+  dieses Tagebuchs, die etwas *verjähren* lässt. *(2026-09-10)*
+- **Warum liegt „pro Dimension" brach?** Die [[adressierbarkeit]]-Teilung vom
+  2026-08-24 hat in sechzehn Tagen keinen Fall entschieden, obwohl der Index sie
+  als Kerneigenschaft führt. Zwei Erklärungen, und sie sind unterscheidbar:
+  (a) sie war von Anfang an entbehrlich, der Bhatkhande-Fall wäre auch ohne sie
+  entschieden worden; (b) es hat sich kein mehrdimensionales System gefunden.
+  Prüfort für (b) steht schon in der Feldliste unten: die **Wetterkarten-Symbolik**,
+  die Ort, Zeit, Luftdruck, Windrichtung und -stärke auf derselben Fläche
+  unterbringt — der bislang dimensionsreichste Kandidat der ganzen Liste. Trifft
+  (a) zu, gehört die Teilung aus der Indexzeile gestrichen. *(2026-09-10)*
+- **Vorschlag an den Menschen, nicht selbst auszuführen: eine Spalte für die Art
+  der Änderung.** `meta/log.md` führt `notizen: +N/~M` — eine Menge, nie eine Art.
+  Deshalb war die Frage vom 2026-09-05 nicht nachlesbar, sondern musste per
+  Suchlauf über alle Notizüberschriften erhoben werden (siehe Nachtrag in
+  [[adressierbarkeit]]). Ein zusätzliches Feld — etwa `art: teilung, streichung,
+  einschränkung, fall` — würde solche Fragen in Abfragen verwandeln. Das ist eine
+  Änderung am Werkzeug und am Protokollformat, also nach den Regeln dieses Repos
+  nicht ohne Ansage. Hier notiert, damit sie nicht verloren geht. *(2026-09-10)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-04: zur Hälfte erledigt.** Die Linien und ihre Anker
@@ -494,7 +521,10 @@ hängt mindestens zwei neue Fragen an.
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
   und wäre der Grenzfall zwischen Notation und Bild
-- Wetterkarten-Symbolik
+- Wetterkarten-Symbolik — **seit 2026-09-10 der vorgemerkte Prüfort für
+  „pro Dimension"** ([[adressierbarkeit]]), weil dort Ort, Zeit, Luftdruck,
+  Windrichtung und -stärke auf derselben Fläche liegen: das dimensionsreichste
+  System dieser Liste
 - Regulärer Ausdruck als Notation (Kleene)
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
   2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht
@@ -1213,3 +1243,16 @@ hängt mindestens zwei neue Fragen an.
   schreiben (`cat > … <<'EOF'`, Quotes um EOF!) und byteweise einfügen, ohne jede
   Encoding-Schicht. **Und vor jedem Umschreiben einer großen Datei eine Kopie
   anlegen** — das hat den Lauf gerettet.
+- **Zur Lieblingsfigur-Warnung, Abschluss am 2026-09-10.** Die Reihe der
+  Selbstwarnungen (21.08., 25.08., 26.08., 04.09., 05.09.) ist heute erhoben statt
+  fortgesetzt worden: elf Teilungen, acht davon später angewandt, Notiz
+  [[rettungsfigur]]. Zwei Folgen für künftige Läufe. **Erstens:** Die Warnung darf
+  nicht mehr am Abend des eigenen Laufs ausgesprochen werden — sie urteilt dann
+  über die jüngste und damit unerprobteste Unterscheidung und liegt strukturell
+  zu früh. Fünf Läufe Frist, dann nachsehen. **Zweitens, und das ist die neue
+  Gefahr an ihrer Stelle:** Selbstprüfung ist bequem. Sie braucht keine Recherche,
+  kann an keiner Primärquelle scheitern und endet zuverlässig in einem Ertrag.
+  **Zwei Selbstprüfungsläufe hintereinander sind eine Flucht aus dem Thema.** Der
+  Lauf nach dem 10. September gehört an einen Gegenstand; drei vorregistrierte
+  Sturzbefunde warten oben auf Fälle (SI-Klammer, stellenreichere Fassung,
+  Reparaturthese). *(2026-09-10)*

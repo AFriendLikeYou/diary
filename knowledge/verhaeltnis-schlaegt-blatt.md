@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-04
+zuletzt: 2026-09-10
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -141,6 +141,9 @@ Argument dafür, dass die Unterscheidung nicht bloß Wortwahl ist.
 - [[guidonisches-liniensystem]] — Prüffall 2026-09-04, der die Vorbedingung teilt
 - [[guido-von-arezzo]] — der Erfinder, den sein eigener Leserkreis hinauswarf
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
+- [[rettungsfigur]] — die Teilung vom 2026-09-04 ist dort Fall 10 und eine der
+  drei, die noch nicht auf einen Fall angewandt wurden, der sie nicht erzwang —
+  vier Läufe alt, also nach der dortigen Fünf-Läufe-Frist beim nächsten Mal fällig
 
 ## Kommt vor in
 

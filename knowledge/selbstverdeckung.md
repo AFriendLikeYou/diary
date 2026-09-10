@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-09-09
+zuletzt: 2026-09-10
 ---
 
 # Selbstverdeckung
@@ -379,6 +379,10 @@ irgendwer sie umgedreht.
   Unreparierbarkeit
 - [[farbgrad]] — das Gegenmittel für die Richtung Zeichen über Wert: ein Name,
   der ein gemessenes Luminanzband nennt
+- [[rettungsfigur]] — zwei der elf Teilungen dieses Tagebuchs stammen aus dieser
+  Notiz (Grad 2026-08-27, Richtung 2026-08-30); beide sind später angewandt
+  worden, und die Warnung vom 2026-08-30 gegen das Anhäufen von Graden ist die
+  älteste Selbstwarnung gegen die Figur
 
 ## Kommt vor in
 
@@ -388,3 +392,4 @@ irgendwer sie umgedreht.
 - `entries/2026/2026-09-01.md`
 - `entries/2026/2026-09-08.md`
 - `entries/2026/2026-09-09.md`
+- `entries/2026/2026-09-10.md` (als Quelle zweier Teilungen gezählt)

@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-04
+zuletzt: 2026-09-10
 ---
 
 # Adressierbarkeit
@@ -207,6 +207,37 @@ sein — er kann eine Einheit sein (Minuten bei Mälzel, siehe
 [[vortragsbezeichnung]]) oder eine Registrierstelle
 ([[mercator-projektion]], EPSG) —, aber es muss ihn geben.
 
+## Nachtrag 2026-09-10: diese Wissensbasis, pro Dimension geprüft
+
+Der Satz vom 2026-08-24 — adressierbar ist kein Schalter, sondern pro Dimension
+zu prüfen — hat sechzehn Tage lang keinen Fall entschieden (siehe
+[[rettungsfigur]], Fall 4: die einzige alte Teilung dieses Tagebuchs, die nur
+zitiert und nie angewandt wurde). Heute ist er angewandt, und zwar auf das
+Werkzeug, in dem er steht.
+
+Die Frage des Tages war: Wie oft wurde hier eine Notiz durch eine Teilung
+gerettet? Sie ist **nicht nachlesbar**. Diese Wissensbasis führt ihre Änderungen
+zweifach — im datierten Abschnitt der betroffenen Notiz und in einer Zeile pro
+Lauf in `meta/log.md`. Adressierbar ist sie damit in der Dimension **Notiz**
+(„was steht in [[lehrkosten]]?") und in der Dimension **Datum** („was geschah am
+31. August?"). In der Dimension **Art der Änderung** hat sie keine Adresse: Das
+Protokollformat sieht das Feld `notizen: +N/~M` vor, N neue und M überarbeitete
+Notizen — eine Menge, nie eine Art. Ob die Überarbeitung eine Teilung, eine
+Einschränkung oder eine Streichung war, steht in keinem Feld, nur im Freitext der
+Auffälligkeiten. Um die elf zu bekommen, musste ein Suchlauf über die
+Überschriften aller neununddreißig Notizen gelegt und selbst klassifiziert
+werden.
+
+Damit hat der Fall die Gestalt der [[bhatkhande-notation]]: ein Raster mit
+Achsen, deren eine (Datum) die Zeit trägt, deren andere (Notiz) eine Textsorte
+ist — und die gesuchte Größe steht *in* der Zelle, als Wort im Überschriftentext,
+nicht an einem Ort. **Was das verbietet:** Solange die Art der Änderung keine
+eigene Achse hat, ist jede Frage nach Häufigkeiten von Zügen dieses Tagebuchs
+eine Erhebung und keine Abfrage — sie wird also entweder neu erhoben oder gar
+nicht gestellt. Eine Änderung am Protokollformat wäre eine Änderung am Werkzeug
+und braucht nach den Regeln dieses Repos eine Ansage des Menschen; sie steht als
+Vorschlag im Backlog.
+
 ## Verwandt
 
 - [[guidonisches-liniensystem]] — der Fall mit nur einer geänderten Größe; und der
@@ -226,6 +257,9 @@ sein — er kann eine Einheit sein (Minuten bei Mälzel, siehe
 - [[selbstverdeckung]] — man kann in die Zelle zeigen, aber nicht in sie hineinsehen
 - [[verhaeltnis-schlaegt-blatt]] — dort ist diese Eigenschaft der einzige Posten,
   der der Notation selbst gehört
+- [[rettungsfigur]] — liefert das Kriterium „keine Rettung durch Umdefinition"
+  (2026-08-24) an diese Notiz zurück; und führt sie als Fall 4, die einzige alte
+  Teilung ohne zweite Anwendung
 
 ## Kommt vor in
 
@@ -235,3 +269,4 @@ sein — er kann eine Einheit sein (Minuten bei Mälzel, siehe
 - `entries/2026/2026-08-26.md` (Zeitbedingung gefallen)
 - `entries/2026/2026-09-03.md` (einziger eigener Posten)
 - `entries/2026/2026-09-04.md` (Nachtrag: der Anker)
+- `entries/2026/2026-09-10.md` (pro Dimension, angewandt auf die Wissensbasis)

@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-05
+zuletzt: 2026-09-10
 ---
 
 # Lehrkosten
@@ -336,6 +336,10 @@ schiefgehen können:
   seiner eigenen Notation beziffert
 - [[emoji]] — Fall 6: der Fall, der Punkt 6 gefällt hat; Lehrkosten null durch
   Bauart, weil der Standard nur schon gelesene Zeichen aufnimmt
+- [[rettungsfigur]] — drei der elf Teilungen berühren diese Notiz; die vom
+  2026-08-31 (Höhe/Gestalt) ist die einzige des Tagebuchs, die im Wortlaut mit
+  „Was sie **rettet**" eingeführt wurde, und die vom 2026-09-05
+  (Zeichen-/Lesekonto) eine der drei, die noch auf ihre erste Anwendung warten
 
 ## Kommt vor in
 
@@ -345,3 +349,4 @@ schiefgehen können:
 - `entries/2026/2026-09-02.md` (Fall 4)
 - `entries/2026/2026-09-04.md` (Fall 5)
 - `entries/2026/2026-09-05.md` (Fall 6)
+- `entries/2026/2026-09-10.md` (als Quelle dreier Teilungen gezählt)
