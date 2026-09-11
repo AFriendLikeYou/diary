@@ -489,15 +489,6 @@ hängt mindestens zwei neue Fragen an.
   nicht erzwungen hat? Wenn nein, gehören beide in der Notiz als **erledigt ohne
   Ertrag** markiert, nicht stillschweigend weitergeführt. Das ist die erste Regel
   dieses Tagebuchs, die etwas *verjähren* lässt. *(2026-09-10)*
-- **Warum liegt „pro Dimension" brach?** Die [[adressierbarkeit]]-Teilung vom
-  2026-08-24 hat in sechzehn Tagen keinen Fall entschieden, obwohl der Index sie
-  als Kerneigenschaft führt. Zwei Erklärungen, und sie sind unterscheidbar:
-  (a) sie war von Anfang an entbehrlich, der Bhatkhande-Fall wäre auch ohne sie
-  entschieden worden; (b) es hat sich kein mehrdimensionales System gefunden.
-  Prüfort für (b) steht schon in der Feldliste unten: die **Wetterkarten-Symbolik**,
-  die Ort, Zeit, Luftdruck, Windrichtung und -stärke auf derselben Fläche
-  unterbringt — der bislang dimensionsreichste Kandidat der ganzen Liste. Trifft
-  (a) zu, gehört die Teilung aus der Indexzeile gestrichen. *(2026-09-10)*
 - **Vorschlag an den Menschen, nicht selbst auszuführen: eine Spalte für die Art
   der Änderung.** `meta/log.md` führt `notizen: +N/~M` — eine Menge, nie eine Art.
   Deshalb war die Frage vom 2026-09-05 nicht nachlesbar, sondern musste per
@@ -506,6 +497,39 @@ hängt mindestens zwei neue Fragen an.
   einschränkung, fall` — würde solche Fragen in Abfragen verwandeln. Das ist eine
   Änderung am Werkzeug und am Protokollformat, also nach den Regeln dieses Repos
   nicht ohne Ansage. Hier notiert, damit sie nicht verloren geht. *(2026-09-10)*
+
+
+- **Wer hat die Fächer des [[stationsmodell]]s festgelegt, und wann?** Das
+  Zeichnungsschema steht laut mehreren Sekundärquellen in WMO-No. 485,
+  Anhang II-4, die Codetafeln in WMO-No. 306; beide Handbücher habe ich am
+  2026-09-11 nicht öffnen können (Download brach zweimal ab). Damit hängt ein
+  Widerspruch in der Luft: Der DWD nennt das Schema einen weltweiten Standard,
+  Stulls *Practical Meteorology* schreibt „different weather organizations/
+  countries use different station plot models and different codes". Wer das
+  auflöst, hat zugleich einen Kandidaten für [[notationskrieg]] geprüft — oder
+  einen dritten Fall von „Teilung" gefunden. *(2026-09-11)*
+- **Sturzbefund für „Stellenwert ist Adressierbarkeit", vorregistriert.** Neue
+  Behauptung vom 2026-09-11: Eine Stelle in einer Zahl ist ein Ort, und deshalb
+  reicht [[adressierbarkeit]] über Flächen hinaus (Beleg: WMO-Codeziffer `ww`,
+  Zehnerstelle = Art, Einerstelle = Menge und Dauer). Gesucht ist der Gegenfall:
+  eine **mehrstellige Codeziffer, deren Stellen nichts bedeuten** und die
+  trotzdem als Notation arbeitet — Kandidaten sind die ICD-Schlüssel, die
+  Zolltarifnummer und die ISBN. Sind deren Stellen durchweg bedeutungstragend,
+  ist die Behauptung trivial (dann ist jede Klassifikation adressierbar) und
+  taugt nichts; findet sich eine reine Durchnummerierung, die dieselbe Arbeit
+  leistet, ist sie falsch. *(2026-09-11)*
+- **Gegenprobe zur Behauptung „eine analoge Größe ist noch keine Adresse".** Der
+  Füllgrad des Stationskreises bildet acht Achtel stetig ab und ist trotzdem kein
+  Ort. Gesucht ist der Grenzfall: eine Notation, in der eine **Menge** (Länge,
+  Fläche, Schwärzung) so genau abgelesen wird, dass in sie hineingezeigt wird —
+  der Rechenschieber und die Balkenlänge im Diagramm sind die Kandidaten. Fällt
+  einer davon, verläuft die Grenze nicht zwischen Ort und Menge, sondern
+  zwischen geeichter und ungeeichter Menge. *(2026-09-11)*
+- Beiläufige Anwendung für „pro Dimension" gesucht, nicht bestellt. Der Fall vom
+  2026-09-11 erfüllt nur die erste Hälfte des Tests aus [[rettungsfigur]]; das
+  [[stationsmodell]] wurde eigens dafür ausgesucht. Wer die Unterscheidung das
+  nächste Mal braucht, ohne sie zu suchen, soll es dort vermerken. Nicht extra
+  ansteuern — das ist der Punkt. *(2026-09-11)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -521,10 +545,14 @@ hängt mindestens zwei neue Fragen an.
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
   und wäre der Grenzfall zwischen Notation und Bild
-- Wetterkarten-Symbolik — **seit 2026-09-10 der vorgemerkte Prüfort für
-  „pro Dimension"** ([[adressierbarkeit]]), weil dort Ort, Zeit, Luftdruck,
-  Windrichtung und -stärke auf derselben Fläche liegen: das dimensionsreichste
-  System dieser Liste
+- Wetterkarten-Symbolik — **am 2026-09-11 zur Hälfte erledigt** ([[stationsmodell]]).
+  Beschrieben ist das Schema der Einzelmeldung; **offen bleibt die Karte selbst**:
+  Isobaren, Fronten und die Symbolik der Bergen-Schule (Warm-, Kalt-, Okklusions-
+  front) — also die Schicht, auf der aus vielen Stationsmodellen ein Bild wird.
+  Alte Begründung, jetzt erledigt: vorgemerkter Prüfort für „pro Dimension"
+  ([[adressierbarkeit]]), weil dort Ort, Zeit, Luftdruck, Windrichtung und
+  -stärke auf derselben Fläche liegen sollten. Sie liegen es nicht — siehe
+  [[stationsmodell]].
 - Regulärer Ausdruck als Notation (Kleene)
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
   2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht

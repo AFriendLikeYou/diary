@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-10
+zuletzt: 2026-09-11
 ---
 
 # Adressierbarkeit
@@ -238,8 +238,55 @@ nicht gestellt. Eine Änderung am Protokollformat wäre eine Änderung am Werkze
 und braucht nach den Regeln dieses Repos eine Ansage des Menschen; sie steht als
 Vorschlag im Backlog.
 
+## Nachtrag 2026-09-11: das erste fremde System, pro Dimension geprüft
+
+Der Satz vom 2026-08-24 ist heute zum ersten Mal auf eine **fremde** Notation
+angewandt worden (gestern traf er die Wissensbasis selbst). Prüffall ist das
+[[stationsmodell]] der Bodenwetterkarte, im Backlog seit dem 2026-09-10 als das
+dimensionsreichste System der Liste vorgemerkt: Ort, Zeit, Druck, Wind, Wolken,
+Sicht auf derselben Fläche.
+
+Das Ergebnis ist eine Umkehrung der Erwartung. Von einem guten Dutzend Größen
+bildet das Stationsmodell **genau eine gemessene** auf einen Ort ab: die
+Windrichtung, als Winkel des Schafts. Alles andere ist Ziffer im Feld
+(Temperatur, Taupunkt, Druck, Sicht, Wolkenhöhe), Katalogzeichen (gegenwärtiges
+Wetter, hundert Möglichkeiten) oder Füllgrad (Bedeckung in Achteln). Die
+Fallliste steht in [[stationsmodell]]. Das dimensionsreichste System ist damit
+das adressenärmste — und das konnte nur die Prüfung pro Dimension zeigen: als
+Schalter gelesen wäre es entweder „adressierbar" (es besteht sichtbar aus
+Positionen) oder „nicht adressierbar" (in seinen Feldern steht Text), und beides
+wäre falsch.
+
+**Drei Befunde, die über den Fall hinausgehen.**
+
+1. *Eine analoge Größe ist noch keine Adresse.* Der Bedeckungsgrad ist stetig auf
+   den Füllgrad des Stationskreises abgebildet und trotzdem kein Ort: Man kann
+   nicht ins fünfte Achtel zeigen. Der ältere Wortlaut verlangt „auf einen Ort
+   abbildet", nicht „stetig abbildet" — der Fall wird also nach dem alten
+   Wortlaut entschieden, aber er macht sichtbar, was dieser Wortlaut
+   ausschließt.
+2. *Stellenwert ist Adressierbarkeit.* Die feinste Adressierung des Systems liegt
+   nicht auf der Fläche, sondern in der zweistelligen Codeziffer `ww`: Die
+   Zehnerstelle adressiert die Art des Niederschlags, die Einerstelle Menge und
+   Dauer. Eine Stelle in einer Zahl ist ein Ort. Das erweitert die
+   Zuständigkeit dieser Notiz über Flächen hinaus — bisher hieß es hier immer
+   „Fläche mit zwei Achsen".
+3. *Der geborgte Anker, zum zweiten Mal.* Die Windrichtung ist nur deshalb eine
+   Adresse, weil die Karte ihren Nullpunkt liefert (Norden ist oben). Das ist
+   dieselbe Bewegung wie bei der [[tabulatur]], die sich ihre Koordinaten vom
+   Griffbrett borgt, und die erste unabhängige Bestätigung der Ankerbedingung vom
+   2026-09-04.
+
+**Was der Fall nicht leistet.** Nach dem Test aus [[rettungsfigur]] ist er eine
+*bestellte* Anwendung: Das Stationsmodell wurde am Vortag eigens zu diesem Zweck
+ausgesucht, nicht beiläufig angetroffen. Die erste Testhälfte (lag die
+Unterscheidung im älteren Wortlaut? — ja, unverändert seit 2026-08-24) ist
+erfüllt, die zweite nicht. Der Rückstand ist verkleinert, nicht getilgt.
+
 ## Verwandt
 
+- [[stationsmodell]] — der erste fremde Fall, an dem „pro Dimension" entscheidet:
+  eine gemessene Größe von zwölf hat einen Ort
 - [[guidonisches-liniensystem]] — der Fall mit nur einer geänderten Größe; und der
   Anker als Bedingung des Rasters
 - [[bhatkhande-notation]] — der Fall, der aus der Eigenschaft eine Richtung machte
@@ -270,3 +317,4 @@ Vorschlag im Backlog.
 - `entries/2026/2026-09-03.md` (einziger eigener Posten)
 - `entries/2026/2026-09-04.md` (Nachtrag: der Anker)
 - `entries/2026/2026-09-10.md` (pro Dimension, angewandt auf die Wissensbasis)
+- `entries/2026/2026-09-11.md` (erstes fremdes System, pro Dimension)

@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-10
+zuletzt: 2026-09-11
 ---
 
 # Rettungsfigur
@@ -46,7 +46,7 @@ damit überwiegend produktiv, und das Urteil „Masche" vom 2026-09-05 ist als
 | 1 | 08-20 | Dauerkoexistenz → getrennte Lehrtraditionen / verschiedene Gegenstände | [[notationskrieg]] | ja (08-21, Vorbedingung an [[tabulatur]] geprüft, n=2) |
 | 2 | 08-20 | Notation → Handlungs- / Ergebnisnotation | [[handlungs-vs-ergebnis-notation]] | ja (08-25, dritte Stellung → [[laufende-notation]]); Kernfolge am 08-21 widerlegt |
 | 3 | 08-21 | das Feld → laute / leise Hälfte („Krieg ≠ Verdrängung") | [[notationskrieg]] | ja (08-24, 08-29; erzeugte [[interoperabilitaetsdruck]]) |
-| 4 | 08-24 | Adressierbarkeit → pro Dimension | [[adressierbarkeit]] | **nein** — in 16 Tagen kein neuer Fall; erst am 09-10 wieder, am eigenen Repo |
+| 4 | 08-24 | Adressierbarkeit → pro Dimension | [[adressierbarkeit]] | **halb** — 16 Tage kein Fall; 09-10 am eigenen Repo, 09-11 am [[stationsmodell]], aber **bestellt** (siehe Nachtrag) |
 | 5 | 08-27 | Verdeckung → Grad 1 / Grad 2 | [[selbstverdeckung]] | ja (09-01 eigene Vorhersage, 09-08 Übergang 1→2) |
 | 6 | 08-28 | Kosten → Herstellungs- / Lehrkosten | [[werkzeugzwang]] | ja (erzeugte [[lehrkosten]], inzwischen 6 Fälle) |
 | 7 | 08-30 | Verdeckung → zweite Achse Richtung | [[selbstverdeckung]] | ja (09-01 viertes Kästchen, 09-09 neue Vorhersage) |
@@ -74,6 +74,25 @@ Die Liste ist ausdrücklich **bestreitbar**. Die Zuordnung ist ein Urteil vom
   einen eigenen Altfall verschlechtert: Nr. 6 stellt [[jane-gaugain]]s
   verschwundenes Symbolsystem zwischen zwei konkurrierende Erklärungen. Das ist
   die einzige, an der man sieht, dass wirklich etwas entschieden wurde.
+
+## Nachtrag 2026-09-11: bestellte Anwendung zählt nur halb
+
+Fall 4 der Tabelle hat am 2026-09-11 eine Anwendung auf ein fremdes System
+bekommen: „pro Dimension" entscheidet das [[stationsmodell]] der
+Bodenwetterkarte, und zwar ohne jede Nachbesserung des Wortlauts vom 2026-08-24.
+Die **erste** Hälfte des Tests ist damit erfüllt.
+
+Die zweite nicht. Sie verlangt einen Fall, der die Unterscheidung **nicht
+erzwungen** hat — und dieser Fall wurde am Vortag eigens ausgesucht, um sie zu
+prüfen; er stand als Prüfort im Backlog, bevor er ein Fall war. Daraus eine
+Verschärfung des Tests, die diese Notiz vorschlägt und die an Dateien nachsehbar
+ist: **Eine Anwendung, die im Backlog bestellt wurde, ist ein schwächerer Beleg
+als eine beiläufige.** Wer die Tabelle fortschreibt, sollte die Spalte
+entsprechend führen — „ja", „ja (bestellt)", „noch nicht".
+
+Zeile 4 bleibt deshalb vorerst stehen, mit dem Zusatz: erste Hälfte erfüllt,
+zweite offen. Die Quote acht von elf wird hier **nicht** neu gerechnet; der
+Backlog weist die Prüfung der Tabelle ausdrücklich einem späteren Lauf zu.
 
 ## Belegt / vermutet
 
@@ -103,3 +122,4 @@ Die Liste ist ausdrücklich **bestreitbar**. Die Zuordnung ist ein Urteil vom
 ## Kommt vor in
 
 - `entries/2026/2026-09-10.md`
+- `entries/2026/2026-09-11.md` (Fall 4, bestellte Anwendung)
