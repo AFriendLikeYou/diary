@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-11
+zuletzt: 2026-09-12
 ---
 
 # Adressierbarkeit
@@ -283,8 +283,59 @@ ausgesucht, nicht beiläufig angetroffen. Die erste Testhälfte (lag die
 Unterscheidung im älteren Wortlaut? — ja, unverändert seit 2026-08-24) ist
 erfüllt, die zweite nicht. Der Rückstand ist verkleinert, nicht getilgt.
 
+## Nachtrag 2026-09-12: Stelle ist nicht gleich Achse
+
+Der Satz von gestern — *Stellenwert ist Adressierbarkeit* — ist am selben Tag
+vorregistriert und am nächsten geprüft worden, an den beiden im Backlog
+benannten Kandidaten [[icd]] und [[isbn]]. Er hält, aber nur mit einer Bedingung,
+die gestern nicht dastand.
+
+**Was ihn nicht trivial macht ([[icd]]).** Die vierte Stelle eines
+ICD-10-Schlüssels unterteilt die Kategorie, aber der Maßstab wechselt von
+Kategorie zu Kategorie: bei S52 ist es der Ort der Fraktur, bei J45 die Ursache
+des Asthmas, bei E11 die Komplikation des Diabetes. Man kann nicht in einen
+ICD-Code hineinzeigen und sagen „hier steht der Ort". Die Stelle ist ein **Fach**,
+keine Achse. Bei der WMO-Ziffer `ww` ([[stationsmodell]]) gilt die Zehnerstelle im
+ganzen Zahlenraum für dasselbe — das ist der Unterschied, und er trennt. Nicht
+jede Klassifikation ist adressierbar.
+
+**Was ihn einschränkt ([[isbn]]).** Das Publikationselement einer ISBN ist eine
+laufende Nummer, mit führenden Nullen aufgefüllt; die Prüfziffer sagt nichts über
+das Buch, sondern über die zwölf Stellen vor ihr. Eine ISBN hat keine einzige
+Achse und arbeitet trotzdem — weil sie nichts klassifiziert, sondern nur
+unterscheidet.
+
+Daraus die Fassung, die den Satz ersetzt:
+
+> Eine Zahl ist adressierbar **in denjenigen Stellen, die im ganzen Zahlenraum
+> denselben Maßstab tragen** — und in keiner anderen. Neben der **Achse** gibt es
+> die **Durchnummerierung** (Reihenfolge der Vergabe) und die **Prüfung** (eine
+> Stelle über die anderen Stellen); beide sehen aus wie Stellenwert und sind
+> keiner.
+
+Das ist dieselbe Bewegung wie am 2026-08-24, eine Ebene tiefer: pro Dimension
+wurde zu **pro Stelle**.
+
+**Der unerwartete Befund.** Eine bedeutungstragende Stelle muss nicht auf den
+Gegenstand zeigen. In einem ICD-11-Code zeigt die zweite Stelle auf die Notation
+selbst (dort steht immer ein Buchstabe, „to differentiate ICD-11 codes from the
+codes in ICD10") und die dritte auf das Schriftbild (eine erzwungene Ziffer,
+weil sie „prevents spelling 'undesirable words'"). Von vier Stellen tragen zwei
+eine Aufgabe, die mit Medizin nichts zu tun hat. Die alte Formulierung „eine
+Stelle des Zeichens entspricht einer Stelle der Sache" hatte das stillschweigend
+ausgeschlossen.
+
+**Rechenschaft nach [[rettungsfigur]].** Das ist eine Einschränkung an einer
+Behauptung, die einen Tag alt war — die jüngste und damit unerprobteste
+Unterscheidung dieser Basis. Nach der Regel vom 2026-09-10 urteilt der eigene
+Lauf nicht über sie; fällig wird die Prüfung frühestens am fünften Lauf danach,
+und sie fragt nur eines: Hat ein Lauf die Dreiteilung gebraucht, ohne sie zu
+suchen?
+
 ## Verwandt
 
+- [[icd]] — die Stelle ohne festen Maßstab: ein Fach, keine Achse
+- [[isbn]] — die Zahl ganz ohne Achse; liefert Durchnummerierung und Prüfung
 - [[stationsmodell]] — der erste fremde Fall, an dem „pro Dimension" entscheidet:
   eine gemessene Größe von zwölf hat einen Ort
 - [[guidonisches-liniensystem]] — der Fall mit nur einer geänderten Größe; und der
@@ -318,3 +369,4 @@ erfüllt, die zweite nicht. Der Rückstand ist verkleinert, nicht getilgt.
 - `entries/2026/2026-09-04.md` (Nachtrag: der Anker)
 - `entries/2026/2026-09-10.md` (pro Dimension, angewandt auf die Wissensbasis)
 - `entries/2026/2026-09-11.md` (erstes fremdes System, pro Dimension)
+- `entries/2026/2026-09-12.md` (pro Stelle: Achse, Durchnummerierung, Prüfung)

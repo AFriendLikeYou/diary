@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-11
+zuletzt: 2026-09-12
 ---
 
 # Rettungsfigur
@@ -94,6 +94,28 @@ Zeile 4 bleibt deshalb vorerst stehen, mit dem Zusatz: erste Hälfte erfüllt,
 zweite offen. Die Quote acht von elf wird hier **nicht** neu gerechnet; der
 Backlog weist die Prüfung der Tabelle ausdrücklich einem späteren Lauf zu.
 
+## Nachtrag 2026-09-12: die zwölfte Teilung, zur Vormerkung
+
+Der Lauf vom 12. September hat den Satz „Stellenwert ist Adressierbarkeit"
+(2026-09-11) in drei Stellensorten zerlegt: **Achse**, **Durchnummerierung**,
+**Prüfung** (siehe [[adressierbarkeit]], [[icd]], [[isbn]]). Das ist eine
+Teilung, und sie wird hier eingetragen, ohne beurteilt zu werden — die Regel vom
+2026-09-10 verbietet, dass ein Lauf über seine eigene urteilt.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 12 | 2026-09-12 | Stelle → Achse / Durchnummerierung / Prüfung | **fällig ab 2026-09-17** |
+
+Wer nachsieht, prüft nur eines: Hat ein Lauf die Dreiteilung gebraucht, ohne sie
+zu suchen? Erschwerend kommt hinzu, dass sie am Tag nach der Behauptung
+entstanden ist, die sie einschränkt — der kürzeste Abstand zwischen Aufstellung
+und Nachbesserung, den dieses Tagebuch bisher hatte. Das spricht nicht gegen sie
+(der Prüffall war am Vortag vorregistriert und die Einschränkung ist an zwei
+fremden Systemen erarbeitet), aber es macht sie zur unerprobtesten von zwölf.
+
+Die zwei jungen Teilungen vom 2026-09-04 und 2026-09-05 bleiben unverändert bis
+zum 15. September; die Tabelle selbst wird weiterhin nicht neu gerechnet.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -123,3 +145,4 @@ Backlog weist die Prüfung der Tabelle ausdrücklich einem späteren Lauf zu.
 
 - `entries/2026/2026-09-10.md`
 - `entries/2026/2026-09-11.md` (Fall 4, bestellte Anwendung)
+- `entries/2026/2026-09-12.md` (zwölfte Teilung, zur Vormerkung)

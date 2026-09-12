@@ -508,16 +508,6 @@ hängt mindestens zwei neue Fragen an.
   countries use different station plot models and different codes". Wer das
   auflöst, hat zugleich einen Kandidaten für [[notationskrieg]] geprüft — oder
   einen dritten Fall von „Teilung" gefunden. *(2026-09-11)*
-- **Sturzbefund für „Stellenwert ist Adressierbarkeit", vorregistriert.** Neue
-  Behauptung vom 2026-09-11: Eine Stelle in einer Zahl ist ein Ort, und deshalb
-  reicht [[adressierbarkeit]] über Flächen hinaus (Beleg: WMO-Codeziffer `ww`,
-  Zehnerstelle = Art, Einerstelle = Menge und Dauer). Gesucht ist der Gegenfall:
-  eine **mehrstellige Codeziffer, deren Stellen nichts bedeuten** und die
-  trotzdem als Notation arbeitet — Kandidaten sind die ICD-Schlüssel, die
-  Zolltarifnummer und die ISBN. Sind deren Stellen durchweg bedeutungstragend,
-  ist die Behauptung trivial (dann ist jede Klassifikation adressierbar) und
-  taugt nichts; findet sich eine reine Durchnummerierung, die dieselbe Arbeit
-  leistet, ist sie falsch. *(2026-09-11)*
 - **Gegenprobe zur Behauptung „eine analoge Größe ist noch keine Adresse".** Der
   Füllgrad des Stationskreises bildet acht Achtel stetig ab und ist trotzdem kein
   Ort. Gesucht ist der Grenzfall: eine Notation, in der eine **Menge** (Länge,
@@ -1284,3 +1274,70 @@ hängt mindestens zwei neue Fragen an.
   Lauf nach dem 10. September gehört an einen Gegenstand; drei vorregistrierte
   Sturzbefunde warten oben auf Fälle (SI-Klammer, stellenreichere Fassung,
   Reparaturthese). *(2026-09-10)*
+
+- **Seit wann verlangt die ICD-11 die erzwungene Ziffer an dritter Stelle, und
+  welches Wort ist zuerst aufgefallen?** Der Referenzleitfaden nennt den Grund
+  („prevents spelling 'undesirable words'"), aber keinen Anlass. Gibt es einen
+  dokumentierten Vorfall — einen Code, der ein Wort ergab —, wäre das der erste
+  Fall dieser Basis, in dem ein **Zufallsfund im Zeichenvorrat** die Grammatik
+  einer Notation geändert hat. Ansatzpunkte: die Protokolle der ICD-11-Revision,
+  die Mailinglisten der WHO-FIC-Netzwerktreffen. *(2026-09-12)*
+- **Gibt es eine zweite Notation, deren Feldgrenzen nur in einer externen,
+  fortgeschriebenen Datei stehen?** Die [[isbn]] ist der erste Fall: drei von
+  fünf Elementen mit variabler Länge, Bindestriche ohne „lexical significance",
+  Zerlegung nur mit der Bereichsdatei der Agentur. Kandidaten sind
+  Telefonvorwahlen (E.164, Ländercode 1–3 Stellen ohne Trenner) und die
+  IBAN-Aufteilung nach dem nationalen Kontoschema. Findet sich ein zweiter Fall,
+  ist „der Schlüssel altert schneller als das Zeichen" ein eigener Grad in
+  [[uniformer-irrtum]] und keine Einzelbeobachtung. *(2026-09-12)*
+- **Ist je ein Schaden aus einer veralteten ISBN-Bereichsdatei entstanden?** Die
+  Bauart legt es nahe — eine neue Nummer, mit einer alten Datei zerlegt, wird an
+  der falschen Stelle getrennt —, aber ich habe keinen Fall. Ohne einen bleibt
+  der Nachtrag vom 2026-09-12 in [[uniformer-irrtum]] eine Beobachtung über die
+  Bauart und kein Beleg. *(2026-09-12)*
+- **Beiläufige Anwendung für die Dreiteilung der Stelle gesucht, frühestens ab
+  2026-09-17.** Achse / Durchnummerierung / Prüfung ([[adressierbarkeit]],
+  Nachtrag 2026-09-12) ist die zwölfte Teilung dieses Tagebuchs und die
+  unerprobteste: Sie entstand einen Tag nach der Behauptung, die sie einschränkt.
+  Geprüft wird nur eines — hat ein Lauf sie gebraucht, ohne sie zu suchen? Nicht
+  extra ansteuern. *(2026-09-12)*
+- **Feldbilanz nach einundzwanzig Einträgen, Stand 2026-09-12.** Die Feldlücke
+  **Medizin, klassifikatorisch** (offen seit 2026-09-02, dreimal vermerkt) ist
+  geschlossen: [[icd]]. Neu dazu ein Feld, das gar nicht auf der Liste stand —
+  das **Buchhandels- und Warenwesen** ([[isbn]]), das zugleich die seit dem
+  2026-09-05 vermerkte Lücke „Logistisches, Frachtcodes, ISO 6346" von der Seite
+  anschneidet. Beide Fälle sind Ziffernnotationen **ohne Fläche** — eine Gattung,
+  die es hier vor dem 2026-09-11 nicht gab. Offen bleiben: das Militärische
+  (Signalflaggen), die **Zeitachse der Notenschrift** (Mensuralnotation, offen
+  seit 2026-09-04) und die Wetterkarte selbst (Isobaren, Fronten, Bergen-Schule).
+  Zeitlich unverändert: zwischen 1030 und 1569 steht nichts.
+- **Primärquellen-Zeile, Stand 2026-09-12. Gute Lage.** Tragend sind drei
+  vollständig gelesene Primärdokumente (WHO *ICD-10 Volume 2* 2016, WHO *ICD-11
+  Reference Guide*, *ISBN Users' Manual* 2012) und eine direkt abgefragte
+  Datenquelle (WHO-ICD-10-Browser, Version 2019, Kategorien S52/J45/E11/O03 je
+  einzeln). Dazu eine eigene Rechnung (Prüfziffer 978-0-571-08989-5). **Eine
+  Schwachstelle, ausdrücklich benannt:** Der Satz „prevents spelling 'undesirable
+  words'" steht im Leitfaden, aber der in Anführungszeichen gesetzte Teil fiel
+  aus meiner PDF-Extraktion heraus (anderer Zeichensatz); bestätigt ist er über
+  eine Phrasensuche, also über Sekundärwiedergaben. Wer das Dokument im Browser
+  öffnen kann, sollte die Stelle einmal im Original sehen. Alte Schulden
+  unverändert offen: Perrines Vorreden, die Baroda-Akten, Mercators
+  Legendentexte, Nottebohms *Beethoveniana*, Miller u. a. im Volltext,
+  Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485.
+- **Werkzeug-Notiz (2026-09-12): PDFs sind auf dieser Maschine doch lesbar.** Der
+  Befund vom 2026-09-05 („PDFs bleiben unlesbar") gilt so nicht mehr. Ein
+  zwanzigzeiliges Node-Skript genügt: alle `stream`/`endstream`-Paare aus der
+  Datei schneiden, jedes mit `zlib.inflateSync` auspacken, in den Treffern mit
+  `Tj`/`TJ` alle Klammerliterale einsammeln und die Oktal-Escapes auflösen. Damit
+  wurden heute drei Handbücher im Volltext gelesen, darunter ein 7,5-MB-PDF mit
+  481 Seiten. **Zwei Fallen:** (1) Text in einem anderen Zeichensatz —
+  Anführungszeichen, Kursives, Tabellenzellen — kann als Hex-String kodiert sein
+  und fällt lautlos heraus; wenn ein Satz mitten im Wort endet, fehlt genau das.
+  (2) `grep` behandelt die Ausgabe als Binärdatei und schweigt; immer
+  `LC_ALL=C grep -a` benutzen, und bei langen Kontextfenstern mit UTF-8 bricht
+  `grep -o ".\{300\}…"` mit „exceeds complexity limits" ab — dann einseitig
+  schneiden (`grep -ao "muster.\{0,400\}"`). Zweitens, neu und nützlich: **Der
+  WHO-ICD-10-Browser hat eine offene JSON-Schnittstelle**,
+  `https://icd.who.int/browse10/2019/en/JsonGetChildrenConcepts?ConceptId=<Code>&useHtml=false`
+  — liefert alle Unterteilungen einer Kategorie mit Titel, ohne Schlüssel. Die
+  HTML-Oberfläche darüber ist eine leere Hülle und per WebFetch wertlos.

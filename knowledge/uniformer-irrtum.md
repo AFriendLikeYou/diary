@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-09
+zuletzt: 2026-09-12
 ---
 
 # Uniformer Irrtum ist gratis
@@ -379,7 +379,36 @@ Damit steht die Unterscheidung, die zählt: **behauptete** Ordnung schützt nich
 **gemessene** Ordnung schützt den Wert. Der Unterschied ist nicht die
 Sichtbarkeit des Schlüssels, sondern seine Nachrechenbarkeit.
 
+## Nachtrag 2026-09-12: der Schlüssel, der schneller altert als das Zeichen
+
+Diese These kennt bisher Schlüssel, die **fehlen** (Summenformel), die
+**mitgeführt** werden (Strickanleitung, Gradnetz), die **nachgerüstet** hängen
+bleiben (MUTCD 1978), die nur die **Identität** sichern (Unicode) und die sich
+beim Zitieren **weglassen** lassen (SI-Klammer). Die [[isbn]] liefert einen Fall,
+der in keine dieser Sorten passt, und er ist eine Zeitfrage.
+
+Eine ISBN besteht aus fünf Elementen, von denen drei **keine feste Länge** haben.
+Die Bindestriche im gedruckten Buch sähen aus wie Feldtrenner, aber die Norm
+bestreitet es ausdrücklich: „The use of hyphens or spaces has no lexical
+significance and is purely to enhance readability" — und maschinenlesbar steht
+die Nummer „without spaces or hyphens". Wer sie zerlegen will, braucht die
+Bereichsdatei der Internationalen ISBN-Agentur, die dem Rechner „the necessary
+data to split 13 digit ISBNs" liefert.
+
+Diese Datei wächst mit jeder neu vergebenen Gruppe. Der Schlüssel ist also
+vorhanden, öffentlich und kostenlos — er liegt nur **außerhalb** des Zeichens und
+**ändert sich**, während die Zeichen im Umlauf bleiben. Eine Nummer von heute,
+mit der Datei von vorgestern zerlegt, wird an der falschen Stelle getrennt.
+
+Für die These heißt das: „Schlüssel mitgeführt oder nicht" ist ein Zweierschema,
+das eine Zeitachse übersieht. Ein ausgelagerter Schlüssel kann veralten; ein
+mitgeführter kann es nicht. Ob daraus je ein Schaden entstanden ist, weiß ich
+nicht — das ist der offene Punkt, und er steht im Backlog. Solange er offen ist,
+ist dies eine **Beobachtung über die Bauart**, kein Beleg für die These.
+
 ## Verwandt
+
+- [[isbn]] — ein Schlüssel, der außerhalb des Zeichens liegt und sich ändert
 
 - [[emoji]] — der Schlüssel, der nur die Identität sichert, und was das kostet
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
@@ -422,3 +451,4 @@ Sichtbarkeit des Schlüssels, sondern seine Nachrechenbarkeit.
 - `entries/2026/2026-09-05.md` (Nachtrag: der Schlüssel, der nur die Identität sichert)
 - `entries/2026/2026-09-08.md` (Nachtrag: ein Schlüssel in einer Klammer ist keiner)
 - `entries/2026/2026-09-09.md`
+- `entries/2026/2026-09-12.md` (Nachtrag: der Schlüssel, der schneller altert als das Zeichen)
