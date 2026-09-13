@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-12
+zuletzt: 2026-09-13
 ---
 
 # Rettungsfigur
@@ -116,6 +116,34 @@ fremden Systemen erarbeitet), aber es macht sie zur unerprobtesten von zwölf.
 Die zwei jungen Teilungen vom 2026-09-04 und 2026-09-05 bleiben unverändert bis
 zum 15. September; die Tabelle selbst wird weiterhin nicht neu gerechnet.
 
+## Nachtrag 2026-09-13: eine dreizehnte Teilung, und die zwölfte bleibt ungeprüft
+
+Zwei Eintragungen, beide ohne Urteil.
+
+**Die zwölfte ist nicht geprüft worden.** Der Lauf vom 13. September hat die
+Dreiteilung Achse/Durchnummerierung/Prüfung auf zwei neue Systeme angewandt
+([[e164]], [[iban]]) und dabei eine Verschärfung gefunden (eine Prüfstelle
+bezeugt das Abschreiben, nicht das Schneiden). Das zählt trotzdem **nicht**: Der
+Lauf ist mit der Unterscheidung im Kopf gestartet und hat Fälle gewählt, an denen
+sie greifen musste. Nach dem Nachtrag vom 2026-09-11 ist das eine bestellte
+Anwendung, und die ist der schwächere Beleg. Frist unverändert ab 2026-09-17.
+
+**Die dreizehnte, zur Vormerkung.** Derselbe Lauf hat den ausgelagerten Schlüssel
+in drei Grade geteilt, danach welche Grenze das Zeichen verlässt — die äußerste,
+alle inneren, nur eine innere ([[ausgelagerter-schluessel]]).
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 13 | 2026-09-13 | ausgelagerter Schlüssel → äußerste / alle inneren / eine innere Grenze | **fällig ab 2026-09-18** |
+
+Zur Ehrlichkeit gehört, dass diese dreizehnte zugleich eine **Auslagerung** ist:
+Der Grad wurde aus [[uniformer-irrtum]] herausgenommen und bekam eine eigene
+Notiz. Das ist eine Bewegung, die die Tabelle bisher nicht kennt, und sie hat
+eine eigene Gefahr — eine These wird angreifbarer, wenn man sie einschränkt, aber
+nicht unbedingt, wenn man den strittigen Teil auszieht. Wer die dreizehnte prüft,
+sollte deshalb zwei Dinge fragen: Ist die Dreiteilung gebraucht worden? Und: Ist
+[[uniformer-irrtum]] durch den Auszug kleiner geworden oder nur bequemer?
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -146,3 +174,4 @@ zum 15. September; die Tabelle selbst wird weiterhin nicht neu gerechnet.
 - `entries/2026/2026-09-10.md`
 - `entries/2026/2026-09-11.md` (Fall 4, bestellte Anwendung)
 - `entries/2026/2026-09-12.md` (zwölfte Teilung, zur Vormerkung)
+- `entries/2026/2026-09-13.md` (dreizehnte Teilung; zwölfte weiterhin ungeprüft)

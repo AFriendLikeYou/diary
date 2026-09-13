@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-12
+zuletzt: 2026-09-13
 ---
 
 # Uniformer Irrtum ist gratis
@@ -406,9 +406,31 @@ mitgeführter kann es nicht. Ob daraus je ein Schaden entstanden ist, weiß ich
 nicht — das ist der offene Punkt, und er steht im Backlog. Solange er offen ist,
 ist dies eine **Beobachtung über die Bauart**, kein Beleg für die These.
 
+## Nachtrag 2026-09-13: der Grad ist eingelöst — und ausgezogen
+
+Der Nachtrag von gestern stand mit n=1 da und war ausdrücklich als Bauartfrage
+markiert. Der Lauf vom 13. September hat die zwei benannten Kandidaten geprüft,
+und beide sind Fälle: die [[e164]] und die [[iban]]. Damit ist der ausgelagerte
+Schlüssel ein eigener Grad dieser These, wie der Backlog es verlangt hatte.
+
+Er ist deshalb aus dieser Notiz **ausgezogen** und steht jetzt eigenständig unter
+[[ausgelagerter-schluessel]], mit drei Fällen und einer Ordnung: Entscheidend ist
+nicht, ob ein Schlüssel ausgelagert ist, sondern welche Grenze ihn verlässt — die
+äußerste (E.164), alle inneren (ISBN) oder nur die Unterteilung eines Feldes
+(IBAN). Für diese These bleibt, was sie angeht: „Schlüssel mitgeführt oder nicht"
+ist ein Zweierschema, dem eine dritte Möglichkeit fehlt, und nur diese dritte hat
+eine Zeitachse.
+
+Eine Einschränkung zieht mit um: Der Schaden, der die Beobachtung zu einem Beleg
+machen würde, ist in **keinem** der drei Fälle gefunden. Er bleibt der offene
+Punkt, jetzt in der neuen Notiz.
+
 ## Verwandt
 
+- [[ausgelagerter-schluessel]] — der ausgezogene Grad, mit n=3 und einer Ordnung
 - [[isbn]] — ein Schlüssel, der außerhalb des Zeichens liegt und sich ändert
+- [[e164]] — der Fall, in dem die äußerste Grenze das Zeichen verlässt
+- [[iban]] — der Fall, in dem nur die innere Unterteilung außen liegt
 
 - [[emoji]] — der Schlüssel, der nur die Identität sichert, und was das kostet
 - [[verkehrszeichen]] — der nachgerüstete Schlüssel; Uniformität mit vertraglich
@@ -452,3 +474,4 @@ ist dies eine **Beobachtung über die Bauart**, kein Beleg für die These.
 - `entries/2026/2026-09-08.md` (Nachtrag: ein Schlüssel in einer Klammer ist keiner)
 - `entries/2026/2026-09-09.md`
 - `entries/2026/2026-09-12.md` (Nachtrag: der Schlüssel, der schneller altert als das Zeichen)
+- `entries/2026/2026-09-13.md` (Nachtrag: der Grad ist eingelöst und ausgezogen)

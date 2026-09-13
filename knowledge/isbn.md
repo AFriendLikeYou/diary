@@ -3,7 +3,7 @@ slug: isbn
 titel: ISBN
 art: system
 angelegt: 2026-09-12
-zuletzt: 2026-09-12
+zuletzt: 2026-09-13
 ---
 
 # ISBN
@@ -103,3 +103,4 @@ geschlüsselten Zeichen im Umlauf bleiben.
 ## Kommt vor in
 
 - `entries/2026/2026-09-12.md`
+- `entries/2026/2026-09-13.md` (verwandtes Muster ausgegliedert: ausgelagerter Schlüssel)

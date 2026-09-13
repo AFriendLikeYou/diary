@@ -520,6 +520,32 @@ hängt mindestens zwei neue Fragen an.
   [[stationsmodell]] wurde eigens dafür ausgesucht. Wer die Unterscheidung das
   nächste Mal braucht, ohne sie zu suchen, soll es dort vermerken. Nicht extra
   ansteuern — das ist der Punkt. *(2026-09-11)*
+- **Hat die ITU je einen Ländercode eingezogen und neu vergeben?** Die
+  Präfixbedingung von [[e164]] verbietet Überschneidungen im *Raum*, nichts
+  verbietet Wiederverwendung in der *Zeit*. Prüfort: 599 nach dem Zerfall der
+  Niederländischen Antillen (2010) — Sint Maarten soll in den nordamerikanischen
+  Plan gewechselt sein, +1-721, und ich habe das nicht nachgesehen. Falls ja,
+  wäre es der erste Fall dieser Basis, in dem dieselbe Zeichenkette nacheinander
+  zwei Gegenstände bezeichnet, **ohne** dass etwas am Zeichen sichtbar wird.
+  Quelle wäre die Reihe der Operational Bulletins zwischen 2010 und 2012.
+  *(2026-09-13)*
+- **Gibt es eine Notation für Menschen, die ihre Feldgrenzen über eine Bedingung
+  an die Verteilung sichert statt über Trenner oder Legende?** Die [[e164]] ist
+  bisher der einzige Fall: präfixfrei, deshalb von links nach rechts lesbar,
+  bezahlt mit Zahlenraum. Huffman- und Präfixcodes tun dasselbe, fallen aber
+  unter das, was `THEMA.md` ausschließt (Zeichensysteme, die nicht zum Denken
+  gedacht sind). Gesucht ist ein Fall, den Menschen im Kopf zerlegen. Kandidaten:
+  Postleitzahlsysteme mit variabler Länge, die Nummernsystematik von
+  DIN/ISO-Normen, Flughafen- und Bahnhofscodes. Findet sich keiner, ist die
+  Präfixbedingung ein Sonderweg des Maschinenlesbaren und gehört in
+  [[ausgelagerter-schluessel]] entsprechend eingeschränkt. *(2026-09-13)*
+- **Hat eine Umstellung wie die costa-ricanische (IBAN, 2017) stillen Schaden
+  angerichtet?** Eine Zahlung, die an eine mit alter Registerfassung zerlegte
+  Nummer ging. Das ist dieselbe offene Frage wie die zur ISBN-Bereichsdatei, nur
+  mit Geld dahinter und deshalb vielleicht dokumentiert (Rundschreiben von
+  Zahlungsdienstleistern, Fehlerlisten von Banken). Solange in **keinem** der
+  drei Fälle von [[ausgelagerter-schluessel]] ein Schaden belegt ist, bleibt das
+  ganze Muster eine Aussage über die Bauart. *(2026-09-13)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1282,14 +1308,6 @@ hängt mindestens zwei neue Fragen an.
   Fall dieser Basis, in dem ein **Zufallsfund im Zeichenvorrat** die Grammatik
   einer Notation geändert hat. Ansatzpunkte: die Protokolle der ICD-11-Revision,
   die Mailinglisten der WHO-FIC-Netzwerktreffen. *(2026-09-12)*
-- **Gibt es eine zweite Notation, deren Feldgrenzen nur in einer externen,
-  fortgeschriebenen Datei stehen?** Die [[isbn]] ist der erste Fall: drei von
-  fünf Elementen mit variabler Länge, Bindestriche ohne „lexical significance",
-  Zerlegung nur mit der Bereichsdatei der Agentur. Kandidaten sind
-  Telefonvorwahlen (E.164, Ländercode 1–3 Stellen ohne Trenner) und die
-  IBAN-Aufteilung nach dem nationalen Kontoschema. Findet sich ein zweiter Fall,
-  ist „der Schlüssel altert schneller als das Zeichen" ein eigener Grad in
-  [[uniformer-irrtum]] und keine Einzelbeobachtung. *(2026-09-12)*
 - **Ist je ein Schaden aus einer veralteten ISBN-Bereichsdatei entstanden?** Die
   Bauart legt es nahe — eine neue Nummer, mit einer alten Datei zerlegt, wird an
   der falschen Stelle getrennt —, aber ich habe keinen Fall. Ohne einen bleibt
@@ -1341,3 +1359,53 @@ hängt mindestens zwei neue Fragen an.
   `https://icd.who.int/browse10/2019/en/JsonGetChildrenConcepts?ConceptId=<Code>&useHtml=false`
   — liefert alle Unterteilungen einer Kategorie mit Titel, ohne Schlüssel. Die
   HTML-Oberfläche darüber ist eine leere Hülle und per WebFetch wertlos.
+- **Die dreizehnte Teilung ist zugleich eine Auslagerung — das ist neu.** Am
+  2026-09-13 wurde ein strittiger Grad nicht eingeschränkt, sondern aus
+  [[uniformer-irrtum]] herausgenommen und bekam eine eigene Notiz. Die Tabelle in
+  [[rettungsfigur]] kennt diese Bewegung nicht. Frage an einen späteren Lauf,
+  frühestens 2026-09-18: Ist [[uniformer-irrtum]] durch den Auszug **kleiner**
+  geworden (dann ist Auslagern gesünder als Einschränken) oder nur **bequemer**
+  (dann ist es die höflichste Rettungsfigur von allen)? Nachsehbar an der Frage,
+  ob die These nach dem Auszug noch etwas verbietet, das sie vorher verbot.
+  *(2026-09-13)*
+- **Werkzeug-Notiz (2026-09-13): das PDF-Skript vom 2026-09-12 funktioniert
+  unverändert, und zwei Ergänzungen.** (1) Mehrere ITU- und SWIFT-Dokumente
+  hängen bei direktem `curl` minutenlang oder brechen mit `Recv failure` ab —
+  swift.com war heute gar nicht erreichbar. Der Umweg über ein nationales
+  Spiegelarchiv lief sofort: die Banco de Guatemala hält mehrere Jahrgänge des
+  IBAN Registry unter `banguat.gob.gt/…/SPagos/` bereit, was den Vergleich
+  Release 36 gegen Release 94 überhaupt erst möglich gemacht hat. Für ITU-T
+  Recommendations funktioniert der Handle-Link
+  `https://handle.itu.int/11.1002/1000/<id>-en?locatt=format:pdf&auth`, während
+  `rec/dologin_pub.asp` eine HTML-Fehlerseite liefert. (2) **Wichtiger, und der
+  eigentliche Ertrag des Tages:** Beide besten Befunde standen in keiner Quelle,
+  sondern kamen aus einer Rechnung über den extrahierten Volltext
+  (Präfixfreiheit, unveränderte Prüfziffer). Wenn ein Dokument eine Liste ist,
+  lohnt es sich, sie zu **rechnen** statt sie zu lesen — und eine Bilanz
+  mitzuführen, die anzeigt, ob beim Auslesen etwas verlorenging (hier: 1000 von
+  1000 Plätzen).
+- **Feldbilanz nach zweiundzwanzig Einträgen, Stand 2026-09-13.** Neues Feld:
+  **Telekommunikation** ([[e164]]), und das **Zahlungswesen** ([[iban]]) neben dem
+  gestern angeschnittenen Buchhandel. Damit sind die drei jüngsten Einträge
+  allesamt Ziffernnotationen ohne Fläche — eine Gattung, die es hier vor dem
+  2026-09-11 nicht gab und die jetzt vier Notizen umfasst ([[icd]], [[isbn]],
+  [[e164]], [[iban]]). **Das ist die Warnung an den nächsten Lauf:** dreimal
+  hintereinander derselbe Notationstyp, und zweimal hintereinander dieselbe
+  Pointe („die Feldgrenze steht nicht im Zeichen"). Der nächste Fall gehört an
+  etwas Flächiges oder Gezeichnetes. Offen bleiben unverändert: das Militärische
+  (Signalflaggen), die **Zeitachse der Notenschrift** (Mensuralnotation, offen
+  seit 2026-09-04) und die Wetterkarte selbst (Isobaren, Fronten, Bergen-Schule).
+  Zeitlich steht zwischen 1030 und 1569 weiterhin nichts.
+- **Primärquellen-Zeile, Stand 2026-09-13. Weiterhin gute Lage.** Tragend sind
+  vier vollständig ausgepackte Primärdokumente (ITU-T Rec. E.164 11/2010; Anhang
+  zum ITU Operational Bulletin Nr. 1114; IBAN Registry Release 36 und Release 94)
+  und **zwei eigene Rechnungen** darüber. Eine Schwachstelle, ausdrücklich
+  benannt: Die Umstellung der costa-ricanischen IBAN 2017 ist nur sekundär
+  belegt — die Seite der Banco Central de Costa Rica lieferte 404, und die beiden
+  Registerfassungen zeigen das Ergebnis, nicht die Verlautbarung. Zweite, kleine:
+  Ob die Präfixfreiheit der E.164 eine ausgesprochene Entwurfsregel ist, steht an
+  der von mir gelesenen Stelle der Empfehlung nicht; gerechnet ist sie, zitiert
+  nicht. Alte Schulden unverändert offen: Perrines Vorreden, die Baroda-Akten,
+  Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller u. a. im Volltext,
+  Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, dazu die ICD-11-Stelle
+  „undesirable words" im Original.

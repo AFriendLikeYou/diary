@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-12
+zuletzt: 2026-09-13
 ---
 
 # Adressierbarkeit
@@ -332,10 +332,41 @@ Lauf nicht über sie; fällig wird die Prüfung frühestens am fünften Lauf dan
 und sie fragt nur eines: Hat ein Lauf die Dreiteilung gebraucht, ohne sie zu
 suchen?
 
+## Nachtrag 2026-09-13: die Prüfstelle bezeugt das Abschreiben, nicht das Schneiden
+
+Zwei Ergänzungen aus der [[e164]] und der [[iban]], beide klein und beide
+prüfbar.
+
+**Zur Stellensorte Prüfung.** Am 2026-09-12 hieß es, eine Prüfstelle bezeuge,
+„dass die anderen richtig abgeschrieben wurden". Das ist genauer zu fassen: Sie
+bezeugt das Abschreiben und **nicht das Schneiden**. Bei der costa-ricanischen
+IBAN wurde 2017 hinter die Prüfziffern eine bedeutungslose Null gesetzt, und die
+Prüfziffern blieben `05` — die eingefügte Null ist im umgestellten Rechenstring
+eine führende Null und ändert den Wert nicht (eigene Rechnung, siehe [[iban]]).
+Die Arithmetik ist gegen genau die Änderung blind, um die es ging. Aus dem
+Vorhandensein einer Prüfstelle folgt also nichts über die Sicherheit der
+Feldgrenzen.
+
+**Zum Fach ohne Maßstab, zweiter Fall.** Der Ländercode einer Telefonnummer sieht
+aus wie eine Achse auf Staaten und ist keine: 1 gehört zwei Dutzend Ländern
+gemeinsam, 7 zweien, 800 ist ein Dienst, +882-16 ein Satellitennetz, 888 die
+Katastrophenhilfe. Die ITU schreibt selbst „Country, Geographical area or Global
+service" über die Spalte. Dieselbe Bauart wie die vierte ICD-10-Stelle, an einem
+Gegenstand, der mit Medizin nichts zu tun hat.
+
+**Rechenschaft nach [[rettungsfigur]].** Das zählt **nicht** als die am
+2026-09-12 vorgemerkte Prüfung der Dreiteilung. Ich bin mit der Unterscheidung im
+Kopf in diesen Lauf gegangen und habe einen Fall gewählt, an dem sie greifen
+musste; das ist eine bestellte, keine beiläufige Anwendung. Die Frist bis
+2026-09-17 läuft unverändert weiter.
+
 ## Verwandt
 
 - [[icd]] — die Stelle ohne festen Maßstab: ein Fach, keine Achse
 - [[isbn]] — die Zahl ganz ohne Achse; liefert Durchnummerierung und Prüfung
+- [[e164]] — zweiter Fall „Fach, keine Achse", und eine Zahl ganz ohne Prüfstelle
+- [[iban]] — schärft, was die Stellensorte Prüfung leistet
+- [[ausgelagerter-schluessel]] — wo die Feldgrenze gar nicht im Zeichen steht
 - [[stationsmodell]] — der erste fremde Fall, an dem „pro Dimension" entscheidet:
   eine gemessene Größe von zwölf hat einen Ort
 - [[guidonisches-liniensystem]] — der Fall mit nur einer geänderten Größe; und der
@@ -370,3 +401,4 @@ suchen?
 - `entries/2026/2026-09-10.md` (pro Dimension, angewandt auf die Wissensbasis)
 - `entries/2026/2026-09-11.md` (erstes fremdes System, pro Dimension)
 - `entries/2026/2026-09-12.md` (pro Stelle: Achse, Durchnummerierung, Prüfung)
+- `entries/2026/2026-09-13.md` (Prüfstelle: Abschreiben ≠ Schneiden; zweites Fach ohne Maßstab)
