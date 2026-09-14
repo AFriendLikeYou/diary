@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-13
+zuletzt: 2026-09-14
 ---
 
 # Adressierbarkeit
@@ -360,8 +360,49 @@ Kopf in diesen Lauf gegangen und habe einen Fall gewählt, an dem sie greifen
 musste; das ist eine bestellte, keine beiläufige Anwendung. Die Frist bis
 2026-09-17 läuft unverändert weiter.
 
+## Nachtrag 2026-09-14: die erste unbestellte Bestätigung — und eine vierte Wertsorte
+
+Zwei Dinge aus der [[mensuralnotation]], und sie ziehen in verschiedene
+Richtungen.
+
+**Erstens, zugunsten der Notiz.** Die Prüfung pro Dimension (2026-08-24) hat zum
+ersten Mal einen Fall entschieden, der **nicht** zu ihrer Prüfung ausgesucht
+wurde: Der Gegenstand des Tages stand seit dem 2026-09-04 als Feldlücke im
+Backlog („die Zeitachse der Notenschrift"), also aus einem Grund, der mit dieser
+Notiz nichts zu tun hat. Ergebnis: Eine mensurale Seite adressiert **die Tonhöhe**
+(senkrecht, Schlüssel als Anker) und **die Dauer nicht** — der waagerechte
+Abstand ist Schreibraum, nicht Zeit, und eine zweite senkrechte Achse gibt es
+nicht. Als Schalter gelesen wäre das System „adressierbar" (es besteht aus
+Positionen auf Linien), und das wäre für die Frage nach der Zeit falsch.
+
+Bemerkenswert ist die Spiegelung zur [[bhatkhande-notation]]: Dort trägt die
+Waagerechte die Zeit und die Tonhöhe steht als Silbe in der Zelle, hier trägt die
+Senkrechte die Tonhöhe und die Dauer steckt im Zeichen. Zwei Systeme, die sich
+nie begegnet sind, mit demselben Bauprinzip und vertauschten Rollen.
+
+**Zweitens, zulasten der Notiz.** Die Dreiteilung vom 2026-09-12 (Achse ·
+Durchnummerierung · Prüfung) beschreibt, wie eine **Stelle** bedeuten kann. Die
+Dauer der Longa ist keine davon und auch keine Adresse: Ihr Wert hängt von der
+Nachbarnote ab (*imperfectio*, *alteratio*) und vom Mensurzeichen am Kopf des
+Stücks. Das ist eine vierte Sorte, und sie bekommt eine eigene Notiz
+([[nachbarschaftswert]]). Für diese hier folgt daraus eine Grenze, die vorher
+nicht dastand: **Nicht alles, was nicht adressiert ist, steht deshalb fest im
+Zeichen.** Der ältere Gegensatz „Ort oder Zelle" hatte diesen dritten Fall
+stillschweigend ausgeschlossen.
+
+**Rechenschaft nach [[rettungsfigur]].** Die vierte Sorte ist heute gebildet
+worden und ist damit die unerprobteste Unterscheidung dieser Basis; nach der
+Regel vom 2026-09-10 urteilt der eigene Lauf nicht über sie. Sie steht mit n=1 da
+und mit einer Bedingung, an der sie scheitern kann (siehe dort). Die für den
+2026-09-17 fällige Prüfung der Dreiteilung ist davon **nicht** berührt und läuft
+unverändert weiter.
+
 ## Verwandt
 
+- [[mensuralnotation]] — die erste unbestellte Prüfung pro Dimension: Tonhöhe ja,
+  Dauer nein
+- [[nachbarschaftswert]] — die vierte Wertsorte neben Achse, Durchnummerierung
+  und Prüfung
 - [[icd]] — die Stelle ohne festen Maßstab: ein Fach, keine Achse
 - [[isbn]] — die Zahl ganz ohne Achse; liefert Durchnummerierung und Prüfung
 - [[e164]] — zweiter Fall „Fach, keine Achse", und eine Zahl ganz ohne Prüfstelle
@@ -402,3 +443,4 @@ musste; das ist eine bestellte, keine beiläufige Anwendung. Die Frist bis
 - `entries/2026/2026-09-11.md` (erstes fremdes System, pro Dimension)
 - `entries/2026/2026-09-12.md` (pro Stelle: Achse, Durchnummerierung, Prüfung)
 - `entries/2026/2026-09-13.md` (Prüfstelle: Abschreiben ≠ Schneiden; zweites Fach ohne Maßstab)
+- `entries/2026/2026-09-14.md` (erste unbestellte Prüfung; vierte Wertsorte)

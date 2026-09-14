@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-01
+zuletzt: 2026-09-14
 ---
 
 # Werkzeugzwang
@@ -255,6 +255,29 @@ nicht, warum auch die kostenlose verlor. Das ist ein weiterer Beleg für die Gre
 von 2026-08-28, und diesmal von der anderen Seite: Selbst bei Herstellungskosten
 von null bewegt sich nichts, wenn der Leserkreis den Wert nicht braucht.
 
+## Fall 10 (2026-09-14): das Werkzeug tötet nicht, es enteignet
+
+Um die Mitte des 15. Jahrhunderts werden die bis dahin ausgefüllten Notenköpfe
+der [[mensuralnotation]] hohl — „weiße Mensuralnotation". Als Grund wird
+gewöhnlich der Übergang vom Pergament zum Papier genannt: Papier verträgt große
+Tintenflächen schlechter. **Das ist nicht belegt, sondern die geläufige
+Erklärung**, und ich habe keinen zeitgenössischen Beleg gefunden; als Fall dieser
+Notiz zählt er deshalb nur zur Hälfte.
+
+Was ihn trotzdem lohnt, ist unabhängig vom Grund. Neun Fälle dieser Notiz haben
+dieselbe Form: Das Werkzeug macht ein Zeichen zu teuer, das Zeichen verschwindet.
+Hier verschwindet nichts. Die schwarze Note bleibt im Vorrat und wird **frei** —
+sie bekommt eine neue Aufgabe, die Koloration (ein verändertes
+Zahlenverhältnis). Der Werkzeugwechsel hat also nicht nur einen Ausdruck
+gekostet, er hat einen **Zeichenplatz geschaffen**.
+
+Das ist die erste Bewegung dieser Art hier, und sie hat eine Vorhersage: Wo ein
+Werkzeugwechsel eine Unterscheidung überflüssig macht, müsste das freiwerdende
+Zeichen häufiger neu belegt als abgeschafft werden. Wenn das stimmt, wächst der
+Zeichenvorrat einer Notation auch dann, wenn das Werkzeug ärmer wird — was dem
+Befund von Fall 8 (der Stichel verarmt die Schrift) sauber widerspricht und
+deshalb prüfbar ist.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -267,6 +290,10 @@ von null bewegt sich nichts, wenn der Leserkreis den Wert nicht braucht.
   Drehen einer Letter ist ein bekannter Satzbehelf, aber dass Gaugain aus diesem
   Grund so verfuhr, habe ich nicht belegt. Ich habe das Buch nicht gesehen.
 - **Vermutet:** Fälle 2 und 3 ganz.
+- **Vermutet (Fall 10):** der Papiergrund der weißen Notation — verbreitete
+  Erklärung ohne zeitgenössischen Beleg. **Belegt** ist nur der Vorgang selbst
+  (hohle Notenköpfe ab der Mitte des 15. Jahrhunderts) und die Weiterverwendung
+  der schwarzen Note für die Koloration (Wikipedia, *Mensural notation*).
 - **Belegt (Fall 7):** der Schnitt bei 85,051129°, seine Begründung über die
   quadratische Karte und die 256er-Kachelung (Wikipedia, Web Mercator projection).
 - **Belegt (Fall 6):** die Datumsverwandlung, beide Zählungen (2016: 704/3597;
@@ -306,6 +333,8 @@ von null bewegt sich nichts, wenn der Leserkreis den Wert nicht braucht.
   Kostenargument selbst und im Druck vorbringt — und beide Zahlnotationen verlieren
 - [[stellvertreterlesung]] — Fall 8 und die unabhängige Prüfung der Grenze: das
   Gebiet geräumt, die Reichweite unverändert
+- [[mensuralnotation]] — Fall 10: das Werkzeug enteignet ein Zeichen, statt es zu
+  töten
 
 ## Kommt vor in
 
@@ -318,3 +347,4 @@ von null bewegt sich nichts, wenn der Leserkreis den Wert nicht braucht.
 - `entries/2026/2026-08-28.md` (die Grenze)
 - `entries/2026/2026-08-29.md` (Fall 8 und die Prüfung der Grenze)
 - `entries/2026/2026-09-01.md` (Fall 9)
+- `entries/2026/2026-09-14.md` (Fall 10)

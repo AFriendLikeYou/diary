@@ -3,7 +3,7 @@ slug: bhatkhande-notation
 titel: Bhatkhande-Notation
 art: system
 angelegt: 2026-08-24
-zuletzt: 2026-08-24
+zuletzt: 2026-09-14
 ---
 
 # Bhatkhande-Notation
@@ -73,6 +73,8 @@ Damit ein weiterer Fall der *lautlosen* Verdrängung.
 - [[vishnu-narayan-bhatkhande]] — der Jurist, der sie gebaut hat
 - [[notationsabwehr]] — der Widerstand, auf den sie traf
 - [[werkzeugzwang]] — vierter Fall: die gröbere Schreibweise gewinnt
+- [[mensuralnotation]] — dieselbe Bauart mit vertauschten Rollen: dort Tonhöhe auf
+  der Achse und Dauer im Zeichen
 - [[tabulatur]] — das Gegenstück: reine Griffanweisung, aber zwei Achsen
 - [[uniformer-irrtum]] — Bhatkhandes erklärtes Ziel war „uniform notation"
 

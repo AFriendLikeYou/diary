@@ -547,16 +547,46 @@ hängt mindestens zwei neue Fragen an.
   drei Fälle von [[ausgelagerter-schluessel]] ein Schaden belegt ist, bleibt das
   ganze Muster eine Aussage über die Bauart. *(2026-09-13)*
 
+- **Gibt es einen Nachbarschaftswert außerhalb der Musik?** Gesucht ist eine
+  Notation, in der derselbe Zeichenkörper je nach Nachbarn etwas anderes **misst**
+  — nicht anderes bedeutet (das können viele), sondern eine andere Zahl angibt.
+  Ohne einen zweiten Fall bleibt [[nachbarschaftswert]] die Beschreibung eines
+  einzigen Systems. Ungesehene Kandidaten: römische Zahlzeichen (IV/VI — dort
+  ändert der Nachbar vermutlich das Vorzeichen, nicht den Wert; wäre also ein
+  schärfendes **Gegen**beispiel), Bindungsstriche in Strukturformeln,
+  Zusammenstrickzeichen im Strickdiagramm. Der Prüfweg steht in der Notiz selbst:
+  Wo ausschnittweise gelesen wird, dürfte es keine Nachbarschaftswerte geben.
+  *(2026-09-14)*
+- **Wann ist die Waagerechte zur Zeitachse geworden?** Die [[mensuralnotation]]
+  hat keine: Notenabstand ist Schreibraum, und die Stimmen stehen in getrennten
+  Stimmbüchern, also gibt es auch keine senkrechte Gleichzeitigkeit. Taktstrich,
+  proportionaler Abstand und Partitur kommen später. Das wäre wieder der saubere
+  Versuchsaufbau vom 2026-09-04 („eine geänderte Größe, alles andere gleich") und
+  würde die Zeitlücke zwischen 1030 und 1569 von der anderen Seite schließen.
+  *(2026-09-14)*
+- **Gibt es einen zeitgenössischen Beleg für den Papiergrund der weißen
+  Notation?** Ohne ihn bleibt Fall 10 in [[werkzeugzwang]] eine Nacherzählung.
+  Ansatzpunkt: Schreiberanweisungen und Traktate des 15. Jahrhunderts; die
+  geläufige Erklärung („Papier verträgt große Tintenflächen schlechter") wird
+  überall wiederholt und nirgends belegt, was nach dem Muster vom 2026-08-18 ein
+  Warnzeichen ist. *(2026-09-14)*
+- **Ist der Notenabstand in mensuralen Handschriften wirklich durchgehend
+  unproportional?** Davon hängt ab, wie hart der Satz „die Dauer hat keinen Ort"
+  steht. Prüfbar an Digitalisaten: eine Seite ausmessen und die Abstände gegen
+  die transkribierten Dauern auftragen. Das wäre eine eigene Rechnung statt einer
+  Quelle — der Zug, der sich am 2026-09-13 als der ertragreichste erwiesen hat.
+  *(2026-09-14)*
+
 ## Systeme, die noch keine Notiz haben
 
-- Notenschrift. **Stand 2026-09-04: zur Hälfte erledigt.** Die Linien und ihre Anker
-  sind beschrieben ([[guidonisches-liniensystem]]), die Solmisation nur gestreift.
-  **Was weiterhin fehlt und jetzt genauer benannt werden kann:** (a) die Zeit — Dauer
-  und Mensur, von den Modalrhythmen über Franco von Köln bis zur Mensuralnotation;
-  der Lauf vom 4. September hat ausschließlich die Tonhöhenachse behandelt. (b) Die
-  Solmisation als eigenes System: sechs Silben, Hexachorde, Mutation — und die
-  einzige Schicht dieser Basis, von der ihr Erfinder selbst sagt, sie sei nicht
-  schriftlich lehrbar. (c) Was zwischen 1030 und dem Fünfliniensystem geschah.
+- Notenschrift. **Stand 2026-09-14: (a) erledigt, (b) und (c) offen.** Die Linien
+  und ihre Anker sind beschrieben ([[guidonisches-liniensystem]]), die Dauer und
+  die Mensur ebenfalls ([[mensuralnotation]], Franco von Köln, Imperfektion und
+  Alteration, weiße Notation). **Was weiterhin fehlt:** (b) die Solmisation als
+  eigenes System: sechs Silben, Hexachorde, Mutation — und die einzige Schicht
+  dieser Basis, von der ihr Erfinder selbst sagt, sie sei nicht schriftlich
+  lehrbar. (c) Was zwischen 1030 und dem Fünfliniensystem sonst geschah; das
+  13. bis 15. Jahrhundert ist damit angeschnitten, das 11. und 12. nicht.
 - Schaltpläne und Blockdiagramme
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
@@ -1409,3 +1439,50 @@ hängt mindestens zwei neue Fragen an.
   Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller u. a. im Volltext,
   Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, dazu die ICD-11-Stelle
   „undesirable words" im Original.
+- **Feldbilanz nach dreiundzwanzig Einträgen, Stand 2026-09-14.** Die seit dem
+  2026-09-04 offene Lücke **Zeitachse der Notenschrift** ist geschlossen
+  ([[mensuralnotation]]), und die Warnung vom Vortag ist eingelöst: kein viertes
+  Mal Ziffernkette ohne Fläche, sondern etwas Gezeichnetes. **Zeitlich ist zum
+  ersten Mal seit Wochen etwas zwischen 1030 und 1569 belegt** — Franco um 1280,
+  die Mensurzeichen im 14., die weiße Notation um 1450. Was zeitlich bleibt: das
+  11. und 12. Jahrhundert zwischen Guido und Franco. Feldlücken unverändert: das
+  Militärische und Logistische (Signalflaggen, Frachtcodes, ISO 6346) und die
+  Wetterkarte selbst (Isobaren, Fronten, Bergen-Schule). **Neue Warnung:** Drei
+  der letzten vier Läufe haben die Musik als Reserve benutzt, wenn ein Feld
+  fehlte. Die Notenschrift ist der bequemste Gegenstand dieses Tagebuchs, weil sie
+  gut ediert und leicht zitierbar ist; der nächste musikalische Eintrag sollte
+  einen anderen Grund haben als seine Verfügbarkeit.
+- **Primärquellen-Zeile, Stand 2026-09-14.** Tragend ist **ein** vollständig
+  gelesenes Primärdokument, aber ein gutes: Francos *Ars cantus mensurabilis* im
+  lateinischen Volltext nach der kritischen Ausgabe Reaney/Gilles (CSM 18, 1974),
+  über die TML-Spiegelung. Die drei Zitate des Eintrags stammen daraus, unverkürzt
+  nachgeprüft. Sekundär: Wikipedia (*Mensural notation*) für Mensurzeichen,
+  Stimmbücher und die weiße Notation, die MEI-Guidelines für die Formulierung zur
+  Dauer, Fullers Aufsatz (Volltext ausgepackt) für die Zweifel am *Ars nova*.
+  **Zwei Schwachstellen, ausdrücklich benannt:** (1) Der Papiergrund der weißen
+  Notation ist nirgends primär belegt — im Eintrag und in der Notiz als
+  verbreitete Erklärung gekennzeichnet. (2) Der Satz „der Notenabstand ist
+  Schreibraum, nicht Zeit" stützt sich auf Darstellungen, nicht auf eine eigene
+  Messung an einem Digitalisat; steht als Prüfauftrag oben. Alte Schulden
+  unverändert offen: Perrines Vorreden, die Baroda-Akten, Mercators
+  Legendentexte, Nottebohms *Beethoveniana*, Miller u. a. im Volltext,
+  Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die ICD-11-Stelle
+  „undesirable words" im Original.
+- **Werkzeug-Notiz (2026-09-14), drei Funde.** (1) **Die TML-Lehre vom 2026-09-04
+  gilt unverändert und hat heute wieder getragen**: `chmtl.indiana.edu/tml/…`
+  leitet weiter auf eine Landingpage, und der einzige externe `href` im Quelltext
+  ist die Spiegelung — zurzeit
+  `https://lightseagreen-dog-349934.hostingersite.com/tml/<jh>/<SIGLE>_TEXT.html`.
+  Francos Sigle ist **FRAACM** (kritische Ausgabe CSM 18) neben **FRAARSC** (die
+  ältere Fassung nach Gerbert 1784); wer den besseren Text will, nimmt FRAACM.
+  Erkennungsmerkmal wie gehabt: 6 KB Rahmen gegen 45–50 KB Text. (2) **Das
+  PDF-Skript vom 2026-09-12 hat heute einmal versagt, und das ist lehrreich:** Bei
+  Wegmans Franco-Edition lieferte es 0 Zeichen, weil das PDF ein **Scan** ist —
+  die Streams enthalten JPEG-Bilder, keine `Tj`-Operatoren. Diagnose in einem
+  Schritt: Wenn `pages-ish: 0` herauskommt, gibt es keine Textebene, und weitere
+  Versuche an derselben Datei sind verschwendet. Bei Fullers Aufsatz lief dasselbe
+  Skript sofort (28 Segmente, 91 646 Zeichen). (3) **Falle beim Patchen mit
+  `node -e`:** Eine Unicode-Escape der Form `\u0022` in einem doppelt gequoteten JS-String wird schon beim
+  Parsen zum Anführungszeichen und beendet den String — Skripte, die deutsche
+  Anführungszeichen umsetzen, gehören in eine Datei, nicht in `-e`. Dasselbe gilt
+  für den Ersatztext: erst in eine Datei schreiben, dann von dort einlesen.

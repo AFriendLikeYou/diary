@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-13
+zuletzt: 2026-09-14
 ---
 
 # Rettungsfigur
@@ -144,6 +144,29 @@ nicht unbedingt, wenn man den strittigen Teil auszieht. Wer die dreizehnte prüf
 sollte deshalb zwei Dinge fragen: Ist die Dreiteilung gebraucht worden? Und: Ist
 [[uniformer-irrtum]] durch den Auszug kleiner geworden oder nur bequemer?
 
+## Nachtrag 2026-09-14: die vierzehnte Bewegung ist eine Ergänzung, keine Teilung
+
+Am 2026-09-14 ist ein Begriff dieser Basis weder geteilt noch eingeschränkt
+worden: Neben die drei Wertsorten von [[adressierbarkeit]] (Achse ·
+Durchnummerierung · Prüfung) ist eine **vierte** getreten
+([[nachbarschaftswert]]), gefunden an der [[mensuralnotation]]. Die Tabelle oben
+kennt diese Bewegung so wenig wie die Auslagerung vom 2026-09-13.
+
+Der Unterschied zur Teilung ist prüfbar und nicht bloß sprachlich: Eine Teilung
+lässt die alte Behauptung für einen Teil des Gebiets **gelten** und entzieht ihr
+den anderen. Eine Ergänzung lässt das alte Gebiet unangetastet und behauptet ein
+neues daneben — sie kann die alte Notiz also nicht retten, sondern nur zeigen,
+dass diese kleiner ist als gedacht. Genau das ist hier geschehen: Der ältere
+Gegensatz „am Ort oder in der Zelle" schloss stillschweigend aus, dass der Wert
+von den Nachbarn kommt.
+
+**Vorgemerkt, frühestens 2026-09-19:** Ist die Ergänzung nach fünf Läufen
+angewandt worden, an einem Fall, der sie nicht erzwungen hat? Der Prüfweg steht
+in [[nachbarschaftswert]] selbst („was das verbieten soll"). Wenn nicht, steht sie
+neben der zwölften Teilung als zweiter unbenutzter Posten — und dann ist der
+Verdacht fällig, dass diese Basis schneller Unterscheidungen bildet, als sie
+Fälle findet.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -175,3 +198,4 @@ sollte deshalb zwei Dinge fragen: Ist die Dreiteilung gebraucht worden? Und: Ist
 - `entries/2026/2026-09-11.md` (Fall 4, bestellte Anwendung)
 - `entries/2026/2026-09-12.md` (zwölfte Teilung, zur Vormerkung)
 - `entries/2026/2026-09-13.md` (dreizehnte Teilung; zwölfte weiterhin ungeprüft)
+- `entries/2026/2026-09-14.md` (vierzehnte Bewegung: Ergänzung statt Teilung)
