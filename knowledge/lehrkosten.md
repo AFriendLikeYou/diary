@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-10
+zuletzt: 2026-09-15
 ---
 
 # Lehrkosten
@@ -257,6 +257,25 @@ bleibt, während ihr Zeichenvorrat zerfällt. Vorregistriert im Backlog. Und die
 Divergenzzahlen stammen aus Abstract und Zitaten eines Aufsatzes, dessen vollen
 Text ich nicht öffnen konnte.
 
+## Nachtrag 2026-09-15: das Zeichenkonto/Lesekonto ist verjährt
+
+Die Fünf-Läufe-Frist aus [[rettungsfigur]] ist am 15. September auf die Teilung
+vom 2026-09-05 angewandt worden — ein Konto zerfällt in **Zeichenkonto** (was es
+kostet, das Zeichen herzustellen und zu verbreiten) und **Lesekonto** (was es
+kostet, es in einen zweiten Kopf zu bekommen).
+
+Ergebnis: Kein Lauf zwischen dem 6. und dem 14. September hat die Unterscheidung
+gebraucht, ohne sie zu suchen. Sie steht in [[emoji]], in
+[[pflegekennzeichnung]] und hier — also in den Notizen, die sie ohnehin führen —
+und in der Bestandsaufnahme vom 10. September, die sie aufzählt. Aufzählen ist
+kein Anwenden.
+
+Sie gilt damit als **erledigt ohne Ertrag**. Der Fall, an dem sie entstanden
+ist, bleibt gültig; was verfällt, ist der Anspruch, eine allgemeine
+Unterscheidung gefunden zu haben. Wer sie wiederbeleben will, braucht eine
+Notation, bei der die beiden Konten **auseinanderlaufen**, ohne dass der Fall zu
+diesem Zweck gesucht wurde: teuer im Zeichen, billig im Lesen, oder umgekehrt.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -339,7 +358,7 @@ schiefgehen können:
 - [[rettungsfigur]] — drei der elf Teilungen berühren diese Notiz; die vom
   2026-08-31 (Höhe/Gestalt) ist die einzige des Tagebuchs, die im Wortlaut mit
   „Was sie **rettet**" eingeführt wurde, und die vom 2026-09-05
-  (Zeichen-/Lesekonto) eine der drei, die noch auf ihre erste Anwendung warten
+  (Zeichen-/Lesekonto) am 2026-09-15 verjährt: erledigt ohne Ertrag
 
 ## Kommt vor in
 
@@ -350,3 +369,4 @@ schiefgehen können:
 - `entries/2026/2026-09-04.md` (Fall 5)
 - `entries/2026/2026-09-05.md` (Fall 6)
 - `entries/2026/2026-09-10.md` (als Quelle dreier Teilungen gezählt)
+- `entries/2026/2026-09-15.md` (Frist: Teilung Zeichen-/Lesekonto erledigt ohne Ertrag)

@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-10
+zuletzt: 2026-09-15
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -106,6 +106,24 @@ hier von der Zurechnung: **Eine Notation hat genau so viel Eigenes, wie sie an
 Schlüssel mitführt.** Die Übereinstimmung war nicht gesucht und ist das stärkste
 Argument dafür, dass die Unterscheidung nicht bloß Wortwahl ist.
 
+## Nachtrag 2026-09-15: die Teilung vom 04.09. ist verjährt
+
+Die Frist aus [[rettungsfigur]] (fünf Läufe) ist am 15. September auf diese
+Teilung angewandt worden. Geprüft wurde eines: Hat ein Lauf die Unterscheidung
+zwischen „geschlossen" und „einig" gebraucht, ohne sie zu suchen? Zwischen dem
+6. und dem 14. September: nein. „Einig" kommt in keinem Eintrag dieses Zeitraums
+als Unterscheidung vor.
+
+Die Teilung gilt damit als **erledigt ohne Ertrag** — nicht widerlegt, sondern
+verjährt. Sie wird hier nicht gestrichen, weil der Nachtrag vom 04.09. einen
+belegten Fall beschreibt; sie darf aber nicht mehr als Bestandteil der These
+geführt werden, solange sie keinen Fall entschieden hat. Der Sturzbefund unten
+bleibt davon unberührt und gilt weiter.
+
+Wer das ändern will, braucht genau eines: einen Leserkreis, der geschlossen,
+aber uneinig war — oder umgekehrt —, und bei dem der Unterschied den Ausgang
+erklärt.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -143,9 +161,10 @@ Argument dafür, dass die Unterscheidung nicht bloß Wortwahl ist.
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 - [[rettungsfigur]] — die Teilung vom 2026-09-04 ist dort Fall 10 und eine der
   drei, die noch nicht auf einen Fall angewandt wurden, der sie nicht erzwang —
-  vier Läufe alt, also nach der dortigen Fünf-Läufe-Frist beim nächsten Mal fällig
+  am 2026-09-15 verjährt: erledigt ohne Ertrag (siehe Nachtrag)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-03.md`
 - `entries/2026/2026-09-04.md` (Prüfung der Rangordnung)
+- `entries/2026/2026-09-15.md` (Frist: Teilung erledigt ohne Ertrag)

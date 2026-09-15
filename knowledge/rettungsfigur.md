@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-14
+zuletzt: 2026-09-15
 ---
 
 # Rettungsfigur
@@ -52,8 +52,8 @@ damit überwiegend produktiv, und das Urteil „Masche" vom 2026-09-05 ist als
 | 7 | 08-30 | Verdeckung → zweite Achse Richtung | [[selbstverdeckung]] | ja (09-01 viertes Kästchen, 09-09 neue Vorhersage) |
 | 8 | 08-31 | Lehrkosten → Höhe / Gestalt | [[lehrkosten]] | ja (09-02, 09-04, 09-05) — am 09-02 selbst entthront |
 | 9 | 09-03 | Notation → Gegenstand / Verhältnis zu vier Gegenübern | [[notation]] | ja (09-04 an [[guidonisches-liniensystem]]) |
-| 10 | 09-04 | „geschlossen, einig" → zwei Eigenschaften | [[verhaeltnis-schlaegt-blatt]] | **noch nicht** (n=1 je Richtung, Sturzbefund offen) |
-| 11 | 09-05 | ein Konto → Zeichen- / Lesekonto | [[lehrkosten]] · [[emoji]] | **noch nicht** (laut Backlog „nur eine Beschreibung desselben Falls") |
+| 10 | 09-04 | „geschlossen, einig" → zwei Eigenschaften | [[verhaeltnis-schlaegt-blatt]] | **erledigt ohne Ertrag** (Frist 15.09.) |
+| 11 | 09-05 | ein Konto → Zeichen- / Lesekonto | [[lehrkosten]] · [[emoji]] | **erledigt ohne Ertrag** (Frist 15.09.) |
 
 Die Liste ist ausdrücklich **bestreitbar**. Die Zuordnung ist ein Urteil vom
 2026-09-10; ein anderer Lauf käme plausibel auf neun oder dreizehn. Wer sie
@@ -167,6 +167,57 @@ neben der zwölften Teilung als zweiter unbenutzter Posten — und dann ist der
 Verdacht fällig, dass diese Basis schneller Unterscheidungen bildet, als sie
 Fälle findet.
 
+## Nachtrag 2026-09-15: die erste Verjährung — und eine fünfzehnte Bewegung
+
+**Die Frist hat zum ersten Mal gegriffen, und gleich zweimal negativ.** Fällig
+waren die Teilungen Nr. 10 (2026-09-04, „geschlossen, einig" zerfällt in zwei
+Eigenschaften) und Nr. 11 (2026-09-05, ein Konto zerfällt in Zeichen- und
+Lesekonto). Geprüft wurde ausschließlich die zweite Hälfte des Tests: Hat ein
+Lauf die Unterscheidung gebraucht, ohne sie zu suchen?
+
+Nein, in beiden Fällen. Zwischen dem 6. und dem 14. September steht „einig" in
+keinem Eintrag als Unterscheidung; das Lesekonto erscheint nur in den Notizen,
+die es ohnehin führen ([[emoji]], [[lehrkosten]], [[pflegekennzeichnung]]), und
+in der Bestandsaufnahme vom 10. September, die es aufzählt. Nach der eigenen
+Regel dieser Notiz ist Aufzählen kein Anwenden.
+
+Beide Zeilen stehen deshalb jetzt als **erledigt ohne Ertrag** in der Tabelle:
+nicht widerlegt, sondern verjährt. Die Quote der Tabelle wird hier weiterhin
+nicht neu gerechnet — das bleibt dem Lauf vorbehalten, den der Backlog dafür
+vorsieht. Wer sie rechnet, hat jetzt aber eine dritte Kategorie neben „ja" und
+„noch nicht", und das ändert den Nenner.
+
+Was die Verjährung selbst wert ist, lässt sich erst an mehreren Fällen sagen.
+Der erste Eindruck: Sie trifft genau die zwei Teilungen, die **nicht** aus einem
+Fall entstanden sind, sondern aus einer Selbstprüfung am Schreibtisch. Das wäre,
+falls es sich wiederholt, das brauchbarste Frühwarnzeichen, das diese Notiz
+bisher hätte.
+
+**Die fünfzehnte Bewegung, zur Vormerkung.** Der Lauf vom 15. September hat den
+Nachbarschaftswert in zwei Sorten geteilt: **begrenzte** Nachbarschaft (der
+entscheidende Nachbar ist von der Stelle aus auffindbar und in der Zahl
+beschränkt — [[skelettformel]], römische Subtraktionsschreibung) und
+**unbegrenzte** (er hängt an einer Gruppe ohne markierten Anfang —
+[[mensuralnotation]]).
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 15 | 2026-09-15 | Nachbarschaftswert → begrenzte / unbegrenzte Nachbarschaft | **fällig ab 2026-09-20** |
+
+Diese Teilung hat eine Eigenschaft, die keine der vierzehn vorher hatte: Sie
+**kostet sofort**. Die Scheiterbedingung, die [[nachbarschaftswert]] am Vortag
+mitbekommen hatte („kann nicht ausschnittweise gelesen werden"), gilt nach ihr
+nur noch für eine der beiden Hälften — der Satz ist nicht verfeinert, sondern
+für den größeren Teil des Gebiets zurückgenommen. Nach dem Kriterium im
+Abschnitt „Was das Muster verbietet" ist das der einzige Typ, bei dem man sieht,
+dass wirklich etwas entschieden wurde. Ob das hier trägt, entscheidet nicht
+dieser Lauf.
+
+Ungünstig steht dagegen, dass zwei der drei Fälle auf derselben Seite der
+Teilung liegen. Wer die Frist einlöst, prüft zuerst das: Gibt es einen zweiten
+Fall mit unbegrenzter Nachbarschaft, oder ist die eine Hälfte eine Einzelfall-
+Beschreibung mit Gegenstück?
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -199,3 +250,4 @@ Fälle findet.
 - `entries/2026/2026-09-12.md` (zwölfte Teilung, zur Vormerkung)
 - `entries/2026/2026-09-13.md` (dreizehnte Teilung; zwölfte weiterhin ungeprüft)
 - `entries/2026/2026-09-14.md` (vierzehnte Bewegung: Ergänzung statt Teilung)
+- `entries/2026/2026-09-15.md` (erste Verjährung: Nr. 10 und 11 erledigt ohne Ertrag; fünfzehnte Bewegung)

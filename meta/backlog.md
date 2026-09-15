@@ -480,15 +480,6 @@ hängt mindestens zwei neue Fragen an.
   Teilung — die Notiz selbst nennt es am 2026-08-28 ausdrücklich „keine
   Verfeinerung, sondern eine Zuständigkeitsgrenze"). Fällt die Quote unter sieben,
   ist die Entlastung vom 2026-09-10 hinfällig. *(2026-09-10)*
-- **Fällig am 2026-09-15 oder danach, nicht früher: die Frist auf die zwei jungen
-  Teilungen anwenden.** [[rettungsfigur]] verbietet, dass ein Lauf seine eigene
-  Teilung beurteilt, und setzt fünf Läufe als Frist. Betroffen sind die vom
-  2026-09-04 (geschlossen/einig, [[verhaeltnis-schlaegt-blatt]]) und die vom
-  2026-09-05 (Zeichen-/Lesekonto, [[lehrkosten]]/[[emoji]]). Wer nachsieht, prüft
-  nur eines: Wurde die Unterscheidung inzwischen auf einen Fall angewandt, der sie
-  nicht erzwungen hat? Wenn nein, gehören beide in der Notiz als **erledigt ohne
-  Ertrag** markiert, nicht stillschweigend weitergeführt. Das ist die erste Regel
-  dieses Tagebuchs, die etwas *verjähren* lässt. *(2026-09-10)*
 - **Vorschlag an den Menschen, nicht selbst auszuführen: eine Spalte für die Art
   der Änderung.** `meta/log.md` führt `notizen: +N/~M` — eine Menge, nie eine Art.
   Deshalb war die Frage vom 2026-09-05 nicht nachlesbar, sondern musste per
@@ -547,16 +538,6 @@ hängt mindestens zwei neue Fragen an.
   drei Fälle von [[ausgelagerter-schluessel]] ein Schaden belegt ist, bleibt das
   ganze Muster eine Aussage über die Bauart. *(2026-09-13)*
 
-- **Gibt es einen Nachbarschaftswert außerhalb der Musik?** Gesucht ist eine
-  Notation, in der derselbe Zeichenkörper je nach Nachbarn etwas anderes **misst**
-  — nicht anderes bedeutet (das können viele), sondern eine andere Zahl angibt.
-  Ohne einen zweiten Fall bleibt [[nachbarschaftswert]] die Beschreibung eines
-  einzigen Systems. Ungesehene Kandidaten: römische Zahlzeichen (IV/VI — dort
-  ändert der Nachbar vermutlich das Vorzeichen, nicht den Wert; wäre also ein
-  schärfendes **Gegen**beispiel), Bindungsstriche in Strukturformeln,
-  Zusammenstrickzeichen im Strickdiagramm. Der Prüfweg steht in der Notiz selbst:
-  Wo ausschnittweise gelesen wird, dürfte es keine Nachbarschaftswerte geben.
-  *(2026-09-14)*
 - **Wann ist die Waagerechte zur Zeitachse geworden?** Die [[mensuralnotation]]
   hat keine: Notenabstand ist Schreibraum, und die Stimmen stehen in getrennten
   Stimmbüchern, also gibt es auch keine senkrechte Gleichzeitigkeit. Taktstrich,
@@ -576,6 +557,52 @@ hängt mindestens zwei neue Fragen an.
   die transkribierten Dauern auftragen. Das wäre eine eigene Rechnung statt einer
   Quelle — der Zug, der sich am 2026-09-13 als der ertragreichste erwiesen hat.
   *(2026-09-14)*
+
+
+- **Gibt es einen zweiten Nachbarschaftswert mit *unbegrenzter* Nachbarschaft?**
+  Nach dem 2026-09-15 steht es zwei zu eins für die begrenzte Sorte
+  ([[skelettformel]], römische Subtraktionsschreibung gegen
+  [[mensuralnotation]]) — die unbegrenzte Hälfte der neuen Teilung ist also
+  genau da, wo die ganze Wertsorte einen Tag vorher war: n=1. Gesucht ist eine
+  Notation, in der nicht nur der Wert vom Nachbarn kommt, sondern auch
+  **unklar ist, welcher Nachbar** — weil die Gruppe, die das entscheidet, keinen
+  markierten Anfang hat. Ungesehene Kandidaten: Kontraktions- und
+  Kürzungszeichen in Kurzschriften, Zahlzeichen ohne Null (Keilschrift,
+  Stellenwert ohne Platzhalter), Einrückung als Blockgrenze in
+  Programmiersprachen. Findet sich keiner, ist „unbegrenzt" kein Typ, sondern
+  eine Eigenheit der Mensuralnotation. *(2026-09-15)*
+- **Sturzbefund für die neue Grenze begrenzt/unbegrenzt, vorregistriert.**
+  Behauptung vom 2026-09-15: Wo die Nachbarschaft begrenzt und von der Stelle aus
+  auffindbar ist, kann ausschnittweise gelesen werden. Gesucht ist der Gegenfall —
+  eine Notation mit **begrenzter** Nachbarschaft, in der ein Ausschnitt trotzdem
+  nicht lesbar ist. Findet er sich, liegt es nicht an der Reichweite, sondern an
+  etwas anderem, und die Teilung Nr. 15 fällt, bevor ihre Frist am 2026-09-20
+  abläuft. *(2026-09-15)*
+- **Verdient die römische Subtraktionsschreibung eine eigene Notiz?** Sie ist am
+  2026-09-15 vom vermuteten Gegenbeispiel zum dritten Fall von
+  [[nachbarschaftswert]] geworden, und das ist das erste Mal, dass dieses
+  Tagebuch sie benutzt statt sie in `THEMA.md` zu zitieren. Zu klären wäre
+  zweierlei: Seit wann ist die Subtraktionsregel verbindlich (in der Antike war
+  IIII geläufig, IV eher nicht — das müsste sich an Inschriften datieren lassen),
+  und hat sie ein Reparaturzeichen, das die Kontextregel anhält? Bisher kenne ich
+  keines, und das wäre die einzige Zeile der Tabelle ohne eines. *(2026-09-15)*
+- **Eine Beobachtung an der ersten Verjährung, die einen zweiten Fall braucht.**
+  Am 2026-09-15 sind zwei Teilungen verjährt, und beide sind **nicht aus einem
+  Fall entstanden**, sondern aus einer Selbstprüfung am Schreibtisch (04.09. aus
+  einem gescheiterten Sturzversuch, 05.09. aus einer Begriffskontrolle). Wenn das
+  kein Zufall ist, wäre es das brauchbarste Frühwarnzeichen dieser Basis: Eine
+  Teilung, die nicht an einem fremden Gegenstand entsteht, verjährt. Prüfbar an
+  der nächsten fälligen Frist (Nr. 12 ab 2026-09-17, Nr. 13 ab 2026-09-18) — beide
+  sind an fremden Systemen entstanden, müssten nach dieser Vermutung also halten.
+  *(2026-09-15)*
+- **Die IUPAC-Empfehlung von 2008 ist ungelesen.** Alle drei Adressen des PDFs
+  (`iupac.org`, `publications.iupac.org`, De Gruyter) antworten mit HTTP 403; die
+  geläufige Formulierung über unbeschriftete Atome liegt mir nur in
+  Sekundärwiedergabe vor und ist deshalb in [[skelettformel]] ausdrücklich
+  **nicht** als Zitat geführt. Wer einen Weg findet (Volltext über eine
+  Bibliothek, Preprint, Zitat in einer offenen Arbeit), schließt die einzige
+  Stelle des Falls, an der eine Norm für **Menschen** fehlt — die formale Fassung
+  habe ich bisher nur als Maschinenspezifikation. *(2026-09-15)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -602,8 +629,12 @@ hängt mindestens zwei neue Fragen an.
 - Regulärer Ausdruck als Notation (Kleene)
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
   2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht
-- Kekulés Strukturformel und die Skelettschreibweise — die *nächste* Schicht nach
-  der Gewichtsfrage; bisher nur die Zahlwerte behandelt, nicht die Bindungen
+- Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
+  ([[skelettformel]]): Die Leseregel der Linienformel ist beschrieben, die
+  Bindungsstriche als Nachbarschaft ebenfalls. **Offen bleibt die Entstehung** —
+  wer wann aufgehört hat, den Wasserstoff zu schreiben, und ob Kekulé oder Crum
+  Brown 1861 schon weggelassen haben. Das ist der eigentlich interessante Teil
+  und heute nicht nachgesehen.
 
 ## Muster, die geprüft werden wollen
 

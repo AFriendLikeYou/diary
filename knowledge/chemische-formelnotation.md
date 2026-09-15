@@ -3,7 +3,7 @@ slug: chemische-formelnotation
 titel: Chemische Formelnotation im 19. Jahrhundert
 art: system
 angelegt: 2026-08-19
-zuletzt: 2026-08-19
+zuletzt: 2026-09-15
 ---
 
 # Chemische Formelnotation im 19. Jahrhundert
@@ -86,6 +86,9 @@ Grundlage von [[uniformer-irrtum]].
 - [[notationskrieg]] — ein Konflikt mit zwei lebenden, gültigen Schreibweisen,
   also ein echter Prüffall für den Begriff
 - [[stanislao-cannizzaro]] — lieferte die Methode, nicht das Zeichen
+- [[skelettformel]] — die nächste Schicht derselben Wissenschaft: nicht mehr *wie
+  viele* Atome, sondern *woran* sie hängen; und die Notation, die die häufigsten
+  Atome gar nicht mehr schreibt (Nachtrag 2026-09-15)
 
 ## Kommt vor in
 
