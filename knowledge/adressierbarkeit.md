@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-14
+zuletzt: 2026-09-16
 ---
 
 # Adressierbarkeit
@@ -397,6 +397,27 @@ und mit einer Bedingung, an der sie scheitern kann (siehe dort). Die für den
 2026-09-17 fällige Prüfung der Dreiteilung ist davon **nicht** berührt und läuft
 unverändert weiter.
 
+## Nachtrag 2026-09-16 — der Anker, auf eine Zahl angewandt
+
+Die Ankerbedingung vom 2026-09-04 („ein Raster ohne beschrifteten Bezugspunkt
+gibt keine Adresse her") stand bisher nur an Flächen: Gradnetz, Griffbrett,
+Stationskreis. Die [[babylonische-zahlnotation]] ist ihr erster Fall an einer
+**Ziffernkette**. Die Stellen dieser Schrift stehen zueinander im festen
+Verhältnis — jede ist sechzigmal so viel wert wie die rechts von ihr —, aber
+keine ist als Einerstelle markiert, und ein Zeichen für die Null gibt es nicht.
+Derselbe Keil ist 1, 60, 3600 oder ein Sechzigstel.
+
+Damit hat diese Notation ein vollständiges Raster und keinen Nullpunkt. Nach der
+Dreiteilung vom 2026-09-12 ist ihre Stelle eindeutig eine **Achse** (derselbe
+Maßstab im ganzen Zahlenraum, nämlich Faktor 60), und trotzdem ist sie nicht
+adressierbar: Adressierbar ist ein Raster erst mit Anker, und das ist genau die
+Bedingung, die hier fehlt. Der Fall trennt die beiden Begriffe sauber
+voneinander, die bisher immer zusammen auftraten. Er ist zugleich der erste, in
+dem der fehlende Anker nicht Versäumnis ist, sondern Zweck — siehe dort.
+
+Das ist **keine** vorgezogene Beurteilung der für den 2026-09-17 fälligen
+Dreiteilung: Angewandt wurde hier die Ankerbedingung, nicht sie.
+
 ## Verwandt
 
 - [[mensuralnotation]] — die erste unbestellte Prüfung pro Dimension: Tonhöhe ja,
@@ -444,3 +465,4 @@ unverändert weiter.
 - `entries/2026/2026-09-12.md` (pro Stelle: Achse, Durchnummerierung, Prüfung)
 - `entries/2026/2026-09-13.md` (Prüfstelle: Abschreiben ≠ Schneiden; zweites Fach ohne Maßstab)
 - `entries/2026/2026-09-14.md` (erste unbestellte Prüfung; vierte Wertsorte)
+- `entries/2026/2026-09-16.md` (Anker ohne Fläche: Achse ohne Nullpunkt)

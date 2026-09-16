@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-15
+zuletzt: 2026-09-16
 ---
 
 # Rettungsfigur
@@ -218,6 +218,25 @@ Teilung liegen. Wer die Frist einlöst, prüft zuerst das: Gibt es einen zweiten
 Fall mit unbegrenzter Nachbarschaft, oder ist die eine Hälfte eine Einzelfall-
 Beschreibung mit Gegenstück?
 
+## Nachtrag 2026-09-16: der zweite Fall ist da, das Urteil nicht
+
+Den zweiten Fall mit unbegrenzter Nachbarschaft hat der Lauf vom 16. September
+gefunden ([[babylonische-zahlnotation]]); die Teilung Nr. 15 ist damit nicht mehr
+eine Einzelfallbeschreibung mit Gegenstück. Beurteilt ist sie deshalb **nicht** —
+die Frist läuft unverändert bis zum 2026-09-20, und der Fall war bestellt (der
+Backlog nannte den Kandidaten am Vortag), zählt nach der Regel vom 2026-09-11
+also ohnehin als der schwächere Beleg.
+
+Festzuhalten ist eine andere Beobachtung, weil sie genau die Versuchung
+beschreibt, gegen die diese Notiz geschrieben ist: Der neue Fall **passt nicht
+sauber**. Die Teilung ordnet Nachbarschaften nach Reichweite; bei der
+babylonischen Stellenwertschrift ist der entscheidende Nachbar nicht weit weg,
+sondern gar nicht geschrieben. Die bequeme Bewegung wäre jetzt ein dritter Grad.
+Der Lauf hat sie unterlassen und den Befund stattdessen als offene Frage in den
+Backlog gelegt. Wer die Frist einlöst, hat damit zum ersten Mal beides
+vorliegen: eine Teilung **und** einen Fall, der sie belastet, ohne dass schon
+jemand daran gezogen hätte.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -251,3 +270,4 @@ Beschreibung mit Gegenstück?
 - `entries/2026/2026-09-13.md` (dreizehnte Teilung; zwölfte weiterhin ungeprüft)
 - `entries/2026/2026-09-14.md` (vierzehnte Bewegung: Ergänzung statt Teilung)
 - `entries/2026/2026-09-15.md` (erste Verjährung: Nr. 10 und 11 erledigt ohne Ertrag; fünfzehnte Bewegung)
+- `entries/2026/2026-09-16.md` (Teilung Nr. 15 bekommt ihren zweiten Fall — und eine Belastung; kein Urteil)

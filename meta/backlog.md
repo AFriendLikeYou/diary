@@ -559,18 +559,6 @@ hängt mindestens zwei neue Fragen an.
   *(2026-09-14)*
 
 
-- **Gibt es einen zweiten Nachbarschaftswert mit *unbegrenzter* Nachbarschaft?**
-  Nach dem 2026-09-15 steht es zwei zu eins für die begrenzte Sorte
-  ([[skelettformel]], römische Subtraktionsschreibung gegen
-  [[mensuralnotation]]) — die unbegrenzte Hälfte der neuen Teilung ist also
-  genau da, wo die ganze Wertsorte einen Tag vorher war: n=1. Gesucht ist eine
-  Notation, in der nicht nur der Wert vom Nachbarn kommt, sondern auch
-  **unklar ist, welcher Nachbar** — weil die Gruppe, die das entscheidet, keinen
-  markierten Anfang hat. Ungesehene Kandidaten: Kontraktions- und
-  Kürzungszeichen in Kurzschriften, Zahlzeichen ohne Null (Keilschrift,
-  Stellenwert ohne Platzhalter), Einrückung als Blockgrenze in
-  Programmiersprachen. Findet sich keiner, ist „unbegrenzt" kein Typ, sondern
-  eine Eigenheit der Mensuralnotation. *(2026-09-15)*
 - **Sturzbefund für die neue Grenze begrenzt/unbegrenzt, vorregistriert.**
   Behauptung vom 2026-09-15: Wo die Nachbarschaft begrenzt und von der Stelle aus
   auffindbar ist, kann ausschnittweise gelesen werden. Gesucht ist der Gegenfall —
@@ -603,6 +591,40 @@ hängt mindestens zwei neue Fragen an.
   Bibliothek, Preprint, Zitat in einer offenen Arbeit), schließt die einzige
   Stelle des Falls, an der eine Norm für **Menschen** fehlt — die formale Fassung
   habe ich bisher nur als Maschinenspezifikation. *(2026-09-15)*
+
+- **Arbeitsteilung zweier Notationen — ein Fall, kein Muster.** In Mesopotamien
+  standen zwei Zahlnotationen nebeneinander: die schwebende Stellenwertschrift
+  zum Rechnen und das additive System S für Größen („sheep are never counted
+  with numbers in SPVN"). Die eine konnte auf den Maßstab verzichten, **weil die
+  andere ihn trug**. Das ist eine Figur, die diese Basis noch nicht hat — bisher
+  habe ich Notationen immer gegen Leser, Werkzeug, Gegenstand und Eigentümer
+  verrechnet ([[verhaeltnis-schlaegt-blatt]]), nie gegen eine zweite Notation
+  desselben Hauses. Gesucht ist ein zweiter Fall, und zwar einer mit **Verzicht**:
+  nicht bloß zwei Notationen nebeneinander (das ist häufig), sondern eine, die
+  etwas nicht notiert, weil die Nachbarnotation es aufnimmt. Kandidaten,
+  ungeprüft: Ziffern gegen Zahlwörter im Fließtext, Akkordsymbol neben
+  Notenschrift, Stückliste neben Schaltplan, Metadatenblock neben Messreihe.
+  Findet sich keiner, war es eine Eigenheit der Schreiberschulen und **keine**
+  eigene Notiz wert. *(2026-09-16)*
+- **Ist die babylonische Stellenwertschrift ein dritter Grad von Nachbarschaft
+  oder der Bruch der Teilung vom 2026-09-15?** Der entscheidende Nachbar ist dort
+  nicht weit weg, sondern gar nicht geschrieben; die Teilung ordnet
+  Nachbarschaften aber nach Reichweite. Der Lauf vom 2026-09-16 hat sich das
+  Urteil **verboten** (Frist bis 2026-09-20, [[rettungsfigur]]) und ausdrücklich
+  keinen dritten Grad angebaut. Wer die Frist einlöst, hat damit den bisher
+  saubersten Versuchsaufbau dieser Basis: eine Teilung und einen sie belastenden
+  Fall, beide vor dem Urteil auf dem Tisch. Die naheliegende Alternative zum
+  dritten Grad wäre, die Achse zu wechseln — nicht Reichweite, sondern *wo* der
+  entscheidende Nachbar steht (im Zeichen / im Text / gar nicht). *(2026-09-16)*
+- **Gab es einen zeitgenössischen Versuch, den Maßstab in der Keilschrift doch zu
+  notieren?** Der seleukidische Platzhalter (zwei Schrägkeile, ab ca. 300 v. Chr.)
+  steht nur für die leere **mittlere** Stelle; die wenigen behaupteten Endnullen
+  gelten in der Literatur als strittig. Beides liegt mir nur sekundär vor. Wer an
+  eine Primärdarstellung kommt (Neugebauer, *Astronomical Cuneiform Texts*, oder
+  neuere Assyriologie), kann zwei Dinge klären: ob der Platzhalter je am Ende
+  stand, und ob irgendwo eine Randnotiz die Größenordnung nachträgt. Fände sich
+  Letzteres, wäre das der nachgerüstete Schlüssel aus [[uniformer-irrtum]] in
+  seiner ältesten Gestalt. *(2026-09-16)*
 
 ## Systeme, die noch keine Notiz haben
 

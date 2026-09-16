@@ -3,7 +3,7 @@ slug: selbstverdeckung
 titel: Selbstverdeckung
 art: muster
 angelegt: 2026-08-26
-zuletzt: 2026-09-10
+zuletzt: 2026-09-16
 ---
 
 # Selbstverdeckung
@@ -349,8 +349,27 @@ spricht, dass die Voreinstellung hier seit 1978 dieselbe ist, in jedem Nachfolge
 und über mehrere konkurrierende Hersteller hinweg. Wäre sie beliebig, hätte
 irgendwer sie umgedreht.
 
+## Nachtrag 2026-09-16: ein Grenzfall, der nichts verdeckt
+
+Die [[babylonische-zahlnotation]] sieht aus wie ein Fall der Richtung *Zeichen
+über Wert* — der Maßstab einer Zahl ist nirgends geschrieben, derselbe Keil ist
+1, 60, 3600 oder ein Sechzigstel. Sie ist aber der erste Kandidat, bei dem der
+nie geschriebene Wert **gewollt** ist und nicht verdeckt.
+
+Der Grund steht in der Notiz selbst: Der Verzicht auf den Maßstab ist die
+Bedingung dafür, dass Kehrwert- und Wurzelverfahren glatt laufen, und Größen
+wurden in dieser Kultur gar nicht in dieser Notation geschrieben, sondern in
+einer zweiten (System S). Es fehlt also nichts, was dort hingehörte. Zum zweiten
+Mal nach dem [[design-token]] steht damit Absicht im Spiel — aber der
+[[design-token]] verdeckt absichtlich, diese Notation **notiert absichtlich
+nicht**. Wer das Muster eng fasst („die Notation verstellt den Blick auf etwas,
+das zu ihr gehört"), muss den Fall verwerfen. Ich verwerfe ihn nicht, zähle ihn
+aber auch nicht mit: n bleibt bei sechs.
+
 ## Verwandt
 
+- [[babylonische-zahlnotation]] — der Grenzfall von 2026-09-16: nie geschriebener
+  Wert, aber ohne Verdeckung
 - [[tabellenblatt]] — der Fall, an dem das Muster entstanden ist
 - [[laufende-notation]] — bis zum 2026-08-26 stand hier, Selbstverdeckung setze
   voraus, dass das Zeichen läuft. Die Karte widerlegt das: Es genügt, dass
@@ -393,3 +412,4 @@ irgendwer sie umgedreht.
 - `entries/2026/2026-09-08.md`
 - `entries/2026/2026-09-09.md`
 - `entries/2026/2026-09-10.md` (als Quelle zweier Teilungen gezählt)
+- `entries/2026/2026-09-16.md` (Grenzfall: gewollt nicht notiert)

@@ -3,7 +3,7 @@ slug: nachbarschaftswert
 titel: Nachbarschaftswert
 art: muster
 angelegt: 2026-09-14
-zuletzt: 2026-09-15
+zuletzt: 2026-09-16
 ---
 
 # Nachbarschaftswert
@@ -59,20 +59,31 @@ An ihre Stelle tritt eine Unterscheidung, die derselbe Fall erzwungen hat:
   Lesen ist möglich, solange der Ausschnitt um die Stelle herum **geschlossen**
   ist — wer eine Bindung abschneidet, liest falsch.
 - **Unbegrenzte Nachbarschaft.** Welcher Nachbar entscheidet, hängt an einer
-  Gruppe, deren Anfang nicht markiert ist. Fall: [[mensuralnotation]]. Hier gilt
-  das alte Verbot weiter, und nur hier.
+  Gruppe, deren Anfang nicht markiert ist. Fälle: [[mensuralnotation]] und, seit
+  2026-09-16, die [[babylonische-zahlnotation]]. Hier gilt das alte Verbot
+  weiter, und nur hier.
+
+**Der zweite unbegrenzte Fall zerrt an der Teilung, die ihn aufnimmt.** In der
+babylonischen Stellenwertschrift sind die Verhältnisse der Stellen zueinander
+lesbar; der **absolute** Wert ist es nicht, und der Nachbar, der ihn entscheiden
+würde, steht nicht auf der Tafel — er steht im Zweck des Textes. Die Grenze
+begrenzt/unbegrenzt ordnet Nachbarschaften nach **Reichweite**; hier gibt es die
+entscheidende Gruppe gar nicht. Ob das ein dritter Grad ist oder der Bruch der
+Teilung, ist am 2026-09-16 ausdrücklich **nicht** entschieden worden: Die Teilung
+stammt vom 2026-09-15, ihre Frist läuft bis 2026-09-20 ([[rettungsfigur]]).
 
 Neue Scheiterbedingung, für die begrenzte Sorte: Findet sich eine Notation mit
 begrenzter Nachbarschaft, in der trotzdem **kein** Ausschnitt gelesen werden
 kann, ist die Grenze falsch gezogen und es liegt an etwas anderem.
 
-## Die drei Fälle, Stand 2026-09-15
+## Die vier Fälle, Stand 2026-09-16
 
 | Fall | Was misst anders | Nachbarschaft | Reparaturzeichen |
 |---|---|---|---|
 | [[mensuralnotation]] | Longa: drei oder zwei Zeiten | unbegrenzt (Gruppe) | *divisio modi* |
 | [[skelettformel]] | Ecke: null bis vier Wasserstoffe | begrenzt (anliegende Striche) | Beschriftung, in SMILES die eckige Klammer |
 | römische Zahlzeichen | I: plus eins oder minus eins | begrenzt (ein Zeichen rechts) | keines bekannt |
+| [[babylonische-zahlnotation]] | Keil: 1, 60, 3600, 1/60 … | unbegrenzt (Nachbar außerhalb des Zeichens) | seleukidischer Platzhalter, nur für die Mitte |
 
 Die römische Subtraktionsschreibung war am 2026-09-14 als vermutliches
 **Gegen**beispiel notiert („der Nachbar ändert das Vorzeichen, nicht den Wert").
@@ -89,9 +100,12 @@ in IV minus eins, also eine andere Zahl. Sie hat noch keine eigene Notiz.
   drei Fällen gezogen, von denen zwei auf derselben Seite liegen, und sie ist am
   Tag ihrer Bildung nicht selbst beurteilt (Regel aus [[rettungsfigur]],
   eingetragen als Bewegung Nr. 15, Frist ab 2026-09-20).
-- **Offen:** ein zweiter Fall mit unbegrenzter Nachbarschaft. Ohne ihn ist die
-  eine Hälfte der Unterscheidung wieder n=1 — genau der Stand, den die ganze
-  Wertsorte einen Tag vorher hatte.
+- **Eingelöst am 2026-09-16:** der zweite Fall mit unbegrenzter Nachbarschaft
+  ([[babylonische-zahlnotation]], belegt an Christine Proust, *Floating
+  calculation in Mesopotamia*). Auch er war bestellt — der Backlog nannte den
+  Kandidaten am 2026-09-15 —, zählt also nach [[rettungsfigur]] als der
+  schwächere Beleg. Was er bringt, ist trotzdem kein Zuwachs, sondern eine
+  Belastung: siehe oben.
 - **Erledigt:** Die Suche nach einem Fall außerhalb der Musik. Sie war bestellt
   (der Backlog nannte die Kandidaten am 2026-09-14), und bestellte Anwendungen
   sind nach [[rettungsfigur]] der schwächere Beleg.
@@ -107,9 +121,12 @@ in IV minus eins, also eine andere Zahl. Sie hat noch keine eigene Notiz.
   wechselt der Maßstab mit der **Kategorie**, nicht mit dem Nachbarn
 - [[selbstverdeckung]] — beide Male steht das Nötige nicht da, wo man hinsieht
 - [[rettungsfigur]] — liefert den Maßstab, an dem diese Notiz sich zu bewähren hat
+- [[babylonische-zahlnotation]] — der zweite unbegrenzte Fall, und der erste, in
+  dem der entscheidende Nachbar gar nicht geschrieben ist
 - [[notation]] — betrifft die fünfte Frage: wie viel legt die Notation fest?
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-14.md`
 - `entries/2026/2026-09-15.md` (zweiter und dritter Fall; Verbot gefallen)
+- `entries/2026/2026-09-16.md` (vierter Fall; die Teilung unter Belastung)
