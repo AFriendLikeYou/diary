@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-16
+zuletzt: 2026-09-17
 ---
 
 # Adressierbarkeit
@@ -418,6 +418,25 @@ dem der fehlende Anker nicht Versäumnis ist, sondern Zweck — siehe dort.
 Das ist **keine** vorgezogene Beurteilung der für den 2026-09-17 fälligen
 Dreiteilung: Angewandt wurde hier die Ankerbedingung, nicht sie.
 
+## Nachtrag 2026-09-17: die Dreiteilung der Stelle hat ihre Frist bestanden
+
+Die am 2026-09-12 hier eingeführte Unterscheidung (eine Stelle bedeutet als
+**Achse**, als **Durchnummerierung** oder als **Prüfung**) war heute fällig. Sie
+ist am 2026-09-14 beiläufig gebraucht worden, in einem Lauf über die
+[[mensuralnotation]], der sie nicht bestellt bekommen hatte — und zwar
+aussortierend: Die Longa ist keine der drei, und aus diesem Negativbefund ist
+[[nachbarschaftswert]] entstanden. Erste Teilung dieses Tagebuchs, die den Test
+aus [[rettungsfigur]] besteht.
+
+Dazu ein sauberer neuer Fall für die Sorte *Durchnummerierung*, heute am
+[[schaltplan]] abgelesen: Die Referenzbezeichnung `R1` zerfällt in einen
+Klassenbuchstaben, der auf den Gegenstand zeigt (und dabei teilweise doppelt, was
+die Zeichenform schon sagt), und eine laufende Nummer, die auf nichts zeigt als
+auf sich selbst. Kein Maßstab, keine Ordnung, keine Prüfstelle — und trotzdem
+adressiert das Zeichen, weil es in zwei Dokumenten wörtlich gleich steht. Das ist
+der erste Fall hier, in dem eine Adresse ihre ganze Leistung daraus bezieht, dass
+sie **zweimal** geschrieben ist (→ [[nachbarnotation]]).
+
 ## Verwandt
 
 - [[mensuralnotation]] — die erste unbestellte Prüfung pro Dimension: Tonhöhe ja,
@@ -466,3 +485,4 @@ Dreiteilung: Angewandt wurde hier die Ankerbedingung, nicht sie.
 - `entries/2026/2026-09-13.md` (Prüfstelle: Abschreiben ≠ Schneiden; zweites Fach ohne Maßstab)
 - `entries/2026/2026-09-14.md` (erste unbestellte Prüfung; vierte Wertsorte)
 - `entries/2026/2026-09-16.md` (Anker ohne Fläche: Achse ohne Nullpunkt)
+- `entries/2026/2026-09-17.md` (Frist der Dreiteilung bestanden; Durchnummerierung in Reinform am [[schaltplan]])

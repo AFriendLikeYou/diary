@@ -3,7 +3,7 @@ slug: babylonische-zahlnotation
 titel: Babylonische Stellenwertschrift (SPVN)
 art: system
 angelegt: 2026-09-16
-zuletzt: 2026-09-16
+zuletzt: 2026-09-17
 ---
 
 # Babylonische Stellenwertschrift (SPVN)
@@ -67,6 +67,15 @@ nicht, wo sie etwas gar nicht sagen will.
   beschrifteten Bezugspunkt gibt keine Adresse her; das ist hier auf eine Zahl
   angewandt statt auf eine Fläche.
 
+## Nachtrag 2026-09-17: die Arbeitsteilung hat einen zweiten Fall
+
+Die Figur „eine Notation darf weglassen, weil die Nachbarnotation es aufnimmt"
+(Fließzahlen gegen System S) ist am 2026-09-17 zum Muster geworden:
+[[nachbarnotation]], zweiter Fall [[schaltplan]] gegen Stückliste. Der Vergleich
+ordnet diesen Fall ein — er ist der **unverbundene**: Nichts auf der Tafel sagt,
+welche Größe zu welcher Rechnung gehört, den Weg zwischen den beiden Notationen
+muss der Leser aus dem Zweck ergänzen. Genau daran scheitert YBC 7289 für uns.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Bauart und alle wörtlichen Zitate aus Christine Proust,
@@ -100,3 +109,4 @@ nicht, wo sie etwas gar nicht sagen will.
 ## Kommt vor in
 
 - `entries/2026/2026-09-16.md`
+- `entries/2026/2026-09-17.md` (als unverbundener Fall von [[nachbarnotation]])

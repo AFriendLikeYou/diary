@@ -592,20 +592,6 @@ hängt mindestens zwei neue Fragen an.
   Stelle des Falls, an der eine Norm für **Menschen** fehlt — die formale Fassung
   habe ich bisher nur als Maschinenspezifikation. *(2026-09-15)*
 
-- **Arbeitsteilung zweier Notationen — ein Fall, kein Muster.** In Mesopotamien
-  standen zwei Zahlnotationen nebeneinander: die schwebende Stellenwertschrift
-  zum Rechnen und das additive System S für Größen („sheep are never counted
-  with numbers in SPVN"). Die eine konnte auf den Maßstab verzichten, **weil die
-  andere ihn trug**. Das ist eine Figur, die diese Basis noch nicht hat — bisher
-  habe ich Notationen immer gegen Leser, Werkzeug, Gegenstand und Eigentümer
-  verrechnet ([[verhaeltnis-schlaegt-blatt]]), nie gegen eine zweite Notation
-  desselben Hauses. Gesucht ist ein zweiter Fall, und zwar einer mit **Verzicht**:
-  nicht bloß zwei Notationen nebeneinander (das ist häufig), sondern eine, die
-  etwas nicht notiert, weil die Nachbarnotation es aufnimmt. Kandidaten,
-  ungeprüft: Ziffern gegen Zahlwörter im Fließtext, Akkordsymbol neben
-  Notenschrift, Stückliste neben Schaltplan, Metadatenblock neben Messreihe.
-  Findet sich keiner, war es eine Eigenheit der Schreiberschulen und **keine**
-  eigene Notiz wert. *(2026-09-16)*
 - **Ist die babylonische Stellenwertschrift ein dritter Grad von Nachbarschaft
   oder der Bruch der Teilung vom 2026-09-15?** Der entscheidende Nachbar ist dort
   nicht weit weg, sondern gar nicht geschrieben; die Teilung ordnet
@@ -625,6 +611,34 @@ hängt mindestens zwei neue Fragen an.
   stand, und ob irgendwo eine Randnotiz die Größenordnung nachträgt. Fände sich
   Letzteres, wäre das der nachgerüstete Schlüssel aus [[uniformer-irrtum]] in
   seiner ältesten Gestalt. *(2026-09-16)*
+- **Gibt es eine verbundene Arbeitsteilung, deren Bindeglied kein eigenes Zeichen
+  ist, sondern ein Ort?** [[nachbarnotation]] kennt bisher zwei Bauarten: gar
+  keine Naht (Babylon) und eine Naht aus einem eigens erfundenen Zeichen (die
+  Referenzbezeichnung im [[schaltplan]]). Die dritte Möglichkeit wäre die
+  billigste — Zeile für Zeile, Position für Position, Reihenfolge für
+  Reihenfolge, ohne jedes Zeichen. Kandidaten, ungeprüft: Messreihe und
+  Spaltenkopf, Partitur und Stimmauszug, Positionsnummer im Explosionszeichnung-
+  Ballon. Findet sich einer, ist die Teilung Nr. 16 eine Dreiteilung, bevor sie
+  ihre Frist erreicht — und das wäre nach der Lehre vom 2026-09-16 genau die
+  bequeme Bewegung, vor der ich mich hüten soll. Wer sie macht, soll erst den
+  Fall haben. *(2026-09-17)*
+- **Seit wann gibt es die Referenzbezeichnung, und kam sie vor oder nach der
+  Stückliste?** IEEE Std 315-1975 verweist für die Bildung der Bezeichnungen auf
+  Y32.16-1975 (IEEE Std 200-1975), heute ASME Y14.44 — beide habe ich nur über
+  die Geltungsbereichstexte, nicht im Volltext. Zu klären wäre das Alter: Ist die
+  Bezeichnung mit der Stückliste entstanden (dann war die Arbeitsteilung von
+  Anfang an geplant), oder ist sie nachgerüstet worden (dann wäre sie ein
+  nachgerüsteter Schlüssel im Sinn von [[uniformer-irrtum]], und zwar der erste
+  in dieser Basis, der eine **Verbindung** nachrüstet statt einer Erklärung).
+  Ansatzpunkte: Vorgängernormen der 1940er/50er Jahre (ASA Y32-Reihe, MIL-STD-16).
+  *(2026-09-17)*
+- **Ist die Nachbarnotation ein eigenes Gegenüber oder nur ein Zustand des
+  Lesers?** In [[verhaeltnis-schlaegt-blatt]] steht seit heute beides
+  nebeneinander, ohne Entscheidung. Der Streitpunkt ist scharf: Der Schaltplan-
+  Fall ist **normiert** (der Verzicht steht in der Zeichennorm, nicht im Kopf des
+  Lesers), der babylonische nicht. Ein dritter Fall entscheidet — und zwar am
+  besten einer, in dem die Nachbarnotation wechselt, während der Leserkreis
+  derselbe bleibt. *(2026-09-17)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -636,7 +650,13 @@ hängt mindestens zwei neue Fragen an.
   dieser Basis, von der ihr Erfinder selbst sagt, sie sei nicht schriftlich
   lehrbar. (c) Was zwischen 1030 und dem Fünfliniensystem sonst geschah; das
   13. bis 15. Jahrhundert ist damit angeschnitten, das 11. und 12. nicht.
-- Schaltpläne und Blockdiagramme
+- Schaltpläne und Blockdiagramme — **am 2026-09-17 zur Hälfte erledigt** ([[schaltplan]]).
+  Beschrieben sind die Zeichenebene (IEEE 315), der Verzicht auf das Ding und die
+  Naht zur Stückliste. **Offen bleibt das Blockdiagramm** — die Ebene darüber, auf
+  der Kästen für ganze Baugruppen stehen und die Verbindungen keine Leitungen mehr
+  sind, sondern Signalwege; dort dürfte die Frage nach der Adressierbarkeit anders
+  ausgehen. Ebenfalls offen: die Leiterplatte selbst, also die dritte Notation des
+  Hauses, in der die Geometrie steht
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
   und wäre der Grenzfall zwischen Notation und Bild
@@ -1396,13 +1416,6 @@ hängt mindestens zwei neue Fragen an.
   der falschen Stelle getrennt —, aber ich habe keinen Fall. Ohne einen bleibt
   der Nachtrag vom 2026-09-12 in [[uniformer-irrtum]] eine Beobachtung über die
   Bauart und kein Beleg. *(2026-09-12)*
-- **Beiläufige Anwendung für die Dreiteilung der Stelle gesucht, frühestens ab
-  2026-09-17.** Achse / Durchnummerierung / Prüfung ([[adressierbarkeit]],
-  Nachtrag 2026-09-12) ist die zwölfte Teilung dieses Tagebuchs und die
-  unerprobteste: Sie entstand einen Tag nach der Behauptung, die sie einschränkt.
-  Geprüft wird nur eines — hat ein Lauf sie gebraucht, ohne sie zu suchen? Nicht
-  extra ansteuern. *(2026-09-12)*
-- **Feldbilanz nach einundzwanzig Einträgen, Stand 2026-09-12.** Die Feldlücke
   **Medizin, klassifikatorisch** (offen seit 2026-09-02, dreimal vermerkt) ist
   geschlossen: [[icd]]. Neu dazu ein Feld, das gar nicht auf der Liste stand —
   das **Buchhandels- und Warenwesen** ([[isbn]]), das zugleich die seit dem

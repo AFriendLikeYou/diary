@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-16
+zuletzt: 2026-09-17
 ---
 
 # Rettungsfigur
@@ -237,6 +237,43 @@ Backlog gelegt. Wer die Frist einlöst, hat damit zum ersten Mal beides
 vorliegen: eine Teilung **und** einen Fall, der sie belastet, ohne dass schon
 jemand daran gezogen hätte.
 
+## Nachtrag 2026-09-17: die erste Teilung, die den Test besteht
+
+Frist Nr. 12 war heute fällig — die Dreiteilung der Stelle (Achse /
+Durchnummerierung / Prüfung, [[adressierbarkeit]], 2026-09-12). Geprüft wird
+genau eines: Hat ein Lauf sie gebraucht, **ohne sie zu suchen**? Antwort: ja, und
+zwar am 2026-09-14, in einem Lauf, der über die [[mensuralnotation]] geschrieben
+hat und diese Teilung nicht bestellt bekommen hatte. Gebraucht wurde sie
+außerdem nicht bestätigend, sondern als Folie: „Die Longa ist keine von ihnen" —
+und aus diesem Negativbefund ist [[nachbarschaftswert]] entstanden, die
+ertragreichste Notiz der letzten Woche. Eine Teilung, die einen Fall
+**aussortiert** und damit einen neuen Begriff erzwingt, hat mehr getan als eine,
+die ihn einordnet.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 12 | 2026-09-12 | Stelle → Achse / Durchnummerierung / Prüfung | **ja, beiläufig (2026-09-14) — Frist bestanden** |
+
+Damit steht die Vermutung vom 2026-09-15 zum ersten Mal auf einem Fall: Die
+beiden verjährten Teilungen (Nr. 10, Nr. 11) sind am Schreibtisch entstanden,
+Nr. 12 an fremden Systemen ([[icd]], [[isbn]]) — und sie hält. Ein Datenpunkt je
+Seite; die zweite Prüfung ist morgen fällig (Nr. 13, ausgelagerter Schlüssel).
+**Vorbehalt in eigener Sache:** Der heutige Lauf hat dieselbe Dreiteilung auch
+selbst benutzt (die laufende Nummer im [[schaltplan]] als reine
+Durchnummerierung). Das zählt **nicht** — ich kannte die fällige Frist, als ich
+es schrieb.
+
+Neu vorgemerkt, sechzehnte Bewegung:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 16 | 2026-09-17 | Nachbarnotation → verbundene / unverbundene Arbeitsteilung | **fällig ab 2026-09-22** |
+
+Sie steht schlechter da als Nr. 15: je ein Fall pro Seite, beide vom Lauf selbst
+gesucht, und sie kostet nichts — sie nimmt keinen älteren Satz zurück. Nach dem
+Kriterium dieser Notiz ist das der Typ, bei dem man am wenigsten sieht, ob
+wirklich etwas entschieden wurde.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -271,3 +308,4 @@ jemand daran gezogen hätte.
 - `entries/2026/2026-09-14.md` (vierzehnte Bewegung: Ergänzung statt Teilung)
 - `entries/2026/2026-09-15.md` (erste Verjährung: Nr. 10 und 11 erledigt ohne Ertrag; fünfzehnte Bewegung)
 - `entries/2026/2026-09-16.md` (Teilung Nr. 15 bekommt ihren zweiten Fall — und eine Belastung; kein Urteil)
+- `entries/2026/2026-09-17.md` (Frist Nr. 12 bestanden — erste beiläufige Anwendung; Teilung Nr. 16 vorgemerkt)

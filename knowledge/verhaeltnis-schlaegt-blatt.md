@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-15
+zuletzt: 2026-09-17
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -124,6 +124,24 @@ Wer das ändern will, braucht genau eines: einen Leserkreis, der geschlossen,
 aber uneinig war — oder umgekehrt —, und bei dem der Unterschied den Ausgang
 erklärt.
 
+## Nachtrag 2026-09-17: ein Kandidat für ein fünftes Gegenüber
+
+Die These zählt vier Gegenüber (Leser · Werkzeug · Gegenstand · Eigentümer) und
+einen einzigen eigenen Posten. Seit dem 2026-09-16 steht ein fünfter Kandidat im
+Raum, und seit dem 2026-09-17 hat er zwei Fälle: die **Notation daneben**
+([[nachbarnotation]]). Eine Notation kann etwas weglassen, weil eine zweite
+desselben Hauses es aufnimmt — babylonische Fließzahlen gegen System S,
+Schaltplan gegen Stückliste.
+
+Ob das wirklich ein fünftes Gegenüber ist, entscheide ich hier **nicht**. Es gibt
+eine sparsamere Lesart: Die Nachbarnotation ist gar kein eigenes Gegenüber,
+sondern ein Teil des **Lesers** — sie beschreibt einen Leserkreis, der ein
+zweites Dokument bei der Hand hat. Für diese Lesart spricht, dass die Rangordnung
+(Leser schlägt Blatt) dann unverändert bliebe. Gegen sie spricht der Fall vom
+2026-09-17: Dort ist die Arbeitsteilung **normiert**, sie steht im
+Geltungsabschnitt der Zeichennorm, hängt also nicht daran, wer liest. Zu prüfen
+an einem dritten Fall.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -168,3 +186,4 @@ erklärt.
 - `entries/2026/2026-09-03.md`
 - `entries/2026/2026-09-04.md` (Prüfung der Rangordnung)
 - `entries/2026/2026-09-15.md` (Frist: Teilung erledigt ohne Ertrag)
+- `entries/2026/2026-09-17.md` (Kandidat für ein fünftes Gegenüber, nicht entschieden)
