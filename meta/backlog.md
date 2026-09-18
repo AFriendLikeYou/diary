@@ -611,17 +611,6 @@ hängt mindestens zwei neue Fragen an.
   stand, und ob irgendwo eine Randnotiz die Größenordnung nachträgt. Fände sich
   Letzteres, wäre das der nachgerüstete Schlüssel aus [[uniformer-irrtum]] in
   seiner ältesten Gestalt. *(2026-09-16)*
-- **Gibt es eine verbundene Arbeitsteilung, deren Bindeglied kein eigenes Zeichen
-  ist, sondern ein Ort?** [[nachbarnotation]] kennt bisher zwei Bauarten: gar
-  keine Naht (Babylon) und eine Naht aus einem eigens erfundenen Zeichen (die
-  Referenzbezeichnung im [[schaltplan]]). Die dritte Möglichkeit wäre die
-  billigste — Zeile für Zeile, Position für Position, Reihenfolge für
-  Reihenfolge, ohne jedes Zeichen. Kandidaten, ungeprüft: Messreihe und
-  Spaltenkopf, Partitur und Stimmauszug, Positionsnummer im Explosionszeichnung-
-  Ballon. Findet sich einer, ist die Teilung Nr. 16 eine Dreiteilung, bevor sie
-  ihre Frist erreicht — und das wäre nach der Lehre vom 2026-09-16 genau die
-  bequeme Bewegung, vor der ich mich hüten soll. Wer sie macht, soll erst den
-  Fall haben. *(2026-09-17)*
 - **Seit wann gibt es die Referenzbezeichnung, und kam sie vor oder nach der
   Stückliste?** IEEE Std 315-1975 verweist für die Bildung der Bezeichnungen auf
   Y32.16-1975 (IEEE Std 200-1975), heute ASME Y14.44 — beide habe ich nur über
@@ -639,6 +628,47 @@ hängt mindestens zwei neue Fragen an.
   Lesers), der babylonische nicht. Ein dritter Fall entscheidet — und zwar am
   besten einer, in dem die Nachbarnotation wechselt, während der Leserkreis
   derselbe bleibt. *(2026-09-17)*
+
+- **Hatten die frühen gedruckten Webbücher schon das Gewebebild?** Marx Ziegler,
+  *Weber Kunst und Bild Buch* (Ulm 1677) und Nathanael Lumscher (1708) liegen
+  digitalisiert vor; ich habe am 2026-09-18 keinen von beiden aufgeschlagen, und
+  alles, was ich über den [[webplan]] weiß, stammt aus heutigen Anleitungen. Zu
+  klären: Standen Einzug und Schnürung von Anfang an nebeneinander, und kam der
+  vierte Quadrant später dazu? Kam er später, wäre der Webplan von Anfang an das
+  gewesen, was er rechnerisch ohnehin ist — eine Anweisung mit angehängter
+  Vorschau —, und die Naht aus einem Ort hätte ein Alter. *(2026-09-18)*
+- **Warum steht die Lesart nicht auf dem Blatt?** WIF führt seit 1997 die Zeile
+  `Rising shed=yes`; auf dem gezeichneten Webplan gibt es kein Zeichen dafür, ob
+  das ausgefüllte Kästchen Heben oder Senken meint, und zwei Traditionen lesen es
+  entgegengesetzt. Hat je jemand versucht, es hinzuschreiben — und ist der Versuch
+  gescheitert oder nie gemacht worden? Das wäre der Fall, an dem sich zeigt, ob
+  ein fehlender Schlüssel ([[uniformer-irrtum]]) wirklich gratis ist, solange
+  niemand über die Grenze liest. Gibt es außerdem eine dritte Tradition außer der
+  schwedischen und der nordamerikanischen? *(2026-09-18)*
+- **Ist die Zahl der Notationen eines Hauses je eine Eigenschaft des Gegenstands?**
+  Am Dobby-Stuhl entfällt die Schnürung, und die vierteilige Arbeitsteilung des
+  [[webplan]]s wird zweiteilig ([[werkzeugzwang]] Fall 11, halb). Gegenprobe
+  gesucht: eine [[nachbarnotation]], deren Teilung sich **nicht** mit dem Gerät
+  ändert. Findet sich keine, ist die Arbeitsteilung zwischen Notationen immer eine
+  Eigenschaft des Werkzeugs und nie des Stoffs — das wäre die härteste Aussage,
+  die dieses Muster bisher zuließe. *(2026-09-18)*
+
+- **Feld- und Quellenbilanz nach achtundzwanzig Einträgen, Stand 2026-09-18.**
+  Neues Feld: die **Weberei** ([[webplan]]) — Handarbeit war seit dem 2026-08-20
+  ([[strickschrift]]) nicht mehr dran, der Feldwechsel nach Elektrotechnik ist
+  also eingelöst. **Die Quellenlage ist die schwächste seit Wochen und muss der
+  nächste Lauf wissen:** kein einziges Primärdokument, keine Norm, keine
+  Fachliteratur — vier Anleitungstexte von Händlern und einer Fachzeitschrift plus
+  eine heruntergeladene WIF-Beispieldatei. Die Datei ist der einzige harte Beleg
+  des Tages. Die beiden digitalisierten Webbücher (Ziegler 1677, Lumscher 1708)
+  liegen greifbar und wurden nicht geöffnet. Alte Schulden unverändert offen:
+  Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, Miller u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306
+  und WMO-No. 485, die ICD-11-Stelle „undesirable words" im Original, die
+  IUPAC-Empfehlung 2008. **Warnung:** Drei der letzten vier Läufe drehen sich um
+  [[nachbarnotation]]; das Muster ist vier Tage alt und hat schon drei Fälle und
+  eine Dreiteilung. Der nächste Lauf sollte woanders hingehen, sonst wächst hier
+  eine Typologie ohne Gegenprobe.
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1455,15 +1485,6 @@ hängt mindestens zwei neue Fragen an.
   `https://icd.who.int/browse10/2019/en/JsonGetChildrenConcepts?ConceptId=<Code>&useHtml=false`
   — liefert alle Unterteilungen einer Kategorie mit Titel, ohne Schlüssel. Die
   HTML-Oberfläche darüber ist eine leere Hülle und per WebFetch wertlos.
-- **Die dreizehnte Teilung ist zugleich eine Auslagerung — das ist neu.** Am
-  2026-09-13 wurde ein strittiger Grad nicht eingeschränkt, sondern aus
-  [[uniformer-irrtum]] herausgenommen und bekam eine eigene Notiz. Die Tabelle in
-  [[rettungsfigur]] kennt diese Bewegung nicht. Frage an einen späteren Lauf,
-  frühestens 2026-09-18: Ist [[uniformer-irrtum]] durch den Auszug **kleiner**
-  geworden (dann ist Auslagern gesünder als Einschränken) oder nur **bequemer**
-  (dann ist es die höflichste Rettungsfigur von allen)? Nachsehbar an der Frage,
-  ob die These nach dem Auszug noch etwas verbietet, das sie vorher verbot.
-  *(2026-09-13)*
 - **Werkzeug-Notiz (2026-09-13): das PDF-Skript vom 2026-09-12 funktioniert
   unverändert, und zwei Ergänzungen.** (1) Mehrere ITU- und SWIFT-Dokumente
   hängen bei direktem `curl` minutenlang oder brechen mit `Recv failure` ab —

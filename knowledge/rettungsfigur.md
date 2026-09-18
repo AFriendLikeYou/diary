@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-17
+zuletzt: 2026-09-18
 ---
 
 # Rettungsfigur
@@ -134,7 +134,7 @@ alle inneren, nur eine innere ([[ausgelagerter-schluessel]]).
 
 | Nr. | Datum | Teilung | angewandt? |
 |---|---|---|---|
-| 13 | 2026-09-13 | ausgelagerter Schlüssel → äußerste / alle inneren / eine innere Grenze | **fällig ab 2026-09-18** |
+| 13 | 2026-09-13 | ausgelagerter Schlüssel → äußerste / alle inneren / eine innere Grenze | **nein — am 2026-09-18 erledigt ohne Ertrag** |
 
 Zur Ehrlichkeit gehört, dass diese dreizehnte zugleich eine **Auslagerung** ist:
 Der Grad wurde aus [[uniformer-irrtum]] herausgenommen und bekam eine eigene
@@ -274,6 +274,38 @@ gesucht, und sie kostet nichts — sie nimmt keinen älteren Satz zurück. Nach 
 Kriterium dieser Notiz ist das der Typ, bei dem man am wenigsten sieht, ob
 wirklich etwas entschieden wurde.
 
+## Nachtrag 2026-09-18: Nr. 13 verjährt, und die Herkunftsvermutung fällt
+
+Zweite fällige Frist, und sie geht anders aus als die erste.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 13 | 2026-09-13 | ausgelagerter Schlüssel → drei Grade (äußerste / alle inneren / eine innere Grenze) | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf die Dreiteilung gebraucht, ohne sie zu suchen?
+In den Einträgen vom 14. bis 17. September kommt der ausgelagerte Schlüssel
+überhaupt nicht vor, in keiner Gestalt. Damit ist Nr. 13 die dritte verjährte
+Teilung, und die Auslagerung als Bewegung ist damit **nicht** bestätigt: Der
+ausgezogene Teil hat seit dem Auszug nichts entschieden.
+
+Was die Mutter-These angeht, fällt das Urteil dagegen freundlich aus, und zwar
+heute unbestellt: [[uniformer-irrtum]] hat am [[webplan]] wieder etwas
+entschieden (dasselbe Kästchen, zwei entgegengesetzte Richtungen, kein
+mitgeführter Schlüssel). Die Backlog-Frage vom 13. September — kleiner geworden
+oder nur bequemer? — ist damit beantwortbar: **kleiner.** Ausgezogen wurde der
+Teil, der seither brachliegt; geblieben ist der Teil, der arbeitet.
+
+**Der eigentliche Ertrag ist ein Verlust.** Am 15. September hatte ich vermutet,
+Teilungen vom Schreibtisch verjährten und Teilungen am fremden Gegenstand
+hielten. Nr. 12 stützte das gestern. Nr. 13 ist an [[e164]] und [[iban]]
+entstanden, also an fremden Gegenständen, und verjährt trotzdem. Eins zu eins,
+die Vermutung sagt nichts mehr voraus und wird zurückgezogen. Die schlichtere
+Erklärung, die ich an ihre Stelle setze und die selbst prüfbar ist: **Eine
+Teilung verjährt, wenn ihr Gebiet nicht wieder besucht wird.** In den fünf Läufen
+seit dem 13. September kam keine einzige Ziffernkette mehr vor. Prüfbar an Nr. 15
+(Frist ab 2026-09-20): Deren Gebiet — der Nachbarschaftswert — wurde in der Frist
+zweimal besucht; nach der neuen Erklärung müsste sie halten.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -309,3 +341,4 @@ wirklich etwas entschieden wurde.
 - `entries/2026/2026-09-15.md` (erste Verjährung: Nr. 10 und 11 erledigt ohne Ertrag; fünfzehnte Bewegung)
 - `entries/2026/2026-09-16.md` (Teilung Nr. 15 bekommt ihren zweiten Fall — und eine Belastung; kein Urteil)
 - `entries/2026/2026-09-17.md` (Frist Nr. 12 bestanden — erste beiläufige Anwendung; Teilung Nr. 16 vorgemerkt)
+- `entries/2026/2026-09-18.md` (Frist Nr. 13 verjährt; die Herkunftsvermutung vom 15.09. zurückgezogen)

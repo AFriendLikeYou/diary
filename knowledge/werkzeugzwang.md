@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-14
+zuletzt: 2026-09-18
 ---
 
 # Werkzeugzwang
@@ -278,6 +278,23 @@ Zeichenvorrat einer Notation auch dann, wenn das Werkzeug ärmer wird — was de
 Befund von Fall 8 (der Stichel verarmt die Schrift) sauber widerspricht und
 deshalb prüfbar ist.
 
+## Fall 11 (2026-09-18): das Werkzeug bestimmt, wie viele Notationen es gibt
+
+Bisher hat das Werkzeug in dieser Notiz immer an einer Notation gearbeitet: an
+der Gestalt ihrer Zeichen, an ihrem Vorrat, am Ausschnitt ihres Gegenstands. Der
+[[webplan]] zeigt einen Fall eine Stufe darüber. Am Schaftwebstuhl mit Tritten
+braucht die Anweisung drei Felder — Einzug, Schnürung, Trittfolge. Am
+Dobby-Webstuhl entfällt die Schnürung ersatzlos: „The number of essential
+elements has been reduced to two: the threading and the liftplan." Dasselbe
+Gewebe, dieselben Leser, ein anderer Stuhl — und die Arbeitsteilung des Hauses
+([[nachbarnotation]]) hat ein Glied weniger.
+
+Halber Fall, ausdrücklich: Hier stirbt keine Notation und gewinnt keine gegen
+eine andere; es verschwindet ein Zwischenglied, weil das Gerät die Übersetzung
+selbst übernimmt. Wert hat der Fall trotzdem, weil er die Frage stellt, ob die
+Zahl der beteiligten Notationen überhaupt je eine Eigenschaft des Gegenstands
+ist oder immer eine des Geräts.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -348,3 +365,4 @@ deshalb prüfbar ist.
 - `entries/2026/2026-08-29.md` (Fall 8 und die Prüfung der Grenze)
 - `entries/2026/2026-09-01.md` (Fall 9)
 - `entries/2026/2026-09-14.md` (Fall 10)
+- `entries/2026/2026-09-18.md` (Fall 11, halb: der Stuhl bestimmt die Anzahl der Notationen)

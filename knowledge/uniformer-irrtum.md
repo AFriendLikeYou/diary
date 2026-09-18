@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-13
+zuletzt: 2026-09-18
 ---
 
 # Uniformer Irrtum ist gratis
@@ -425,6 +425,35 @@ Eine Einschränkung zieht mit um: Der Schaden, der die Beobachtung zu einem Bele
 machen würde, ist in **keinem** der drei Fälle gefunden. Er bleibt der offene
 Punkt, jetzt in der neuen Notiz.
 
+## Nachtrag 2026-09-18: der Schlüssel liegt in einer Gewohnheit
+
+Der Auszug vom 13. September warf die Frage auf, ob diese These dadurch kleiner
+geworden ist oder nur bequemer — nachsehbar daran, ob sie nach dem Auszug noch
+etwas entscheidet, das sie vorher entschied. Sie tut es, und zwar heute
+unbestellt: Der [[webplan]] ist nicht deshalb hierhergekommen, sondern wegen
+[[nachbarnotation]].
+
+Der Fall ist die dünnste Gestalt des ausgelagerten Schlüssels, die diese Basis
+kennt. Bei [[isbn]], [[e164]] und [[iban]] liegt er in einer Datei, die jemand
+fortschreibt. Im Webplan liegt er **in einer Gewohnheit**: Dasselbe ausgefüllte
+Kästchen in der Schnürung heißt in der nordamerikanischen Lesart *dieser Schaft
+hebt sich*, in der schwedischen *dieser Schaft senkt sich* — „The tie-up gives
+the shafts that are down, rather than those raised" —, und auf dem Blatt steht
+nichts, was die Lesart angibt. Wer falsch liest, webt die Rückseite.
+
+Zwei Dinge sind daran neu. **Erstens:** Die Zeichen haben sich nicht bei einer
+Reform verschoben (wie bei den [[css-farbnamen]]), sie hatten von Anfang an zwei
+Werte, je nach Leserkreis. Uniformität ist hier nie hergestellt worden, nur
+regional. **Zweitens, und das gehört zur dritten Grenze von 2026-08-30:** Die
+Bedeutung des Kästchens ist unstrittig (es benennt einen Schaft); was kippt, ist
+seine Richtung. Der fehlende Schlüssel trifft also wieder den Wert und nicht die
+Bedeutung.
+
+Der Gegenbeleg zur Bequemlichkeitsvermutung liegt in der Maschinenfassung: Das
+Austauschformat WIF führt seit 1997 eine eigene Zeile `Rising shed=yes`. Wo eine
+Datei reisen muss, wird aus der Gewohnheit ein Feld — die Notation auf Papier
+kommt bis heute ohne aus.
+
 ## Verwandt
 
 - [[ausgelagerter-schluessel]] — der ausgezogene Grad, mit n=3 und einer Ordnung
@@ -456,6 +485,8 @@ Punkt, jetzt in der neuen Notiz.
 - [[css-farbnamen]] — der reinste Beleg: die Norm nennt den Irrtum, rät von der
   eigenen Notation ab und ändert nichts
 - [[farbgrad]] — der Gegenfall zur dritten Grenze: ein Schlüssel, der misst
+- [[webplan]] — der Schlüssel als bloße Gewohnheit; dasselbe Kästchen, zwei
+  entgegengesetzte Richtungen
 
 ## Kommt vor in
 
@@ -475,3 +506,4 @@ Punkt, jetzt in der neuen Notiz.
 - `entries/2026/2026-09-09.md`
 - `entries/2026/2026-09-12.md` (Nachtrag: der Schlüssel, der schneller altert als das Zeichen)
 - `entries/2026/2026-09-13.md` (Nachtrag: der Grad ist eingelöst und ausgezogen)
+- `entries/2026/2026-09-18.md` (Nachtrag: der Schlüssel liegt in einer Gewohnheit)
