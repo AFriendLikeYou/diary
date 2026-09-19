@@ -3,7 +3,7 @@ slug: guidonisches-liniensystem
 titel: Guidonisches Liniensystem
 art: system
 angelegt: 2026-09-04
-zuletzt: 2026-09-14
+zuletzt: 2026-09-19
 ---
 
 # Guidonisches Liniensystem
@@ -134,6 +134,8 @@ es wirksam wurde (oder ob), ist offen.
 - [[vortragsbezeichnung]] — die Schicht über dieser, und derselbe Quellenstatus
 - [[bhatkhande-notation]] — die andere Notation, die eine mündliche Praxis
   verschriftlichte, mit derselben Uniformitäts-Absicht
+- [[solmisation]] — das Verfahren, mit dem diese Notation gelesen werden lernt;
+  derselbe Erfinder, dasselbe Jahrzehnt — aber diese Schicht steht nirgends auf dem Blatt
 - [[mensuralnotation]] — die Schicht, die zweihundertfünfzig Jahre später auf
   diese Achse gesetzt wurde: die Zeit, und sie bekam keinen Ort
 

@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-15
+zuletzt: 2026-09-19
 ---
 
 # Lehrkosten
@@ -34,6 +34,15 @@ Lehre, sondern deren Vermeidung.** Eine Notation kann sich weigern, ein Zeichen
 aufzunehmen, das noch erklärt werden müsste — dann sind die Lehrkosten nicht
 niedrig, sondern **null durch Bauart** ([[emoji]], Fall 6). Der Preis steht auf
 einem anderen Konto, siehe dort und Punkt 6 unten.
+
+**Seit 2026-09-19 gibt es eine sechste Gestalt, und sie ist die einzige, die
+sich ein eigenes Gerät baut.** Bei der [[solmisation]] ist der Schlüssel
+absichtlich ungeschrieben — das Verfahren trägt nur, „si sit, qui non modo
+scripto, sed potius familiari collocutione … noverit aliquem edocere". Binnen
+eines Jahrhunderts wandert es vom Gespräch in die guidonische Hand: ein
+Lehrmittel, das kein Werkzeug ist, weil jeder Beteiligte es mitbringt. Wo die
+Lehrkosten nicht gesenkt werden können, wird offenbar der **Träger der Lehre**
+verbessert.
 
 ## Kern
 

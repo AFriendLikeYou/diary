@@ -3,7 +3,7 @@ slug: ausgelagerter-schluessel
 titel: Ausgelagerter Schlüssel
 art: muster
 angelegt: 2026-09-13
-zuletzt: 2026-09-13
+zuletzt: 2026-09-19
 ---
 
 # Ausgelagerter Schlüssel
@@ -26,6 +26,26 @@ verlässt.
 | 1 | [[e164]] | die **äußerste** Grenze (wo der Ländercode endet) | nichts — kein Trenner, keine Prüfstelle |
 | 2 | [[isbn]] | **alle inneren** Grenzen (drei von fünf Elementen variabel) | Präfix, Prüfziffer, Gesamtlänge |
 | 3 | [[iban]] | nur die **Unterteilung des nationalen Teils** | Ländercode, zwei Prüfziffern, feste Gesamtlänge |
+
+## Träger, nicht nur Grad (seit 2026-09-19)
+
+Die Ordnung oben fragt, **welche** Grenze das Zeichen verlässt. Eine zweite Frage
+ist, **worauf** der ausgelagerte Schlüssel dann liegt, und die drei Antworten
+dieser Basis sind ungleich haltbar:
+
+- eine **fortgeschriebene Datei** ([[isbn]], [[iban]], [[e164]]) — haltbar,
+  aber sie kann veralten, während die Zeichen im Umlauf bleiben;
+- eine **regionale Gewohnheit** ([[webplan]]) — nirgends niedergelegt, kippt
+  lautlos an der Traditionsgrenze;
+- ein **Körper** ([[solmisation]]) — Guido legt den Schlüssel seines Verfahrens
+  ausdrücklich ins Gespräch („facili tantum colloquio denudamus"), und binnen
+  eines Jahrhunderts zieht er von dort in die guidonische Hand.
+
+Der dritte Fall zeigt etwas, das die ersten beiden nicht zeigen: **Ein
+ausgelagerter Schlüssel bleibt nicht, wo er ist.** Er sucht sich einen
+haltbareren Träger, ohne dass an den Zeichen etwas geändert würde. Ob das
+allgemein gilt, ist mit n=1 offen; es wäre die interessanteste Prüffrage an
+dieser Notiz.
 
 ## Was die Ordnung erklärt
 

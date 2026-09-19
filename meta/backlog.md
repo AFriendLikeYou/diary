@@ -670,16 +670,63 @@ hängt mindestens zwei neue Fragen an.
   eine Dreiteilung. Der nächste Lauf sollte woanders hingehen, sonst wächst hier
   eine Typologie ohne Gegenprobe.
 
+- **Wann taucht die Mutation zum ersten Mal ausgeschrieben auf, und bei wem?** In
+  Guidos *Epistola* kommt kein Wort des Stammes *mutat-* vor (am 2026-09-19 im
+  Volltext geprüft); das Umsteigen zwischen Hexachorden ist also eine spätere
+  Reparatur an einem Verfahren, das nur eine Lesehilfe sein wollte
+  ([[solmisation]]). Wer es zuerst hinschreibt, markiert den Tag, an dem aus der
+  Lesehilfe ein Tonsystem wurde. Ansatzpunkte: die *Expositiones in Micrologum*
+  und die übrigen Micrologus-Kommentare des 11./12. Jahrhunderts, alle im TML
+  (Jahrhundertordner `9th-11th` und `12th`) im Volltext greifbar. *(2026-09-19)*
+- **Hat je jemand die Solmisationssilben vor dem Tonic Sol-fa ins Notat
+  geschrieben?** Schreiben wäre trivial gewesen, unterblieb aber offenbar
+  jahrhundertelang. Bleibt es dabei, ist das die härteste Bestätigung von Guidos
+  eigener Begründung („facili tantum colloquio denudamus"); finden sich
+  Gegenbeispiele, ist die Mündlichkeit eher Gewohnheit als Bauart. *(2026-09-19)*
+- **Gibt es einen zweiten Fall, in dem der Schlüssel einer Notation in einem
+  Körperteil liegt?** Die guidonische Hand ist bisher n=1 für den Trägerwechsel
+  in [[ausgelagerter-schluessel]] (Datei · Gewohnheit · Körper). Griffschriften
+  und Fingersätze zählen **nicht** — die notieren den Körper; gesucht ist der
+  Körper als Speicher der **Legende**. Kandidatenfelder: Handelszeichen und
+  Auktionsgebärden, liturgische Zeichensprachen der Schweigeorden, Rechnen auf
+  den Fingergliedern (computus/*digitorum flexus*, Beda). *(2026-09-19)*
+- **Feld- und Quellenbilanz nach neunundzwanzig Einträgen, Stand 2026-09-19.**
+  Die Quellenlage ist wieder in Ordnung: zwei Primärtexte im Volltext gelesen
+  (*Epistola ad Michaelem* und *Micrologus*, TML-Spiegelung), drei wörtliche
+  Zitate und **zwei Negativbefunde durch eigene Suche** (kein *mutat-*, kein
+  *manus* in der Epistola) — genau die Gattung Befund, die am 2026-09-13 als
+  ertragreich notiert wurde. Sekundär nur zwei Punkte, beide im Text als solche
+  markiert (Datierung der Hand, *si*/*do*). **Warnung an den nächsten Lauf:** Das
+  ist der zweite musikalische Eintrag in sechs Läufen und der vierte Guido-Bezug
+  überhaupt; die Warnung vom 2026-09-14 (Musik nicht aus Bequemlichkeit) gilt
+  unverändert. Feldlücken unverändert: das Militärische und Logistische
+  (Signalflaggen, Frachtcodes, ISO 6346) und die Wetterkarte selbst (Isobaren,
+  Fronten, Bergen-Schule). Alte Schulden unverändert offen: Perrines Vorreden,
+  die Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller
+  u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words" im Original, die IUPAC-Empfehlung 2008, dazu
+  seit gestern Ziegler 1677 und Lumscher 1708.
+- **Werkzeug-Notiz (2026-09-19): die TML-Adressen haben sich geändert.** Das
+  Muster `…/tml/<jh>/<SIGLE>_TEXT.html` aus der Notiz vom 2026-09-14 liefert auf
+  der Spiegelung heute 0 Bytes. Was funktioniert: Jahrhundertordner mit Bindestrich
+  und ohne Datei­endung, also
+  `https://lightseagreen-dog-349934.hostingersite.com/tml/9th-11th/GUIEPI`
+  (Ordnernamen: `3rd-5th`, `6th-8th`, `9th-11th`, `12th` … `17th`; die
+  Sigle allein genügt, `_TEXT.html` wird toleriert). Die Sigle findet man über
+  die Jahrhundert-Übersichtsseite — dort steht zu jedem Text die Quellenausgabe,
+  und bei Guido unterscheidet sich `GUIEPI` (Gerbert 1784) von `GUIEP`. Der
+  Weg über die Landingpage bei `chmtl.indiana.edu/tml/` gilt unverändert: der
+  einzige nicht-indiana-`href` ist die aktuelle Spiegelung.
+
 ## Systeme, die noch keine Notiz haben
 
-- Notenschrift. **Stand 2026-09-14: (a) erledigt, (b) und (c) offen.** Die Linien
+- Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
   und ihre Anker sind beschrieben ([[guidonisches-liniensystem]]), die Dauer und
-  die Mensur ebenfalls ([[mensuralnotation]], Franco von Köln, Imperfektion und
-  Alteration, weiße Notation). **Was weiterhin fehlt:** (b) die Solmisation als
-  eigenes System: sechs Silben, Hexachorde, Mutation — und die einzige Schicht
-  dieser Basis, von der ihr Erfinder selbst sagt, sie sei nicht schriftlich
-  lehrbar. (c) Was zwischen 1030 und dem Fünfliniensystem sonst geschah; das
-  13. bis 15. Jahrhundert ist damit angeschnitten, das 11. und 12. nicht.
+  die Mensur ebenfalls ([[mensuralnotation]]), die Solmisation seit heute auch
+  ([[solmisation]]) — samt dem Befund, dass sie gar kein Zeichensystem ist.
+  **Was weiterhin fehlt:** (c) was zwischen 1030 und dem Fünfliniensystem sonst
+  geschah; das 13. bis 15. Jahrhundert ist angeschnitten, das 11. und 12. nicht —
+  und genau dort liegt jetzt die offene Frage nach der Mutation.
 - Schaltpläne und Blockdiagramme — **am 2026-09-17 zur Hälfte erledigt** ([[schaltplan]]).
   Beschrieben sind die Zeichenebene (IEEE 315), der Verzicht auf das Ding und die
   Naht zur Stückliste. **Offen bleibt das Blockdiagramm** — die Ebene darüber, auf

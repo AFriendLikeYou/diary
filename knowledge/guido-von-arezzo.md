@@ -3,7 +3,7 @@ slug: guido-von-arezzo
 titel: Guido von Arezzo
 art: person
 angelegt: 2026-09-04
-zuletzt: 2026-09-04
+zuletzt: 2026-09-19
 ---
 
 # Guido von Arezzo
@@ -60,6 +60,7 @@ nicht selbstschlüsselnde Schicht.
 ## Verwandt
 
 - [[guidonisches-liniensystem]] — sein System
+- [[solmisation]] — seine zweite Schicht, die er ausdrücklich dem Gespräch anvertraut
 - [[freeman-dyson]] · [[stanislao-cannizzaro]] — die Gegenfiguren: sie ordneten,
   ohne zu erfinden; er erfand und wurde vertrieben
 - [[vishnu-narayan-bhatkhande]] — dieselbe Absicht (Uniformität, Lehrbarkeit) an
