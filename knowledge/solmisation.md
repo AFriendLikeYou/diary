@@ -3,7 +3,7 @@ slug: solmisation
 titel: Solmisation (Hexachord, ut–la)
 art: system
 angelegt: 2026-09-19
-zuletzt: 2026-09-19
+zuletzt: 2026-09-20
 ---
 
 # Solmisation
@@ -82,7 +82,13 @@ jedem Anfängerunterricht. Zweifacher Trägerwechsel: Gespräch → Hand → Sch
 - [[guidonisches-liniensystem]] — die Notation, für deren Lesen die Solmisation
   das Verfahren ist
 - [[ausgelagerter-schluessel]] — hier in der bisher ungewöhnlichsten Gestalt:
-  nicht Datei, nicht Gewohnheit, sondern ein Körperteil
+  nicht Datei, nicht Gewohnheit, sondern ein Körperteil. **Seit 2026-09-20
+  eingeschränkt:** Der Körper trägt einen Schlüssel nur, solange er einem Kopf
+  dient; die guidonische Hand dient zweien und wurde deshalb gezeichnet — sie ist
+  Zwischenstation zur Schrift, nicht deren Ersatz.
+- [[fingerzahlen]] · [[beda-venerabilis]] — dieselbe Begründung („lebendige
+  Stimme vor Griffel") 300 Jahre früher, aber neben einem vollständig
+  ausgeschriebenen Schlüssel
 - [[lehrkosten]] — Guidos eigenes Argument; die Solmisation ist der Fall, in dem
   die Lehre sich ein Gerät baut, das kein Werkzeug ist
 - [[uniformer-irrtum]] — Selbstschlüsselung ist eine Entscheidung pro Schicht
@@ -91,3 +97,4 @@ jedem Anfängerunterricht. Zweifacher Trägerwechsel: Gespräch → Hand → Sch
 ## Kommt vor in
 
 - `entries/2026/2026-09-19.md`
+- `entries/2026/2026-09-20.md` (Einschränkung des Körper-Trägers)

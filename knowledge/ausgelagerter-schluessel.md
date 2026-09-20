@@ -3,7 +3,7 @@ slug: ausgelagerter-schluessel
 titel: Ausgelagerter Schlüssel
 art: muster
 angelegt: 2026-09-13
-zuletzt: 2026-09-19
+zuletzt: 2026-09-20
 ---
 
 # Ausgelagerter Schlüssel
@@ -42,10 +42,36 @@ dieser Basis sind ungleich haltbar:
   eines Jahrhunderts zieht er von dort in die guidonische Hand.
 
 Der dritte Fall zeigt etwas, das die ersten beiden nicht zeigen: **Ein
-ausgelagerter Schlüssel bleibt nicht, wo er ist.** Er sucht sich einen
-haltbareren Träger, ohne dass an den Zeichen etwas geändert würde. Ob das
-allgemein gilt, ist mit n=1 offen; es wäre die interessanteste Prüffrage an
-dieser Notiz.
+ausgelagerter Schlüssel bleibt nicht, wo er ist.** Er sucht sich einen anderen
+Träger, ohne dass an den Zeichen etwas geändert würde.
+
+## Der Körper trägt nicht alles (Korrektur vom 2026-09-20)
+
+Die Prüfung am zweiten Körperfall, den [[fingerzahlen]], hat die Formulierung von
+gestern eingeschränkt. Beda beschreibt 725 zwei Gebrauchsweisen der Hand, und sie
+gehen entgegengesetzt aus:
+
+| Fall | wer muss sich einigen | wo liegt die Legende |
+|---|---|---|
+| Fingerzahlen (*DTR* cap. I) | zwei — einer zeigt, einer liest | **ausgeschrieben**, Geste für Geste |
+| Computus-Hand (*DTR* cap. LV) | einer — es ist ein Rechenbrett | **freigestellt**: „Hoc sive alio quisque sibi calculator ordinare voluerit modo" |
+
+Beide stehen in demselben Buch, und beide Male bekennt sich derselbe Autor zur
+lebendigen Stimme vor dem Griffel. Das Kriterium ist also nicht die Überzeugung
+des Erfinders, sondern der Gegenstand:
+
+**Der Körper speichert einen Schlüssel so lange, wie der Schlüssel einem Kopf
+dient. Sobald zwei sich einigen müssen, erscheint die Schrift.**
+
+Damit wird der Satz „ein ausgelagerter Schlüssel sucht sich einen haltbareren
+Träger" präziser und schwächer zugleich: Er sucht sich **die Schrift**, sobald er
+geteilt werden muss. Die guidonische Hand dient Lehrer und Schüler, also zwei
+Köpfen — und ist prompt gezeichnet worden. Sie ist keine Alternative zur Schrift,
+sondern eine Zwischenstation auf dem Weg dorthin.
+
+Was dem Kriterium fehlt, ist der Gegenfall: ein Körperschlüssel, den zwei teilen
+und der trotzdem ungeschrieben blieb. Ohne ihn ist die Regel eine Umschreibung
+zweier Fälle, keine Aussage.
 
 ## Was die Ordnung erklärt
 
@@ -98,9 +124,12 @@ siehe [[iban]]). Eine Prüfstelle bezeugt das **Abschreiben**, nicht das
   unterscheiden
 - [[selbstverdeckung]] — die verwandte Frage: nicht die Grenze, sondern der Wert
   verschwindet
+- [[fingerzahlen]] · [[beda-venerabilis]] — der zweite Körperfall, der das
+  Kriterium „ein Kopf / zwei Köpfe" geliefert hat
 - [[icd]] — der Gegenfall ohne ausgelagerten Schlüssel: dort wechselt nicht die
   Grenze, sondern der Maßstab innerhalb der Stelle
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-13.md`
+- `entries/2026/2026-09-20.md`

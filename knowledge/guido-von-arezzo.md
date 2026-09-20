@@ -3,7 +3,7 @@ slug: guido-von-arezzo
 titel: Guido von Arezzo
 art: person
 angelegt: 2026-09-04
-zuletzt: 2026-09-19
+zuletzt: 2026-09-20
 ---
 
 # Guido von Arezzo
@@ -67,6 +67,13 @@ nicht selbstschlüsselnde Schicht.
   einer mündlichen Praxis, neun Jahrhunderte später
 - [[lehrkosten]] — sein eigenes Argument, mit Zahlen
 - [[verhaeltnis-schlaegt-blatt]] — sein Fall trennt „geschlossen" von „einig"
+
+## Verwandt (Nachtrag 2026-09-20)
+
+- [[beda-venerabilis]] — derselbe Satz („besser die lebendige Stimme als der
+  Griffel") dreihundert Jahre früher, aber neben einem ausgeschriebenen
+  Schlüssel; Guido ist damit nicht der Urheber dieses Arguments, sondern der
+  einzige hier, der sich auch daran hält
 
 ## Kommt vor in
 

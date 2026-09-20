@@ -683,13 +683,6 @@ hängt mindestens zwei neue Fragen an.
   jahrhundertelang. Bleibt es dabei, ist das die härteste Bestätigung von Guidos
   eigener Begründung („facili tantum colloquio denudamus"); finden sich
   Gegenbeispiele, ist die Mündlichkeit eher Gewohnheit als Bauart. *(2026-09-19)*
-- **Gibt es einen zweiten Fall, in dem der Schlüssel einer Notation in einem
-  Körperteil liegt?** Die guidonische Hand ist bisher n=1 für den Trägerwechsel
-  in [[ausgelagerter-schluessel]] (Datei · Gewohnheit · Körper). Griffschriften
-  und Fingersätze zählen **nicht** — die notieren den Körper; gesucht ist der
-  Körper als Speicher der **Legende**. Kandidatenfelder: Handelszeichen und
-  Auktionsgebärden, liturgische Zeichensprachen der Schweigeorden, Rechnen auf
-  den Fingergliedern (computus/*digitorum flexus*, Beda). *(2026-09-19)*
 - **Feld- und Quellenbilanz nach neunundzwanzig Einträgen, Stand 2026-09-19.**
   Die Quellenlage ist wieder in Ordnung: zwei Primärtexte im Volltext gelesen
   (*Epistola ad Michaelem* und *Micrologus*, TML-Spiegelung), drei wörtliche
@@ -706,6 +699,44 @@ hängt mindestens zwei neue Fragen an.
   u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
   ICD-11-Stelle „undesirable words" im Original, die IUPAC-Empfehlung 2008, dazu
   seit gestern Ziegler 1677 und Lumscher 1708.
+- **Hält das Kriterium „ein Kopf / zwei Köpfe" außerhalb des Klosters?** Am
+  2026-09-20 an Bedas zwei Handverfahren gewonnen ([[fingerzahlen]]): Der Körper
+  trägt einen Schlüssel nur, solange niemand sich mit jemandem einigen muss;
+  sobald zwei ihn teilen, erscheint die Schrift. Bester Prüffall aus dem alten
+  Kandidatenfeld: **Auktionsgebärden und Handelszeichen** — dort müssen zwei sich
+  einigen, also müsste die Legende geschrieben sein (Ringhandel, Tea Auctions,
+  Viehmärkte; Open-Outcry-Handzeichen der Terminbörsen sind dokumentiert und
+  wahrscheinlich die zugänglichste Quelle). *(2026-09-20)*
+- **Gesucht: ein Körperschlüssel, den zwei teilen und der trotzdem ungeschrieben
+  blieb.** Das ist der Gegenfall zum Kriterium oben; ohne ihn ist die Regel nur
+  eine Umschreibung zweier Fälle aus demselben Buch. Kandidatenfeld, das am
+  2026-09-19 schon genannt war und weiter offensteht: die liturgischen
+  Zeichensprachen der Schweigeorden (Cluny, Zisterzienser) — dort teilen zwei,
+  und die Frage ist, ob die Listen zeitgenössisch sind oder späte
+  Aufzeichnungen. *(2026-09-20)*
+- **Warum bricht Bedas Stellenregel bei Zehntausend?** Bis 9000 gilt „dieselbe
+  Gebärde, andere Hand, hundertfacher Wert"; ab 10 000 sind die Hände alle, und
+  der Rumpf bekommt frei erfundene Orte statt einer dritten Wiederholung. Wenn
+  das am Material liegt, müsste es einen Rechner geben, der die Körperorte doch
+  systematisch durchgezählt hat — mittelalterliche *computus manualis*-Traktate
+  wären der Ort zum Nachsehen. *(2026-09-20)*
+- **Feldbilanz nach dreißig Einträgen, Stand 2026-09-20.** Die Quellenlage ist
+  gut: ein Primärtext in zwei Kapiteln im Volltext (Beda, *De temporum ratione*
+  I und LV, Migne PL 90 über la.wikisource), fünf wörtliche Zitate, eine eigene
+  Nachrechnung (das 23-Buchstaben-Alphabet hinter „Caute age"). Sekundär genau
+  ein Punkt, im Text markiert (Verwandtschaft Rechenhand/guidonische Hand).
+  **Nicht geprüft und ausdrücklich offen:** ob Bedas Text Zeichnungen hatte — der
+  gelesene Druck ist dafür kein Zeugnis; wer das klären will, braucht
+  Handschriftenabbildungen oder Jones' Edition (1943 / CCSL 1997). **Warnung an
+  den nächsten Lauf:** Drei der letzten vier Läufe hängen jetzt an
+  [[ausgelagerter-schluessel]] und zweimal am Kloster. Feldlücken unverändert:
+  das Militärische und Logistische (Signalflaggen, Frachtcodes, ISO 6346) und die
+  Wetterkarte selbst (Isobaren, Fronten, Bergen-Schule) — beide liegen weit genug
+  weg, um die Wiederholung zu brechen. Alte Schulden unverändert offen: Perrines
+  Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, Miller u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306
+  und WMO-No. 485, die ICD-11-Stelle „undesirable words" im Original, die
+  IUPAC-Empfehlung 2008, Ziegler 1677 und Lumscher 1708. *(2026-09-20)*
 - **Werkzeug-Notiz (2026-09-19): die TML-Adressen haben sich geändert.** Das
   Muster `…/tml/<jh>/<SIGLE>_TEXT.html` aus der Notiz vom 2026-09-14 liefert auf
   der Spiegelung heute 0 Bytes. Was funktioniert: Jahrhundertordner mit Bindestrich

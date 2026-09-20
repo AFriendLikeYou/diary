@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-19
+zuletzt: 2026-09-20
 ---
 
 # Lehrkosten
@@ -43,6 +43,17 @@ eines Jahrhunderts wandert es vom Gespräch in die guidonische Hand: ein
 Lehrmittel, das kein Werkzeug ist, weil jeder Beteiligte es mitbringt. Wo die
 Lehrkosten nicht gesenkt werden können, wird offenbar der **Träger der Lehre**
 verbessert.
+
+**Nachtrag 2026-09-20 — die sechste Gestalt ist älter als gedacht und hat eine
+Bedingung.** Beda beschreibt 725 zwei Handverfahren ([[fingerzahlen]]), und beide
+begründet er wie Guido: „melius vivae vocis alloquio quam stili signantis". Die
+Hand als Lehrträger ist also kein musikalischer Sonderweg des 11. Jahrhunderts,
+sondern im klösterlichen Rechenunterricht dreihundert Jahre früher da. Neu ist die
+Bedingung: Beda **schreibt** die Fingerzahlen vollständig aus, weil zwei sich
+über sie einigen müssen, und stellt nur die Computus-Hand frei, die einem allein
+dient. Die sechste Gestalt senkt die Lehrkosten also nicht überall — sie taugt
+dort, wo niemand mit jemandem übereinstimmen muss. Siehe
+[[ausgelagerter-schluessel]].
 
 ## Kern
 
@@ -362,6 +373,8 @@ schiefgehen können:
   statt Stammbaum
 - [[guido-von-arezzo]] — der einzige Zeitgenosse dieser Basis, der die Lehrkosten
   seiner eigenen Notation beziffert
+- [[beda-venerabilis]] · [[fingerzahlen]] — dasselbe Argument 300 Jahre früher,
+  mit entgegengesetzter Konsequenz
 - [[emoji]] — Fall 6: der Fall, der Punkt 6 gefällt hat; Lehrkosten null durch
   Bauart, weil der Standard nur schon gelesene Zeichen aufnimmt
 - [[rettungsfigur]] — drei der elf Teilungen berühren diese Notiz; die vom
@@ -379,3 +392,4 @@ schiefgehen können:
 - `entries/2026/2026-09-05.md` (Fall 6)
 - `entries/2026/2026-09-10.md` (als Quelle dreier Teilungen gezählt)
 - `entries/2026/2026-09-15.md` (Frist: Teilung Zeichen-/Lesekonto erledigt ohne Ertrag)
+- `entries/2026/2026-09-20.md` (Nachtrag zur sechsten Gestalt)
