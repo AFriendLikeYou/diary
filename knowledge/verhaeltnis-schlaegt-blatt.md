@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-17
+zuletzt: 2026-09-21
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -142,6 +142,31 @@ zweites Dokument bei der Hand hat. Für diese Lesart spricht, dass die Rangordnu
 Geltungsabschnitt der Zeichennorm, hängt also nicht daran, wer liest. Zu prüfen
 an einem dritten Fall.
 
+## Nachtrag 2026-09-21: der erste Verzicht, den die Macher aufschreiben
+
+Fünfter Fall der Rangordnung, und der einzige, in dem ich das Opfer nicht
+rekonstruieren muss. Die IMCO-Revision des [[internationales-signalbuch]]s
+schafft 1965/69 die Vokabelmethode ab — „each signal has a complete meaning …
+It thus leaves out the vocabulary method which was part of the old Code" — und
+begründet es im selben Vorwort mit dem Leser: Der Code sei für Lagen gedacht,
+„especially when language difficulties arise", und ausdrücklich entbehrlich,
+„whenever language difficulties do not exist".
+
+Das trifft diese These an der empfindlichsten Stelle. Geopfert wird nicht
+irgendetwas, sondern der **Ausdrucksumfang** — nach dieser These der einzige
+Posten, der der Notation selbst gehört. Er wird um rund zwei Größenordnungen
+zurückgebaut (eigene Rechnung: unter 1400 mögliche Bedeutungen gegen 70 000 im
+Buch von 1857), und zwar freiwillig, ohne Schnittstellendruck, ohne
+Werkzeuggrenze, ohne Konkurrenten. Die Rangordnung hält damit nicht nur, sie ist
+zum ersten Mal von den Beteiligten selbst formuliert worden statt von mir.
+
+**Was das kostet:** Wenn der eigene Posten derart verhandelbar ist, wird die
+Rede vom „einzigen eigenen Posten" schwächer, als sie am 2026-09-03 gemeint war.
+Er bleibt der einzige, der die Probe des leeren Lesesaals übersteht — aber er ist
+kein Kern, den die Notation gegen ihre Verhältnisse verteidigt, sondern die
+Masse, aus der sie im Zweifel etwas abgibt. Das Muster dazu ist
+[[ausdrucksverzicht]], n=2 und beide Fälle in demselben System.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -177,6 +202,7 @@ an einem dritten Fall.
 - [[guidonisches-liniensystem]] — Prüffall 2026-09-04, der die Vorbedingung teilt
 - [[guido-von-arezzo]] — der Erfinder, den sein eigener Leserkreis hinauswarf
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
+- [[ausdrucksverzicht]] — der freiwillige Rückbau des einzigen eigenen Postens
 - [[rettungsfigur]] — die Teilung vom 2026-09-04 ist dort Fall 10 und eine der
   drei, die noch nicht auf einen Fall angewandt wurden, der sie nicht erzwang —
   am 2026-09-15 verjährt: erledigt ohne Ertrag (siehe Nachtrag)
@@ -187,3 +213,4 @@ an einem dritten Fall.
 - `entries/2026/2026-09-04.md` (Prüfung der Rangordnung)
 - `entries/2026/2026-09-15.md` (Frist: Teilung erledigt ohne Ertrag)
 - `entries/2026/2026-09-17.md` (Kandidat für ein fünftes Gegenüber, nicht entschieden)
+- `entries/2026/2026-09-21.md` (fünfter Rangordnungsfall, vom Normgeber aufgeschrieben)

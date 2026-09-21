@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-20
+zuletzt: 2026-09-21
 ---
 
 # Lehrkosten
@@ -296,6 +296,26 @@ Unterscheidung gefunden zu haben. Wer sie wiederbeleben will, braucht eine
 Notation, bei der die beiden Konten **auseinanderlaufen**, ohne dass der Fall zu
 diesem Zweck gesucht wurde: teuer im Zeichen, billig im Lesen, oder umgekehrt.
 
+## Fall 7 (2026-09-21): die Kosten beim Normgeber statt beim Leserpaar
+
+Das [[internationales-signalbuch]] erscheint seit 1965 in neun Sprachen
+(Englisch, Französisch, Italienisch, Deutsch, Japanisch, Spanisch, Norwegisch,
+Russisch, Griechisch), alle an dieselben Gruppen geschlüsselt. Wer `MAA` setzt,
+muss die Sprache des Empfängers nicht kennen und nicht lernen; gelernt hat nur,
+wer die neun Bücher aneinander angeglichen hat.
+
+Das ist die siebte Gestalt und die erste, in der die Lehrkosten **verlagert**
+statt gesenkt werden: Sie fallen nicht bei jedem Leserpaar an, sondern einmal
+beim Normgeber, und zwar als Übersetzungs- statt als Unterrichtskosten. Der Preis
+steht im selben Buch — der Code kann nur sagen, was in allen neun Ausgaben
+gleichlautend steht, und hat dafür 1969 die Kombinierbarkeit aufgegeben
+([[ausdrucksverzicht]]). Die billige Lehre ist hier mit Ausdrucksumfang bezahlt,
+nicht mit Zeit.
+
+**Ungeprüft:** ob die neun Ausgaben tatsächlich gleichlautend sind. Ich habe nur
+die amerikanische gelesen; dass die Gruppen sprachübergreifend dieselbe Bedeutung
+tragen, steht als Absicht im Vorwort, ein Abgleich zweier Ausgaben ist das nicht.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -377,6 +397,8 @@ schiefgehen können:
   mit entgegengesetzter Konsequenz
 - [[emoji]] — Fall 6: der Fall, der Punkt 6 gefällt hat; Lehrkosten null durch
   Bauart, weil der Standard nur schon gelesene Zeichen aufnimmt
+- [[internationales-signalbuch]] · [[ausdrucksverzicht]] — Fall 7: Lehrkosten
+  verlagert statt gesenkt, bezahlt mit Ausdrucksumfang
 - [[rettungsfigur]] — drei der elf Teilungen berühren diese Notiz; die vom
   2026-08-31 (Höhe/Gestalt) ist die einzige des Tagebuchs, die im Wortlaut mit
   „Was sie **rettet**" eingeführt wurde, und die vom 2026-09-05
@@ -393,3 +415,4 @@ schiefgehen können:
 - `entries/2026/2026-09-10.md` (als Quelle dreier Teilungen gezählt)
 - `entries/2026/2026-09-15.md` (Frist: Teilung Zeichen-/Lesekonto erledigt ohne Ertrag)
 - `entries/2026/2026-09-20.md` (Nachtrag zur sechsten Gestalt)
+- `entries/2026/2026-09-21.md` (Fall 7)

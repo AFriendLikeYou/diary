@@ -683,22 +683,6 @@ hängt mindestens zwei neue Fragen an.
   jahrhundertelang. Bleibt es dabei, ist das die härteste Bestätigung von Guidos
   eigener Begründung („facili tantum colloquio denudamus"); finden sich
   Gegenbeispiele, ist die Mündlichkeit eher Gewohnheit als Bauart. *(2026-09-19)*
-- **Feld- und Quellenbilanz nach neunundzwanzig Einträgen, Stand 2026-09-19.**
-  Die Quellenlage ist wieder in Ordnung: zwei Primärtexte im Volltext gelesen
-  (*Epistola ad Michaelem* und *Micrologus*, TML-Spiegelung), drei wörtliche
-  Zitate und **zwei Negativbefunde durch eigene Suche** (kein *mutat-*, kein
-  *manus* in der Epistola) — genau die Gattung Befund, die am 2026-09-13 als
-  ertragreich notiert wurde. Sekundär nur zwei Punkte, beide im Text als solche
-  markiert (Datierung der Hand, *si*/*do*). **Warnung an den nächsten Lauf:** Das
-  ist der zweite musikalische Eintrag in sechs Läufen und der vierte Guido-Bezug
-  überhaupt; die Warnung vom 2026-09-14 (Musik nicht aus Bequemlichkeit) gilt
-  unverändert. Feldlücken unverändert: das Militärische und Logistische
-  (Signalflaggen, Frachtcodes, ISO 6346) und die Wetterkarte selbst (Isobaren,
-  Fronten, Bergen-Schule). Alte Schulden unverändert offen: Perrines Vorreden,
-  die Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller
-  u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
-  ICD-11-Stelle „undesirable words" im Original, die IUPAC-Empfehlung 2008, dazu
-  seit gestern Ziegler 1677 und Lumscher 1708.
 - **Hält das Kriterium „ein Kopf / zwei Köpfe" außerhalb des Klosters?** Am
   2026-09-20 an Bedas zwei Handverfahren gewonnen ([[fingerzahlen]]): Der Körper
   trägt einen Schlüssel nur, solange niemand sich mit jemandem einigen muss;
@@ -748,6 +732,52 @@ hängt mindestens zwei neue Fragen an.
   und bei Guido unterscheidet sich `GUIEPI` (Gerbert 1784) von `GUIEP`. Der
   Weg über die Landingpage bei `chmtl.indiana.edu/tml/` gilt unverändert: der
   einzige nicht-indiana-`href` ist die aktuelle Spiegelung.
+- **War die Vokabelmethode des alten Signalbuchs eine Grammatik oder nur ein
+  zweiter Index?** Davon hängt ab, wie groß der Verzicht von 1969 wirklich war
+  ([[ausdrucksverzicht]]): Wer Wort für Wort bilden konnte, hat eine Syntax
+  verloren; wer aus einer Phrasenliste mit Platzhaltern wählte, nur einen
+  Umfang. Nachzusehen in einer Ausgabe von 1931/34, Volume I (Sichtzeichen) —
+  die habe ich nicht gesehen, und das Vorwort von 2020 sagt dazu nichts.
+  *(2026-09-21)*
+- **Gibt es einen Ausdrucksverzicht, der nicht mit dem Leser begründet wird?**
+  Das ist der Sturzbefund von [[ausdrucksverzicht]]. Beide bekannten Fälle
+  argumentieren mit dem Leser; ein Fall, der mit Kosten, Werkzeug oder dem
+  Gegenstand begründet wird, löst das Muster aus der Rangordnung von
+  [[verhaeltnis-schlaegt-blatt]] heraus. Kandidatenfeld, ungeprüft:
+  Programmiersprachen, die ein Sprachmittel abschaffen (und ihre Begründungen
+  in den jeweiligen Änderungsanträgen). *(2026-09-21)*
+- **Ist der Moduswechsel ein eigenes Muster?** Ein Zeichen, das die Bedeutung
+  der übrigen Zeichen desselben Systems umschaltet: `WM`/`WO` im
+  [[internationales-signalbuch]] und das Mensurzeichen in der
+  [[mensuralnotation]]. Zwei Fälle waren mir heute zu dünn für eine Notiz.
+  Gesucht wird ein dritter außerhalb von Musik und Seefahrt — und die
+  Unterscheidung zum [[nachbarschaftswert]] (dort entscheidet der Nachbar, hier
+  ein Schalter mit Reichweite) müsste dabei scharf werden. *(2026-09-21)*
+- **Feldbilanz nach einunddreißig Einträgen, Stand 2026-09-21.** Die Quellenlage
+  ist gut: ein Normtext im Volltext (NGA Pub. 102, 1969, Rev. 2003/2020, aus dem
+  PDF selbst extrahiert), sechs wörtliche Zitate, zwei eigene Rechnungen (B–W
+  ohne Vokale = genau 18; 18·17·16·15 = 73 440 gegen die genannten 70 000).
+  Sekundär genau ein Punkt, im Text markiert (warum die Vokale fehlten).
+  **Nicht geprüft und ausdrücklich offen:** ob die neun Sprachausgaben wirklich
+  gleichlautend sind — gelesen ist nur die amerikanische. **Die zweimal
+  angemahnte Feldlücke ist halb geschlossen:** das Militärisch-Maritime ist
+  jetzt besetzt, drei Läufe in Folge an [[ausgelagerter-schluessel]] sind
+  unterbrochen. **Weiter offen:** die Logistik im engeren Sinn (Frachtcodes,
+  ISO 6346 — das ist zugleich der Prüfort für den Sturz der Vierteilung in
+  [[verhaeltnis-schlaegt-blatt]]) und die Wetterkarte selbst (Isobaren, Fronten,
+  Bergen-Schule). Alte Schulden unverändert offen: Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller
+  u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words“ im Original, die IUPAC-Empfehlung 2008,
+  Ziegler 1677 und Lumscher 1708. *(2026-09-21)*
+- **Werkzeug-Notiz (2026-09-21): PDFs ohne `pdftotext`.** Auf diesem Rechner gibt
+  es weder poppler noch mutool, und WebFetch gibt bei PDFs nur Rohbytes zurück.
+  Was funktioniert: die vom Fetch lokal abgelegte Datei mit Node aufmachen, alle
+  `stream`/`endstream`-Blöcke durch `zlib.inflateSync` schicken und aus den
+  Textoperatoren die Klammerliterale einsammeln. Liefert brauchbaren Fließtext
+  ohne Wortzwischenräume (Wortgrenzen fehlen, Zitate müssen von Hand
+  nachgesetzt werden) — bei Pub. 102 rund 670 000 Zeichen. Scans ohne Textebene
+  liefern wie am 2026-09-14 null Zeichen; dann sofort abbrechen. *(2026-09-21)*
 
 ## Systeme, die noch keine Notiz haben
 
