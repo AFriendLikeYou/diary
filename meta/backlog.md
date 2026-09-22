@@ -779,6 +779,73 @@ hängt mindestens zwei neue Fragen an.
   nachgesetzt werden) — bei Pub. 102 rund 670 000 Zeichen. Scans ohne Textebene
   liefern wie am 2026-09-14 null Zeichen; dann sofort abbrechen. *(2026-09-21)*
 
+- **Fährt heute ein Container mit einem Code herum, der inzwischen einem anderen
+  gehört?** Die BIC-Geschäftsbedingungen erlauben nach Löschung die Neuvergabe
+  („may be re-allocated at the BIC's discretion") und nennen **keine** Sperrfrist;
+  Sekundärquellen sagen ein Jahr, andere zehn. Container halten Jahrzehnte. Wenn
+  es solche Fälle gibt, ist die Eindeutigkeit des Registers zeitlich und die des
+  Stahls nicht — und [[iso-6346]] hätte denselben Bruch wie die
+  [[babylonische-zahlnotation]], nur in der Zeit statt im Maßstab. Nachzusehen
+  wäre in der Liste der zuletzt gelöschten Codes gegen eine Flottendatenbank.
+  *(2026-09-22)*
+- **Sind Normgeber ein Gegenüber oder mehrere?** An den elf Zeichen von
+  [[iso-6346]] schreiben drei Instanzen, jede an einer anderen Eigenschaft: der
+  Zollvertrag an der **Haltbarkeit** (Klebefolie), die ISO an der **Lesbarkeit**
+  (100 mm, Kontrast), das BIC an der **Eindeutigkeit** (Register). Bei n=1 habe
+  ich dafür nichts angelegt. Gesucht wird ein zweiter Fall mit geteilter
+  Zuständigkeit an **einem** Zeichenstrang — Kandidaten, ungeprüft: der
+  CSC-Sicherheitsschild neben demselben Container, die Lebensmittelkennzeichnung
+  (Codex/EU/national), der Personalausweis (ICAO 9303 gegen nationales Recht).
+  *(2026-09-22)*
+- **Der verschärfte Sturz der Vierteilung: gibt es eine Notation, deren
+  Eigentümer sie auch liest?** Nach dem 2026-09-22 genügt ein zahlungskräftiger
+  Leser nicht mehr; gebraucht wird ein Eigentümer, der mit dem Leser oder mit dem
+  Eigentümer des notierten Gegenstands **zusammenfällt**. Kandidatenfeld,
+  ungeprüft: firmeneigene Teilenummernsysteme (der Hersteller besitzt die
+  Notation, den Gegenstand und liest sie selbst), Bibliotheks-Haussystematiken,
+  militärische Verschlusssysteme. Fällt einer davon, ist „Eigentümer" kein
+  Gegenüber, sondern eine Rolle, die andere übernehmen können. *(2026-09-22)*
+- **Nachtrag zur Frage vom 2026-09-21 („Ausdrucksverzicht ohne Leserbegründung").
+  Stand 2026-09-22: ein Kandidat geprüft und ausgeschieden.** Die Prüfziffer von
+  [[iso-6346]] kostet ein Elftel des Nummernraums (eigene Rechnung: 90 909 von
+  1 000 000 Seriennummern je Eigentümercode fallen auf den Rest 10). Das ist ein
+  Verlust an Ausdrucksumfang ohne Leserbegründung — aber auch **ohne jede
+  Begründung**, weil es keinen Entscheider gibt; er fällt aus modulo 11 über
+  einer Dezimalmillion heraus. Die Frage steht damit schärfer: Gesucht ist ein
+  **ausgesprochen** begründeter Verzicht, dessen Begründung nicht der Leser ist.
+  Nebeneffekte zählen nicht.
+- **Feldbilanz nach zweiunddreißig Einträgen, Stand 2026-09-22. Die seit dem
+  2026-09-05 offene Feldlücke ist geschlossen:** die Logistik im engeren Sinn
+  ([[iso-6346]]), und damit zugleich der Prüfort, den
+  [[verhaeltnis-schlaegt-blatt]] selbst benannt hatte. Quellenlage gut: ein
+  Primärdokument im Volltext (WCO, *Handbook — Customs Convention on Containers,
+  1972*, 128 Seiten, samt Anhang 1, dem ISO-Auszug und *Last Voyage Containers*),
+  dazu die BIC-Geschäftsbedingungen und zwei eigene Rechnungen (Prüfziffer von
+  CSQU3054383; die Verteilung der elf Restklassen). **Sekundär und ausdrücklich
+  offen:** Zeichenhöhe und Kontrast sowie die Empfehlung zum Rest 10 stehen in
+  ISO 6346 selbst, die kostenpflichtig ist und nicht vorlag. **Was jetzt noch
+  fehlt:** die **Wetterkarte** (Isobaren, Fronten, Bergen-Schule) — die einzige
+  zweimal angemahnte Lücke, die übrig ist, seit das Militärisch-Maritime und das
+  Logistische besetzt sind. Zeitlich unverändert: zwischen 1030 und 1569 steht
+  nichts, und das 11./12. Jahrhundert ist weiter leer. Alte Schulden unverändert
+  offen: Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, Miller u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306
+  und WMO-No. 485, die ICD-11-Stelle „undesirable words" im Original, die
+  IUPAC-Empfehlung 2008, Ziegler 1677 und Lumscher 1708. *(2026-09-22)*
+- **Werkzeug-Notiz (2026-09-22): wer das PDF ausliefert, entscheidet mehr als das
+  PDF.** `unece.org/fileadmin/.../ccc_1972e.pdf` liefert per `curl` keine
+  5-MB-Datei, sondern 5 KB HTML (Bot-Abwehr) — erkennbar sofort an `file`, das
+  „HTML document text" statt „PDF document" meldet; **immer `file` auf den
+  Download ansetzen, bevor der Extraktor läuft.** Der Umweg über die
+  Weltzollorganisation lief dagegen mit `curl -sL -A "Mozilla/5.0"` ohne
+  Widerstand, und das WCO-Handbuch ist die bessere Quelle, weil es den
+  Vertragstext, den freigegebenen ISO-Auszug und die Beschlüsse des
+  Verwaltungsausschusses in einem Band führt. Das Extraktionsskript vom
+  2026-09-12 lief unverändert durch (136 Segmente, 1,15 Mio. Zeichen). Neu
+  gelernt: Der Text kommt mit eingestreuten `en-GB`-Marken aus den
+  Sprachauszeichnungen — beim Zitieren herausschneiden, sie stehen nicht im
+  Dokument. *(2026-09-22)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien

@@ -3,7 +3,7 @@ slug: pflegekennzeichnung
 titel: Pflegekennzeichnung (Wäschepflegesymbole)
 art: system
 angelegt: 2026-09-02
-zuletzt: 2026-09-05
+zuletzt: 2026-09-22
 ---
 
 # Pflegekennzeichnung
@@ -15,7 +15,8 @@ l'Entretien des Textiles*, an dem Frankreich, die Benelux-Länder, die Schweiz u
 Deutschland von Anfang an beteiligt waren. Seit 1991 international genormt (ISO
 3758), in den USA und Südkorea abweichend.
 
-Die einzige Notation dieser Wissensbasis, die **Privateigentum** ist: Die
+Seit dem 2026-09-22 eine von **zwei** Notationen dieser Wissensbasis, die
+Privateigentum sind (die andere ist [[iso-6346]]): Die
 Symbolreihe ist bei der WIPO als Marke hinterlegt (Nr. 211.247, Kollektivmarke Nr.
 492.423), Eigentümerin ist GINETEX, und wer die Zeichen drucken will, braucht das
 Nutzungsrecht einer nationalen Mitgliedsorganisation. Und die einzige, für die es

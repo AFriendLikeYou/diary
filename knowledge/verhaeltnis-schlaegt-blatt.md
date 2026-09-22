@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-21
+zuletzt: 2026-09-22
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -34,7 +34,7 @@ Die vier Gegenüber, mit den Notizen, die sie besetzen:
 | **Leser** | ja | [[uniformer-irrtum]] · [[lehrkosten]] · [[stellvertreterlesung]] · [[notationskrieg]] · [[interoperabilitaetsdruck]] · [[selbstverdeckung]] (Grad 2) |
 | **Werkzeug** | nein | [[werkzeugzwang]] |
 | **Gegenstand** | nein | [[vorzeichenkonvention]] · [[laufende-notation]] · [[handlungs-vs-ergebnis-notation]] |
-| **Eigentümer** | ja | [[pflegekennzeichnung]] (Markenrecht, Kostenträgerschaft) |
+| **Eigentümer** | ja | [[pflegekennzeichnung]] (Markenrecht, Kostenträgerschaft) · [[iso-6346]] (Registerbesitz, Jahresgebühr) |
 
 Die Rangordnung, vier Fälle aus der eigenen Basis, alle in dieselbe Richtung:
 
@@ -167,6 +167,39 @@ kein Kern, den die Notation gegen ihre Verhältnisse verteidigt, sondern die
 Masse, aus der sie im Zweifel etwas abgibt. Das Muster dazu ist
 [[ausdrucksverzicht]], n=2 und beide Fälle in demselben System.
 
+## Nachtrag 2026-09-22: der Prüfort war besetzt — von zweien
+
+Der für die Vierteilung vorgemerkte Sturz ist an [[iso-6346]] geprüft und **nicht
+eingetreten**, und zwar aus einem Grund, den die Vorhersage nicht enthielt. Ich
+hatte einen Eigentümer erwartet, der seine Notation nicht liest. Gefunden habe ich
+**zwei Eigentümer, die nicht dieselben sind**: Dem Reeder gehört der Container,
+dem Bureau International des Containers gehört das Verzeichnis, in dem der Name
+des Reeders steht — „the BIC is the sole producer of the Registry", und „The
+duration of validity of a BIC Code is of one calendar year."
+
+Das BIC besitzt keinen Container und liest keine Stahlwand; gelesen wird von Zoll,
+Terminal und Verfrachter, und das Zollhandbuch trennt diese Rollen ausdrücklich
+(Verfrachter „cannot be held responsible for ensuring compliance with the
+numbering and marking requirements for containers that they do not themselves own
+and operate"). Schreiber, Eigentümer und Leser sind drei Parteien. Der Eigentümer
+ist damit nicht auf einen zahlungskräftigen Leser zurückführbar — er ist hier
+nicht einmal Eigentümer des notierten Gegenstands.
+
+**Was das der These bringt:** Das vierte Gegenüber hat seinen **zweiten** Fall,
+in einem zweiten Feld und ohne Berührungspunkt zum ersten. Bei der
+[[pflegekennzeichnung]] besitzt GINETEX die Symbolreihe, Hersteller lizenzieren
+sie, Verbraucher lesen sie; bei ISO 6346 besitzt das BIC das Register, Reeder
+mieten ihren Code jährlich, Zöllner lesen ihn. Dieselbe Dreiteilung in
+Textilwirtschaft und Seeverkehr, sechzig Jahre auseinander.
+
+**Was es kostet:** Die Vierteilung ist damit besser belegt, aber die Zahl *vier*
+ist es nicht. Wenn der Eigentümer der Notation regelmäßig ein Verband ist, der
+weder schreibt noch liest, könnte „Eigentümer" auch der Name für eine **Instanz,
+die Eindeutigkeit verwaltet** sein — und dann stünde daneben die Frage, ob
+Normgeber überhaupt ein Gegenüber sind oder drei (bei ISO 6346 regeln Vertrag,
+ISO und BIC je eine andere Eigenschaft derselben elf Zeichen). Bei n=1 für diese
+Dreiteilung lege ich dafür nichts an; sie steht im Backlog.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -175,8 +208,10 @@ Masse, aus der sie im Zweifel etwas abgibt. Das Muster dazu ist
   eingetreten**; die Bedingung ist dabei in zwei zerfallen (siehe Nachtrag). Der
   Sturzbefund gilt unverändert weiter, jetzt mit Betonung auf *einig*.
 - **Sturz der Vierteilung:** der Eigentümer ist kein eigenes Gegenüber, sondern ein
-  zahlungskräftiger Leser. Prüfort: eine Notation in Privatbesitz, deren Eigentümer
-  sie **nicht** liest (Frachtcodes, Containerkennzeichnung).
+  zahlungskräftiger Leser. Prüfort war die Containerkennzeichnung. **Am 2026-09-22
+  geprüft und nicht eingetreten** (siehe Nachtrag); der Sturzbefund gilt in
+  verschärfter Form weiter: Gesucht ist jetzt ein Eigentümer, der mit dem Leser
+  oder mit dem Eigentümer des Gegenstands zusammenfällt.
 - **Sturz des einzigen eigenen Postens:** Notationen ohne Blatt (Gebärden,
   Börsenhandzeichen, gesprochene Rechenformeln). Übersteht dort nichts die Probe,
   ist der Ausdrucksumfang eine Eigenschaft des Papiers und nicht der Notation.
@@ -203,6 +238,7 @@ Masse, aus der sie im Zweifel etwas abgibt. Das Muster dazu ist
 - [[guido-von-arezzo]] — der Erfinder, den sein eigener Leserkreis hinauswarf
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 - [[ausdrucksverzicht]] — der freiwillige Rückbau des einzigen eigenen Postens
+- [[iso-6346]] — der Prüfort der Vierteilung, mit zwei verschiedenen Eigentümern
 - [[rettungsfigur]] — die Teilung vom 2026-09-04 ist dort Fall 10 und eine der
   drei, die noch nicht auf einen Fall angewandt wurden, der sie nicht erzwang —
   am 2026-09-15 verjährt: erledigt ohne Ertrag (siehe Nachtrag)
@@ -214,3 +250,4 @@ Masse, aus der sie im Zweifel etwas abgibt. Das Muster dazu ist
 - `entries/2026/2026-09-15.md` (Frist: Teilung erledigt ohne Ertrag)
 - `entries/2026/2026-09-17.md` (Kandidat für ein fünftes Gegenüber, nicht entschieden)
 - `entries/2026/2026-09-21.md` (fünfter Rangordnungsfall, vom Normgeber aufgeschrieben)
+- `entries/2026/2026-09-22.md` (Sturz der Vierteilung geprüft, nicht eingetreten; Eigentümer n=2)

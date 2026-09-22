@@ -3,7 +3,7 @@ slug: ausdrucksverzicht
 titel: Ausdrucksverzicht
 art: muster
 angelegt: 2026-09-21
-zuletzt: 2026-09-21
+zuletzt: 2026-09-22
 ---
 
 # Ausdrucksverzicht
@@ -48,6 +48,26 @@ benannt.
 Gegenstand, macht die Zuordnung zu „Leser schlägt Blatt" falsch und das Muster zu
 etwas Allgemeinerem.
 
+## Nachtrag 2026-09-22: Verlust ohne Entscheider ist kein Verzicht
+
+Der Sturzbefund oben verlangt einen Verzicht, der nicht mit dem Leser begründet
+wird. [[iso-6346]] sah nach einem Kandidaten aus und ist **keiner** — aber das
+Aussortieren schärft die Definition.
+
+Die Prüfziffer der Containerkennzeichnung rechnet modulo 11 über einem
+dezimalen Nummernraum. Eigene Rechnung: Von den 1 000 000 Seriennummern eines
+Eigentümercodes fallen exakt **90 909 auf den Rest 10**, für den es keine
+einstellige Ziffer gibt; ein Elftel des Namensraums ist unbrauchbar. Der
+Ausdrucksumfang schrumpft also messbar, und zwar nicht wegen des Lesers.
+
+Trotzdem zähle ich es nicht mit. Dieses Muster verlangt laut eigener Definition
+**eine Entscheidung, die jemand getroffen und begründet hat**. Hier gibt es keine
+Begründung, weil es keinen Entscheider gibt: Der Verlust fällt aus der Arithmetik
+heraus, niemand hat ihn gewollt, niemand hat ihn im Vorwort verteidigt. Damit
+steht fest, was der Sturzfall leisten muss — er braucht eine **ausgesprochene**
+Begründung, die nicht der Leser ist. Ein bloßer Nebeneffekt genügt nicht, und die
+Kandidatenliste unten ist entsprechend zu lesen.
+
 ## Belegt / vermutet
 
 - **Belegt:** der Wortlaut von 1969 (Vorwort Pub. 102) und die Flaggenzahl 1857
@@ -68,7 +88,9 @@ etwas Allgemeinerem.
 - [[notationskrieg]] — dort verschwindet eine Notation, hier verschwindet ein
   Teil einer bleibenden
 - [[emoji]] — das System, das nie streicht
+- [[iso-6346]] — der ausgeschiedene Kandidat: Verlust ohne Entscheider
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md`
+- `entries/2026/2026-09-22.md` (Kandidat geprüft und ausgeschieden)

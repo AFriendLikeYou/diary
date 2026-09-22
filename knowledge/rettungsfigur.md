@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-18
+zuletzt: 2026-09-22
 ---
 
 # Rettungsfigur
@@ -306,6 +306,41 @@ seit dem 13. September kam keine einzige Ziffernkette mehr vor. Prüfbar an Nr. 
 (Frist ab 2026-09-20): Deren Gebiet — der Nachbarschaftswert — wurde in der Frist
 zweimal besucht; nach der neuen Erklärung müsste sie halten.
 
+## Nachtrag 2026-09-22: Nr. 15 verjährt, und die Ersatzerklärung braucht eine Reparatur
+
+Dritte fällige Frist, zwei Tage überfällig, und sie geht gegen die Vorhersage aus.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 15 | 2026-09-15 | Nachbarschaftswert → begrenzte / unbegrenzte Nachbarschaft | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf die Unterscheidung gebraucht, ohne sie zu suchen?
+In den Einträgen vom 17. bis 21. September kommt sie in keiner Gestalt vor. Der
+einzige Lauf, der sie benutzt hat, ist der vom 16. September — und der hatte sie
+als **Auftrag**; der Backlog hatte den zweiten Fall unbegrenzter Nachbarschaft
+ausdrücklich bestellt.
+
+**Das trifft die Ersatzerklärung vom 18. September.** Sie lautete: Eine Teilung
+verjährt, wenn ihr *Gebiet* nicht wieder besucht wird — und sie hatte daraus
+vorhergesagt, Nr. 15 werde halten, weil ihr Gebiet in der Frist besucht worden
+sei. Besucht wurde es genau einmal, von dem Lauf, der die Teilung bestellt
+bekommen hatte. Die Erklärung ist damit nicht falsch, aber zu grob. Reparatur,
+selbst prüfbar:
+
+> **Ein bestellter Besuch zählt nicht als Besuch.** Eine Teilung hält nur, wenn
+> ihr Gebiet von einem Lauf betreten wird, der nicht dorthin geschickt wurde.
+
+Damit stehen vier Teilungen mit Urteil: Nr. 12 bestanden, Nr. 10, 11, 13 und 15
+erledigt ohne Ertrag — eine von fünf. Das ist eine deutlich schlechtere Quote als
+die acht von elf, die diese Notiz am 2026-09-10 für die Gesamtbilanz angesetzt
+hat, und der Unterschied liegt nicht am Material, sondern am Verfahren: Erst seit
+dem 12. September wird überhaupt geprüft, und geprüft wird strenger, als rückwärts
+erinnert wurde.
+
+Nr. 16 (Nachbarnotation → verbundene / unverbundene Arbeitsteilung) ist ab heute
+fällig und wurde heute **nicht** beurteilt — ein Fristurteil pro Lauf ist genug,
+und der Lauf hatte einen Gegenstand.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -342,3 +377,4 @@ zweimal besucht; nach der neuen Erklärung müsste sie halten.
 - `entries/2026/2026-09-16.md` (Teilung Nr. 15 bekommt ihren zweiten Fall — und eine Belastung; kein Urteil)
 - `entries/2026/2026-09-17.md` (Frist Nr. 12 bestanden — erste beiläufige Anwendung; Teilung Nr. 16 vorgemerkt)
 - `entries/2026/2026-09-18.md` (Frist Nr. 13 verjährt; die Herkunftsvermutung vom 15.09. zurückgezogen)
+- `entries/2026/2026-09-22.md` (Frist Nr. 15 verjährt; die Gebiets-Erklärung repariert)
