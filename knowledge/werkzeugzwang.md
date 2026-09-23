@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-18
+zuletzt: 2026-09-23
 ---
 
 # Werkzeugzwang
@@ -295,6 +295,29 @@ selbst übernimmt. Wert hat der Fall trotzdem, weil er die Frage stellt, ob die
 Zahl der beteiligten Notationen überhaupt je eine Eigenschaft des Gegenstands
 ist oder immer eine des Geräts.
 
+## Fall 12 (2026-09-23): der Farbdruck scheitert, die Form bleibt
+
+Der erste Fall dieser Notiz, in dem der Grund **in der Quelle** steht und nicht
+von mir erschlossen ist. Die Bergener versuchten Anfang der zwanziger Jahre, ihre
+Analysen als tägliches Bulletin von Faksimile-Karten „printed in colors" ins
+Ausland zu schicken; das Vorhaben endete an „technical difficulties over color
+printing" (Jewell 1983, nach Bergerons Briefen). Im Januar 1924 legt Bergeron
+dann die [[frontensymbole]] fest, ausdrücklich „for fronts in black print":
+Dreiecke, Halbkreise, Zahnungen — Zeichen, die sich mit einer Farbe setzen
+lassen. Nicht das bessere Zeichen hat gewonnen, sondern das setzbare, und die
+Beteiligten haben es so aufgeschrieben.
+
+Zwei Einschränkungen. Erstens hat die Farbe nicht verloren, sie ist
+zurückgekommen: Die heutige WPC-Legende zeichnet die Kaltfront als „blue line
+with periodic spikes", Farbe und Form stehen redundant, seit der Bildschirm Farbe
+billig macht. Zweitens ist unbelegt, dass die Bergener handschriftlich überhaupt
+mit Farben analysierten — „in black print" legt eine andere Praxis daneben nahe,
+mehr nicht. Und zur Grenze vom 2026-08-28: Hier waren **beide** Konten hoch, die
+Herstellungskosten (Farbdruck unmöglich) und die Lehrkosten („teachable
+person-to-person only"). Das Werkzeug hat die **Gestalt** entschieden; ob es
+auch die langsame Ausbreitung erklärt (britischer *Daily Weather Report* erst
+1941), ist nicht geprüft — dort spricht mehr für [[lehrkosten]].
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -307,6 +330,9 @@ ist oder immer eine des Geräts.
   Drehen einer Letter ist ein bekannter Satzbehelf, aber dass Gaugain aus diesem
   Grund so verfuhr, habe ich nicht belegt. Ich habe das Buch nicht gesehen.
 - **Vermutet:** Fälle 2 und 3 ganz.
+- **Belegt (Fall 12):** der gescheiterte Farbdruck und die Festlegung „for fronts in
+  black print" (Jewell, BAMS 64, 1983, mit Übersetzung von Bergerons Postkarte).
+  **Vermutet:** dass daneben handschriftlich mit Farben analysiert wurde.
 - **Vermutet (Fall 10):** der Papiergrund der weißen Notation — verbreitete
   Erklärung ohne zeitgenössischen Beleg. **Belegt** ist nur der Vorgang selbst
   (hohle Notenköpfe ab der Mitte des 15. Jahrhunderts) und die Weiterverwendung
@@ -352,6 +378,8 @@ ist oder immer eine des Geräts.
   Gebiet geräumt, die Reichweite unverändert
 - [[mensuralnotation]] — Fall 10: das Werkzeug enteignet ein Zeichen, statt es zu
   töten
+- [[frontensymbole]] — Fall 12: der Farbdruck scheitert, die setzbare Form bleibt;
+  der erste Fall mit dem Grund in der Quelle
 
 ## Kommt vor in
 
@@ -366,3 +394,4 @@ ist oder immer eine des Geräts.
 - `entries/2026/2026-09-01.md` (Fall 9)
 - `entries/2026/2026-09-14.md` (Fall 10)
 - `entries/2026/2026-09-18.md` (Fall 11, halb: der Stuhl bestimmt die Anzahl der Notationen)
+- `entries/2026/2026-09-23.md` (Fall 12: Fronten in Schwarzdruck)

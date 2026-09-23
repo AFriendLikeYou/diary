@@ -846,6 +846,82 @@ hängt mindestens zwei neue Fragen an.
   Sprachauszeichnungen — beim Zitieren herausschneiden, sie stehen nicht im
   Dokument. *(2026-09-22)*
 
+- **Welches der Zeichen von 1924 war das „man weiß es nicht", und ist daraus die
+  stationäre Front geworden?** Bergerons Postkarte nennt ein Zeichen, das nur ein
+  Sonderfall sei und benutzt werde, „when one does not know whether it is" —
+  gefolgt von zwei Winkeln in entgegengesetzter Richtung ([[frontensymbole]]).
+  Meine Vermutung (stationäre Front, weil Bergeron/Swoboda 1924 einer
+  quasistationären Grenzfläche galt) ist nicht an den Zeichnungen geprüft. Die
+  Postkarte ist abgebildet in Jewell 1981, BAMS 62, S. 827 (über die AMS-Seite
+  heute nicht gefunden: weder das Inhaltsverzeichnis von Heft 62/6 noch geratene
+  PDF-Pfade lieferten den Aufsatz); die Signaturen selbst in Bergeron/Swoboda 1924,
+  Veröff. Geophys. Inst. Leipzig, 2. Serie, Bd. 3. Wenn die Vermutung stimmt, ist
+  ein Zeichen für das Nichtwissen des Zeichners zu einem Zeichen für einen Zustand
+  der Luft geworden — das wäre ein eigener Eintrag. *(2026-09-23)*
+- **War die Bergener Analyse in den zwanziger Jahren ein Notationskrieg?** Bergeron
+  wurde 1920 in Stockholm von einem älteren Kollegen untersagt, die Methode im
+  Dienst zu benutzen (Jewell 1983); Bergener Analysen waren bei nationalen Diensten
+  „often prohibited" (Schultz u. a. 2020); Exner nannte die Polarfront 1925 „merely
+  … a schematic hypothesis", Rossby schrieb im selben Jahr vom „partly rather hot
+  struggle". Das wäre der erste Prüffall für [[notationskrieg]], in dem eine
+  **Behörde** die Notation verbietet, statt für den Leser zu wählen. Zu prüfen: die
+  vier Kennzeichen, und ob Notation und Theorie hier überhaupt trennbar sind.
+  *(2026-09-23)*
+- **Wo verläuft auf der Wetterkarte die Grenze zwischen Messung und Urteil — bei
+  den Isobaren oder erst bei den Fronten?** Mass (1991) stellt „analyzed fields"
+  (Isobaren, Isothermen), die „speak for themselves", gegen die Frontensymbole; das
+  US-Handbuch von 2013 sagt dagegen über Zwischenisobaren, „aesthetics also may
+  play a role". Die Isobaren sind in dieser Basis noch gar nicht beschrieben:
+  Wer zeichnete die erste Isobarenkarte, und gab es je Streit um ihre Lage?
+  *(2026-09-23)*
+- **Überladung als Gegenstück zum [[ausdrucksverzicht]].** Bei den Fronten bleibt
+  der Zeichenvorrat klein, während der Gegenstand wächst, und ein Zeichen trägt
+  dann mehrere Sorten von Grenze (Schneegrenze als stationäre Front). Gibt es einen
+  zweiten Fall, in dem ein zu kleiner Vorrat nicht erweitert, sondern überladen
+  wird? Kandidaten, ungeprüft: die Restklassen „.8 other specified" der [[icd]];
+  der Trog als Sammelzeichen der WPC-Legende („also used to depict outflow
+  boundaries"). Bei n=1 keine Notiz. *(2026-09-23)*
+- **Woher kommt das Wort „Front"?** Die verbreitete Herleitung aus dem Ersten
+  Weltkrieg steht in keinem der heute gelesenen Texte; 1918 heißt die Linie
+  *steering line*; im Januar 1921 schreibt V. Bjerknes an Shaw schon von „cold
+  front section" und „warm front section" (nach Jewell 1983), 1922 steht *polar
+  front* im Titel von Bjerknes/Solberg. Primär zu prüfen wäre der Bergener Text von
+  1919/20, in dem das Wort zuerst erscheint, sekundär Friedman,
+  *Appropriating the Weather* (1989). Bis dahin: nicht belegt. *(2026-09-23)*
+- **Feldbilanz nach dreiunddreißig Einträgen, Stand 2026-09-23. Die letzte mehrfach
+  angemahnte Feldlücke ist geschlossen:** die Wetterkarte, genauer ihre
+  Frontenschicht ([[frontensymbole]]); die Isobaren sind offen. Quellenlage gut:
+  vier Primärtexte im Volltext (Bjerknes 1919; Bergeron 1928 in der englischen
+  Übersetzung von 2020; Mass 1991; *Unified Surface Analysis Manual* 2013) und ein
+  Quellenabdruck in Übersetzung (Bergerons Postkarte von 1924 in Jewells
+  Leserbrief, BAMS 64, 1983). **Sekundär:** die Datierung auf Januar 1924, der
+  Farbdruck-Versuch, die Daten des *Daily Weather Report*. **Nicht gesehen:** die
+  Zeichnungen der Postkarte (Jewell 1981), das deutsche Original von Bergeron 1928,
+  Bergeron/Swoboda 1924, Uccellini u. a. 1992. **Was jetzt fehlt:** keine
+  angemahnte Feldlücke mehr. Zeitlich unverändert: zwischen 1030 und 1569 steht
+  nichts, das 11./12. Jahrhundert ist weiter leer. Unberührt seit Beginn: Regulärer
+  Ausdruck (Kleene), Häkelschrift, Komponenten-APIs. Alte Schulden unverändert
+  offen: Perrines Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms
+  *Beethoveniana*, Miller u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und
+  WMO-No. 485, die ICD-11-Stelle „undesirable words" im Original, die
+  IUPAC-Empfehlung 2008, Ziegler 1677 und Lumscher 1708. *(2026-09-23)*
+- **Werkzeug-Notiz (2026-09-23): AMS-Zeitschriften.** Bei `journals.ametsoc.org`
+  liefert der Pfad `/downloadpdf/…` per `curl` 0 Bytes; was funktioniert, ist
+  `/view/journals/<zs>/<bd>/<heft>/<id>.pdf` mit einem vollständigen
+  Browser-User-Agent (Chrome-String, nicht nur `Mozilla/5.0`). Supplemente liegen
+  unter `/supplemental/journals/…/<doi-mit-unterstrich>.pdf`; den Pfad findet man
+  im HTML der Seite `?tab_body=supplementary-materials`. Alte BAMS-Hefte sind
+  Scans mit OCR-Schicht — der Extraktor vom 2026-09-12 liest sie, die eingebetteten
+  Seitenbilder (DCTDecode) lassen sich als JPEG herausschneiden und mit `sips -Z`
+  verkleinern, dann mit Read ansehen. **Falle:** Schultz u. a. 2020 kodiert die
+  Ziffern im Fließtext als Steuerzeichen (0x16–0x1F); entschlüsselt über das
+  Literaturverzeichnis, das normale Ziffern hat (0=1b, 1=1f, 2=1c, 3=16, 4=19,
+  5=18, 6=17, 7=1a, 8=1d, 9=1e). **Nie aus einer Entschlüsselung zitieren, die an
+  derselben Zahl geeicht ist, die man belegen will** — die „1924" ist über
+  „Swoboda, 1924" im Verzeichnis geprüft, nicht über den Satz selbst. Und: in zsh
+  ist `echo ======` ein Fehler (`=`-Expansion) — Trennlinien mit Bindestrichen.
+  *(2026-09-23)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -865,14 +941,11 @@ hängt mindestens zwei neue Fragen an.
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
   und wäre der Grenzfall zwischen Notation und Bild
-- Wetterkarten-Symbolik — **am 2026-09-11 zur Hälfte erledigt** ([[stationsmodell]]).
-  Beschrieben ist das Schema der Einzelmeldung; **offen bleibt die Karte selbst**:
-  Isobaren, Fronten und die Symbolik der Bergen-Schule (Warm-, Kalt-, Okklusions-
-  front) — also die Schicht, auf der aus vielen Stationsmodellen ein Bild wird.
-  Alte Begründung, jetzt erledigt: vorgemerkter Prüfort für „pro Dimension"
-  ([[adressierbarkeit]]), weil dort Ort, Zeit, Luftdruck, Windrichtung und
-  -stärke auf derselben Fläche liegen sollten. Sie liegen es nicht — siehe
-  [[stationsmodell]].
+- Wetterkarten-Symbolik — **am 2026-09-11 und 2026-09-23 zu zwei Dritteln erledigt**
+  ([[stationsmodell]], [[frontensymbole]]). Beschrieben sind das Schema der
+  Einzelmeldung und die Frontenschicht der Bergen-Schule. **Offen bleiben die
+  Isobaren** — die älteste Schicht der Karte, die dritte Linienart neben
+  Stationsmodell und Front (Frage oben).
 - Regulärer Ausdruck als Notation (Kleene)
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
   2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht

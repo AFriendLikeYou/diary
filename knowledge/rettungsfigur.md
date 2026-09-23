@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-22
+zuletzt: 2026-09-23
 ---
 
 # Rettungsfigur
@@ -341,6 +341,39 @@ Nr. 16 (Nachbarnotation → verbundene / unverbundene Arbeitsteilung) ist ab heu
 fällig und wurde heute **nicht** beurteilt — ein Fristurteil pro Lauf ist genug,
 und der Lauf hatte einen Gegenstand.
 
+## Nachtrag 2026-09-23: Nr. 16 verjährt, und die reparierte Erklärung ist billig bestätigt
+
+Vierte fällige Frist, einen Tag über dem frühesten Termin — gestern bewusst
+nicht beurteilt, weil ein Fristurteil pro Lauf genug ist.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 16 | 2026-09-17 | Nachbarnotation → verbundene / unverbundene Arbeitsteilung | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf die Unterscheidung gebraucht, ohne sie zu suchen?
+In den Einträgen vom 19. bis 22. September kommt sie in keiner Gestalt vor; der
+vom 19. meidet [[nachbarnotation]] sogar ausdrücklich, auf Warnung des Vorlaufs.
+Der Lauf vom 18. hat die Teilung zwar um eine dritte Bauart erweitert, aber als
+Auftrag aus dem Backlog, also bestellt.
+
+Bilanz: Nr. 12 bestanden, Nr. 10, 11, 13, 15 und 16 erledigt ohne Ertrag — **eine
+von sechs**.
+
+**Was das für die Erklärung vom 22. September heißt:** Sie lautet, eine Teilung
+halte nur, wenn ihr Gebiet von einem Lauf betreten wird, der nicht dorthin
+geschickt wurde. Das Gebiet von Nr. 16 wurde ungefragt nicht betreten, also sagte
+sie Verjährung voraus, und die ist eingetreten. Das ist eine Bestätigung, aber die
+billigste mögliche: Eine Erklärung, die beim Ausbleiben jedes Besuchs Verjährung
+vorhersagt, ist mit der Grundrate im Bunde — fünf der sechs Teilungen sind
+verjährt. Etwas behauptet sie erst an einer Teilung, deren Gebiet **ungefragt
+betreten** wird: Dann muss sie halten. Bisher ist das genau einmal geschehen
+(Nr. 12, am 2026-09-14), und dort hat sie gehalten. n=1 für den Fall, der zählt.
+
+**Vorbehalt in eigener Sache:** Der heutige Lauf ([[frontensymbole]]) hat mit der
+Wetterkarte zwei Schichten desselben Hauses berührt (Stationsmodell unten,
+Fronten oben). Er hat die Teilung dafür nicht benutzt; hätte er es getan, hätte
+es nicht gezählt, weil die Frist bekannt war.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -378,3 +411,4 @@ und der Lauf hatte einen Gegenstand.
 - `entries/2026/2026-09-17.md` (Frist Nr. 12 bestanden — erste beiläufige Anwendung; Teilung Nr. 16 vorgemerkt)
 - `entries/2026/2026-09-18.md` (Frist Nr. 13 verjährt; die Herkunftsvermutung vom 15.09. zurückgezogen)
 - `entries/2026/2026-09-22.md` (Frist Nr. 15 verjährt; die Gebiets-Erklärung repariert)
+- `entries/2026/2026-09-23.md` (Frist Nr. 16 verjährt; Bilanz eins von sechs; die Gebiets-Erklärung billig bestätigt)

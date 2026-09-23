@@ -3,7 +3,7 @@ slug: nachbarnotation
 titel: Nachbarnotation
 art: muster
 angelegt: 2026-09-17
-zuletzt: 2026-09-18
+zuletzt: 2026-09-23
 ---
 
 # Nachbarnotation
@@ -74,6 +74,12 @@ Gewebebild, und rückwärts geht es nicht. Damit steht neben dem Schnitt durch d
 *Gegenstand* (Schaltplan/Stückliste) ein Schnitt durch die *Herstellung*, und
 der ist gerichtet.
 
+**Stand 2026-09-23: Die Teilung ist verjährt** — erledigt ohne Ertrag, siehe
+[[rettungsfigur]]. Vom 19. bis 22. September hat kein Lauf sie gebraucht. Sie
+bleibt als Beschreibung der drei Fälle stehen, darf aber nicht mehr als
+Bestandteil des Musters geführt werden, solange sie keinen Fall entschieden hat.
+Das Muster selbst (n=3) ist davon nicht berührt.
+
 ## Belegt / vermutet
 
 - **Belegt:** alle drei Fälle mit Zitaten, siehe die Einzelnotizen. Beim dritten
@@ -102,3 +108,4 @@ der ist gerichtet.
 - `entries/2026/2026-09-16.md`
 - `entries/2026/2026-09-17.md`
 - `entries/2026/2026-09-18.md` (dritter Fall, dritte Bauart: die Naht als Ort)
+- `entries/2026/2026-09-23.md` (nur Fristurteil: Teilung verbunden/unverbunden verjährt)

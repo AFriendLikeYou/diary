@@ -3,7 +3,7 @@ slug: stationsmodell
 titel: Stationsmodell
 art: system
 angelegt: 2026-09-11
-zuletzt: 2026-09-11
+zuletzt: 2026-09-23
 ---
 
 # Stationsmodell
@@ -93,6 +93,15 @@ dicht genug, um hunderte Stationen auf ein Blatt zu bekommen, und es führt
 **keinen Schlüssel mit** (siehe [[uniformer-irrtum]]). Das Regensymbol kann man
 raten, die obere linke Ecke nicht.
 
+## Die Schicht darüber (2026-09-23)
+
+Die Karte besteht nicht nur aus Stationsmodellen. Über ihnen liegen Isobaren und
+Fronten ([[frontensymbole]]) — und damit zwei Sorten von Zeichen auf einem Blatt:
+unten, an festen Plätzen, was gemessen wurde; oben, als durchgezogene Linie, was
+ein Analytiker daraus geschlossen hat. Kein Zeichen der heutigen Legende markiert
+den Übergang; das Blatt verlässt sich darauf, dass der Leser weiß, welche Schicht
+welche ist. Die Isobaren selbst sind nicht beschrieben (offen im Backlog).
+
 ## Belegt / vermutet
 
 - **Belegt:** Definition und Anordnung (DWD-Wetterlexikon, Lemma
@@ -133,7 +142,10 @@ raten, die obere linke Ecke nicht.
 - [[uniformer-irrtum]] — ein Positionsschlüssel ist kein mitgeführter Schlüssel
 - [[lehrkosten]] — was folgt, wenn die Feldbeschriftungen fehlen
 - [[werkzeugzwang]] — offener Verdacht: das Telegramm erzwingt die Ziffer
+- [[frontensymbole]] — die Schicht darüber: Urteil statt Messung, auf demselben
+  Blatt
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-11.md`
+- `entries/2026/2026-09-23.md` (die Schicht darüber: Fronten)

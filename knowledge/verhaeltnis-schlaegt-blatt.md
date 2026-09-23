@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-22
+zuletzt: 2026-09-23
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -33,7 +33,7 @@ Die vier Gegenüber, mit den Notizen, die sie besetzen:
 |---|---|---|
 | **Leser** | ja | [[uniformer-irrtum]] · [[lehrkosten]] · [[stellvertreterlesung]] · [[notationskrieg]] · [[interoperabilitaetsdruck]] · [[selbstverdeckung]] (Grad 2) |
 | **Werkzeug** | nein | [[werkzeugzwang]] |
-| **Gegenstand** | nein | [[vorzeichenkonvention]] · [[laufende-notation]] · [[handlungs-vs-ergebnis-notation]] |
+| **Gegenstand** | nein | [[vorzeichenkonvention]] · [[laufende-notation]] · [[handlungs-vs-ergebnis-notation]] · [[frontensymbole]] (halb, seit 2026-09-23) |
 | **Eigentümer** | ja | [[pflegekennzeichnung]] (Markenrecht, Kostenträgerschaft) · [[iso-6346]] (Registerbesitz, Jahresgebühr) |
 
 Die Rangordnung, vier Fälle aus der eigenen Basis, alle in dieselbe Richtung:
@@ -200,6 +200,38 @@ Normgeber überhaupt ein Gegenüber sind oder drei (bei ISO 6346 regeln Vertrag,
 ISO und BIC je eine andere Eigenschaft derselben elf Zeichen). Bei n=1 für diese
 Dreiteilung lege ich dafür nichts an; sie steht im Backlog.
 
+## Nachtrag 2026-09-23: Blatt über Gegenstand, zweiter Fall — und ein schärferer
+
+Die Relation „Blatt schlägt Gegenstand" stand seit dem 2026-09-03 auf einem
+einzigen Fall: Franklins [[vorzeichenkonvention]], seit 1897 falsch und nie
+reformiert. Ein falsches Zeichen **überlebt** dort seinen Gegenstand. Die
+[[frontensymbole]] liefern einen zweiten Fall, und er geht weiter: Das Blatt
+**zwingt** dem Gegenstand ein Zeichen auf. Mass (1991) beschreibt, wie die vier
+Norwegischen Frontarten auf Kaltluftstau, Leetröge und Schneegrenzen gesetzt
+werden, die keine Fronten im Sinn des Modells sind; die Temperatursprünge an
+einer Schneedecke seien „sometimes graced with a Norwegian frontal symbol
+(usually a stationary front)". Die Palette hat kein Zeichen für eine Schneegrenze,
+also bekommt sie das unverbindlichste vorhandene. Und das Modell halte sich
+„with tenacious force, even as contradictory information has mounted".
+
+**Was dagegen spricht, und es ist ernst:** Mass trennt selbst nicht sauber
+zwischen dem **Modell** (der Norwegischen Zyklone) und den **Symbolen**. Er
+schreibt, Analytiker zwängen „non-classic developments into the Bergen School
+mold" — das kann eine Theorie sein, die den Gegenstand schlägt, und nicht das
+Blatt. Für die Blatt-Lesung spricht nur, dass er die Symbolverwendung als eigenes
+Problem neben dem Modell führt („Perhaps equally serious is the inconsistent use
+of the familiar palette of symbols") und dass seine Abhilfen an der Palette
+ansetzen (andere Zeichen für flache Grenzen, Symbole nur für das, was Felder
+nicht zeigen). Halber Fall, bis jemand Modell und Palette an einem Beispiel
+auseinanderhält.
+
+**Was er dem einzigen eigenen Posten hinzufügt:** Der Ausdrucksumfang kann nicht
+nur absichtlich verkleinert werden ([[ausdrucksverzicht]]), er kann auch zu klein
+**bleiben**, während der Gegenstand wächst — und dann wird nicht verzichtet,
+sondern **überladen**: Ein Zeichen trägt mehrere Sorten von Grenze, und der Leser
+weiß nicht mehr, welche („often uncertain as to the true meaning of analyzed
+boundaries"). n=1, kein eigenes Muster.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -239,6 +271,8 @@ Dreiteilung lege ich dafür nichts an; sie steht im Backlog.
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 - [[ausdrucksverzicht]] — der freiwillige Rückbau des einzigen eigenen Postens
 - [[iso-6346]] — der Prüfort der Vierteilung, mit zwei verschiedenen Eigentümern
+- [[frontensymbole]] — zweiter, halber Fall von „Blatt schlägt Gegenstand": die
+  Schneegrenze mit dem Zeichen der stationären Front
 - [[rettungsfigur]] — die Teilung vom 2026-09-04 ist dort Fall 10 und eine der
   drei, die noch nicht auf einen Fall angewandt wurden, der sie nicht erzwang —
   am 2026-09-15 verjährt: erledigt ohne Ertrag (siehe Nachtrag)
@@ -251,3 +285,4 @@ Dreiteilung lege ich dafür nichts an; sie steht im Backlog.
 - `entries/2026/2026-09-17.md` (Kandidat für ein fünftes Gegenüber, nicht entschieden)
 - `entries/2026/2026-09-21.md` (fünfter Rangordnungsfall, vom Normgeber aufgeschrieben)
 - `entries/2026/2026-09-22.md` (Sturz der Vierteilung geprüft, nicht eingetreten; Eigentümer n=2)
+- `entries/2026/2026-09-23.md` (Blatt über Gegenstand, zweiter Fall — halb)

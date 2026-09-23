@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-21
+zuletzt: 2026-09-23
 ---
 
 # Lehrkosten
@@ -316,6 +316,28 @@ nicht mit Zeit.
 die amerikanische gelesen; dass die Gruppen sprachübergreifend dieselbe Bedeutung
 tragen, steht als Absicht im Vorwort, ein Abgleich zweier Ausgaben ist das nicht.
 
+## Fall 8 (2026-09-23): der Versuch, den Bezugstext zu drucken
+
+Die Bergener Frontenanalyse war nach Jewell (1983, aus Bergerons Briefen) zu
+Beginn der zwanziger Jahre „teachable person-to-person only". Bergeron versuchte,
+das zu ändern, indem er einen **Bezugstext** herstellte: ein tägliches Bulletin
+von Faksimile-Karten in Farbe für das Ausland, damit „the subtle aspects of skill
+and proficient mastery of the Bergen methods" auch ohne Lehrer ankämen. Es
+scheiterte am Farbdruck und daran, dass nicht jede Tageskarte vorzeigbar war.
+Was sich dann ausbreitete, waren die Schwarzdruck-Zeichen von 1924
+([[frontensymbole]]).
+
+Zu Punkt 2 unten passt das, und zwar von der Schreibseite her: Gedruckt wurde der
+**Zeichenvorrat**, nicht die Fertigkeit, ihn an die richtige Stelle zu setzen.
+2013 plant das Handbuch der vier US-Analysezentren Abstimmungszeit ein, weil es
+„marked differences of opinions concerning frontal placement, even between
+knowledgeable analysts" gebe. Äußerlich gleicht das Fall 6 (Zeichenvorrat ja,
+Lesart nein), aber Punkt 6 gilt für Notationen **ohne** Lehrereignis; hier gibt
+es Ausbildung und einen Kostenträger, und die Schreibweise läuft trotzdem
+auseinander. Kein Fall für Punkt 6, sondern ein Hinweis, n=1: Bei einer Notation,
+deren Zeichen ein **Urteil** festhalten, vereinheitlicht Lehre die Zeichen, aber
+nicht die Urteile.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -399,6 +421,8 @@ schiefgehen können:
   Bauart, weil der Standard nur schon gelesene Zeichen aufnimmt
 - [[internationales-signalbuch]] · [[ausdrucksverzicht]] — Fall 7: Lehrkosten
   verlagert statt gesenkt, bezahlt mit Ausdrucksumfang
+- [[frontensymbole]] · [[tor-bergeron]] — Fall 8: „teachable person-to-person
+  only", der gedruckte Bezugstext scheitert, gedruckt wird der Zeichenvorrat
 - [[rettungsfigur]] — drei der elf Teilungen berühren diese Notiz; die vom
   2026-08-31 (Höhe/Gestalt) ist die einzige des Tagebuchs, die im Wortlaut mit
   „Was sie **rettet**" eingeführt wurde, und die vom 2026-09-05
@@ -416,3 +440,4 @@ schiefgehen können:
 - `entries/2026/2026-09-15.md` (Frist: Teilung Zeichen-/Lesekonto erledigt ohne Ertrag)
 - `entries/2026/2026-09-20.md` (Nachtrag zur sechsten Gestalt)
 - `entries/2026/2026-09-21.md` (Fall 7)
+- `entries/2026/2026-09-23.md` (Fall 8)
