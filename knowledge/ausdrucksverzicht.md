@@ -3,7 +3,7 @@ slug: ausdrucksverzicht
 titel: Ausdrucksverzicht
 art: muster
 angelegt: 2026-09-21
-zuletzt: 2026-09-22
+zuletzt: 2026-09-24
 ---
 
 # Ausdrucksverzicht
@@ -68,13 +68,66 @@ steht fest, was der Sturzfall leisten muss — er braucht eine **ausgesprochene*
 Begründung, die nicht der Leser ist. Ein bloßer Nebeneffekt genügt nicht, und die
 Kandidatenliste unten ist entsprechend zu lesen.
 
+## Nachtrag 2026-09-24: der Sturzbefund ist eingetreten — mit dem Schreiber
+
+Dritter Fall, und zum ersten Mal ein zweites Feld: RE2, die Bibliothek für
+reguläre Ausdrücke ([[regulaerer-ausdruck]]), die Russ Cox ab 2006 für Google Code
+Search schrieb. Sie streicht Rückverweise und Lookaround **als Prinzip** — „As a
+matter of principle, RE2 does not support constructs for which only backtracking
+solutions are known to exist" — und hält die gestrichenen Schreibweisen in ihrer
+eigenen Syntaxtabelle grau fest (der Rückverweis neunmal). Die Bedingung vom
+2026-09-22 ist erfüllt: Es gibt einen Entscheider, und die Begründung ist
+**ausgesprochen**.
+
+Sie lautet nicht „der Leser". Der Leser ist eine Maschine, und die kann
+Rückverweise lesen — Perl tut es, nur im schlechtesten Fall exponentiell langsam.
+Begründet wird mit dem **Schreiber**: Code Search „accepts regular expressions from
+anyone on the Internet, using PCRE would have left it open to easy denial of
+service attacks"; das README: „Safety is RE2's primary goal … regular expressions
+from untrusted users without risk". Vermessen ist die Grenze vom **Werkzeug**:
+gestrichen wird, wofür nur Rückverfolgungsverfahren „known" sind, nicht, was die
+reguläre Klasse verlässt (Lookaround tut das, soweit ich weiß, nicht).
+
+**Was daraus folgt, nach der eigenen Vorgabe oben:** Die Zuordnung zu „Leser
+schlägt Blatt" ist für dieses Muster falsch geworden. Es ist nicht mehr die
+schärfste Form jener Rangordnung, sondern etwas Allgemeineres: der absichtliche
+Rückbau des Ausdrucksumfangs zugunsten eines Gegenübers.
+
+**Und beim Zurücklesen ein Befund an dieser Notiz selbst.** Oben steht, der
+Verzicht von 1857 sei mit dem Leser begründet, und zwar „mit dem, der etwas
+Anstößiges sagen könnte" — das ist ein Schreiber, unter Leser abgelegt. Damit
+sähe die Verteilung so aus:
+
+| Fall | Jahr | begründet mit | Beleg |
+|---|---|---|---|
+| Signalbuch, Vokale | 1857 | Schreiber (?) | sekundär |
+| Signalbuch, Vokabelmethode | 1969 | Leser | primär |
+| RE2, Rückverweise | 2006/2010 | Schreiber (+ Werkzeug als Maß) | primär |
+
+Das Fragezeichen bei 1857 ist ernst: Der Grund ist nur sekundär belegt, und ob
+die Furcht dem absichtlichen Buchstabieren galt oder dem zufälligen Wort, das ein
+Leser sieht, weiß ich nicht. Die Unterscheidung **Leser/Schreiber als Begründung**
+ist eine neue Teilung und steht als Nr. 17 in [[rettungsfigur]] (Frist ab
+2026-09-29); dieser Lauf beurteilt sie nicht.
+
+**Vermutung, in keiner Quelle:** Ausdrucksumfang kostet nichts, solange Schreiber
+und Zahler dieselbe Person sind — wer ein pathologisches Muster in sein eigenes
+`grep` tippt, wartet selbst. Er wird zur Angriffsfläche, sobald der eine schreibt
+und der andere rechnet. Prüffälle stehen im Backlog.
+
+**Was das Muster jetzt verbietet:** einen Verzicht **ohne** benanntes Gegenüber,
+also einen, der nur mit der Notation selbst begründet wird (Eleganz, Sparsamkeit,
+„Reinheit"). Findet sich einer, ist der Ausdrucksumfang doch ein Posten, den die
+Notation für sich verwaltet, und [[verhaeltnis-schlaegt-blatt]] hätte ein Problem.
+
 ## Belegt / vermutet
 
 - **Belegt:** der Wortlaut von 1969 (Vorwort Pub. 102) und die Flaggenzahl 1857
   (ebenda).
 - **Sekundär:** der Grund für das Fehlen der Vokale.
-- **Vermutet:** dass es ein Muster ist. n=2 in **einem einzigen System** ist zu
-  wenig; ein zweites Feld fehlt. Kandidaten, ungeprüft: die ICD-Reform, deren
+- **Stand 2026-09-24:** n=3 in zwei Feldern ([[regulaerer-ausdruck]] — RE2, primär belegt: README, Cox 2010, Syntaxtabelle).
+- **Vermutet:** dass es ein Muster ist. n=2 in **einem einzigen System** war zu
+  wenig; das zweite Feld ist seit 2026-09-24 da, ein drittes fehlt. Kandidaten, ungeprüft: die ICD-Reform, deren
   Nachbarschaftslisten gekürzt wurden; Unicodes Weigerung, neue Zeichen ohne
   vorhandenen Gebrauch aufzunehmen ([[emoji]] — das ist aber eine Aufnahmehürde,
   kein Rückbau); Programmiersprachen, die ein Sprachmittel abschaffen.
@@ -89,8 +142,11 @@ Kandidatenliste unten ist entsprechend zu lesen.
   Teil einer bleibenden
 - [[emoji]] — das System, das nie streicht
 - [[iso-6346]] — der ausgeschiedene Kandidat: Verlust ohne Entscheider
+- [[regulaerer-ausdruck]] — Fall 3, der erste mit dem Schreiber als Begründung
+- [[rettungsfigur]] — Teilung Nr. 17 (Leser/Schreiber als Begründung)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md`
 - `entries/2026/2026-09-22.md` (Kandidat geprüft und ausgeschieden)
+- `entries/2026/2026-09-24.md` (Sturzbefund eingetreten: RE2)

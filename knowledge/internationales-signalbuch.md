@@ -3,7 +3,7 @@ slug: internationales-signalbuch
 titel: Internationales Signalbuch (International Code of Signals)
 art: system
 angelegt: 2026-09-21
-zuletzt: 2026-09-21
+zuletzt: 2026-09-24
 ---
 
 # Internationales Signalbuch
@@ -69,6 +69,17 @@ Norwegisch, Russisch, Griechisch) an dieselbe Bedeutung gebunden. Das ist ein
 gleichlautende, und die Übersetzungskosten fallen einmal beim Normgeber an statt
 bei jedem Leserpaar ([[lehrkosten]]).
 
+## Nachtrag 2026-09-24: die Vokale von 1857 — Leser oder Schreiber?
+
+Beim dritten Fall von [[ausdrucksverzicht]] (RE2, [[regulaerer-ausdruck]]) ist
+aufgefallen, dass der erste Verzicht dieses Systems vielleicht falsch abgelegt
+ist. Die Vokale fehlten, damit sich nichts Anstößiges buchstabieren ließ; die
+Notiz zum Muster führte das als Leserbegründung, beschrieb aber einen, „der etwas
+Anstößiges sagen könnte" — einen Schreiber. Welche Lesart stimmt, hängt daran, ob
+die Furcht dem absichtlichen Buchstabieren eines Absenders galt oder dem
+zufälligen Wort, das ein Empfänger sieht. Das sagt keine meiner Quellen; der Grund
+ist ohnehin nur sekundär belegt. Offen, im Backlog.
+
 ## Belegt / vermutet
 
 - **Belegt (primär, NGA Pub. 102, 1969 Edition, Revisionen 2003 und 2020,
@@ -104,3 +115,4 @@ bei jedem Leserpaar ([[lehrkosten]]).
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md`
+- `entries/2026/2026-09-24.md` (Nachtrag: die Vokale von 1857 als Schreiberverzicht?)

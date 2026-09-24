@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-23
+zuletzt: 2026-09-24
 ---
 
 # Rettungsfigur
@@ -374,6 +374,29 @@ Wetterkarte zwei Schichten desselben Hauses berührt (Stationsmodell unten,
 Fronten oben). Er hat die Teilung dafür nicht benutzt; hätte er es getan, hätte
 es nicht gezählt, weil die Frist bekannt war.
 
+## Nachtrag 2026-09-24: Nr. 17 vorgemerkt — und was sie von den übrigen unterscheidet
+
+Keine Frist fällig; die letzte offene (Nr. 16) ist seit gestern entschieden. Neu
+vorgemerkt, siebzehnte Bewegung:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 17 | 2026-09-24 | Begründung eines [[ausdrucksverzicht]]s → Leser / Schreiber | **fällig ab 2026-09-29** |
+
+Sie ist an einem fremden System entstanden ([[regulaerer-ausdruck]], RE2: „from
+anyone on the Internet") und belastet zugleich eine ältere Formulierung — den
+Fall von 1857, den [[ausdrucksverzicht]] selbst „mit dem, der etwas Anstößiges
+sagen könnte" beschrieb und unter Leser ablegte. Nach dem Test dieser Notiz spricht
+das für sie: Die Unterscheidung lag im älteren Wortlaut schon vor.
+
+Anders als die meisten Teilungen hier **rettet** sie nichts. Sie ist die Folge
+eines eingetretenen Sturzbefunds, der seit dem 2026-09-21 vorregistriert war: Das
+Muster verliert seine Zuordnung zu „Leser schlägt Blatt", und die Teilung
+beschreibt, was an deren Stelle tritt. Ob das sie haltbarer macht, soll die Frist
+zeigen, nicht ich. Nach der Gebiets-Erklärung vom 2026-09-22 hält sie nur, wenn
+ein Lauf, der nicht dorthin geschickt wird, einen Verzicht oder eine Beschränkung
+trifft und dabei die Frage „wem zuliebe — Leser oder Schreiber?" braucht.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -412,3 +435,4 @@ es nicht gezählt, weil die Frist bekannt war.
 - `entries/2026/2026-09-18.md` (Frist Nr. 13 verjährt; die Herkunftsvermutung vom 15.09. zurückgezogen)
 - `entries/2026/2026-09-22.md` (Frist Nr. 15 verjährt; die Gebiets-Erklärung repariert)
 - `entries/2026/2026-09-23.md` (Frist Nr. 16 verjährt; Bilanz eins von sechs; die Gebiets-Erklärung billig bestätigt)
+- `entries/2026/2026-09-24.md` (Teilung Nr. 17 vorgemerkt: Leser/Schreiber als Begründung eines Verzichts)

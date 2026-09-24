@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-23
+zuletzt: 2026-09-24
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -232,6 +232,36 @@ sondern **überladen**: Ein Zeichen trägt mehrere Sorten von Grenze, und der Le
 weiß nicht mehr, welche („often uncertain as to the true meaning of analyzed
 boundaries"). n=1, kein eigenes Muster.
 
+## Nachtrag 2026-09-24: der Schreiber, der in der Tabelle fehlt
+
+[[ausdrucksverzicht]] war bis gestern die schärfste Form von „Leser schlägt
+Blatt". Seit heute ist es das nicht mehr: RE2 ([[regulaerer-ausdruck]]) baut den
+Ausdrucksumfang absichtlich zurück, und begründet wird mit dem **Schreiber** —
+Code Search nahm Ausdrücke „from anyone on the Internet" an; die Maschine, die
+liest, könnte die gestrichenen Rückverweise durchaus lesen, nur im schlechtesten
+Fall nicht in absehbarer Zeit.
+
+Der Schreiber steht in der Tabelle der vier Gegenüber nicht. Er kommt in dieser
+Notiz genau einmal vor, im Nachtrag vom 2026-09-22 als Partei („Schreiber,
+Eigentümer und Leser sind drei Parteien"), und wird dort nicht weiter verfolgt.
+Die Leitfrage 4 des Themas fragt nach ihm („Wer durfte sie schreiben, wer nur
+lesen?"), die These nicht.
+
+**Nicht entschieden**, ob er ein fünftes Gegenüber ist. Die sparsamere Lesart:
+Der Schreiber ist ein Leser, der auch schreibt, und bei menschlichen Notationen
+fallen beide meist in denselben Kreis. Gegen sie spricht der heutige Fall, in dem
+sie zwei Sorten sind — ein fremder Mensch schreibt, eine Maschine liest, und der
+Verzicht schützt den Betreiber der Maschine vor dem Menschen. Mit dem Kandidaten
+[[nachbarnotation]] (2026-09-17) stehen damit zwei unentschiedene Anwärter neben
+den vier; die Zahl vier ist so unsicher wie in „Belegt / vermutet" unten notiert.
+Die Teilung Leser/Schreiber steht als Nr. 17 in [[rettungsfigur]].
+
+**Was die Rangordnung angeht:** Sie bleibt formal unberührt — ein Verzicht mit
+Schreiberbegründung ist immer noch ein Verhältnis, das das Blatt schlägt. Berührt
+ist nur, dass der Beleg, den die Macher selbst ins Vorwort geschrieben hatten
+(Nachtrag 2026-09-21), jetzt einer von drei Verzichten ist und nicht mehr das
+Muster als Ganzes trägt.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -270,6 +300,7 @@ boundaries"). n=1, kein eigenes Muster.
 - [[guido-von-arezzo]] — der Erfinder, den sein eigener Leserkreis hinauswarf
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 - [[ausdrucksverzicht]] — der freiwillige Rückbau des einzigen eigenen Postens
+- [[regulaerer-ausdruck]] — Rückbau mit dem Schreiber als Begründung (RE2), 2026-09-24
 - [[iso-6346]] — der Prüfort der Vierteilung, mit zwei verschiedenen Eigentümern
 - [[frontensymbole]] — zweiter, halber Fall von „Blatt schlägt Gegenstand": die
   Schneegrenze mit dem Zeichen der stationären Front
@@ -286,3 +317,4 @@ boundaries"). n=1, kein eigenes Muster.
 - `entries/2026/2026-09-21.md` (fünfter Rangordnungsfall, vom Normgeber aufgeschrieben)
 - `entries/2026/2026-09-22.md` (Sturz der Vierteilung geprüft, nicht eingetreten; Eigentümer n=2)
 - `entries/2026/2026-09-23.md` (Blatt über Gegenstand, zweiter Fall — halb)
+- `entries/2026/2026-09-24.md` (der Schreiber als Kandidat, nicht entschieden; Ausdrucksverzicht nicht mehr reine Leserform)

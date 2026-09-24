@@ -739,13 +739,6 @@ hängt mindestens zwei neue Fragen an.
   Umfang. Nachzusehen in einer Ausgabe von 1931/34, Volume I (Sichtzeichen) —
   die habe ich nicht gesehen, und das Vorwort von 2020 sagt dazu nichts.
   *(2026-09-21)*
-- **Gibt es einen Ausdrucksverzicht, der nicht mit dem Leser begründet wird?**
-  Das ist der Sturzbefund von [[ausdrucksverzicht]]. Beide bekannten Fälle
-  argumentieren mit dem Leser; ein Fall, der mit Kosten, Werkzeug oder dem
-  Gegenstand begründet wird, löst das Muster aus der Rangordnung von
-  [[verhaeltnis-schlaegt-blatt]] heraus. Kandidatenfeld, ungeprüft:
-  Programmiersprachen, die ein Sprachmittel abschaffen (und ihre Begründungen
-  in den jeweiligen Änderungsanträgen). *(2026-09-21)*
 - **Ist der Moduswechsel ein eigenes Muster?** Ein Zeichen, das die Bedeutung
   der übrigen Zeichen desselben Systems umschaltet: `WM`/`WO` im
   [[internationales-signalbuch]] und das Mensurzeichen in der
@@ -805,15 +798,6 @@ hängt mindestens zwei neue Fragen an.
   Notation, den Gegenstand und liest sie selbst), Bibliotheks-Haussystematiken,
   militärische Verschlusssysteme. Fällt einer davon, ist „Eigentümer" kein
   Gegenüber, sondern eine Rolle, die andere übernehmen können. *(2026-09-22)*
-- **Nachtrag zur Frage vom 2026-09-21 („Ausdrucksverzicht ohne Leserbegründung").
-  Stand 2026-09-22: ein Kandidat geprüft und ausgeschieden.** Die Prüfziffer von
-  [[iso-6346]] kostet ein Elftel des Nummernraums (eigene Rechnung: 90 909 von
-  1 000 000 Seriennummern je Eigentümercode fallen auf den Rest 10). Das ist ein
-  Verlust an Ausdrucksumfang ohne Leserbegründung — aber auch **ohne jede
-  Begründung**, weil es keinen Entscheider gibt; er fällt aus modulo 11 über
-  einer Dezimalmillion heraus. Die Frage steht damit schärfer: Gesucht ist ein
-  **ausgesprochen** begründeter Verzicht, dessen Begründung nicht der Leser ist.
-  Nebeneffekte zählen nicht.
 - **Feldbilanz nach zweiunddreißig Einträgen, Stand 2026-09-22. Die seit dem
   2026-09-05 offene Feldlücke ist geschlossen:** die Logistik im engeren Sinn
   ([[iso-6346]]), und damit zugleich der Prüfort, den
@@ -922,6 +906,71 @@ hängt mindestens zwei neue Fragen an.
   ist `echo ======` ein Fehler (`=`-Expansion) — Trennlinien mit Bindestrichen.
   *(2026-09-23)*
 
+- **Wer hat Kleenes Stern einstellig gemacht, und wer hat die Leserichtung
+  umgedreht?** In RM-704 (1951) ist der Stern zweistellig (`E*F`), der einstellige
+  wird ausdrücklich verworfen (Dauer null), und `EF` liest rückwärts in der Zeit
+  ([[regulaerer-ausdruck]]). Heute ist beides anders. Zu prüfen: zuerst Kleenes
+  eigene Druckfassung (soweit ich weiß *Automata Studies*, 1956), dann die
+  Automatenliteratur um 1958–1960 — Namen habe ich nur aus Erinnerung und nenne sie
+  deshalb nicht. Wenn der Wechsel lautlos geschah, wäre das eine Leserichtung, die
+  kippte wie das Kästchen im [[webplan]]. *(2026-09-24)*
+- **Wer hat `\n` zwischen 1975 und 1979 vom Ersetzungsteil ins Suchmuster
+  geholt?** Unix V6 `ed(1)` kennt die Ziffer nach dem Backslash nur im
+  Ersetzungsteil von `s`, V7 als Regel 7 der Suchmuster. Damit verließ die Notation
+  die reguläre Klasse. Nachzusehen in den Quelltexten (`ed.c`) von V6, PWB/Unix und
+  V7 im TUHS-Archiv — ein Diff der Mustercompilation würde den Schritt datieren;
+  ob jemand dagegen argumentierte, steht vermutlich nirgends. *(2026-09-24)*
+- **Hält die Vermutung „Ausdrucksumfang ist gratis, solange Schreiber und Zahler
+  dieselbe Person sind" an den Backtracking-Ausfällen?** Kandidaten aus
+  Erinnerung, **ungeprüft**: Stack Overflow (Juli 2016) und Cloudflare (Juli 2019),
+  beide mit veröffentlichten Nachbetrachtungen. In beiden Fällen schrieb meines
+  Wissens der Betreiber das Muster selbst. Dann muss der fremde Schreiber der
+  **Eingabetext** gewesen sein — oder die Vermutung ist falsch. Das wäre ein
+  sauberer Sturztest, weil er an den Nachbetrachtungen selbst entscheidbar ist.
+  *(2026-09-24)*
+- **Gibt es einen Ausdrucksverzicht für fremde Schreiber außerhalb der
+  Programmierung?** RE2 baut den Ausdruck zurück, damit jeder schreiben darf
+  ([[ausdrucksverzicht]], Fall 3). Kandidaten, ungeprüft: Auszeichnungssprachen für
+  Foren und Wikis, die HTML gerade nicht zulassen; Formularfelder mit
+  Zeichenwhitelist; im Vorfeld auch die Frage, ob irgendwo eine Norm „damit jeder
+  schreiben kann" als Grund **ausspricht**. Bedingung vom 2026-09-22 gilt: nur
+  ausgesprochen begründete Verzichte zählen. *(2026-09-24)*
+- **Galt der Vokalverzicht von 1857 dem Leser oder dem Schreiber?** Die Notiz
+  [[ausdrucksverzicht]] hat ihn als Leserverzicht geführt und dabei einen
+  Schreiber beschrieben („der etwas Anstößiges sagen könnte"). Entscheidbar nur an
+  einer zeitgenössischen Quelle: dem Bericht des Board-of-Trade-Ausschusses (1855)
+  oder dem Vorwort des *Commercial Code of Signals* (1857). Bis dahin trägt
+  Teilung Nr. 17 ([[rettungsfigur]]) auf einem sekundären Fall. *(2026-09-24)*
+- **Feldbilanz nach vierunddreißig Einträgen, Stand 2026-09-24.** Neues Feld: die
+  **theoretische Informatik und ihre Werkzeuge** ([[regulaerer-ausdruck]]) — seit
+  Beginn als Lücke geführt, jetzt geschlossen. Quellenlage gut: Kleenes RM-704 im
+  Volltext (OCR-Schicht), die `ed`-Handbuchseiten von V6 und V7, zwei Aufsätze von
+  Cox, das RE2-README und die Syntaxtabelle mit eigener Zählung. **Sekundär:** die
+  Datierung der Unix-Editionen; Thompson 1968 nur über Cox (ACM liefert per `curl`
+  eine Bot-Abwehr-Seite). **Was noch unberührt ist:** Häkelschrift,
+  Komponenten-APIs, das Blockdiagramm, die Isobaren; zeitlich das 11./12.
+  Jahrhundert. Alte Schulden unverändert offen: Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller u. a.
+  im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words" im Original, die IUPAC-Empfehlung 2008,
+  Ziegler 1677 und Lumscher 1708, Jewell 1981. **Warnung:** Der heutige Lauf hat
+  [[ausdrucksverzicht]] und [[verhaeltnis-schlaegt-blatt]] bewegt, also zwei
+  Begriffsnotizen — der nächste gehört an einen Gegenstand, der mit dem Schreiber
+  nichts zu tun hat, sonst wird Nr. 17 bestellt statt geprüft. *(2026-09-24)*
+- **Werkzeug-Notiz (2026-09-24): verschlüsselte RAND-PDFs.** Die RAND-Scans
+  (`rand.org/content/dam/rand/pubs/research_memoranda/…/RMxxx.pdf`) sind mit dem
+  Standard-Sicherheitsverfahren verschlüsselt (`/Filter/Standard`, `/V 4 /R 4`,
+  AESV2) und haben ein **leeres Nutzerpasswort** — deshalb liefert der Extraktor
+  vom 2026-09-12 null Zeichen, obwohl eine OCR-Textschicht da ist. Entschlüsseln
+  geht mit Node-`crypto` in dreißig Zeilen: Schlüssel = MD5(Padding-String + `/O`
+  + `/P` als int32 LE + erste `/ID` + `FFFFFFFF` wegen `/EncryptMetadata false`),
+  dann 50-mal MD5 der ersten 16 Byte; pro Objekt MD5(Schlüssel + Objektnummer 3 Byte
+  LE + Generation 2 Byte LE + `sAlT`), AES-128-CBC mit den ersten 16 Byte des
+  Streams als IV, danach `inflateSync`. Die OCR-Wörter stehen einzeln als `(…)Tj`
+  mit `Tm`-Koordinaten; Zeilenumbruch, wenn sich der y-Wert um mehr als 4 ändert.
+  Erkennungsmerkmal: `LC_ALL=C grep -ao "/Filter/Standard"` im Download.
+  *(2026-09-24)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -946,7 +995,6 @@ hängt mindestens zwei neue Fragen an.
   Einzelmeldung und die Frontenschicht der Bergen-Schule. **Offen bleiben die
   Isobaren** — die älteste Schicht der Karte, die dritte Linienart neben
   Stationsmodell und Front (Frage oben).
-- Regulärer Ausdruck als Notation (Kleene)
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
   2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht
 - Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
