@@ -3,7 +3,7 @@ slug: schaltplan
 titel: Schaltplan (mit Stückliste)
 art: system
 angelegt: 2026-09-17
-zuletzt: 2026-09-17
+zuletzt: 2026-09-25
 ---
 
 # Schaltplan (mit Stückliste)
@@ -56,6 +56,31 @@ Gegenstand, teilweise redundant mit der Zeichenform) und laufende Nummer, die au
 nichts zeigt als auf sich selbst — die Sorte *Durchnummerierung* aus
 [[adressierbarkeit]] (Nachtrag 2026-09-12), in reiner Form.
 
+## Nachtrag 2026-09-25: die Ebene darüber hat nur Richtung
+
+Das [[blockdiagramm]] ist die Notation eine Ebene höher, und der Unterschied ist
+nicht die Körnung (Baugruppe statt Bauteil), sondern die **Richtung**. Eine Linie
+im Schaltplan ist ein Leiter und hat keine; eine Linie im Blockdiagramm ist ein
+Signalweg und hat nur sie. Samuel Mason sagt es 1953 für seine abstrakte Fassung
+selbst: Signalflussgraphen „differ from electrical network graphs in that their
+branches are directed“. (Richtungsbehaftet sind im Schaltplan nur einzelne
+Schaltzeichen — Diode, Transistor —, nicht die Verbindungen. Franklins
+Stromrichtung, [[vorzeichenkonvention]], ist eine Vorzeichenregel für die Größe,
+die man an eine Linie schreiben kann; die Linie selbst hat sie nicht, und sie sagt
+nichts über Ursache und Wirkung.)
+
+Zwischen beiden sitzt eine Bauentscheidung: Black versieht 1934 die wirkliche
+Schaltung seines Gegenkopplungsverstärkers an Ein- und Ausgang mit Brücken, durch
+die „interaction between input and output is avoided“ — und stellt damit die
+Bedingung her, unter der sein Zwei-Kästen-Bild stimmt. Aus dem Schaltplan allein
+liest man die Richtung des Blockdiagramms nicht ab; bei passiven Netzen gibt es sie
+nicht, und Mason zeigt, dass man sie dort wählt.
+
+**Ausdrücklich nicht** als [[nachbarnotation]] eingetragen: Der Schaltplan lässt die
+Richtung nicht weg, **weil** das Blockdiagramm sie trägt, sondern weil die
+Verbindung sie nicht hat; das Blockdiagramm fügt sie hinzu. Das ist keine
+Arbeitsteilung, sondern eine Zutat.
+
 ## Belegt / vermutet
 
 - **Belegt:** alle obigen Zitate aus dem Volltext von IEEE Std 315-1975
@@ -79,7 +104,9 @@ nichts zeigt als auf sich selbst — die Sorte *Durchnummerierung* aus
   die seit 1897 falsch ist, und ändert nichts
 - [[selbstverdeckung]] — Gegenprobe: hier wird nichts verdeckt, der Verzicht
   steht in der Norm
+- [[blockdiagramm]] — die Ebene darüber: gerichtet, wo der Schaltplan ungerichtet ist (2026-09-25)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-17.md`
+- `entries/2026/2026-09-25.md` (die Ebene darüber hat nur Richtung)

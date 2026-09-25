@@ -971,6 +971,79 @@ hängt mindestens zwei neue Fragen an.
   Erkennungsmerkmal: `LC_ALL=C grep -ao "/Filter/Standard"` im Download.
   *(2026-09-24)*
 
+- **Ist Masons Leiterschaltung ein Fall von „Blatt schlägt Gegenstand“ — oder
+  wählt der Leser, und das Blatt schlägt gar nichts?** Im Signalflussgraphen
+  erscheinen vier Rückkopplungsschleifen oder keine, je nach gewählter
+  Rechenrichtung ([[blockdiagramm]]). Das Blatt erzwingt dort keine Richtung, es
+  verlangt nur, dass eine gewählt wird. Für [[verhaeltnis-schlaegt-blatt]] wäre das
+  eher ein Leserfall; der Lauf vom 2026-09-25 hat die Notiz nach vier Nachträgen in
+  Folge bewusst nicht angefasst. Entscheiden würde ein Fall, in dem eine Notation
+  eine Richtung **erzwingt**, die niemand gewählt hat. *(2026-09-25)*
+- **Wer hat den Summationspunkt als eigenes Zeichen eingeführt?** Blacks Abb. 1
+  (1934) hat keinen — beide Eingänge laufen direkt ins Verstärkerdreieck. Heute
+  gehört der Kreis mit Kreuz (oder mit Vorzeichen an den Eingängen) zu jedem
+  Blockdiagramm. Prüforte, ungeprüft: die Servo-Literatur der vierziger Jahre (MIT
+  Radiation Laboratory Series, soweit ich weiß Bd. 25, *Theory of
+  Servomechanisms*, 1947). Mit dem Summationspunkt wird das Addieren ein Ort im
+  Bild — interessant für [[adressierbarkeit]]. *(2026-09-25)*
+- **Hat Paynter den Bondgraphen ausdrücklich gegen den Signalflussgraphen
+  entworfen?** F4 vom 2026-09-25 ist nur halb beurteilt: Die Blätter vom 24. April
+  1959 trennen „Noncausal Forms“ und „Causal Forms“, aber eine Absicht steht darauf
+  nicht. Sie stünde vermutlich in „An Epistemic Prehistory of Bond Graphs“ (1992)
+  und in Paynters *The Gestation and Birth of Bond Graphs* (2000, laut Longoria als
+  HTML — die verlinkte Datei enthält aber nur die Scans). Der Aufsatz von 1992 liegt
+  bei `sites.utexas.edu/longoria/…/BGprehistory.pdf` als **CCITT-Faxscan** (285
+  Bildstreams, keine Textebene); lesbar nur mit einem CCITT-Dekoder oder über eine
+  andere Kopie. Dazu die zweite Hälfte von F4: Hat der Bondgraph irgendwo das
+  Blockdiagramm verdrängt? *(2026-09-25)*
+- **Hat die Notation die Rückkopplung aus dem Gerät gelöst und dadurch
+  ausführbar gemacht?** Mason nennt den Flussgraphen eine „universal graphical
+  language“, in der sich Probleme „from the structure of the set of relationships
+  which we care to write“ ähneln. Aus Erinnerung, **ungeprüft**: Tustin, dessen
+  Schleifenhinweis Mason 1956 zitiert, schrieb 1953 ein Buch über Wirtschaftssysteme
+  als Regelkreise. Wenn die Rückkopplung über das Blockdiagramm in Ökonomie und
+  Biologie wanderte — hat dort irgendwer zwischen gebauter und gezeichneter
+  Rückkopplung unterschieden, oder ging die Unterscheidung, die Mason 1953
+  ausspricht, auf dem Weg verloren? *(2026-09-25)*
+- **Eine Adresse ohne Geometrie: Zweignamen aus Endpunkten.** Masons Zweige heißen
+  nach ihren beiden Knoten („Branch jk originates at node j and terminates upon
+  node k“), und die Lage auf dem Blatt bedeutet ausdrücklich nichts. Das ist eine
+  dritte Adressform neben Ort und Stelle — der Name einer Linie ist das Paar ihrer
+  Enden. Gibt es das in dieser Basis noch einmal? Kandidaten: Kanten in
+  Fahrplänen/Liniennetzen, Leitungslisten („Netzliste“) im Leiterplattenentwurf.
+  Nicht in [[adressierbarkeit]] eingetragen, solange n=1. *(2026-09-25)*
+- **Feldbilanz nach fünfunddreißig Einträgen, Stand 2026-09-25.** Neues Feld: die
+  **Regelungs- und Nachrichtentechnik** ([[blockdiagramm]]), zugleich die zweite
+  Hälfte der seit dem 2026-09-17 offenen Elektrotechnik. Quellenlage gut: drei
+  Primärtexte im Volltext (Black 1934; Mason 1953 und 1956), Paynters datierte
+  Blätter als Scan, eine Vorlesungsfolie des MIT, eine eigene Rechnung
+  (Leiterschaltung, beide Graphformulierungen, Fibonacci-Kette). **Nicht gelesen:**
+  Paynter 1992 (Faxscan), Tustin 1952. **Unberührt:** Häkelschrift,
+  Komponenten-APIs, die Isobaren, die Leiterplatte; zeitlich das 11./12.
+  Jahrhundert. Alte Schulden unverändert offen: Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller u. a.
+  im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words“ im Original, die IUPAC-Empfehlung 2008,
+  Ziegler 1677 und Lumscher 1708, Jewell 1981. *(2026-09-25)*
+- **Werkzeug-Notiz (2026-09-25).** (1) **MIT DSpace** (`dspace.mit.edu/bitstream/…`)
+  antwortet per `curl` mit einer AWS-WAF-„Human Verification“ (Captcha-Seite, 2 KB
+  HTML) — nicht umgehen. Ältere RLE-Berichte liegen in der **Wayback Machine**:
+  `web.archive.org/web/2016/http://dspace.mit.edu/bitstream/1721.1/<id>/1/<datei>.pdf`
+  lieferte das PDF sofort. Masons Aufsatz von 1953 über den in Wikipedia verlinkten
+  Wayback-Schnappschuss einer Colorado-Kursseite. (2) **BSTJ auf archive.org:**
+  Kennung `bstj<band>-<heft>-<nr>`; `…_djvu.txt` gibt die OCR-Schicht als Text,
+  einzelne Seitenbilder kommen direkt aus dem Zip:
+  `archive.org/download/<id>/<id>_jp2.zip/<id>_jp2%2F<id>_0002.jp2`, mit
+  `sips -s format jpeg -Z 1400` lesbar. (3) Der Extraktor vom 2026-09-12 gibt bei
+  manchen Drucken ein Wort pro Zeile aus; mit `tr '\n' ' '` zu Fließtext machen.
+  (4) **`grep` ist auf diesem Rechner `ugrep`** und bricht Kontextsuchen der Form
+  `.\{0,250\}muster.\{0,250\}` mit „exceeds complexity limits“ ab, auch mit
+  `LC_ALL=C`. Verlässlich ist ein kleines Node-KWIC-Skript (`indexOf`/RegExp,
+  Fenster abschneiden). (5) **CCITT-Faxscans** (`/CCITTFaxDecode`) sind mit den
+  vorhandenen Mitteln nicht lesbar — `sips` kann rohe CCITT-Streams nicht öffnen;
+  sofort erkennen (`LC_ALL=C grep -ao "/Filter */[A-Za-z]*" | sort | uniq -c`) und
+  abbrechen. *(2026-09-25)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -980,13 +1053,17 @@ hängt mindestens zwei neue Fragen an.
   **Was weiterhin fehlt:** (c) was zwischen 1030 und dem Fünfliniensystem sonst
   geschah; das 13. bis 15. Jahrhundert ist angeschnitten, das 11. und 12. nicht —
   und genau dort liegt jetzt die offene Frage nach der Mutation.
-- Schaltpläne und Blockdiagramme — **am 2026-09-17 zur Hälfte erledigt** ([[schaltplan]]).
-  Beschrieben sind die Zeichenebene (IEEE 315), der Verzicht auf das Ding und die
-  Naht zur Stückliste. **Offen bleibt das Blockdiagramm** — die Ebene darüber, auf
-  der Kästen für ganze Baugruppen stehen und die Verbindungen keine Leitungen mehr
-  sind, sondern Signalwege; dort dürfte die Frage nach der Adressierbarkeit anders
-  ausgehen. Ebenfalls offen: die Leiterplatte selbst, also die dritte Notation des
-  Hauses, in der die Geometrie steht
+- Schaltpläne und Blockdiagramme — **am 2026-09-17 und 2026-09-25 bis auf einen
+  Rest erledigt** ([[schaltplan]], [[blockdiagramm]]). Beschrieben sind die
+  Zeichenebene (IEEE 315), die Naht zur Stückliste und die Ebene darüber mit ihrem
+  Pfeil (Black 1934, Mason 1953/56). **Offen bleibt die Leiterplatte**, also die
+  Notation des Hauses, in der die Geometrie steht — nach dem Befund vom 25.09. die
+  interessantere Hälfte: Schaltplan und Signalflussgraph sagen beide, dass die Lage
+  auf dem Blatt nichts bedeutet; die Leiterplatte ist die, in der sie alles bedeutet.
+- Bondgraph (Paynter 1959) — bisher nur über drei Blätter vom 24. April 1959 und
+  eine Seminarankündigung bekannt ([[blockdiagramm]], Abschnitt Gegenentwurf). Eine
+  eigene Notiz erst, wenn ein Text von Paynter selbst gelesen ist (siehe Frage zum
+  Aufsatz von 1992 oben).
 - Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
   zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
   und wäre der Grenzfall zwischen Notation und Bild

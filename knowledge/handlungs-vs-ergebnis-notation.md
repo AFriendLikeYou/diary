@@ -3,7 +3,7 @@ slug: handlungs-vs-ergebnis-notation
 titel: Handlungsnotation und Ergebnisnotation
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-08-25
+zuletzt: 2026-09-25
 ---
 
 # Handlungsnotation und Ergebnisnotation
@@ -119,6 +119,28 @@ Programme gegen deklarative Spezifikation" nicht erledigt, aber neu geordnet: Di
 interessante Frage an Programmiersprachen ist nicht, was sie notieren, sondern
 **wann** sie gelesen werden.
 
+## Nachtrag 2026-09-25: dasselbe Bild auf beiden Seiten, und man sieht es ihm nicht an
+
+Erste Anwendung seit dem 2026-08-25, unbestellt: Der Lauf galt dem
+[[blockdiagramm]], nicht dieser Notiz. Samuel Mason zeichnet 1956 für eine passive
+Leiterschaltung zwei Signalflussgraphen. Der erste folgt der **Ursache im
+Gegenstand** (Strom hinein, Spannung heraus) und hat vier Rückkopplungsschleifen;
+der zweite folgt einer **Rechenfolge** — Endspannung wählen, rückwärts den nötigen
+Strom ausrechnen, „the final effect (sink) produced by the chain of calculations“ —
+und hat keine. Der zweite ist eine Handlungsnotation im Sinn dieser Notiz:
+Operationen (hier Additionen) in Ausführungsreihenfolge. Aber er ist mit denselben
+Zeichen gezeichnet wie der erste, und nichts auf dem Blatt sagt, welcher von beiden
+der Ursache im Gegenstand folgt und welcher dem Rechenweg („This does not in any
+way alter the physical role of i“).
+
+**Was das für die Achse heißt:** Bisher war Handlung/Ergebnis eine Eigenschaft
+eines **Zeichensystems** (Kürzelanleitung gegen Diagramm). Hier ist es eine
+Eigenschaft der **einzelnen Zeichnung** innerhalb eines Systems, und sie ist
+unsichtbar. **Was nicht passt, ausdrücklich:** Der erste Graph ist kein
+Ergebnisbild im Sinn dieser Notiz (er zeigt keinen Zustand des fertigen Dings,
+sondern eine Kausalordnung). Die Achse trifft also nur die eine Hälfte des Paares;
+ich trage den Fall als halben ein und baue keine dritte Sorte an.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Eigenschaften des Strick-Diagramms (Leserichtung,
@@ -162,9 +184,11 @@ interessante Frage an Programmiersprachen ist nicht, was sie notieren, sondern
   vorhergesehen hatte
 - [[laufende-notation]] — die dritte Stellung, für die diese Achse keinen Platz hat
 - [[live-coding]] — der Fall, der sie aufgedeckt hat
+- [[blockdiagramm]] — ein Zeichensystem, in dem jede einzelne Zeichnung auf einer anderen Seite der Achse liegen kann, ohne dass man es ihr ansieht (halber Fall, 2026-09-25)
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md` (Korrektur)
 - `entries/2026/2026-08-25.md` (dritte Stellung)
+- `entries/2026/2026-09-25.md` (Signalflussgraph: Kausalbild und Rechenfolge in denselben Zeichen, halb)
