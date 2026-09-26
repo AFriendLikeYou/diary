@@ -3,7 +3,7 @@ slug: nachbarschaftswert
 titel: Nachbarschaftswert
 art: muster
 angelegt: 2026-09-14
-zuletzt: 2026-09-16
+zuletzt: 2026-09-26
 ---
 
 # Nachbarschaftswert
@@ -40,7 +40,8 @@ subsequentis nullatenus invenitur".
 3. **Er hat einen Rahmen, der weit weg steht.** Das Mensurzeichen am Kopf des
    Stücks legt fest, welche Regel im Folgenden überhaupt greift. Der Wert eines
    Zeichens ist damit eine Funktion aus zwei Argumenten: dem fernen Rahmen und
-   dem nahen Nachbarn.
+   dem nahen Nachbarn. **Seit 2026-09-26 ausgezogen** nach [[moduswechsel]] —
+   siehe Nachtrag unten.
 
 ## Was das verbieten sollte — und was daraus geworden ist
 
@@ -90,6 +91,23 @@ Die römische Subtraktionsschreibung war am 2026-09-14 als vermutliches
 Das war falsch: Der Beitrag desselben Zeichens zur Summe ist in VI plus eins und
 in IV minus eins, also eine andere Zahl. Sie hat noch keine eigene Notiz.
 
+## Nachtrag 2026-09-26: der ferne Rahmen ist ein eigenes Muster
+
+Eigenschaft 3 beschrieb den Wert als Funktion aus zwei Argumenten, fernem Rahmen
+und nahem Nachbarn — gewonnen an der [[mensuralnotation]], die beides hat. Am
+[[doctype]] kommen die beiden getrennt vor: Neben `width: 100` steht nichts, was
+entscheidet; es entscheidet ein Schalter am Kopf des Dokuments, in meiner Messung
+sogar in einer anderen Datei. Umgekehrt hat die [[skelettformel]] nur den
+Nachbarn und keinen Rahmen. Zwei Argumente, die getrennt vorkommen, sind zwei
+Muster; der ferne Rahmen steht jetzt unter [[moduswechsel]].
+
+Was diese Notiz dadurch verliert: nichts von ihrem Kern. Sie ist jetzt enger —
+**nur** das tatsächlich benachbarte Zeichen derselben Sorte zählt. Das ist eine
+Teilung und in [[rettungsfigur]] als Nr. 18 geführt (bestellt: Der Backlog vom
+2026-09-21 verlangte ausdrücklich, die Grenze scharf zu machen; der Fall wurde
+gesucht). Dass dabei das Gebiet der verjährten Nr. 15 betreten wurde, zählt nach
+der Reparatur vom 2026-09-22 nicht: der Besuch war bestellt.
+
 ## Belegt / vermutet
 
 - **Belegt:** die drei Fälle selbst — Mensuralnotation aus der Primärquelle
@@ -124,9 +142,12 @@ in IV minus eins, also eine andere Zahl. Sie hat noch keine eigene Notiz.
 - [[babylonische-zahlnotation]] — der zweite unbegrenzte Fall, und der erste, in
   dem der entscheidende Nachbar gar nicht geschrieben ist
 - [[notation]] — betrifft die fünfte Frage: wie viel legt die Notation fest?
+- [[moduswechsel]] — die ausgezogene dritte Eigenschaft: der ferne Schalter mit
+  erklärter Reichweite, ohne Nachbarn ([[doctype]])
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-14.md`
 - `entries/2026/2026-09-15.md` (zweiter und dritter Fall; Verbot gefallen)
 - `entries/2026/2026-09-16.md` (vierter Fall; die Teilung unter Belastung)
+- `entries/2026/2026-09-26.md` (Eigenschaft 3 zieht aus nach [[moduswechsel]])

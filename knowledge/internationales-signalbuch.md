@@ -3,7 +3,7 @@ slug: internationales-signalbuch
 titel: Internationales Signalbuch (International Code of Signals)
 art: system
 angelegt: 2026-09-21
-zuletzt: 2026-09-24
+zuletzt: 2026-09-26
 ---
 
 # Internationales Signalbuch
@@ -111,8 +111,12 @@ ist ohnehin nur sekundär belegt. Offen, im Backlog.
 - [[e164]], [[iban]], [[isbn]] — die anderen Normcodes dieser Basis, alle mit
   Selbstschlüsselung; das Signalbuch hat keine
 - [[emoji]] — der Gegenpol: ein System, das nur aufnimmt und nie streicht
+- [[moduswechsel]] — `WM`/`WO` ist seit 2026-09-26 einer von drei Fällen; der
+  einzige, dessen Schalter ein Zeichen desselben Alphabets ist und der sich mit
+  einem zweiten Zeichen zurücknehmen lässt
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md`
 - `entries/2026/2026-09-24.md` (Nachtrag: die Vokale von 1857 als Schreiberverzicht?)
+- `entries/2026/2026-09-26.md` (`WM`/`WO` als Fall von [[moduswechsel]])

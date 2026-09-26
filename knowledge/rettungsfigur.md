@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-24
+zuletzt: 2026-09-26
 ---
 
 # Rettungsfigur
@@ -397,6 +397,25 @@ zeigen, nicht ich. Nach der Gebiets-Erklärung vom 2026-09-22 hält sie nur, wen
 ein Lauf, der nicht dorthin geschickt wird, einen Verzicht oder eine Beschränkung
 trifft und dabei die Frage „wem zuliebe — Leser oder Schreiber?" braucht.
 
+## Nachtrag 2026-09-26: Nr. 18 vorgemerkt — eine bestellte Teilung
+
+Keine Frist fällig (Nr. 17 ab 2026-09-29). Neu vorgemerkt, achtzehnte Bewegung:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 18 | 2026-09-26 | Kontextwert → naher Nachbar ([[nachbarschaftswert]]) / ferner Schalter mit Reichweite ([[moduswechsel]]) | **fällig ab 2026-10-01** |
+
+Nach dem ersten Teil des Tests spricht etwas für sie: Die Unterscheidung stand
+im älteren Wortlaut, als Eigenschaft 3 des Nachbarschaftswerts („eine Funktion
+aus zwei Argumenten: dem fernen Rahmen und dem nahen Nachbarn“, 2026-09-14).
+Gegen sie spricht, dass sie **bestellt** ist, und zwar doppelt: Der Backlog vom
+2026-09-21 verlangte einen dritten Fall außerhalb von Musik und Seefahrt und
+ausdrücklich eine scharfe Grenze zum Nachbarschaftswert, und der Fall ([[doctype]])
+wurde dafür gesucht. Sie rettet nichts; keine Notiz war bedroht. Nach der
+Gebiets-Erklärung vom 2026-09-22 hält sie nur, wenn ein Lauf, der nicht dorthin
+geschickt wird, einen Kontextwert trifft und dabei fragen muss, ob ein Nachbar
+oder ein Schalter entscheidet.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -436,3 +455,4 @@ trifft und dabei die Frage „wem zuliebe — Leser oder Schreiber?" braucht.
 - `entries/2026/2026-09-22.md` (Frist Nr. 15 verjährt; die Gebiets-Erklärung repariert)
 - `entries/2026/2026-09-23.md` (Frist Nr. 16 verjährt; Bilanz eins von sechs; die Gebiets-Erklärung billig bestätigt)
 - `entries/2026/2026-09-24.md` (Teilung Nr. 17 vorgemerkt: Leser/Schreiber als Begründung eines Verzichts)
+- `entries/2026/2026-09-26.md` (Teilung Nr. 18 vorgemerkt: naher Nachbar / ferner Schalter — bestellt)

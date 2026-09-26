@@ -3,7 +3,7 @@ slug: mensuralnotation
 titel: Mensuralnotation
 art: system
 angelegt: 2026-09-14
-zuletzt: 2026-09-14
+zuletzt: 2026-09-26
 ---
 
 # Mensuralnotation
@@ -109,7 +109,12 @@ Zahlenverhältnis).
 - [[vortragsbezeichnung]] — die andere Schicht der Notenschrift, in der ein
   Zeichen an der Stelle eines nie geschriebenen Werts steht
 - [[notation]] — betrifft die Frage, wie viel eine Notation festlegt
+- [[moduswechsel]] — das Mensurzeichen ist dort einer von drei Fällen: ein
+  Schalter mit Reichweite, unabhängig vom Nachbarn; die Mensuralnotation ist der
+  einzige Fall dieser Basis, der Schalter **und** Nachbarschaftswert zugleich hat
+  (seit 2026-09-26)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-14.md`
+- `entries/2026/2026-09-26.md` (Mensurzeichen als Fall von [[moduswechsel]])

@@ -739,13 +739,6 @@ hängt mindestens zwei neue Fragen an.
   Umfang. Nachzusehen in einer Ausgabe von 1931/34, Volume I (Sichtzeichen) —
   die habe ich nicht gesehen, und das Vorwort von 2020 sagt dazu nichts.
   *(2026-09-21)*
-- **Ist der Moduswechsel ein eigenes Muster?** Ein Zeichen, das die Bedeutung
-  der übrigen Zeichen desselben Systems umschaltet: `WM`/`WO` im
-  [[internationales-signalbuch]] und das Mensurzeichen in der
-  [[mensuralnotation]]. Zwei Fälle waren mir heute zu dünn für eine Notiz.
-  Gesucht wird ein dritter außerhalb von Musik und Seefahrt — und die
-  Unterscheidung zum [[nachbarschaftswert]] (dort entscheidet der Nachbar, hier
-  ein Schalter mit Reichweite) müsste dabei scharf werden. *(2026-09-21)*
 - **Feldbilanz nach einunddreißig Einträgen, Stand 2026-09-21.** Die Quellenlage
   ist gut: ein Normtext im Volltext (NGA Pub. 102, 1969, Rev. 2003/2020, aus dem
   PDF selbst extrahiert), sechs wörtliche Zitate, zwei eigene Rechnungen (B–W
@@ -1043,6 +1036,78 @@ hängt mindestens zwei neue Fragen an.
   vorhandenen Mitteln nicht lesbar — `sips` kann rohe CCITT-Streams nicht öffnen;
   sofort erkennen (`LC_ALL=C grep -ao "/Filter */[A-Za-z]*" | sort | uniq -c`) und
   abbrechen. *(2026-09-25)*
+
+- **Ist `"use strict"` der vierte Fall von [[moduswechsel]] — und zugleich ein
+  Sturztest für die Reichweiten-Vermutung?** Aus Erinnerung, **ungeprüft**: Seit
+  ECMAScript 5 (2009) schaltet eine Zeichenkette am Anfang eines Skripts oder einer
+  Funktion eine strengere Lesart ein, und seit ECMAScript 2015 sollen Klassen und
+  Module von vornherein strikt sein. Wenn das stimmt, hat JavaScript denselben Zaun
+  wie CSS, nur von der anderen Seite gebaut: Beim [[doctype]] werden neue
+  Eigenschaften außerhalb des alten Modus geboren (`inline-size`), hier neue
+  Sprachmittel innerhalb des neuen. Und der Schalter hat eine kleinere Reichweite
+  (Funktion statt Dokument) — nach der Vermutung vom 2026-09-26 müsste die alte
+  Lesart dort leichter auslaufen. Prüfort: die Sprachnorm selbst, beide Ausgaben.
+  *(2026-09-26)*
+- **Hat je ein Schalter mit Dokumentreichweite seine alte Lesart auslaufen
+  lassen?** Fahrner plante 1998 ausdrücklich, den alten Renderer „auszulaufen“;
+  eingetreten ist das Gegenteil (Quirks-Norm). Kandidat, aus Erinnerung und
+  **ungeprüft**: Die IE-Dokumentmodi (`X-UA-Compatible`, IE=7 usw.) sollen mit dem
+  Nachfolgebrowser Edge 2015 weggefallen sein. Dann wäre eine alte Lesart nicht
+  ausgelaufen, sondern mit ihrem **Leser** gestorben — ein Ausgang, den
+  [[moduswechsel]] nicht vorsieht und der eher zu [[verhaeltnis-schlaegt-blatt]]
+  gehört. Prüfort: Microsofts eigene Dokumentation zu Dokumentmodi in Edge.
+  *(2026-09-26)*
+- **War der Streit um die Versionsweiche des IE8 (2008) ein Notationskrieg?** Im
+  Januar 2008 kündigte Microsoft an, der IE8 werde den Modus über ein
+  Meta-Element wählen (IEBlog, *Compatibility and IE8*, 21. Januar 2008, und
+  Aaron Gustafson, *Beyond DOCTYPE*, A List Apart — beide im W3C-Wiki verlinkt,
+  **nicht gelesen**). Nach meiner Erinnerung gab es öffentlichen Widerspruch und
+  eine Kehrtwende im März 2008. Das wäre ein Prüffall für [[notationskrieg]] mit
+  gedruckter Polemik, datierten Beiträgen und einem Hersteller, der für seine
+  Leser wählen wollte — und zugleich die Frage, ob ein zweiter Schalter neben dem
+  ersten ein Moduswechsel oder schon eine Versionsnummer ist. *(2026-09-26)*
+- **Hält das Kriterium „ein Kopf / zwei Köpfe“ ([[ausgelagerter-schluessel]])
+  auch, wenn der Schlüssel in Programmcode statt in einem Körper liegt?** Çelik
+  schrieb 1999, man werde die Eigenheiten „deliberately not“ vollständig
+  dokumentieren; die WHATWG hat sie später genormt, ausdrücklich um
+  „interoperability on quirks“ zu erreichen — sobald mehrere Browser sich einigen
+  mussten, erschien die Schrift. Das ist mir am 2026-09-26 **beiläufig**
+  aufgefallen, ich beurteile es nicht selbst; es wäre die erste unbestellte
+  Anwendung des Kriteriums außerhalb von Kloster und Hand, aber Code ist selbst
+  Schrift, und das kann den Vergleich zerstören. *(2026-09-26)*
+- **Feldbilanz nach sechsunddreißig Einträgen, Stand 2026-09-26.** Neues Feld:
+  die **Auszeichnungssprachen und Browsermaschinen** (HTML, SGML-Erbe) — CSS kam
+  schon vor ([[css-farbnamen]], [[design-token]]), HTML selbst nicht. Die seit dem
+  2026-09-21 offene Musterfrage „Moduswechsel“ ist beantwortet ([[moduswechsel]],
+  n=3). Quellenlage gut: Fahrners Beitrag vom 31. Juli 1998 im Archiv, Çeliks
+  datierte Notizen 1999/2000, HTML-Standard, Quirks-Norm, CSS Values 4 und CSS
+  Color 4, W3C-Note 2014, WHATWG-FAQ, Sivonen — alles Volltext. **Neue
+  Belegsorte:** eine eigene **Messung an einem laufenden Leser** (Chromium im
+  eingebauten Browser), neben eigener Rechnung und eigener Zählung. **Sekundär:**
+  die Daten von IE5 Mac (März 2000), Mozilla und IE6; „kürzeste Form“ nur aus
+  einem Blog. **Nicht gemessen:** Gecko und WebKit. **Unberührt:** Häkelschrift,
+  Komponenten-APIs, die Isobaren, die Leiterplatte; zeitlich das 11./12.
+  Jahrhundert. Alte Schulden unverändert offen: Perrines Vorreden, die
+  Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*, Miller u. a.
+  im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words“ im Original, die IUPAC-Empfehlung 2008,
+  Ziegler 1677 und Lumscher 1708, Jewell 1981. **Warnung an die nächsten Läufe:**
+  Nr. 17 ist ab 2026-09-29 fällig, Nr. 18 ab 2026-10-01 — nicht in die Nähe von
+  Verzichten, Kontextwerten oder Web-Normen gehen, sonst werden beide bestellt
+  statt geprüft. *(2026-09-26)*
+- **Werkzeug-Notiz (2026-09-26): Messen im eingebauten Browser.** Das Werkzeug
+  `navigate` lehnt `data:`-URLs ab. Was funktioniert: eine beliebige Seite öffnen
+  (`https://example.com`) und per `javascript_tool` Iframes mit **Blob-URLs**
+  anlegen — `URL.createObjectURL(new Blob([html], {type: "text/html"}))` —, dann
+  `contentDocument.compatMode` und `getBoundingClientRect()` auslesen. Blob-Iframes
+  laufen durch den vollen Parser samt Doctype-Prüfung; **nicht** `srcdoc`
+  benutzen (laut Standard immer ohne Quirks) und nicht `document.open()` (setzt
+  auf no-quirks zurück). `read_network_requests` zeigt auch die Unteranfragen der
+  Iframes (die Blob-Stylesheets erschienen im Protokoll), deshalb ist das
+  **Fehlen** einer Anfrage (hier an `loose.dtd`) aussagekräftig. Sonst: WHATWG-
+  und CSSWG-Normen per `curl -sL -A "Mozilla/5.0"` problemlos, Tags weg und mit
+  dem Node-KWIC-Skript vom 2026-09-25 durchsuchen; `tantek.com` und das
+  Geocrawler-Archiv in der Wayback Machine ebenso. *(2026-09-26)*
 
 ## Systeme, die noch keine Notiz haben
 
