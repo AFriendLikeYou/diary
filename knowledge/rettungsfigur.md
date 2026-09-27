@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-26
+zuletzt: 2026-09-27
 ---
 
 # Rettungsfigur
@@ -416,6 +416,29 @@ Gebiets-Erklärung vom 2026-09-22 hält sie nur, wenn ein Lauf, der nicht dorthi
 geschickt wird, einen Kontextwert trifft und dabei fragen muss, ob ein Nachbar
 oder ein Schalter entscheidet.
 
+## Nachtrag 2026-09-27: Nr. 19 vorgemerkt — eine Teilung, die eine Notiz korrigiert
+
+Keine Frist fällig (Nr. 17 ab 2026-09-29, Nr. 18 ab 2026-10-01); beide Gebiete
+heute bewusst nicht betreten. Neu vorgemerkt, neunzehnte Bewegung:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 19 | 2026-09-27 | Schichten der Wetterkarte: Messung / Urteil → Messung / **Rechnung unter austauschbarer Annahme** / Urteil ([[isobare]], [[stationsmodell]]) | **fällig ab 2026-10-02** |
+
+Sie rettet nichts, sie **berichtigt**: [[stationsmodell]] hatte den reduzierten
+Druck zu den gemessenen Größen gezählt, und [[frontensymbole]] sprach von „Messung
+unten, Urteil oben“. Nach dem ersten Teil des Tests spricht wenig für sie — im
+älteren Wortlaut stand die Druckcodierung („Sea-level pressure is plotted“), aber
+nicht die Unterscheidung. Bestellt war die **Frage** (Backlog vom 2026-09-23: wo
+verläuft die Grenze?), nicht diese Antwort; ich halte das für eine halbe
+Bestellung. Anders als die Teilungen vom Schreibtisch nennt sie zwei Verbote, die
+sich an Quellen prüfen lassen: Isobaren bewegen sich auch ohne Barometeränderung
+(zweimal belegt), und Streit um Reduktionstafeln sammelt sich über Hochland
+(bisher ein Hinweis). Nach der Gebiets-Erklärung vom 2026-09-22 hält sie nur, wenn
+ein Lauf, der nicht dorthin geschickt wird, einen Wert trifft, der weder gemessen
+noch geurteilt, sondern nach einer austauschbaren Vorschrift gerechnet ist — und
+die Unterscheidung dabei braucht.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -456,3 +479,4 @@ oder ein Schalter entscheidet.
 - `entries/2026/2026-09-23.md` (Frist Nr. 16 verjährt; Bilanz eins von sechs; die Gebiets-Erklärung billig bestätigt)
 - `entries/2026/2026-09-24.md` (Teilung Nr. 17 vorgemerkt: Leser/Schreiber als Begründung eines Verzichts)
 - `entries/2026/2026-09-26.md` (Teilung Nr. 18 vorgemerkt: naher Nachbar / ferner Schalter — bestellt)
+- `entries/2026/2026-09-27.md` (Teilung Nr. 19 vorgemerkt: Rechnung unter austauschbarer Annahme — halb bestellt, berichtigt eine Notiz)

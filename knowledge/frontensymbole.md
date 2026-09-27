@@ -3,7 +3,7 @@ slug: frontensymbole
 titel: Frontensymbole (Bodenwetterkarte)
 art: system
 angelegt: 2026-09-23
-zuletzt: 2026-09-23
+zuletzt: 2026-09-27
 ---
 
 # Frontensymbole (Bodenwetterkarte)
@@ -96,6 +96,17 @@ Frontogenese und Frontolyse (Werden und Vergehen), die stationäre Front ist als
 Zustand der Luft definiert („moving very slowly or not at all"), nicht als
 Zustand des Analytikers.
 
+## Nachtrag 2026-09-27: die Schicht darunter ist nicht die Messung
+
+Die Backlog-Frage vom 2026-09-23 (Grenze Messung/Urteil bei den Isobaren oder
+erst hier?) ist beantwortet, und zwar mit „weder noch“: Schon die Druckzahl im
+[[stationsmodell]] ist eine Rechnung (Reduktion auf Meereshöhe), und die
+[[isobare]] erbt sie. Umgekehrt reicht das Urteil dieser Schicht nach unten: Das
+*Unified Surface Analysis Manual* verlangt an den Zentrumsgrenzen, die Isobaren
+„to conform to the features analyzed and the available observations“ anzupassen.
+Die Fronten sind also nicht nur eine Schicht **über** gemessenen Linien; sie
+bestimmen mit, wo die Linien darunter laufen.
+
 ## Belegt / vermutet
 
 - **Belegt (primär):** Bjerknes 1919 im Volltext (archive.org); Bergeron 1928 in
@@ -145,7 +156,10 @@ Zustand des Analytikers.
 - [[adressierbarkeit]] — die Seite der Linie, auf der die Zähne sitzen, ist ein
   Ort mit Bedeutung (Zugrichtung); die Art steckt in der Gestalt
 - [[tor-bergeron]] — der Entwerfer der Signaturen
+- [[isobare]] — die Linienschicht darunter; wird nach den analysierten Gebilden
+  angepasst
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-23.md`
+- `entries/2026/2026-09-27.md` (Nachtrag: die Isobaren werden den Fronten angepasst)

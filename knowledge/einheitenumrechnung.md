@@ -3,7 +3,7 @@ slug: einheitenumrechnung
 titel: Einheitenumrechnung
 art: muster
 angelegt: 2026-09-08
-zuletzt: 2026-09-08
+zuletzt: 2026-09-27
 ---
 
 # Einheitenumrechnung
@@ -52,6 +52,23 @@ Marke besser war. 1871 stand auf den englischen Klinikthermometern ein eingravie
 Pfeil bei 98,4 °F (= 36,89 °C); die Umrechnung 98,6 hat ihn verdrängt, obwohl 98,4
 näher an dem lag, was Mackowiak u. a. 1992 gemessen haben (36,8 °C).
 
+## Nachtrag 2026-09-27: ein zweiter, halber Fall — der ganze Wert
+
+Die Reduktion des Luftdrucks auf Meereshöhe ([[isobare]]) ist eine Umrechnung im
+weiteren Sinn: nicht zwischen Einheiten, sondern zwischen Höhen. Sie teilt mit dem
+Muster die **Ziffernfabrik**, aber in stärkerer Form — sie erzeugt nicht
+Nachkommastellen zu einem gemessenen Wert, sondern einen ganzen Wert an einem Ort,
+an dem nichts gemessen werden kann (unter einer Bergstation ist Fels). Und sie
+teilt die **Platzkonkurrenz**, nur konkurrieren nicht zwei Skalen, sondern zwei
+Tafeln um dieselbe Zahl: Summit, Alaska, 26,10 inHg bei −60 °F wird 28,98 oder
+29,26 (Hagarty 1964). Kanonisch wird hier nicht, was eine Skala überlebt, sondern
+was die Behörde einführt; als um 1939 Stationen vom Stadtbüro an den Flughafen
+wechselten, wurden ihre Werte laut Hagarty auf die Höhe des alten Büros (das
+„Bigelow datum“) umgerechnet, um „the homogeneity of the pressure data“ zu wahren.
+**Halb**,
+weil die erste Vorhersage des Musters (die Zielfassung trägt mehr Stellen) hier
+nichts entscheidet: Beide Tafelwerte haben gleich viele Stellen.
+
 ## Belegt / vermutet
 
 - **Belegt:** § 2 mit der Réaumur-Klammer in der deutschen Erstausgabe 1868
@@ -77,7 +94,10 @@ näher an dem lag, was Mackowiak u. a. 1992 gemessen haben (36,8 °C).
   stammt die Stellenzahl aus einer Rechnung, die niemand für eine Messung hält
 - [[vortragsbezeichnung]] — dort wird ein Wert erfunden, wo keiner stand; hier
   werden Stellen erfunden, wo ein Wert stand
+- [[isobare]] — die Reduktion auf Meereshöhe: ein ganzer Wert aus einer Tafel,
+  und acht Verfahren in neunzig Jahren
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-08.md`
+- `entries/2026/2026-09-27.md` (zweiter, halber Fall: Reduktion auf Meereshöhe)

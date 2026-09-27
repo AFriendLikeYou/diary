@@ -3,7 +3,7 @@ slug: stationsmodell
 titel: Stationsmodell
 art: system
 angelegt: 2026-09-11
-zuletzt: 2026-09-23
+zuletzt: 2026-09-27
 ---
 
 # Stationsmodell
@@ -102,6 +102,24 @@ ein Analytiker daraus geschlossen hat. Kein Zeichen der heutigen Legende markier
 den Übergang; das Blatt verlässt sich darauf, dass der Leser weiß, welche Schicht
 welche ist. Die Isobaren selbst sind nicht beschrieben (offen im Backlog).
 
+## Nachtrag 2026-09-27: der Druck ist nicht gemessen
+
+Die Tabelle oben zählt den Druck zu den zwölf **gemessenen** Größen, und der
+Abschnitt vom 2026-09-23 sagt „unten, an festen Plätzen, was gemessen wurde“. Für
+den Druck ist das falsch. Geplottet wird der auf Meereshöhe **reduzierte** Druck
+(WPC: „Sea-level pressure is plotted“), und der ist an jeder höher gelegenen
+Station eine Rechnung: der Wert, der unter der Station herrschte, wenn Luft bis
+zum Meeresspiegel hinab reichte (AMS-Glossar). Welcher Wert herauskommt, hängt von
+der Reduktionstafel ab; das U.S. Weather Bureau hat zwischen 1870 und 1961 acht
+Verfahren benutzt, und für dieselbe Ablesung (Summit, Alaska, 26,10 inHg bei
+−60 °F) liefern zwei davon 28,98 oder 29,26 inHg (Hagarty 1964; Einzelheiten in
+[[isobare]]). Die unterste Schicht der Karte enthält also schon eine Rechnung unter
+einer austauschbaren Annahme — und die Grenze zwischen Messung und Urteil verläuft
+nicht zwischen den Schichten, sondern durch die Druckzahl. Die übrigen elf Größen
+bleiben, soweit ich weiß, Messwerte (der Taupunkt ist streng genommen
+abgeleitet; nicht geprüft). Die Adressierbarkeits-Bilanz („eine von zwölf“) ändert
+sich dadurch nicht, weil der Druck dort ohnehin keinen Ort hatte.
+
 ## Belegt / vermutet
 
 - **Belegt:** Definition und Anordnung (DWD-Wetterlexikon, Lemma
@@ -144,8 +162,11 @@ welche ist. Die Isobaren selbst sind nicht beschrieben (offen im Backlog).
 - [[werkzeugzwang]] — offener Verdacht: das Telegramm erzwingt die Ziffer
 - [[frontensymbole]] — die Schicht darüber: Urteil statt Messung, auf demselben
   Blatt
+- [[isobare]] — die Linien zwischen beiden Schichten; tragen denselben reduzierten
+  Wert wie die Druckzahl hier, und damit dieselbe Tafel
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-11.md`
 - `entries/2026/2026-09-23.md` (die Schicht darüber: Fronten)
+- `entries/2026/2026-09-27.md` (der Druck ist reduziert, also gerechnet)
