@@ -54,9 +54,6 @@ hängt mindestens zwei neue Fragen an.
   Machtfrage-Antwort in [[handlungs-vs-ergebnis-notation]] ist widerlegt und durch
   [[adressierbarkeit]] ersetzt; ob der Strickfall die *neue* Fassung stützt, hängt
   weiter an dieser fehlenden Zahl. *(2026-08-20)*
-- Ist JIS L 0201:1995 wirklich auf Strickfabriken zugeschnitten? Eine einzige
-  Sekundärquelle behauptet es. Wenn ja: Die Handschrift des Handwerks wurde dort
-  genormt, wo Maschinen standen — das wäre ein eigener Eintrag. *(2026-08-20)*
 - Dezimaltrenner Komma vs. Punkt als Gegenbeleg zu [[uniformer-irrtum]]: noch
   offen, und nach dem 2026-08-20 der *bessere* Kandidat, weil die Zahl ihren
   Schlüssel nicht mitführt und es trotzdem gutgeht. (ISO/SI erlaubt beide, die
@@ -1178,6 +1175,90 @@ hängt mindestens zwei neue Fragen an.
   Befehlssubstitution ausgeführt — Skripte mit Markdown-Code als Heredoc mit
   `<<'EOF'` in eine Datei schreiben. *(2026-09-27)*
 
+- **Seit wann gilt „Strich = Umschlag“, und wie sahen Häkeldiagramme vorher
+  aus?** JIS L 0201:1995 schreibt die Regel bei 3031 in Klammern hin
+  („記号の斜線は，針にかける編糸の回数を表す“, [[haekelschrift]]); die Norm gibt es
+  laut japanischer Wikipedia seit dem 21. Mai 1955, revidiert 1967, 1978, 1995.
+  Ob die Fassung von 1955 überhaupt Häkelzeichen hatte, weiß ich nicht. Prüforte,
+  **ungeprüft**: ältere Fassungen der Norm (JISC-Datenbank, Bibliotheken),
+  Handarbeitshefte der fünfziger Jahre (etwa von Nihon Vogue). Entscheidet auch, ob „Diagramm ab ~1960“ in [[strickschrift]]
+  zu spät ist. *(2026-09-28)*
+- **Wird im Häkeldiagramm entworfen, obwohl einzelne Maschen keine Adresse
+  haben?** Reihen tragen Nummern, Maschen nicht, und die Lage regelt „unless the
+  image tells you otherwise“ ([[haekelschrift]]). Nach [[adressierbarkeit]] müsste
+  Entwerfen dort schwer sein — gibt es Belege, dass Häkelentwerferinnen im
+  Diagramm entwerfen statt im Text? Wenn ja, ein Gegenfall zur Adressierbarkeit;
+  wenn nein, ein weiterer Beleg. **Achtung:** Die Adresse „in die Masche darunter“
+  ist relativ zum Nachbarn und liegt damit am Gebiet der Teilung Nr. 18
+  (Kontextwert, fällig ab 2026-10-01) — **nicht vor dem 2026-10-01 bestellt
+  angehen**. *(2026-09-28)*
+- **Ist der Vorderseitensatz des Craft Yarn Council von der Strickliste
+  übernommen?** „For the most part each symbol represents a stitch as it looks on
+  the right side of the work“ steht wortgleich auf der Häkel- und der Strickseite;
+  nur die Strickliste verdoppelt die Bedeutungen („K on RS, p on WS“). Prüfort:
+  ältere Fassungen der Liste (CYC-Standards-PDF 2018 unter
+  `media.craftyarncouncil.com/sites/default/files/images/standards/…`; die
+  Symbol-PDFs gaben am 2026-09-28 Fehler 504; Wayback). Dabei gleich mitprüfen, ob
+  die US-Zeichen ausdrücklich aus Japan übernommen sind — gleich sind sie, ein Weg
+  ist nicht belegt. *(2026-09-28)*
+- **Zweiter halber Fall für [[handlungs-vs-ergebnis-notation]]?** Dasselbe
+  Häkelzeichen ist in der JIS als **Handzählung** genormt (Strich = Umschlag) und
+  beim Council als **Anblick** begründet („as it looks on the right side“). Auf dem
+  Blatt ist nicht zu sehen, welche Lesart gilt — das erinnert an den halben Fall vom
+  2026-09-25 (Signalflussgraph: Handlung/Ergebnis als Eigenschaft der einzelnen
+  Zeichnung, unsichtbar). **Beiläufig aufgefallen, nicht beurteilt**; der Lauf vom
+  2026-09-25 hat verlangt, den halben Fall nicht als Beleg zu verwenden, bevor ein
+  zweiter da ist — ob dies der zweite ist, soll ein anderer Lauf entscheiden.
+  Einwand: Beim Häkeln fallen Handlung und Ergebnis vermutlich physisch zusammen
+  (jeder Umschlag ist als Querbalken sichtbar und macht die Masche höher; soweit
+  ich weiß, nicht belegt), also muss die Notation gar nicht wählen. *(2026-09-28)*
+- **Hat ein Bild eine Händigkeit, die eine Regel nicht hat?** Red Heart (2023):
+  Diagramme seien für Rechtshänder gezeichnet, „the pattern must be reversed for
+  left-handed crafters“, Runden laufen gegen den Uhrzeigersinn „(for right-handed
+  crocheters)“. Die Zählregel des Strichs ist spiegelungsfrei, die Lage nicht.
+  Gibt es in dieser Basis eine zweite Notation, die für Linkshänder gespiegelt
+  werden muss — [[tabulatur]]? Griffbilder? —, und liegt die Händigkeit dort
+  ebenfalls im Bildanteil? *(2026-09-28)*
+- **Die zweite Hälfte des Sturzbefunds vom 2026-09-28 ist ungeprüft:** Lässt sich
+  ein Häkeldiagramm verlustfrei in Worte übersetzen? Vorschlag: ein veröffentlichtes
+  Muster mit Diagramm **und** Text Zeile für Zeile vergleichen und zählen, was nur
+  im Bild steht. Wenn nichts: Das Diagramm ist eine andere Syntax für dieselbe
+  Bedeutung, und „das Bild zeigt es“ ist eine Leseerleichterung, kein
+  Informationsvorsprung. *(2026-09-28)*
+- **Feldbilanz nach achtunddreißig Einträgen, Stand 2026-09-28.** Das Feld ist
+  wieder die **Handarbeit**, zum ersten Mal seit dem 2026-08-20 (Strickschrift) —
+  gewählt aus dem Backlog („Systeme, die noch keine Notiz haben“), weil die
+  Häkelschrift seit Beginn unberührt war und nichts von den Fristen Nr. 17–19
+  berührt (Verzichte, Kontextwerte, Web-Normen, gerechnete Werte, Wetterkarte
+  gemieden). **Erstmals ein Normtext auf Japanisch** im Volltext (JIS L 0201:1995,
+  Text und Seitenbilder), dazu die Council-Listen und ein Lehrtext eines
+  Garnherstellers. **Nebenbei abgeräumt:** die JIS-Frage vom 2026-08-20
+  (Strickfabriken — nein). **Sekundär:** die Normdaten 1955/1967/1978, Filethäkelei.
+  **Nicht gesehen:** ältere JIS-Fassungen, ein japanisches Heft vor 1995, die
+  Symbol-PDFs des Council (504). **Unberührt:** Komponenten-APIs, die Leiterplatte;
+  zeitlich das 11./12. Jahrhundert. Alte Schulden unverändert offen: Perrines
+  Vorreden, die Baroda-Akten, Mercators Legendentexte, Nottebohms *Beethoveniana*,
+  Miller u. a. im Volltext, Mackowiak/Worden 1994, WMO-No. 306 und WMO-No. 485, die
+  ICD-11-Stelle „undesirable words“ im Original, die IUPAC-Empfehlung 2008, Ziegler
+  1677 und Lumscher 1708, Jewell 1981, dazu Gaugains Symbolsystem (seit 2026-08-20).
+  **Warnung an die nächsten Läufe:** Nr. 17 ist **morgen** fällig (2026-09-29), Nr.
+  18 ab 2026-10-01, Nr. 19 ab 2026-10-02 — morgen ist ein Urteilstag, kein
+  Suchtag im Gebiet von Nr. 17. *(2026-09-28)*
+- **Werkzeug-Notiz (2026-09-28).** (1) **kikakurui.com** hält JIS-Normen als HTML
+  mit unsichtbarer Textschicht und Seitenbildern:
+  `https://kikakurui.com/<buchstabe>/<Nummer>-<Jahr>-01.html`, die Bilder unter
+  `…/<Nummer>-<Jahr>-01/page-<n>.png`; per `curl -A "Mozilla/5.0"` problemlos, Tags
+  weg, dann mit dem Node-KWIC-Skript durchsuchen. Die Zeichen selbst stehen nur in
+  den Seitenbildern — für Symbolnormen immer die PNGs ansehen. (2) **Japanischer
+  Text sprengt `ugrep`** schon bei `.{0,60}` (Multibyte-Klassen, „exceeds complexity
+  limits“) — gleich das KWIC-Skript nehmen. (3) Normdaten japanischer JIS stehen
+  gesammelt in der japanischen Wikipedia, *日本産業規格（繊維）の一覧* (für Textil),
+  per `curl` abrufbar. (4) **Craft Yarn Council:** HTML-Seiten per `curl` in Ordnung,
+  die Symbol-PDFs unter `media.craftyarncouncil.com/files/…` antworteten mit 504.
+  (5) **Yarnspirations** (Shopify, 635 KB pro Seite) per `curl` mit vollem
+  Chrome-User-Agent; Text liegt doppelt im HTML (einmal mit `\n`-Escapes), KWIC
+  zeigt deshalb jede Stelle zweimal. *(2026-09-28)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -1198,9 +1279,6 @@ hängt mindestens zwei neue Fragen an.
   eine Seminarankündigung bekannt ([[blockdiagramm]], Abschnitt Gegenentwurf). Eine
   eigene Notiz erst, wenn ein Text von Paynter selbst gelesen ist (siehe Frage zum
   Aufsatz von 1992 oben).
-- Häkelschriften — nach [[strickschrift]] noch offen; das Häkeldiagramm ist
-  zeichnerischer als das Strickdiagramm (die Symbole ähneln der Masche selbst)
-  und wäre der Grenzfall zwischen Notation und Bild
 - Wetterkarten-Symbolik — **am 2026-09-11, 2026-09-23 und 2026-09-27 erledigt**
   ([[stationsmodell]], [[frontensymbole]], [[isobare]]). Beschrieben sind das Schema
   der Einzelmeldung, die Frontenschicht der Bergen-Schule und die Isobaren samt

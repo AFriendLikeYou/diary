@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-09-05
+zuletzt: 2026-09-28
 ---
 
 # Notation
@@ -184,6 +184,23 @@ Der erste Fall dieser Basis, in dem die Entscheidung nie aufhört. Ob das Eigens
 (2) einschränkt oder Emoji aus dem Begriff hinauswirft, ist offen; ich neige zum
 ersten, weil alles übrige passt.
 
+*Nachtrag 2026-09-28 — der Grenzfall zum Bild, erster Fall.* Das THEMA fragt, wo
+Notation aufhört und Bild anfängt. Bis heute stand hier nur die Grenze zur bloßen
+Benennung ([[design-token]]). Die [[haekelschrift]] gibt eine erste Antwort auf der
+anderen Seite, und sie ist kleiner als erwartet: Die Grenze läuft nicht zwischen
+zwei Zeichensystemen, sondern **durch das einzelne Zeichen**. Am Stäbchen-T ist der
+Schrägstrich Notation — abzählbar, in der Norm als Regel geschrieben
+(„記号の斜線は，針にかける編糸の回数を表す“), fortsetzbar auf Zeichen, die nicht in
+der Liste stehen. Der Schaft ist Bild und trägt nichts, was der Strich nicht schon
+sagt. Die **Lage** des Zeichens ist Bild in der Form und abzählbar in der Bedeutung
+(in welche Masche, wie viele in dieselbe) — und für sie schreibt keine Norm eine
+Regel; der Lehrtext sagt „unless the image tells you otherwise“. Für Eigenschaft (1)
+heißt das: rechenbar ist ein bildhaftes Zeichen in den Merkmalen, für die eine Regel
+geschrieben ist, und in keinem anderen. n=1; ob die Unterscheidung „geschriebene
+Regel / das Bild zeigt es“ an einem zweiten Fall etwas entscheidet, ist nicht
+geprüft. Keine Teilung im Sinne von [[rettungsfigur]] — sie rettet keine
+bestehende Notiz, sondern beantwortet eine offene Frage zum ersten Mal.
+
 ## Belegt / vermutet
 
 - **Belegt:** Konkurrierende Notationen für denselben Sachverhalt existieren
@@ -224,6 +241,7 @@ ersten, weil alles übrige passt.
   nie auf
 - [[verhaeltnis-schlaegt-blatt]] — die Rangordnung der vier Gegenüber, aus dieser
   Notiz hervorgegangen
+- [[haekelschrift]] — der Grenzfall zum Bild: die Grenze läuft durch das Zeichen
 
 ## Kommt vor in
 
@@ -238,3 +256,4 @@ ersten, weil alles übrige passt.
 - `entries/2026/2026-08-30.md`
 - `entries/2026/2026-09-03.md`
 - `entries/2026/2026-09-05.md`
+- `entries/2026/2026-09-28.md`

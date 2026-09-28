@@ -3,7 +3,7 @@ slug: farbgrad
 titel: Farbgrad und magic number
 art: begriff
 angelegt: 2026-09-09
-zuletzt: 2026-09-09
+zuletzt: 2026-09-28
 ---
 
 # Farbgrad und magic number
@@ -12,8 +12,9 @@ Eine Namensgebung für Farbtokens, in der die Zahl im Namen kein Rang ist, sonde
 ein **Messwert**: Der „Grad" (grade) gibt an, in welchem Band relativer Luminanz
 ein Farbwert liegt. Weil der Grad gemessen ist, lässt sich mit den Namen rechnen —
 die Differenz zweier Grade sagt voraus, ob ihr Kontrast eine Barrierefreiheits-
-schwelle erreicht. Das ist die einzige Selbstschlüsselung dieses Tagebuchs, die
-nicht die Bedeutung eines Zeichens sichert, sondern seinen Wert.
+schwelle erreicht. Das war bis zum 2026-09-28 die einzige Selbstschlüsselung dieses
+Tagebuchs, die nicht die Bedeutung eines Zeichens sichert, sondern seinen Wert
+(zweiter Fall: [[haekelschrift]], siehe Nachtrag).
 
 ## Kern
 
@@ -71,6 +72,28 @@ Wert*, was das Gradnetz der [[mercator-projektion]] für die andere Richtung war
 der Schlüssel, den die Notation auf derselben Fläche mitführt, auf der sie ihr
 Ergebnis zeigt.
 
+## Nachtrag 2026-09-28: nicht mehr die einzige
+
+Die Einleitung nennt den Farbgrad die einzige Selbstschlüsselung dieser Basis, die
+einen Wert sichert statt einer Bedeutung. Seit heute gibt es eine zweite, in einem
+anderen Feld und unbestellt gefunden: den Schrägstrich der [[haekelschrift]]. JIS L
+0201 schreibt die Regel einmal hin — „記号の斜線は，針にかける編糸の回数を表す“, der
+Strich gibt an, wie oft der Faden um die Nadel gelegt wird — und das vierfach
+umschlungene Stäbchen hat danach keine eigene Beschreibung mehr, nur
+„記号の斜線の数によって操作する“. Das ist dieselbe Bauart wie die magic number: eine Rechenvorschrift
+auf den Zeichen, einmal gelernt, auch auf Zeichen anwendbar, die nicht in der Liste
+stehen.
+
+Zwei Unterschiede, damit die Parallele nicht zu glatt wird. Erstens zählt der
+Strich eine **Handlung** (Umschläge), der Grad misst ein **Ergebnis** (Luminanz).
+Zweitens prüft hier keine Maschine nach; was die Zählung sichert, ist nicht der
+Wert gegen einen Fehler, sondern **derselbe Wert über zwei Wortschätze**. Und dafür
+liefert das Häkeln die Gegenprobe, die dem Farbgrad fehlte: US `dc` ist UK `tr`,
+US `sc` ist UK `dc` — die bezeichnenden Wörter sind zwischen zwei Ländern
+auseinandergelaufen, das Zeichen mit einem Strich nicht. `double crochet`
+bezeichnet, der Strich zählt. n=2 für „der Schlüssel sichert den Wert, wenn das
+Zeichen ihn misst“, in zwei Feldern.
+
 ## Belegt / vermutet
 
 - **Belegt:** alle Zitate und Schwellenwerte (USWDS, *Using color*, Abschnitte
@@ -97,9 +120,11 @@ Ergebnis zeigt.
 - [[css-farbnamen]] — die behauptete Ordnung ohne Messung, also derselbe Anspruch
   ohne Deckung
 - [[mercator-projektion]] — das ältere Vorbild des mitgeführten Schlüssels
+- [[haekelschrift]] — der zweite Fall: ein Strich, der Umschläge zählt, gegen Wörter, die regional auseinanderliefen
 - [[adressierbarkeit]] — offene Frage: macht ein gemessener Grad die Farbskala zu
   einer Dimension, in die man zeigen kann?
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-09.md`
+- `entries/2026/2026-09-28.md` (zweiter Fall)
