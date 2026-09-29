@@ -3,7 +3,7 @@ slug: schaltplan
 titel: Schaltplan (mit Stückliste)
 art: system
 angelegt: 2026-09-17
-zuletzt: 2026-09-25
+zuletzt: 2026-09-29
 ---
 
 # Schaltplan (mit Stückliste)
@@ -81,6 +81,25 @@ Richtung nicht weg, **weil** das Blockdiagramm sie trägt, sondern weil die
 Verbindung sie nicht hat; das Blockdiagramm fügt sie hinzu. Das ist keine
 Arbeitsteilung, sondern eine Zutat.
 
+## Nachtrag 2026-09-29: die Ebene darunter, in der die Lage alles bedeutet
+
+Die Leiterplatte geht als [[gerber-format]] in die Fertigung, und dort bedeutet
+jede Koordinate etwas. Die Naht zum Schaltplan ist wieder die
+**Referenzbezeichnung**, jetzt ein drittes Mal geschrieben: Seit den Attributen
+von 2014 (Gerber X2) kann an einem Objekt `.C` (Bauteil), `.P` (Bauteil und
+Anschluss) und `.N` (Netz) hängen, und die Netzliste des Entwurfs wird definiert,
+indem man `%TO.P,U1,4*%` und `%TO.N,Clk3*%` an den Blitz hängt, der das Pad
+erzeugt. Die Netzliste selbst (`Clk3: U1-4,U2-3,U5-9,…`) ist der Schaltplan ohne
+Bild: nur, welche Anschlüsse verbunden sind. Die Attribute „do not affect the
+image at all“ — die Naht liegt in der Geometriedatei, ohne ihre Geometrie zu
+berühren.
+
+**Nicht geprüft, ins Backlog:** ob Schaltplan und Layout eine [[nachbarnotation]]
+bilden (der Schaltplan verzichtet laut IEEE 315 ausdrücklich auf „physical size,
+shape, or location“ — weil das Layout sie trägt, oder unabhängig davon?). Soweit
+ich weiß, ist der Schaltplan älter als die gedruckte Leiterplatte (heute nicht
+nachgesehen); eine Arbeitsteilung wäre dann nachträglich entstanden.
+
 ## Belegt / vermutet
 
 - **Belegt:** alle obigen Zitate aus dem Volltext von IEEE Std 315-1975
@@ -105,8 +124,10 @@ Arbeitsteilung, sondern eine Zutat.
 - [[selbstverdeckung]] — Gegenprobe: hier wird nichts verdeckt, der Verzicht
   steht in der Norm
 - [[blockdiagramm]] — die Ebene darüber: gerichtet, wo der Schaltplan ungerichtet ist (2026-09-25)
+- [[gerber-format]] — die Ebene darunter: die Leiterplatte, in der die Lage alles bedeutet; die Referenzbezeichnung hängt dort als Attribut am Blitz (2026-09-29)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-17.md`
 - `entries/2026/2026-09-25.md` (die Ebene darüber hat nur Richtung)
+- `entries/2026/2026-09-29.md` (die Ebene darunter: Gerber, Netzliste am Blitz)

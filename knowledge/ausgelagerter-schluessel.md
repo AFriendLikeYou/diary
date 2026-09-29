@@ -3,7 +3,7 @@ slug: ausgelagerter-schluessel
 titel: Ausgelagerter Schlüssel
 art: muster
 angelegt: 2026-09-13
-zuletzt: 2026-09-20
+zuletzt: 2026-09-29
 ---
 
 # Ausgelagerter Schlüssel
@@ -106,10 +106,53 @@ siehe [[iban]]). Eine Prüfstelle bezeugt das **Abschreiben**, nicht das
   an die Verteilung ist nicht eindeutig zerlegbar. Findet sich eine, die es
   trotzdem ist, fehlt hier ein Mechanismus.
 
+## Nachtrag 2026-09-29: Fall 4, der Schlüssel kehrt ins Zeichen zurück
+
+Unbestellt: Der Lauf galt der Leiterplatte, nicht diesem Muster. Im
+[[gerber-format]] alter Art (Standard Gerber, RS-274-D) fehlten der Datei zwei
+Schlüssel: das **Koordinatenformat** — wie viele Stellen von `X200Y200` vor und
+hinter dem Komma stehen und welche Nullen weggelassen sind, also eine innere
+Grenze jeder Zahl — und die **Blendenformen**, also was `D11` bedeutet. Das
+Zweite ist genau genommen keine Feldgrenze, sondern eine Legende; der Fall ist
+gemischt.
+
+**Träger, in dieser Reihenfolge:** zuerst das **Gerät** selbst (die Stellung auf
+dem Blendenrad *ist* die Bedeutung des D-Codes: „Each position on the wheel is
+identified by a unique D code“), dazu die Konsole, in die der Bediener das
+Koordinatenformat tippte; dann die **Wheel-Datei**, „notes in an informal text
+format, plus drawings“; seit 1998 der **Kopf der Datei** (`%FS…*%`, `%AD…*%`,
+„encapsulates the aperture list in the header“), und seit dem Rückzug von
+Standard Gerber (2012 bzw. 2014) ist das Mitführen Pflicht. Das ist der erste Fall
+dieser Basis, in dem ein ausgelagerter Schlüssel **ins Zeichen zurückgeholt**
+wird. Bisher wanderte er nur nach außen oder von Träger zu Träger.
+
+**Was das am Kriterium vom 2026-09-20 ändert.** Dort hieß es: Sobald zwei sich
+einigen müssen, erscheint die Schrift. Hier war die Schrift längst da — die
+Wheel-Datei ging vom Entwerfer zum Belichter, zwei Köpfe, geschrieben. Ins Zeichen
+gezogen hat den Schlüssel etwas anderes: der **maschinelle Leser**. Der offene
+Brief von 2014 sagt, die freie Form sei „perfectly adequate for the vector
+photoplotter operator of old“ gewesen und scheitere an „standardization and
+automation“ („imagine … automating the input of a wheel file in Japanese“); die
+Anleitung von 1998 spricht von Dateien, die „from one system to another“ gehen.
+**Vermutung, n=1:** Ein Schlüssel zieht ins Zeichen, sobald ein maschineller
+Leser ihn braucht, um seine Arbeit überhaupt zu tun. Gegenprobe im Bestand: Die
+[[isbn]] wird maschinell gelesen und behält ihre Bereichsdatei außen — aber der
+Maschine genügt dort die ganze Nummer, die Feldgrenzen braucht nur, wer
+Bindestriche setzt. Das passt, ist aber als Gegenprobe billig.
+
+**Und zum ersten Mal ein erzählter Schaden.** Der Brief gibt eine Zeile aus einer
+Wheel-Datei wieder, `D51, ObLong, 0.024000, 0.070000`: Der Hersteller fertigte
+Rechtecke, der Entwerfer meinte Langlöcher, Streit um den Ausschuss. Anonym, und
+erzählt von der Partei, die das Nachfolgeformat pflegt; der Schaden kommt nicht
+aus einem **veralteten**, sondern aus einem **unnormierten** Schlüssel. Die offene
+Stelle unten („kein Schaden belegt“) bleibt für veraltete Schlüssel bestehen.
+
 ## Belegt / vermutet
 
 - **Belegt:** die drei Fälle, jeweils aus den Primärdokumenten — siehe [[e164]],
-  [[isbn]], [[iban]].
+  [[isbn]], [[iban]]. Fall 4 aus der Gerber-Spezifikation 2026.05, dem offenen
+  Brief von Ucamco (Juni 2014) und der RS-274X-Anleitung (© 1998, Rev D 2001),
+  siehe [[gerber-format]].
 - **Vermutet:** dass der Zusammenhang „weiter außen = teurer" mehr ist als eine
   Ordnung dreier Fälle. Drei Punkte sind keine Kurve.
 - **Offen und für das Muster wichtig:** In keinem der drei Fälle ist ein
@@ -128,8 +171,13 @@ siehe [[iban]]). Eine Prüfstelle bezeugt das **Abschreiben**, nicht das
   Kriterium „ein Kopf / zwei Köpfe" geliefert hat
 - [[icd]] — der Gegenfall ohne ausgelagerten Schlüssel: dort wechselt nicht die
   Grenze, sondern der Maßstab innerhalb der Stelle
+- [[gerber-format]] — Fall 4: Gerät → Zettel → Kopf der Datei; der Schlüssel wird
+  zurückgeholt, und zwar vom maschinellen Leser
+- [[selbstverdeckung]] — auch dort erzwingt ein maschineller Leser, was ein
+  menschlicher offen ließ (2026-09-01)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-13.md`
 - `entries/2026/2026-09-20.md`
+- `entries/2026/2026-09-29.md` (Fall 4: die Wheel-Datei und ihre Rückholung)

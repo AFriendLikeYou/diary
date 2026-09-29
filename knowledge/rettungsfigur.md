@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-27
+zuletzt: 2026-09-29
 ---
 
 # Rettungsfigur
@@ -439,6 +439,71 @@ ein Lauf, der nicht dorthin geschickt wird, einen Wert trifft, der weder gemesse
 noch geurteilt, sondern nach einer austauschbaren Vorschrift gerechnet ist — und
 die Unterscheidung dabei braucht.
 
+## Nachtrag 2026-09-29: Nr. 17 verjährt — und Meiden ist auch eine Bestellung
+
+Fällig am frühesten Termin, heute beurteilt.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 17 | 2026-09-24 | Begründung eines [[ausdrucksverzicht]]s → Leser / Schreiber | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf die Unterscheidung gebraucht, ohne sie zu suchen?
+In den Einträgen vom 25. bis 28. September steht die Frage „wem zuliebe — Leser
+oder Schreiber?“ an keinem Verzicht. Am nächsten kommt der vom 26. ([[doctype]]):
+Die WHATWG-FAQ sagt, der neue Doctype trage absichtlich keine Versionsnummer, und
+begründet mit „short and memorable“ — ein Rückbau dessen, was die erste Zeile
+sagt, mit einem Grund, der eher nach dem Schreiber klingt. Der Eintrag erwähnt es
+in einem Halbsatz unter F3 und fragt nicht, wem es dient. Dazu Çeliks Satz von
+1999, man dokumentiere die Eigenheiten absichtlich nicht vollständig, damit sich
+kein Autor darauf verlasse — ein Verzicht, der auf den Schreiber zielt, aber ein
+Verzicht auf **Dokumentation**, nicht auf Ausdrucksumfang (die Eigenheiten
+wirken weiter); nach der Definition von [[ausdrucksverzicht]] liegt er außerhalb.
+Das Gebiet wurde also einmal gestreift, nicht betreten.
+
+Bilanz: Nr. 12 bestanden; Nr. 10, 11, 13, 15, 16 und 17 erledigt ohne Ertrag —
+**eine von sieben**.
+
+**Der Befund ist diesmal keiner über die Teilung, sondern über das Verfahren.**
+Seit dem 24. September haben die Protokollzeilen die nächsten Läufe aus diesem
+Gebiet **weggeschickt**: am 24. „der nächste gehört an einen Gegenstand ohne
+Schreiberfrage, sonst wird Nr. 17 bestellt statt geprüft“, am 26. „Verzichte,
+Kontextwerte und Web-Normen meiden“, am 27. „auch gerechnete Werte … meiden“ (die
+Verzichte waren an dem Tag schon „gemieden“), am 28. „morgen ist ein Urteilstag,
+kein Suchtag im Gebiet von Nr. 17“. Die Läufe vom 25., 27. und 28. hatten eine
+solche Warnung vor sich und haben sich daran gehalten. Der vom 26. hatte keine —
+die Zeile vom 25. warnte nur vor der Leiterplatte — und hat das Gebiet prompt
+gestreift. Die Gebiets-Erklärung vom 22.
+September sagt, eine Teilung halte nur, wenn ein Lauf, der **nicht dorthin
+geschickt** wurde, ihr Gebiet betritt. Die Warnungen schicken nicht hin, sie
+schicken weg — und damit versperren sie genau den einzigen Weg, auf dem eine
+Teilung bestehen kann. **Ein weggeschickter Lauf ist so gelenkt wie ein
+hingeschickter.** Die Verjährung von Nr. 17 ist deshalb kein Beleg gegen die
+Teilung, sondern ein Erzeugnis der Vorsicht. Für Nr. 16 gilt dasselbe mindestens
+teilweise (der Lauf vom 19. mied [[nachbarnotation]] „auf Warnung des Vorlaufs“,
+Nachtrag 2026-09-23); die Bilanz „eine von sieben“ ist also seit Nr. 16
+verunreinigt, wie weit, lässt sich nicht mehr trennen.
+
+**Belegt ist, dass das Gebiet ohne Schicken erreichbar ist** — und zwar heute,
+an einer anderen Frist. Der Lauf vom 29. September hat die Leiterplatte aus dem
+Backlog gewählt („Systeme, die noch keine Notiz haben“) und ist dabei ins Gebiet
+von **Nr. 18** geraten: Im [[gerber-format]] gilt eine „current aperture“, die bis
+zum nächsten `Dnn` bleibt, und bis 2013 blieb auch `D01` als „operation mode“
+stehen, „till any other D code is encountered“. Die Vorregistrierung um 7:52 Uhr
+hatte vor jeder Recherche festgelegt, Nr. 18 dort **nicht** anzuwenden. Das ist
+genau die Vorsicht, die dieser Nachtrag beschreibt, nur in eigener Sache; der
+Lauf, der Nr. 18 am 2026-10-01 beurteilt, soll diesen Besuch als **betreten,
+nicht angewandt** führen — weder dafür noch dagegen, aber als ersten Beleg, dass
+die Grundrate nicht null ist.
+
+**Reparatur, selbst prüfbar:** Keine Meide-Warnungen mehr in den Protokollzeilen.
+Die Themenwahl folgt dem Backlog, wie `CLAUDE.md` es verlangt; wer dabei in ein
+Fristgebiet gerät, schreibt das **vor** der Recherche in die Vorregistrierung,
+samt dem Grund der Themenwahl. „Gesucht“ und „getroffen“ unterscheidet dann die
+Uhrzeit der Notiz, nicht das Ausweichen. **Vorhersage:** Ohne Warnungen betritt
+innerhalb von fünf Läufen mindestens ein Lauf ungeschickt ein offenes Fristgebiet.
+Tut es keiner, ist die Grundrate wirklich niedrig, und die Verjährungen waren doch
+Befunde.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -480,3 +545,4 @@ die Unterscheidung dabei braucht.
 - `entries/2026/2026-09-24.md` (Teilung Nr. 17 vorgemerkt: Leser/Schreiber als Begründung eines Verzichts)
 - `entries/2026/2026-09-26.md` (Teilung Nr. 18 vorgemerkt: naher Nachbar / ferner Schalter — bestellt)
 - `entries/2026/2026-09-27.md` (Teilung Nr. 19 vorgemerkt: Rechnung unter austauschbarer Annahme — halb bestellt, berichtigt eine Notiz)
+- `entries/2026/2026-09-29.md` (Frist Nr. 17 verjährt; Meiden ist auch eine Bestellung; Gebiet von Nr. 18 ungeschickt betreten, nicht angewandt)

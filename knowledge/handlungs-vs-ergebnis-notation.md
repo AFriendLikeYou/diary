@@ -3,7 +3,7 @@ slug: handlungs-vs-ergebnis-notation
 titel: Handlungsnotation und Ergebnisnotation
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-25
+zuletzt: 2026-09-29
 ---
 
 # Handlungsnotation und Ergebnisnotation
@@ -141,6 +141,45 @@ Ergebnisbild im Sinn dieser Notiz (er zeigt keinen Zustand des fertigen Dings,
 sondern eine Kausalordnung). Die Achse trifft also nur die eine Hälfte des Paares;
 ich trage den Fall als halben ein und baue keine dritte Sorte an.
 
+## Nachtrag 2026-09-29: der zweite Fall, diesmal ganz — und die Datei weiß, was das Bild nicht weiß
+
+Der halbe Fall vom 2026-09-25 hat einen Partner bekommen, im [[gerber-format]]
+der Leiterplatte. **Halb bestellt:** Die Vorregistrierung des Laufs dachte in
+dieser Achse, aber auf der Ebene des ganzen Formats (Maschinenanweisung →
+Bildbeschreibung); dass die Achse **durch das einzelne Objekt** läuft, kam aus
+der Quelle.
+
+Ein Pad lässt sich im selben Format auf zwei Weisen notieren. **Gemalt**: eine
+Folge von Strichen mit kleiner Blende, in Ausführungsreihenfolge — eine
+Handlungsnotation im Sinn dieser Notiz. **Geblitzt**: ein einziger `D03` mit
+einer definierten Blendenform an einem Ort — ein Zustand. Das gerenderte Bild ist
+in beiden Fällen dasselbe („The image is correct“, Ucamco 2014), aber der
+Hersteller braucht „more than the correct image“ und muss bei gemalten Pads
+„guess where the pads are“. Anders als beim ersten Fall sind hier **beide**
+Seiten sauber: kein Kausalbild, sondern ein echter Endzustand.
+
+**Was neu ist gegenüber dem 2026-09-25:** Bei Mason sagt das Blatt nicht, welche
+Seite gilt. Hier sagt es die **Datei** (Striche oder Blitz), und erst ihr
+**Ergebnis**, das Bild, verliert den Unterschied. Eine Notation kann die
+Unterscheidung also tragen, während alles, was aus ihr hervorgeht, sie verwischt
+— und wer nur das Ergebnis prüft, findet nichts. Gemerkt hat es ein Leser, der
+**Gegenstände** braucht (das Fertigungssystem), nicht einer, der Anblicke prüft.
+
+**Und eine Abhilfe, die der erste Fall nicht hatte:** Der Eigentümer bindet eine
+Zeichensorte an eine Gegenstandssorte — „all pads must be flashed (D03), and all
+flashes must be pads“ (Spezifikation 2026.05, § 6.4), selbst dort, wo der Blitz
+„does not affect the image“. Die Unterscheidung wird damit Pflicht im Zeichen,
+bezahlt mit einem Zeichen ohne Bildbeitrag.
+
+**Was das verbietet:** den Schluss vom richtigen Ergebnis auf die richtige
+Notation. Stimmt das Bild, ist über die Seite der Achse noch nichts gesagt.
+**Nicht entschieden:** ob der Blitz mit Attributen (`.P`, `.N`) eine dritte
+Stellung neben Handlung und Ergebnis ist — er notiert weder einen Schritt noch
+einen Anblick, sondern ein Ding. Die Figur „mein Zweierschema hat drei Fälle“ ist
+bekannt; ohne etwas, das diese dritte Stellung verbietet, bleibt sie hier ein
+Satz. **Offen, ins Backlog:** der Kampf gegen gemalte Pads als möglicher Gegenfall
+zur Konfliktvorhersage oben (zwei Gegenstände, ein Platz, doch Streit).
+
 ## Belegt / vermutet
 
 - **Belegt:** die Eigenschaften des Strick-Diagramms (Leserichtung,
@@ -185,6 +224,7 @@ ich trage den Fall als halben ein und baue keine dritte Sorte an.
 - [[laufende-notation]] — die dritte Stellung, für die diese Achse keinen Platz hat
 - [[live-coding]] — der Fall, der sie aufgedeckt hat
 - [[blockdiagramm]] — ein Zeichensystem, in dem jede einzelne Zeichnung auf einer anderen Seite der Achse liegen kann, ohne dass man es ihr ansieht (halber Fall, 2026-09-25)
+- [[gerber-format]] — der zweite, ganze Fall: gemaltes gegen geblitztes Pad; die Datei trägt den Unterschied, das Bild nicht (2026-09-29)
 
 ## Kommt vor in
 
@@ -192,3 +232,4 @@ ich trage den Fall als halben ein und baue keine dritte Sorte an.
 - `entries/2026/2026-08-21.md` (Korrektur)
 - `entries/2026/2026-08-25.md` (dritte Stellung)
 - `entries/2026/2026-09-25.md` (Signalflussgraph: Kausalbild und Rechenfolge in denselben Zeichen, halb)
+- `entries/2026/2026-09-29.md` (gemaltes und geblitztes Pad: der zweite Fall, ganz)

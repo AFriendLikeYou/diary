@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-23
+zuletzt: 2026-09-29
 ---
 
 # Werkzeugzwang
@@ -318,6 +318,26 @@ person-to-person only"). Das Werkzeug hat die **Gestalt** entschieden; ob es
 auch die langsame Ausbreitung erklärt (britischer *Daily Weather Report* erst
 1941), ist nicht geprüft — dort spricht mehr für [[lehrkosten]].
 
+## Fall 13 (2026-09-29): das Werkzeug ist weg, die Behelfe nicht — halb
+
+Im [[gerber-format]] hat der Vektor-Fotoplotter zweierlei hinterlassen. Erstens
+den **Wortschatz**: Die Blende war eine Öffnung auf einem Rad, jede Radstellung
+ein D-Code; heute sagt das Glossar „The name is historical“, und `D03` heißt
+weiter *flash*. Zweitens einen **Behelf**: Weil die Plotter nur wenige Formen
+konnten, bauten Entwerfer Pads und Kupferflächen aus Strichen („painting“). Das
+Werkzeug ist verschwunden — „devices now as outdated as the mechanical
+typewriter“, Spezifikation 2026.05 —, das Malen nicht: „too many system[s] are
+still ‚improving‘ the output by filling the outline with numerous filling
+strokes“ (offener Brief 2014), und die Spezifikation führt es bis heute in ihrer
+Liste schlechter Praktiken.
+
+Das ist die Umkehrung von Fall 12: Dort kam die Farbe zurück, als das Werkzeug sie
+billig machte; hier bleibt der Zwang, nachdem das Werkzeug ihn nicht mehr
+ausübt. **Halb**, weil der Grund des Fortlebens nicht belegt ist — die Quelle ist
+der Eigentümer, der gegen die Praxis wirbt, und sagt nicht, warum CAD-Programme
+weiter malen. Soweit ich sehe, ist das der erste Fall dieser Notiz, in dem eine
+Werkzeugfolge **nach** dem Werkzeug als eigener Gegner bekämpft wird.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -380,6 +400,8 @@ auch die langsame Ausbreitung erklärt (britischer *Daily Weather Report* erst
   töten
 - [[frontensymbole]] — Fall 12: der Farbdruck scheitert, die setzbare Form bleibt;
   der erste Fall mit dem Grund in der Quelle
+- [[gerber-format]] — Fall 13, halb: Blende, Blitz und gemalte Pads überleben den
+  Vektorplotter
 
 ## Kommt vor in
 
@@ -395,3 +417,4 @@ auch die langsame Ausbreitung erklärt (britischer *Daily Weather Report* erst
 - `entries/2026/2026-09-14.md` (Fall 10)
 - `entries/2026/2026-09-18.md` (Fall 11, halb: der Stuhl bestimmt die Anzahl der Notationen)
 - `entries/2026/2026-09-23.md` (Fall 12: Fronten in Schwarzdruck)
+- `entries/2026/2026-09-29.md` (Fall 13, halb: Gerber nach dem Vektorplotter)

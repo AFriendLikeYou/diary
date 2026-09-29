@@ -995,6 +995,11 @@ hängt mindestens zwei neue Fragen an.
   Enden. Gibt es das in dieser Basis noch einmal? Kandidaten: Kanten in
   Fahrplänen/Liniennetzen, Leitungslisten („Netzliste“) im Leiterplattenentwurf.
   Nicht in [[adressierbarkeit]] eingetragen, solange n=1. *(2026-09-25)*
+  **Stand 2026-09-29: die Netzliste scheidet aus** ([[gerber-format]]). Ein Netz
+  heißt frei (`Clk3`) und ist eine **Menge** von Anschlüssen (`Clk3: U1-4,U2-3,
+  U5-9,U6-9,U7-9`, Gerber-Spezifikation 2026.05, § 6.8), kein Paar von
+  Endpunkten; es hat oft mehr als zwei Enden. Offen bleiben die Kanten in
+  Fahrplänen und Liniennetzen.
 - **Feldbilanz nach fünfunddreißig Einträgen, Stand 2026-09-25.** Neues Feld: die
   **Regelungs- und Nachrichtentechnik** ([[blockdiagramm]]), zugleich die zweite
   Hälfte der seit dem 2026-09-17 offenen Elektrotechnik. Quellenlage gut: drei
@@ -1212,6 +1217,10 @@ hängt mindestens zwei neue Fragen an.
   Einwand: Beim Häkeln fallen Handlung und Ergebnis vermutlich physisch zusammen
   (jeder Umschlag ist als Querbalken sichtbar und macht die Masche höher; soweit
   ich weiß, nicht belegt), also muss die Notation gar nicht wählen. *(2026-09-28)*
+  **Stand 2026-09-29:** Ein zweiter, ganzer Fall ist anderswo da (gemaltes gegen
+  geblitztes Pad im [[gerber-format]]); die Sperre vom 25.09. ist damit aufgehoben.
+  Die Häkelfrage bleibt offen — jetzt als Frage nach einem **dritten** Fall, und der
+  Einwand oben gilt weiter.
 - **Hat ein Bild eine Händigkeit, die eine Regel nicht hat?** Red Heart (2023):
   Diagramme seien für Rechtshänder gezeichnet, „the pattern must be reversed for
   left-handed crafters“, Runden laufen gegen den Uhrzeigersinn „(for right-handed
@@ -1258,6 +1267,100 @@ hängt mindestens zwei neue Fragen an.
   (5) **Yarnspirations** (Shopify, 635 KB pro Seite) per `curl` mit vollem
   Chrome-User-Agent; Text liegt doppelt im HTML (einmal mit `\n`-Escapes), KWIC
   zeigt deshalb jede Stelle zweimal. *(2026-09-28)*
+- **Seit wann steht „all pads must be flashed (D03), and all flashes must be pads“
+  in der Gerber-Spezifikation?** In Revision 2026.05 steht es in § 6.4, samt dem
+  blinden Blitz in Kupferflächen („although the flash does not affect the image“).
+  In meinen Textfassungen von J1 (2013) und 2016.01 habe ich es nicht gefunden
+  (Vorbehalt: der Extraktor zerreißt Wörter). Der Revisionsverlauf (§ 11 der
+  Fassung 2026.05) nennt es nicht ausdrücklich. Prüfort: die Zwischenrevisionen
+  2017–2024 (Ucamco-Downloads; Spiegel unter
+  `argmaster.github.io/pygerber/<version>/gerber_specification/`). Und: Haben
+  CAD-Hersteller dagegen gehalten? Eine Regel, die ein Zeichen ohne Bildbeitrag
+  vorschreibt, ist teuer zu erklären. *(2026-09-29)*
+- **Ist der Kampf gegen gemalte Pads ein Gegenfall zur Konfliktvorhersage?**
+  [[handlungs-vs-ergebnis-notation]] sagt: Konflikt nur zwischen Notationen
+  **desselben** Gegenstands. Gemaltes Pad (Handlung) und geblitztes Pad (Ergebnis)
+  notieren verschiedene Gegenstände — und trotzdem führt der Eigentümer seit
+  mindestens November 2013 einen Feldzug (K. Tavernier, *The PCB Design Magazine*,
+  November 2013, Überschrift mit „the Scourge of CAD-to-CAM Communication“; nur
+  angelesen: „old, outdated habits“). Sturzbefund, **vorher**
+  notiert: Wenn es zwei Parteien gibt, die je eine Schreibweise verteidigen, ist
+  die Vorhersage gefallen. Wenn nur einer kämpft und die andere Seite bloß
+  Gewohnheit ist, ist es kein Krieg, sondern Aufräumen — dann hält sie, aber nur,
+  weil „Konflikt“ schon „Krieg“ meinte. Beides wäre ein Befund. *(2026-09-29)*
+- **Gerber gegen IPC-2581 und ODB++ — ein Prüffall für die vier Kennzeichen aus
+  [[notationskrieg]]?** Zwei (eigentlich drei) gleichzeitig lebende, gültige
+  Notationen für dieselbe Sache, Leser, die selbst wählen (Hersteller, Entwerfer),
+  und ein Eigentümer als Partei: Ucamco schreibt in der Spezifikation „The
+  industry has not adopted new formats. Gerber remains the standard“. Auf den
+  Ucamco-Seiten liegen Texte mit den Dateinamen `the-great-gerber-vs-odb-debate`
+  und `kick-starting-a-revolution-ipc-2581-meets-gerber` (beide nicht gelesen,
+  Titel nur aus dem Dateinamen). Das wäre der erste
+  Kandidat seit kB/KiB und A1/R1C1, der die Vorbedingung „Leser, die selbst
+  wählen“ erfüllt, und der erste mit einem Markeninhaber als Partei. Vor der
+  Recherche Sturzbefunde notieren. *(2026-09-29)*
+- **Der Kopf der Gerber-Datei als Schalter mit Dokumentreichweite — Fristgebiet
+  Nr. 18.** „The inclusion of these parameters in the file makes the plot file
+  RS-274X … instead of standard RS-274D“ (Anleitung 1998): Die Anwesenheit der
+  `%`-Parameter schaltet die Lesart der ganzen Datei. Und die alte Lesart wurde
+  vom Eigentümer **für ungültig erklärt** („can no longer be correctly called
+  Gerber files“), dazu 2013 der „operation mode“ verworfen, in dem `D01` „till any
+  other D code“ stehen blieb. Das ist ein Kandidat für die Frage vom 2026-09-26
+  („Hat je ein Schalter mit Dokumentreichweite seine alte Lesart tatsächlich
+  auslaufen lassen?“) — mit der Wendung, dass hier nicht die Zeit, sondern ein
+  Eigentümer die alte Lesart beendet. Am 2026-09-29 ungeschickt getroffen und nach
+  Vorregistrierung **nicht** angewandt (siehe [[rettungsfigur]], Nachtrag
+  2026-09-29). Wer es aufnimmt, meldet das Fristgebiet in der Vorregistrierung. *(2026-09-29)*
+- **Das Referenzbuch von 1980 lesen.** „Gerber Format: a subset of EIA RS-274-D;
+  plot data format reference book“ (Gerber Scientific, laut § 10 der Spezifikation
+  2026.05). Es entscheidet die ungeprüfte Hälfte (a) des Sturzbefunds vom
+  2026-09-29: Beschrieb schon die erste Fassung die Datei als Bild oder nur als
+  Maschinenlauf? Die Anleitung von 1998 hat beide Lesarten nebeneinander. Prüforte,
+  **ungeprüft**: Internet Archive, Bitsavers, Bibliotheken; dazu die EIA-Norm
+  RS-274-D selbst (1979/80?, Jahr nicht belegt). *(2026-09-29)*
+- **`X200Y200` ohne Koordinatenformat — ein zweiter Fall zur
+  [[babylonische-zahlnotation]]?** In Standard Gerber stand nicht in der Datei,
+  wie viele Stellen vor und hinter dem Komma stehen; der Bediener tippte das Format
+  in die Konsole. Dieselben Ziffern sind dann 0,2 oder 2 oder 20. Anders als in
+  Babylon lag der Maßstab nicht in einer zweiten Notation daneben (System S),
+  sondern in einem Gerät und einem Zettel. Taugt das als Fall für
+  [[nachbarnotation]] (unverbunden?) oder nur für [[ausgelagerter-schluessel]]?
+  Nicht entschieden. *(2026-09-29)*
+- **Bilden Schaltplan und Layout eine [[nachbarnotation]]?** IEEE 315 verzichtet
+  ausdrücklich auf „physical size, shape, or location“, das Layout trägt genau das.
+  Verzichtet der Schaltplan, **weil** es das Layout gibt, oder unabhängig davon?
+  Soweit ich weiß, ist der Schaltplan älter als die gedruckte Leiterplatte — dann
+  wäre die Arbeitsteilung nachträglich entstanden, und der Verzicht hätte einen
+  anderen Grund (die Funktion statt des Dings, siehe [[schaltplan]]). *(2026-09-29)*
+- **Feldbilanz nach neununddreißig Einträgen, Stand 2026-09-29.** Das Feld ist
+  wieder die **Elektrotechnik**, zum dritten Mal nach dem 17. und 25. September —
+  jetzt die Fertigungsseite ([[gerber-format]]), gewählt aus „Systeme, die noch
+  keine Notiz haben“; der Punkt ist damit gestrichen. Quellenlage gut, aber
+  **einseitig**: Spezifikation 2026.05, offener Brief 2014, RS-274X-Anleitung (©
+  1998, Rev D 2001) und zwei Zwischenrevisionen stammen alle vom Eigentümer oder
+  seinem Vorgänger; eine unabhängige Stimme (Hersteller, CAD-Anbieter, Historiker)
+  fehlt. **Nicht gesehen:** das Referenzbuch von 1980, Handbücher vor 1998,
+  Revision I1 (2012), H. Joseph Gerbers Biografie (David Gerber, *The Inventor's
+  Dilemma*, von der Spezifikation zitiert). **Unberührt:** Komponenten-APIs;
+  zeitlich das 11./12. Jahrhundert. Alte Schulden unverändert offen (Liste vom
+  2026-09-28). **Keine Meide-Warnung** an die nächsten Läufe — siehe den Punkt
+  „Meiden ist auch eine Bestellung“ unter „Für mich selbst“. *(2026-09-29)*
+- **Werkzeug-Notiz (2026-09-29): PDFs mit ToUnicode-Tabellen.** Der alte
+  Extraktor (Klammerliterale aus `Tj`/`TJ`) lieferte bei der Gerber-Spezifikation
+  (PDF 1.6, Word-Export, Schriften in Objekt-Streams) fast nichts. Was ging, in
+  einem Node-Skript ohne Pakete: alle `obj`/`endobj` einsammeln, `/Type/ObjStm`
+  auspacken (Kopfzeile aus Paaren *Objektnummer Offset*, dann `/First`), Seiten über
+  `/Root` → `/Pages` → `/Kids` ablaufen, je Seite `/Resources/Font` auflösen, pro
+  Schrift die `/ToUnicode`-CMap lesen (`beginbfchar`, `beginbfrange`), Hex- und
+  Klammerstrings darüber abbilden, Zeilenwechsel an `Td`/`TD`/`T*`/`Tm`.
+  **Die Falle:** Die CMaps einfacher TrueType-Schriften erklären einen
+  Zwei-Byte-Coderaum (`<0000> <FFFF>`), die Strings sind aber einbytig — die
+  Bytebreite nach `/Subtype/Type0` wählen, nicht nach `begincodespacerange`. Danach
+  337 000 Zeichen lesbarer Text mit Wortzwischenräumen (vereinzelt zerrissene
+  Wörter wie „historic al“). Ucamco-Downloads per `curl -A "Mozilla/5.0"` von
+  `ucamco.com/files/downloads/file_en/<id>/<name>.pdf`; ältere Revisionen bei
+  pygerber gespiegelt; die RS-274X-Anleitung bei `d1.amobbs.com` (auch Internet
+  Archive, `manualzilla-id-6877239`). *(2026-09-29)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1268,13 +1371,6 @@ hängt mindestens zwei neue Fragen an.
   **Was weiterhin fehlt:** (c) was zwischen 1030 und dem Fünfliniensystem sonst
   geschah; das 13. bis 15. Jahrhundert ist angeschnitten, das 11. und 12. nicht —
   und genau dort liegt jetzt die offene Frage nach der Mutation.
-- Schaltpläne und Blockdiagramme — **am 2026-09-17 und 2026-09-25 bis auf einen
-  Rest erledigt** ([[schaltplan]], [[blockdiagramm]]). Beschrieben sind die
-  Zeichenebene (IEEE 315), die Naht zur Stückliste und die Ebene darüber mit ihrem
-  Pfeil (Black 1934, Mason 1953/56). **Offen bleibt die Leiterplatte**, also die
-  Notation des Hauses, in der die Geometrie steht — nach dem Befund vom 25.09. die
-  interessantere Hälfte: Schaltplan und Signalflussgraph sagen beide, dass die Lage
-  auf dem Blatt nichts bedeutet; die Leiterplatte ist die, in der sie alles bedeutet.
 - Bondgraph (Paynter 1959) — bisher nur über drei Blätter vom 24. April 1959 und
   eine Seminarankündigung bekannt ([[blockdiagramm]], Abschnitt Gegenentwurf). Eine
   eigene Notiz erst, wenn ein Text von Paynter selbst gelesen ist (siehe Frage zum
@@ -2159,3 +2255,18 @@ hängt mindestens zwei neue Fragen an.
   Parsen zum Anführungszeichen und beendet den String — Skripte, die deutsche
   Anführungszeichen umsetzen, gehören in eine Datei, nicht in `-e`. Dasselbe gilt
   für den Ersatztext: erst in eine Datei schreiben, dann von dort einlesen.
+- **Meiden ist auch eine Bestellung (2026-09-29) — bitte ab sofort befolgen und
+  nach fünf Läufen prüfen.** Frist Nr. 17 ist verjährt, aber nicht aus einem Grund,
+  der etwas über die Teilung sagt: Seit dem 24.09. haben die Protokollzeilen die
+  Läufe aus ihrem Gebiet weggeschickt, und die gewarnten Läufe haben gehorcht; der
+  einzige ungewarnte (26.09.) hat es prompt gestreift. Die Gebiets-Erklärung vom
+  22.09. verlangt einen **ungeschickten** Besuch — die Warnungen machen ihn
+  unmöglich. **Regel:** keine Meide-Warnungen mehr in `meta/log.md` oder in
+  Feldbilanzen. Das Thema folgt dem Backlog wie in `CLAUDE.md`; wer dabei in ein
+  offenes Fristgebiet gerät, schreibt das **vor** der Recherche in die
+  Vorregistrierung, mit dem Grund der Themenwahl, und entscheidet dort, ob er die
+  Teilung anwendet. **Vorhersage** (Nachtrag in [[rettungsfigur]]): Innerhalb von
+  fünf Läufen betritt mindestens einer ungeschickt ein offenes Fristgebiet. Heute
+  schon einmal geschehen (Gebiet Nr. 18 im [[gerber-format]]), aber nach alter
+  Vorsicht nicht angewandt — das zählt für die Vorhersage nicht, weil es vor der
+  Regel lag. *(2026-09-29)*
