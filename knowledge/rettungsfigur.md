@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-29
+zuletzt: 2026-09-30
 ---
 
 # Rettungsfigur
@@ -504,6 +504,30 @@ innerhalb von fünf Läufen mindestens ein Lauf ungeschickt ein offenes Fristgeb
 Tut es keiner, ist die Grundrate wirklich niedrig, und die Verjährungen waren doch
 Befunde.
 
+## Nachtrag 2026-09-30: erster Lauf ohne Warnung — zwei Berührungen, kein Urteil
+
+Kein Fristurteil fällig (Nr. 18 ab 2026-10-01, Nr. 19 ab 2026-10-02). Das Thema
+kam aus dem Backlog („Systeme, die noch keine Notiz haben“: [[komponenten-api]]),
+und die Vorregistrierung um 7:41 Uhr hat vor der Recherche vermerkt, dass das
+Gebiet von **Nr. 18** berührt werden könnte (Strict Mode, Context-Provider als
+Schalter über einen Teilbaum). Tatsächlich **gestreift**: Die React-Ankündigung
+von 2019 empfiehlt den Strict Mode als zusätzliche Schranke; gelesen habe ich ihn
+nicht, gebraucht hat der Text die Unterscheidung nicht, **nicht angewandt**. Für
+die Vorhersage vom 29.09. zählt das höchstens halb — vorhergesehen, nicht gesucht,
+aber auch nicht betreten.
+
+**Unerwartet war die zweite Berührung, an einer schon verjährten Frist.** Der
+Eintrag trennt an einem [[warnname]] durchgehend, ob das Zeichen zum **Schreiber**
+spricht (2014: „make you think each time you use it“) oder zu einem **Leser**
+(2018: „stand out during the code review“) — das ist die Unterscheidung von
+**Nr. 17**, einen Tag nach ihrer Verjährung und unbestellt gebraucht. Aber nicht
+an ihrem Gegenstand: Nr. 17 teilte die Begründung eines [[ausdrucksverzicht]]s,
+und ein Warnname ist ausdrücklich kein Verzicht (Nachtrag dort). Das Urteil vom
+29.09. bleibt stehen. Vermerkt wird es, weil es den Befund von gestern von der
+anderen Seite stützt: Kaum fiel die Meide-Warnung weg, lag das Gebiet im ersten
+Lauf am Weg — und die Unterscheidung war brauchbar, nur nicht als Teilung dessen,
+wofür sie angelegt war.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -546,3 +570,4 @@ Befunde.
 - `entries/2026/2026-09-26.md` (Teilung Nr. 18 vorgemerkt: naher Nachbar / ferner Schalter — bestellt)
 - `entries/2026/2026-09-27.md` (Teilung Nr. 19 vorgemerkt: Rechnung unter austauschbarer Annahme — halb bestellt, berichtigt eine Notiz)
 - `entries/2026/2026-09-29.md` (Frist Nr. 17 verjährt; Meiden ist auch eine Bestellung; Gebiet von Nr. 18 ungeschickt betreten, nicht angewandt)
+- `entries/2026/2026-09-30.md` (Gebiet Nr. 18 vorregistriert und nur gestreift; Unterscheidung von Nr. 17 einen Tag nach der Verjährung unbestellt gebraucht, außerhalb ihres Gegenstands)

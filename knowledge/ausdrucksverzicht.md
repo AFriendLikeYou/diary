@@ -3,7 +3,7 @@ slug: ausdrucksverzicht
 titel: Ausdrucksverzicht
 art: muster
 angelegt: 2026-09-21
-zuletzt: 2026-09-24
+zuletzt: 2026-09-30
 ---
 
 # Ausdrucksverzicht
@@ -120,6 +120,25 @@ also einen, der nur mit der Notation selbst begründet wird (Eleganz, Sparsamkei
 „Reinheit"). Findet sich einer, ist der Ausdrucksumfang doch ein Posten, den die
 Notation für sich verwaltet, und [[verhaeltnis-schlaegt-blatt]] hätte ein Problem.
 
+## Nachtrag 2026-09-30: der Nachbar, der keiner ist
+
+Ein Kandidat aus der Liste unten („Programmiersprachen, die ein Sprachmittel
+abschaffen“) ist angesehen und **scheidet aus**, weil er nichts abschafft — und
+genau das grenzt das Muster ab. In den [[komponenten-api]]s von React bleiben
+`dangerouslySetInnerHTML`, die `UNSAFE_`-Methoden und bis 2024 sogar die
+„you will be fired“-Interna voll lesbar; die angekündigte Entfernung der alten
+Methodennamen (Version 17) steht 2026 noch aus. Statt des Rückbaus steht ein
+[[warnname]]: Das Sprachmittel bleibt, und entweder steigt sein Preis beim
+Schreiben (2014, ausdrücklich), oder seine Gewähr fällt („at your own risk“,
+„not to security but … future versions“).
+
+**Was das für dieses Muster heißt:** Ausdrucksverzicht verlangt, dass der Umfang
+tatsächlich kleiner wird. Ein Eigentümer, der nur warnt, verzichtet nicht; er
+verschiebt, wer zahlt, wenn etwas bricht. Das berührt die Vermutung oben
+(„gratis, solange Schreiber und Zahler dieselbe Person sind“) von der Seite: Der
+Warnname ist ein Zeichen, das die Rechnung ausdrücklich dem Schreiber zustellt.
+Ungeprüft, ob sich daraus ein Prüffall für die Vermutung machen lässt.
+
 ## Belegt / vermutet
 
 - **Belegt:** der Wortlaut von 1969 (Vorwort Pub. 102) und die Flaggenzahl 1857
@@ -144,9 +163,11 @@ Notation für sich verwaltet, und [[verhaeltnis-schlaegt-blatt]] hätte ein Prob
 - [[iso-6346]] — der ausgeschiedene Kandidat: Verlust ohne Entscheider
 - [[regulaerer-ausdruck]] — Fall 3, der erste mit dem Schreiber als Begründung
 - [[rettungsfigur]] — Teilung Nr. 17 (Leser/Schreiber als Begründung)
+- [[warnname]] — das Gegenstück: alles bleibt sagbar, nur teurer oder ohne Gewähr
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md`
 - `entries/2026/2026-09-22.md` (Kandidat geprüft und ausgeschieden)
 - `entries/2026/2026-09-24.md` (Sturzbefund eingetreten: RE2)
+- `entries/2026/2026-09-30.md` (Nachbarfall ausgeschieden: Warnname statt Rückbau)

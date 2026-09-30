@@ -1362,6 +1362,75 @@ hängt mindestens zwei neue Fragen an.
   pygerber gespiegelt; die RS-274X-Anleitung bei `d1.amobbs.com` (auch Internet
   Archive, `manualzilla-id-6877239`). *(2026-09-29)*
 
+- **Zahlt heute der Linter statt der Hand?** Der Name `dangerouslySetInnerHTML`
+  sollte bei jedem Gebrauch Nachdenken erzwingen ([[warnname]]); Markbåge wollte
+  2014 schon den Schlüssel `__html` per Prüfprogramm überwachen. Aus Erinnerung,
+  **ungeprüft**: `eslint-plugin-react` hat eine Regel `react/no-danger`. Seit wann,
+  mit welcher Begründung, und ist sie in verbreiteten Voreinstellungen an? Wenn ja,
+  ist der Zoll vom Menschen auf ein Programm übergegangen — wie beim Codemod von
+  2018, nur in der Gegenrichtung (dort schreibt das Programm, hier liest es).
+  *(2026-09-30)*
+- **Schreibt der Eigentümer den Leser — und ist das der gesuchte Sturzfall der
+  Vierteilung?** [[verhaeltnis-schlaegt-blatt]] sucht seit dem 2026-09-22 einen
+  Eigentümer, der mit dem Leser zusammenfällt. Bei React schreibt der Eigentümer
+  der [[komponenten-api]] den einzigen maschinellen Leser: Was der Renderer nicht
+  mehr liest, ist nicht mehr sagbar. Gegenlesart: Der Eigentümer baut nur das
+  **Werkzeug**, gelesen wird weiter von Menschen (Codeprüfung). Entscheiden würde
+  ein Fall, in dem der Eigentümer etwas unlesbar macht, das Menschen weiter lesen
+  wollen — Kandidat: die Interna-Umbenennung vom 9. April 2024 und die
+  Bibliotheken, die daran brachen. Vor der Prüfung Sturzbefund notieren.
+  *(2026-09-30)*
+- **Ist `TrustedHTML` im Schlüssel `__html` eine Rückholung des Schlüssels ins
+  Zeichen?** 2014/15 sollte das Objekt `{__html}` geprüfte Daten markieren („a
+  ‚type/taint' of sorts“), aber jeder konnte es von Hand schreiben; nur ein Linter
+  hätte es unterscheiden können. Heute empfiehlt react.dev, dort einen
+  `TrustedHTML`-Wert einzusetzen, den der Browser selbst prüft. Die Markierung
+  wäre dann aus einer Konvention in einen Typ gewandert, den ein zweiter Leser
+  (der Browser) erzwingt — ein Fall für [[ausgelagerter-schluessel]] (Fall 4 war
+  die erste Rückholung, gezogen vom maschinellen Leser)? **Nicht beurteilt**; seit
+  wann React `TrustedHTML` durchreicht, habe ich nicht nachgesehen. *(2026-09-30)*
+- **Gibt es Warnnamen außerhalb der Programmierung?** Das ist die Probe, ob
+  [[warnname]] ein Muster ist oder die Gewohnheit eines Berufs. Gesucht ist ein
+  Zeichen, das ein Sprachmittel gültig lässt und im Zeichen selbst davor warnt
+  oder die Gewähr ausschließt. Kandidaten, **ungeprüft und unsicher**: die
+  Tall-Man-Schreibung von Arzneinamen (warnt aber vor Verwechslung beim Lesen,
+  nicht vor dem Gebrauch), Vermerke wie „ohne Gewähr“ auf Fahrplänen und
+  Lottozahlen (stehen neben der Notation, nicht in ihr). Sturzbefund, vorab:
+  Findet sich keiner, bei dem die Warnung **im** Zeichen steht, ist das Muster auf
+  Namen beschränkt, die man tippen muss. *(2026-09-30)*
+- **Feldbilanz nach vierzig Einträgen, Stand 2026-09-30.** Neues Feld: die
+  **Frontend-Programmierung und Komponentenbibliotheken** — Programmierung kam
+  schon vor ([[regulaerer-ausdruck]]), aber nicht die Schnittstellen, mit denen
+  Oberflächen gebaut werden; zugleich der seit dem ersten Tag geführte
+  Systempunkt, jetzt zur kleineren Hälfte bearbeitet. Quellenlage: **nur
+  Primärtexte**, alle im Wortlaut — GitHub-Issues und Pull Requests mit Datum und
+  Namen (React #1370, #1515, #2134, #2256, #2257, #28789; Relay #4688 und Commit
+  36e9ead), die Dokumentation in alten Tags (v0.14.0), die React-Blogtexte 2018/19,
+  react.dev und der Quelltext am `main`-Zweig, die React-Spectrum-Doku im
+  Quelltext. **Einseitig:** Alles stammt aus zwei Häusern und fast alles von deren
+  eigenen Leuten; eine Stimme von außen (ein Nutzer, der den Zoll bezahlt und sich
+  beschwert, über Issue-Kommentare hinaus) fehlt. **Nicht gesehen:** die
+  Bibliotheken, die an der Umbenennung von 2024 brachen, außer Relay; die
+  Einführung von `dangerouslySetInnerHTML` (vor April 2014); das Jahr von
+  `UNSAFE_className`. **Unberührt:** zeitlich das 11./12. Jahrhundert. Alte
+  Schulden unverändert (Liste vom 2026-09-28). Keine Meide-Warnung. *(2026-09-30)*
+- **Werkzeug-Notiz (2026-09-30): GitHub ohne Anmeldung.** (1) `api.github.com/repos/
+  facebook/react/…` antwortet mit „Moved Permanently“ auf
+  `/repositories/10270250/…` — `curl -skL` folgt nicht jeder JSON-Umleitung, also
+  gleich die numerische Form nehmen. (2) Ohne Anmeldung **60 Anfragen pro Stunde**
+  (`/rate_limit`); die Codesuche verlangt eine Anmeldung und ist damit zu. (3) Was
+  geht: Issues samt Kommentaren (`/issues/<n>` und `/issues/<n>/comments?per_page=100`,
+  auch für Pull Requests), einzelne Kommentare (`/issues/comments/<id>` — die Nummer
+  steht im Anker `#issuecomment-<id>`), Pull-Request-Texte (`/pulls/<n>`), die
+  Geschichte einer Datei (`/commits?path=<pfad>&sha=<tag>`) und alte Dateien über
+  `raw.githubusercontent.com/<org>/<repo>/<tag>/<pfad>`. So lässt sich die
+  Begründung eines Namens bis zum Kommentar zurückverfolgen, aus dem die Doku sie
+  abgeschrieben hat (hier: Doku Januar 2015 ← Issue #2256 ← PR #1515). (4) Die alte
+  React-Doku liegt im Repo `reactjs/legacy.reactjs.org` (`content/docs`,
+  `content/blog`), die neue in `reactjs/react.dev` (`src/content/reference`).
+  (5) JSON mit `node -e 'const j=require("./x.json"); …'` auswerten, in einfachen
+  Anführungszeichen, damit die Shell nichts ersetzt. *(2026-09-30)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -1382,7 +1451,20 @@ hängt mindestens zwei neue Fragen an.
   absoluten Drucks (Frage oben) und die Isothermen als eigene Schicht, falls sie
   je gebraucht werden. Das Feld ist damit dreimal besucht — nicht als Nächstes.
 - Komponenten-APIs als junge, noch weiche Notation — die Tokens sind seit
-  2026-08-30 erledigt ([[design-token]]), die Props-Namen von Komponenten nicht
+  2026-08-30 erledigt ([[design-token]]). **Stand 2026-09-30: angefangen, nicht
+  erledigt** ([[komponenten-api]], [[warnname]]). Beschrieben sind nur die
+  Warnnamen (`dangerouslySetInnerHTML`, `UNSAFE_`, die React-Interna). **Offen ist
+  das Gewöhnliche:** (a) wie Varianten und Größen heißen (`variant`, `appearance`,
+  `kind`, `intent` …) — eine Zählung über viele Designsysteme wäre eine Rechnung
+  statt einer Lektüre; (b) ob boolesche Props widersprüchliche Zustände schreibbar
+  machen, die eine Aufzählung ausschließt — Kandidat aus Erinnerung, **ungeprüft**:
+  Semantic UI React mit `<Button primary secondary>`; im eingebauten Browser
+  messbar, welche Klasse gewinnt (dann entschiede die Reihenfolge im Stylesheet,
+  ein Zeichen, das niemand geschrieben hat); (c) wie die Eigenschaften eines
+  Designwerkzeugs (Figma-Varianten) auf die Props im Code abgebildet werden — zwei
+  Notationen derselben Komponente und eine dritte, die übersetzt; Kandidat für
+  [[nachbarnotation]] oder für eine Naht wie die Referenzbezeichnung im
+  [[schaltplan]].
 - Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
   ([[skelettformel]]): Die Leseregel der Linienformel ist beschrieben, die
   Bindungsstriche als Nachbarschaft ebenfalls. **Offen bleibt die Entstehung** —

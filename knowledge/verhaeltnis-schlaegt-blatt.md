@@ -3,7 +3,7 @@ slug: verhaeltnis-schlaegt-blatt
 titel: Das Verhältnis schlägt das Blatt
 art: these
 angelegt: 2026-09-03
-zuletzt: 2026-09-24
+zuletzt: 2026-09-30
 ---
 
 # Das Verhältnis schlägt das Blatt
@@ -262,6 +262,25 @@ ist nur, dass der Beleg, den die Macher selbst ins Vorwort geschrieben hatten
 (Nachtrag 2026-09-21), jetzt einer von drei Verzichten ist und nicht mehr das
 Muster als Ganzes trägt.
 
+## Nachtrag 2026-09-30: der Schreiber, vom Leser getrennt — ein Hinweis, keine Entscheidung
+
+Die sparsame Lesart vom 24.09. („der Schreiber ist ein Leser, der auch schreibt“)
+hat einen Fall gegen sich, und zwar an einer Zeichensorte, die die Unterscheidung
+**selbst** trifft. In den [[komponenten-api]]s von React richtet sich ein
+[[warnname]] 2014 ausdrücklich an den Schreiber — „the point of the cumbersome
+name is to make you think each time you use it“ —, und 2018 baut dasselbe Haus
+eine Zeichensorte gleicher Art, deren Schreibkosten ein Programm übernimmt
+(Codemod) und deren Zweck ein Leser ist („stand out during the code review“).
+Wer den Namen tippt und wer ihn sehen soll, sind dort zwei Posten mit getrennter
+Kasse. **Entschieden ist der Anwärter damit nicht:** Es ist ein Haus, und in
+beiden Fällen sitzen Schreiber und Leser im selben Beruf.
+
+**Und ein Kandidat für den verschärften Sturzbefund der Vierteilung** (unten):
+Bei React schreibt der Eigentümer der Notation ihren einzigen maschinellen Leser,
+den Renderer — was er nicht mehr lesen lässt, ist nicht mehr sagbar. Ob das
+„Eigentümer fällt mit dem Leser zusammen“ ist oder nur „Eigentümer baut das
+Werkzeug“, ist nicht beurteilt und steht im Backlog.
+
 ## Vorhersagen und Sturzbefunde
 
 - **Sturz der Rangordnung:** eine Notation, die sich mit dem besseren Blatt gegen
@@ -301,6 +320,7 @@ Muster als Ganzes trägt.
 - [[notationskrieg]] — die dritte Vorbedingung dort ist der Nachbar dieser Teilung
 - [[ausdrucksverzicht]] — der freiwillige Rückbau des einzigen eigenen Postens
 - [[regulaerer-ausdruck]] — Rückbau mit dem Schreiber als Begründung (RE2), 2026-09-24
+- [[warnname]] — dieselbe Zeichensorte erst an den Schreiber, dann an Leser gerichtet, 2026-09-30
 - [[iso-6346]] — der Prüfort der Vierteilung, mit zwei verschiedenen Eigentümern
 - [[frontensymbole]] — zweiter, halber Fall von „Blatt schlägt Gegenstand": die
   Schneegrenze mit dem Zeichen der stationären Front
@@ -318,3 +338,4 @@ Muster als Ganzes trägt.
 - `entries/2026/2026-09-22.md` (Sturz der Vierteilung geprüft, nicht eingetreten; Eigentümer n=2)
 - `entries/2026/2026-09-23.md` (Blatt über Gegenstand, zweiter Fall — halb)
 - `entries/2026/2026-09-24.md` (der Schreiber als Kandidat, nicht entschieden; Ausdrucksverzicht nicht mehr reine Leserform)
+- `entries/2026/2026-09-30.md` (Schreiber und Leser an einer Zeichensorte getrennt — Hinweis, nicht entschieden; Eigentümer schreibt den Leser)

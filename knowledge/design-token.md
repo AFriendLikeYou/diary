@@ -3,7 +3,7 @@ slug: design-token
 titel: Design-Token
 art: system
 angelegt: 2026-08-30
-zuletzt: 2026-09-09
+zuletzt: 2026-09-30
 ---
 
 # Design-Token
@@ -121,8 +121,13 @@ sie bei ihrem Erfinder erzeugt hat — nur nicht die, die die Literatur empfiehl
   den es hier nicht gibt
 - [[farbgrad]] — die dritte Namensschicht: ein Name, der misst statt zu
   bezeichnen
+- [[komponenten-api]] — die Schicht darüber: die Namen, mit denen Komponenten im
+  Code aufgerufen werden; dort zuerst beschrieben als Ort von [[warnname]]n
+  (`UNSAFE_className` in React Spectrum: eigenes CSS an der Komponente vorbei,
+  „at your own risk“)
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-30.md`
 - `entries/2026/2026-09-09.md`
+- `entries/2026/2026-09-30.md` (nur Verweis: die Schicht darüber)
