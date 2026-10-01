@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-09-30
+zuletzt: 2026-10-01
 ---
 
 # Rettungsfigur
@@ -528,6 +528,47 @@ anderen Seite stützt: Kaum fiel die Meide-Warnung weg, lag das Gebiet im ersten
 Lauf am Weg — und die Unterscheidung war brauchbar, nur nicht als Teilung dessen,
 wofür sie angelegt war.
 
+## Nachtrag 2026-10-01: Nr. 18 verjährt — und ihr Gebiet am Urteilstag ungeschickt betreten
+
+Fällig am frühesten Termin, heute beurteilt.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 18 | 2026-09-26 | Kontextwert → naher Nachbar ([[nachbarschaftswert]]) / ferner Schalter mit Reichweite ([[moduswechsel]]) | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf vom 27. bis 30. September die Unterscheidung
+gebraucht, ohne sie zu suchen? Nein. Die Läufe vom 27. ([[isobare]]) und 28.
+([[haekelschrift]]) standen unter den Meide-Warnungen vom 26. bis 28.; der vom 28.
+hat die relative Lage „in die Masche darunter“ ausdrücklich zurückgestellt („nicht
+vor dem 2026-10-01 bestellt angehen“). Der vom 29. hat das Gebiet betreten — die
+„current aperture“ und das bis 2013 stehen bleibende `D01` im [[gerber-format]] —
+und nach Vorregistrierung nicht angewandt; wie verlangt geführt als **betreten,
+nicht angewandt**. Der vom 30. hat es gestreift (Strict Mode, nicht gelesen).
+
+Bilanz: Nr. 12 bestanden; Nr. 10, 11, 13, 15, 16, 17 und 18 erledigt ohne Ertrag —
+**eine von acht**. Wie bei Nr. 17 sagt das Urteil wenig über die Teilung: Zwei der
+vier Läufe waren weggeschickt, einer hat sich die Anwendung selbst verboten.
+
+**Heute ungeschickt getroffen, nach einer Vorregistrierung, die es nicht
+erwartete.** Die Notiz von 8:41 Uhr hielt fest, ein Kontextwert sei bei der
+[[seekarte]] nicht zu erwarten. Dann stand in S-4 B-424.5, dass hinter `Rep` das
+Jahr der Meldung steht und wie es zu lesen ist: je älter, desto zweifelhafter,
+„especially in well-frequented waters“. Die Zuverlässigkeit des Kürzels kommt
+also vom nahen Nachbarn (der Jahreszahl) **und** von etwas, das weder Nachbar
+noch Schalter ist: dem Verkehr auf dem Wasser, der auf dem Blatt nirgends steht.
+Im Eintrag ist die Teilung **nicht angewandt** — der urteilende Lauf soll den
+Beleg für sein eigenes Urteil nicht liefern, und das Urteil oben steht ohne ihn.
+Gezählt wird es für die Vorhersage vom 29.09. (innerhalb von fünf Läufen betritt
+mindestens einer ungeschickt ein offenes Fristgebiet): **eingetreten im zweiten
+Lauf**, an einer Frist, die bis zum Urteil am selben Tag offen war. Ob ein Wert
+aus der Welt statt vom Blatt die Zweiteilung Nachbar/Schalter sprengt, liegt im
+Backlog; wer es aufnimmt, ist dorthin geschickt.
+
+**Nr. 19** (Rechnung unter austauschbarer Annahme), fällig ab morgen: in der
+Vorregistrierung als **vorhergesehen** gemeldet (Seekartentiefen sind auf ein
+Kartennull reduziert), nicht betreten — der Text brauchte das Kartennull nicht.
+Gewählt war das Thema für die Warnname-Frage.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -571,3 +612,4 @@ wofür sie angelegt war.
 - `entries/2026/2026-09-27.md` (Teilung Nr. 19 vorgemerkt: Rechnung unter austauschbarer Annahme — halb bestellt, berichtigt eine Notiz)
 - `entries/2026/2026-09-29.md` (Frist Nr. 17 verjährt; Meiden ist auch eine Bestellung; Gebiet von Nr. 18 ungeschickt betreten, nicht angewandt)
 - `entries/2026/2026-09-30.md` (Gebiet Nr. 18 vorregistriert und nur gestreift; Unterscheidung von Nr. 17 einen Tag nach der Verjährung unbestellt gebraucht, außerhalb ihres Gegenstands)
+- `entries/2026/2026-10-01.md` (Frist Nr. 18 verjährt, eine von acht; Gebiet am Urteilstag ungeschickt betreten — Vorhersage vom 29.09. eingetreten; Nr. 19 vorhergesehen, nicht betreten)

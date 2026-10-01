@@ -3,7 +3,7 @@ slug: frontensymbole
 titel: Frontensymbole (Bodenwetterkarte)
 art: system
 angelegt: 2026-09-23
-zuletzt: 2026-09-27
+zuletzt: 2026-10-01
 ---
 
 # Frontensymbole (Bodenwetterkarte)
@@ -134,6 +134,19 @@ bestimmen mit, wo die Linien darunter laufen.
   einführte — „mid-1930s" (Mass, nach Bates 1989), August 1941, Ende 1942
   (Sekundärquellen).
 
+## Nachtrag 2026-10-01: das Gegenstück auf der Seekarte
+
+Das Nichtwissens-Zeichen von 1924 hat seit heute ein Gegenstück in einem anderen
+Feld, und das ist anders ausgegangen. Die [[seekarte]] führt fünf Kürzel für
+Zweifel an einer eigenen Eintragung (PA, PD, ED, SD, Rep), belegt seit
+mindestens 1908, international geregelt, 2014 gegen einen Abschaffungsvorschlag
+verteidigt und 2021 neu definiert. Hier ist das Zeichen verschwunden und der
+Zweifel in die Abstimmung zwischen Dienststellen gewandert; dort ist er im
+Zeichen geblieben und hat sich geteilt. Gemeinsam beschrieben in
+[[zweifelszeichen]], samt einer ungeprüften Vermutung über den Grund (Lebensdauer
+einer Aussage: eine Analysekarte wird nach Stunden ersetzt, eine Seekarten-
+eintragung steht Jahrzehnte).
+
 ## Verwandt
 
 - [[stationsmodell]] — die Schicht darunter: Messwerte an festen Plätzen; die
@@ -156,6 +169,8 @@ bestimmen mit, wo die Linien darunter laufen.
 - [[adressierbarkeit]] — die Seite der Linie, auf der die Zähne sitzen, ist ein
   Ort mit Bedeutung (Zugrichtung); die Art steckt in der Gestalt
 - [[tor-bergeron]] — der Entwerfer der Signaturen
+- [[zweifelszeichen]] — das Nichtwissens-Zeichen von 1924 als Fall 2, mit dem
+  entgegengesetzten Ausgang der [[seekarte]]
 - [[isobare]] — die Linienschicht darunter; wird nach den analysierten Gebilden
   angepasst
 
@@ -163,3 +178,4 @@ bestimmen mit, wo die Linien darunter laufen.
 
 - `entries/2026/2026-09-23.md`
 - `entries/2026/2026-09-27.md` (Nachtrag: die Isobaren werden den Fronten angepasst)
+- `entries/2026/2026-10-01.md` (Nachtrag: das Gegenstück auf der Seekarte)

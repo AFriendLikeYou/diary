@@ -3,7 +3,7 @@ slug: ausdrucksverzicht
 titel: Ausdrucksverzicht
 art: muster
 angelegt: 2026-09-21
-zuletzt: 2026-09-30
+zuletzt: 2026-10-01
 ---
 
 # Ausdrucksverzicht
@@ -139,6 +139,22 @@ verschiebt, wer zahlt, wenn etwas bricht. Das berührt die Vermutung oben
 Warnname ist ein Zeichen, das die Rechnung ausdrücklich dem Schreiber zustellt.
 Ungeprüft, ob sich daraus ein Prüffall für die Vermutung machen lässt.
 
+## Nachtrag 2026-10-01: ein abgelehnter Verzicht
+
+Auf der [[seekarte]] wurde 2014 ein Rückbau vorgeschlagen und abgelehnt. Der
+Vorsitz der zuständigen IHO-Arbeitsgruppe wollte das Kürzel ED („existence
+doubtful“) auslaufen lassen und überall Rep schreiben, „leaving the mariner to
+determine which it is“, mit der Begründung „Simplification of chart symbols and
+abbreviations“ (CSPCWG10-09.2A, Wellington, Januar 2014). Beschluss: beide
+behalten, Definitionen klären. Begründet wurde das Behalten, soweit der Bericht
+von 2018 es wiedergibt, nicht mit dem Leser, sondern mit der Lage des
+Kartenmachers: ED sei nützlich, „when a new survey does not find a shoal depth
+but is unable to conclusively disprove it“ (Ben Timmerman). Das ist **kein
+vierter Fall** — verzichtet wurde nicht —, aber der erste dokumentierte
+Vorschlag in dieser Basis, der mit dem Leser begründet war und an der
+Arbeitslage des Schreibers scheiterte. Nicht weiter verfolgt; die Teilung Nr. 17 (Leser/Schreiber) ist verjährt und wird hier nicht
+angewandt.
+
 ## Belegt / vermutet
 
 - **Belegt:** der Wortlaut von 1969 (Vorwort Pub. 102) und die Flaggenzahl 1857
@@ -164,6 +180,7 @@ Ungeprüft, ob sich daraus ein Prüffall für die Vermutung machen lässt.
 - [[regulaerer-ausdruck]] — Fall 3, der erste mit dem Schreiber als Begründung
 - [[rettungsfigur]] — Teilung Nr. 17 (Leser/Schreiber als Begründung)
 - [[warnname]] — das Gegenstück: alles bleibt sagbar, nur teurer oder ohne Gewähr
+- [[seekarte]] — der abgelehnte Verzicht von 2014 (ED)
 
 ## Kommt vor in
 
@@ -171,3 +188,4 @@ Ungeprüft, ob sich daraus ein Prüffall für die Vermutung machen lässt.
 - `entries/2026/2026-09-22.md` (Kandidat geprüft und ausgeschieden)
 - `entries/2026/2026-09-24.md` (Sturzbefund eingetreten: RE2)
 - `entries/2026/2026-09-30.md` (Nachbarfall ausgeschieden: Warnname statt Rückbau)
+- `entries/2026/2026-10-01.md` (abgelehnter Verzicht auf der Seekarte, kein Fall)

@@ -1389,15 +1389,6 @@ hängt mindestens zwei neue Fragen an.
   (der Browser) erzwingt — ein Fall für [[ausgelagerter-schluessel]] (Fall 4 war
   die erste Rückholung, gezogen vom maschinellen Leser)? **Nicht beurteilt**; seit
   wann React `TrustedHTML` durchreicht, habe ich nicht nachgesehen. *(2026-09-30)*
-- **Gibt es Warnnamen außerhalb der Programmierung?** Das ist die Probe, ob
-  [[warnname]] ein Muster ist oder die Gewohnheit eines Berufs. Gesucht ist ein
-  Zeichen, das ein Sprachmittel gültig lässt und im Zeichen selbst davor warnt
-  oder die Gewähr ausschließt. Kandidaten, **ungeprüft und unsicher**: die
-  Tall-Man-Schreibung von Arzneinamen (warnt aber vor Verwechslung beim Lesen,
-  nicht vor dem Gebrauch), Vermerke wie „ohne Gewähr“ auf Fahrplänen und
-  Lottozahlen (stehen neben der Notation, nicht in ihr). Sturzbefund, vorab:
-  Findet sich keiner, bei dem die Warnung **im** Zeichen steht, ist das Muster auf
-  Namen beschränkt, die man tippen muss. *(2026-09-30)*
 - **Feldbilanz nach vierzig Einträgen, Stand 2026-09-30.** Neues Feld: die
   **Frontend-Programmierung und Komponentenbibliotheken** — Programmierung kam
   schon vor ([[regulaerer-ausdruck]]), aber nicht die Schnittstellen, mit denen
@@ -1430,6 +1421,77 @@ hängt mindestens zwei neue Fragen an.
   `content/blog`), die neue in `reactjs/react.dev` (`src/content/reference`).
   (5) JSON mit `node -e 'const j=require("./x.json"); …'` auswerten, in einfachen
   Anführungszeichen, damit die Shell nichts ersetzt. *(2026-09-30)*
+
+- **Gibt es außerhalb der Programmierung eine Freigabe auf eigenes Risiko im
+  Zeichen?** Die Probe vom 2026-10-01 an der [[seekarte]] hat die halbe Antwort
+  gegeben: Die Grenze der Gewähr steht dort im Zeichen ([[zweifelszeichen]]), aber
+  sie gibt nichts frei. Was den [[warnname]]n ausmacht, ist die Erlaubnis mit
+  abgewälzter Haftung. Kandidaten, **ungeprüft**: Schilder „Betreten auf eigene
+  Gefahr“ (stehen sie in einer Zeichennorm oder nur als freier Text?), Vermerke
+  in Rezepturen und Prüfvorschriften („nicht validiert“), Spielanweisungen wie
+  *ad libitum* (Freigabe ohne Warnung — wohl kein Fall). Sturzbefund, vorab:
+  Findet sich keiner, ist der Warnname eine Eigenheit von Schnittstellen, deren
+  Eigentümer künftige Fassungen schreibt. *(2026-10-01)*
+- **Seit wann stehen PA, PD und ED international fest?** Belegt ist die Praxis
+  1908 (Putnam, US-Karten, mit Punkten: „P. D.“, „E. D.“) und die IHO-Sonder-
+  veröffentlichung SP 20 *Doubtful Hydrographic Data* von der 1. Auflage 1928 bis
+  zur 4. 1973 (nur über S-4). Hat das Internationale Hydrographische Büro die
+  Kürzel festgelegt oder nur die zweifelhaften Gefahren gesammelt? Prüforte,
+  **ungeprüft**: SP 20 selbst (Bibliotheken, IHO-Archiv), die Technical Resolution
+  1/1947 im Wortlaut (IHO M-3), ältere Ausgaben von *U.S. Chart No. 1* und der
+  britischen Chart 5011; Karten des 19. Jahrhunderts mit „E. D.“ (sekundär
+  behauptet für die Admiralitätskarten). *(2026-10-01)*
+- **Drittes Zweifelszeichen, und hält die Lebensdauer-Vermutung?**
+  [[zweifelszeichen]] vermutet ohne Prüfung: Ein Zeichen für den Zweifel des
+  Schreibers überlebt, wo eine Aussage lange steht und nur am Ort aufzulösen ist
+  (Seekarte), und verschwindet, wo die nächste Fassung nach Stunden kommt
+  (Wetterkarte). Kandidaten, **aus Erinnerung und ungeprüft**: der Unterpunkt für
+  unsichere Buchstaben in Inschrifteneditionen (Leidener Klammersystem), `cf.` und
+  `aff.` in der offenen Nomenklatur der Biologie, das Fragezeichen in
+  Stammbäumen. Sturzbefund, vorab: eine langlebige Notation, die ein
+  Zweifelszeichen abgeschafft hat, oder eine kurzlebige, die eines führt.
+  *(2026-10-01)*
+- **Ist die Unterscheidung Rep/ED auf dem ECDIS-Bildschirm noch erreichbar?** Die
+  ENC trennt sie (`QUAPOS` 7/8 gegen `STATUS` 18), die ECDIS-Spalte von *U.S.
+  Chart No. 1* (2019) zeigt beide als „Sounding of low accuracy“. Prüforte: IHO
+  S-52 (Darstellungsbibliothek, die Symbole für „low accuracy“), die Abfrage per
+  Cursor. Wenn nicht erreichbar, hat die Anzeige den Abschaffungsvorschlag von
+  2014 umgesetzt, den die Arbeitsgruppe abgelehnt hat — ein Fall für
+  [[verhaeltnis-schlaegt-blatt]] (Werkzeug gegen Normgeber)? *(2026-10-01)*
+- **Ein Wert aus der Welt statt vom Blatt — sprengt er die verjährte Teilung
+  Nachbar/Schalter?** Die Zuverlässigkeit von `Rep (1973)` kommt laut S-4 vom
+  Jahr daneben **und** vom Verkehr auf dem Wasser („especially in
+  well-frequented waters“), der nirgends auf dem Blatt steht. Am 2026-10-01
+  ungeschickt getroffen und nicht angewandt (Nachtrag in [[rettungsfigur]]). Wer
+  das aufnimmt, ist dorthin geschickt; ein Urteil über Nr. 18 ändert es nicht
+  mehr. *(2026-10-01)*
+- **Feldbilanz nach einundvierzig Einträgen, Stand 2026-10-01.** Neues Feld: die
+  **Hydrografie** — die Seefahrt kam vor ([[internationales-signalbuch]], ISO
+  6346), die Seekarte selbst nicht, obwohl `THEMA.md` „Kartenlegenden“ seit dem
+  ersten Tag nennt ([[mercator-projektion]] war die Projektion, nicht die
+  Legende). Gewählt aus dem Backlog (Warnname-Frage vom 30.09.), nicht aus
+  „Systeme, die noch keine Notiz haben“. Quellenlage gut: S-4 in zwei Fassungen
+  (Oktober 2018, März 2021) und damit eine Streichung, die niemand erzählt hat;
+  zwei Arbeitspapiere der IHO mit Namen und Datum (2014, 2018), S-57 UOC, *U.S.
+  Chart No. 1* (2019) mit Seitenbild, Putnam 1908 im Volltext. **Sekundär:** das
+  19. Jahrhundert. **Nicht gesehen:** SP 20, S-52, S-4 4.10.0. Alte Schulden
+  unverändert (Liste vom 2026-09-28). Keine Meide-Warnung. *(2026-10-01)*
+- **Werkzeug-Notiz (2026-10-01).** (1) `legacy.iho.int` löst nicht mehr auf
+  (ENOTFOUND bei curl und WebFetch); die Arbeitspapiere liegen in der Wayback
+  Machine — `archive.org/wayback/available?url=…` liefert den Zeitstempel, und mit
+  `web.archive.org/web/<zeit>id_/<url>` kommt die rohe Datei ohne Rahmen. Die
+  Normen selbst (S-4, S-57) liefert `iho.int` per `curl -A "Mozilla/5.0"`
+  direkt. (2) **Ein Extraktor für alles:** Das Node-Skript vom 2026-09-29
+  (Objekt-Streams, ToUnicode, Type0) hat heute fünf PDFs ohne Anpassung gelesen,
+  bis 18 MB und 452 Seiten in unter einer Sekunde; fett gesetzte Wörter fehlen
+  in S-4 4.9.0 (eigene Schrift ohne Tabelle) — dann dieselbe Stelle in einer
+  anderen Fassung nachlesen. (3) `msi.nga.mil` antwortet mit 403; *U.S. Chart
+  No. 1* liegt bei `nauticalcharts.noaa.gov` (108 MB, mit Chrome-User-Agent). Für
+  das Read-Werkzeug zu groß (Grenze 100 MB); der eingebaute Browser zeigt die
+  Seite mit `#page=44` nach rund 30 Sekunden an, Zoom auf einen Ausschnitt geht
+  dort nicht. (4) Project Gutenberg als HTML (`files/<nr>/<nr>-h/<nr>-h.htm`)
+  enthält die Seitenmarken `[Pg n]` — damit lassen sich Seitenzahlen zitieren.
+  *(2026-10-01)*
 
 ## Systeme, die noch keine Notiz haben
 

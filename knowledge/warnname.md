@@ -3,7 +3,7 @@ slug: warnname
 titel: Warnname
 art: muster
 angelegt: 2026-09-30
-zuletzt: 2026-09-30
+zuletzt: 2026-10-01
 ---
 
 # Warnname
@@ -54,6 +54,31 @@ eigener Mitentwerfer für „misnamed“ (2014); die Umbenennung scheiterte 2016
 worth the headache“. Meine Deutung ohne Zahlen: Er war zu oft geschrieben, um ihn
 zu ändern — gerade der Name, der das Schreiben seltener machen sollte.
 
+## Nachtrag 2026-10-01: die Probe außerhalb der Programmierung — halb
+
+Der Sturzbefund vom 2026-09-30 lautete: Findet sich kein Zeichen außerhalb der
+Programmierung, bei dem die Warnung **im** Zeichen steht, ist das Muster auf Namen
+beschränkt, die man tippen muss. Geprüft an der [[seekarte]]: PA, PD, ED, SD und
+Rep stehen im Zeichen, sind unübersetzbar („must not be written in full or
+translated“, IHO S-4 B-424) und schränken ausdrücklich die Gewähr ein („has not
+been adequately disproven“, S-4 4.9.0). Insofern **nicht eingetreten**.
+
+Ein Warnname ist das trotzdem nicht, aus zwei Gründen. (1) Die Gewähr betrifft
+eine **Aussage** (gibt es die Klippe?), nicht ein **Sprachmittel** der Notation.
+(2) Das Kürzel **gibt nichts frei**: Die zweifelhafte Untiefe bleibt mit einer
+Gefahrenlinie umrandet, und „I cannot ever see a ship captain deciding to go over
+an ED“ (IHO, 2014). `UNSAFE_` erlaubt, auf eigenes Risiko; ED erlaubt nichts.
+**Ergebnis:** Was das Feld wechselt, ist die Grenze der Gewähr im Zeichen
+([[zweifelszeichen]]); was bleibt, ist die Freigabe auf eigenes Risiko, und die
+ist bisher nur in der Programmierung belegt. Der Warnname bleibt ein Muster eines
+Berufs, bis ein Zeichen gefunden ist, das ein Mittel freigibt und die Gewähr
+dafür ausschließt.
+
+**Seitenbefund, nicht weiter verfolgt:** Wie bei React Spectrum, wo der
+Dokumentationsgenerator `UNSAFE_`-Props aus der Tabelle filtert, liest auch auf
+der Seekarte zuerst eine Maschine anders als der Mensch: Die ECDIS-Anzeige legt
+die fünf Kürzel in „of low accuracy“ zusammen (U.S. Chart No. 1, 2019).
+
 ## Was das Muster verbietet
 
 - Den Schluss vom Warnnamen auf Abschreckung. Im einzigen Fall, den ich im
@@ -73,8 +98,8 @@ zu ändern — gerade der Name, der das Schreiben seltener machen sollte.
   kann Zufall der Anlässe sein.
 - **Vermutet:** dass die Sperre des Namens von seiner Häufigkeit kommt; die Quelle
   sagt nur „headache“.
-- **Nicht gesehen:** Warnnamen außerhalb der Programmierung. Ob es sie gibt, ist
-  die Probe, ob das ein Muster ist oder eine Gewohnheit eines Berufs.
+- **Geprüft 2026-10-01:** außerhalb der Programmierung nur die Gewährsgrenze
+  gefunden (Seekarte), nicht die Freigabe — siehe Nachtrag.
 
 ## Verwandt
 
@@ -86,9 +111,12 @@ zu ändern — gerade der Name, der das Schreiben seltener machen sollte.
   gerichtet wurde
 - [[lehrkosten]] — ein Nachbarkonto: dort kostet das Lernen einmal, hier das
   Schreiben jedes Mal
+- [[zweifelszeichen]] — der Nachbar außerhalb der Programmierung: Grenze der
+  Gewähr ohne Freigabe, über eine Aussage statt über ein Mittel
 - [[werkzeugzwang]] — der Codemod von 2018 bezahlt den Zoll maschinell; ein
   Werkzeug, das eine absichtliche Hürde neutralisiert (nicht weiter verfolgt)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-30.md`
+- `entries/2026/2026-10-01.md` (Probe an der Seekarte: Gewährsgrenze ja, Freigabe nein)
