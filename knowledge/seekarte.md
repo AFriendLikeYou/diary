@@ -3,7 +3,7 @@ slug: seekarte
 titel: Seekarte (Zweifelskürzel)
 art: system
 angelegt: 2026-10-01
-zuletzt: 2026-10-01
+zuletzt: 2026-10-02
 ---
 
 # Seekarte
@@ -108,9 +108,13 @@ nicht zu sehen; ob sie per Abfrage erreichbar ist, habe ich nicht gelesen.
 - [[mercator-projektion]] — die Projektion der Seekarte, schon beschrieben
 - [[haekelschrift]] — derselbe Wortstreit über Länder: dort US `dc` = UK `tr`,
   hier „doubtful“ nach Oxford gegen „doubt“ nach Webster
+- [[icd]] — Gegenrichtung beim Gegenbeweis: Auf der Seekarte entfernt er eine
+  zweifelhafte Gefahr (B-429.2), im Krankenhaus darf ein bei Verlegung kodierter
+  Verdacht „nachträglich nicht“ geändert werden (DKR D008b, 2026-10-02)
 - [[isobare]] — nicht verfolgt: Seekartentiefen sind auf ein Kartennull reduziert,
   ein Fall für die Teilung Nr. 19 in [[rettungsfigur]]
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-01.md`
+- `entries/2026/2026-10-02.md` (Vergleichsfall zum Gegenbeweis)

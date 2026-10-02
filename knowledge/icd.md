@@ -3,7 +3,7 @@ slug: icd
 titel: ICD-Schlüssel
 art: system
 angelegt: 2026-09-12
-zuletzt: 2026-09-12
+zuletzt: 2026-10-02
 ---
 
 # ICD-Schlüssel
@@ -13,7 +13,9 @@ Krankheiten (WHO). Eine Ziffernnotation ohne Fläche: vier bis sechs Zeichen, di
 eine Diagnose in einen Baum einordnen. Für dieses Tagebuch ist er der Fall, an
 dem sich zeigt, dass eine **Stelle** in einem Code noch keine **Achse** ist — und
 der erste Fall, in dem Stellen eines Codes auf die Notation selbst zeigen statt
-auf ihren Gegenstand.
+auf ihren Gegenstand. Seit 2026-10-02 außerdem der Fall eines Zweifelszeichens,
+das **neben** dem Kode steht und in einem Versorgungsbereich Pflicht, im anderen
+verboten ist (deutsche Fassung, Abschnitt unten).
 
 ## Kern
 
@@ -67,6 +69,45 @@ Dazu fehlen die Buchstaben O und I im ganzen Vorrat, damit sie nicht mit 0 und 1
 verwechselt werden. Residualkategorien werden durch `.8`, nicht näher bezeichnete
 durch `.9` markiert — dieselbe Konvention wie in ICD-10.
 
+## Die Sicherheitskennzeichen der ICD-10-GM (seit 2026-10-02)
+
+Die deutsche Fassung hängt an jeden ambulant gemeldeten Kode ein
+Zusatzkennzeichen für die Diagnosensicherheit: **V** Verdacht „bzw.
+auszuschließende Diagnose“, **Z** (symptomloser) Zustand nach, **A**
+ausgeschlossen, **G** gesichert, „auch anzugeben, wenn A, V oder Z nicht
+zutreffen“ (BfArM, Anleitung zur Verschlüsselung, Version 2026). Laut BfArM sind
+Zusatzkennzeichen „nicht Bestandteil eines ICD- oder OPS-Kodes“ — aus `I21.9`
+wird durch `V` kein fünfstelliger Kode (Kodierfrage 1010).
+
+| Zeit | ambulant (§ 295 SGB V) | stationär (§ 301 SGB V) |
+|---|---|---|
+| ab 1.1.2000 (ICD-10-SGBV 1.3) | V, Z, A zulässig | V, Z, A zulässig |
+| ab 1.1.2001 (stationär Version 2.0) | unverändert (1.3) | „dürfen nicht mehr verwendet werden“ (BMG, 08.11.2000) |
+| ab 1.1.2004 (ICD-10-GM, beide Bereiche eine Fassung) | A, V, Z, **G** — „obligatorische Anwendung“ (BMGS, 29.09.2003) | verboten |
+
+Grund für 2001 laut Graubner (GMDS, Februar 2001): „verläßliche Daten für die
+Kalkulation“ der geplanten G-DRGs (diese nach dem Vorbild der australischen
+AR-DRGs; ob die australische ICD-10-AM Sicherheitskennzeichen kennt, habe ich
+nicht geprüft). Das G taucht in den Texten von 2000/2001 nicht auf (Graubner zählt
+ambulant „sechs Zusatzkennzeichen (V, Z, A; R, L, B)“), in der Bekanntmachung
+für 2004 schon.
+
+**Stationär an Stelle des Zeichens eine Regel** (DKR D008b, gelesen in der
+Wiedergabe der DGfM): Ein bei Entlassung offener Verdacht wird ohne Behandlung als
+Symptom kodiert (Appendizitis-Verdacht → R10.3), mit Behandlung als die Krankheit
+selbst (Meningitis-Verdacht → G03.9); bei Verlegung kodiert das erste Haus den
+Verdacht als Diagnose, und die Nummer ist „nachträglich nicht zu ändern“, auch
+wenn das zweite Haus sie widerlegt. Die amtliche Beispieltabelle setzt
+ambulant `I21.9 V` und `I21.9 A` stationär beide als `Z03.4` — Kategorie Z03
+„…, Verdacht ausgeschlossen“ (WHO: „…, ruled out“).
+
+**Leser des V:** der Risikostrukturausgleich; ambulante Diagnosen ohne „G“
+„bleiben generell unberücksichtigt“ (RSA-Prüfhandbuch AJ 2019, S. 51).
+
+**Gegenstück ohne Zeichen:** ICD-10-CM (USA) kennt keine Sicherheitskennzeichen;
+stationär wird ein unsicherer Befund „as if it existed or was established“
+kodiert (Guidelines II.H), ambulant gar nicht, dort das Symptom (IV.H).
+
 ## Warum das hierhergehört
 
 Der Satz aus [[stationsmodell]] — Stellenwert ist Adressierbarkeit — stammt von
@@ -94,8 +135,16 @@ Nachtrag vom 2026-09-12.
   zitieren.
 - **Vermutet:** dass es einen konkreten Anlass für die Regel gab — ein Code, der
   ein Wort ergab. Kein Beleg; der Leitfaden nennt den Grund, keinen Vorfall.
-- **Nicht geprüft:** die nationalen Modifikationen (ICD-10-GM, ICD-10-CM). Alles
-  oben bezieht sich auf die WHO-Fassung.
+- **Nicht geprüft:** die Stellenstruktur der nationalen Modifikationen
+  (ICD-10-GM, ICD-10-CM); der Abschnitt „Kern“ bezieht sich auf die WHO-Fassung.
+- **Belegt (2026-10-02):** die Sicherheitskennzeichen samt Geschichte — BfArM
+  (Anleitung 2026, Kodierfragen 1002 und 1010), Bekanntmachungen vom 08.11.2000
+  (BAnz. S. 21874) und 29.09.2003 (BAnz. S. 22709), Graubner/GMDS 07.02.2001,
+  RSA-Prüfhandbuch, CMS/NCHS FY 2026. **Nur sekundär:** DKR D008b (InEK-Text in
+  der DGfM-Wiedergabe; der InEK-Download schließt einen Nutzungsvertrag und wurde
+  nicht vorgenommen). **Nicht gesehen:** die Bekanntmachung vom 24.06.1999.
+- **Vermutet:** dass das G 2004 eingeführt wurde, weil Abwesenheit eines Zeichens
+  nicht mehr „gesichert“ heißen sollte; kein Beleg für den Grund.
 
 ## Verwandt
 
@@ -108,7 +157,14 @@ Nachtrag vom 2026-09-12.
   ein Zeichen steht, statt einer Skala
 - [[uniformer-irrtum]] — der Schlüssel zur vierten Stelle steht nicht im Code,
   sondern in der Tabelle daneben
+- [[zweifelszeichen]] — Fall 3: V/A/Z/G neben dem Kode, ambulant Pflicht,
+  stationär seit 2001 verboten
+- [[seekarte]] — Gegenbeweis in Gegenrichtung: dort entfernt er die Eintragung,
+  hier darf er sie nicht mehr ändern
+- [[fieberkurve]] — dieselbe Medizin, eine andere Schicht: der Wert am Bett statt
+  der Diagnose in der Abrechnung
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-12.md`
+- `entries/2026/2026-10-02.md` (Sicherheitskennzeichen der ICD-10-GM)

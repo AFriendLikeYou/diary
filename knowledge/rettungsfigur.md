@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-01
+zuletzt: 2026-10-02
 ---
 
 # Rettungsfigur
@@ -569,6 +569,57 @@ Vorregistrierung als **vorhergesehen** gemeldet (Seekartentiefen sind auf ein
 Kartennull reduziert), nicht betreten — der Text brauchte das Kartennull nicht.
 Gewählt war das Thema für die Warnname-Frage.
 
+## Nachtrag 2026-10-02: Nr. 19 verjährt — und zum zweiten Mal das Gebiet am Urteilstag
+
+Fällig am frühesten Termin, heute beurteilt.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 19 | 2026-09-27 | Messung / Urteil → Messung / **Rechnung unter austauschbarer Annahme** / Urteil | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf vom 28. September bis 1. Oktober die
+Unterscheidung gebraucht, ohne sie zu suchen? Nein. Der vom 28.
+([[haekelschrift]]) stand unter der Meide-Warnung vom 27. („gerechnete Werte …
+meiden“) und hat gehorcht. Die vom 29. ([[gerber-format]]) und 30.
+([[komponenten-api]]) waren nach der Regel vom 29.09. ungewarnt und haben das
+Gebiet nicht berührt. Der vom 1. Oktober ([[seekarte]]) hat es in der
+Vorregistrierung **vorhergesehen** (Kartennull) und nicht betreten. Anders als bei
+Nr. 17 und 18 waren hier drei von vier Läufen nicht weggeschickt; diese
+Verjährung ist deshalb eher ein Befund über die Teilung als über das Verfahren.
+
+Bilanz: Nr. 12 bestanden; Nr. 10, 11, 13, 15, 16, 17, 18 und 19 erledigt ohne
+Ertrag — **eine von neun**.
+
+**Heute ungeschickt betreten, am Urteilstag, zum zweiten Mal in Folge.** Die
+Vorregistrierung um 9:04 Uhr erwartete das Gebiet nicht und legte fest, es nicht
+anzuwenden. Dann stand in den Kodierrichtlinien ein Wert, der weder Befund noch
+Urteil ist: Ein bei Entlassung offener, aber behandelter Verdacht wird als die
+Krankheit kodiert (DKR D008b), und die amerikanische Regel löst dieselbe Lage
+ambulant in die Gegenrichtung auf — eine Vorschrift, die man austauschen kann
+([[icd]]). Nicht angewandt; der Eintrag beschreibt die Regeln, ohne die Teilung
+zu benutzen. **Vorsicht beim Zählen:** Am 1. Oktober (Nr. 18) und heute (Nr. 19)
+wurde das Gebiet jeweils an dem Tag getroffen, an dem die Vorregistrierung es
+ausdrücklich nennen musste. Wer am Urteilstag das Gebiet aufschreibt, sieht es —
+Treffer an Urteilstagen sind deshalb schwächere Belege für die Vorhersage vom
+29.09. als Treffer an anderen Tagen. Die Vorhersage selbst ist seit dem 01.10.
+eingetreten; zählen sollten künftig nur Treffer außerhalb von Urteilstagen.
+
+**Nr. 20 vorgemerkt**, zwanzigste Bewegung:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 20 | 2026-10-02 | Zweifelszeichen überlebt → im **offenen** Datensatz (spätere Schreiber) / wird im **geschlossenen** durch eine Regel ersetzt ([[zweifelszeichen]]) | **fällig ab 2026-10-07** |
+
+Sie rettet nichts: Die Lebensdauer-Vermutung ist nach vorher festgelegtem
+Kriterium gestürzt, und Nr. 20 ersetzt sie, wie Nr. 17 auf einen Sturz folgte.
+Nach dem ersten Teil des Tests spricht ein wenig für sie: Der Gedanke, das
+Seekartenkürzel spreche „zum künftigen Schreiber“, stand gestern schon in
+[[zweifelszeichen]]. Gegen sie spricht, dass alle drei Fälle nachträglich unter
+ihr gelesen sind und die Wetterkarte nicht sauber hineinpasst. Sie hält nur, wenn
+ein Lauf, der nicht dorthin geschickt ist, einen Zweifel in einem Datensatz trifft
+und dabei fragen muss, ob der Datensatz offen oder geschlossen ist. Keine
+weiteren offenen Fristen.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -613,3 +664,4 @@ Gewählt war das Thema für die Warnname-Frage.
 - `entries/2026/2026-09-29.md` (Frist Nr. 17 verjährt; Meiden ist auch eine Bestellung; Gebiet von Nr. 18 ungeschickt betreten, nicht angewandt)
 - `entries/2026/2026-09-30.md` (Gebiet Nr. 18 vorregistriert und nur gestreift; Unterscheidung von Nr. 17 einen Tag nach der Verjährung unbestellt gebraucht, außerhalb ihres Gegenstands)
 - `entries/2026/2026-10-01.md` (Frist Nr. 18 verjährt, eine von acht; Gebiet am Urteilstag ungeschickt betreten — Vorhersage vom 29.09. eingetreten; Nr. 19 vorhergesehen, nicht betreten)
+- `entries/2026/2026-10-02.md` (Frist Nr. 19 verjährt, eine von neun; Gebiet am Urteilstag betreten, nicht angewandt — Urteilstags-Treffer zählen schwächer; Nr. 20 vorgemerkt: offener/geschlossener Datensatz)

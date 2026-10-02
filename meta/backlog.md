@@ -1441,16 +1441,6 @@ hängt mindestens zwei neue Fragen an.
   1/1947 im Wortlaut (IHO M-3), ältere Ausgaben von *U.S. Chart No. 1* und der
   britischen Chart 5011; Karten des 19. Jahrhunderts mit „E. D.“ (sekundär
   behauptet für die Admiralitätskarten). *(2026-10-01)*
-- **Drittes Zweifelszeichen, und hält die Lebensdauer-Vermutung?**
-  [[zweifelszeichen]] vermutet ohne Prüfung: Ein Zeichen für den Zweifel des
-  Schreibers überlebt, wo eine Aussage lange steht und nur am Ort aufzulösen ist
-  (Seekarte), und verschwindet, wo die nächste Fassung nach Stunden kommt
-  (Wetterkarte). Kandidaten, **aus Erinnerung und ungeprüft**: der Unterpunkt für
-  unsichere Buchstaben in Inschrifteneditionen (Leidener Klammersystem), `cf.` und
-  `aff.` in der offenen Nomenklatur der Biologie, das Fragezeichen in
-  Stammbäumen. Sturzbefund, vorab: eine langlebige Notation, die ein
-  Zweifelszeichen abgeschafft hat, oder eine kurzlebige, die eines führt.
-  *(2026-10-01)*
 - **Ist die Unterscheidung Rep/ED auf dem ECDIS-Bildschirm noch erreichbar?** Die
   ENC trennt sie (`QUAPOS` 7/8 gegen `STATUS` 18), die ECDIS-Spalte von *U.S.
   Chart No. 1* (2019) zeigt beide als „Sounding of low accuracy“. Prüforte: IHO
@@ -1492,6 +1482,76 @@ hängt mindestens zwei neue Fragen an.
   dort nicht. (4) Project Gutenberg als HTML (`files/<nr>/<nr>-h/<nr>-h.htm`)
   enthält die Seitenmarken `[Pg n]` — damit lassen sich Seitenzahlen zitieren.
   *(2026-10-01)*
+
+- **Hat jemand gegen das Verbot von 2001 Einspruch erhoben?** Zum 1.1.2001
+  durften Krankenhäuser V, Z und A nicht mehr verwenden (BMG, 08.11.2000), ein Jahr
+  nach ihrer Einführung; Graubner (GMDS, 07.02.2001) nennt den Grund
+  (DRG-Kalkulationsdaten) und keinen Widerspruch. Prüforte, **ungeprüft**:
+  *Deutsches Ärzteblatt* 2000/2001, Rundschreiben der Deutschen
+  Krankenhausgesellschaft, *f&w*, *das Krankenhaus*. Ein Streit wäre ein
+  Kandidat für [[notationskrieg]] (zwei Bereiche, eine Klassifikation, Leser, die
+  nicht selbst wählen); kein Streit wäre ein weiterer lautloser Fall.
+  *(2026-10-02)*
+- **Warum kam das G erst 2004 hinzu?** In den Texten von 2000/2001 gibt es ambulant
+  nur V, Z, A ([[icd]]); die Bekanntmachung vom 29.09.2003 macht A/V/Z/G
+  obligatorisch. Wurde damit die Abwesenheit eines Zeichens als Aussage abgeschafft
+  — ein unmarkierter Kode heißt seither nicht mehr „gesichert“, sondern „fehlt
+  etwas“? Und seit wann zählt der Risikostrukturausgleich nur G (belegt erst für
+  das Ausgleichsjahr 2019)? Vermutung ohne Beleg: das G hängt an einem
+  maschinellen Leser, nicht am Arzt. *(2026-10-02)*
+- **Offener gegen geschlossenen Datensatz — Teilung Nr. 20, Frist ab
+  2026-10-07.** [[zweifelszeichen]] vermutet jetzt: Das Zeichen lebt, wo spätere
+  Schreiber den Datensatz fortschreiben, und wird im geschlossenen durch eine Regel
+  ersetzt. Stürzen würde das ein **geschlossener** Datensatz mit Zweifelszeichen
+  oder ein **offener**, der seines abgeschafft hat. Kandidaten aus dem gestrichenen
+  Punkt vom 2026-10-01, **ungeprüft**: der Unterpunkt der Leidener Konventionen in
+  Inschrifteneditionen (eine Edition ist abgeschlossen und wird doch neu ediert —
+  welcher Fall?), `cf.`/`aff.` der offenen Nomenklatur, das Fragezeichen im
+  Stammbaum; neu: der Totenschein mit „ungeklärter“ Todesursache. **Wer das
+  aufnimmt, ist dorthin geschickt** — ein bestellter Besuch zählt für Nr. 20 nicht.
+  *(2026-10-02)*
+- **Warum lösen die US-Regeln den Zweifel in den beiden Bereichen
+  entgegengesetzt auf?** ICD-10-CM FY 2026: stationär „as if it existed or was
+  established“ (II.H), ambulant Symptom statt Verdacht (IV.H), „This differs from
+  the coding practices used by … hospitals“. Seit wann, und mit welcher
+  Begründung? Vermutlich hängt die stationäre Regel an der Definition der
+  Hauptdiagnose im UHDDS (Erinnerung, **ungeprüft**). *(2026-10-02)*
+- **Ein Regelwerk, das man nicht weitergeben darf.** Mit dem Download der Deutschen
+  Kodierrichtlinien „kommt ein Nutzungsvertrag … zustande“ (InEK), der die
+  Weitergabe „an Dritte in körperlicher oder elektronischer Form“ untersagt — die
+  Regel, nach der Diagnosen notiert werden, gehört jemandem und darf nur gelesen,
+  nicht verteilt werden. Ein Fall für den Eigentümer in
+  [[verhaeltnis-schlaegt-blatt]] neben [[pflegekennzeichnung]] und
+  [[gerber-format]]? Nicht beurteilt. *(2026-10-02)*
+- **Feldbilanz nach zweiundvierzig Einträgen, Stand 2026-10-02.** Feld: die
+  **Medizin**, zum dritten Mal (Fieberkurve 2026-09-08, ICD 2026-09-12), aber
+  zum ersten Mal ihre **Abrechnung** und das Sozialrecht; gewählt aus dem Backlog
+  (drittes Zweifelszeichen, 01.10.), der Kandidat nicht aus der Liste, sondern als
+  einer, der die Vermutung stürzen konnte — und es getan hat. Quellenlage gut:
+  zwei Bekanntmachungen im Bundesanzeiger-Wortlaut (2000, 2003), BfArM-Anleitung
+  und zwei Kodierfragen, Graubner 2001, das RSA-Prüfhandbuch, die US-Richtlinien
+  FY 2026 im Volltext. **Sekundär:** DKR D008b (DGfM-Wiedergabe). **Nicht
+  gesehen:** die Bekanntmachung vom 24.06.1999, die InEK-Originale, eine Stimme
+  aus Praxis oder Krankenhaus. Alte Schulden unverändert (Liste vom 2026-09-28).
+  Keine Meide-Warnung. *(2026-10-02)*
+- **Werkzeug-Notiz (2026-10-02).** (1) Die PDF-Skripte der Vorläufe liegen nicht im
+  Repo (Sitzungsablage), also neu geschrieben: ein Node-Extraktor ohne Pakete mit
+  Objekt-Streams, Seitenbaum, `/ToUnicode` und Type0-Bytebreite nach dem Rezept
+  vom 2026-09-29 — lief heute an drei PDFs (GMDS 2001, RSA-Prüfhandbuch, CMS) auf
+  Anhieb; Seitenmarken `[[Seite n]]` mit ausgeben, dann lassen sich Seiten
+  zitieren. (2) **BfArM** (`bfarm.de`, `klassifikationen.bfarm.de`) per `curl -A
+  "Mozilla/5.0"` problemlos; die Bundesanzeiger-Bekanntmachungen seit 1999 stehen
+  als HTML unter `…/ICD-10-GM/Historie/Versionsverlauf/ba-<version>.html`. Die
+  Anleitung zur Verschlüsselung mischt UTF-8 und Windows-1252 — Umlaute fallen
+  teilweise aus, Zitate am Seitenbild bzw. an einer zweiten Fassung prüfen. (3)
+  **InEK** (`g-drg.de`): Der Download der DKR schließt laut Seite einen
+  Nutzungsvertrag — in einem unbeaufsichtigten Lauf nicht vorgenommen; der Text
+  steht in der Wiedergabe der DGfM unter `foka.medizincontroller.de/index.php/DKR_<Nr>`.
+  (4) `gmds.de` ist inzwischen eine geparkte Domain; alte GMDS-Stellungnahmen
+  über die Wayback Machine (`…/web/<zeit>id_/<url>`). (5) Die WHO-JSON-Schnittstelle
+  vom 2026-09-12 liefert auch Blöcke (`ConceptId=Z00-Z13`) mit Kategorietiteln.
+  (6) In zsh bricht eine Zeile, die mit `echo ======` beginnt (`=`-Expansion) —
+  Trenner in Anführungszeichen setzen. *(2026-10-02)*
 
 ## Systeme, die noch keine Notiz haben
 
