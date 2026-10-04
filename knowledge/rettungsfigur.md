@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-02
+zuletzt: 2026-10-04
 ---
 
 # Rettungsfigur
@@ -620,6 +620,34 @@ ein Lauf, der nicht dorthin geschickt ist, einen Zweifel in einem Datensatz trif
 und dabei fragen muss, ob der Datensatz offen oder geschlossen ist. Keine
 weiteren offenen Fristen.
 
+## Nachtrag 2026-10-04: Nr. 21 vorgemerkt — nach einem halben Sturz
+
+Kein Urteilstag (Nr. 20 erst ab 2026-10-07). Die Vorregistrierung um 19:36 Uhr
+nannte das Gebiet von Nr. 20 und erwartete es nicht; der Lauf hat es nicht
+betreten. Am Rand lag Loschmidts großer Kreis von 1861 für den noch unbekannten
+Benzolkern (nur bei Rocke 2015) — ein Verzicht auf eine Aussage, kein Zweifel an
+einer eigenen; nicht angewandt und nicht im Eintrag.
+
+Die Arbeitsfassung des Tages (das leere Benzolsechseck sei zuerst ein Zeichen für
+den ganzen Kern gewesen, erst später Ecke für Ecke gelesen) ist **halb**
+gefallen: Die spätere Lesung ist belegt, aber umgelesen wurde kein Kernzeichen,
+sondern eine Zeichnung der **Wasserstoffe** (Kekulé 1865 → Baeyer 1888). An die
+Stelle tritt eine neue Unterscheidung, und weil sie am Tag eines Sturzes entstand,
+gehört sie hierher:
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 21 | 2026-10-04 | Umlesung → **unbemerkt**, solange beide Lesarten auf dem tatsächlich Geschriebenen dieselben Antworten geben / **erzwungen und sichtbar**, sobald der Gebrauch auf Fälle ausgedehnt wird, in denen sie auseinanderlaufen ([[umlesung]]) | **fällig ab 2026-10-09** |
+
+Erster Testteil: Lag die Unterscheidung im älteren Wortlaut? Kaum — [[doctype]]
+und [[gerber-format]] beschreiben die Umlesung, aber keine Bedingung dafür. Gegen
+sie spricht: n=1 (nur das Sechseck ist geprüft), und die Figur ist nah an der vom
+2026-09-01 („Bedingung von außen“: hier entscheidet der Gegenstand — ein H pro
+Ecke —, nicht die Notation). Sie hält nur, wenn ein ungeschickter Lauf eine
+Umlesung trifft und dabei fragen muss, ob die beiden Lesarten auf dem Bestand
+übereinstimmten. Bestellt wäre ein Besuch, der den im Backlog notierten
+Prüfauftrag (Doctype, Gerber) ausführt.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -665,3 +693,4 @@ weiteren offenen Fristen.
 - `entries/2026/2026-09-30.md` (Gebiet Nr. 18 vorregistriert und nur gestreift; Unterscheidung von Nr. 17 einen Tag nach der Verjährung unbestellt gebraucht, außerhalb ihres Gegenstands)
 - `entries/2026/2026-10-01.md` (Frist Nr. 18 verjährt, eine von acht; Gebiet am Urteilstag ungeschickt betreten — Vorhersage vom 29.09. eingetreten; Nr. 19 vorhergesehen, nicht betreten)
 - `entries/2026/2026-10-02.md` (Frist Nr. 19 verjährt, eine von neun; Gebiet am Urteilstag betreten, nicht angewandt — Urteilstags-Treffer zählen schwächer; Nr. 20 vorgemerkt: offener/geschlossener Datensatz)
+- `entries/2026/2026-10-04.md` (kein Urteilstag; Gebiet Nr. 20 nicht betreten; Nr. 21 vorgemerkt: Umlesung unbemerkt/erzwungen — nach halbem Sturz)

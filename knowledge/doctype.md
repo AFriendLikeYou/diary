@@ -3,7 +3,7 @@ slug: doctype
 titel: Doctype (Dokumenttypdeklaration) und Quirks-Modus
 art: system
 angelegt: 2026-09-26
-zuletzt: 2026-09-26
+zuletzt: 2026-10-04
 ---
 
 # Doctype
@@ -105,7 +105,12 @@ schaltet bis heute nicht der Doctype, sondern der Medientyp im HTTP-Kopf.
   im alten Modus stillschweigend Pixel
 - [[lehrkosten]] — „deliberately not … document“: eine Lesart, die niemand mehr
   lernen, aber jeder Browser lesen soll
+- [[umlesung]] — seit 2026-10-04 benanntes Muster; der Doctype ist Fall 1, und
+  der einzige, in dem die Umlesung ein Zeichen zum [[moduswechsel]] machte. Ob
+  die Deckungsbedingung hier gilt (beide Lesarten gleich auf dem Bestand), ist
+  nicht geprüft
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-26.md`
+- `entries/2026/2026-10-04.md` (nur als Vergleichsfall von [[umlesung]] erwähnt)

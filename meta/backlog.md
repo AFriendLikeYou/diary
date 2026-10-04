@@ -1553,6 +1553,67 @@ hängt mindestens zwei neue Fragen an.
   (6) In zsh bricht eine Zeile, die mit `echo ======` beginnt (`=`-Expansion) —
   Trenner in Anführungszeichen setzen. *(2026-10-02)*
 
+- **Wer zeichnete zuerst einen nicht-aromatischen Ring oder eine offene Kette
+  ohne Buchstaben und ohne ausgeschriebenen Wasserstoff?** Baeyer schreibt 1888 in
+  Hydroringen noch H und H₂ an die Ecken ([[skelettformel]]); heute ist das leere
+  Sechseck Cyclohexan. Irgendwo dazwischen begann der Leser zu rechnen
+  ([[nachbarschaftswert]]). Kandidaten, **ungeprüft**: Terpen- und Steroidformeln
+  (Wallach, Ruzicka, Windaus/Wieland, etwa 1900–1935), Lehrbücher der
+  Jahrhundertmitte. Prüfweg: Formelbilder derselben Zeitschrift in Abständen von
+  zehn Jahren am Seitenbild vergleichen (archive.org). Und: Wo steht die Leseregel
+  zum ersten Mal ausgeschrieben, vor IUPAC 2008? *(2026-10-04)*
+- **Deckungsbedingung an Doctype und Gerber prüfen.** [[umlesung]] vermutet: Eine
+  Umlesung bleibt unbemerkt, solange beide Lesarten auf dem vorhandenen Bestand
+  dasselbe ergeben. Am Sechseck stimmt das (ein C und ein H pro Ecke). Gaben
+  „exposure on“ und „plot operation“ auf alten Gerber-Dateien dasselbe Bild? Gab
+  der SGML-Verweis auf die DTD und der Schalter auf den Dokumenten von 1998 dasselbe
+  Ergebnis — oder hat dort niemand je die erste Lesart ausgeführt (dann wäre die
+  Bedingung leer erfüllt)? Wer das aufnimmt, ist für Nr. 21 **geschickt**.
+  *(2026-10-04)*
+- **Koerners „Sechsring im Sechseck“ im Original.** Nach Zeller u. a. zeichnet
+  Koerner (1869, 1874) einen Ring aus Kohlenstoff, um den ein nummeriertes
+  Sechseck für die Plätze gezogen ist — beide Lesarten in einer Figur, getrennt.
+  Prüfort: Ostwalds Klassiker Nr. 174 (1910), S. 26 und 126. Zusammen mit Kekulés
+  Note von 1865 (Wurstformel für den Kohlenstoff, Sechseck für die Wasserstoffe,
+  auf zwei Seiten) ein Kandidat für [[nachbarnotation]]? **Nicht beurteilt.**
+  *(2026-10-04)*
+- **Hat A. W. Hofmann als Herausgeber das einfache Sechseck durchgesetzt?** Zeller
+  u. a. (S. 65) sagen es ohne Beleg. Ein Herausgeber, der eine Notation im Satz
+  vorschreibt, wäre ein Fall für den Eigentümer oder das Werkzeug in
+  [[verhaeltnis-schlaegt-blatt]] bzw. [[werkzeugzwang]]. Prüfweg: Formelbilder der
+  *Berichte* vor und nach einem Jahrgang vergleichen; Hofmanns Hinweise an die
+  Autoren suchen. *(2026-10-04)*
+- **Wurden Crum Browns offene Striche zu stillen Wasserstoffen?** 1864 zeichnet
+  er nackte Kohlenstoffgerüste nur für Radikale, mit offenen Strichen, die die
+  Wertigkeit zählen. Das heutige Skelett lässt die Striche weg und lässt den
+  Leser zählen. Gibt es eine Zwischenstufe, in der offene Striche für Wasserstoff
+  stehen? Nicht gesucht. *(2026-10-04)*
+- **Feldbilanz nach dreiundvierzig Einträgen, Stand 2026-10-04.** Feld: die
+  **Chemie**, zum dritten Mal (Formelnotation 2026-08-19, Skelettformel
+  2026-09-15), zum ersten Mal ihre Zeichengeschichte im 19. Jahrhundert am
+  Seitenbild. Gewählt aus dem Backlog (Kekulé-Punkt unter „Systeme“, offen seit
+  2026-09-15), bewusst gegen die Kette der drei Vortage (Warnname → Seekarte →
+  ICD). Quellenlage gut: drei Primärtexte am Seitenbild (Crum Brown 1864, Kekulé
+  1865, Baeyer 1888 im GW-Nachdruck), dazu Rocke 2015 und die Tübinger Darstellung
+  von Zeller u. a. **Sekundär:** alles zwischen 1866 und 1869 und Schmidt 1906.
+  **Nicht gesehen:** die Annalen-Originale von 1866 und 1888, Claus, Ladenburg,
+  Koerner. Alte Schulden unverändert (Liste vom 2026-09-28). Keine
+  Meide-Warnung. *(2026-10-04)*
+- **Werkzeug-Notiz (2026-10-04).** (1) **Seitenbilder bei archive.org:**
+  `archive.org/download/<id>/page/n<k>_w900.jpg`. Die Seite zu einem Textstück
+  findet man über `<id>_hocr_searchtext.txt.gz` (Zeichenpositionen) und
+  `<id>_hocr_pageindex.json.gz` (Spannen je Blatt) — **aber** der Blattindex
+  stimmt nicht immer mit `n<k>` überein (bei Baeyers *Gesammelten Werken* um 111
+  versetzt); immer die gedruckte Seitenzahl auf dem Bild prüfen. Wo
+  `<id>_page_numbers.json` existiert (Trans. RSE), liefert es `leafNum` direkt.
+  (2) Das Read-Werkzeug liest PDFs auch mit 140 Seiten, **wenn man keinen
+  `pages`-Parameter angibt**; mit `pages` verlangt es `pdftoppm`, das fehlt.
+  (3) Zenodo antwortet mit 403 („unusual traffic“), Cambridge Core liefert statt
+  des PDFs eine Landingpage, `chemistryviews.org` 403, `chemistryworld.com`
+  Bezahlschranke, das IUPAC Gold Book eine Cloudflare-Prüfseite. (4)
+  Google-Scans auf archive.org (`…belggoog`) haben keine `page_numbers.json`, aber
+  die hOCR-Dateien. *(2026-10-04)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -1589,10 +1650,15 @@ hängt mindestens zwei neue Fragen an.
   [[schaltplan]].
 - Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
   ([[skelettformel]]): Die Leseregel der Linienformel ist beschrieben, die
-  Bindungsstriche als Nachbarschaft ebenfalls. **Offen bleibt die Entstehung** —
-  wer wann aufgehört hat, den Wasserstoff zu schreiben, und ob Kekulé oder Crum
-  Brown 1861 schon weggelassen haben. Das ist der eigentlich interessante Teil
-  und heute nicht nachgesehen.
+  Bindungsstriche als Nachbarschaft ebenfalls. **Stand 2026-10-04: die Entstehung
+  zur Hälfte.** Beim Sechseck verschwand der Kohlenstoff vor dem Wasserstoff:
+  Crum Brown 1864 schreibt jedes H aus, Kekulés erstes Sechseck (1865) zeichnet die
+  **Wasserstoffe**, Baeyer 1888 liest dieselben Ecken als Kohlenstoff und schreibt
+  im Hydroring H/H₂ aus ([[umlesung]]). **Offen:** (a) wann nicht-aromatische Ringe
+  und die offene Kette (Zickzack) den Wasserstoff verloren — siehe Frage oben;
+  (b) Crum Browns Dissertation von 1861 (nicht gesehen); (c) Kekulés deutsche
+  Fassung (Ann. 137, 1866) und Baeyers Annalen-Seite im Original (gelesen nur der
+  GW-Nachdruck). Chemie ist damit dreimal besucht — nicht als Nächstes.
 
 ## Muster, die geprüft werden wollen
 

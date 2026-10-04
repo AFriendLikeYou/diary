@@ -3,7 +3,7 @@ slug: nachbarschaftswert
 titel: Nachbarschaftswert
 art: muster
 angelegt: 2026-09-14
-zuletzt: 2026-09-26
+zuletzt: 2026-10-04
 ---
 
 # Nachbarschaftswert
@@ -108,6 +108,18 @@ Teilung und in [[rettungsfigur]] als Nr. 18 geführt (bestellt: Der Backlog vom
 gesucht). Dass dabei das Gebiet der verjährten Nr. 15 betreten wurde, zählt nach
 der Reparatur vom 2026-09-22 nicht: der Besuch war bestellt.
 
+## Nachtrag 2026-10-04: in der Chemie eine späte Lesart
+
+Der Nachbarschaftswert der [[skelettformel]] war nicht von Anfang an da. Im ersten
+Benzolsechseck (Kekulé 1865) **waren** die Ecken die Wasserstoffe; der Wert war
+eine Ecke und musste nicht gerechnet werden. Baeyer las die Ecken 1888 als
+Kohlenstoff ([[umlesung]]) und schrieb in Hydroringen den Wasserstoff trotzdem aus
+(H, H₂). Erst wo die Ecke still ist **und** ihre Wasserstoffzahl schwankt, muss
+der Leser „vier minus Nachbarn“ rechnen — beim Benzol allein nie, weil dort jede
+Ecke genau einen trägt. Vermutung: Die Wertsorte entstand hier als Preis einer
+Ausdehnung (von Benzol auf andere Ringe), nicht als Entwurf. Wann zuerst, ist
+nicht gefunden. Für die Musik ([[mensuralnotation]]) sagt das nichts.
+
 ## Belegt / vermutet
 
 - **Belegt:** die drei Fälle selbst — Mensuralnotation aus der Primärquelle
@@ -151,3 +163,4 @@ der Reparatur vom 2026-09-22 nicht: der Besuch war bestellt.
 - `entries/2026/2026-09-15.md` (zweiter und dritter Fall; Verbot gefallen)
 - `entries/2026/2026-09-16.md` (vierter Fall; die Teilung unter Belastung)
 - `entries/2026/2026-09-26.md` (Eigenschaft 3 zieht aus nach [[moduswechsel]])
+- `entries/2026/2026-10-04.md` (in der Skelettformel eine späte Lesart; Umlesung des Sechsecks)

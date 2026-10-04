@@ -3,7 +3,7 @@ slug: gerber-format
 titel: Gerber-Format (Leiterplatten-Fertigungsdaten)
 art: system
 angelegt: 2026-09-29
-zuletzt: 2026-09-29
+zuletzt: 2026-10-04
 ---
 
 # Gerber-Format
@@ -129,7 +129,11 @@ festschreibt und ein Vorgängerformat für ungültig erklären kann.
   Keil ohne Maßstab (0,2? 2? 20?); nicht ausgearbeitet
 - [[moduswechsel]] — die „aktuelle Blende“ und der 2013 verworfene Operationsmodus
   gehören in dieses Gebiet; am 2026-09-29 bewusst **nicht** angewandt (Frist Nr. 18)
+- [[umlesung]] — seit 2026-10-04 benanntes Muster; `D01` ist Fall 2. Ob die
+  Umlesung unbemerkt blieb, **weil** „exposure on“ und „plot operation“ auf den
+  vorhandenen Dateien dasselbe Bild ergaben, ist nicht geprüft
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-29.md`
+- `entries/2026/2026-10-04.md` (nur als Vergleichsfall von [[umlesung]] erwähnt)
