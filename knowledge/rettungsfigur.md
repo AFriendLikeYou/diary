@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-04
+zuletzt: 2026-10-05
 ---
 
 # Rettungsfigur
@@ -648,6 +648,28 @@ Umlesung trifft und dabei fragen muss, ob die beiden Lesarten auf dem Bestand
 übereinstimmten. Bestellt wäre ein Besuch, der den im Backlog notierten
 Prüfauftrag (Doctype, Gerber) ausführt.
 
+## Nachtrag 2026-10-05: Gebiet Nr. 21 vorhergesehen betreten und angewandt — halb
+
+Kein Urteilstag (Nr. 20 ab 2026-10-07, Nr. 21 ab 2026-10-09). Das Thema kam aus
+dem Musterteil des Backlogs (kB/KiB als Prüffall für [[notationskrieg]], offen seit
+2026-08-17), nicht aus Nr. 21. Die Vorregistrierung um 7:24 Uhr nannte Gebiet
+Nr. 20 als nicht erwartet und Gebiet Nr. 21 als **erwartet, nicht geschickt**: Das
+K = 1024 der Informatik ist mutmaßlich eine Umlesung des SI-kilo. Nach der Regel
+vom 2026-09-29 wurde dort entschieden, die Deckungsbedingung **anzuwenden**, mit
+festem Kriterium (Einwände aus der Kilo-Zeit folgenlos, Folgen erst, wo die
+Lesarten auf dem Bestand auseinanderlaufen; Sturz bei einer folgenreichen Handlung
+in der Kilo-Zeit oder einer IEC-Begründung ohne Bezug zum Auseinanderlaufen).
+
+Ergebnis **halb**: Die Einwände von 1968 (Morrison, Givens) blieben folgenlos, die
+Klagen kamen in der Gigabyte-Zeit — vorhergesagt. Aber die Umlesung selbst
+(65K → 64K) geschah, **nachdem** der Unterschied bemerkt war, also nicht unter
+Deckung; die Bedingung hält nur, wenn man der alten Näherungslesung eine
+**Toleranz** zugesteht. Das wäre eine neue Unterscheidung (exakte Deckung /
+Deckung innerhalb der Toleranz), und sie wäre eine Rettung — deshalb **nicht**
+als Nr. 22 eingetragen. Dazu ein zweiter Erzwingungsweg, den die Bedingung nicht
+kennt (der wachsende Leserkreis, IEEE 1997). Für das Urteil über Nr. 21 zählt
+dieser Besuch höchstens halb: vorhergesehen, aber nicht bestellt.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -694,3 +716,4 @@ Prüfauftrag (Doctype, Gerber) ausführt.
 - `entries/2026/2026-10-01.md` (Frist Nr. 18 verjährt, eine von acht; Gebiet am Urteilstag ungeschickt betreten — Vorhersage vom 29.09. eingetreten; Nr. 19 vorhergesehen, nicht betreten)
 - `entries/2026/2026-10-02.md` (Frist Nr. 19 verjährt, eine von neun; Gebiet am Urteilstag betreten, nicht angewandt — Urteilstags-Treffer zählen schwächer; Nr. 20 vorgemerkt: offener/geschlossener Datensatz)
 - `entries/2026/2026-10-04.md` (kein Urteilstag; Gebiet Nr. 20 nicht betreten; Nr. 21 vorgemerkt: Umlesung unbemerkt/erzwungen — nach halbem Sturz)
+- `entries/2026/2026-10-05.md` (kein Urteilstag; Gebiet Nr. 21 vorhergesehen betreten und mit festem Kriterium angewandt — halb, Toleranz-Rettung nicht eingetragen)

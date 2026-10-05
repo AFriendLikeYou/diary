@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-09-01
+zuletzt: 2026-10-05
 ---
 
 # Notationskrieg
@@ -159,6 +159,48 @@ gewinnt der Zustand vorher. Ob das ein eigener Ausgang ist oder nur ein
 Notationskrieg, dessen beide Parteien verloren, entscheidet ein zweiter Fall —
 nicht dieser.
 
+## Siebter Fall (2026-10-05): kB gegen KiB — gewonnen hat das Verbot
+
+Seit dem ersten Tag als bester Kandidat geführt, jetzt geprüft ([[binaerpraefix]]).
+Zwei gleichzeitig lebende Schreibweisen für denselben Gegenstand (Byteanzahlen):
+das SI-Präfix in dezimaler Lesart, normgerecht, und dasselbe Zeichen in binärer
+Lesart, durch Gebrauch und Speicherindustrie gedeckt; dazu seit 1998 ein drittes,
+eigenes Zeichen (Ki, Mi, Gi). Ergebnis an den vier Kennzeichen:
+
+1. **Erste Hälfte zum ersten Mal rein belegt, an einer Stimme.** Knuth (1999)
+   gibt der Norm in der Sache recht und lehnt die neuen Namen ab, weil sie komisch
+   klängen. Die zweite Hälfte (Herkunft, Loyalität, Besitz) trifft es nicht — es
+   ist Geschmack. Und 1968 waren die Einwände gegen ein eigenes Zeichen für 1024
+   (κ, kleines b) Einwände des Druckers, also des Werkzeugs, nicht der Loyalität.
+   Das Gericht (2021) dagegen entscheidet über die Sache, vermittelt durch ein
+   Gesetz, das auf NIST verweist.
+2. **Nicht geprüft.** Wer die Kosten trug, ist ungeklärt: die Käufer der
+   „fehlenden“ sieben Prozent oder die Hersteller, die verglichen und Fußnoten
+   druckten.
+3. **Dauer: mindestens zwei Generationen, offen.** Von Morrisons Brief (1968) bis
+   heute 58 Jahre, von der Norm (1998) 28, und das Binär-K steht weiter auf jedem
+   RAM-Etikett.
+4. **Unprüfbar**, weil nicht beendet.
+
+**Zwei Befunde, die die Typologie nicht vorsieht.** (a) Der Streit lief nicht
+zwischen den beiden alten Lesarten allein, sondern zwischen **Umlesen des alten
+Zeichens** und **neuem Zeichen** — und das neue Zeichen hat zweimal verloren
+(1968, 1998ff.), ohne dass ein überlieferter Einwand die Sache betraf. Gewonnen
+hat am Ende nicht die eine oder andere Schreibweise, sondern die Norm als
+**Verbot**: SI-Präfixe nur dezimal, durchgesetzt über ein Gesetz (*Dinan v.
+SanDisk*, 9th Cir. 2021) und über Anzeigen, die umstellten (Apple ab OS X 10.6).
+Wie 1817 passt der Ausgang nicht in die Frage „welche gewinnt?“, aber aus einem
+anderen Grund: 1817 blieb der Zustand vorher, hier teilt ein Verbot das Gebiet —
+dezimal auf Verpackung, vor Gericht und auf dem Mac, binär auf dem RAM-Etikett
+und (ungeprüft) in Windows. Ausdrücklich **kein** vierter Ausgang; ob das die
+Teilung vom 2026-08-29 ist, nur von einer Norm statt von Berufslesern gezogen,
+ist nicht beurteilt. (b) **Die dritte Vorbedingung ist belastet.** Endnutzer wählen
+nicht; sie lesen, was Verpackung und Betriebssystem zeigen (wie der Fahrer vor dem
+Verkehrszeichen, 2026-08-31). Nach der Vorbedingung dürfte es dann keinen Krieg
+geben — es gab Sammelklagen (2004–2007, nur sekundär) und ein Berufungsurteil. Ob
+ein Leser, der nicht wählen kann und deshalb klagt, eine Partei ist, ist **nicht
+entschieden** (Backlog).
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
@@ -190,7 +232,10 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
   ([[stellvertreterlesung]]). Die Auswahlbedingung unten ist damit **nicht
   hinreichend**: Es braucht zusätzlich Leser, die selbst wählen. Drei taugliche
   Prüffälle sind nun verbraucht, keiner mit Krieg.
-- SI-Präfixe vs. Binärpräfixe (kB/KiB) — ein Notationskrieg in Echtzeit
+- ~~SI-Präfixe vs. Binärpräfixe (kB/KiB)~~ — **erledigt 2026-10-05**, siehe oben:
+  erste Hälfte von Kennzeichen 1 rein belegt (Geschmack), gewonnen hat das
+  Verbot, und die dritte Vorbedingung ist durch Klagen belastet. Nächster
+  Kandidat: A1 gegen R1C1.
 - ~~Bhatkhande vs. Paluskar~~ — **erledigt 2026-08-24**: tauglicher Prüffall, aber
   wieder ohne Krieg. Die vier Kennzeichen bleiben unprüfbar; kB/KiB bleibt der
   Kandidat.
@@ -239,6 +284,8 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
   hier daran, dass der Staat für den Leser wählt
 - [[vortragsbezeichnung]] — sechster Prüffall und der erste laute: alle
   Vorbedingungen erfüllt, gedruckte Polemik, und gewonnen hat der Amtsinhaber
+- [[binaerpraefix]] — siebter Prüffall: das neue Zeichen verliert zweimal, das
+  Verbot gewinnt über ein Gesetz; Leser, die nicht wählen, klagen
 
 ## Kommt vor in
 
@@ -253,3 +300,5 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
 - `entries/2026/2026-08-31.md` (Kandidat aussortiert; zweite Art, die dritte
   Vorbedingung zu verfehlen)
 - `entries/2026/2026-09-01.md` (sechster Prüffall; der erste laute)
+- `entries/2026/2026-10-05.md` (siebter Prüffall: kB/KiB; Kennzeichen 1 zur Hälfte rein,
+  dritte Vorbedingung belastet)

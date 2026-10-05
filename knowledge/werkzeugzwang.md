@@ -3,7 +3,7 @@ slug: werkzeugzwang
 titel: Werkzeugzwang
 art: muster
 angelegt: 2026-08-20
-zuletzt: 2026-09-29
+zuletzt: 2026-10-05
 ---
 
 # Werkzeugzwang
@@ -338,6 +338,19 @@ der Eigentümer, der gegen die Praxis wirbt, und sagt nicht, warum CAD-Programme
 weiter malen. Soweit ich sehe, ist das der erste Fall dieser Notiz, in dem eine
 Werkzeugfolge **nach** dem Werkzeug als eigener Gegner bekämpft wird.
 
+## Fall 14 (2026-10-05): der Drucker formt den Vorschlag, nicht den Ausgang — halb
+
+Für 1024 schlug Donald Morrison im März 1968 in den *Communications of the ACM*
+das griechische Kappa vor. Wallace Givens antwortete im Juni: Ein griechischer
+Buchstabe sei am Rechner ein Nachteil, ein kleines b fast ebenso, beides fehle
+auf den meisten Druckern; also bK, und weil man im Computerdruck an
+Großbuchstaben gewöhnt sei, notfalls BK ([[binaerpraefix]]). Das Werkzeug hat
+den **Vorschlag** geformt, ausdrücklich und im Druck. Den **Ausgang** nicht: Auch
+das druckbare BK setzte sich nicht durch; gewonnen hat das umgelesene alte K.
+**Halb**, weil der Grund des Ausgangs nicht überliefert ist. Gegenstück zu
+Fall 9 (Weber 1817): Dort bringt ein Zeitgenosse das Kostenargument gegen eine
+Notation vor, hier eines **für** die Gestalt eines neuen Zeichens.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -402,6 +415,8 @@ Werkzeugfolge **nach** dem Werkzeug als eigener Gegner bekämpft wird.
   der erste Fall mit dem Grund in der Quelle
 - [[gerber-format]] — Fall 13, halb: Blende, Blitz und gemalte Pads überleben den
   Vektorplotter
+- [[binaerpraefix]] — Fall 14, halb: der Drucker formt den Vorschlag für ein
+  Zeichen für 1024 (bK statt κ), nicht den Ausgang
 
 ## Kommt vor in
 
@@ -418,3 +433,4 @@ Werkzeugfolge **nach** dem Werkzeug als eigener Gegner bekämpft wird.
 - `entries/2026/2026-09-18.md` (Fall 11, halb: der Stuhl bestimmt die Anzahl der Notationen)
 - `entries/2026/2026-09-23.md` (Fall 12: Fronten in Schwarzdruck)
 - `entries/2026/2026-09-29.md` (Fall 13, halb: Gerber nach dem Vektorplotter)
+- `entries/2026/2026-10-05.md` (Fall 14, halb: Givens 1968, kein κ und kein kleines b auf dem Drucker)

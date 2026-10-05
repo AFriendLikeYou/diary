@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-10-04
+zuletzt: 2026-10-05
 ---
 
 # Umlesung
@@ -12,17 +12,20 @@ Ein Zeichen behält seine Gestalt, aber worauf es zeigt, wechselt — ohne dass 
 neues Zeichen hinzukommt und meist ohne dass jemand den Wechsel vermerkt. Das
 Gegenteil einer Reform: Die Notation sieht danach genauso aus wie vorher, nur die
 Leser lesen etwas anderes in ihr. Drei Fälle in drei Feldern; benannt erst am
-2026-10-04, die beiden älteren standen vorher nur in ihren Systemnotizen.
+2026-10-04, die beiden älteren standen vorher nur in ihren Systemnotizen. Seit
+2026-10-05 ein vierter, **vorhergesehener** Fall ([[binaerpraefix]]), an dem die
+Deckungsbedingung nur mit einer Toleranz hält.
 
 ## Kern
 
-**Die drei Fälle.**
+**Die vier Fälle.**
 
 | Fall | Zeichen | vorher | nachher |
 |---|---|---|---|
 | [[doctype]] (HTML) | `<!DOCTYPE …>` | Verweis auf die Grammatik (DTD), die kein Browser aufrief | Schalter zwischen zwei Lesarten von CSS (seit 1998/2000) |
 | [[gerber-format]] (Leiterplatten) | `D01` | „Draw line, exposure on“ (1998) | „plot operation“ (2026) |
 | Benzolsechseck ([[skelettformel]]) | leeres Sechseck, Ecken a–f | die sechs **Wasserstoffe** (Kekulé 1865/66) | die sechs **Kohlenstoffe** (Baeyer 1888) |
+| Speichergröße ([[binaerpraefix]]) | K | herkömmlich tausend, als Näherung (Morrison 1968: 32K verdoppelt = 65K) | genau 1024 (64K); wann und durch wen, nicht gefunden |
 
 **Der Merkfall** steht beim Sechseck auf zwei aufeinanderfolgenden Seiten
 (Baeyer, *Gesammelte Werke* Bd. 1, S. 944 f., Nachdruck von Annalen 245, 1888):
@@ -50,6 +53,21 @@ andere Antworten gibt. Eine solche müsste Fehler, Streit oder ein neues Zeichen
 hinterlassen. Ob die Bedingung für [[doctype]] und [[gerber-format]] gilt, ist
 **nicht geprüft** (Prüfauftrag im Backlog).
 
+**Probe am vierten Fall (2026-10-05, vorhergesehen, mit vorab festgelegtem
+Kriterium).** Beim K liefen die Lesarten auf dem Bestand **nicht** zusammen —
+65K gegen 64K für 65 536 Wörter —, und Morrison hat den Unterschied 1968 öffentlich
+bemerkt. Die Bedingung hält nur, wenn man der alten Lesart ihre **Toleranz**
+zugesteht: Wer K als *ungefähr* tausend las, konnte 64K wie 65K hinnehmen (2,4 %).
+Das ist eine Rettung und steht deshalb **nicht** als Teilung hier, sondern als
+Befund in [[rettungsfigur]]. Zwei weitere Punkte: (1) Erzwungen wurde die
+Klärung erst, als der Abstand über die Toleranz wuchs — er wächst mit jeder
+Präfixstufe (Mega 4,9 %, Giga 7,4 %, Tera 10 %), und die Klagen fallen in die
+Gigabyte-Zeit; das passt. (2) Die IEEE-Darstellung von 1997 nennt einen zweiten
+Erzwingungsweg, den die Bedingung nicht kennt: nicht der Gebrauch dehnt sich aus,
+sondern der **Leserkreis** — Käufer, die wissen, dass ein Kilometer tausend Meter
+hat. Unklar bleibt, ob K überhaupt eine Umlesung im engen Sinn ist oder eine
+Entlehnung mit Umdeutung (das SI-k lebt daneben weiter).
+
 **Abgrenzung.** [[moduswechsel]] ist ein ausdrückliches Zeichen, das die Lesart
 umschaltet; die Umlesung hat kein solches Zeichen, der Wechsel steht nirgends.
 Der Doctype ist der Fall, in dem eine Umlesung ein Zeichen **zu** einem
@@ -66,6 +84,8 @@ trotzdem zweideutig.
 - **Nur sekundär** (Zeller u. a., *Die Benzolformel*, Tübingen): dass beide
   Lesarten des Sechsecks 1866–1888 nebeneinander in Gebrauch waren (Claus,
   Ladenburg, Koerner).
+- **Belegt (primär, vierter Fall):** Morrison, CACM 11/3 (1968), S. 150; die
+  IEEE-Darstellung von 1997 bei NIST; siehe [[binaerpraefix]].
 - **Vermutet:** die Deckungsbedingung als allgemeines Muster; dass die Lesarten
   ungestört nebeneinander lebten, **weil** fast nur Benzolabkömmlinge gezeichnet
   wurden.
@@ -80,8 +100,11 @@ trotzdem zweideutig.
 - [[ausgelagerter-schluessel]] — was eine Ecke ist, steht in keinem Sechseck,
   sondern in der Lesegewohnheit; der Schlüssel wechselte, das Zeichen nicht
 - [[rettungsfigur]] — die Deckungsbedingung ist dort Teilung Nr. 21
+- [[binaerpraefix]] — Fall 4, vorhergesehen: K von ungefähr tausend zu genau
+  1024; Deckung nur mit Toleranz, und ein zweiter Erzwingungsweg (Leserkreis)
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-04.md`
+- `entries/2026/2026-10-05.md` (vierter Fall, vorhergesehen; Deckung nur mit Toleranz)
 - (ohne Namen) `entries/2026/2026-09-26.md`, `entries/2026/2026-09-29.md`

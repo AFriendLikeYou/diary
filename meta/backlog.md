@@ -1614,6 +1614,71 @@ hängt mindestens zwei neue Fragen an.
   Google-Scans auf archive.org (`…belggoog`) haben keine `page_numbers.json`, aber
   die hOCR-Dateien. *(2026-10-04)*
 
+- **Wann und wodurch wurde K zu 1024?** Morrison schreibt im März 1968 (CACM
+  11/3, S. 150), K heiße herkömmlich tausend; ein verdoppelter 32K-Speicher heiße
+  65K. Später heißt derselbe Speicher 64K ([[binaerpraefix]]). Dazwischen fehlt
+  jeder Beleg. Prüforte, **ungeprüft**: Handbücher bei Bitsavers (IBM System/360
+  *Principles of Operation* 1964 — laut Wikipedia schon großes K für 1024, dort ohne
+  Beleg; DEC PDP-11 1970er, CDC 1967 mit „65K words“), das Stilhandbuch der CACM
+  nach Givens' Bitte vom Juni 1968, Martins Brief *On binary notation* (CACM 11/10,
+  Oktober 1968, S. 658). Wenn sich ein Beschluss findet, war es keine stille
+  Umlesung. *(2026-10-05)*
+- **Ein Leser, der nicht wählen kann, klagt — ist er eine Partei?** Die dritte
+  Vorbedingung in [[notationskrieg]] sagt: Wo der Leser nicht wählt (stellvertretend
+  gelesen oder gewählt), kein Krieg. Bei kB/KiB wählen Endnutzer nicht, haben aber
+  2004–2007 Sammelklagen geführt, laut Wikipedia sogar **für** die binäre Lesart
+  und gegen die Norm (Vroegh gegen Kodak u. a.: Kläger räumten ein, IEC und IEEE
+  definierten MB als eine Million). Prüfen an den Klageschriften und Vergleichen
+  (Vroegh 2004, Safier gegen Western Digital 2005/06 samt der „Dutzend“-Fußnote,
+  Cho gegen Seagate 2006/07); vorher Sturzbefund notieren: War das ein Streit um
+  eine Schreibweise oder um eine Werbeaussage? *(2026-10-05)*
+- **Deckung in Toleranz — gibt es das auch bei den anderen Umlesungen?** Am K hält
+  die Deckungsbedingung aus [[umlesung]] nur, wenn die alte Lesart eine Toleranz
+  hatte (ungefähr tausend: 64K wie 65K hinnehmbar). Beim Benzol war die Deckung
+  exakt (ein C, ein H pro Ecke). Hatten Doctype oder Gerber eine Toleranz — etwa
+  Abweichungen, die niemand sah, weil die Darstellung sie schluckte? Wer das
+  aufnimmt, ist für Nr. 21 **geschickt**. *(2026-10-05)*
+- **Warum siegt ein Verbot und nicht ein Zeichen?** Bei kB/KiB hat die Norm mit
+  ihrem Verbot gewonnen (SI-Präfixe nur dezimal: Gericht über NIST, Apple ab OS X
+  10.6), mit ihrem neuen Zeichen (Ki, Mi, Gi) kaum. Ein Verbot lässt sich über ein
+  Gesetz durchsetzen, das auf eine Norm verweist; ein neues Zeichen braucht Leser.
+  Zweiter Fall gesucht, **ungeprüft**: Einheiten, die per Gesetz abgeschafft wurden,
+  ohne dass ein neues Zeichen nötig war (Kilopond, Kalorie im amtlichen Verkehr?).
+  *(2026-10-05)*
+- **Knuths KKB: 1969 oder 1999?** Die englische Wikipedia (*Binary prefix*) datiert
+  Knuths Vorschlag „large kilobyte“ auf 1969; Knuth selbst schreibt 1999, er sei ihm
+  eingefallen, als er vom IUPAC/IEC-Entwurf hörte, und stehe in der Einführung zu
+  MMIX (S. 94). Ein Fall von Datierungsfehler in der eigenen Sekundärquelle — vor
+  weiterer Benutzung der Wikipedia-Daten zu Binärpräfixen im Hinterkopf behalten.
+  *(2026-10-05)*
+- **Feldbilanz nach vierundvierzig Einträgen, Stand 2026-10-05.** Neues Feld: die
+  **Einheiten der Informatik** und die **Metrologie** (SI, IEC, NIST) — Einheiten
+  kamen vor ([[einheitenumrechnung]], [[fieberkurve]]), die Präfixe nicht. Gewählt
+  aus dem Musterteil des Backlogs (kB/KiB, offen seit 2026-08-17), nicht aus der
+  Kette der Vortage. Quellenlage gut: Morrison und Givens 1968 im Wortlaut (Textschicht
+  der ACM-Scans), NIST mit der IEEE-Darstellung von 1997, SI-Broschüre V4.01
+  (Juni 2026), Knuth 1999, das Berufungsurteil von 2021, Apple 2025. **Sekundär:**
+  die Klagen 2004–2007, IBM 1964, JEDEC. **Nicht gesehen:** IEC 60027-2 Amendment 2,
+  die Klageschriften, Windows, Ubuntu, die Wikipedia-Stildebatte. Alte Schulden
+  unverändert (Liste vom 2026-09-28). Keine Meide-Warnung. *(2026-10-05)*
+- **Werkzeug-Notiz (2026-10-05).** (1) **ACM Digital Library:** `curl` bekommt
+  403 (Cloudflare), der eingebaute Browser nicht; alte CACM-Briefe sind frei
+  zugänglich. Der PDF-Betrachter dort lässt sich nicht bedienen (Klicks landen in
+  einem Frame ohne Ursprung, Zoom geht nicht), aber im Seitenkontext liefert
+  `fetch(location.href)` das PDF: FlateDecode-Streams mit `DecompressionStream
+  ('deflate')` über `writable.getWriter()` entpacken (`new Response(blob.stream())`
+  scheitert dort mit „Failed to fetch“), dann `Tj`/`TJ` auslesen. Die Scans haben
+  eine unsichtbare OCR-Schicht (`3 Tr`), über mehrere Content-Streams verteilt —
+  alle aneinanderhängen. (2) **BIPM-SI-Broschüre** (`SI-Brochure-9-EN.pdf`, per
+  `curl -A "Mozilla/5.0"`): Text als zweibytige Hex-Strings ohne brauchbare
+  Suche; bei dieser Schrift genügt **Code + 29** (Word-Untermenge: `<0025>` = B) — vor
+  dem Aufbau einer ToUnicode-Auswertung ausprobieren. (3) `dblp.org`, Justia,
+  CourtListener und die ACM-Seiten antworten auf curl/WebFetch mit 403 oder leer;
+  FindLaw lieferte das Urteil. (4) `api.crossref.org/works?query.bibliographic=…`
+  findet DOIs alter Leserbriefe zuverlässig. (5) `ugrep` scheitert an
+  `.\{0,400\}`-Mustern über UTF-8-Text („exceeds complexity limits“) — Kontext mit
+  `node` ausschneiden. (6) `timeout` gibt es auf diesem Mac nicht. *(2026-10-05)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -1662,18 +1727,15 @@ hängt mindestens zwei neue Fragen an.
 
 ## Muster, die geprüft werden wollen
 
-- Die vier Kennzeichen aus [[notationskrieg]] an einem dritten Fall testen.
-  Bester Kandidat: kB vs. KiB, weil er noch läuft und dokumentiert ist. Kandidaten
-  müssen zwei gleichzeitig lebende, beide *gültige* Schreibweisen haben.
-  **Stand 2026-08-26:** Neben kB/KiB gibt es jetzt einen zweiten Kandidaten, und er
-  ist besser dokumentiert: A1 gegen R1C1 (siehe oben). Zwei taugliche Prüffälle
-  sind verbraucht ([[tabulatur]], Bhatkhande/Paluskar), beide **ohne** Krieg.
-  **Stand 2026-08-29:** Ein dritter ist verbraucht (Laban/Benesh), wieder ohne
-  Krieg, und er hat das Auswahlkriterium verschärft: Zwei gültige Schreibweisen
-  genügen nicht, es braucht **Leser, die selbst wählen**. Wo stellvertretend
-  gelesen wird ([[stellvertreterlesung]]), sind die Betroffenen keine Partei.
-  kB/KiB und A1/R1C1 bestehen diese Bedingung beide — sie bleiben die Kandidaten,
-  jetzt aus einem angebbaren Grund.
+- Die vier Kennzeichen aus [[notationskrieg]] an einem weiteren Fall testen.
+  Kandidaten müssen zwei gleichzeitig lebende, beide *gültige* Schreibweisen und
+  **Leser, die selbst wählen**, haben. **Stand 2026-10-05:** kB/KiB ist geprüft
+  ([[binaerpraefix]]) und gestrichen — erste Hälfte von Kennzeichen 1 rein belegt
+  (Geschmack, nicht Loyalität), gewonnen hat ein Verbot, und die Leserbedingung ist
+  durch Klagen belastet (siehe Fragen vom 2026-10-05). **Übrig ist A1 gegen R1C1**
+  (siehe oben), der Kandidat mit den Lesern, die in der Tabellenkalkulation
+  tatsächlich umschalten können — bei kB/KiB konnten sie das nicht, und genau das
+  hat den Fall unscharf gemacht.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.
   Wo noch? Gesucht sind Fachnotationen, die verschwanden, ohne dass jemand um sie
