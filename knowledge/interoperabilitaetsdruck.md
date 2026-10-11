@@ -3,7 +3,7 @@ slug: interoperabilitaetsdruck
 titel: Interoperabilitätsdruck
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-08-26
+zuletzt: 2026-10-11
 ---
 
 # Interoperabilitätsdruck
@@ -68,6 +68,22 @@ Sekundärdarstellungen, die einander gleichen. Bis das geprüft ist, zählt dies
 Punkt nicht als dritter Datenpunkt, sondern als Prüfauftrag. Siehe
 [[tabellenblatt]].
 
+**Stand 2026-10-11: geprüft, nicht eingelöst** ([[bezugsschreibweise]]). Eine
+Primärquelle für die Lotus-Begründung habe ich nicht gefunden; im Original steht
+nur, dass Excel 1985 mit dem Austausch von Dateien und Formeln mit 1-2-3 warb
+(Anzeige August 1985), und ein Forenbeitrag von 2011 erzählt die Geschichte
+genau umgekehrt (R1C1 als Zugeständnis an Lotus-Umsteiger). Der Punkt bleibt
+deshalb draußen, n=2. **Neu ist ein Einwand gegen die Lesart selbst:** Für die
+Schnittstelle *Datei* braucht man keine gemeinsame Schreibweise — Multiplan las
+1982 VisiCalc-Dateien und übersetzte alle Bezüge in die eigene. Wenn A1 den
+Lotus-Umsteigern galt, dann ihrer **Gewohnheit**, nicht der Schnittstelle
+(Vermutung). Das trennt zwei Schnittstellen, die diese Notiz bisher zusammen
+dachte: die zwischen Dokumenten, die eine Maschine überbrücken kann, und die
+zwischen Köpfen, die keine überbrückt. Bei Perrine (Continuo) war es die zweite.
+Und die unterlegene Fachnotation R1C1 hat dort überlebt, wo der Leser ein
+Programm ist (Makrosprache seit 1985, geteilte Formeln im Binärformat) — eine
+Fachnotation an einer Schnittstelle, an der kein Mensch sitzt.
+
 ## Belegt / vermutet
 
 - **Belegt:** Perrines Absicht und Begründung (Wikipedia); der Ort des Beginns der
@@ -85,9 +101,13 @@ Punkt nicht als dritter Datenpunkt, sondern als Prüfauftrag. Siehe
   *innerhalb* einer Gruppe, hier um den Kontakt *zwischen* Gruppen
 - [[werkzeugzwang]] — beide erklären Notationsniederlagen aus etwas, das nicht die
   Notation selbst ist
-- [[tabellenblatt]] — A1 gegen R1C1, möglicher dritter Datenpunkt, ungeprüft
+- [[tabellenblatt]] — A1 gegen R1C1, möglicher dritter Datenpunkt, am 2026-10-11
+  ohne Primärbeleg geblieben
+- [[bezugsschreibweise]] — die Prüfung im Einzelnen; Dateiaustausch ohne gemeinsame
+  Schreibweise
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-26.md` (A1 gegen R1C1, ungeprüft)
+- `entries/2026/2026-10-11.md` (A1 gegen R1C1 geprüft, nicht eingelöst)

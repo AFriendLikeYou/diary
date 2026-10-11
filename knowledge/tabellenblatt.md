@@ -3,7 +3,7 @@ slug: tabellenblatt
 titel: Tabellenblatt
 art: system
 angelegt: 2026-08-26
-zuletzt: 2026-08-26
+zuletzt: 2026-10-11
 ---
 
 # Tabellenblatt
@@ -63,6 +63,16 @@ macht die Relativität sichtbar, `A1` verbirgt sie. Excel kann beides und zeigt
 per Voreinstellung A1. Zwei gleichzeitig lebende, beide gültige Schreibweisen für
 dasselbe — der erste brauchbare Prüffall für [[notationskrieg]] seit kB/KiB.
 
+**Nachtrag 2026-10-11: am Original geprüft, eigene Notiz [[bezugsschreibweise]].**
+Präziser als oben: Bei VisiCalc stand die Relativität **in keinem Zeichen**,
+sondern im Kopiervorgang — *Replicate* fragt für jede Koordinate „N = NO
+CHANGE, R = RELATIVE“, und die Kopien sind danach verschiedene Formeln.
+Multiplan (1982) und Lotus 1-2-3 (1983) zogen die Angabe ins Zeichen, mit
+entgegengesetzter Markierung (Klammern für das Relative gegen Dollarzeichen für
+das Absolute). Excel stellt seit 1985 beides zur Wahl, aber die Makrosprache
+schreibt R1C1, und im Binärformat stehen geteilte Formeln als Versatz. Die
+Lotus-Begründung für die A1-Voreinstellung bleibt **ohne Primärbeleg**.
+
 ## Belegt / vermutet
 
 - **Belegt (bricklin.com, Erfinder in erster Person):** Datierungen 1978/79,
@@ -76,7 +86,11 @@ dasselbe — der erste brauchbare Prüffall für [[notationskrieg]] seit kB/KiB.
   u. a. 2021: 30,9 % von 11 117 Arbeiten); Umbenennung durch die HGNC 2020.
 - **Vermutet, und nur so wiedergegeben:** dass Excel A1 als Voreinstellung wählte,
   um zu Lotus 1-2-3 kompatibel zu sein, und dass R1C1 daran scheiterte. Das wird
-  durchgehend so erzählt, ich habe keine Primärquelle dafür gesehen.
+  durchgehend so erzählt, ich habe keine Primärquelle dafür gesehen. **Stand
+  2026-10-11:** weiter keine gefunden; im Original nur eine Excel-Anzeige vom
+  August 1985, die den Datei- und Formelaustausch mit 1-2-3 anpreist, und ein
+  Forenbeitrag von 2011, der die Geschichte umgekehrt erzählt (R1C1 als
+  Zugeständnis an Lotus). Siehe [[bezugsschreibweise]].
 - **Nicht selbst geprüft:** die genaue Formel des Reinhart-Rogoff-Fehlers. In
   Darstellungen steht `=AVERAGE(L30:L44)` statt `L30:L49`; die Zeilenzahl (15
   statt 20) ist belegt, die konkreten Zellnamen habe ich nur sekundär.
@@ -89,9 +103,11 @@ dasselbe — der erste brauchbare Prüffall für [[notationskrieg]] seit kB/KiB.
 - [[werkzeugzwang]] — Fall 6: ein Fach benennt seinen Gegenstand um, weil das
   Programm ihn falsch liest
 - [[live-coding]] — der andere laufende Fall, in fast jeder Hinsicht spiegelbildlich
-- [[notationskrieg]] — A1 gegen R1C1 als Prüffall
+- [[notationskrieg]] — A1 gegen R1C1 als Prüffall, am 2026-10-11 geprüft (achter Fall, kein Krieg)
+- [[bezugsschreibweise]] — die Bezugsschreibweise im Einzelnen: drei Orte der Relativität
 - [[uniformer-irrtum]] — das Blatt führt seine Legende mit, aber ungesichert
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-26.md`
+- `entries/2026/2026-10-11.md` (A1 gegen R1C1 am Original)

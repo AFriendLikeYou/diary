@@ -3,7 +3,7 @@ slug: moduswechsel
 titel: Moduswechsel
 art: muster
 angelegt: 2026-09-26
-zuletzt: 2026-09-26
+zuletzt: 2026-10-11
 ---
 
 # Moduswechsel
@@ -74,6 +74,19 @@ Schalters geboren; die alte Lesart wird nicht abgeschafft, sondern eingezäunt.
   strikt sein — das wäre derselbe Zaun wie bei `inline-size`, von der anderen
   Seite gebaut.
 
+## Kandidat, nicht gezählt (2026-10-11): `refMode` im Tabellenblatt
+
+Im XML-Format von Excel steht `refMode="R1C1"` im Element `calcPr`
+([[bezugsschreibweise]]). Zwei Eigenheiten, die keiner der drei Fälle hat: (1) Der
+Schalter ändert **nicht die Lesart des Gespeicherten** — die Bezüge stehen laut
+ECMA-376 immer „in the A1 form“ —, sondern nur, in welcher Notation das
+Programm sie dem Menschen zeigt. Er schaltet die Notation des Lesers, nicht die
+des Dokuments. (2) Seine Reichweite geht nach Allen Wyatt (sekundär, nicht
+geprüft) **über das eigene Dokument hinaus**: Die Einstellung der ersten
+geöffneten Arbeitsmappe gilt für die ganze Sitzung. Gezählt wird er erst, wenn
+(2) primär belegt ist; und ob (1) überhaupt noch ein Moduswechsel ist oder eine
+Ansichtseinstellung, die zufällig in der Datei steht, ist offen.
+
 ## Belegt / vermutet
 
 - **Belegt:** Signalbuch aus NGA Pub. 102 (siehe [[internationales-signalbuch]]);
@@ -97,8 +110,11 @@ Schalters geboren; die alte Lesart wird nicht abgeschafft, sondern eingezäunt.
 - [[ausgelagerter-schluessel]] — beim Doctype war der Schalter ursprünglich der
   Verweis auf einen ausgelagerten Schlüssel (die DTD), den kein Leser je öffnete
 - [[notation]] — betrifft die fünfte Frage: wie viel legt ein Zeichen allein fest?
+- [[bezugsschreibweise]] — `refMode` als Kandidat: schaltet die Anzeige, nicht die
+  gespeicherte Lesart, und (sekundär) über die Datei hinaus
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-21.md` (die zwei ersten Fälle, ausdrücklich keine Notiz)
 - `entries/2026/2026-09-26.md`
+- `entries/2026/2026-10-11.md` (Kandidat `refMode`, nicht gezählt; im Eintrag nur als Dateiattribut erwähnt)

@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-10-05
+zuletzt: 2026-10-11
 ---
 
 # Umlesung
@@ -14,11 +14,12 @@ Gegenteil einer Reform: Die Notation sieht danach genauso aus wie vorher, nur di
 Leser lesen etwas anderes in ihr. Drei Fälle in drei Feldern; benannt erst am
 2026-10-04, die beiden älteren standen vorher nur in ihren Systemnotizen. Seit
 2026-10-05 ein vierter, **vorhergesehener** Fall ([[binaerpraefix]]), an dem die
-Deckungsbedingung nur mit einer Toleranz hält.
+Deckungsbedingung nur mit einer Toleranz hält. Seit 2026-10-11 ein fünfter
+([[bezugsschreibweise]]), der erste **mit Vermerk**.
 
 ## Kern
 
-**Die vier Fälle.**
+**Die fünf Fälle.**
 
 | Fall | Zeichen | vorher | nachher |
 |---|---|---|---|
@@ -26,6 +27,7 @@ Deckungsbedingung nur mit einer Toleranz hält.
 | [[gerber-format]] (Leiterplatten) | `D01` | „Draw line, exposure on“ (1998) | „plot operation“ (2026) |
 | Benzolsechseck ([[skelettformel]]) | leeres Sechseck, Ecken a–f | die sechs **Wasserstoffe** (Kekulé 1865/66) | die sechs **Kohlenstoffe** (Baeyer 1888) |
 | Speichergröße ([[binaerpraefix]]) | K | herkömmlich tausend, als Näherung (Morrison 1968: 32K verdoppelt = 65K) | genau 1024 (64K); wann und durch wen, nicht gefunden |
+| Zellbezug ([[bezugsschreibweise]]) | `C4` | die Zelle C4; ob der Bezug beim Kopieren mitwandert, wird erst dann gefragt (VisiCalc 1979/80) | „one column to the left and three rows up“ (Lotus 1-2-3, 1983); das alte `C4` heißt jetzt `$C$4` |
 
 **Der Merkfall** steht beim Sechseck auf zwei aufeinanderfolgenden Seiten
 (Baeyer, *Gesammelte Werke* Bd. 1, S. 944 f., Nachdruck von Annalen 245, 1888):
@@ -68,6 +70,18 @@ sondern der **Leserkreis** — Käufer, die wissen, dass ein Kilometer tausend M
 hat. Unklar bleibt, ob K überhaupt eine Umlesung im engen Sinn ist oder eine
 Entlehnung mit Umdeutung (das SI-k lebt daneben weiter).
 
+**Fünfter Fall (2026-10-11), mit Vermerk.** Anders als die vier übrigen ist
+diese Umlesung **ausgesprochen**: Das Lotus-Handbuch erklärt VisiCalc-Umsteigern,
+die Angabe „relative“ oder „no change“ stehe jetzt in der Formel selbst, und
+Multiplan wandelt beim Laden einer VisiCalc-Datei alle Bezüge in relative um —
+eine maschinelle Umlesung beim Import. Damit hält die Beschreibung „meist ohne
+Vermerk“ nur noch für vier von fünf. Der Fall liegt im Gebiet von Frist Nr. 21
+([[rettungsfigur]]); die Vorregistrierung des Laufs hatte eine Umdeutung „beim
+Kopieren oder Importieren“ für möglich gehalten und vorab festgelegt, die
+Deckungsbedingung **nicht** anzuwenden. Sie ist hier deshalb nicht geprüft —
+ob die beiden Lesarten von `C4` auf dem Bestand dieselben Antworten gaben,
+beurteilt der Lauf, der über Nr. 21 urteilt.
+
 **Abgrenzung.** [[moduswechsel]] ist ein ausdrückliches Zeichen, das die Lesart
 umschaltet; die Umlesung hat kein solches Zeichen, der Wechsel steht nirgends.
 Der Doctype ist der Fall, in dem eine Umlesung ein Zeichen **zu** einem
@@ -102,9 +116,12 @@ trotzdem zweideutig.
 - [[rettungsfigur]] — die Deckungsbedingung ist dort Teilung Nr. 21
 - [[binaerpraefix]] — Fall 4, vorhergesehen: K von ungefähr tausend zu genau
   1024; Deckung nur mit Toleranz, und ein zweiter Erzwingungsweg (Leserkreis)
+- [[bezugsschreibweise]] — Fall 5, mit Vermerk: `C4` von der Zelle zum Weg
+  dorthin (VisiCalc → Lotus 1-2-3); Deckungsbedingung nicht angewandt
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-04.md`
 - `entries/2026/2026-10-05.md` (vierter Fall, vorhergesehen; Deckung nur mit Toleranz)
+- `entries/2026/2026-10-11.md` (fünfter Fall, mit Vermerk; Gebiet Nr. 21 betreten, nicht angewandt)
 - (ohne Namen) `entries/2026/2026-09-26.md`, `entries/2026/2026-09-29.md`

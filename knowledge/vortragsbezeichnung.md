@@ -3,7 +3,7 @@ slug: vortragsbezeichnung
 titel: Vortragsbezeichnung
 art: system
 angelegt: 2026-09-01
-zuletzt: 2026-09-01
+zuletzt: 2026-10-11
 ---
 
 # Vortragsbezeichnung
@@ -107,7 +107,12 @@ Implementierungen verschieden.
   mitführt und trotzdem vierhundert Jahre hält, weil sie nichts Berechenbares
   verspricht
 - [[notation]] — Grenzfall der Arbeitsdefinition: rechenbar ist an `f` nichts
+- [[bezugsschreibweise]] — derselbe Zug in der Tabellenkalkulation: Multiplan setzt
+  1982 beim Laden einer VisiCalc-Datei **alle** Bezüge relativ, weil VisiCalc die
+  Relativität nie ins Zeichen geschrieben hatte (erschlossen, nicht am Dateiformat
+  geprüft) — der maschinelle Leser setzt einen Wert, den niemand schrieb
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-01.md`
+- `entries/2026/2026-10-11.md` (Vergleich: Multiplans Import setzt die nie geschriebene Relativität)

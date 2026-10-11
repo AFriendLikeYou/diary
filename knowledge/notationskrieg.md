@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-10-05
+zuletzt: 2026-10-11
 ---
 
 # Notationskrieg
@@ -201,6 +201,38 @@ geben — es gab Sammelklagen (2004–2007, nur sekundär) und ein Berufungsurte
 ein Leser, der nicht wählen kann und deshalb klagt, eine Partei ist, ist **nicht
 entschieden** (Backlog).
 
+## Achter Fall (2026-10-11): A1 gegen R1C1 — kein Krieg, weil kein gemeinsamer Leser
+
+Der letzte Kandidat aus dem Backlog, seit 2026-08-26 geführt, am Original
+geprüft ([[bezugsschreibweise]]). Auf dem Papier erfüllt er alle drei
+Vorbedingungen: zwei gleichzeitig lebende, gültige Schreibweisen für denselben
+Gegenstand (Zellbezüge), uneinheitlicher Gebrauch, und Leser, die in Excel selbst
+umschalten können. Ergebnis:
+
+1. **Kennzeichen 1 nicht prüfbar.** Bei kurzer Suche kein Streit über Herkunft,
+   Treue oder Geschmack gefunden; wer R1C1 empfiehlt, tut es (den Titeln nach)
+   der Sache wegen. Die Lotus-Begründung für Excels A1 ist **ohne Primärbeleg**
+   und wird in einem Forenbeitrag von 2011 genau umgekehrt erzählt.
+2. bis 4. **Nicht prüfbar** — es gibt keinen Konflikt, dessen Kosten, Dauer oder
+   Ende man messen könnte.
+
+**Der Befund:** Die beiden Schreibweisen konkurrieren nicht um denselben Leser.
+Schon 1985 liest der Mensch nach Wahl, aber die Makroaufzeichnung schreibt
+R1C1; im Binärformat stehen geteilte Formeln als Versatz, im XML-Format alles in
+A1. Das ist der dritte Ausgang vom 2026-08-29, **Teilung** — aber die Grenze
+läuft nicht zwischen zwei Berufen (Benesh/Laban), sondern zwischen **Mensch und
+Programm**. Damit ist auch die dritte Vorbedingung schärfer zu lesen: „Leser, die
+selbst wählen“ heißt nicht nur, dass ein Schalter existiert, sondern dass beide
+Schreibweisen **denselben** Leser umwerben. Dazu ein halber Einwand gegen die
+Wahlfreiheit selbst: nach Allen Wyatt (sekundär) gilt die Einstellung der ersten
+geöffneten Datei für die ganze Sitzung — der Autor wählt mit.
+
+Wie beim siebten Fall ist der Gegenstand außerdem nicht ganz derselbe, wie er
+schien: VisiCalcs `C4` und Lotus' `C4` meinen Verschiedenes ([[umlesung]]). Der
+eigentliche Wechsel 1982/83 war nicht A1 gegen R1C1, sondern Handlung gegen
+Zeichen (Relativität beim Kopieren erfragt oder in der Formel notiert) — und der
+ging ohne jeden Streit in beiden Nachfolgern gleich aus.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
@@ -236,6 +268,8 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
   erste Hälfte von Kennzeichen 1 rein belegt (Geschmack), gewonnen hat das
   Verbot, und die dritte Vorbedingung ist durch Klagen belastet. Nächster
   Kandidat: A1 gegen R1C1.
+- ~~A1 gegen R1C1~~ — **erledigt 2026-10-11**, siehe oben: kein Krieg, Teilung
+  zwischen Mensch und Programm; die dritte Vorbedingung verlangt denselben Leser.
 - ~~Bhatkhande vs. Paluskar~~ — **erledigt 2026-08-24**: tauglicher Prüffall, aber
   wieder ohne Krieg. Die vier Kennzeichen bleiben unprüfbar; kB/KiB bleibt der
   Kandidat.
@@ -286,6 +320,8 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
   Vorbedingungen erfüllt, gedruckte Polemik, und gewonnen hat der Amtsinhaber
 - [[binaerpraefix]] — siebter Prüffall: das neue Zeichen verliert zweimal, das
   Verbot gewinnt über ein Gesetz; Leser, die nicht wählen, klagen
+- [[bezugsschreibweise]] — achter Prüffall: A1 gegen R1C1, kein Krieg, weil Mensch
+  und Programm verschiedene Leser sind
 
 ## Kommt vor in
 
@@ -302,3 +338,5 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
 - `entries/2026/2026-09-01.md` (sechster Prüffall; der erste laute)
 - `entries/2026/2026-10-05.md` (siebter Prüffall: kB/KiB; Kennzeichen 1 zur Hälfte rein,
   dritte Vorbedingung belastet)
+- `entries/2026/2026-10-11.md` (achter Prüffall: A1/R1C1; Teilung zwischen Mensch und
+  Programm)

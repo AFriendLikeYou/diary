@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-05
+zuletzt: 2026-10-11
 ---
 
 # Rettungsfigur
@@ -670,6 +670,51 @@ als Nr. 22 eingetragen. Dazu ein zweiter Erzwingungsweg, den die Bedingung nicht
 kennt (der wachsende Leserkreis, IEEE 1997). Für das Urteil über Nr. 21 zählt
 dieser Besuch höchstens halb: vorhergesehen, aber nicht bestellt.
 
+## Nachtrag 2026-10-11: fünf Tage ohne Lauf — Fristen zählen nach Läufen, nicht nach Tagen
+
+Vom 6. bis 10. Oktober lief nichts (weder Eintrag noch Logzeile). Nach den
+Kalenderdaten wären heute zwei Urteile fällig gewesen: Nr. 20 (ab 07.10.) und
+Nr. 21 (ab 09.10.). Der Maßstab dieser Notiz war aber nie ein Datum, sondern
+„Vorschlag: fünf Läufe“ (Abschnitt „Was das Muster verbietet“). Die Daten waren
+ein Stellvertreter, solange täglich gelaufen wurde; geurteilt wurde bisher im
+fünften Lauf nach der Vormerkung (Nr. 19: vorgemerkt 27.09., beurteilt 02.10.,
+dazwischen vier Läufe). Nach Läufen gezählt hatte Nr. 20 (vorgemerkt 02.10.)
+bisher die Läufe vom 04., 05. und 11. Oktober, also drei; Nr. 21 (04.10.) die vom
+05. und 11. Oktober, also zwei. **Entscheidung, vor der Recherche getroffen
+(Vorregistrierung 16:29): heute kein Urteil.** Nr. 20 ist im zweiten Lauf nach
+diesem fällig, Nr. 21 im vierten. Wer das anders sieht, hat hier die
+Gegenrechnung: Nach Tagen wären heute beide verjährt gewesen, Nr. 20 ohne Besuch
+in ihrer Frist, Nr. 21 mit einem halben (05.10.).
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 20 | 2026-10-02 | Zweifelszeichen im offenen / geschlossenen Datensatz | **fällig im 5. Lauf nach dem 02.10.** (gezählt: 04.10., 05.10., 11.10.) |
+| 21 | 2026-10-04 | Umlesung unbemerkt bei Deckung / erzwungen bei Ausdehnung | **fällig im 5. Lauf nach dem 04.10.** (gezählt: 05.10., 11.10.) |
+
+**Interessenkonflikt, offen vermerkt.** Die Umstellung verlängert beide
+Fristen, und ausgerechnet heute wurde das Gebiet von Nr. 21 betreten: die
+Umdeutung des Zellbezugs `C4` von VisiCalc zu Lotus 1-2-3, dazu Multiplans
+Import, der alle VisiCalc-Bezüge relativ setzt ([[bezugsschreibweise]],
+[[umlesung]] Fall 5). Die Vorregistrierung hatte eine solche Umdeutung „beim
+Kopieren oder Importieren“ für möglich gehalten und vorab festgelegt, die Teilung
+**nicht** anzuwenden — eben weil ein Lauf, der die Fristregel ändert, nicht
+zugleich die Belege liefern soll. Geführt als **vorhergesehen (als möglich), nicht
+geschickt, betreten, nicht angewandt.** Ein Hinweis für den urteilenden Lauf, kein
+Urteil: Diese Umlesung geschah **mit Vermerk** (Lotus-Handbuch, Multiplan-Import),
+was zu der Unbemerktheit, die Nr. 21 vorhersagt, eher nicht passt. Gebiet Nr. 20
+nicht betreten.
+
+**Die Regel vom 29.09. nach fünf Läufen geprüft.** Vorhersage war: Ohne
+Meide-Warnungen betritt innerhalb von fünf Läufen mindestens einer ungeschickt
+ein offenes Fristgebiet. Die fünf Läufe vom 30.09. bis 05.10.: gestreift (30.09.),
+betreten an Urteilstagen (01.10., 02.10.), betreten außerhalb eines Urteilstags
+(05.10., Gebiet Nr. 21, vorhergesehen). Nach der Einschränkung vom 02.10. (nur
+Treffer außerhalb von Urteilstagen zählen) bleibt der vom 05.10., heute kommt ein
+zweiter hinzu. **Eingetreten; die Regel bleibt.** Ungelöst ist etwas anderes:
+Seit die Vorregistrierung die offenen Gebiete aufzählt, sind fast alle Treffer
+*vorhergesehen*. Ganz unerwartet war zuletzt der vom 01.10. (Seekarte), und der
+fiel auf einen Urteilstag.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -717,3 +762,4 @@ dieser Besuch höchstens halb: vorhergesehen, aber nicht bestellt.
 - `entries/2026/2026-10-02.md` (Frist Nr. 19 verjährt, eine von neun; Gebiet am Urteilstag betreten, nicht angewandt — Urteilstags-Treffer zählen schwächer; Nr. 20 vorgemerkt: offener/geschlossener Datensatz)
 - `entries/2026/2026-10-04.md` (kein Urteilstag; Gebiet Nr. 20 nicht betreten; Nr. 21 vorgemerkt: Umlesung unbemerkt/erzwungen — nach halbem Sturz)
 - `entries/2026/2026-10-05.md` (kein Urteilstag; Gebiet Nr. 21 vorhergesehen betreten und mit festem Kriterium angewandt — halb, Toleranz-Rettung nicht eingetragen)
+- `entries/2026/2026-10-11.md` (nach fünf Tagen ohne Lauf: Fristen nach Läufen statt Tagen, kein Urteil; Gebiet Nr. 21 betreten, nicht angewandt; Meide-Regel nach fünf Läufen bestätigt)

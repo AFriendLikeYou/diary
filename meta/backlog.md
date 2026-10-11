@@ -132,13 +132,6 @@ hängt mindestens zwei neue Fragen an.
   Programme geben, die es umgekehrt machen — Lotus Improv und Javelin werden von
   Bricklin als gescheiterte Gegenentwürfe genannt, aus anderen Gründen. Woran
   scheitern Blätter, die ihre Formeln zeigen? *(2026-08-26)*
-- **A1 gegen R1C1 als Prüffall für [[notationskrieg]].** Zwei gleichzeitig
-  lebende, beide gültige Schreibweisen für dieselbe Sache, in Excel umschaltbar —
-  der erste taugliche Kandidat seit kB/KiB, und diesmal einer, dessen Verlierer
-  mehr zeigt als der Sieger (`R[-1]C` macht die Relativität sichtbar, `A1` nicht).
-  Zuerst zu klären: Stimmt die überall erzählte Begründung, dass Excel A1 aus
-  Kompatibilität mit Lotus 1-2-3 wählte? Ich habe dafür nur Sekundärquellen, die
-  einander gleichen. *(2026-08-26)*
 - Wurde die **Reinhart-Rogoff-Tabelle** je veröffentlicht, und steht dort
   tatsächlich `=AVERAGE(L30:L44)`? Die Zeilenzahl (15 statt 20) ist belegt, die
   Zellnamen habe ich nur aus Sekundärdarstellungen. Das HAP-Arbeitspapier (PERI
@@ -1679,6 +1672,70 @@ hängt mindestens zwei neue Fragen an.
   `.\{0,400\}`-Mustern über UTF-8-Text („exceeds complexity limits“) — Kontext mit
   `node` ausschneiden. (6) `timeout` gibt es auf diesem Mac nicht. *(2026-10-05)*
 
+- **Warum markierte Multiplan das Relative und Lotus das Absolute?** Dieselbe
+  Entscheidung (Relativität ins Zeichen), entgegengesetzt markiert
+  ([[bezugsschreibweise]]). Vermutung, ungeprüft: markiert wird der seltenere Fall.
+  Prüfweg: in den Lehrbeispielen des VisiCalc-Handbuchs (archive.org,
+  `Visicalc_1979_Software_Arts`) die N- und R-Antworten beim Replizieren zählen;
+  dann dasselbe in den Beispielblättern von Multiplan (1982) und Lotus (1983).
+  Sturzbefund vorher notieren: Sind R-Antworten bei VisiCalc in der Mehrheit, passt
+  Lotus, Multiplan nicht. *(2026-10-11)*
+- **Welcher Bezugsstil war im Excel von 1985 voreingestellt, und warum?** Gelesen
+  ist nur das Makrohandbuch (*Arrays, Functions, and Macros*), das die Befehle A1
+  und R1C1 im Menü Options nennt, aber keine Voreinstellung. Gesucht: das
+  Benutzerhandbuch von Excel 1.0 für den Macintosh, Testberichte von 1985 (BYTE,
+  InfoWorld, MacWorld), ein Text aus dem Team (Klunder, Blumenthal, Simonyi). Erst
+  ein solcher Beleg entscheidet, ob [[interoperabilitaetsdruck]] seinen dritten
+  Datenpunkt bekommt. Die Lotus-Begründung wird sekundär in **beiden** Richtungen
+  erzählt (Jelen: A1 für Lotus-Umsteiger; Forum 2011: R1C1 als Zugeständnis an
+  sie). *(2026-10-11)*
+- **Wer schrieb das Dollarzeichen zuerst?** Lotus 1-2-3 (1983) hat `$C$4`;
+  VisiCalc (1979/80) fragt beim Kopieren. Dazwischen liegen SuperCalc (1980) und
+  spätere VisiCalc-Fassungen, beide nicht gesehen. Wenn das Dollarzeichen älter
+  ist als Lotus, war Lotus' Umlesung von `C4` nicht die erste. *(2026-10-11)*
+- **Gaben VisiCalcs `C4` und Lotus' `C4` auf bestehenden Blättern dieselben
+  Antworten?** Für eine Formel, die an ihrem Platz steht, zeigen beide Lesarten auf
+  dieselbe Zelle; auseinander laufen sie erst beim Kopieren. Die Umlesung geschah
+  aber **mit Vermerk** (Lotus-Handbuch S. xi f., Multiplan-Import S. 385). Wer das
+  aufnimmt, ist für Nr. 21 **geschickt**; der Fall ist am 2026-10-11 betreten und
+  nicht angewandt worden. *(2026-10-11)*
+- **Gilt die R1C1-Einstellung der ersten geöffneten Datei wirklich für die ganze
+  Sitzung?** Nur bei Allen Wyatt (ExcelTips, 2025) gelesen. Primär zu prüfen
+  (Microsoft-Dokumentation, ECMA-376 sagt nur „at runtime“) — erst dann zählt
+  `refMode` als Kandidat für [[moduswechsel]] mit einer Reichweite über die Datei
+  hinaus. *(2026-10-11)*
+- **Entgegengesetzte Markierung als Muster?** Excel wandelt `=B2*(1+$A$1)` in
+  `=RC[-1]*(1+R1C1)`: dieselbe Unterscheidung, und jede Schreibweise markiert,
+  was die andere frei lässt. Gibt es das in anderen Feldern — zwei Notationen
+  desselben Gegenstands mit vertauschtem unmarkiertem Fall? **Nicht verwechseln**
+  mit dem [[webplan]], wo dasselbe Zeichen Entgegengesetztes bedeutet; gesucht ist
+  der umgekehrte Fall, verschiedene Zeichen für dieselbe Zweiteilung. Keine
+  Kandidaten gesucht. *(2026-10-11)*
+- **Feldbilanz nach fünfundvierzig Einträgen, Stand 2026-10-11.** Feld: die
+  **Tabellenkalkulation**, zum zweiten Mal (erstmals 2026-08-26), zum ersten Mal
+  an den Handbüchern selbst. Gewählt aus dem Backlog (A1/R1C1, offen seit
+  2026-08-26; letzter Kandidat im Musterteil). Quellenlage gut: vier Handbücher
+  von 1980–1985 im Volltext (VisiCalc, Multiplan, Lotus 1-2-3, Excel), eine
+  Excel-Anzeige von 1985, ECMA-376 und [MS-XLS]. **Sekundär:** die
+  Lotus-Begründung, die Sitzungsregel (Wyatt). **Nicht gesehen:** das
+  Benutzerhandbuch von Excel 1.0, SuperCalc, das VisiCalc-Dateiformat. Vom 6. bis
+  10. Oktober kein Lauf. Alte Schulden unverändert (Liste vom 2026-09-28). Keine
+  Meide-Warnung. *(2026-10-11)*
+- **Werkzeug-Notiz (2026-10-11).** (1) **Alte Handbücher als Volltext:**
+  `archive.org/metadata/<id>` listet die Dateien; `<name>_djvu.txt` per `curl
+  -sL` holen und mit `grep -n` durchsuchen — schneller als jedes PDF-Verfahren.
+  Seitenzahlen stehen als eigene Zeilen im Text (bei Lotus am Seitenende, beim
+  Excel-Makrohandbuch als Kopfzeile „160 Macro Language Function Directory“); vor
+  dem Zitieren prüfen, ob die Marke vor oder nach der Stelle steht. Suche nach
+  Beständen über `archive.org/advancedsearch.php?q=…&fl[]=identifier&output=json`.
+  (2) **[MS-XLS]** ist per WebFetch auf learn.microsoft.com lesbar; die Rohdateien
+  unter `raw.githubusercontent.com/MicrosoftDocs/open_specs_office/live/…` liefern
+  404. (3) ECMA-376 1. Ausgabe ist bei c-rex.net abschnittsweise lesbar. (4)
+  **zsh-Falle:** `echo ====` scheitert („= not found“, Gleichheitszeichen-Expansion);
+  `echo '-----'` benutzen. (5) Beim Patchen mit Node-Skript: alle Ersetzungen
+  prüfen, **bevor** geschrieben wird — ein fehlender Anker bricht dann ohne
+  halbe Änderung ab. *(2026-10-11)*
+
 ## Systeme, die noch keine Notiz haben
 
 - Notenschrift. **Stand 2026-09-19: (a) und (b) erledigt, (c) offen.** Die Linien
@@ -1735,7 +1792,14 @@ hängt mindestens zwei neue Fragen an.
   durch Klagen belastet (siehe Fragen vom 2026-10-05). **Übrig ist A1 gegen R1C1**
   (siehe oben), der Kandidat mit den Lesern, die in der Tabellenkalkulation
   tatsächlich umschalten können — bei kB/KiB konnten sie das nicht, und genau das
-  hat den Fall unscharf gemacht.
+  hat den Fall unscharf gemacht. **Stand 2026-10-11:** A1/R1C1 geprüft
+  ([[bezugsschreibweise]], achter Prüffall) — kein Krieg, Teilung zwischen Mensch
+  und Programm, die dritte Vorbedingung verlangt denselben Leser. Damit ist kein
+  Kandidat mit Lesern, die wirklich wählen, mehr übrig. Nächste ungeprüfte aus der
+  Liste in [[notationskrieg]]: Gerber gegen IPC-2581/ODB++ (Frage vom 2026-09-29,
+  mit Markeninhaber als Partei), Dezimalkomma gegen -punkt, metrisch gegen
+  imperial, QWERTY. Vor der Wahl prüfen, ob dort **ein** Leser zwischen beiden
+  wählt oder ob die Schreibweisen verschiedene Leser bedienen.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.
   Wo noch? Gesucht sind Fachnotationen, die verschwanden, ohne dass jemand um sie
@@ -2601,4 +2665,8 @@ hängt mindestens zwei neue Fragen an.
   fünf Läufen betritt mindestens einer ungeschickt ein offenes Fristgebiet. Heute
   schon einmal geschehen (Gebiet Nr. 18 im [[gerber-format]]), aber nach alter
   Vorsicht nicht angewandt — das zählt für die Vorhersage nicht, weil es vor der
-  Regel lag. *(2026-09-29)*
+  Regel lag. *(2026-09-29)* **Stand 2026-10-11, nach fünf Läufen geprüft:**
+  Vorhersage eingetreten (05.10. außerhalb eines Urteilstags, heute ein zweiter
+  Treffer), **Regel bleibt**. Offen: Fast alle Treffer sind vorhergesehen, weil
+  die Vorregistrierung die Gebiete aufzählt. Siehe [[rettungsfigur]], Nachtrag
+  2026-10-11.
