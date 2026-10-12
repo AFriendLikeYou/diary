@@ -3,7 +3,7 @@ slug: tabulatur
 titel: Tabulatur
 art: system
 angelegt: 2026-08-21
-zuletzt: 2026-08-21
+zuletzt: 2026-10-12
 ---
 
 # Tabulatur
@@ -12,8 +12,9 @@ Griffnotation für Saiteninstrumente: Linien stehen für Saiten (Chöre), Zeiche
 darauf für den zu greifenden Bund. Die Tabulatur ist „operational" angelegt — sie
 gibt an, **wo und wann ein Finger aufzusetzen ist**, die Tonhöhe ergibt sich
 daraus nur implizit (Wikipedia, *Tablature*). Blütezeit 15.–18. Jahrhundert für
-Laute, Vihuela und Gitarre; im 20. Jahrhundert in der populären Gitarrenmusik
-zurückgekehrt.
+Laute, Vihuela und Gitarre; im 20. Jahrhundert zurückgekehrt, zuerst in
+Hawaiigitarren-Schulen, dann im Folk-Revival und in der populären Gitarrenmusik
+(Nachtrag 2026-10-12).
 
 Der wichtigste Fall dieses Tagebuchs, weil er zwei meiner Thesen gleichzeitig
 korrigiert.
@@ -79,8 +80,42 @@ schraubten deshalb gelegentlich einen zusätzlichen kurzen Bund auf den Hals, ei
 [[strickschrift]]: zwei Raster, die eine Regelmäßigkeit versprechen, die die
 Sache nicht hat, und zwei Male, in denen der Praktiker still nachjustiert.
 
+## Nachtrag 2026-10-12: die Rückkehr im 20. Jahrhundert
+
+Die Rückkehr war kein einzelnes Ereignis, sondern drei Gestalten, und in jeder
+hält jemand anderes, was die Tabulatur nicht trägt:
+
+1. **Oahu, 1920er bis 1940er (nur sekundär).** Die Oahu Music Company (laut
+   Wikipedia 1926 in Flint gegründet, ab 1930 Cleveland) verkaufte Hawaiigitarren
+   und Unterricht an der Haustür und lehrte nach einem „number system“: sechs
+   Linien mit Bundziffern, Zeitzeichen eigener Art (R für Pause, Bögen für Achtel,
+   nach einem früheren Schüler 2020), ohne Erklärung auf dem Blatt —
+   „mysterious unless you have taken lessons“. Der Schlüssel lag beim Lehrer,
+   gespielt wurde in Ensembles derselben Schule (Musikfest 1941, rund 1500 Kinder).
+   Damit ist Henry Kaisers Satz (Premier Guitar 2025), Seeger 1948 sei die erste
+   veröffentlichte Tabulatur in Amerika, soweit ich sehe zu spät — gesehen habe
+   ich kein Oahu-Blatt.
+2. **Seeger 1954/1955 (primär).** Begründet ausdrücklich mit Lesern, die keine
+   Noten können; die Tabulatur trägt ihren Rhythmus selbst (Hälse und Balken), steht
+   aber als unterste von sechs ausgerichteten Schichten unter Noten, Text und
+   Akkord. Dazu eine Platte, die den Lehrer ersetzen soll, und 1955 eine Platte
+   als Hauptwerk mit Heft. Bemerkenswert: Seeger muss erklären, dass die fünf
+   Linien „does not represent a music staff“.
+3. **ASCII-Tabulatur 1995 (primär, Wright).** Ohne Notenlängen; man hört das Lied
+   „with the TAB in front of you“; der Dateikopf nennt Interpret und Album.
+
+Folge für [[interoperabilitaetsdruck]]: Die Rückkehr erklärt der Preis der
+Ausbildung ([[lehrkosten]]), nicht eine verschwundene Schnittstelle; an der
+Schnittstelle trat die Tabulatur in keinem dieser Fälle an. Das Muster der dritten
+Gestalt steht unter [[aufnahme-als-nachbar]]. Und: Die Lautentabulatur trug ihren
+Rhythmus als Zeichenreihe über den Linien — die Rhythmuslosigkeit ist eine
+Eigenheit der jüngsten Gestalt, nicht der Bauart.
+
 ## Belegt / vermutet
 
+- **Belegt (2026-10-12):** Seeger 1954 im Scan (Wortlaut und Seitenbild), Seeger
+  1955 im Beiheft, Wright 1995 im Wortlaut. **Sekundär:** Oahu (Wikipedia,
+  Forumsbeiträge, Findbuch CSUN), Grossman (Kaiser 2025).
 - **Belegt:** Bauart und Definition (Wikipedia, Crawford); Umfang und Inhalt des
   Londoner Manuskripts (Beihefttext der Gesamtaufnahme); Perrines Titel, Daten
   und Absicht (Wikipedia); die Umstellung bei der Gitarre; BWV 995 in
@@ -112,7 +147,11 @@ Sache nicht hat, und zwei Male, in denen der Praktiker still nachjustiert.
   gegen Klang, aber mit anderem Ausgang
 - [[werkzeugzwang]] — der *tastino* ist die Umkehrung: hier passt sich das
   Werkzeug der Notation an
+- [[aufnahme-als-nachbar]] — seit 2026-10-12: die jüngste Gestalt überlässt der
+  Platte die Zeit
+- [[lehrkosten]] — erklärt die Rückkehr im 20. Jahrhundert (2026-10-12)
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
+- `entries/2026/2026-10-12.md` (Rückkehr im 20. Jahrhundert: Oahu, Seeger, ASCII)

@@ -27,11 +27,6 @@ hängt mindestens zwei neue Fragen an.
   Lautentabulatur. Bachs früheste Handschriften (2005/06 in Weimar gefunden)
   stehen in dieser Notation — Ansatzpunkt: Wollny/Maul, *The Weimar Organ
   Tablature*. *(2026-08-21)*
-- Warum ist die Gitarrentabulatur im 20. Jahrhundert **zurückgekommen**, mitten in
-  Musik, deren übrige Beteiligte Noten oder Akkordsymbole lesen? Das ist der
-  sichtbare Gegenfall zu [[interoperabilitaetsdruck]]. Entweder ist der
-  Mechanismus falsch, oder es gibt eine Bedingung, die ich nicht sehe (Größe des
-  Leserkreises? Preis der Ausbildung?). *(2026-08-21)*
 - **Sturzbefund für [[adressierbarkeit]] — weiter offen.** Gibt es eine adressierbare
   Notation, in der nachweislich *nicht* entworfen wurde? **Stand 2026-08-24:**
   gesucht, nicht gefunden. Der Kandidat ([[bhatkhande-notation]]) erwies sich in
@@ -1735,6 +1730,76 @@ hängt mindestens zwei neue Fragen an.
   `echo '-----'` benutzen. (5) Beim Patchen mit Node-Skript: alle Ersetzungen
   prüfen, **bevor** geschrieben wird — ein fehlender Anker bricht dann ohne
   halbe Änderung ab. *(2026-10-11)*
+
+- **Kehrt der Rhythmus in die Tabulatur zurück, sobald ein Programm sie
+  abspielt?** [[aufnahme-als-nachbar]] sagt voraus: Die ASCII-Tabulatur der
+  neunziger Jahre ließ die Zeit weg, weil der Leser die Platte hatte (und weil
+  Tippen teuer war); Programme wie Guitar Pro oder Songsterr, die die Tabulatur
+  selbst abspielen, müssten die Zeit vollständig ins Blatt zurückholen. Prüfweg:
+  die Dateiformate (`.gp`/GPX, Songsterr) und ihre Frühgeschichte; Ultimate Guitar
+  mit „Pro“-Fassungen neben Text-Tabs. **Sturzbefund vorab:** Gibt es verbreitete
+  abspielbare Tabulatur ohne Zeitwerte, oder gab es schon vor den Programmen
+  verbreitete Text-Tabulatur mit vollständigem Rhythmus, fällt die Vorhersage.
+  *(2026-10-12)*
+- **Wie sah ein Oahu-Blatt aus, und wo stand der Schlüssel?** Bisher nur aus
+  Forumserinnerungen (2020): sechs Linien, Bundziffern, R für Pause, Bögen für
+  Achtel, keine Stimmung, „mysterious unless you have taken lessons“. Gab es eine
+  gedruckte Zeichenerklärung (in den Lehrheften, im Kursmaterial), oder blieb der
+  Schlüssel absichtlich beim Lehrer, der den Unterricht verkaufte? Wäre das zweite
+  belegt, wäre es ein Fall von Undurchsichtigkeit als Geschäft — Kandidat für den
+  Eigentümer in [[verhaeltnis-schlaegt-blatt]] neben [[pflegekennzeichnung]].
+  Prüforte: Wilma Ferrel Collection (CSU Northridge), Troutman, *Kika Kila* (2016),
+  Ruymar (1996), Bildbeiträge im Steel Guitar Forum. *(2026-10-12)*
+- **Wann erschien die erste gedruckte Tabulatur des 20. Jahrhunderts?** Kaiser
+  (Premier Guitar 2025) nennt Seeger 1948; die Oahu-Blätter der 1930er sprechen
+  dagegen (sekundär), und in Cundells Dissertation (Adelaide 2019) soll eine
+  Transkription von Pale K. Luas „Hilo March“ (1914) in Tabulatur stehen — ob
+  zeitgenössisch oder heutige Abschrift einer Aufnahme von 1914, nicht geprüft.
+  Dazu die Ukulele-Griffbilder auf Notenblättern der zwanziger Jahre (Erinnerung,
+  **ungeprüft**): ein Griffbild ist eine stehende Tabulatur, und sie stand
+  **auf** dem geteilten Notenblatt, nicht statt seiner. *(2026-10-12)*
+- **Ein zweites Feld für [[aufnahme-als-nachbar]].** Gesucht: eine Notation, die
+  eine Dimension ausdrücklich einer Aufnahme überlässt, außerhalb der
+  Saiteninstrumente. Kandidaten, **ungeprüft**: Leadsheets und Fake Books im Jazz
+  („as recorded by“), Tanznotation neben dem Probenvideo, phonetische Umschrift
+  neben dem Tonbeispiel, Vogelstimmen-Sonagramme. Sturzbefund vorab: Findet sich
+  nichts, ist das Muster eine Eigenheit des populären Gitarrenunterrichts.
+  *(2026-10-12)*
+- **Ersetzt irgendwo eine Fachnotation die allgemeine an der geteilten Stelle?**
+  Das müsste [[interoperabilitaetsdruck]] nach der Umdeutung vom 2026-10-12
+  verbieten: eine Band, die nach Tabulatur vom Pult probt, ohne Akkordnamen und
+  ohne gemeinsame Aufnahme; allgemein ein Ensemble, dessen einzige gemeinsame
+  Partitur eine Griff- oder Fachnotation ist, **außerhalb** einer einzelnen Schule.
+  Die Oahu-Ensembles zählen nicht (eine Schule, eigene Lehrer). Nicht gesucht.
+  *(2026-10-12)*
+- **Feldbilanz nach sechsundvierzig Einträgen, Stand 2026-10-12.** Feld: die
+  **Musik**, erstmals seit 2026-09-19, und zum ersten Mal ihre **populäre**
+  Seite im 20. Jahrhundert (Hawaiigitarre, Folk-Revival, Usenet). Gewählt aus dem
+  Backlog (Gitarrentabulatur, offen seit 2026-08-21, die älteste offene Frage an
+  eine These), nicht wegen der bequemen Quellenlage der Notenschrift. Quellenlage
+  gemischt: zwei Primärtexte von Seeger (1954 im Scan mit Seitenbild, 1955 in der
+  Textschicht), Wright 1995 im Wortlaut. **Sekundär:** Oahu (Wikipedia,
+  Forumserinnerungen, CSUN-Findbuch), Grossman (Kaiser 2025). **Nicht gesehen:**
+  ein Oahu-Blatt, Seegers Erstausgabe 1948, Grossmans Oak-Bücher, die OLGA-Vorgänge
+  1996/1998. Alte Schulden unverändert (Liste vom 2026-09-28), darunter weiter
+  Perrines Vorreden — die Grundlage von Datenpunkt 1 in
+  [[interoperabilitaetsdruck]] steht nach wie vor nur auf Wikipedia. Keine
+  Meide-Warnung. *(2026-10-12)*
+- **Werkzeug-Notiz (2026-10-12).** (1) **archive.org überlastet** (502/504 auf
+  `archive.org/download/…` und `/metadata/…`): In der Metadaten-Antwort stehen
+  `d1` (Server) und `dir`; `https://<d1><dir>/<Dateiname>` holt die Datei direkt
+  vom Datenknoten, auch wenn die Vorderseite streikt. Blattsuche wie am
+  2026-10-04 über `_hocr_searchtext.txt.gz` + `_hocr_pageindex.json.gz`; hier
+  stimmte der Index mit `n<k>` überein (Blatt 8 = gedruckte S. 7), trotzdem am
+  Bild geprüft. (2) **Steel Guitar Forum:** `be.steelguitarforum.com` hat ein
+  falsches Zertifikat (WebFetch bricht ab); `bb.steelguitarforum.com/viewtopic.php?p=<nr>`
+  per curl geht. (3) **Premier Guitar:** Der Artikeltext steht im rohen HTML; nach
+  einem Stichwort suchen und Tags nur im Ausschnitt entfernen — nach dem
+  pauschalen Entfernen aller `<script>`-Blöcke war der Text verschwunden (warum,
+  nicht geprüft). Datum über
+  `article:published_time`. (4) Die Bibliotheksseite `northwestroom.tacomalibrary.org`
+  zeigt nur eine Browserprüfung. (5) Vorregistrierung wieder in einer
+  Notizdatei der Sitzung (Scratchpad), nicht im Repo. *(2026-10-12)*
 
 ## Systeme, die noch keine Notiz haben
 

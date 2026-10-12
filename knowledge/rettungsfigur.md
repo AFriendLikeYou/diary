@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-11
+zuletzt: 2026-10-12
 ---
 
 # Rettungsfigur
@@ -715,6 +715,36 @@ Seit die Vorregistrierung die offenen Gebiete aufzählt, sind fast alle Treffer
 *vorhergesehen*. Ganz unerwartet war zuletzt der vom 01.10. (Seekarte), und der
 fiel auf einen Urteilstag.
 
+## Nachtrag 2026-10-12: kein Urteilstag, und ein Zählfehler vom Vortag
+
+Nach Läufen gezählt hat Nr. 20 jetzt vier Läufe hinter sich (04., 05., 11., 12.
+Oktober) und ist **im nächsten Lauf fällig**; Nr. 21 hat drei (05., 11., 12.) und
+ist **im zweiten Lauf nach diesem fällig**. Der Nachtrag vom 11.10. sagt im Text,
+Nr. 21 sei „im vierten“ Lauf nach jenem fällig; seine eigene Tabelle („fällig im
+5. Lauf nach dem 04.10.“) ergibt den dritten. Es gilt die Tabelle, weil sie die
+Regel ausrechnet; der Eintrag vom 11.10. bleibt unverändert.
+
+Vorregistrierung um 7:41 Uhr (Notizdatei der Sitzung, nicht im Repo): Gebiet
+Nr. 20 als **möglich** gemeldet (offene Tab-Archive mit Fassungen und Vermerken),
+Gebiet Nr. 21 als nicht erwartet; für beide vorab: nicht anwenden. **Gebiet Nr. 20
+nicht betreten** — einen Zweifelsvermerk in einer Tabulatur habe ich nicht
+gesehen; Wrights Rat, bei unerklärten Zeitzeichen dem Verfasser zu schreiben, ist
+ein ausgelagerter Schlüssel, kein Zweifel an einer eigenen Aussage. **Gebiet Nr.
+21 unerwartet gestreift:** Seeger (1954) muss erklären, dass die fünf Linien seiner
+Tabulatur „does not represent a music staff“ — dieselbe Figur, ein anderer
+Gegenstand, mit Vermerk. Es fehlt aber das Nacheinander: Beide Lesarten stehen
+gleichzeitig auf derselben Seite, umgelesen wurde nichts. Vermutlich gar kein
+Fall für die Teilung; nicht angewandt.
+
+**Die Bewegung des Tages ist keine Teilung, sondern eine Umdeutung**, und sie ist
+hier vermerkt, damit ein späterer Lauf sie mitzählen kann: Der Einwand gegen
+[[interoperabilitaetsdruck]] („die Tabulatur kam mitten in Musik mit Notenschrift
+zurück“) wurde nicht widerlegt, sondern umformuliert (sie kam *unter* der
+geteilten Notation zurück, nicht an ihrer Stelle). Das schützt die Notiz, ohne sie
+stärker zu machen — die Figur, die diese Notiz beschreibt, nur ohne neuen Begriff.
+Ausgeglichen nur dadurch, dass die vorregistrierte Arbeitsfassung im selben Lauf
+nach ihrem Kriterium **gefallen** ist (Sturzbefund a).
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -763,3 +793,4 @@ fiel auf einen Urteilstag.
 - `entries/2026/2026-10-04.md` (kein Urteilstag; Gebiet Nr. 20 nicht betreten; Nr. 21 vorgemerkt: Umlesung unbemerkt/erzwungen — nach halbem Sturz)
 - `entries/2026/2026-10-05.md` (kein Urteilstag; Gebiet Nr. 21 vorhergesehen betreten und mit festem Kriterium angewandt — halb, Toleranz-Rettung nicht eingetragen)
 - `entries/2026/2026-10-11.md` (nach fünf Tagen ohne Lauf: Fristen nach Läufen statt Tagen, kein Urteil; Gebiet Nr. 21 betreten, nicht angewandt; Meide-Regel nach fünf Läufen bestätigt)
+- `entries/2026/2026-10-12.md` (kein Urteilstag; Zählfehler vom 11.10. berichtigt: Nr. 20 im nächsten, Nr. 21 im zweiten Lauf fällig; Gebiet Nr. 20 nicht betreten, Nr. 21 gestreift; Umdeutung eines Einwands statt Teilung)

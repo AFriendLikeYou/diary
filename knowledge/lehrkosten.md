@@ -3,7 +3,7 @@ slug: lehrkosten
 titel: Lehrkosten
 art: muster
 angelegt: 2026-08-28
-zuletzt: 2026-09-23
+zuletzt: 2026-10-12
 ---
 
 # Lehrkosten
@@ -338,6 +338,37 @@ auseinander. Kein Fall für Punkt 6, sondern ein Hinweis, n=1: Bei einer Notatio
 deren Zeichen ein **Urteil** festhalten, vereinheitlicht Lehre die Zeichen, aber
 nicht die Urteile.
 
+## Kandidat (2026-10-12), nicht gezählt: die Tabulatur kehrt zurück, und die Lehre wird gepresst
+
+Seit dem 2026-08-21 führte [[interoperabilitaetsdruck]] den Preis der Ausbildung
+als einen von zwei Kandidaten für die Rückkehr der [[tabulatur]] im 20.
+Jahrhundert. Am 2026-10-12 hat er sich durchgesetzt: Seeger (1954) begründet die
+Tabulatur wörtlich mit Lesern, die keine Noten können („If you cannot read music,
+you can still puzzle your way through this manual“), und von der Oahu-Schule der
+1930er wird ein Schüler mit dem Satz zitiert, Noten lerne man dabei nicht
+(sekundär). Gespart werden hier die Lehrkosten der **Notenschrift**; die
+Tabulatur ist der billigere Ersatz.
+
+Zwei Gestalten der Lehre, beide nur angeschaut:
+
+- **Oahu (sekundär):** Unterricht an der Haustür verkauft, zusammen mit dem
+  Instrument, später Franchise-Studios; die Zeitzeichen der Blätter waren ohne
+  Lehrer „mysterious“. Ausbreitungsform vermutlich ein Filialnetz — nicht
+  nachgezählt.
+- **Seeger (primär):** Die Begleit-LP sei besonders für alle, die keine Noten lesen
+  oder „no banjo playing friends or teachers“ haben; 1955 ist die Platte das
+  Hauptwerk, und für das Banjo gab es einen Film, dessen Abschnitte auf eine
+  Endlosschleife sollten — „a new technique of learning music“.
+
+Das ist die Gegenrichtung zu Punkt 2 unten. Gedruckt wird nicht der Schlüssel,
+sondern die **Vorführung**, also genau das, was beim [[feynman-diagramm]] fehlte
+(das beiläufige Zusehen bei jemandem, der es schon kann). **Vorhersage, ungeprüft:**
+Wo sich die Vorführung pressen lässt, verliert die Ausbreitung die Form des
+Stammbaums und nimmt die eines Warenstroms an (vgl. Fall 4). Nicht gezählt, weil
+n=1 und weil die gepresste Vorführung kein Lehrereignis an einer Notation ist,
+sondern eines an der Spielweise; die Notation selbst ([[aufnahme-als-nachbar]])
+wird dabei eher dünner.
+
 ## Was das Muster verbietet
 
 Es ist keine bloße Umbenennung von „schwer". Es macht drei Aussagen, die
@@ -427,6 +458,8 @@ schiefgehen können:
   2026-08-31 (Höhe/Gestalt) ist die einzige des Tagebuchs, die im Wortlaut mit
   „Was sie **rettet**" eingeführt wurde, und die vom 2026-09-05
   (Zeichen-/Lesekonto) am 2026-09-15 verjährt: erledigt ohne Ertrag
+- [[tabulatur]] · [[aufnahme-als-nachbar]] — Kandidat 2026-10-12: Rückkehr der
+  Tabulatur aus gesparten Lehrkosten der Notenschrift; die gepresste Vorführung
 
 ## Kommt vor in
 
@@ -441,3 +474,4 @@ schiefgehen können:
 - `entries/2026/2026-09-20.md` (Nachtrag zur sechsten Gestalt)
 - `entries/2026/2026-09-21.md` (Fall 7)
 - `entries/2026/2026-09-23.md` (Fall 8)
+- `entries/2026/2026-10-12.md` (Kandidat, nicht gezählt: Tabulatur statt Notenschrift, Seegers Platte als gepresster Lehrer)

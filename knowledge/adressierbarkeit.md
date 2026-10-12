@@ -3,7 +3,7 @@ slug: adressierbarkeit
 titel: Adressierbarkeit
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-09-17
+zuletzt: 2026-10-12
 ---
 
 # Adressierbarkeit
@@ -437,6 +437,21 @@ adressiert das Zeichen, weil es in zwei Dokumenten wörtlich gleich steht. Das i
 der erste Fall hier, in dem eine Adresse ihre ganze Leistung daraus bezieht, dass
 sie **zweimal** geschrieben ist (→ [[nachbarnotation]]).
 
+## Nachtrag 2026-10-12: die Ankerbedingung an etwas, das keine Notation ist
+
+Unbestellt angewandt, an einer Schallplatte ([[aufnahme-als-nachbar]]). Die
+Platte hat eine durchgehende Zeitachse, aber außer den Pausen zwischen den
+Stücken keinen Anker, an dem man eine Stelle beschriften könnte. Seeger (1955)
+zählt es zum Schwierigsten beim Lernen mit seiner Platte, die Nadel auf den richtigen
+Abschnitt zu setzen, und baut den Anker nach: ein Papierdreieck am Tonarm, das auf
+die Rille zeigt, und ein federndes Lineal mit Schnur und Schuhschlaufe, das die
+Nadel in dieselbe Rille zurücksenkt. Der Befund passt zur Bedingung vom
+2026-09-04 (ein Raster ohne beschrifteten Bezugspunkt gibt keine Adresse her) und
+erweitert ihre Reichweite über Notationen hinaus — mit einer Folge für die
+Arbeitsteilung: Die [[tabulatur]] liefert die Adressen (Saite, Bund), die Platte
+die Zeit, und zum Hineinzeigen in die Zeit braucht es ein **Gerät** statt eines
+Zeichens. Nur ein Fall, nichts geteilt.
+
 ## Verwandt
 
 - [[mensuralnotation]] — die erste unbestellte Prüfung pro Dimension: Tonhöhe ja,
@@ -470,6 +485,7 @@ sie **zweimal** geschrieben ist (→ [[nachbarnotation]]).
 - [[rettungsfigur]] — liefert das Kriterium „keine Rettung durch Umdefinition"
   (2026-08-24) an diese Notiz zurück; und führt sie als Fall 4, die einzige alte
   Teilung ohne zweite Anwendung
+- [[aufnahme-als-nachbar]] — die Ankerbedingung an einer Schallplatte (2026-10-12)
 
 ## Kommt vor in
 
@@ -486,3 +502,4 @@ sie **zweimal** geschrieben ist (→ [[nachbarnotation]]).
 - `entries/2026/2026-09-14.md` (erste unbestellte Prüfung; vierte Wertsorte)
 - `entries/2026/2026-09-16.md` (Anker ohne Fläche: Achse ohne Nullpunkt)
 - `entries/2026/2026-09-17.md` (Frist der Dreiteilung bestanden; Durchnummerierung in Reinform am [[schaltplan]])
+- `entries/2026/2026-10-12.md` (Ankerbedingung an einer Schallplatte, unbestellt)

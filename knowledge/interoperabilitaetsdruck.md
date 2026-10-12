@@ -3,7 +3,7 @@ slug: interoperabilitaetsdruck
 titel: Interoperabilitätsdruck
 art: muster
 angelegt: 2026-08-21
-zuletzt: 2026-10-11
+zuletzt: 2026-10-12
 ---
 
 # Interoperabilitätsdruck
@@ -84,13 +84,44 @@ Und die unterlegene Fachnotation R1C1 hat dort überlebt, wo der Leser ein
 Programm ist (Makrosprache seit 1985, geteilte Formeln im Binärformat) — eine
 Fachnotation an einer Schnittstelle, an der kein Mensch sitzt.
 
+## Stand 2026-10-12: der Einwand geprüft — entschärft, nicht erklärt
+
+Die Rückkehr der Tabulatur im 20. Jahrhundert ist an drei Gestalten nachgesehen
+([[tabulatur]], Nachtrag 2026-10-12): Oahu-Schulen der 1920er bis 1940er
+(sekundär), Seeger 1954/1955 (primär), ASCII-Tabulatur 1995 (primär). Die
+vorregistrierte Arbeitsfassung — die Tabulatur kam zurück, wo die Schallplatte
+die Notenschrift als Schnittstelle ersetzte, und das sei die vorhergesagte
+Umkehrung — ist **gefallen**: Die Rückkehr beginnt vor der Platte als Lernmittel,
+und Seeger begründet sie wörtlich mit Lesern, die keine Noten können. Erklärt
+wird die Rückkehr also vom zweiten Kandidaten, den diese Notiz seit August führte,
+dem Preis der Ausbildung ([[lehrkosten]]), nicht von diesem Mechanismus.
+
+**Was trotzdem nicht gegen den Mechanismus spricht:** An der Schnittstelle trat
+die Tabulatur in keinem der gesehenen Fälle an. Bei Seeger steht sie als unterste
+von sechs Schichten unter Akkordname, Melodie und Text auf derselben Seite; bei
+den Oahu-Schulen wurde sie gemeinsam gelesen, aber nur innerhalb einer Schule mit
+eigenen Lehrern (die „geschlossene Werkstatt“ der Vorhersage oben); bei Wright
+1995 trägt sie Akkordnamen mit und zeigt auf eine Aufnahme, die jeder hören kann
+([[aufnahme-als-nachbar]]). Der Einwand „mitten in Musik, deren übrige Beteiligte
+Noten lesen“ trifft so nicht zu. **Vorsicht:** Das ist eine Umdeutung des
+Einwands, keine Bestätigung; sie macht die Notiz nicht stärker, nur schwerer
+angreifbar, und genau davor warnt [[rettungsfigur]]. Keine Teilung eingetragen.
+n bleibt 2.
+
+Was die Notiz jetzt verbieten müsste, um etwas zu behaupten: eine Fachnotation,
+die an der geteilten Stelle selbst die allgemeine **ersetzt** — etwa eine Band,
+die nach Tabulatur vom Pult probt, ohne Akkordnamen und ohne gemeinsame Aufnahme.
+Nicht gesucht.
+
 ## Belegt / vermutet
 
 - **Belegt:** Perrines Absicht und Begründung (Wikipedia); der Ort des Beginns der
   Gitarrenumstellung (Lehrbücher, Liedbegleitungen) und ihre Datierung.
 - **Vermutet:** die Verallgemeinerung auf andere Felder. Zwei Fälle aus demselben
   Feld sind kein Muster, sondern eine Beobachtung.
-- **Ungelöst:** die Rückkehr der Tabulatur im 20. Jahrhundert.
+- **Seit 2026-10-12 nicht mehr ungelöst, aber auch nicht von diesem Mechanismus
+  erklärt:** die Rückkehr der Tabulatur im 20. Jahrhundert (Lehrkosten; siehe
+  oben).
 
 ## Verwandt
 
@@ -105,9 +136,12 @@ Fachnotation an einer Schnittstelle, an der kein Mensch sitzt.
   ohne Primärbeleg geblieben
 - [[bezugsschreibweise]] — die Prüfung im Einzelnen; Dateiaustausch ohne gemeinsame
   Schreibweise
+- [[lehrkosten]] — erklärt die Rückkehr der Tabulatur, an der diese Notiz scheiterte
+- [[aufnahme-als-nachbar]] — die Platte als Schnittstelle ohne gemeinsame Schreibweise
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-21.md`
 - `entries/2026/2026-08-26.md` (A1 gegen R1C1, ungeprüft)
 - `entries/2026/2026-10-11.md` (A1 gegen R1C1 geprüft, nicht eingelöst)
+- `entries/2026/2026-10-12.md` (Einwand Tabulatur geprüft: Arbeitsfassung gefallen, Rückkehr von Lehrkosten erklärt, Gegenfall entschärft)
