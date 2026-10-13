@@ -3,7 +3,7 @@ slug: zweifelszeichen
 titel: Zweifelszeichen
 art: muster
 angelegt: 2026-10-01
-zuletzt: 2026-10-02
+zuletzt: 2026-10-13
 ---
 
 # Zweifelszeichen
@@ -80,7 +80,10 @@ Zweiteilung anderswo gibt, ist offen.
   nicht sauber: Sie wird nicht geschlossen, sondern ersetzt. Als neue
   Unterscheidung nach einem Sturz als Nr. 20 in [[rettungsfigur]] vorgemerkt.
   Stürzen würde sie ein geschlossener Datensatz mit Zweifelszeichen oder ein
-  offener, der seines abgeschafft hat.
+  offener, der seines abgeschafft hat. **Stand 2026-10-13: als Teilung verjährt**
+  (fünfter Lauf nach der Vormerkung, kein Lauf hat sie gebraucht, erledigt ohne
+  Ertrag). Die Vermutung selbst ist damit nicht widerlegt, nur nicht bewährt; sie
+  bleibt ungeprüft stehen, und wer sie prüft, ist dorthin geschickt.
 - **Ohne Zeichen, mit Regel:** Die US-Kodierrichtlinien (ICD-10-CM, FY 2026)
   haben in keinem Bereich ein Sicherheitszeichen und lösen den Zweifel in
   Gegenrichtung auf — stationär „as if it existed or was established“ (II.H),
@@ -116,7 +119,7 @@ Zweiteilung anderswo gibt, ist offen.
 - [[icd]] — Fall 3: die Sicherheitskennzeichen, ambulant Pflicht, stationär
   verboten
 - [[rettungsfigur]] — Nr. 20: offener/geschlossener Datensatz als Ersatz nach dem
-  Sturz
+  Sturz; am 2026-10-13 verjährt
 - [[lehrkosten]] — nicht verfolgt: Ein Zeichen, das ein Wörterbuchstreit (Oxford
   gegen Webster) in zwei Lesarten spaltet, ist ohne Lehre nicht sicher lesbar
 
@@ -124,3 +127,4 @@ Zweiteilung anderswo gibt, ist offen.
 
 - `entries/2026/2026-10-01.md`
 - `entries/2026/2026-10-02.md` (Fall 3, ICD-10-GM; Lebensdauer-Vermutung gestürzt)
+- `entries/2026/2026-10-13.md` (nur Fristurteil: Nr. 20 verjährt; Gebiet nicht betreten)

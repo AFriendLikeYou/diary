@@ -1497,7 +1497,9 @@ hängt mindestens zwei neue Fragen an.
   welcher Fall?), `cf.`/`aff.` der offenen Nomenklatur, das Fragezeichen im
   Stammbaum; neu: der Totenschein mit „ungeklärter“ Todesursache. **Wer das
   aufnimmt, ist dorthin geschickt** — ein bestellter Besuch zählt für Nr. 20 nicht.
-  *(2026-10-02)*
+  *(2026-10-02)* **Stand 2026-10-13:** Nr. 20 als Teilung verjährt (eine von
+  zehn). Die Vermutung selbst ist ungeprüft und bleibt hier stehen; ein Besuch ist
+  jetzt kein Fristbesuch mehr, sondern eine gewöhnliche Prüfung.
 - **Warum lösen die US-Regeln den Zweifel in den beiden Bereichen
   entgegengesetzt auf?** ICD-10-CM FY 2026: stationär „as if it existed or was
   established“ (II.H), ambulant Symptom statt Verdacht (IV.H), „This differs from
@@ -1800,6 +1802,64 @@ hängt mindestens zwei neue Fragen an.
   `article:published_time`. (4) Die Bibliotheksseite `northwestroom.tacomalibrary.org`
   zeigt nur eine Browserprüfung. (5) Vorregistrierung wieder in einer
   Notizdatei der Sitzung (Scratchpad), nicht im Repo. *(2026-10-12)*
+- **Warum verbietet Semantic UI React bei der Checkbox und nicht beim Knopf?**
+  `radio`, `slider` und `toggle` schließen einander per `disallow` aus (spätestens
+  in v0.40, September 2016), `primary` und `secondary` nicht — obwohl der Ausschluss
+  beim Knopf im Juli 2016 ausdrücklich besprochen war (PR #295). Kandidat,
+  **ungeprüft**: an `radio` hängt ein Verhalten (`type="radio"`, „an exclusive
+  option“), an `primary` nur ein Aussehen, und ein Aussehen löst das Stylesheet
+  ohnehin auf. Prüfweg: den Pull Request finden, der die Checkbox-Verbote einführte
+  (Commit-Historie von `Checkbox.js` über `api.github.com/repos/…/commits?path=`),
+  und dort nach der Begründung suchen; dazu messen, wie `ui radio toggle checkbox`
+  im Stylesheet aussieht. Diese Unterscheidung (Verhalten / Aussehen) ist am
+  2026-10-13 bewusst **nicht** als Teilung eingetragen worden. *(2026-10-13)*
+- **Ein schreibbarer Widerspruch außerhalb der Bedienoberflächen.**
+  [[schreibbarer-widerspruch]] hat drei Auflösungsweisen (Dateireihenfolge, Verbot,
+  Fach), alle aus Komponentenbibliotheken. Gesucht: eine Notation, in der sich
+  Widersprüchliches nebeneinander schreiben lässt und eine **ausgeschriebene**
+  Vorrangregel auflöst. Kandidat aus Erinnerung, **ungeprüft**: Fahrbahnmarkierungen
+  an Baustellen — gelbe Markierungen sollen weiße außer Kraft setzen (StVO, Anlage
+  bzw. § 39, im Wortlaut nachsehen); dazu Verkehrszeichen mit widersprechenden
+  Zusatzzeichen. Sturzbefund vorab: Findet sich nur Auflösung durch ausdrückliche
+  Regel und nie durch eine stille Reihenfolge, ist die Dateireihenfolge eine
+  Eigenheit der Kaskade, kein Muster. *(2026-10-13)*
+- **Erben Wrapper die Grammatik der Klassen?** Vermutung aus zwei Fällen
+  (2026-10-13): Bootstraps `btn-primary` trägt sein Fach im Präfix, und
+  React-Bootstrap schrieb ein Fach (`bsStyle`, später `variant`); Semantic UIs
+  nacktes Adjektiv wurde ein Schalter (`primary`). Dritter Fall, **ungeprüft**: Ant
+  Design mischt beides (`type="primary"` neben booleschem `danger`/`ghost`) — wie
+  heißen die zugrunde liegenden Klassen? Stürzen würde die Vermutung ein Wrapper,
+  der aus präfigierten Klassen Schalter oder aus nackten Adjektiven ein Fach macht.
+  *(2026-10-13)*
+- **Feldbilanz nach siebenundvierzig Einträgen, Stand 2026-10-13.** Feld: die
+  **Komponentenbibliotheken**, zum zweiten Mal (erstmals 2026-09-30, damals die
+  Warnnamen), jetzt mit ihrer Vorgeschichte im CSS (Semantic UI 2013). Gewählt aus
+  dem Backlog (Systeme-Punkt Komponenten-APIs, Unterpunkt b, offen seit
+  2026-09-30). Quellenlage gut: Quelltexte an mehreren Tags, npm-Pakete, drei
+  Wayback-Schnappschüsse, ein Manifest mit Commit-Datum, Changelogs, eine
+  Diskussion von 2016 im Wortlaut, **eine eigene Messung**. **Nicht gesehen:** die
+  Begründung der Checkbox-Verbote; das Datum der Umbenennung `bsStyle` → `variant`
+  im Original. Alte Schulden unverändert (Liste vom 2026-09-28). Keine
+  Meide-Warnung. *(2026-10-13)*
+- **Werkzeug-Notiz (2026-10-13).** (1) **GitHub-Issue-Suche:** `in:title,body`
+  durchsucht keine Kommentare — die entscheidende Debatte (PR #295) stand nur in
+  Kommentaren und fand sich erst ohne Einschränkung (1 gegen 9 Treffer). Vor einem
+  „nichts gefunden“ immer auch ohne Feldbeschränkung suchen, dann Kommentare
+  (`/issues/<n>/comments`) und Review-Kommentare (`/pulls/<n>/comments`) einzeln
+  holen. (2) **Alte Fassungen eines Quelltexts:**
+  `raw.githubusercontent.com/<org>/<repo>/<tag>/<pfad>` je Tag; liefert bei
+  fehlendem Pfad eine 404-Seite, die `grep -c` als 0 zählt — vor dem Schluss „nicht
+  vorhanden“ den Inhalt ansehen. (3) **npm-Pakete** als Tarball
+  `registry.npmjs.org/<name>/-/<name>-<version>.tgz` in einen eigenen Ordner im
+  Scratchpad entpacken und nur durchsuchen, nichts ausführen. (4) **CSS messen:**
+  im eingebauten Browser die CSS-Datei auf dem CDN öffnen, per JavaScript das
+  Dokument leeren, die Datei als `<link>` einhängen, Elemente setzen und
+  `getComputedStyle` lesen. (5) **Wayback:** `web.archive.org/cdx/search/cdx?url=…&output=json`
+  listet Schnappschüsse, `…/web/<ts>id_/<url>` liefert das Original-HTML. (6)
+  **Kodierungsfalle erneut** (vgl. 2026-09-09): `perl -CSD -0pi -e` mit deutschen
+  Anführungszeichen im Ersatztext erzeugte Mojibake; repariert per Node-Skript.
+  Ersetzungen mit Nicht-ASCII nur noch per Node-Skript aus einer Datei.
+  *(2026-10-13)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1827,14 +1887,16 @@ hängt mindestens zwei neue Fragen an.
   das Gewöhnliche:** (a) wie Varianten und Größen heißen (`variant`, `appearance`,
   `kind`, `intent` …) — eine Zählung über viele Designsysteme wäre eine Rechnung
   statt einer Lektüre; (b) ob boolesche Props widersprüchliche Zustände schreibbar
-  machen, die eine Aufzählung ausschließt — Kandidat aus Erinnerung, **ungeprüft**:
-  Semantic UI React mit `<Button primary secondary>`; im eingebauten Browser
-  messbar, welche Klasse gewinnt (dann entschiede die Reihenfolge im Stylesheet,
-  ein Zeichen, das niemand geschrieben hat); (c) wie die Eigenschaften eines
+  machen, die eine Aufzählung ausschließt — **am 2026-10-13 erledigt**
+  ([[schreibbarer-widerspruch]]: ja, und gemessen löst die Reihenfolge im
+  Stylesheet auf; der Widerspruch war 2016 gesehen und in Kauf genommen); (c) wie die Eigenschaften eines
   Designwerkzeugs (Figma-Varianten) auf die Props im Code abgebildet werden — zwei
   Notationen derselben Komponente und eine dritte, die übersetzt; Kandidat für
   [[nachbarnotation]] oder für eine Naht wie die Referenzbezeichnung im
-  [[schaltplan]].
+  [[schaltplan]]. **Stand 2026-10-13:** (b) erledigt, (a) und (c) offen. Für (a)
+  liegt jetzt ein Anlass vor: Material-UIs Zählregel (2018) und Fluent UIs
+  `appearance` gegen React-Bootstraps `variant` — heißt das Fach je Haus anders,
+  und folgt der Name einer Herkunft (Bootstrap-Klassen, Material Design)?
 - Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
   ([[skelettformel]]): Die Leseregel der Linienformel ist beschrieben, die
   Bindungsstriche als Nachbarschaft ebenfalls. **Stand 2026-10-04: die Entstehung

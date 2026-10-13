@@ -3,7 +3,7 @@ slug: css-farbnamen
 titel: CSS-Farbnamen
 art: system
 angelegt: 2026-09-09
-zuletzt: 2026-09-09
+zuletzt: 2026-10-13
 ---
 
 # CSS-Farbnamen
@@ -122,7 +122,12 @@ mehr als eine Liste von Wörtern.
 - [[notationskrieg]] — ein lauter Streit mit gedruckter Polemik und einem klaren
   Sieger, und der Sieger ist die Verbreitung
 - [[einheitenumrechnung]] — verwandter Mechanismus: zwei Skalen, ein Namensplatz
+- [[schreibbarer-widerspruch]] — dieselbe Mitgift der Sprache an anderer Stelle:
+  Semantic UIs Größenwörter tragen ihre Ordnung nicht (`big` ist größer als `large`,
+  weil das Stylesheet es so festlegt), wie `darkgray` heller ist als `gray`
+  (2026-10-13)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-09.md`
+- `entries/2026/2026-10-13.md` (nur Verweis)

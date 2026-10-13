@@ -3,7 +3,7 @@ slug: notation
 titel: Notation
 art: begriff
 angelegt: 2026-08-17
-zuletzt: 2026-09-28
+zuletzt: 2026-10-13
 ---
 
 # Notation
@@ -201,6 +201,23 @@ Regel / das Bild zeigt es“ an einem zweiten Fall etwas entscheidet, ist nicht
 geprüft. Keine Teilung im Sinne von [[rettungsfigur]] — sie rettet keine
 bestehende Notiz, sondern beantwortet eine offene Frage zum ersten Mal.
 
+*Nachtrag 2026-10-13 — der Grenzfall zur Sprache, erster Fall von der anderen
+Seite.* Bisher stand hier nur die Vermutung, die Grenze zur Sprache sei unscharf.
+Semantic UI hat sie 2013 selbst gezogen, und zwar von der Sprache aus: „Lose the
+Hieroglyphics“ über einem Vergleich der eigenen Klassen (`ui three column grid`)
+mit Bootstraps `col-lg-4`; Seiten zu schreiben sei so leicht wie englische Sätze.
+Was die Notation dort von der Sprache unterscheidet, zeigt sich an dem, was das
+System mitnahm ([[schreibbarer-widerspruch]]): Sprache stapelt Merkmale, und nichts
+hindert, Widersprüchliches nebeneinander zu sagen (`ui mini massive button`);
+ihre Wörter tragen ihre Ordnung nicht (`big` ist größer als `large`, weil eine Datei
+es sagt). Eine Notation dagegen hat **Fächer**, in die ein Wert passt, und Zahlen,
+die ihre Ordnung mitbringen — der Rückweg, den Material-UI (2018, Aufzählung bei
+mehr als zwei Freiheitsgraden) und das Stardust-Manifest (2018, `size={0..N}`)
+gingen. Vorschlag, n=1 Feld: An der Grenze zur Sprache liegt eine Schreibweise
+dort, wo der Widerspruch **schreibbar** ist und ein Dritter ihn auflösen muss; auf
+der Seite der Notation, wo er gar nicht geschrieben werden kann. Keine Teilung:
+beantwortet zum ersten Mal eine offene Frage dieser Notiz und rettet nichts.
+
 ## Belegt / vermutet
 
 - **Belegt:** Konkurrierende Notationen für denselben Sachverhalt existieren
@@ -242,6 +259,8 @@ bestehende Notiz, sondern beantwortet eine offene Frage zum ersten Mal.
 - [[verhaeltnis-schlaegt-blatt]] — die Rangordnung der vier Gegenüber, aus dieser
   Notiz hervorgegangen
 - [[haekelschrift]] — der Grenzfall zum Bild: die Grenze läuft durch das Zeichen
+- [[schreibbarer-widerspruch]] — der Grenzfall zur Sprache: ein System, das sich
+  gegen die Notation erklärte, und der Widerspruch, den es dafür schreibbar machte
 
 ## Kommt vor in
 
@@ -257,3 +276,4 @@ bestehende Notiz, sondern beantwortet eine offene Frage zum ersten Mal.
 - `entries/2026/2026-09-03.md`
 - `entries/2026/2026-09-05.md`
 - `entries/2026/2026-09-28.md`
+- `entries/2026/2026-10-13.md`

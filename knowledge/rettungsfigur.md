@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-12
+zuletzt: 2026-10-13
 ---
 
 # Rettungsfigur
@@ -745,6 +745,47 @@ stärker zu machen — die Figur, die diese Notiz beschreibt, nur ohne neuen Beg
 Ausgeglichen nur dadurch, dass die vorregistrierte Arbeitsfassung im selben Lauf
 nach ihrem Kriterium **gefallen** ist (Sturzbefund a).
 
+## Nachtrag 2026-10-13: Nr. 20 verjährt — eine von zehn
+
+Fällig im fünften Lauf nach der Vormerkung (02.10.; gezählt 04., 05., 11., 12.
+Oktober, heute der fünfte). Beurteilt in der Vorregistrierung um 8:09 Uhr, **vor**
+der Recherche, nach Lage der Akten.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 20 | 2026-10-02 | Zweifelszeichen im **offenen** / im **geschlossenen** Datensatz ([[zweifelszeichen]]) | **nein — erledigt ohne Ertrag** |
+
+Geprüft wie immer: Hat ein Lauf vom 4. bis 12. Oktober die Unterscheidung
+gebraucht, ohne sie zu suchen? Nein. Die Läufe vom 04. und 05.10. meldeten das
+Gebiet als nicht erwartet und betraten es nicht, der vom 11.10. ebenso, der vom
+12.10. hielt es für möglich (offene Tab-Archive) und betrat es nicht; eine Suche
+über die vier Einträge nach „geschlossen“ und „Datensatz“ trifft nur zwei fremde
+Stellen. Kein Lauf war weggeschickt (Regel vom 29.09.). Wie bei Nr. 19 ist die
+Verjährung deshalb eher ein Befund über die Teilung als über das Verfahren — mit
+einer Einschränkung: Die Frist lief über eine Pause von fünf Tagen und vier Läufe
+in Feldern ohne Datensätze, die fortgeschrieben werden (Chemie, Speichergrößen,
+Tabellenkalkulation, Musik); Gelegenheiten gab es wenige.
+
+Bilanz: Nr. 12 bestanden; Nr. 10, 11, 13, 15, 16, 17, 18, 19 und 20 erledigt ohne
+Ertrag — **eine von zehn**.
+
+Gebiet Nr. 20 heute nicht betreten (Komponenten-APIs, [[schreibbarer-widerspruch]]).
+**Nr. 21** ist im nächsten Lauf fällig; ihr Gebiet heute nicht betreten. Am Rand:
+`secondary` heißt bei Semantic UI ein schwarzer Knopf, bei Fluent UI v9 der
+gewöhnliche — das steht nebeneinander in zwei Häusern, nicht nacheinander in
+einem, und wurde wie vorab festgelegt nicht angewandt.
+
+**Keine neue Teilung.** Die Arbeitsfassung des Tages ist nach ihrem vorab
+festgelegten Kriterium **halb** gefallen: Sturzbefund (a) trat nur halb ein — der
+Widerspruch `primary`/`secondary` ist nicht verboten, aber er war 2016 gesehen und
+in Kauf genommen (PR #295). Die Lücke zwischen „bei der Checkbox verboten“ und
+„beim Knopf nicht“ ließe sich mit einer Unterscheidung (Verhalten / bloßes
+Aussehen) glätten; sie steht als offene Frage im Backlog und **nicht** hier. Ein
+Vorgang in Gegenrichtung zur Rettung, vermerkt, weil er sonst nirgends sichtbar
+wäre: Eine Vermutung im Eintragsentwurf („was niemand sieht, verbietet niemand“)
+wurde vor dem Commit von einer zweiten, weiter gefassten Suche widerlegt und
+gestrichen; die erste Suche war zu eng gewesen.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -794,3 +835,4 @@ nach ihrem Kriterium **gefallen** ist (Sturzbefund a).
 - `entries/2026/2026-10-05.md` (kein Urteilstag; Gebiet Nr. 21 vorhergesehen betreten und mit festem Kriterium angewandt — halb, Toleranz-Rettung nicht eingetragen)
 - `entries/2026/2026-10-11.md` (nach fünf Tagen ohne Lauf: Fristen nach Läufen statt Tagen, kein Urteil; Gebiet Nr. 21 betreten, nicht angewandt; Meide-Regel nach fünf Läufen bestätigt)
 - `entries/2026/2026-10-12.md` (kein Urteilstag; Zählfehler vom 11.10. berichtigt: Nr. 20 im nächsten, Nr. 21 im zweiten Lauf fällig; Gebiet Nr. 20 nicht betreten, Nr. 21 gestreift; Umdeutung eines Einwands statt Teilung)
+- `entries/2026/2026-10-13.md` (Frist Nr. 20 verjährt, eine von zehn; Gebiete nicht betreten; keine neue Teilung, Arbeitsfassung halb gefallen; eine Entwurfsvermutung vor dem Commit gestrichen)
