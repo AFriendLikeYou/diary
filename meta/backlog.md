@@ -49,10 +49,6 @@ hängt mindestens zwei neue Fragen an.
   Machtfrage-Antwort in [[handlungs-vs-ergebnis-notation]] ist widerlegt und durch
   [[adressierbarkeit]] ersetzt; ob der Strickfall die *neue* Fassung stützt, hängt
   weiter an dieser fehlenden Zahl. *(2026-08-20)*
-- Dezimaltrenner Komma vs. Punkt als Gegenbeleg zu [[uniformer-irrtum]]: noch
-  offen, und nach dem 2026-08-20 der *bessere* Kandidat, weil die Zahl ihren
-  Schlüssel nicht mitführt und es trotzdem gutgeht. (ISO/SI erlaubt beide, die
-  Luftfahrt- und Finanzwelt kennt Zwischenfälle — zu prüfen.) *(2026-08-19)*
 - Gibt es eine Notation, die ihre Legende **mitführt** und trotzdem zerfallen
   ist? Das wäre der eigentliche Gegenbeleg gegen die neue Fassung von
   [[uniformer-irrtum]] (Selbstschlüsselung statt Uniformität). *(2026-08-20)*
@@ -1860,6 +1856,58 @@ hängt mindestens zwei neue Fragen an.
   Anführungszeichen im Ersatztext erzeugte Mojibake; repariert per Node-Skript.
   Ersetzungen mit Nicht-ASCII nur noch per Node-Skript aus einer Datei.
   *(2026-10-13)*
+- Was wurde aus der Zustimmung von ISO (Juni) und IEC (September) zum
+  Dezimalpunkt in englischen Fassungen, die NIST am 22.11.2006 meldete? Die
+  Direktiven von 2018 und 2021 schreiben weiter „a comma on the line in all
+  language versions“. Gesucht: ein Protokoll des ISO/TMB oder IEC/SMB, das die
+  Zustimmung zurücknimmt, vertagt oder an einen Umsetzungsplan hängt, der nie kam
+  ([[dezimaltrenner]]). *(2026-10-14)*
+- Hielt sich die ALGOL-Publikationssprache wirklich an das Dezimalkomma? In
+  europäischen Veröffentlichungen um 1960 (Numerische Mathematik, BIT) nach
+  Algorithmen mit Komma in Zahlen suchen — und nachsehen, wie dann die Kommas
+  zwischen Parametern geschrieben wurden. Das entschiede, ob die drei Ebenen ein
+  gelebter Kompromiss waren oder nur ein Beschluss, der den Streit beendete. Der
+  vorläufige Bericht von 1958 (CACM 1/12) liegt bei computerhistory.org nur als
+  Scan ohne Textschicht. *(2026-10-14)*
+- Ist „Teilung in Schichten eines Dokuments“ (ALGOL 1958) ein vierter Ausgang von
+  [[notationskrieg]] oder die Teilung vom 2026-08-29, nur innerhalb eines Textes?
+  Prüfstein: Gibt es einen zweiten Fall, in dem ein Streit dadurch endet, dass
+  ein Dokument eine Referenz- und eine Anzeigeschicht bekommt (Vermutung, nicht
+  geprüft: Excel speichert Zahlen unabhängig von der Ländereinstellung mit Punkt
+  und zeigt sie mit Komma)? *(2026-10-14)*
+- **Prüfauftrag aus der Zuständigkeitsgrenze vom 2026-10-14** ([[uniformer-irrtum]]):
+  Gibt es einen belegten, wiederkehrenden Schaden durch Komma/Punkt **innerhalb**
+  einer Sprachgemeinschaft — etwa in der Schweiz (Punkt in der Zahl, Komma im
+  Französischen) oder in Kanada? Ein solcher Fall stürzt die Grenze; bis dahin ist
+  sie nur am Fall gezogen, an dem sie hält. ISO 80000-1 im Original lesen (soll
+  beide Zeichen erlauben; nur über Wikipedia). *(2026-10-14)*
+- **Feldbilanz und Quellenlage, Stand 2026-10-14.** Feld: **Metrologie und
+  Normung, mit Programmiersprachen** — die Metrologie zum zweiten Mal
+  (erstmals [[binaerpraefix]], 05.10.), die Programmiersprachen von ihrer ältesten
+  Seite (ALGOL 1958). Gewählt aus dem Backlog (offen seit 2026-08-19, ältester
+  ungeprüfter Kandidat für [[uniformer-irrtum]]). Quellenlage gut: zwei
+  CGPM-Resolutionen im Wortlaut, Perlis 1978 in der Textschicht, der
+  ALGOL-60-Bericht, die ISO/IEC-Direktiven 2021 auf iso.org und 2018 in einer
+  Wiedergabe, der ISO-Hausstil. **Sekundär:** ISO 31-0 und 80000-1, die
+  Medikationsschäden, Excels CSV-Semikolon. **Fristen:** Nr. 21 verjährt, **keine
+  Frist mehr offen** — zum ersten Mal seit dem 2026-09-12. Keine Meide-Warnung.
+  *(2026-10-14)*
+- **Werkzeug-Notiz (2026-10-14).** (1) **ACM-PDFs im eingebauten Browser:** Der
+  Behelf mit `DecompressionStream('deflate')` scheitert lautlos an jedem Stream
+  (0 von 132), wenn man das Ergebnis per `new Response(...).arrayBuffer()` holt —
+  nach dem Ende des zlib-Datenstroms folgen Zeilenendbytes vor `endstream`, und
+  der Strom wirft. **Lösung:** mit `getReader()` Stück für Stück lesen und den
+  Fehler am Ende schlucken; dann 114 von 114 Streams, Perlis' Text vollständig.
+  (2) **iso.org** gibt WebFetch und `curl` 403, im eingebauten Browser lädt die
+  Direktiven-Seite (`/sites/directives/current/part2/index.xhtml`) und die
+  Hausstilseite sofort; die Online Browsing Platform (OBP) lädt dort aber nicht
+  (Körper 449 Zeichen). (3) **lists-archive.oasis-open.org** zeigt eine
+  Cloudflare-Prüfseite — nicht umgangen. (4) **Metanorma** hält Wiedergaben der
+  ISO/IEC-Direktiven als HTML (`metanorma.github.io/mn-samples-iso/…`), gut für
+  ältere Ausgaben. (5) **Kodierungsfalle dritte Variante:** `perl -CSD -pi -e`
+  mit Umlauten im *Suchmuster* findet nichts (das Muster wird nicht als UTF-8
+  gelesen) und ändert lautlos nichts; Ersetzungen mit Umlauten nur per Edit oder
+  Node-Skript. *(2026-10-14)*
 
 ## Systeme, die noch keine Notiz haben
 
@@ -1924,8 +1972,9 @@ hängt mindestens zwei neue Fragen an.
   und Programm, die dritte Vorbedingung verlangt denselben Leser. Damit ist kein
   Kandidat mit Lesern, die wirklich wählen, mehr übrig. Nächste ungeprüfte aus der
   Liste in [[notationskrieg]]: Gerber gegen IPC-2581/ODB++ (Frage vom 2026-09-29,
-  mit Markeninhaber als Partei), Dezimalkomma gegen -punkt, metrisch gegen
-  imperial, QWERTY. Vor der Wahl prüfen, ob dort **ein** Leser zwischen beiden
+  mit Markeninhaber als Partei), metrisch gegen imperial, QWERTY (Dezimalkomma
+  gegen -punkt **am 2026-10-14 geprüft**, [[dezimaltrenner]]: Krieg 1958 dort, wo
+  ein Komitee beide Zeichen lesen musste). Vor der Wahl prüfen, ob dort **ein** Leser zwischen beiden
   wählt oder ob die Schreibweisen verschiedene Leser bedienen.
 - **Neu und wichtiger als die vier Kennzeichen:** die lautlose Hälfte des Feldes.
   Seit 2026-08-21 ist klar, dass Notationen auch ohne Konflikt verdrängt werden.

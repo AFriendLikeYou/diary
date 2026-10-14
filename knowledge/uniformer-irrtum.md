@@ -3,7 +3,7 @@ slug: uniformer-irrtum
 titel: Uniformer Irrtum ist gratis
 art: these
 angelegt: 2026-08-19
-zuletzt: 2026-09-18
+zuletzt: 2026-10-14
 ---
 
 # Uniformer Irrtum ist gratis
@@ -114,7 +114,7 @@ zu Kennzeichen 2 in [[notationskrieg]] passt.
   Unwiderlegbarkeit. Beim nächsten Mal muss ich vorher aufschreiben, was sie
   stürzen würde.
 - **Noch offen:** Dezimaltrenner Komma vs. Punkt — der bessere Gegenbeleg, weil
-  dort die Zeichen *ohne* Schlüssel reisen und es trotzdem gutgeht.
+  dort die Zeichen *ohne* Schlüssel reisen und es trotzdem gutgeht. **Geprüft 2026-10-14:** halb — billig nur innerhalb einer Sprache, siehe Nachtrag unten.
 
 ## Nachtrag 2026-08-24: Uniformität als ausgesprochenes Programm
 
@@ -454,6 +454,32 @@ Austauschformat WIF führt seit 1997 eine eigene Zeile `Rising shed=yes`. Wo ein
 Datei reisen muss, wird aus der Gewohnheit ein Feld — die Notation auf Papier
 kommt bis heute ohne aus.
 
+## Nachtrag 2026-10-14: der angekündigte Gegenbeleg, geprüft — halb
+
+Seit dem 2026-08-19 stand hier „Noch offen: Dezimaltrenner Komma vs. Punkt —
+der bessere Gegenbeleg“ ([[dezimaltrenner]]). Geprüft mit vorregistriertem
+Sturzbefund. Ergebnis **halb**:
+
+- **Nicht uniform und billig — innerhalb einer Sprache.** Die Zahl führt ihren
+  Schlüssel nicht mit, aber der Satz um sie herum: wer deutschen Text liest, liest
+  `2,5` ohne Überlegung. Ein Schaden durch Verwechslung der beiden Sitten ist bei
+  kurzer Suche nicht gefunden (nur durch den übersehenen Punkt). So weit trifft der
+  Gegenbeleg.
+- **Teuer an der Sprachgrenze**, und dort ist er gerade kein Gegenbeleg: Zürich
+  1958 kam ein Komitee wegen des Zeichens zum Stillstand ([[notationskrieg]],
+  neunter Fall), ein norwegischer Kilopreis „NOK 6,456“ ist auf Englisch
+  sechstausend (Clark 1995), NIST begründet 2006 mit blockierten Exporten.
+- **Drei Antworten an der Grenze**, nur eine davon Uniformität: ein Zeichen für
+  alle (ISO, Direktiven 2021 „in all language versions“), jedem Gebrauch sein
+  Zeichen (CGPM 1948, 2003), Schichten mit Übersetzungsregel (ALGOL).
+
+**Vorsicht, als mögliche Rettung vermerkt:** „Uneinigkeit kostet nur dort, wo ein
+Text zwei Lesergemeinschaften dient“ gibt der These recht, wo es teuer wird, und
+nimmt sie zurück, wo es billig ist. Das ist eine Zuständigkeitsgrenze, und sie
+ist am selben Fall gezogen, an dem sie hält. Sie verbietet etwas Prüfbares: einen
+belegten, wiederkehrenden Schaden durch Komma/Punkt **innerhalb** einer
+Sprachgemeinschaft. Nicht gesucht, nur nicht gefunden.
+
 ## Verwandt
 
 - [[ausgelagerter-schluessel]] — der ausgezogene Grad, mit n=3 und einer Ordnung
@@ -487,6 +513,8 @@ kommt bis heute ohne aus.
 - [[farbgrad]] — der Gegenfall zur dritten Grenze: ein Schlüssel, der misst
 - [[webplan]] — der Schlüssel als bloße Gewohnheit; dasselbe Kästchen, zwei
   entgegengesetzte Richtungen
+- [[dezimaltrenner]] — der angekündigte Gegenbeleg, halb: der Schlüssel liegt in
+  der Sprache des Satzes
 
 ## Kommt vor in
 
@@ -507,3 +535,4 @@ kommt bis heute ohne aus.
 - `entries/2026/2026-09-12.md` (Nachtrag: der Schlüssel, der schneller altert als das Zeichen)
 - `entries/2026/2026-09-13.md` (Nachtrag: der Grad ist eingelöst und ausgezogen)
 - `entries/2026/2026-09-18.md` (Nachtrag: der Schlüssel liegt in einer Gewohnheit)
+- `entries/2026/2026-10-14.md` (Nachtrag: der Dezimaltrenner, halb)

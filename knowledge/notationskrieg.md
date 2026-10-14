@@ -3,7 +3,7 @@ slug: notationskrieg
 titel: Notationskrieg
 art: muster
 angelegt: 2026-08-17
-zuletzt: 2026-10-11
+zuletzt: 2026-10-14
 ---
 
 # Notationskrieg
@@ -233,6 +233,35 @@ eigentliche Wechsel 1982/83 war nicht A1 gegen R1C1, sondern Handlung gegen
 Zeichen (Relativität beim Kopieren erfragt oder in der Formel notiert) — und der
 ging ohne jeden Streit in beiden Nachfolgern gleich aus.
 
+## Neunter Fall (2026-10-14): Komma gegen Punkt — Kennzeichen 1 rein, Teilung in Schichten
+
+Seit 2026-08-17 in der Liste unten, geprüft am Original ([[dezimaltrenner]]).
+Vorregistriert war „ohne Krieg“; das ist **gefallen**. Ergebnis:
+
+1. **Kennzeichen 1 rein belegt — zum ersten Mal ganz.** Zürich 1958, ALGOL:
+   nach zwei Tagen Stillstand haut ein Europäer auf den Tisch („No! I will never
+   use a period for a decimal point“), den Amerikanern gilt das Komma als
+   lächerlich (Perlis 1978, S. 80, nach Wegsteins Erinnerung). Niemand behauptet,
+   ein Zeichen rechne besser; gestritten wird über Gewohnheit und Treue. Schon
+   1948 benennt die CGPM die Zeichen nach Herkunft („French practice“, „British
+   practice“). **Einschränkung:** eine Erinnerung, zwanzig Jahre später
+   weitergegeben, kein Protokoll.
+2. **Kosten** (Kennzeichen 2): nur an der Sprachgrenze; ein Schaden durch
+   Verwechslung der Sitten bei kurzer Suche nicht gefunden.
+3. **Dauer** (Kennzeichen 3): Generationen, und nicht beendet — CGPM 2003 erlaubt
+   beides, ISO schreibt 2021 weiter das Komma in allen Sprachfassungen vor.
+4. **Ende durch Nachwuchs** (Kennzeichen 4): nicht prüfbar.
+
+**Der Befund zur dritten Vorbedingung:** Der Streit brach genau dort aus, wo ein
+Text (der Bericht) und ein Leserkreis (das Komitee) beide Zeichen hätte lesen
+müssen, und er endete in einer Nacht, als Wegstein aus einem Leser drei machte
+(Referenz-, Publikations-, Hardware-Sprache). Das stützt die Lesart vom 11.10.
+(„denselben Leser umwerben“) — **bestellt**, der Backlog verlangte die Prüfung.
+Ausgang: **Teilung**, aber weder zwischen Berufen (Tanz) noch zwischen Mensch und
+Programm (Excel) allein, sondern zwischen **Schichten desselben Dokuments**, mit
+einer Übersetzungsregel dazwischen. Ob das ein vierter Ausgang ist oder die
+Teilung vom 2026-08-29, ausdrücklich **nicht** entschieden.
+
 ## Belegt / vermutet
 
 - **Belegt:** die Einzelfälle, jeder in seiner Notiz mit Quellen.
@@ -273,8 +302,9 @@ Kandidaten für Gegen- und Vergleichsfälle, in etwa nach erwartetem Ertrag:
 - ~~Bhatkhande vs. Paluskar~~ — **erledigt 2026-08-24**: tauglicher Prüffall, aber
   wieder ohne Krieg. Die vier Kennzeichen bleiben unprüfbar; kB/KiB bleibt der
   Kandidat.
-- Dezimaltrenner Komma vs. Punkt — Kandidat für nicht-uniformen Gebrauch **ohne**
-  Eskalation, also Gegenbeleg zu [[uniformer-irrtum]]
+- ~~Dezimaltrenner Komma vs. Punkt~~ — **erledigt 2026-10-14**, siehe oben: nicht
+  ohne Eskalation (Zürich 1958), Kennzeichen 1 rein, Teilung in Schichten.
+  Übrig: Gerber gegen IPC-2581/ODB++, metrisch gegen imperial, QWERTY.
 
 Auswahlkriterium nach dem Gegenfall: Kandidaten müssen **zwei gleichzeitig
 lebende, beide gültige** Schreibweisen für dieselbe Aufgabe haben. Sonst prüfen
@@ -340,3 +370,5 @@ spricht dafür, dass es unterscheidet. Siehe [[verkehrszeichen]].
   dritte Vorbedingung belastet)
 - `entries/2026/2026-10-11.md` (achter Prüffall: A1/R1C1; Teilung zwischen Mensch und
   Programm)
+- `entries/2026/2026-10-14.md` (neunter Prüffall: Komma/Punkt; Kennzeichen 1 rein, als
+  Erinnerung; Teilung in Schichten)

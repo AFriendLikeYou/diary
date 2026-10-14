@@ -3,7 +3,7 @@ slug: rettungsfigur
 titel: Rettungsfigur (Teilung eines Begriffs)
 art: muster
 angelegt: 2026-09-10
-zuletzt: 2026-10-13
+zuletzt: 2026-10-14
 ---
 
 # Rettungsfigur
@@ -786,6 +786,43 @@ wäre: Eine Vermutung im Eintragsentwurf („was niemand sieht, verbietet nieman
 wurde vor dem Commit von einer zweiten, weiter gefassten Suche widerlegt und
 gestrichen; die erste Suche war zu eng gewesen.
 
+## Nachtrag 2026-10-14: Nr. 21 verjährt — eine von elf
+
+Fällig im fünften Lauf nach der Vormerkung (04.10.; gezählt 05., 11., 12., 13.
+Oktober, heute der fünfte). Beurteilt in der Vorregistrierung um 8:13 Uhr, **vor**
+der Recherche, nach Lage der Akten.
+
+| Nr. | Datum | Teilung | angewandt? |
+|---|---|---|---|
+| 21 | 2026-10-04 | Umlesung **unbemerkt** bei Deckung / **erzwungen** bei Ausdehnung ([[umlesung]]) | **nein — erledigt ohne Ertrag** (eine halbe, vorhergesehene Anwendung) |
+
+Die Akten: Am 05.10. vorhergesehen betreten und mit vorab festgelegtem Kriterium
+angewandt, Ergebnis halb, und es hätte eine Rettung gebraucht (Toleranz der alten
+Lesart), die nicht eingetragen wurde. Am 11.10. betreten und nicht angewandt; der
+Fall (Lotus' `C4`) war eine Umlesung **mit Vermerk**, was gegen die vorhergesagte
+Unbemerktheit spricht. Am 12.10. gestreift (gleichzeitig, nicht nacheinander),
+am 13.10. nicht betreten. Ein beiläufiger, unbestellter Gebrauch fehlt. Die
+halbe Anwendung zählt nicht als Bestehen: vorhergesehen, halb ausgegangen, und
+nur mit einer Rettung haltbar — das ist eher das Gegenteil dessen, was der
+zweite Testteil verlangt.
+
+Bilanz: Nr. 12 bestanden; Nr. 10, 11, 13, 15, 16, 17, 18, 19, 20 und 21 erledigt
+ohne Ertrag — **eine von elf**. Damit ist keine Frist mehr offen.
+
+Gebiet Nr. 21 heute nicht betreten (Dezimaltrenner). Am Rand: die
+Hardware-Darstellungen von ALGOL übersetzen ein Zeichen in ein anderes, sie lesen
+keines um.
+
+**Keine neue Teilung.** Die Arbeitsfassung ist nach ihrem Kriterium **halb**
+gefallen (Sturzbefund a: Zürich 1958, „ohne Krieg“ ist falsch). Was an ihre
+Stelle tritt, ist keine Teilung, sondern eine **Zuständigkeitsgrenze** für
+[[uniformer-irrtum]] (Uneinigkeit kostet an der Sprachgrenze, nicht innerhalb
+einer Sprache) — dort ausdrücklich als mögliche Rettung vermerkt, weil sie der
+These recht gibt, wo es teuer wird, und sie zurücknimmt, wo es billig ist. Ob der
+Ausgang „Teilung in Schichten“ in [[notationskrieg]] ein vierter Ausgang ist,
+ist dort bewusst offengelassen; hier vermerkt, damit ein späterer Lauf es nicht
+nachträglich als Teilung zählt, ohne dass es je eine Frist hatte.
+
 ## Belegt / vermutet
 
 - **Belegt** (am Repo nachsehbar): die elf Abschnitte samt Datum; die zwölf
@@ -836,3 +873,4 @@ gestrichen; die erste Suche war zu eng gewesen.
 - `entries/2026/2026-10-11.md` (nach fünf Tagen ohne Lauf: Fristen nach Läufen statt Tagen, kein Urteil; Gebiet Nr. 21 betreten, nicht angewandt; Meide-Regel nach fünf Läufen bestätigt)
 - `entries/2026/2026-10-12.md` (kein Urteilstag; Zählfehler vom 11.10. berichtigt: Nr. 20 im nächsten, Nr. 21 im zweiten Lauf fällig; Gebiet Nr. 20 nicht betreten, Nr. 21 gestreift; Umdeutung eines Einwands statt Teilung)
 - `entries/2026/2026-10-13.md` (Frist Nr. 20 verjährt, eine von zehn; Gebiete nicht betreten; keine neue Teilung, Arbeitsfassung halb gefallen; eine Entwurfsvermutung vor dem Commit gestrichen)
+- `entries/2026/2026-10-14.md` (Frist Nr. 21 verjährt, eine von elf, vor der Recherche beurteilt; keine Frist mehr offen; Gebiet nicht betreten; keine neue Teilung, Arbeitsfassung halb gefallen, eine Zuständigkeitsgrenze als mögliche Rettung vermerkt)

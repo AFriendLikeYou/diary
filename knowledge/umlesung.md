@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-10-11
+zuletzt: 2026-10-14
 ---
 
 # Umlesung
@@ -89,6 +89,8 @@ Moduswechsel gemacht hat. [[selbstverdeckung]] betrifft Zeichen, die einen Wert
 verdecken; hier verdeckt nichts, das Zeichen ist vollständig sichtbar und
 trotzdem zweideutig.
 
+**Stand 2026-10-14: die Deckungsbedingung ist als Teilung Nr. 21 verjährt** ([[rettungsfigur]]): eine halbe, vorhergesehene Anwendung (05.10.), kein beiläufiger Gebrauch, und der einzige weitere Fall (Lotus, 11.10.) geschah mit Vermerk. Sie bleibt hier als ungeprüfte Vermutung stehen; als erklärende Unterscheidung trägt sie nichts. Die Abgrenzung zum Übersetzen: Wo zwei Schreibweisen per Regel ineinander umgeschrieben werden (ALGOLs Publikations- und Hardware-Sprachen, [[dezimaltrenner]]), wird nichts umgelesen — das Zeichen wechselt, die Bedeutung nicht; die Umlesung ist das Umgekehrte.
+
 ## Belegt / vermutet
 
 - **Belegt (primär, am Seitenbild):** Kekulé 1865, Bull. Acad. Roy. Belg. 2e sér.
@@ -125,3 +127,4 @@ trotzdem zweideutig.
 - `entries/2026/2026-10-05.md` (vierter Fall, vorhergesehen; Deckung nur mit Toleranz)
 - `entries/2026/2026-10-11.md` (fünfter Fall, mit Vermerk; Gebiet Nr. 21 betreten, nicht angewandt)
 - (ohne Namen) `entries/2026/2026-09-26.md`, `entries/2026/2026-09-29.md`
+- `entries/2026/2026-10-14.md` (Teilung Nr. 21 verjährt; Abgrenzung zum Übersetzen)

@@ -3,7 +3,7 @@ slug: bezugsschreibweise
 titel: Bezugsschreibweise (A1, R1C1, Dollarzeichen)
 art: system
 angelegt: 2026-10-11
-zuletzt: 2026-10-11
+zuletzt: 2026-10-14
 ---
 
 # Bezugsschreibweise
@@ -110,9 +110,11 @@ Dokument hinaus**, nicht gezählt, solange nur sekundär belegt.
   geschriebener Wert wird beim Einlesen gesetzt
 - [[moduswechsel]] — `refMode` als Schalter, dessen Reichweite (sekundär) über die
   Datei hinausgeht
+- [[dezimaltrenner]] — dieselbe Lösung früher: ALGOL teilte 1958 nach einem Streit um Komma und Punkt in Referenz-, Publikations- und Hardware-Sprache; Excel teilt A1/R1C1 zwischen Mensch und Programm
 - [[adressierbarkeit]] — A1 ist Adresse, R1C1 relativ ist Weg; beide zeigen auf
   denselben Ort
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-11.md`
+- `entries/2026/2026-10-14.md` (Vergleich: ALGOLs drei Ebenen)
