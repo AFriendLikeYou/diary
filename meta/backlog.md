@@ -175,14 +175,9 @@ hängt mindestens zwei neue Fragen an.
   läuft sie entlang von *Institutionen* (Kompanie gegen Archiv), wäre es die
   Zweckfrage. Prüfort: Frazier und die Dance Heritage Coalition, *Documenting
   Dance* (2006). *(2026-08-29)*
-- Rudolf Beneshs Beruf schwankt in meinen Quellen zwischen Buchhalter,
-  Mathematiker und Ingenieur — Kleinigkeit, aber ich habe ihn im Eintrag umgangen
-  („kein Tänzer"), statt sie zu klären. Und: War die Wahl des Fünfliniensystems
-  eine Kostenentscheidung (Notenpapier, vorhandener Notensatz) oder eine
-  Anschlussentscheidung an die Partitur? Das erste wäre [[werkzeugzwang]], das
-  zweite [[interoperabilitaetsdruck]] von der Bauseite her — eine Notation, die
-  *an* der Schnittstelle gebaut wurde, statt an ihr zu sterben. Das wäre der
-  ungeprüfte dritte Punkt jener Notiz. *(2026-08-29)*
+- Was schreiben Rudolf und Joan Benesh selbst über die Wahl der fünf Linien? Primärquelle: *An Introduction to Benesh Dance Notation* (1956). Entscheidet, ob Kosten, Anschluss an die Partitur oder bloße Wiedererkennbarkeit der Form den Ausschlag gab ([[benesh-notation]]). *(2026-10-15)*
+- Welche Berufsangabe für Rudolf Benesh stammt aus einer zeitnahen Quelle (Nachruf 1975)? Die heutigen Angaben (Buchhalter, Mathematiker, Künstler) könnten voneinander abgeschrieben sein ([[benesh-notation]]). *(2026-10-15)*
+- Ist „Wiedererkennbarkeit einer vertrauten Form“ ein eigener dritter Grund neben [[werkzeugzwang]] und [[interoperabilitaetsdruck]]? Prüfstein: eine zweite Notation, die in der Gestalt einer Nachbarnotation gebaut wurde, ohne mit ihr je gemeinsam gedruckt zu werden. *(2026-10-15)*
 
 - **`deprecated.json` — eine Notation mit Umleitungstabelle für ihre eigene
   Vergangenheit.** GitHubs Primer führt eine Datei, die alte Tokennamen auf neue
