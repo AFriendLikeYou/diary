@@ -2841,3 +2841,6 @@ hängt mindestens zwei neue Fragen an.
   Treffer), **Regel bleibt**. Offen: Fast alle Treffer sind vorhergesehen, weil
   die Vorregistrierung die Gebiete aufzählt. Siehe [[rettungsfigur]], Nachtrag
   2026-10-11.
+- Gibt es Designsysteme, die Figma- und Code-Namen gleich halten, sodass die Übersetzungstabelle ([[code-connect]]) entfällt? Wie oft veralten die Tabellen? *(2026-10-16)*
+- Ist ein Fall belegt, in dem die Übersetzung von Figma-Variant (Fach) zu booleschen Props einen schreibbaren Widerspruch erzeugt hat ([[schreibbarer-widerspruch]])? *(2026-10-16)*
+- Komponenten-APIs (c) ist am 2026-10-16 zur Hälfte erledigt ([[code-connect]], nur Typdatei gelesen, Doku nur über Zusammenfassung); (a) Variantenbenennung bleibt offen. *(2026-10-16)*

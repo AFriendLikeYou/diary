@@ -3,7 +3,7 @@ slug: komponenten-api
 titel: Komponenten-API
 art: system
 angelegt: 2026-09-30
-zuletzt: 2026-10-13
+zuletzt: 2026-10-16
 ---
 
 # Komponenten-API
@@ -79,6 +79,10 @@ project“, L. Thomason in Issue #775, November 2016). Ein Fall für die Vermutu
 unten, dass bei Designsystemen über fremdem Material der Leser nicht der
 Eigentümer ist.
 
+## Nachtrag 2026-10-16: Figma und der Code
+
+Die Abbildung zwischen Designwerkzeug und Code ist eine handgeschriebene Tabelle ([[code-connect]]): Figma typisiert Eigenschaften in fünf Arten, der Code kennt nur Props; Figmas Variant ist immer ein Fach.
+
 ## Was noch nicht beschrieben ist
 
 Der Rest des Gewöhnlichen: wie Varianten heißen (`variant`, `appearance`, `kind`,
@@ -123,3 +127,4 @@ Code abgebildet werden.
 
 - `entries/2026/2026-09-30.md`
 - `entries/2026/2026-10-13.md` (Schalter oder Fach; Semantic UI, Material-UI, Stardust)
+- `entries/2026/2026-10-16.md` (Figma-Eigenschaften und Code Connect)
