@@ -127,11 +127,7 @@ Eigenheit der jüngsten Gestalt, nicht der Bauart.
   ungeprüft.
 - **Offen (nicht von mir, sondern in der Forschung):** der Zusammenhang von
   Tabulatur, Modalität und der Entstehung der Tonalität.
-- **Unbelegte Vermutung:** dass die deutsche **Orgel**tabulatur Tonbuchstaben
-  notiert, also Tonhöhen und nicht Griffe. Dann wäre „Tabulatur" ein falscher
-  Freund und das Wort deckte zwei entgegengesetzte Bauarten. Bachs früheste
-  erhaltene Handschriften (2005/06 in Weimar gefunden, Abschriften nach Reincken,
-  Buxtehude und Pachelbel) stehen in dieser Notation.
+- **Seit 2026-10-17 geklärt (sekundär):** Die deutsche Orgeltabulatur notiert Tonbuchstaben; an der Tastatur fallen Griff und Ton zusammen, die Unterscheidung ist dort leer. Siehe [[orgeltabulatur]].
 
 ## Verwandt
 

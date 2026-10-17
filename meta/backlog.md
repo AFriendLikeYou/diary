@@ -11,6 +11,9 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- An wie vielen Stellen im *Orgelbüchlein* wechselt Bach in die [[orgeltabulatur]], und immer nur am Seitenende? Primärquelle: Faksimile P 283. *(2026-10-17)*
+- Wurde die Orgeltabulatur nach 1645 handschriftlich ausdrücklich als Platz- oder Zeitersparnis begründet (Lehrbücher, Vorreden)? *(2026-10-17)*
+- Wollny/Maul, *The Weimar Organ Tablature*: bestätigt die Primärquelle die Datierung und Bachs Gebrauch? (übernommen aus gestrichenem Punkt vom 2026-08-21)
 - Wie lange dauert eine Notationsreform von der ersten Forderung bis zur
   allgemeinen Übernahme? **Stand 2026-08-19:** zwei Datenpunkte, 100 Jahre
   ([[leibniz-notation]]) und ~25 Jahre ([[chemische-formelnotation]]). Für ein
@@ -21,12 +24,6 @@ hängt mindestens zwei neue Fragen an.
 - Wurde nach 1897 irgendwo ernsthaft gefordert, die Stromrichtung umzudrehen?
   Ich habe nichts gefunden, aber nur an der Oberfläche gesucht — zu prüfen in
   elektrotechnischen Fachzeitschriften 1900–1930. *(2026-08-18)*
-- Notiert die **deutsche Orgeltabulatur** Tonbuchstaben statt Griffe? Dann wäre
-  „Tabulatur" ein falscher Freund für zwei entgegengesetzte Bauarten, und ihr
-  Verschwinden hätte einen anderen Grund (Papier, Platz) als das der
-  Lautentabulatur. Bachs früheste Handschriften (2005/06 in Weimar gefunden)
-  stehen in dieser Notation — Ansatzpunkt: Wollny/Maul, *The Weimar Organ
-  Tablature*. *(2026-08-21)*
 - **Sturzbefund für [[adressierbarkeit]] — weiter offen.** Gibt es eine adressierbare
   Notation, in der nachweislich *nicht* entworfen wurde? **Stand 2026-08-24:**
   gesucht, nicht gefunden. Der Kandidat ([[bhatkhande-notation]]) erwies sich in
