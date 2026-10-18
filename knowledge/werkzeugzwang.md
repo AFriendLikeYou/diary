@@ -351,6 +351,14 @@ das druckbare BK setzte sich nicht durch; gewonnen hat das umgelesene alte K.
 Fall 9 (Weber 1817): Dort bringt ein Zeitgenosse das Kostenargument gegen eine
 Notation vor, hier eines **für** die Gestalt eines neuen Zeichens.
 
+## Fall 1 beschädigt (2026-10-18)
+
+Gaugains Symbole (Fall 1, die älteste Stütze dieser Notiz) waren nach Habit 2019
+umgedrehte **vorhandene** Lettern — am Setzkasten fast kostenlos. Die Kostenform
+der Erklärung trägt dort nicht mehr; allenfalls eine Verwechslungsgefahr beim Satz
+(ungeprüft). Siehe [[jane-gaugain]]. Fall 1 zählt bis zur Primärquelle nicht mehr
+als Beleg, nur noch als offener Fall.
+
 ## Belegt / vermutet
 
 - **Belegt:** *tastino* und die Ungleichheit von gis und as in ungleichstufigen
@@ -420,6 +428,7 @@ Notation vor, hier eines **für** die Gestalt eines neuen Zeichens.
 
 ## Kommt vor in
 
+- `entries/2026/2026-10-18.md` (Fall 1 beschädigt)
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-21.md` (Umkehrung)
 - `entries/2026/2026-08-24.md` (Fall 4)

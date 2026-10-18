@@ -11,6 +11,9 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Erklärt Gaugains Schlüssel am Buchanfang auch die gedrehten Zeichen, und wie viele gedrehte Paare gibt es? Southampton-PDF (1840) lokal herunterladen statt abrufen. *(2026-10-18)*
+- Errata oder Folgeauflagen bei Gaugain: Korrekturen wegen falsch herum gesetzter Lettern? Entscheidet die Verwechslungs-Fassung von [[werkzeugzwang]] Fall 1. *(2026-10-18)*
+- Kennt eine andere Notation das Umdrehen eines Zeichens als Operation für „dasselbe, gespiegelt"? Muster oder Einzelfall? *(2026-10-18)*
 - An wie vielen Stellen im *Orgelbüchlein* wechselt Bach in die [[orgeltabulatur]], und immer nur am Seitenende? Primärquelle: Faksimile P 283. *(2026-10-17)*
 - Wurde die Orgeltabulatur nach 1645 handschriftlich ausdrücklich als Platz- oder Zeitersparnis begründet (Lehrbücher, Vorreden)? *(2026-10-17)*
 - Wollny/Maul, *The Weimar Organ Tablature*: bestätigt die Primärquelle die Datierung und Bachs Gebrauch? (übernommen aus gestrichenem Punkt vom 2026-08-21)
@@ -37,10 +40,6 @@ hängt mindestens zwei neue Fragen an.
   Hat die [[tabulatur]] beim Verschwinden der Modi und beim Aufkommen der
   Tonalität mitgewirkt, besonders in der Tanzmusik? Wenn ja, wäre das der stärkste
   Fall für Leitfrage 1 überhaupt. *(2026-08-21)*
-- Gaugains Symbolsystem mit den umgedrehten Buchstaben — ihre Bücher sind
-  digitalisiert vorhanden. Wie sahen die Zeichen aus, und hat sich ein
-  Zeitgenosse dazu geäußert? Entscheidet, ob [[werkzeugzwang]] hier belegt oder
-  nur plausibel ist. *(2026-08-20)*
 - Hat sich nach Walkers Diagrammbüchern (1972 ff.) die Zahl der veröffentlichten
   *Entwürfe* messbar erhöht? **Stand 2026-08-21:** dringlicher geworden. Die
   Machtfrage-Antwort in [[handlungs-vs-ergebnis-notation]] ist widerlegt und durch

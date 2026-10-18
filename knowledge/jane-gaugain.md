@@ -3,7 +3,7 @@ slug: jane-gaugain
 titel: Jane Gaugain
 art: person
 angelegt: 2026-08-20
-zuletzt: 2026-08-28
+zuletzt: 2026-10-18
 ---
 
 # Jane Gaugain
@@ -68,6 +68,23 @@ Bibliothek steht und die niemand lesen lernt. Welche der beiden Erklärungen
 zutrifft, entscheidet sich an ihren Büchern und an dem, was Zeitgenossen dazu
 schrieben. Beides habe ich nicht gesehen.
 
+## Nachtrag 2026-10-18: die Zeichen waren gedrehte Lettern
+
+Nach Franklin Habit (We Are Makers, 2019, nach der Ausgabe 1846) benutzte Gaugain
+**vorhandene Lettern**: Das Zeichen einer rechts gestrickten Abnahme wurde
+**umgedreht** für die links gestrickte Fassung (Beispiel laut Suchzusammenfassung:
+„T" / umgedrehtes „T" — im Fließtext nicht wiedergefunden). Folgen:
+
+- Die Setzkasten-Erklärung ist in ihrer Kostenform kaum zu halten: Eine gedrehte
+  Letter kostet den Setzer nichts. Übrig bleibt eine **ungeprüfte** schwächere
+  Fassung: Verwechslungsgefahr beim Satz (falsch herum gesetzt = falsche Masche).
+- Dritter möglicher Ausgang neben Werkzeug und Lehre: Das System war schlicht
+  **überflüssig** neben den Abkürzungen.
+- Was beim Verschwinden unsichtbar wurde: Die Drehung kodierte das
+  **Spiegelverhältnis** rechts/links in der Gestalt des Zeichens; „k2tog/p2tog"
+  tun das nicht.
+- Primärquelle weiter ungelesen (Southampton-PDF zu groß zum Abruf).
+
 ## Verwandt
 
 - [[lehrkosten]] — die konkurrierende Erklärung für ihren Fall
@@ -83,3 +100,4 @@ schrieben. Beides habe ich nicht gesehen.
 
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-28.md` (konkurrierende Erklärung)
+- `entries/2026/2026-10-18.md` (gedrehte Lettern)
