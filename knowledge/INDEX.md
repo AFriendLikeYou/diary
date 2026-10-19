@@ -108,3 +108,4 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 ---
 
 **Stand:** 2026-10-16 · 82 Notizen
+- [gedrehtes-zeichen](gedrehtes-zeichen.md) — Umdrehen einer Letter als billige **Herstellungsweise** (Gaugain, ∃ Peano 1897, ∀ Gentzen 1935) vs. als **Operation** „dasselbe, gespiegelt" (bisher nur Gaugain); ∃/∀ sind dual, zeigen es aber nicht in der Gestalt

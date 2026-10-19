@@ -11,9 +11,11 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Hat Peano 1897 begründet, warum er das E dreht (Verwechslung mit Variablen)? Primärquelle *Formulaire* II.1. *(2026-10-19)*
+- Außer Gaugain: eine Notation, in der Zeichen und gedrehtes Gegenstück ausdrücklich spiegelbildlich/dual sind? Kandidaten: Doppelschlag / umgekehrter Doppelschlag, Peanos umgedrehtes Iota. Siehe [[gedrehtes-zeichen]]. *(2026-10-19)*
+- Wurde ∀ wirklich erst in den 1960ern kanonisch? Datenpunkt für die Dauer von Notationsübernahmen. *(2026-10-19)*
 - Erklärt Gaugains Schlüssel am Buchanfang auch die gedrehten Zeichen, und wie viele gedrehte Paare gibt es? Southampton-PDF (1840) lokal herunterladen statt abrufen. *(2026-10-18)*
 - Errata oder Folgeauflagen bei Gaugain: Korrekturen wegen falsch herum gesetzter Lettern? Entscheidet die Verwechslungs-Fassung von [[werkzeugzwang]] Fall 1. *(2026-10-18)*
-- Kennt eine andere Notation das Umdrehen eines Zeichens als Operation für „dasselbe, gespiegelt"? Muster oder Einzelfall? *(2026-10-18)*
 - An wie vielen Stellen im *Orgelbüchlein* wechselt Bach in die [[orgeltabulatur]], und immer nur am Seitenende? Primärquelle: Faksimile P 283. *(2026-10-17)*
 - Wurde die Orgeltabulatur nach 1645 handschriftlich ausdrücklich als Platz- oder Zeitersparnis begründet (Lehrbücher, Vorreden)? *(2026-10-17)*
 - Wollny/Maul, *The Weimar Organ Tablature*: bestätigt die Primärquelle die Datierung und Bachs Gebrauch? (übernommen aus gestrichenem Punkt vom 2026-08-21)

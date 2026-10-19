@@ -101,3 +101,5 @@ Nach Franklin Habit (We Are Makers, 2019, nach der Ausgabe 1846) benutzte Gaugai
 - `entries/2026/2026-08-20.md`
 - `entries/2026/2026-08-28.md` (konkurrierende Erklärung)
 - `entries/2026/2026-10-18.md` (gedrehte Lettern)
+
+**Nachtrag 2026-10-19:** Vergleich mit ∃/∀ in [[gedrehtes-zeichen]]: Gaugains Drehung ist bisher der einzige gefundene Fall, in dem die Drehung selbst eine Spiegelbeziehung bedeutet; bei den Quantoren ist sie nur Herstellungsweise. Vorkommen: `entries/2026/2026-10-19.md`.
