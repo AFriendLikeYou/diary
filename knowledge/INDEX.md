@@ -107,5 +107,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-10-16 · 82 Notizen
+**Stand:** 2026-10-20 · 86 Notizen
 - [gedrehtes-zeichen](gedrehtes-zeichen.md) — Umdrehen einer Letter als billige **Herstellungsweise** (Gaugain, ∃ Peano 1897, ∀ Gentzen 1935) vs. als **Operation** „dasselbe, gespiegelt" (bisher nur Gaugain); ∃/∀ sind dual, zeigen es aber nicht in der Gestalt
+- [doppelschlag](doppelschlag.md) — Musikverzierung; Umkehrung meist per senkrechtem Strich, seltener gedreht: zweiter Fall der bedeutungstragenden Drehung, aber als Nebenform (2026-10-20)
+- [durchgestrichenes-zeichen](durchgestrichenes-zeichen.md) — Variante per Vermerk statt Gestalt; lesbarer, aber sagt nur „das andere", nicht die Richtung (Mordent: SMuFL/MusicXML-Widerspruch, ungeprüft) (2026-10-20)

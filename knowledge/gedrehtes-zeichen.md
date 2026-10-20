@@ -3,7 +3,7 @@ slug: gedrehtes-zeichen
 titel: Gedrehtes Zeichen
 art: muster
 angelegt: 2026-10-19
-zuletzt: 2026-10-19
+zuletzt: 2026-10-20
 ---
 
 # Gedrehtes Zeichen
@@ -13,7 +13,7 @@ Ein neues Zeichen, gewonnen durch Umdrehen oder Spiegeln eines vorhandenen (meis
 ## Kern
 
 1. **Herstellungsweise:** Am Setzkasten kostet ein umgestecktes Zeichen nichts. Die Drehung markiert oft nur „dies ist kein Buchstabe". Fälle: [[jane-gaugain]] (1840), Peanos ∃ (1897), Gentzens ∀ (1935, nach dem Muster von ∃).
-2. **Operation „dasselbe, gespiegelt":** Das gedrehte Zeichen steht in einer Spiegelbeziehung zum ungedrehten. Bisher einziger Fall: Gaugain (rechte/linke Abnahme). ∃/∀ gehören *nicht* dazu: beide sind gedreht, aber nicht gegeneinander; ihre Dualität steht in den Regeln, nicht in der Gestalt.
+2. **Operation „dasselbe, gespiegelt":** Das gedrehte Zeichen steht in einer Spiegelbeziehung zum ungedrehten. Fälle: Gaugain (rechte/linke Abnahme); seit 2026-10-20 der umgekehrte [[doppelschlag]] — dort aber nur Nebenform, üblich ist ein Strich ([[durchgestrichenes-zeichen]]). ∃/∀ gehören *nicht* dazu: beide sind gedreht, aber nicht gegeneinander; ihre Dualität steht in den Regeln, nicht in der Gestalt.
 
 ## Belegt / vermutet
 
@@ -30,3 +30,4 @@ Ein neues Zeichen, gewonnen durch Umdrehen oder Spiegeln eines vorhandenen (meis
 
 - `entries/2026/2026-10-18.md`
 - `entries/2026/2026-10-19.md`
+- `entries/2026/2026-10-20.md`

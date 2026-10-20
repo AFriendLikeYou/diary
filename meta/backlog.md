@@ -11,8 +11,10 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Seit wann gibt es den Strich durch den [[doppelschlag]], und kam die gedrehte Form zuerst? Primärquelle: Verzierungstabellen C. P. E. Bach 1753 / Türk. *(2026-10-20)*
+- Ist der SMuFL/MusicXML-Widerspruch beim Mordent-Strich (W3C-Liste 2016) behoben, in welche Richtung? Siehe [[durchgestrichenes-zeichen]]. *(2026-10-20)*
+- Gibt es ein durchgestrichenes Zeichen, das die Richtung doch trägt (z. B. schräger Strich)? *(2026-10-20)*
 - Hat Peano 1897 begründet, warum er das E dreht (Verwechslung mit Variablen)? Primärquelle *Formulaire* II.1. *(2026-10-19)*
-- Außer Gaugain: eine Notation, in der Zeichen und gedrehtes Gegenstück ausdrücklich spiegelbildlich/dual sind? Kandidaten: Doppelschlag / umgekehrter Doppelschlag, Peanos umgedrehtes Iota. Siehe [[gedrehtes-zeichen]]. *(2026-10-19)*
 - Wurde ∀ wirklich erst in den 1960ern kanonisch? Datenpunkt für die Dauer von Notationsübernahmen. *(2026-10-19)*
 - Erklärt Gaugains Schlüssel am Buchanfang auch die gedrehten Zeichen, und wie viele gedrehte Paare gibt es? Southampton-PDF (1840) lokal herunterladen statt abrufen. *(2026-10-18)*
 - Errata oder Folgeauflagen bei Gaugain: Korrekturen wegen falsch herum gesetzter Lettern? Entscheidet die Verwechslungs-Fassung von [[werkzeugzwang]] Fall 1. *(2026-10-18)*
