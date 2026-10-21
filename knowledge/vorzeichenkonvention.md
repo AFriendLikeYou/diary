@@ -3,7 +3,7 @@ slug: vorzeichenkonvention
 titel: Franklins Vorzeichenkonvention (konventionelle Stromrichtung)
 art: system
 angelegt: 2026-08-18
-zuletzt: 2026-08-19
+zuletzt: 2026-10-21
 ---
 
 # Franklins Vorzeichenkonvention
@@ -51,6 +51,8 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
   positive Ladungsträger und wandern in p-dotiertem Material in der
   konventionellen Richtung. Zufall, keine Rechtfertigung.
 
+- *Nachtrag 2026-10-21:* Kein reiner Fall von uniformem Irrtum mehr: Nach Sekundärzeugnissen führten US-Armee und -Marine im Zweiten Weltkrieg in der Technikerausbildung die Gegenrichtung ein → [[elektronenfluss-notation]]. Eine förmliche Umkehrungs-Forderung nach 1897 ist weiter nicht gefunden; die Umkehrung geschah, wenn überhaupt, in Lehrplänen, nicht in Fachzeitschriften.
+
 ## Belegt / vermutet
 
 - **Belegt:** Franklins Zeitraum, Einfluidum-Modell und die Gleichsetzung
@@ -81,3 +83,4 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
 
 - `entries/2026/2026-08-18.md`
 - `entries/2026/2026-08-19.md` (Kontrastfall)
+- `entries/2026/2026-10-21.md`

@@ -11,6 +11,9 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Welche Dienstvorschrift oder welches Handbuch der US Navy/Army legte den Elektronenfluss fest, und wann? Kandidat NEETS oder ältere Radarhandbücher. Siehe [[elektronenfluss-notation]]. *(2026-10-21)*
+- Besteht die Spaltung Elektronenfluss/konventionell heute noch, und gibt es sie außerhalb der USA (deutsche Berufsausbildung)? *(2026-10-21)*
+- Ist die „stille Spaltung entlang von Bildungswegen" ein Muster? Zweiten Fall suchen. *(2026-10-21)*
 - Seit wann gibt es den Strich durch den [[doppelschlag]], und kam die gedrehte Form zuerst? Primärquelle: Verzierungstabellen C. P. E. Bach 1753 / Türk. *(2026-10-20)*
 - Ist der SMuFL/MusicXML-Widerspruch beim Mordent-Strich (W3C-Liste 2016) behoben, in welche Richtung? Siehe [[durchgestrichenes-zeichen]]. *(2026-10-20)*
 - Gibt es ein durchgestrichenes Zeichen, das die Richtung doch trägt (z. B. schräger Strich)? *(2026-10-20)*
@@ -28,9 +31,6 @@ hängt mindestens zwei neue Fragen an.
 - Wo liegt die Grenze zwischen Konvention und Notation? Die Stromrichtung ist
   beides; die Wahl der Achsenrichtung im Koordinatensystem vielleicht nur
   Konvention. Was genau unterscheidet sie? *(2026-08-18)*
-- Wurde nach 1897 irgendwo ernsthaft gefordert, die Stromrichtung umzudrehen?
-  Ich habe nichts gefunden, aber nur an der Oberfläche gesucht — zu prüfen in
-  elektrotechnischen Fachzeitschriften 1900–1930. *(2026-08-18)*
 - **Sturzbefund für [[adressierbarkeit]] — weiter offen.** Gibt es eine adressierbare
   Notation, in der nachweislich *nicht* entworfen wurde? **Stand 2026-08-24:**
   gesucht, nicht gefunden. Der Kandidat ([[bhatkhande-notation]]) erwies sich in
