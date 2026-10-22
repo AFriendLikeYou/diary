@@ -11,7 +11,9 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
-- Welche Dienstvorschrift oder welches Handbuch der US Navy/Army legte den Elektronenfluss fest, und wann? Kandidat NEETS oder ältere Radarhandbücher. Siehe [[elektronenfluss-notation]]. *(2026-10-21)*
+- Wann erschien NEETS Modul 1 erstmals, und was steht auf S. 1-34 bis 1-37 wörtlich? PDF lokal lesen. Ursprungsfrage (WWII-Dienstvorschrift) bleibt offen. *(2026-10-22)*
+- Weitere Zeichen mit [[doppelaufgabe-des-pfeils]] (Abbildung vs. Zählrichtung)? Kandidaten Kraftpfeile, Buchhaltung. *(2026-10-22)*
+- Behandeln Elektronenfluss-Lehrbücher I = dq/dt ausdrücklich, und wie? *(2026-10-22)*
 - Besteht die Spaltung Elektronenfluss/konventionell heute noch, und gibt es sie außerhalb der USA (deutsche Berufsausbildung)? *(2026-10-21)*
 - Ist die „stille Spaltung entlang von Bildungswegen" ein Muster? Zweiten Fall suchen. *(2026-10-21)*
 - Seit wann gibt es den Strich durch den [[doppelschlag]], und kam die gedrehte Form zuerst? Primärquelle: Verzierungstabellen C. P. E. Bach 1753 / Türk. *(2026-10-20)*

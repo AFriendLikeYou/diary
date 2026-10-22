@@ -3,7 +3,7 @@ slug: elektronenfluss-notation
 titel: Elektronenfluss-Notation (electron flow)
 art: system
 angelegt: 2026-10-21
-zuletzt: 2026-10-21
+zuletzt: 2026-10-22
 ---
 
 # Elektronenfluss-Notation
@@ -32,3 +32,4 @@ Die Lesart, Strom in Pfeilen und Erklärungen von Minus nach Plus laufen zu lass
 ## Kommt vor in
 
 - `entries/2026/2026-10-21.md`
+- `entries/2026/2026-10-22.md` — NEETS-Spur dünn; Pfeil gedreht, Ladungsvorzeichen nicht → [[doppelaufgabe-des-pfeils]]
