@@ -11,8 +11,10 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Buchhaltung (Soll/Haben, T-Konto): wird eine Richtung gelehrt, und kommt dort zuerst das Bild oder die Zählung? Prüffall für den Vorschlag in [[doppelaufgabe-des-pfeils]]. *(2026-10-27)*
+- Benutzen EN-Normen das Erzeuger- und VDE-Normen das Verbraucherzählpfeilsystem (bisher nur Beckhoff)? Zweiter Fall einer stillen Spaltung, entlang von Normengremien? Siehe [[zaehlpfeil]]. *(2026-10-27)*
+- Seit wann gibt es das Wort „Zählpfeil“, und hat das Englische ein ebenso deutliches Gegenstück (IEC 60375)? *(2026-10-27)*
 - Wann erschien NEETS Modul 1 erstmals, und was steht auf S. 1-34 bis 1-37 wörtlich? PDF lokal lesen. Ursprungsfrage (WWII-Dienstvorschrift) bleibt offen. *(2026-10-22)*
-- Weitere Zeichen mit [[doppelaufgabe-des-pfeils]] (Abbildung vs. Zählrichtung)? Kandidaten Kraftpfeile, Buchhaltung. *(2026-10-22)*
 - Behandeln Elektronenfluss-Lehrbücher I = dq/dt ausdrücklich, und wie? *(2026-10-22)*
 - Besteht die Spaltung Elektronenfluss/konventionell heute noch, und gibt es sie außerhalb der USA (deutsche Berufsausbildung)? *(2026-10-21)*
 - Ist die „stille Spaltung entlang von Bildungswegen" ein Muster? Zweiten Fall suchen. *(2026-10-21)*

@@ -60,8 +60,9 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 - [verkehrszeichen](verkehrszeichen.md) — die einzige Notation hier, deren Lesefähigkeit staatlich geprüft wird; Form und Farbe kodieren die Klasse (AASHO 1927, Wien 1968), und das MUTCD stellte 1978 die Worterklärung neben dem Symbol auf Dauer
 - [vortragsbezeichnung](vortragsbezeichnung.md) — `f`, `p`, `Allegro`: das Zeichen steht an der Stelle eines Werts, den nie jemand geschrieben hat; 1817 verpflichteten sich Beethoven und dreißig andere öffentlich, ihn hinzuschreiben, und taten es nicht — heute erfindet ihn das Notensatzprogramm (`f` = 96 von 127); seit 2026-10-11 mit einem Vergleichsfall aus der Tabellenkalkulation: Multiplans Import setzt die nie geschriebene Relativität von VisiCalc-Bezügen ([[bezugsschreibweise]])
 - [vorzeichenkonvention](vorzeichenkonvention.md) — Franklins Münzwurf von 1747; seit 1897 nachweislich falsch, seither unverändert in Gebrauch
-- [doppelaufgabe-des-pfeils](doppelaufgabe-des-pfeils.md) — Pfeil als Abbildung vs. Zählrichtung; fallen bei Franklin zusammen, im Elektronenfluss auseinander
+- [doppelaufgabe-des-pfeils](doppelaufgabe-des-pfeils.md) — Pfeil als Abbildung vs. Zählrichtung; fallen bei Franklin zusammen, im Elektronenfluss auseinander; seit 2026-10-27 zweiter Fall (Schnittprinzip der Mechanik) als Gegenfall — Vorschlag: kostet nur, wo die Lehre kein Wort für die Zählaufgabe hat ([[zaehlpfeil]])
 - [elektronenfluss-notation](elektronenfluss-notation.md) — Gegenrichtung in der US-Technikerausbildung seit WWII; stille Spaltung entlang von Bildungswegen, schwach belegt
+- [zaehlpfeil](zaehlpfeil.md) — der Pfeil, dessen Name sagt, dass er nur zählt (DIN 5489, VZS/EZS); Gegenstück Schnittprinzip: Kraftpfeil als Annahme, das Vorzeichen urteilt, die Zeichnung bleibt (2026-10-27)
 - [webplan](webplan.md) — der erste Fall dieser Basis, in dem die **Naht zwischen zwei Notationen ein Ort ist und kein Zeichen**: vier Kästchengitter (Einzug · Schnürung · Trittfolge · Gewebebild), und dieselbe Spalte ist in allen derselbe Kettfaden. Die Regel steht in keiner der gelesenen Anleitungen ausgeschrieben — eine Naht aus einem Ort muss nicht erklärt und wird deshalb nicht normiert. Das vierte Feld ist gerechnet und entbehrlich (`is not in fact essential`), am Dobby-Stuhl fallen es und die Schnürung weg: **wie viele Notationen das Haus hat, entscheidet der Webstuhl**. Merkfall: dasselbe ausgefüllte Kästchen heißt schwedisch *senkt sich*, nordamerikanisch *hebt sich* — kein Schlüssel auf dem Blatt; WIF (1997) macht daraus die Zeile `Rising shed=yes`
 
 ## Muster
@@ -109,7 +110,7 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-10-20 · 86 Notizen
+**Stand:** 2026-10-27 · 89 Notizen
 - [gedrehtes-zeichen](gedrehtes-zeichen.md) — Umdrehen einer Letter als billige **Herstellungsweise** (Gaugain, ∃ Peano 1897, ∀ Gentzen 1935) vs. als **Operation** „dasselbe, gespiegelt" (bisher nur Gaugain); ∃/∀ sind dual, zeigen es aber nicht in der Gestalt
 - [doppelschlag](doppelschlag.md) — Musikverzierung; Umkehrung meist per senkrechtem Strich, seltener gedreht: zweiter Fall der bedeutungstragenden Drehung, aber als Nebenform (2026-10-20)
 - [durchgestrichenes-zeichen](durchgestrichenes-zeichen.md) — Variante per Vermerk statt Gestalt; lesbarer, aber sagt nur „das andere", nicht die Richtung (Mordent: SMuFL/MusicXML-Widerspruch, ungeprüft) (2026-10-20)

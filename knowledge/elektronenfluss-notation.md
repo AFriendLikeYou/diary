@@ -33,3 +33,4 @@ Die Lesart, Strom in Pfeilen und Erklärungen von Minus nach Plus laufen zu lass
 
 - `entries/2026/2026-10-21.md`
 - `entries/2026/2026-10-22.md` — NEETS-Spur dünn; Pfeil gedreht, Ladungsvorzeichen nicht → [[doppelaufgabe-des-pfeils]]
+- `entries/2026/2026-10-27.md` (Zählpfeil als Wort für die Zählaufgabe)

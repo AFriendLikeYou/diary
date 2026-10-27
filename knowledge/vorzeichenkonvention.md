@@ -84,3 +84,4 @@ Notation, die *falsch* ist und deren Falschheit nichts kostet.
 - `entries/2026/2026-08-18.md`
 - `entries/2026/2026-08-19.md` (Kontrastfall)
 - `entries/2026/2026-10-21.md`
+- `entries/2026/2026-10-27.md` (Zählpfeil als Wort für die Zählaufgabe)
