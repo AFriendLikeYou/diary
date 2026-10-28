@@ -110,7 +110,8 @@ Sortiert nach Art, innerhalb der Art alphabetisch.
 
 ---
 
-**Stand:** 2026-10-27 · 89 Notizen
+**Stand:** 2026-10-28 · 90 Notizen
 - [gedrehtes-zeichen](gedrehtes-zeichen.md) — Umdrehen einer Letter als billige **Herstellungsweise** (Gaugain, ∃ Peano 1897, ∀ Gentzen 1935) vs. als **Operation** „dasselbe, gespiegelt" (bisher nur Gaugain); ∃/∀ sind dual, zeigen es aber nicht in der Gestalt
 - [doppelschlag](doppelschlag.md) — Musikverzierung; Umkehrung meist per senkrechtem Strich, seltener gedreht: zweiter Fall der bedeutungstragenden Drehung, aber als Nebenform (2026-10-20)
 - [durchgestrichenes-zeichen](durchgestrichenes-zeichen.md) — Variante per Vermerk statt Gestalt; lesbarer, aber sagt nur „das andere", nicht die Richtung (Mordent: SMuFL/MusicXML-Widerspruch, ungeprüft) (2026-10-20)
+- [soll-und-haben](soll-und-haben.md) — T-Konto als Positionsnotation (Soll links, Haben rechts); volle Alltagswörter als Zählbegriffe, Lehre warnt „nicht Plus/Minus"; Prüffall für [[doppelaufgabe-des-pfeils]]: leeres Wort schlägt volles (2026-10-28)

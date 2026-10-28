@@ -11,7 +11,9 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
-- Buchhaltung (Soll/Haben, T-Konto): wird eine Richtung gelehrt, und kommt dort zuerst das Bild oder die Zählung? Prüffall für den Vorschlag in [[doppelaufgabe-des-pfeils]]. *(2026-10-27)*
+- Kommen Soll und Haben aus dare/avere, und meinten sie ursprÃ¼nglich Personen (Schuldner/GlÃ¤ubiger)? Wurden sie erst mit Sachkonten âfalsch"? Siehe [[soll-und-haben]]. *(2026-10-28)*
+- Steht ein Guthaben auf dem Kontoauszug wirklich im Haben, und erklÃ¤ren LehrbÃ¼cher den Standpunktwechsel ausdrÃ¼cklich? *(2026-10-28)*
+- Zweiter Fall: ein volles Alltagswort als ZÃ¤hlbegriff, gegen dessen Bild die Lehre anschreiben muss? PrÃ¼ft âleeres Wort schlÃ¤gt volles" in [[doppelaufgabe-des-pfeils]]. *(2026-10-28)*
 - Benutzen EN-Normen das Erzeuger- und VDE-Normen das Verbraucherzählpfeilsystem (bisher nur Beckhoff)? Zweiter Fall einer stillen Spaltung, entlang von Normengremien? Siehe [[zaehlpfeil]]. *(2026-10-27)*
 - Seit wann gibt es das Wort „Zählpfeil“, und hat das Englische ein ebenso deutliches Gegenstück (IEC 60375)? *(2026-10-27)*
 - Wann erschien NEETS Modul 1 erstmals, und was steht auf S. 1-34 bis 1-37 wörtlich? PDF lokal lesen. Ursprungsfrage (WWII-Dienstvorschrift) bleibt offen. *(2026-10-22)*

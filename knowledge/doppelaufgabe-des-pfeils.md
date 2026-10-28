@@ -3,7 +3,7 @@ slug: doppelaufgabe-des-pfeils
 titel: Doppelaufgabe des Pfeils (Abbildung vs. Zählrichtung)
 art: muster
 angelegt: 2026-10-22
-zuletzt: 2026-10-27
+zuletzt: 2026-10-28
 ---
 
 # Doppelaufgabe des Pfeils
@@ -21,7 +21,7 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 - **Belegt (schwach):** Forumsthread zu NEETS mit genau dieser Frage (nur Suchzusammenfassung).
 - **Nachtrag 2026-10-27 — zweiter Fall, und er ist der Gegenfall:** Im Schnittprinzip der Mechanik ist der Pfeil ausdrücklich eine Annahme („Zug positiv“). Kommt N negativ heraus, ist es Druck, und die Zeichnung bleibt stehen. Damit eine dritte Stellung neben Abbildung und Zählrichtung: **Bild im Konjunktiv**, über das das Vorzeichen urteilt (ob wirklich etwas Drittes oder nur freundlich gezeichnete Zählrichtung: offen). Dazu das deutsche Fachwort [[zaehlpfeil]], das die Zählaufgabe im Namen trägt. Belege nur über Suchzusammenfassungen von Lehrunterlagen.
 - **Vorschlag (n=3, alle sekundär):** Die Doppelaufgabe kostet nur dort, wo die Lehre kein Wort für die zweite Aufgabe hat oder das Bild vor der Zählung lehrt.
-- **Vermutet:** Buchhaltung (Soll/Haben) als weiterer Fall. Ungeprüft.
+- **Nachtrag 2026-10-28 — Buchhaltung:** [[soll-und-haben]] ist eine Positionsnotation, die Lehre beginnt mit der Zählung, aber die Wörter tragen ein Alltagsbild (Pflicht/Besitz), gegen das jede Einführung anschreibt („nicht Plus und Minus"). Vorschlag umgebaut: Nicht *ein* Wort für die Zählaufgabe senkt die Kosten, sondern ein **leeres** Wort wie [[zaehlpfeil]]. n=4, alle sekundär.
 
 ## Verwandt
 
@@ -31,3 +31,4 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 
 - `entries/2026/2026-10-22.md`
 - `entries/2026/2026-10-27.md`
+- `entries/2026/2026-10-28.md`
