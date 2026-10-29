@@ -11,8 +11,10 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
-- Kommen Soll und Haben aus dare/avere, und meinten sie ursprünglich Personen (Schuldner/Gläubiger)? Wurden sie erst mit Sachkonten „falsch"? Siehe [[soll-und-haben]]. *(2026-10-28)*
-- Steht ein Guthaben auf dem Kontoauszug wirklich im Haben, und erklären Lehrbücher den Standpunktwechsel ausdrücklich? *(2026-10-28)*
+- Wann und wo gab die Buchhaltungslehre die Personifikation auf und erklärte Soll/Haben für leer? Lehrbuchwechsel suchen, an dem man das sieht. Siehe [[kontenpersonifikation]]. *(2026-10-29)*
+- Ist [[kontenpersonifikation]] ein Muster? Zweiten Fall suchen: eine Notation, die einen neuen Gegenstand zur alten Sorte erklärt, statt ihr Zeichen umzulesen ([[umlesung]]). *(2026-10-29)*
+- Pacioli 1494 und Geijsbeek 1914 im Text lesen (Digitalisat lokal statt Suchzusammenfassung): steht „Per"/„A" so im Journal, und wie begründet Geijsbeek „shall give / shall have"? Dazu Dafforne im Original, mit Jahr. *(2026-10-29)*
+- Zeigt ein deutscher Kontoauszug Guthaben im Haben, und erklären deutsche Lehrbücher den Standpunkt der Bank ausdrücklich? (englisch belegt, 2026-10-29) *(2026-10-28)*
 - Zweiter Fall: ein volles Alltagswort als Zählbegriff, gegen dessen Bild die Lehre anschreiben muss? Prüft „leeres Wort schlägt volles" in [[doppelaufgabe-des-pfeils]]. *(2026-10-28)*
 - Benutzen EN-Normen das Erzeuger- und VDE-Normen das Verbraucherzählpfeilsystem (bisher nur Beckhoff)? Zweiter Fall einer stillen Spaltung, entlang von Normengremien? Siehe [[zaehlpfeil]]. *(2026-10-27)*
 - Seit wann gibt es das Wort „Zählpfeil“, und hat das Englische ein ebenso deutliches Gegenstück (IEC 60375)? *(2026-10-27)*

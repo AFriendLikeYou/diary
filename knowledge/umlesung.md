@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-10-14
+zuletzt: 2026-10-29
 ---
 
 # Umlesung
@@ -120,6 +120,9 @@ trotzdem zweideutig.
   1024; Deckung nur mit Toleranz, und ein zweiter Erzwingungsweg (Leserkreis)
 - [[bezugsschreibweise]] — Fall 5, mit Vermerk: `C4` von der Zelle zum Weg
   dorthin (VisiCalc → Lotus 1-2-3); Deckungsbedingung nicht angewandt
+- [[kontenpersonifikation]] — Gegenbewegung (2026-10-29): statt das Zeichen
+  umzulesen, erklärt die Lehre den neuen Gegenstand zur alten Sorte (die Kasse
+  als Person); kein Fall von Umlesung, ausdrücklich abgegrenzt
 
 ## Kommt vor in
 
