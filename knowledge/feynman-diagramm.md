@@ -3,7 +3,7 @@ slug: feynman-diagramm
 titel: Feynman-Diagramm
 art: system
 angelegt: 2026-08-28
-zuletzt: 2026-08-28
+zuletzt: 2026-10-30
 ---
 
 # Feynman-Diagramm
@@ -77,6 +77,7 @@ Unterricht gewonnen.
 - **Nicht gelesen:** Kaisers Buch *Drawing Theories Apart* (2005) selbst. Alle
   Angaben stammen aus seinem Zeitschriftenaufsatz und dem gemeinsamen Aufsatz mit
   Ito und Hall, beide vollständig gelesen.
+- **Nachtrag 2026-10-30 — das Positron hat kein eigenes Zeichen:** Es ist die Elektronenlinie mit umgekehrtem Pfeil, nach der Stückelberg-Feynman-Deutung ein rückwärts laufendes Elektron ([[rueckwaerts-laufendes-elektron]]; Feynman, *The Theory of Positrons*, Phys. Rev. 76, 1949). Zweiter Fall der [[kontenpersonifikation]]. Die Pfeilkonvention selbst ist aus dem Gedächtnis.
 
 ## Verwandt
 
@@ -88,7 +89,9 @@ Unterricht gewonnen.
 - [[stanislao-cannizzaro]] — dieselbe Figur wie Dyson: geordnet, nicht erfunden
 - [[handlungs-vs-ergebnis-notation]] — das Diagramm notiert weder Handlung noch
   Ergebnis, sondern einen Rechenweg; ein noch ungeprüfter dritter Gegenstand
+- [[rueckwaerts-laufendes-elektron]] — wie das Diagramm das Antiteilchen schreibt
 
 ## Kommt vor in
 
 - `entries/2026/2026-08-28.md`
+- `entries/2026/2026-10-30.md`

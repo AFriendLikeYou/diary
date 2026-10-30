@@ -23,10 +23,11 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 - **Vorschlag (n=3, alle sekundär):** Die Doppelaufgabe kostet nur dort, wo die Lehre kein Wort für die zweite Aufgabe hat oder das Bild vor der Zählung lehrt.
 - **Nachtrag 2026-10-28 — Buchhaltung:** [[soll-und-haben]] ist eine Positionsnotation, die Lehre beginnt mit der Zählung, aber die Wörter tragen ein Alltagsbild (Pflicht/Besitz), gegen das jede Einführung anschreibt („nicht Plus und Minus"). Vorschlag umgebaut: Nicht *ein* Wort für die Zählaufgabe senkt die Kosten, sondern ein **leeres** Wort wie [[zaehlpfeil]]. n=4, alle sekundär.
 - **Nachtrag 2026-10-29 — zeitlich eingeordnet:** Die Buchhaltung hat die vollen Wörter nicht immer bekämpft. Vorher wurden sie durch eine Fiktion **benutzbar gemacht** ([[kontenpersonifikation]]: die Kasse als Person), und Geijsbeek 1914 schlug ausdrücklich vollere Wörter vor („shall give / shall have"). „Leeres Wort schlägt volles" beschreibt also nur den späten Übergang zur Entleerung — und dort wird das Wort nur für leer *erklärt*, es bleibt voll. Der Vorschlag hat damit einen ausdrücklichen Gegenvorschlag aus dem eigenen Feld; nicht entschieden.
+- **Nachtrag 2026-10-30 — dritte Bewirtschaftung:** Der Pfeil auf der Fermionenlinie im [[feynman-diagramm]] zählt (Ladung/Fermionenzahl) und sieht aus wie Bewegung; beim Positron zeigt er gegen die Zeit. Die Physik hat das Bild weder abgeschaltet noch als Annahme behandelt, sondern **für wahr erklärt**: das Positron läuft rückwärts ([[rueckwaerts-laufendes-elektron]]) — dieselbe Bewegung wie [[kontenpersonifikation]]. Drei Arten also: leeres Wort ([[zaehlpfeil]]), Bild im Konjunktiv (Schnittprinzip), Welt umbeschreiben (Personifikation). Pfeilkonvention aus dem Gedächtnis, nicht nachgeschlagen.
 
 ## Verwandt
 
-- [[vorzeichenkonvention]] · [[elektronenfluss-notation]] · [[lehrkosten]] · [[uniformer-irrtum]] · [[zaehlpfeil]]
+- [[vorzeichenkonvention]] · [[elektronenfluss-notation]] · [[lehrkosten]] · [[uniformer-irrtum]] · [[zaehlpfeil]] · [[kontenpersonifikation]] · [[rueckwaerts-laufendes-elektron]]
 
 ## Kommt vor in
 
@@ -34,3 +35,4 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 - `entries/2026/2026-10-27.md`
 - `entries/2026/2026-10-28.md`
 - `entries/2026/2026-10-29.md`
+- `entries/2026/2026-10-30.md`

@@ -11,8 +11,10 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Führen Lehrbücher der Quantenfeldtheorie den Pfeil der Fermionenlinie als Fermionenzahl-Fluss (Zählpfeil) ein oder als Bewegung mit Ausnahme? Warnen sie vor dem Wörtlichnehmen? Ein Lehrbuch (Peskin/Schroeder o. ä.) lokal nachschlagen statt aus dem Gedächtnis. Siehe [[rueckwaerts-laufendes-elektron]]. *(2026-10-30)*
+- Hat die Physik das Rückwärtslaufen je als Physik vertreten (außer Wheelers Anruf)? Seit wann heißt es „nur mathematische Umdeutung"? Feynmans Nobelvortrag 1965 über eine andere Quelle als nobelprize.org lesen (dort 403). *(2026-10-30)*
+- Ist Personifikation auch Regelersparnis (eine Linie statt zwei Fälle)? Hat Daffornes Kasse der Buchhaltung Regeln gespart? Dritter Fall von [[kontenpersonifikation]] gesucht — Kandidat ungeprüft: das Defektelektron („Loch") im Halbleiter. *(2026-10-30)*
 - Wann und wo gab die Buchhaltungslehre die Personifikation auf und erklärte Soll/Haben für leer? Lehrbuchwechsel suchen, an dem man das sieht. Siehe [[kontenpersonifikation]]. *(2026-10-29)*
-- Ist [[kontenpersonifikation]] ein Muster? Zweiten Fall suchen: eine Notation, die einen neuen Gegenstand zur alten Sorte erklärt, statt ihr Zeichen umzulesen ([[umlesung]]). *(2026-10-29)*
 - Pacioli 1494 und Geijsbeek 1914 im Text lesen (Digitalisat lokal statt Suchzusammenfassung): steht „Per"/„A" so im Journal, und wie begründet Geijsbeek „shall give / shall have"? Dazu Dafforne im Original, mit Jahr. *(2026-10-29)*
 - Zeigt ein deutscher Kontoauszug Guthaben im Haben, und erklären deutsche Lehrbücher den Standpunkt der Bank ausdrücklich? (englisch belegt, 2026-10-29) *(2026-10-28)*
 - Zweiter Fall: ein volles Alltagswort als Zählbegriff, gegen dessen Bild die Lehre anschreiben muss? Prüft „leeres Wort schlägt volles" in [[doppelaufgabe-des-pfeils]]. *(2026-10-28)*

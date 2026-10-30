@@ -3,7 +3,7 @@ slug: kontenpersonifikation
 titel: Kontenpersonifikation (die Kasse als Mensch)
 art: muster
 angelegt: 2026-10-29
-zuletzt: 2026-10-29
+zuletzt: 2026-10-30
 ---
 
 # Kontenpersonifikation (die Kasse als Mensch)
@@ -17,7 +17,9 @@ Wenn eine Notation für Personen gebaut ist und auf Sachen ausgedehnt wird, kann
 - Drei Stufen bei [[soll-und-haben]] (Rekonstruktion, nicht datiert): (1) Personenwörter für Personenkonten; (2) Personenwörter, Sachen zu Personen erklärt; (3) Wörter für leer erklärt („technische Termini"), Warnung „nicht Plus/Minus". Der Vorschlag „leeres Wort schlägt volles" ([[doppelaufgabe-des-pfeils]]) beschreibt nur den Übergang 2 → 3 — und dort wird das Wort nicht geleert, sondern nur für leer erklärt.
 - Ausdrücklicher Gegenvorschlag zur Entleerung: Geijsbeek 1914 will „shall give / shall have" und die Personifikation „in the proper way".
 - Am Kontoauszug ist die Personifikation keine Fiktion: die Bank ist wirklich ein Schuldner — nur vom Standpunkt der Bank aus (vgl. Standpunktsysteme beim [[zaehlpfeil]]).
-- n=1 Feld. Ob es ein Muster ist, hängt an einem zweiten Fall.
+- ~~n=1 Feld~~ **Seit 2026-10-30 n=2 Felder:** zweiter Fall in der Physik, [[rueckwaerts-laufendes-elektron]] — das Positron wird zum Elektron erklärt, das rückwärts in der Zeit läuft; es bekommt kein eigenes Zeichen, nur den umgekehrten Pfeil. Wheeler (1940, Anruf) trug die Fiktion als Wirklichkeit vor, Dafforne als Als-ob.
+- **Verbindung zur [[doppelaufgabe-des-pfeils]] (Vorschlag, n=2):** Beide Fälle sind bildtragende Zählzeichen (Soll = Zählposition mit Schuld-Bild; Fermionenpfeil = Zählrichtung mit Bewegungs-Bild). Personifikation ist die dritte Art, sie zu bewirtschaften: nicht Bild abschalten (leeres Wort, [[zaehlpfeil]]), nicht Bild als Annahme (Schnittprinzip), sondern **die Welt so umbeschreiben, dass das Bild stimmt**. Einzige der drei, bei der das Zeichen weder geändert noch entschuldigt wird.
+- Unterschied, offen: bei Feynman spart die Fiktion vermutlich auch Regeln (eine Linie statt zwei Fälle); ob Daffornes Kasse Regeln sparte, ungeprüft.
 
 ## Belegt / vermutet
 
@@ -31,7 +33,9 @@ Wenn eine Notation für Personen gebaut ist und auf Sachen ausgedehnt wird, kann
 - [[doppelaufgabe-des-pfeils]] — der Vorschlag „leeres Wort", hier zeitlich eingeordnet
 - [[lehrkosten]] — die Fiktion als Lehrposten
 - [[zaehlpfeil]] — Standpunkt bestimmt das Vorzeichen
+- [[rueckwaerts-laufendes-elektron]] — zweiter Fall, Physik
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-29.md`
+- `entries/2026/2026-10-30.md`
