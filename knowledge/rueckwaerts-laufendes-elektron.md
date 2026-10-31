@@ -31,7 +31,9 @@ Die Deutung, nach der ein Positron ein Elektron ist, das in der Zeit rückwärts
 - [[feynman-diagramm]] — die Notation
 - [[zaehlpfeil]] — die Gegenlösung: Bild durch leeres Wort abschalten
 - [[umlesung]] — die Abgrenzung
+- [[defektelektron]] — Diracs Loch (um 1930, zuerst als Proton) war die erste Personifikation des Positrons, diese hier die zweite
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-30.md`
+- `entries/2026/2026-10-31.md`

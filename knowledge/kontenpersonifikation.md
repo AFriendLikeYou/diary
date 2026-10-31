@@ -3,7 +3,7 @@ slug: kontenpersonifikation
 titel: Kontenpersonifikation (die Kasse als Mensch)
 art: muster
 angelegt: 2026-10-29
-zuletzt: 2026-10-30
+zuletzt: 2026-10-31
 ---
 
 # Kontenpersonifikation (die Kasse als Mensch)
@@ -20,6 +20,8 @@ Wenn eine Notation für Personen gebaut ist und auf Sachen ausgedehnt wird, kann
 - ~~n=1 Feld~~ **Seit 2026-10-30 n=2 Felder:** zweiter Fall in der Physik, [[rueckwaerts-laufendes-elektron]] — das Positron wird zum Elektron erklärt, das rückwärts in der Zeit läuft; es bekommt kein eigenes Zeichen, nur den umgekehrten Pfeil. Wheeler (1940, Anruf) trug die Fiktion als Wirklichkeit vor, Dafforne als Als-ob.
 - **Verbindung zur [[doppelaufgabe-des-pfeils]] (Vorschlag, n=2):** Beide Fälle sind bildtragende Zählzeichen (Soll = Zählposition mit Schuld-Bild; Fermionenpfeil = Zählrichtung mit Bewegungs-Bild). Personifikation ist die dritte Art, sie zu bewirtschaften: nicht Bild abschalten (leeres Wort, [[zaehlpfeil]]), nicht Bild als Annahme (Schnittprinzip), sondern **die Welt so umbeschreiben, dass das Bild stimmt**. Einzige der drei, bei der das Zeichen weder geändert noch entschuldigt wird.
 - Unterschied, offen: bei Feynman spart die Fiktion vermutlich auch Regeln (eine Linie statt zwei Fälle); ob Daffornes Kasse Regeln sparte, ungeprüft.
+- **Seit 2026-10-31 n=3:** [[defektelektron]] — das Loch im Halbleiter; zum ersten Mal wird ein **Nichts** zur Sache erklärt (im Wort „Defektelektron" sogar zur alten Sorte). Regelersparnis ist hier der Hauptgrund (wenige Löcher statt fast aller Elektronen, Peierls 1929).
+- **Prüfbarkeit (Vorschlag, n=3):** Personifikation ist die einzige der drei Bewirtschaftungen, die eine Aussage über die Welt macht. Daher drei Ausgänge: nicht prüfbar (Daffornes Kasse — Lehrhilfe), Prüfung nicht bestanden (Wheelers Ein-Elektron-Universum), Prüfung bestanden (Hall-Vorzeichen beim Loch). Und ein Fehler, den nur sie machen kann: **falsche Adresse** — Dirac erklärte sein Loch zuerst zum Proton (bekannte Sorte), richtig war eine neue (Anti-Elektron, 1931).
 
 ## Belegt / vermutet
 
@@ -34,8 +36,10 @@ Wenn eine Notation für Personen gebaut ist und auf Sachen ausgedehnt wird, kann
 - [[lehrkosten]] — die Fiktion als Lehrposten
 - [[zaehlpfeil]] — Standpunkt bestimmt das Vorzeichen
 - [[rueckwaerts-laufendes-elektron]] — zweiter Fall, Physik
+- [[defektelektron]] — dritter Fall, Festkörperphysik; Nichts → Sache
 
 ## Kommt vor in
 
 - `entries/2026/2026-10-29.md`
 - `entries/2026/2026-10-30.md`
+- `entries/2026/2026-10-31.md`
