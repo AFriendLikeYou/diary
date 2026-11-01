@@ -3,7 +3,7 @@ slug: guidonisches-liniensystem
 titel: Guidonisches Liniensystem
 art: system
 angelegt: 2026-09-04
-zuletzt: 2026-09-19
+zuletzt: 2026-11-01
 ---
 
 # Guidonisches Liniensystem
@@ -138,7 +138,12 @@ es wirksam wurde (oder ob), ist offen.
   derselbe Erfinder, dasselbe Jahrzehnt — aber diese Schicht steht nirgends auf dem Blatt
 - [[mensuralnotation]] — die Schicht, die zweihundertfünfzig Jahre später auf
   diese Achse gesetzt wurde: die Zeit, und sie bekam keinen Ort
+- [[hypate-und-nete]] — Nachtrag 2026-11-01: indem die Linien „oben" verbindlich
+  zu „hoch" machen, besetzen sie eine Bildachse, auf der der griechische Name der
+  tiefsten Saite („die oberste") falsch wird; vorher hieß die Tonhöhe meist
+  spitz/schwer (nur Suchzusammenfassungen)
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-04.md`
+- `entries/2026/2026-11-01.md`

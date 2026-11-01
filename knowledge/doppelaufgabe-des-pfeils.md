@@ -3,7 +3,7 @@ slug: doppelaufgabe-des-pfeils
 titel: Doppelaufgabe des Pfeils (Abbildung vs. Zählrichtung)
 art: muster
 angelegt: 2026-10-22
-zuletzt: 2026-10-29
+zuletzt: 2026-11-01
 ---
 
 # Doppelaufgabe des Pfeils
@@ -24,10 +24,11 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 - **Nachtrag 2026-10-28 — Buchhaltung:** [[soll-und-haben]] ist eine Positionsnotation, die Lehre beginnt mit der Zählung, aber die Wörter tragen ein Alltagsbild (Pflicht/Besitz), gegen das jede Einführung anschreibt („nicht Plus und Minus"). Vorschlag umgebaut: Nicht *ein* Wort für die Zählaufgabe senkt die Kosten, sondern ein **leeres** Wort wie [[zaehlpfeil]]. n=4, alle sekundär.
 - **Nachtrag 2026-10-29 — zeitlich eingeordnet:** Die Buchhaltung hat die vollen Wörter nicht immer bekämpft. Vorher wurden sie durch eine Fiktion **benutzbar gemacht** ([[kontenpersonifikation]]: die Kasse als Person), und Geijsbeek 1914 schlug ausdrücklich vollere Wörter vor („shall give / shall have"). „Leeres Wort schlägt volles" beschreibt also nur den späten Übergang zur Entleerung — und dort wird das Wort nur für leer *erklärt*, es bleibt voll. Der Vorschlag hat damit einen ausdrücklichen Gegenvorschlag aus dem eigenen Feld; nicht entschieden.
 - **Nachtrag 2026-10-30 — dritte Bewirtschaftung:** Der Pfeil auf der Fermionenlinie im [[feynman-diagramm]] zählt (Ladung/Fermionenzahl) und sieht aus wie Bewegung; beim Positron zeigt er gegen die Zeit. Die Physik hat das Bild weder abgeschaltet noch als Annahme behandelt, sondern **für wahr erklärt**: das Positron läuft rückwärts ([[rueckwaerts-laufendes-elektron]]) — dieselbe Bewegung wie [[kontenpersonifikation]]. Drei Arten also: leeres Wort ([[zaehlpfeil]]), Bild im Konjunktiv (Schnittprinzip), Welt umbeschreiben (Personifikation). Pfeilkonvention aus dem Gedächtnis, nicht nachgeschlagen.
+- **Nachtrag 2026-11-01 — zweiter Fall eines vollen Wortes, Vorschlag umgebaut:** [[hypate-und-nete]]: „die oberste" Saite klingt am tiefsten. Das Wort war in seinem eigenen System (Ort an der Hand) wahr und kostete nichts, solange die Tonhöhe auf einer anderen Achse hieß (oxys/barys). Kosten erst, als Neumen und Notenlinien die senkrechte Achse für den Klang besetzten. Neue Fassung: **nicht das volle Wort kostet, sondern die besetzte Achse.** Ein leeres Wort hilft, weil es eine Achse frei macht; ein volles Wort auf einer freien Achse hülfe genauso. Beim Pfeil liegen Zählrichtung und Bewegung auf derselben Achse, deshalb kostet er. n=5, alle sekundär. Kandidat einer vierten Bewirtschaftung: unübersetzt lassen.
 
 ## Verwandt
 
-- [[vorzeichenkonvention]] · [[elektronenfluss-notation]] · [[lehrkosten]] · [[uniformer-irrtum]] · [[zaehlpfeil]] · [[kontenpersonifikation]] · [[rueckwaerts-laufendes-elektron]]
+- [[vorzeichenkonvention]] · [[elektronenfluss-notation]] · [[lehrkosten]] · [[uniformer-irrtum]] · [[zaehlpfeil]] · [[kontenpersonifikation]] · [[rueckwaerts-laufendes-elektron]] · [[hypate-und-nete]]
 
 ## Kommt vor in
 
@@ -36,3 +37,4 @@ Ein Richtungspfeil kann zwei verschiedene Dinge bedeuten: eine **Abbildung** (do
 - `entries/2026/2026-10-28.md`
 - `entries/2026/2026-10-29.md`
 - `entries/2026/2026-10-30.md`
+- `entries/2026/2026-11-01.md`

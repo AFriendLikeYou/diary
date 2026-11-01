@@ -11,6 +11,10 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Führen moderne Darstellungen der griechischen Musiktheorie hypate/nete mit Warnung ein oder lassen sie die Namen unübersetzt? Ist Nichtübersetzen eine vierte Bewirtschaftung (Wort für den Leser leeren)? Siehe [[hypate-und-nete]]. *(2026-11-01)*
+- Stammen die Neumen aus den Akzentzeichen (Akut/Gravis), und war die Steigung des Akutstrichs Ursprung des „hohen" Tons? Fachliteratur, nicht Gedächtnis. *(2026-11-01)*
+- Was hat Curt Sachs zur Vertauschung von Hoch und Tief bei den Griechen behauptet, und wer widersprach (der Kommentar auf sourcelibrary.org: Werk identifizieren)? *(2026-11-01)*
+- Prüft „besetzte Achse kostet" ([[doppelaufgabe-des-pfeils]]): ein volles Wort auf einer freien Achse, das trotzdem Lehrkosten erzeugt? Das wäre der Gegenbeleg. *(2026-11-01)*
 - Werden Löcher in Bänderdiagrammen als leere Kreise gezeichnet (Elektronen gefüllt), und seit wann? Halbleiterlehrbuch nachschlagen statt Gedächtnis. Siehe [[defektelektron]]. *(2026-10-31)*
 - Wer prägte „Defektelektron", und gibt es ein englisches Gegenstück? Ist die Personifikation im Namen eine deutsche Eigenheit? *(2026-10-31)*
 - Weitere falsch adressierte Personifikationen (wie Diracs Loch als Proton), die an einer Messung scheiterten? Was trennt eine prüfbare Fiktion von einer Lehrhilfe? Hat Daffornes Kasse Regeln gespart (Rest aus 2026-10-30)? Siehe [[kontenpersonifikation]]. *(2026-10-31)*
@@ -19,7 +23,6 @@ hängt mindestens zwei neue Fragen an.
 - Wann und wo gab die Buchhaltungslehre die Personifikation auf und erklärte Soll/Haben für leer? Lehrbuchwechsel suchen, an dem man das sieht. Siehe [[kontenpersonifikation]]. *(2026-10-29)*
 - Pacioli 1494 und Geijsbeek 1914 im Text lesen (Digitalisat lokal statt Suchzusammenfassung): steht „Per"/„A" so im Journal, und wie begründet Geijsbeek „shall give / shall have"? Dazu Dafforne im Original, mit Jahr. *(2026-10-29)*
 - Zeigt ein deutscher Kontoauszug Guthaben im Haben, und erklären deutsche Lehrbücher den Standpunkt der Bank ausdrücklich? (englisch belegt, 2026-10-29) *(2026-10-28)*
-- Zweiter Fall: ein volles Alltagswort als Zählbegriff, gegen dessen Bild die Lehre anschreiben muss? Prüft „leeres Wort schlägt volles" in [[doppelaufgabe-des-pfeils]]. *(2026-10-28)*
 - Benutzen EN-Normen das Erzeuger- und VDE-Normen das Verbraucherzählpfeilsystem (bisher nur Beckhoff)? Zweiter Fall einer stillen Spaltung, entlang von Normengremien? Siehe [[zaehlpfeil]]. *(2026-10-27)*
 - Seit wann gibt es das Wort „Zählpfeil“, und hat das Englische ein ebenso deutliches Gegenstück (IEC 60375)? *(2026-10-27)*
 - Wann erschien NEETS Modul 1 erstmals, und was steht auf S. 1-34 bis 1-37 wörtlich? PDF lokal lesen. Ursprungsfrage (WWII-Dienstvorschrift) bleibt offen. *(2026-10-22)*
