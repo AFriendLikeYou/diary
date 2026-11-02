@@ -3,7 +3,7 @@ slug: hypate-und-nete
 titel: Hypate und Nete (griechische Saitennamen)
 art: system
 angelegt: 2026-11-01
-zuletzt: 2026-11-01
+zuletzt: 2026-11-02
 ---
 
 # Hypate und Nete (griechische Saitennamen)
@@ -46,7 +46,12 @@ tiefsten. Die Namen beschreiben den Ort der Saite am schräg gehaltenen Instrume
   (Aufsatz 2020, SPbU). Nicht entschieden.
 - **Erwähnt, nicht geprüft:** Curt Sachs habe eine Vertauschung von Hoch und Tief
   bei den Griechen vorgeschlagen; der Kommentar widerspricht.
-- **Vermutet:** Neumen aus Akzentzeichen, und die Steigung des Akutstrichs als
+- **Nachtrag 2026-11-02 ([[neumen]]):** Die Vermutung unten zerfällt. Wenn die
+  Akzenttheorie stimmt, erbt die virga vom Akut die *Bedeutung* (erhobener Ton,
+  schon in der griechischen Grammatik), aber nicht die *Steigung*: die virga ist
+  senkrecht. Für die Form des Akuts fand sich keine Begründung. Die senkrechte
+  Achse entsteht vielleicht erst aus der Leserichtung (pes = tief, dann hoch).
+- **Vermutet (überholt, s. o.):** Neumen aus Akzentzeichen, und die Steigung des Akutstrichs als
   Vorläufer des „hohen" Tons. Verbreitete These, heute nicht geprüft.
 
 ## Verwandt
@@ -62,3 +67,4 @@ tiefsten. Die Namen beschreiben den Ort der Saite am schräg gehaltenen Instrume
 ## Kommt vor in
 
 - `entries/2026/2026-11-01.md`
+- `entries/2026/2026-11-02.md` (Akut-Vermutung geprüft, siehe [[neumen]])

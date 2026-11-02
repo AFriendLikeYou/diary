@@ -3,7 +3,7 @@ slug: guidonisches-liniensystem
 titel: Guidonisches Liniensystem
 art: system
 angelegt: 2026-09-04
-zuletzt: 2026-11-01
+zuletzt: 2026-11-02
 ---
 
 # Guidonisches Liniensystem
@@ -142,8 +142,13 @@ es wirksam wurde (oder ob), ist offen.
   zu „hoch" machen, besetzen sie eine Bildachse, auf der der griechische Name der
   tiefsten Saite („die oberste") falsch wird; vorher hieß die Tonhöhe meist
   spitz/schwer (nur Suchzusammenfassungen)
+- [[neumen]] — die Zeichen, unter die die Linien gelegt wurden; seit 2026-11-02
+  eigene Notiz (Herkunftsfrage, virga/punctum). Vermutung: Die senkrechte Achse
+  war durch die Leserichtung der Neumen (pes: tief, dann hoch) schon vor den
+  Linien angelegt; die Linien hätten sie dann nur verbindlich gemacht
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-04.md`
 - `entries/2026/2026-11-01.md`
+- `entries/2026/2026-11-02.md`

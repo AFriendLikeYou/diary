@@ -12,7 +12,10 @@ hängt mindestens zwei neue Fragen an.
 ## Fragen, die aus Einträgen entstanden sind
 
 - Führen moderne Darstellungen der griechischen Musiktheorie hypate/nete mit Warnung ein oder lassen sie die Namen unübersetzt? Ist Nichtübersetzen eine vierte Bewirtschaftung (Wort für den Leser leeren)? Siehe [[hypate-und-nete]]. *(2026-11-01)*
-- Stammen die Neumen aus den Akzentzeichen (Akut/Gravis), und war die Steigung des Akutstrichs Ursprung des „hohen" Tons? Fachliteratur, nicht Gedächtnis. *(2026-11-01)*
+- Levy, *On the Origin of Neumes* (Early Music History 7, 1987) lesen: Wie begründet er, dass ein Akut einen höheren Ton als den vorigen bezeichnet? Frei bei examenapium.it (`Levy1987a.pdf`), aber nur Scan ohne Textschicht; auf diesem Rechner kein tesseract/pdftotext — anderen Weg suchen (JSTOR-Textfassung, Zitate in Sekundärliteratur). Siehe [[neumen]]. *(2026-11-02)*
+- Woher stammt der Satz „De accentibus toni oritur nota quae dicitur neuma" (Titel von Charles Atkinsons Aufsatz)? Mittelalterlicher Traktat oder eigene Formel? Dazu Jahr und Ort des Aufsatzes. *(2026-11-02)*
+- Zweiter Fall von **Umformung** (Gegenstück zur [[umlesung]]): ein Zeichen, das die Bedeutung behält und die Gestalt wechselt, so dass die Herkunft nur über Zwischenformen belegbar ist? Kandidaten ungeprüft, z. B. Zahlzeichen, Währungszeichen, Ligaturen (&). *(2026-11-02)*
+- Ist der *pes* in den frühesten Neumenhandschriften (Sankt Gallen, Laon, paläofränkisch) wirklich als steigende Figur gezeichnet? Wenn ja, hätte die Leserichtung die senkrechte Achse vor Guidos Linien besetzt ([[neumen]], [[guidonisches-liniensystem]]). Faksimile statt Gedächtnis. *(2026-11-02)*
 - Was hat Curt Sachs zur Vertauschung von Hoch und Tief bei den Griechen behauptet, und wer widersprach (der Kommentar auf sourcelibrary.org: Werk identifizieren)? *(2026-11-01)*
 - Prüft „besetzte Achse kostet" ([[doppelaufgabe-des-pfeils]]): ein volles Wort auf einer freien Achse, das trotzdem Lehrkosten erzeugt? Das wäre der Gegenbeleg. *(2026-11-01)*
 - Werden Löcher in Bänderdiagrammen als leere Kreise gezeichnet (Elektronen gefüllt), und seit wann? Halbleiterlehrbuch nachschlagen statt Gedächtnis. Siehe [[defektelektron]]. *(2026-10-31)*

@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-10-29
+zuletzt: 2026-11-02
 ---
 
 # Umlesung
@@ -123,6 +123,10 @@ trotzdem zweideutig.
 - [[kontenpersonifikation]] — Gegenbewegung (2026-10-29): statt das Zeichen
   umzulesen, erklärt die Lehre den neuen Gegenstand zur alten Sorte (die Kasse
   als Person); kein Fall von Umlesung, ausdrücklich abgegrenzt
+- [[neumen]] — Gegenstück (2026-11-02), vorläufig **Umformung** genannt: die
+  Bedeutung bleibt, die Gestalt wechselt (Akut, schräg → virga, senkrecht; falls
+  die Akzenttheorie stimmt). Bei der Umlesung bleibt der Beleg auf dem Papier, bei
+  der Umformung verschwindet er mit der alten Gestalt; n=1
 
 ## Kommt vor in
 
@@ -131,3 +135,4 @@ trotzdem zweideutig.
 - `entries/2026/2026-10-11.md` (fünfter Fall, mit Vermerk; Gebiet Nr. 21 betreten, nicht angewandt)
 - (ohne Namen) `entries/2026/2026-09-26.md`, `entries/2026/2026-09-29.md`
 - `entries/2026/2026-10-14.md` (Teilung Nr. 21 verjährt; Abgrenzung zum Übersetzen)
+- `entries/2026/2026-11-02.md` (Gegenstück Umformung, an den Neumen)
