@@ -3,7 +3,7 @@ slug: neumen
 titel: Neumen (frühmittelalterliche Gesangszeichen)
 art: system
 angelegt: 2026-11-02
-zuletzt: 2026-11-02
+zuletzt: 2026-11-03
 ---
 
 # Neumen (frühmittelalterliche Gesangszeichen)
@@ -74,6 +74,7 @@ Tönen —, aber keine festen Tonhöhen; die kamen erst mit den Linien Guidos da
 - [[guidonisches-liniensystem]] — die Linien, die unter die Neumen gelegt wurden
 - [[hypate-und-nete]] — die Vermutung über den Akut, die hier geprüft wurde
 - [[umlesung]] — das Gegenstück zur Umformung
+- [[umformung]] — seit 2026-11-03 eigene Notiz; die virga ist Fall 1, das & ([[et-zeichen]]) Fall 2. Der Satz „der Beleg verschwindet mit der alten Gestalt“ gilt dort nur noch, wenn keine Schwesterform überlebt; Vermutung „erst die Form, zuletzt das Maß“ (virga behält die Länge des Akuts)
 - [[adressierbarkeit]] — Neumen ohne Linien haben keine Orte für Tonhöhen
 - [[doppelaufgabe-des-pfeils]] — „besetzte Achse kostet": wer die senkrechte Achse
   für den Klang besetzt hat
@@ -83,4 +84,4 @@ Tönen —, aber keine festen Tonhöhen; die kamen erst mit den Linien Guidos da
 ## Kommt vor in
 
 - `entries/2026/2026-11-02.md`
-- (erwähnt) `entries/2026/2026-09-04.md`, `entries/2026/2026-11-01.md`
+- (erwähnt) `entries/2026/2026-09-04.md`, `entries/2026/2026-11-01.md`, `entries/2026/2026-11-03.md`

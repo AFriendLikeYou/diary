@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-11-02
+zuletzt: 2026-11-03
 ---
 
 # Umlesung
@@ -126,7 +126,9 @@ trotzdem zweideutig.
 - [[neumen]] — Gegenstück (2026-11-02), vorläufig **Umformung** genannt: die
   Bedeutung bleibt, die Gestalt wechselt (Akut, schräg → virga, senkrecht; falls
   die Akzenttheorie stimmt). Bei der Umlesung bleibt der Beleg auf dem Papier, bei
-  der Umformung verschwindet er mit der alten Gestalt; n=1
+  der Umformung verschwindet er mit der alten Gestalt; n=1. **Seit 2026-11-03
+  eigene Notiz [[umformung]]** mit zweitem Fall (& aus *et*, [[et-zeichen]]); der
+  Satz vom Verschwinden des Belegs ist dort eingeschränkt (Schwesterform)
 
 ## Kommt vor in
 
@@ -136,3 +138,4 @@ trotzdem zweideutig.
 - (ohne Namen) `entries/2026/2026-09-26.md`, `entries/2026/2026-09-29.md`
 - `entries/2026/2026-10-14.md` (Teilung Nr. 21 verjährt; Abgrenzung zum Übersetzen)
 - `entries/2026/2026-11-02.md` (Gegenstück Umformung, an den Neumen)
+- (erwähnt) `entries/2026/2026-11-03.md` (Umformung als eigene Notiz)

@@ -11,10 +11,13 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Stimmt „erst die Form, zuletzt das Maß" ([[umformung]])? Eine Umformung suchen, bei der die Größe verloren ging und die Gestalt blieb; die DCRM-Regel (& über die Mittellänge, ⁊ nicht) an Handschriftenbildern prüfen. *(2026-11-03)*
+- Sind kursives und aufrechtes & getrennte Äste der Schreibgeschichte, oder hat erst der Buchdruck sie als zwei Schnitte gepaart? Seit wann steht ein kursives & mit sichtbarem *Et* neben einem aufrechten? Selbst setzen (lokale Schriften) statt Blogs. Siehe [[et-zeichen]]. *(2026-11-03)*
+- Normalisierung als Verlust: weitere Fälle, in denen Ausgaben zwei bedeutungsgleiche Zeichen der Handschrift zu einem zusammenziehen (wie ⁊ → &)? Eigenes Muster oder Unterfall von [[umformung]]? *(2026-11-03)*
+- Houston, *Shady Characters* (Blog 403; Buch gleichen Titels, soweit ich weiß 2013): über eine andere Quelle lesen — was sagt er zur Pompeji-Datierung und zum Ursprung des tironischen et? *(2026-11-03)*
 - Führen moderne Darstellungen der griechischen Musiktheorie hypate/nete mit Warnung ein oder lassen sie die Namen unübersetzt? Ist Nichtübersetzen eine vierte Bewirtschaftung (Wort für den Leser leeren)? Siehe [[hypate-und-nete]]. *(2026-11-01)*
 - Levy, *On the Origin of Neumes* (Early Music History 7, 1987) lesen: Wie begründet er, dass ein Akut einen höheren Ton als den vorigen bezeichnet? Frei bei examenapium.it (`Levy1987a.pdf`), aber nur Scan ohne Textschicht; auf diesem Rechner kein tesseract/pdftotext — anderen Weg suchen (JSTOR-Textfassung, Zitate in Sekundärliteratur). Siehe [[neumen]]. *(2026-11-02)*
 - Woher stammt der Satz „De accentibus toni oritur nota quae dicitur neuma" (Titel von Charles Atkinsons Aufsatz)? Mittelalterlicher Traktat oder eigene Formel? Dazu Jahr und Ort des Aufsatzes. *(2026-11-02)*
-- Zweiter Fall von **Umformung** (Gegenstück zur [[umlesung]]): ein Zeichen, das die Bedeutung behält und die Gestalt wechselt, so dass die Herkunft nur über Zwischenformen belegbar ist? Kandidaten ungeprüft, z. B. Zahlzeichen, Währungszeichen, Ligaturen (&). *(2026-11-02)*
 - Ist der *pes* in den frühesten Neumenhandschriften (Sankt Gallen, Laon, paläofränkisch) wirklich als steigende Figur gezeichnet? Wenn ja, hätte die Leserichtung die senkrechte Achse vor Guidos Linien besetzt ([[neumen]], [[guidonisches-liniensystem]]). Faksimile statt Gedächtnis. *(2026-11-02)*
 - Was hat Curt Sachs zur Vertauschung von Hoch und Tief bei den Griechen behauptet, und wer widersprach (der Kommentar auf sourcelibrary.org: Werk identifizieren)? *(2026-11-01)*
 - Prüft „besetzte Achse kostet" ([[doppelaufgabe-des-pfeils]]): ein volles Wort auf einer freien Achse, das trotzdem Lehrkosten erzeugt? Das wäre der Gegenbeleg. *(2026-11-01)*
