@@ -3,7 +3,7 @@ slug: schreibbarer-widerspruch
 titel: Schreibbarer Widerspruch
 art: muster
 angelegt: 2026-10-13
-zuletzt: 2026-10-13
+zuletzt: 2026-11-04
 ---
 
 # Schreibbarer Widerspruch
@@ -66,6 +66,16 @@ ein Satz liest. Zwei Jahre später nannte das Stardust-Manifest für die nächst
 Fassung „the awkward, strict adherence to semantic language ideals“ als das, was
 abzulösen sei.
 
+**Nachtrag 2026-11-04 — die Kehrseite des Fachs.** Das Fach schließt den
+Widerspruch aus, aber nicht den Wert, den niemand liest. Wo zwei Achsen (Gewicht,
+Bedeutung) in ein Fach gelegt werden, kommt die zweite als Zusammensetzung im Wert
+zurück (`danger--ghost`), und jede Lesestelle muss von Hand zerlegen. Carbon nimmt
+`danger--primary` als gültig an; sein Stylesheet und seine
+Bildschirmleser-Liste kennen den Wert nicht ([[zusammengesetzter-wert]]). Ant Design
+zeigt die umgekehrte Bewegung zu Material-UI 2018: `danger` war erst Wert im Fach
+(3.26.20), dann zusätzlich Schalter (4.0.0), dann Wert in einem zweiten Fach `color`
+(5.21.0).
+
 ## Was das Muster verbietet (Vorschlag)
 
 - Den Schluss vom fehlenden Verbot auf einen übersehenen Widerspruch — der Fall von
@@ -105,6 +115,9 @@ abzulösen sei.
 - [[selbstverdeckung]] — möglicherweise verwandt: der gerenderte Knopf zeigt den
   Widerspruch der Klassenliste nicht (nicht geprüft)
 
+- [[zusammengesetzter-wert]] — was das Fach selbst kostet, wenn es zwei Achsen trägt
+
 ## Kommt vor in
 
 - `entries/2026/2026-10-13.md`
+- `entries/2026/2026-11-04.md` (Kehrseite des Fachs)

@@ -3,7 +3,7 @@ slug: komponenten-api
 titel: Komponenten-API
 art: system
 angelegt: 2026-09-30
-zuletzt: 2026-10-16
+zuletzt: 2026-11-04
 ---
 
 # Komponenten-API
@@ -83,12 +83,31 @@ Eigentümer ist.
 
 Die Abbildung zwischen Designwerkzeug und Code ist eine handgeschriebene Tabelle ([[code-connect]]): Figma typisiert Eigenschaften in fünf Arten, der Code kennt nur Props; Figmas Variant ist immer ein Fach.
 
+## Nachtrag 2026-11-04: wie das Fach heißt — gezählt
+
+Zehn Häuser, Typdateien der npm-Pakete selbst gelesen. Das Fach für das Gewicht
+eines Knopfs heißt `variant` (Material-UI, React-Bootstrap, Blueprint, Polaris,
+Primer, Ant Design ab 5.21), `appearance` (Atlassian, Fluent v9), `kind` (Carbon),
+`type` (Ant Design bis 4) — vier leere Wörter, **keine sichtbare Herkunftslinie**
+(vorher notierter Sturzbefund eingetreten). Wo eine zweite Achse ein eigenes Fach
+bekommt, heißt es voll: `intent`, `tone`, `color`. Die Herkunft zeigt sich nicht im
+Namen, sondern in der **Grammatik der Werte**: `outline-danger` (React-Bootstrap),
+`danger--ghost` (Carbon, BEM-Modifikator, wird unverändert zur Klasse). Damit hat
+die Vermutung „Wrapper erben die Grammatik der Klassen“ zwei weitere Fälle, aber in
+den Werten statt in der Wahl Schalter/Fach. Einzelheiten und Merkfall (Carbons
+`danger--primary`: gültig, aber von Stylesheet und Bildschirmleser-Logik nicht
+gelesen) in [[zusammengesetzter-wert]].
+
+Für die Dreiteilung Eigentümer/Schreiber/Leser: Bei Carbon gibt es zwei Leser aus
+derselben Hand — das Prüfprogramm, das den Wert annimmt, und das Stylesheet, das ihn
+nicht kennt. Sagbar ist, was der Prüfer annimmt; gewährleistet, was das Stylesheet
+liest.
+
 ## Was noch nicht beschrieben ist
 
-Der Rest des Gewöhnlichen: wie Varianten heißen (`variant`, `appearance`, `kind`,
-`intent` … — eine Zählung über viele Designsysteme wäre eine Rechnung statt einer
-Lektüre), und wie die Eigenschaften eines Designwerkzeugs (Figma) auf die Props im
-Code abgebildet werden.
+Die Größen (`size`: Wörter, Kürzel, Zahlen?) und die Frühgeschichte der Props.
+Die Abbildung aus dem Designwerkzeug ist seit 2026-10-16 angefangen
+([[code-connect]]).
 
 ## Belegt / vermutet
 
@@ -122,9 +141,11 @@ Code abgebildet werden.
 - [[schreibbarer-widerspruch]] — Schalter gegen Fach, und wer den Widerspruch
   auflöst, wenn ihn die Schreibweise zulässt
 - [[notation]] — Eigenschaft (3), der Rand: hier mit einem zweiten Rand davor
+- [[zusammengesetzter-wert]] — zwei Achsen in einem Fach; Namen der Fächer gezählt
 
 ## Kommt vor in
 
 - `entries/2026/2026-09-30.md`
 - `entries/2026/2026-10-13.md` (Schalter oder Fach; Semantic UI, Material-UI, Stardust)
 - `entries/2026/2026-10-16.md` (Figma-Eigenschaften und Code Connect)
+- `entries/2026/2026-11-04.md` (Namen der Fächer gezählt; zusammengesetzte Werte)

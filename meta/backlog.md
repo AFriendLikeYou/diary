@@ -11,6 +11,11 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Carbons `danger--primary` ([[zusammengesetzter-wert]]): seit wann in `ButtonKinds`, je eine Regel im Stylesheet, als Synonym für `danger` gemeint? Issue-Tracker und Commit-Historie von carbon-design-system lesen; den Knopf einmal wirklich rendern (Browser, Carbon-CSS), statt nur Klassennamen zu zählen. *(2026-11-04)*
+- Zusammengesetzte Werte außerhalb der Bedienoberflächen: ein Fach, dessen Werte zwei Achsen tragen und an jeder Lesestelle von Hand zerlegt werden (Normzeichen, Kodierungen, Signalflaggen, Gefahrgutkennzeichen?). Ohne zweites Feld bleibt das Muster n=1. *(2026-11-04)*
+- Spaltet sich die Bedeutungsachse (voller Name: `intent`, `tone`, `color`) typischerweise später ab als die Gewichtsachse (leerer Name)? Polaris und Ant Design dafür, Blueprint dagegen; Material-UIs `color` vor 2018 und Blueprints `variant` (seit welcher Version?) datieren. *(2026-11-04)*
+- `rovo` und `discovery` in Atlassians `appearance`: Produktname bzw. Funktionsbereich als Variante. Ziehen Marken in Fächer ein, und was passiert mit dem Wert, wenn das Produkt umbenannt wird? *(2026-11-04)*
+
 - Stimmt „erst die Form, zuletzt das Maß" ([[umformung]])? Eine Umformung suchen, bei der die Größe verloren ging und die Gestalt blieb; die DCRM-Regel (& über die Mittellänge, ⁊ nicht) an Handschriftenbildern prüfen. *(2026-11-03)*
 - Sind kursives und aufrechtes & getrennte Äste der Schreibgeschichte, oder hat erst der Buchdruck sie als zwei Schnitte gepaart? Seit wann steht ein kursives & mit sichtbarem *Et* neben einem aufrechten? Selbst setzen (lokale Schriften) statt Blogs. Siehe [[et-zeichen]]. *(2026-11-03)*
 - Normalisierung als Verlust: weitere Fälle, in denen Ausgaben zwei bedeutungsgleiche Zeichen der Handschrift zu einem zusammenziehen (wie ⁊ → &)? Eigenes Muster oder Unterfall von [[umformung]]? *(2026-11-03)*
@@ -1961,6 +1966,10 @@ hängt mindestens zwei neue Fragen an.
   liegt jetzt ein Anlass vor: Material-UIs Zählregel (2018) und Fluent UIs
   `appearance` gegen React-Bootstraps `variant` — heißt das Fach je Haus anders,
   und folgt der Name einer Herkunft (Bootstrap-Klassen, Material Design)?
+  **Stand 2026-11-04: (a) für die Varianten erledigt** ([[zusammengesetzter-wert]]):
+  zehn Häuser gezählt, Namen leer und ohne Herkunftslinie, Herkunft nur in der
+  Wertgrammatik. **Offen** bleiben die Größen (`size`) aus (a) und die
+  Frühgeschichte der Props.
 - Kekulés Strukturformel — **am 2026-09-15 zur Hälfte erledigt**
   ([[skelettformel]]): Die Leseregel der Linienformel ist beschrieben, die
   Bindungsstriche als Nachbarschaft ebenfalls. **Stand 2026-10-04: die Entstehung
