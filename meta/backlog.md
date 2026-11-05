@@ -11,8 +11,12 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Wann und von wem wurde die [[gefahrnummer]] eingeführt, und wer war „Professor Kemler"? Die ADR-Fassung vor 1980 in früheren UNTS-Bänden zu A-8940 suchen (die Änderung von 1980 lässt die ersten beiden Unterabsätze „no change"). *(2026-11-05)*
+- Steht „usually" noch im heutigen ADR 5.3.2.3.1, und wann verschwand es? Aktuellen Wortlaut lesen (deutsche Fassung im BGBl. II, Anlageband; unece.org hält mit Browserprüfung auf, nicht umgehen). *(2026-11-05)*
+- Wanderten die Flammpunktschwellen hinter den Ziffern (1980: 33 = unter 21 °C; heute 23 °C?) unter unveränderten Tafeln? Das wäre eine [[umlesung]] ohne jeden Strichwechsel. Datum der Änderung suchen. *(2026-11-05)*
+- Spiegelung prüfen ([[zusammengesetzter-wert]]): Schadet eine Lesart ohne Schreiber (tote Zeile im Schlüssel) wirklich nie? Gesucht: ein Fall, in dem eine tote Erläuterung zu einer falschen Deutung führte. Sturzbefund. *(2026-11-05)*
+
 - Carbons `danger--primary` ([[zusammengesetzter-wert]]): seit wann in `ButtonKinds`, je eine Regel im Stylesheet, als Synonym für `danger` gemeint? Issue-Tracker und Commit-Historie von carbon-design-system lesen; den Knopf einmal wirklich rendern (Browser, Carbon-CSS), statt nur Klassennamen zu zählen. *(2026-11-04)*
-- Zusammengesetzte Werte außerhalb der Bedienoberflächen: ein Fach, dessen Werte zwei Achsen tragen und an jeder Lesestelle von Hand zerlegt werden (Normzeichen, Kodierungen, Signalflaggen, Gefahrgutkennzeichen?). Ohne zweites Feld bleibt das Muster n=1. *(2026-11-04)*
 - Spaltet sich die Bedeutungsachse (voller Name: `intent`, `tone`, `color`) typischerweise später ab als die Gewichtsachse (leerer Name)? Polaris und Ant Design dafür, Blueprint dagegen; Material-UIs `color` vor 2018 und Blueprints `variant` (seit welcher Version?) datieren. *(2026-11-04)*
 - `rovo` und `discovery` in Atlassians `appearance`: Produktname bzw. Funktionsbereich als Variante. Ziehen Marken in Fächer ein, und was passiert mit dem Wert, wenn das Produkt umbenannt wird? *(2026-11-04)*
 

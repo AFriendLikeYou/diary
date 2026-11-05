@@ -3,7 +3,7 @@ slug: zusammengesetzter-wert
 titel: Zusammengesetzter Wert
 art: muster
 angelegt: 2026-11-04
-zuletzt: 2026-11-04
+zuletzt: 2026-11-05
 ---
 
 # Zusammengesetzter Wert
@@ -58,11 +58,32 @@ sich in der Grammatik der Werte.
 (jede Zeichenkette erlaubt, bekannte Werte trotzdem vorgeschlagen); Material-UI
 macht beide Fächer über `OverridableStringUnion` erweiterbar.
 
+## Zweites Feld: die Gefahrnummer (2026-11-05)
+
+Die [[gefahrnummer]] des Gefahrguts legt Haupt- und Nebengefahren in **eine**
+Zahl (Ziffer je Gefahr, Rang nach Stellung). Anders als bei Carbon verspricht die
+Grammatik hier ausdrücklich weniger, als sie zerlegt: die Regel gilt laut ADR 1980
+„usually", die Ausnahmen (22 tiefgekühlt, 44 geschmolzen, 42, 333) stehen im selben
+Absatz, und der Schlüssel ist ein **Verzeichnis der verwendeten Zahlen**, keine
+Grammatik („nur diejenigen …, die in der Spalte (20) der Tabelle A tatsächlich
+aufgeführt sind", OTIF 2023).
+
+**Spiegelung.** Zwei von Hand gegeneinander gepflegte Listen können in beide
+Richtungen auseinanderlaufen: ein gültiger Wert ohne Leser (Carbon
+`danger--primary`) oder eine Lesart ohne Schreiber (ADR „78"/„87", 2017–2023
+„versehentlich nicht entfernt", kein Stoff trug sie). Nur die erste Richtung
+schadet (Vorschlag, n=1 je Richtung). Damit n=2 Felder; der Sturzbefund vom
+2026-11-05 (reine Regelzerlegung ohne Liste) ist nicht eingetreten — aber die
+Vorhersage war billig, die Ausnahme 22 war vorher vage bekannt.
+
 ## Was das Muster verbietet (Vorschlag)
 
 - Den Schluss vom Fach auf vollständige Lesbarkeit: ein Fach schließt den
   Widerspruch aus, nicht den Wert, den niemand liest.
 - Den Schluss vom Namen des Fachs auf seine Herkunft (n=10 Häuser, ein Feld).
+- Den Schluss von einer Zerlegungsregel auf die Bedeutung eines Werts, wenn das
+  Regelwerk ein Verzeichnis führt: dann ist das Verzeichnis der Schlüssel
+  ([[gefahrnummer]]: 22 ist nicht „sehr gasig", sondern kalt).
 
 ## Belegt / vermutet
 
@@ -72,8 +93,7 @@ macht beide Fächer über `OverridableStringUnion` erweiterbar.
 - **Vermutet:** dass zusammengesetzte Werte die Klassen-Grammatik des
   CSS-Vorgängers erben (Bootstrap → React-Bootstrap, BEM → Carbon) — stützt die
   ältere Vermutung in [[komponenten-api]], zwei Fälle.
-- **Offen:** ob `danger--primary` als Synonym gemeint war; ob das Muster
-  außerhalb der Bedienoberflächen vorkommt; ob die Bedeutungsachse sich typisch
+- **Offen:** ob `danger--primary` als Synonym gemeint war; ob die Bedeutungsachse sich typisch
   später abspaltet (Polaris, Ant Design ja; Blueprint nein).
 
 ## Verwandt
@@ -91,3 +111,4 @@ macht beide Fächer über `OverridableStringUnion` erweiterbar.
 ## Kommt vor in
 
 - `entries/2026/2026-11-04.md`
+- `entries/2026/2026-11-05.md` — zweites Feld (Gefahrgut)
