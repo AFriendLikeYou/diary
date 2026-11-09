@@ -3,7 +3,7 @@ slug: binaerpraefix
 titel: Binärpräfixe (kB gegen KiB)
 art: system
 angelegt: 2026-10-05
-zuletzt: 2026-10-05
+zuletzt: 2026-11-09
 ---
 
 # Binärpräfixe (kB gegen KiB)
@@ -99,6 +99,11 @@ binär 1 GB = 1 073 741 824 Byte — beide Male GB, das Zeichen GiB kommt nicht 
 - [[verkehrszeichen]] — der Endnutzer liest, was das Betriebssystem anzeigt, wie
   der Fahrer, was am Straßenrand steht
 
+- [[schwellenwanderung]] — Spiegelbild (2026-11-09): hier wechselte die Zahl
+  unter dem Wort und die Fälle blieben in ihrer Klasse; bei der Gefahrnummer
+  wechseln die Randfälle die Klasse und die Rechnung bleibt
+
 ## Kommt vor in
 
 - `entries/2026/2026-10-05.md`
+- (Abgrenzung) `entries/2026/2026-11-09.md`

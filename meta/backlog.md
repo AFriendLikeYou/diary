@@ -11,9 +11,13 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Wortlaut der ADR-Änderung zum 1.1.1995 (12. ADR-Änderungsverordnung?) lesen: Wurden die Gefahrnummern-Erläuterungen im selben Zug von 21 auf 23 °C umgestellt, oder blieb eine tote Zeile „unter 21 °C" stehen (wie 78/87)? Österreichische Kundmachung von 1995 im RIS suchen, analog BGBl. 164/1993. Siehe [[schwellenwanderung]]. *(2026-11-09)*
+- Gibt es einen dokumentierten Stoff, dessen Tafel durch die Verschiebung wirklich wechselte (30 → 33, 63 → 336 o. ä.)? Stoffliste BGBl. 164/1993 gegen ADR01-Archiv (umwelt-online Rn. 2301) legen — beide liegen als Text vor. Bisher nur aus den Regeln abgeleitet. *(2026-11-09)*
+- Woher kommt die 23 °C? UN-Empfehlungen (Orange Book) vor 1995 auf die Verpackungsgruppengrenze prüfen; ist 21 + 2 °C Streitband wirklich Zufall? *(2026-11-09)*
+- Schwellenwanderungen außerhalb des Gefahrguts ([[schwellenwanderung]], n=1): Gewichtsklassen, Hurrikankategorien, Energieeffizienzklassen (Neuskalierung statt A+++). Wann verschiebt man die Grenze, wann erneuert man das Zeichen? Sturzbefund vorher notieren. *(2026-11-09)*
+
 - Wann und von wem wurde die [[gefahrnummer]] eingeführt, und wer war „Professor Kemler"? Die ADR-Fassung vor 1980 in früheren UNTS-Bänden zu A-8940 suchen (die Änderung von 1980 lässt die ersten beiden Unterabsätze „no change"). *(2026-11-05)*
 - Steht „usually" noch im heutigen ADR 5.3.2.3.1, und wann verschwand es? Aktuellen Wortlaut lesen (deutsche Fassung im BGBl. II, Anlageband; unece.org hält mit Browserprüfung auf, nicht umgehen). *(2026-11-05)*
-- Wanderten die Flammpunktschwellen hinter den Ziffern (1980: 33 = unter 21 °C; heute 23 °C?) unter unveränderten Tafeln? Das wäre eine [[umlesung]] ohne jeden Strichwechsel. Datum der Änderung suchen. *(2026-11-05)*
 - Spiegelung prüfen ([[zusammengesetzter-wert]]): Schadet eine Lesart ohne Schreiber (tote Zeile im Schlüssel) wirklich nie? Gesucht: ein Fall, in dem eine tote Erläuterung zu einer falschen Deutung führte. Sturzbefund. *(2026-11-05)*
 
 - Carbons `danger--primary` ([[zusammengesetzter-wert]]): seit wann in `ButtonKinds`, je eine Regel im Stylesheet, als Synonym für `danger` gemeint? Issue-Tracker und Commit-Historie von carbon-design-system lesen; den Knopf einmal wirklich rendern (Browser, Carbon-CSS), statt nur Klassennamen zu zählen. *(2026-11-04)*

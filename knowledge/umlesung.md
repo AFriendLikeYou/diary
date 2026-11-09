@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-11-03
+zuletzt: 2026-11-09
 ---
 
 # Umlesung
@@ -130,6 +130,11 @@ trotzdem zweideutig.
   eigene Notiz [[umformung]]** mit zweitem Fall (& aus *et*, [[et-zeichen]]); der
   Satz vom Verschwinden des Belegs ist dort eingeschränkt (Schwesterform)
 
+- [[schwellenwanderung]] — Abgrenzung (2026-11-09): verschiebt man die
+  gemessene Grenze hinter einem Klassenzeichen (Gefahrnummer 33: unter 21 °C →
+  unter 23 °C), ist das Umlesung **und** Umzeichnung zugleich — die Randfälle
+  bekommen ein neues Zeichen. Kein sechster Fall, sondern eine Nachbarbewegung
+
 ## Kommt vor in
 
 - `entries/2026/2026-10-04.md`
@@ -139,3 +144,4 @@ trotzdem zweideutig.
 - `entries/2026/2026-10-14.md` (Teilung Nr. 21 verjährt; Abgrenzung zum Übersetzen)
 - `entries/2026/2026-11-02.md` (Gegenstück Umformung, an den Neumen)
 - (erwähnt) `entries/2026/2026-11-03.md` (Umformung als eigene Notiz)
+- (Abgrenzung) `entries/2026/2026-11-09.md` (Schwellenwanderung)

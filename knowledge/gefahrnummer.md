@@ -3,7 +3,7 @@ slug: gefahrnummer
 titel: Gefahrnummer (Kemler-Zahl)
 art: system
 angelegt: 2026-11-05
-zuletzt: 2026-11-05
+zuletzt: 2026-11-09
 ---
 
 # Gefahrnummer (Kemler-Zahl)
@@ -59,9 +59,15 @@ Gefahrnummern nur für Tank- und Schüttgutbeförderung vergibt.
   (selbst gelesen, undatiert, Flammpunkte 21/55 °C).
 - **Sekundär:** Name „Kemler", ein „Professor Kemler" ohne Vornamen, nicht im
   ADR/RID (Truck and Track 2025, Suchzusammenfassung).
-- **Vermutet:** heutige Flammpunktschwelle 23 °C statt 21 °C (aus der
-  Erinnerung) — wenn ja, hat sich die Bedeutung von 33 ohne Strichänderung
-  verschoben ([[umlesung]]).
+- **Seit 2026-11-09 belegt:** Schwelle gewandert. 1993 (österr. BGBl.
+  164/1993, selbst gelesen): 33 = „Flammpunkt unter 21° C", 30 = „von 21° C bis
+  100° C", 63/83/883 „von 21° C bis 55° C"; Streitregel: Absenderziffer gilt bei
+  Abweichung ≤ 2 °C von 21/55/100 °C. ADR01-Archiv (Rn. 2300, selbst gelesen):
+  Teilung bei 23 °C, Klasse 3 bis 61 °C. Heute 23/60 °C (Suchzusammenfassung).
+  Umstellung vermutlich 1.1.1995. **Nicht** „ohne Strichänderung": Stoffe am
+  Rand wechseln die Tafel (30 → 33) — siehe [[schwellenwanderung]].
+- **Vermutet:** Die ILO-Liste (21/55 °C) gibt einen Stand **vor 1995** wieder,
+  gleich wann die Seite online ging — Datierung aus dem Inhalt.
 - **Offen:** Einführungsjahr; ob „usually" im heutigen 5.3.2.3.1 steht (die
   ILO-Seite formuliert ohne).
 
@@ -72,9 +78,12 @@ Gefahrnummern nur für Tank- und Schüttgutbeförderung vergibt.
 - [[ausgelagerter-schluessel]] — das Verzeichnis steht im Regelwerk, nicht auf der
   Tafel (nicht als Fall gezählt)
 - [[nachbarschaftswert]] — die 2 je nach Stellung
-- [[umlesung]] — falls die Flammpunktschwellen unter gleichen Ziffern wanderten
+- [[schwellenwanderung]] — die Flammpunktschwelle hinter 33 wanderte (21 → 23 °C),
+  Umlesung und Umzeichnung zugleich (2026-11-09)
+- [[umlesung]] — wovon sich die Schwellenwanderung abgrenzt
 - [[icd]] — ebenfalls eine Stelle, deren Bedeutung nicht im ganzen Zahlenraum gleich ist
 
 ## Kommt vor in
 
 - `entries/2026/2026-11-05.md`
+- `entries/2026/2026-11-09.md` (Flammpunktschwellen 1993/ADR01, Streitregel ±2 °C)
