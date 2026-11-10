@@ -3,7 +3,7 @@ slug: schwellenwanderung
 titel: Schwellenwanderung (Klassengrenze verschoben, Zeichen bleibt)
 art: muster
 angelegt: 2026-11-09
-zuletzt: 2026-11-09
+zuletzt: 2026-11-10
 ---
 
 # Schwellenwanderung
@@ -13,7 +13,8 @@ Gestalt und Wort, aber die Grenze des Intervalls wird verschoben. Das ist
 Umlesung und Umzeichnung **in einem Zug**: Wer das Verzeichnis kennt, liest das
 Zeichen anders; die Fälle am Rand der Grenze bekommen ein anderes Zeichen, ohne
 dass sich an ihnen etwas geändert hat; und wer nur das Wort hinter dem Zeichen
-kennt, bemerkt nichts. n=1 (Gefahrgut).
+kennt, bemerkt nichts. n=2 (Gefahrgut, Energielabel) — und seit dem zweiten Fall
+nicht mehr an Geräuschlosigkeit gebunden.
 
 ## Kern
 
@@ -48,6 +49,22 @@ der 23 lesen.)
 - Nah an [[farbgrad]]: auch dort ist die Zahl ein Messband; verschöbe man die
   Bänder, wäre es eine Schwellenwanderung (nicht geprüft).
 
+**Nachtrag 2026-11-10: die laute Wanderung** ([[energielabel]]). Die EU-Neuskalierung
+2021 verschiebt die Grenzen unter denselben Buchstaben A–G, macht das aber
+absichtlich hörbar: das neue Etikett muss per Definition (VO 2017/1369 Art. 2
+Nr. 21) vom alten unterscheidbar sein, altes und neues dürfen im Laden nie
+nebeneinander hängen (Art. 11 Abs. 13), die Spitzenklasse bleibt leer
+(Abs. 8), die nächste Wanderung ist mit Auslöser (30 % in A / 50 % in A+B) im
+Regelwerk vorgesehen. **Korrektur der Kernaussage:** Leise ist eine Wanderung nur,
+wenn der verschobene Schlüssel nicht der gelesene ist. Beim Etikett ist der
+gelesene Schlüssel (Buchstabe, Farbe, Etikettgestalt) selbst Träger der Änderung.
+
+**Gegenrichtung:** Zeichen oben anbauen statt Grenzen verschieben (Plusklassen um
+2010) zeichnet keinen Fall um, liest aber **alle** alten Zeichen um — A hört auf,
+„oben" zu heißen. Antwort auf die Backlog-Frage „Grenze verschieben oder Zeichen
+erneuern?": beides ändert die Bedeutung des Bestands, nur an verschiedener Stelle
+(Streifen von Fällen vs. alle Zeichen). n=1 für die Gegenrichtung.
+
 ## Belegt / vermutet
 
 - **Belegt (selbst gelesen):** BGBl. 164/1993 (RIS); umwelt-online „ADR01" Rn.
@@ -62,7 +79,8 @@ der 23 lesen.)
 
 - [[umlesung]] — die Bewegung, von der sich diese abgrenzt
 - [[binaerpraefix]] — Spiegelbild: Zahl unter dem Wort wechselt, Klassen bleiben
-- [[gefahrnummer]] — der einzige Fall bisher
+- [[gefahrnummer]] — der erste Fall (leise)
+- [[energielabel]] — der zweite Fall (laut), und die Gegenrichtung (Plusklassen)
 - [[farbgrad]] — Messband im Zeichen, Kandidat
 - [[ausgelagerter-schluessel]] — das Intervall steht nicht auf der Tafel, sondern
   im Regelwerk
@@ -71,3 +89,4 @@ der 23 lesen.)
 ## Kommt vor in
 
 - `entries/2026/2026-11-09.md`
+- `entries/2026/2026-11-10.md` (zweiter Fall, laut; Gegenrichtung)

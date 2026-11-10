@@ -3,7 +3,7 @@ slug: umlesung
 titel: Umlesung (dasselbe Zeichen, neuer Gegenstand)
 art: muster
 angelegt: 2026-10-04
-zuletzt: 2026-11-09
+zuletzt: 2026-11-10
 ---
 
 # Umlesung
@@ -134,6 +134,12 @@ trotzdem zweideutig.
   gemessene Grenze hinter einem Klassenzeichen (Gefahrnummer 33: unter 21 °C →
   unter 23 °C), ist das Umlesung **und** Umzeichnung zugleich — die Randfälle
   bekommen ein neues Zeichen. Kein sechster Fall, sondern eine Nachbarbewegung
+- [[energielabel]] — Kandidat (2026-11-10): **Umlesung durch Zuwachs**. Als
+  um 2010 oben A+, A++, A+++ angebaut wurden, änderte sich an keinem A ein
+  Strich und keine Grenze, aber A hieß nicht mehr „oben" (VO 2017/1369,
+  Erwägungsgrund 16). Hier wechselt nicht der Leser, sondern der Raum der
+  Zeichen um das Zeichen herum. Nicht als Fall gezählt, bis klar ist, ob es
+  nicht [[nachbarschaftswert]] ist
 
 ## Kommt vor in
 
@@ -145,3 +151,4 @@ trotzdem zweideutig.
 - `entries/2026/2026-11-02.md` (Gegenstück Umformung, an den Neumen)
 - (erwähnt) `entries/2026/2026-11-03.md` (Umformung als eigene Notiz)
 - (Abgrenzung) `entries/2026/2026-11-09.md` (Schwellenwanderung)
+- (Kandidat) `entries/2026/2026-11-10.md` (Umlesung durch Zuwachs, Plusklassen)

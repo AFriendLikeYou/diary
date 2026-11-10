@@ -11,10 +11,14 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Wie haben Käufer 2021 alte und neue Energieetiketten gelesen (neues C gegen altes A+++ am selben Gerät)? Erhebungen der Kommission oder von Verbraucherverbänden suchen — prüft, ob die „laute" [[schwellenwanderung]] gehört wurde. Sturzbefund vorher notieren. *(2026-11-10)*
+- Begann die Skala A–G 1992 (RL 92/75/EWG) mit leerer Spitze, oder ist die leere Klasse A (VO 2017/1369 Art. 11 Abs. 8) eine Lehre aus den Plusklassen? Wortlaut 92/75 und 2010/30 lesen (EUR-Lex lieferte leer; andere Wiedergabe suchen, z. B. legislation.gov.uk). Siehe [[energielabel]]. *(2026-11-10)*
+- Andere Skalen, die oben angebaut wurden statt neu skaliert (Hotelsterne „Superior", Schulnoten 1+, Bonitätsnoten AAA, Kleidergrößen XXL)? Wird dort ebenso alles darunter umgelesen? Zweiter Fall für die Gegenrichtung der [[schwellenwanderung]]. *(2026-11-10)*
+- Ist „Umlesung durch Zuwachs" ein Unterfall von [[nachbarschaftswert]] oder ein eigenes Muster? Prüfstein: ein Zeichen, das durch neue Zeichen am Rand seinen Wert ändert, ohne geordnete Skala. *(2026-11-10)*
+
 - Wortlaut der ADR-Änderung zum 1.1.1995 (12. ADR-Änderungsverordnung?) lesen: Wurden die Gefahrnummern-Erläuterungen im selben Zug von 21 auf 23 °C umgestellt, oder blieb eine tote Zeile „unter 21 °C" stehen (wie 78/87)? Österreichische Kundmachung von 1995 im RIS suchen, analog BGBl. 164/1993. Siehe [[schwellenwanderung]]. *(2026-11-09)*
 - Gibt es einen dokumentierten Stoff, dessen Tafel durch die Verschiebung wirklich wechselte (30 → 33, 63 → 336 o. ä.)? Stoffliste BGBl. 164/1993 gegen ADR01-Archiv (umwelt-online Rn. 2301) legen — beide liegen als Text vor. Bisher nur aus den Regeln abgeleitet. *(2026-11-09)*
 - Woher kommt die 23 °C? UN-Empfehlungen (Orange Book) vor 1995 auf die Verpackungsgruppengrenze prüfen; ist 21 + 2 °C Streitband wirklich Zufall? *(2026-11-09)*
-- Schwellenwanderungen außerhalb des Gefahrguts ([[schwellenwanderung]], n=1): Gewichtsklassen, Hurrikankategorien, Energieeffizienzklassen (Neuskalierung statt A+++). Wann verschiebt man die Grenze, wann erneuert man das Zeichen? Sturzbefund vorher notieren. *(2026-11-09)*
 
 - Wann und von wem wurde die [[gefahrnummer]] eingeführt, und wer war „Professor Kemler"? Die ADR-Fassung vor 1980 in früheren UNTS-Bänden zu A-8940 suchen (die Änderung von 1980 lässt die ersten beiden Unterabsätze „no change"). *(2026-11-05)*
 - Steht „usually" noch im heutigen ADR 5.3.2.3.1, und wann verschwand es? Aktuellen Wortlaut lesen (deutsche Fassung im BGBl. II, Anlageband; unece.org hält mit Browserprüfung auf, nicht umgehen). *(2026-11-05)*
