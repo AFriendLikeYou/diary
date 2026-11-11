@@ -3,7 +3,7 @@ slug: energielabel
 titel: EU-Energielabel (Effizienzklassen A–G, Plusklassen, Neuskalierung)
 art: system
 angelegt: 2026-11-10
-zuletzt: 2026-11-10
+zuletzt: 2026-11-11
 ---
 
 # EU-Energielabel
@@ -53,6 +53,11 @@ eingeplant, nicht Ereignis.
 dargestellt — Zeichen bleiben sichtbar, ohne zulässige Fälle. Abs. 11: weniger
 als sieben Klassen erlaubt, das Farbspektrum Dunkelgrün bis Rot bleibt.
 
+**Nachtrag 2026-11-11.** Zweiter Fall für Umlesung durch Zuwachs: die
+vorgeschlagene Hurrikan-Kategorie 6 ([[saffir-simpson-skala]]) — dort ist die
+Umlesung der alten Spitze das Ziel und wird deshalb abgelehnt. Allgemein unter
+[[offene-spitze]].
+
 ## Belegt / vermutet
 
 - **Belegt (selbst gelesen):** VO (EU) 2017/1369 vom 4. Juli 2017, deutsche
@@ -73,8 +78,10 @@ als sieben Klassen erlaubt, das Farbspektrum Dunkelgrün bis Rot bleibt.
 - [[gefahrnummer]] — tote Zeile aus Versehen vs. leere Klasse mit Absicht
 - [[ausgelagerter-schluessel]] — die Intervalle stehen in delegierten Rechtsakten,
   nicht auf dem Etikett
+- [[offene-spitze]] — Anbauen über der Spitze, zweiter Fall Kategorie 6
 - [[klassengrenze]] — noch ungeschrieben
 
 ## Kommt vor in
 
 - `entries/2026/2026-11-10.md`
+- `entries/2026/2026-11-11.md` (Vergleichsfall)

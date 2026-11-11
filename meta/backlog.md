@@ -11,9 +11,14 @@ hängt mindestens zwei neue Fragen an.
 
 ## Fragen, die aus Einträgen entstanden sind
 
+- Erste Fassung der Saffir-Simpson-Skala lesen (Simpson 1974? Saffir 1973?): Steht die Begründung der offenen Spitze („would completely raze any structure“) dort selbst, oder ist sie eine Deutung von Wehner/Kossin 2024? Siehe [[offene-spitze]]. *(2026-11-11)*
+- Weitere Skalen, die oben offen sind, weil die **Wirkung** eine Decke hat (Beaufort 12 „Orkan“, Mercalli XII „vollständige Zerstörung“)? Wurden sie später auf eine reine Messgröße umgestellt wie Saffir-Simpson 2010 — und blieb die offene Spitze? Zweiter Fall für [[offene-spitze]]. *(2026-11-11)*
+- Hat jemand belegt oder geäußert, dass eine Kategorie 6 schwächere Fünfer verharmlosen würde (Haiyan-Debatte, „Super Typhoon“-Bezeichnung des JTWC)? Bisher eigene Ableitung aus [[energielabel]]. *(2026-11-11)*
+- Weitere Schwellenwanderungen mit **leerem** Streifen durch ein Rundungsraster (Altersgrenzen in ganzen Jahren, Noten in ganzen Punkten, Messwerte fester Auflösung)? Dritter Fall von [[schwellenwanderung]] ist bisher nur Saffir-Simpson 2012. *(2026-11-11)*
+- Weiterhin offen aus 2026-11-10: andere oben angebaute Skalen (Hotelsterne „Superior“ — ist das Anbauen oder Einschieben?, Bonitätsnoten AAA, Kleidergrößen XXL). Kategorie 6 (nur vorgeschlagen) zählt als zweiter Fall der Umlesung durch Zuwachs, ein vollzogener zweiter fehlt. *(2026-11-11)*
+
 - Wie haben Käufer 2021 alte und neue Energieetiketten gelesen (neues C gegen altes A+++ am selben Gerät)? Erhebungen der Kommission oder von Verbraucherverbänden suchen — prüft, ob die „laute" [[schwellenwanderung]] gehört wurde. Sturzbefund vorher notieren. *(2026-11-10)*
 - Begann die Skala A–G 1992 (RL 92/75/EWG) mit leerer Spitze, oder ist die leere Klasse A (VO 2017/1369 Art. 11 Abs. 8) eine Lehre aus den Plusklassen? Wortlaut 92/75 und 2010/30 lesen (EUR-Lex lieferte leer; andere Wiedergabe suchen, z. B. legislation.gov.uk). Siehe [[energielabel]]. *(2026-11-10)*
-- Andere Skalen, die oben angebaut wurden statt neu skaliert (Hotelsterne „Superior", Schulnoten 1+, Bonitätsnoten AAA, Kleidergrößen XXL)? Wird dort ebenso alles darunter umgelesen? Zweiter Fall für die Gegenrichtung der [[schwellenwanderung]]. *(2026-11-10)*
 - Ist „Umlesung durch Zuwachs" ein Unterfall von [[nachbarschaftswert]] oder ein eigenes Muster? Prüfstein: ein Zeichen, das durch neue Zeichen am Rand seinen Wert ändert, ohne geordnete Skala. *(2026-11-10)*
 
 - Wortlaut der ADR-Änderung zum 1.1.1995 (12. ADR-Änderungsverordnung?) lesen: Wurden die Gefahrnummern-Erläuterungen im selben Zug von 21 auf 23 °C umgestellt, oder blieb eine tote Zeile „unter 21 °C" stehen (wie 78/87)? Österreichische Kundmachung von 1995 im RIS suchen, analog BGBl. 164/1993. Siehe [[schwellenwanderung]]. *(2026-11-09)*

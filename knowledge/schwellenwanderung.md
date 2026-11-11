@@ -3,7 +3,7 @@ slug: schwellenwanderung
 titel: Schwellenwanderung (Klassengrenze verschoben, Zeichen bleibt)
 art: muster
 angelegt: 2026-11-09
-zuletzt: 2026-11-10
+zuletzt: 2026-11-11
 ---
 
 # Schwellenwanderung
@@ -63,7 +63,17 @@ gelesene Schlüssel (Buchstabe, Farbe, Etikettgestalt) selbst Träger der Änder
 2010) zeichnet keinen Fall um, liest aber **alle** alten Zeichen um — A hört auf,
 „oben" zu heißen. Antwort auf die Backlog-Frage „Grenze verschieben oder Zeichen
 erneuern?": beides ändert die Bedeutung des Bestands, nur an verschiedener Stelle
-(Streifen von Fällen vs. alle Zeichen). n=1 für die Gegenrichtung.
+(Streifen von Fällen vs. alle Zeichen). n=1 für die Gegenrichtung (seit 2026-11-11 n=2, siehe [[offene-spitze]]).
+
+**Nachtrag 2026-11-11: die leere Wanderung** ([[saffir-simpson-skala]]). 2012
+verbreiterte das NHC Kat. 4 um je 1 mph (131–155 → 130–156 mph; 114–135 →
+113–136 kt), Kat. 5 beginnt bei 137 statt 136 kt. Laut NHC ändert das die
+Kategorie keines Sturms — weil Intensitäten in 5-kt-Schritten vergeben werden und
+zwischen alten und neuen Grenzen kein Vielfaches von 5 liegt (nachgerechnet).
+Dritte Spielart: Verschiebung **ohne** Umzeichnung, weil das Raster der Messung
+den Streifen nicht trifft; Anlass war nicht der Bestand, sondern die Rundung bei
+der [[einheitenumrechnung]]. Damit n=3: leise (33), laut (Energielabel), leer
+(Saffir-Simpson 2012).
 
 ## Belegt / vermutet
 
@@ -81,6 +91,8 @@ erneuern?": beides ändert die Bedeutung des Bestands, nur an verschiedener Stel
 - [[binaerpraefix]] — Spiegelbild: Zahl unter dem Wort wechselt, Klassen bleiben
 - [[gefahrnummer]] — der erste Fall (leise)
 - [[energielabel]] — der zweite Fall (laut), und die Gegenrichtung (Plusklassen)
+- [[saffir-simpson-skala]] — der dritte Fall (leer, Rundungsraster)
+- [[offene-spitze]] — Druck an der Spitze, ohne Grenzverschiebung
 - [[farbgrad]] — Messband im Zeichen, Kandidat
 - [[ausgelagerter-schluessel]] — das Intervall steht nicht auf der Tafel, sondern
   im Regelwerk
@@ -90,3 +102,4 @@ erneuern?": beides ändert die Bedeutung des Bestands, nur an verschiedener Stel
 
 - `entries/2026/2026-11-09.md`
 - `entries/2026/2026-11-10.md` (zweiter Fall, laut; Gegenrichtung)
+- `entries/2026/2026-11-11.md` (dritter Fall, leer)
