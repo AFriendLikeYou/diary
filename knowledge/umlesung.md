@@ -140,6 +140,10 @@ trotzdem zweideutig.
   Erwägungsgrund 16). Hier wechselt nicht der Leser, sondern der Raum der
   Zeichen um das Zeichen herum. Nicht als Fall gezählt, bis klar ist, ob es
   nicht [[nachbarschaftswert]] ist
+- [[beaufort-skala]] — zwei Kandidaten (2026-11-12): stille Umlesung der 12 durch
+  **Instrumentwechsel** (Segel → Anemometer: „kein Segel hält es aus" → „≥ 64 kn");
+  und Umlesung durch Zuwachs **regional** (13–17 seit 1946 nur in Teilen Ostasiens):
+  dieselbe 12 heißt je nach Leserkreis „Spitze" oder „64–71 kn". Nicht gezählt
 
 ## Kommt vor in
 
@@ -152,3 +156,4 @@ trotzdem zweideutig.
 - (erwähnt) `entries/2026/2026-11-03.md` (Umformung als eigene Notiz)
 - (Abgrenzung) `entries/2026/2026-11-09.md` (Schwellenwanderung)
 - (Kandidat) `entries/2026/2026-11-10.md` (Umlesung durch Zuwachs, Plusklassen)
+- (Kandidat) `entries/2026/2026-11-12.md` (Instrumentwechsel; Zuwachs als Dialekt)

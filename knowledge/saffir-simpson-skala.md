@@ -63,8 +63,10 @@ neuen Knotengrenzen liegt kein Vielfaches von 5.
 - [[umlesung]] — Umlesung 2010 ohne Strichwechsel; Umlesung durch Zuwachs
 - [[nachbarschaftswert]] — Wert der Fünf hängt am (fehlenden) Zeichen darüber
 - [[zusammengesetzter-wert]] — bis 2010 trug eine Zahl Wind, Flut und Druck
-- [[beaufort-skala]] — noch ungeschrieben, Kandidat für offene Spitze
+- [[beaufort-skala]] — zweiter Fall offener Spitze (2026-11-12): Begründung dort
+  Messsättigung statt Wirkungsdecke; derselbe stille Grundverlust, ein Jahrhundert früher
 
 ## Kommt vor in
 
 - `entries/2026/2026-11-11.md`
+- (Vergleich) `entries/2026/2026-11-12.md`
