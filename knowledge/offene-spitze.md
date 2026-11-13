@@ -3,7 +3,7 @@ slug: offene-spitze
 titel: Offene Spitze (oberste Klasse ohne obere Grenze)
 art: muster
 angelegt: 2026-11-11
-zuletzt: 2026-11-12
+zuletzt: 2026-11-13
 ---
 
 # Offene Spitze
@@ -47,6 +47,8 @@ Der Preis fällt beim **alten obersten** Zeichen an, nicht beim neuen.
 lassen (VO 2017/1369 Art. 11 Abs. 8) — die Spitze ist geschlossen und niemand
 erreicht sie. Das NHC: die Skala insgesamt weniger betonen.
 
+**Dritte Begründung, Kandidat (2026-11-13): Seltenheitsdecke.** [[shindo-skala]]: „6 und mehr“ genügte, bis das Fukui-Beben 1948 Gebiete mit >90 % Einstürzen brachte; 1949 Stufe 7 angebaut, national. Fällt durch ein Ereignis, nicht durch Umbau oder Instrumentwechsel. Zugleich Relativierung: Wirkungsdecke gilt fürs Objekt, nicht für Flächenanteile. Quellen nur Suchzusammenfassungen.
+
 ## Belegt / vermutet
 
 - **Belegt:** siehe [[saffir-simpson-skala]] (PNAS 2024, NHC) und [[energielabel]]
@@ -67,9 +69,11 @@ erreicht sie. Das NHC: die Skala insgesamt weniger betonen.
 - [[nachbarschaftswert]] — der Wert der Spitze hängt am Zeichen darüber, auch am
   fehlenden
 - [[schwellenwanderung]] — die andere Antwort auf Druck an der Spitze
+- [[shindo-skala]] — Fall 3, Seltenheitsdecke, nationaler Anbau
 - [[klassengrenze]] — noch ungeschrieben
 
 ## Kommt vor in
 
 - `entries/2026/2026-11-11.md`
 - `entries/2026/2026-11-12.md` (zweiter Fall, Messsättigung, Anbau als Dialekt)
+- `entries/2026/2026-11-13.md` (dritter Fall, Seltenheitsdecke)

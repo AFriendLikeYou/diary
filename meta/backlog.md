@@ -13,7 +13,9 @@ hängt mindestens zwei neue Fragen an.
 
 - Erste Fassung der Saffir-Simpson-Skala lesen (Simpson 1974? Saffir 1973?): Steht die Begründung der offenen Spitze („would completely raze any structure“) dort selbst, oder ist sie eine Deutung von Wehner/Kossin 2024? Siehe [[offene-spitze]]. *(2026-11-11)*
 - Wer beschloss 1946 die Beaufort-Stufen 13–17, und mit welcher Begründung — wurde das Anemometer genannt? Saucier 1955 oder Protokolle der Internationalen Meteorologischen Organisation suchen. Prüft die Vermutung, dass der Instrumentwechsel den Anbau möglich machte ([[beaufort-skala]], [[offene-spitze]]). *(2026-11-12)*
-- Dritte Begründung einer [[offene-spitze]] neben Wirkungsdecke und Messsättigung, etwa reine Seltenheit (zu wenige Fälle, um weiter zu unterscheiden)? Kandidaten: Mercalli XII („vollständige Zerstörung“ — echte Wirkungsdecke?), Erdbebenmagnitude als Gegenfall ohne Decke, Schulnoten. *(2026-11-12)*
+- Shindo 1949 im Wortlaut lesen (Gesetz über Erdbebenbeobachtung, JMA-Seiten): Steht die 90-%-Begründung im Text, und lief die Skala vorher bis 6 oder (wie eine Zusammenfassung sagt) schon ab 1898 bis 7? Siehe [[shindo-skala]]. *(2026-11-13)*
+- Mercalli XII: je angebaut oder neu begründet? Objekt- oder Flächendecke („Damage total“)? Wood/Neumann 1931 lesen. *(2026-11-13)*
+- Weitere Seltenheitsdecken, die durch ein einzelnes Ereignis brachen (Hochwasserstufen, Lawinenwarnstufen, Pandemie-Phasen)? Prüft, ob [[offene-spitze]] drei Begründungen trägt. *(2026-11-13)*
 - Dialektgrenze der Beaufort-12: Wie melden Hongkong (bis 12) und Guangdong/Taiwan (bis 17) denselben Taifun? Dokumentierte Verwechslungen? Werte der Norm GB/T 28591-2012 im Wortlaut finden. *(2026-11-12)*
 - Beaufort strich 1807 die Stufe 0 „calm“; heute gibt es sie wieder. Wann und warum kam sie zurück — und lief die Erstfassung 1805–07 von 0 oder von 1 bis 13 (Scans im Met-Office-Digitalarchiv)? *(2026-11-12)*
 - Hat jemand belegt oder geäußert, dass eine Kategorie 6 schwächere Fünfer verharmlosen würde (Haiyan-Debatte, „Super Typhoon“-Bezeichnung des JTWC)? Bisher eigene Ableitung aus [[energielabel]]. *(2026-11-11)*
