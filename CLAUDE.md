@@ -1,132 +1,117 @@
-# CLAUDE.md — Betriebsanleitung für das Tagebuch
+# CLAUDE.md — Betriebsanleitung: Werkbank Designsysteme
 
-Dieses Repo ist ein **von Claude geführtes Tagebuch**. Jeder Lauf ist ein
-eigenständiger Prozess ohne Erinnerung an vorherige Läufe. Das Gedächtnis liegt
-**ausschließlich in den Dateien dieses Repos**. Diese Datei ist der Einstiegspunkt.
+Dieses Repo ist eine **tägliche Werkbank**: Jeden Tag recherchiere ich ein echtes,
+belegtes Problem aus der Welt der Designsysteme und baue dafür ein kleines,
+lauffähiges Webtool. Alle Tools sind über die Sammelseite `index.html` erreichbar.
 
-Sprache: **Deutsch**. Dateinamen und Ordner: kleingeschrieben, kebab-case, ASCII.
+Jeder Lauf hat keine Erinnerung an frühere Läufe. Das Gedächtnis liegt
+**ausschließlich in den Dateien dieses Repos**.
 
----
-
-## Das Thema
-
-Steht in [`THEMA.md`](THEMA.md). Es ist gesetzt und wird nicht ohne Aufforderung
-des Menschen gewechselt. Alle Einträge zahlen darauf ein.
+Sprache: **Deutsch**. Ordner und Dateinamen: kleingeschrieben, kebab-case, ASCII.
+Der alte Inhalt (Tagebuch „Notation“) liegt im Git-Tag `archiv-tagebuch-notation`.
 
 ---
+
+## Themenfeld
+
+Designsysteme und alles, was dazugehört: Tokens (Farbe, Typo, Abstand, Radius,
+Bewegung), Theming/Dark Mode, Komponenten und ihre Zustände, Barrierefreiheit,
+Icons, Dokumentation, Übergabe Design ↔ Entwicklung, Figma (Variablen, Libraries,
+Dev Mode, Plugins), Code-Seite (CSS, Style Dictionary, DTCG), Governance,
+Versionierung, Audits, Adoption.
 
 ## Was ein Lauf tut (Reihenfolge, verbindlich)
 
-### 1. Orientieren — immer zuerst, immer vollständig
+### 1. Orientieren
 
 ```bash
 cd ~/diary && git pull --rebase
 ```
 
-Dann lesen, in dieser Reihenfolge:
+Lesen: `meta/tools.md` (was es schon gibt), `meta/probleme.md` (gesammelte
+Probleme), die letzten ~10 Zeilen von `meta/log.md`.
 
-1. `THEMA.md` — worum es geht, was dazugehört und was nicht
-2. `knowledge/INDEX.md` — was ich schon weiß
-3. `meta/backlog.md` — offene Fragen und Ideen aus früheren Läufen
-4. `meta/log.md` — die letzten ~10 Zeilen: was zuletzt lief, was schiefging
-5. Die **letzten drei Einträge** in `entries/` — vollständig, nicht nur die Titel
+### 2. Recherchieren — Pflicht
 
-Ohne Schritt 1 kein Schritt 2. Der häufigste Fehlermodus dieses Projekts ist,
-dass ein Lauf schreibt, was ein früherer Lauf schon geschrieben hat.
+Quellen: Reddit (r/FigmaDesign, r/DesignSystems, r/userexperience, r/webdev,
+r/Frontend), Hacker News, forum.figma.com, GitHub-Issues großer Systeme und
+Tools (Style Dictionary, Tokens Studio, Radix, Material, Primer …), Design-
+Systems-Slack-Zusammenfassungen, Blogs, Stack Overflow.
 
-### 2. Thema des Tages wählen
+Gesucht wird ein **konkreter Schmerz**, den echte Menschen schildern, nicht ein
+Thema. Jedes Problem in `meta/probleme.md` mit **Link zur Quelle** und
+Datum eintragen, auch die, die heute nicht gebaut werden (das ist der Vorrat).
 
-- **Erste Wahl:** ein Punkt aus `meta/backlog.md`. Der Backlog ist die Stimme
-  meines früheren Ichs — er hat Vorrang vor spontanen Einfällen.
-- Wenn der Backlog leer oder erschöpft ist: eine echte Lücke in
-  `knowledge/INDEX.md` schließen.
-- **Verboten:** ein Aspekt, den einer der letzten zehn Einträge schon trägt.
-  Verwandt ist erlaubt, Wiederholung nicht. Im Zweifel `grep` über `entries/`.
+Regel: Keine erfundenen Quellen, Zitate oder Zahlen. Was ich nicht selbst
+gelesen habe, kennzeichne ich („nur Suchzusammenfassung“).
 
-### 3. Recherchieren — wenn es der Sache dient
+### 3. Auswählen
 
-WebSearch/WebFetch sind erlaubt und erwünscht, wenn der Eintrag von Fakten lebt
-(Jahreszahlen, Namen, Primärquellen, Belege). Nicht Pflicht: manche Einträge sind
-Verknüpfung und Nachdenken über bereits Notiertes, und das ist genauso wertvoll.
+- Es muss in **einem Lauf** als Einzelseite baubar sein.
+- Keine Wiederholung eines vorhandenen Tools (siehe `meta/tools.md`).
+  Ein Ausbau eines bestehenden Tools ist erlaubt, zählt aber als eigener Eintrag
+  nur, wenn er ein neues Problem löst.
+- Abwechseln über die Themenfelder; nicht drei Farb-Tools hintereinander.
+- **Ausdrücklich erwünscht:** Ideen, die spielerischer sind (Lernspiele zu
+  Kontrast/Typo/Abständen, Quiz, Generatoren mit Überraschungseffekt) und
+  solche, die perspektivisch **monetarisierbar** wären (Figma-Plugin,
+  Pro-Funktion, Team-Version). Ungefähr jedes dritte Tool darf so eins sein.
+  In `meta/tools.md` je Tool eine Spalte „Potenzial“ pflegen: kurz, wer
+  dafür zahlen würde und wie (oder „Werkzeug“, wenn es keins hat).
+- Wenn es schon ein gutes, kostenloses Werkzeug dafür gibt: nicht bauen,
+  sondern in `meta/probleme.md` als „gelöst durch …“ vermerken.
 
-**Regel:** Was ich nicht belegen kann, kennzeichne ich als Vermutung. Lieber
-„soweit ich weiß" als eine erfundene Jahreszahl. Erfundene Quellen sind der eine
-Fehler, der dieses Repo wertlos machen würde.
+### 4. Bauen
 
-### 4. Eintrag schreiben
+Pfad: `tools/<nnn>-<slug>/index.html` (laufende Nummer, dreistellig).
 
-Pfad: `entries/<jahr>/<jjjj-mm-tt>.md` — ein Eintrag pro Tag.
-Vorlage: `meta/vorlage-eintrag.md`.
+- **Eine HTML-Datei**, kein Build, keine Abhängigkeiten außer ggf. einer
+  versionierten Bibliothek von cdnjs/jsdelivr. Läuft offline per Doppelklick.
+- Alles bleibt im Browser, keine Daten verlassen die Seite.
+- Light und Dark (`prefers-color-scheme`), Handy-Breite ohne
+  Querscrollen, Tastaturbedienung, sichtbarer Fokus.
+- Ein **Beispiel laden**-Knopf, damit man es sofort ausprobieren kann.
+- Oben: was es löst in zwei Sätzen. Unten: Anlass mit Link zur Quelle.
+- Link zurück zur Sammelseite (`../../index.html`).
+- **Testen:** die Kernlogik mit Node prüfen (Funktionen aus dem Script
+  herauslösen oder per `node -e`), mindestens das Beispiel durchrechnen.
+  Kein Tool wird eingetragen, das nicht nachweislich läuft.
 
-Anspruch:
+### 5. Eintragen
 
-- **600–1200 Wörter**, zusammenhängender Prosatext. Kein Stichpunkt-Referat.
-- Ein Gedanke, zu Ende gedacht — nicht fünf angerissene.
-- Ein konkretes Beispiel, das man sich merken kann.
-- Ehrliche Unsicherheit ist Teil des Textes, keine Schwäche.
-- Kein Füllmaterial, keine Zusammenfassung dessen, was gerade schon dastand.
-- Ich schreibe für mich, nicht für ein Publikum, das beeindruckt werden will.
+- `index.html`: eine neue Karte oben in der Liste (Nummer, Name, Problem in
+  einem Satz, Themenfeld, Datum).
+- `meta/tools.md`: eine Zeile.
+- `meta/probleme.md`: gebautes Problem als „gebaut → 0nn“ markieren.
 
-### 5. Wissensbasis pflegen — der eigentliche Punkt
+### 6. Protokollieren und veröffentlichen
 
-Ein Eintrag ist ein Tag. Die Wissensbasis ist das, was bleibt.
-
-- Jeder neue tragende Begriff bekommt eine **atomare Notiz** unter `knowledge/`:
-  ein Konzept pro Datei, `knowledge/<slug>.md`, Vorlage in
-  `meta/vorlage-notiz.md`.
-- Bestehende Notizen werden **ergänzt statt dupliziert**. Vor jeder neuen Notiz:
-  `ls knowledge/` und `grep -ril "<begriff>" knowledge/`.
-- Querverweise mit `[[slug]]`. Großzügig verlinken — ein `[[slug]]` ohne Datei
-  ist kein Fehler, sondern eine Notiz, die noch geschrieben werden will.
-- `knowledge/INDEX.md` wird im selben Lauf aktualisiert: eine Zeile pro Notiz.
-  Ein Index, der hinterherhinkt, macht Schritt 1 wertlos.
-
-### 6. Backlog füttern
-
-Jeder Lauf hinterlässt **mindestens zwei** neue offene Fragen in
-`meta/backlog.md` und streicht das, was er abgearbeitet hat. Ein Tagebuch, das
-sich keine neuen Fragen stellt, läuft in zwei Wochen trocken.
-
-### 7. Protokollieren und veröffentlichen
-
-Eine Zeile ans Ende von `meta/log.md` (Format siehe Datei).
+Eine Zeile ans Ende von `meta/log.md`:
+`jjjj-mm-tt · <nnn> <Name> · Problem: <kurz> · Quellen: <n> · Test: ok/… · push: ok/…`
 
 ```bash
-cd ~/diary
 git add -A
-git commit -m "Eintrag <jjjj-mm-tt>: <titel>"
+git commit -m "Tool <nnn>: <Name>"
 git push
 ```
 
-Commit-Message endet auf:
+Die Commit-Message endet mit `Co-Authored-By: Claude <noreply@anthropic.com>`.
 
-```
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
-```
-
-**Wenn `git push` fehlschlägt:** Der Eintrag ist trotzdem geschrieben und
-committed — das ist der wichtigere Teil. Fehlschlag in `meta/log.md` vermerken
-und dem Menschen im Abschlussbericht klar sagen, dass gepusht werden muss.
-Niemals Credentials suchen, umgehen oder erfragen; niemals `--force`.
-
----
+Danach die Sammelseite als Artifact neu veröffentlichen (URL in `meta/tools.md`
+oben). Wenn das nicht geht: im Log vermerken, nicht abbrechen.
 
 ## Grenzen
 
-- Nur dieses Repo wird verändert. Keine Dateien außerhalb von `~/diary`.
-- Keine `git`-Historie umschreiben (`rebase -i`, `reset --hard`, `push --force`).
-- Bestehende Einträge werden **nicht** nachträglich umgeschrieben. Ein Tagebuch
-  korrigiert sich in einem neuen Eintrag, nicht durch Löschen des alten. Reine
-  Tippfehler dürfen still korrigiert werden.
-- `knowledge/`-Notizen dürfen und sollen sich dagegen weiterentwickeln — sie sind
-  keine Tagebucheinträge, sondern der aktuelle Wissensstand.
-- Kein Thema wechseln, keine neuen Top-Level-Ordner, kein Umbau der Struktur
-  ohne ausdrückliche Ansage des Menschen.
+- Nur dieses Repo verändern.
+- Keine Historie umschreiben, kein `--force`, kein `reset --hard`.
+- Vorhandene Tools nicht löschen; Fehler in einem späteren Lauf beheben.
+- Remote bleibt SSH. Wenn `git push` scheitert: Commit bleibt, Fehlschlag
+  protokollieren, keine Credentials suchen.
 
 ## Ein Lauf ist fertig, wenn
 
-- [ ] `entries/<jahr>/<jjjj-mm-tt>.md` existiert und die Kriterien aus §4 erfüllt
-- [ ] `knowledge/` und `knowledge/INDEX.md` sind konsistent
-- [ ] `meta/backlog.md` hat mindestens zwei neue Fragen
-- [ ] `meta/log.md` hat eine neue Zeile
-- [ ] committed (und gepusht, oder der Fehlschlag ist protokolliert)
+- [ ] mindestens zwei neue, verlinkte Probleme in `meta/probleme.md`
+- [ ] ein neues Tool unter `tools/` existiert und getestet ist
+- [ ] `index.html` und `meta/tools.md` sind aktualisiert
+- [ ] `meta/log.md` hat eine Zeile
+- [ ] committed (und gepusht oder Fehlschlag protokolliert)

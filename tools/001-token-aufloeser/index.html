@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token-Auflöser</title>
+<style>
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}p{margin:0 0 12px;color:var(--muted)}
+a{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.modes{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.mode input[type=text]{width:100%;font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);margin-bottom:8px}
+textarea{width:100%;min-height:160px;font:12px/1.4 ui-monospace,Menlo,monospace;padding:8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);resize:vertical}
+button,.btn{font:inherit;padding:6px 12px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.stats{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0}.stats b{font-size:20px;display:block}
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--r)}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface);position:sticky;top:0}
+td code{font-size:12px}.chain{color:var(--muted);font-size:12px}
+.sw{display:inline-block;width:14px;height:14px;border-radius:2px;border:1px solid var(--border);vertical-align:-2px;margin-right:6px}
+.err{color:var(--bad)}.okc{color:var(--ok)}.wc{color:var(--warn)}
+.filter{font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);min-width:220px}
+select{font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);max-width:100%}
+.pill{font-size:12px;padding:1px 6px;border-radius:2px;border:1px solid currentColor}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="../../index.html">← Alle Tools</a></p>
+<h1>Token-Auflöser</h1>
+<p>Füge Token-Dateien ein, eine je Modus (zum Beispiel Light und Dark). Das Tool löst alle Aliase auf, zeigt die Kette bis zum Endwert, findet kaputte und zirkuläre Verweise und prüft den Kontrast für jedes Text/Fläche-Paar in jedem Modus. Unterstützt werden das W3C-Format (DTCG, <code>$value</code>, <code>{gruppe.token}</code>) und einfaches verschachteltes JSON. Alles bleibt in deinem Browser.</p>
+
+<section class="modes" id="modes"></section>
+<div class="row">
+  <button id="addMode">+ Modus</button>
+  <button id="sample">Beispiel laden</button>
+  <button class="primary" id="run">Auflösen</button>
+  <label class="btn">Dateien wählen <input type="file" id="files" accept=".json" multiple hidden></label>
+</div>
+
+<div id="out" hidden>
+  <h2>Ergebnis</h2>
+  <div class="stats" id="stats"></div>
+  <div class="row">
+    <input class="filter" id="q" placeholder="Filtern, z. B. text oder background" aria-label="Tokens filtern">
+    <label><input type="checkbox" id="onlyIssues"> Nur Probleme</label>
+    <button id="csv">CSV herunterladen</button>
+    <button id="flat">Aufgelöstes JSON herunterladen</button>
+  </div>
+  <div class="tablewrap" style="margin-top:12px;max-height:60vh"><table id="tbl"></table></div>
+
+  <h2>Kontrast je Modus</h2>
+  <p>Text-Tokens werden am Namen erkannt (text, fg, foreground, on-, icon), Flächen ebenso (bg, background, surface, fill, canvas). Du kannst auch ein einzelnes Paar wählen.</p>
+  <div class="row">
+    <select id="fg" aria-label="Vordergrund"></select>
+    <span>auf</span>
+    <select id="bgs" aria-label="Hintergrund"></select>
+    <span id="pair"></span>
+  </div>
+  <div class="row"><label>Mindestwert
+    <select id="min"><option value="4.5">4,5 : 1 (Text, AA)</option><option value="3">3 : 1 (groß/UI, AA)</option><option value="7">7 : 1 (AAA)</option></select></label>
+    <label><input type="checkbox" id="onlyFail" checked> Nur unterschrittene Paare</label></div>
+  <div class="tablewrap" style="margin-top:12px;max-height:60vh"><table id="ctbl"></table></div>
+</div>
+
+<footer>Tool 001 / 14.11.2026. Anlass: Im Figma-Forum fehlt ein Export der Variablen-Tabelle mit aufgelösten Werten, Aliase bleiben verborgen (<a href="https://forum.figma.com/ask-the-community-7/why-are-fundamental-functional-needs-ignored-e-g-export-variables-and-values-to-csv-49513">Thread 49513</a>). Und der Kontrastprüfer liest keine Variablen, man muss sie erst abkoppeln (<a href="https://forum.figma.com/share-your-feedback-26/color-contrast-checker-for-variables-and-styles-39887">Thread 39887</a>).</footer>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const modesEl=$('#modes');
+function addMode(name='',json=''){
+  const d=document.createElement('div');d.className='card mode';
+  d.innerHTML=`<input type="text" placeholder="Name des Modus, z. B. Light" aria-label="Modusname"><textarea spellcheck="false" placeholder='{"color":{"text":{"$value":"{base.gray.900}"}}}' aria-label="Token-JSON"></textarea><div class="row"><button class="rm">Entfernen</button></div>`;
+  d.querySelector('input').value=name;d.querySelector('textarea').value=json;
+  d.querySelector('.rm').onclick=()=>d.remove();
+  modesEl.appendChild(d);return d;
+}
+addMode('Light');addMode('Dark');
+
+const SAMPLE_BASE={base:{gray:{"0":{$value:"#ffffff",$type:"color"},"100":{$value:"#f2f2f0"},"500":{$value:"#8a8a85"},"700":{$value:"#55554f"},"900":{$value:"#1a1a1a"}},blue:{"400":{$value:"#6b93f0"},"600":{$value:"#2457c5"}}}};
+const SAMPLE={
+ Light:{...SAMPLE_BASE,color:{background:{default:{$value:"{base.gray.0}"},subtle:{$value:"{base.gray.100}"}},text:{default:{$value:"{base.gray.900}"},muted:{$value:"{base.gray.500}"},link:{$value:"{base.blue.600}"}},border:{default:{$value:"{color.text.mutd}"}}}},
+ Dark:{...SAMPLE_BASE,color:{background:{default:{$value:"{base.gray.900}"},subtle:{$value:"{base.gray.700}"}},text:{default:{$value:"{base.gray.0}"},muted:{$value:"{base.gray.500}"},link:{$value:"{color.text.link}"}},border:{default:{$value:"{base.gray.700}"}}}}
+};
+$('#addMode').onclick=()=>addMode();
+$('#sample').onclick=()=>{modesEl.innerHTML='';for(const[k,v]of Object.entries(SAMPLE))addMode(k,JSON.stringify(v,null,2));run();};
+$('#files').onchange=async e=>{
+  const fs=[...e.target.files];if(!fs.length)return;
+  [...modesEl.children].forEach(c=>{if(!c.querySelector('textarea').value.trim())c.remove();});
+  for(const f of fs)addMode(f.name.replace(/\.(tokens\.)?json$/,''),await f.text());
+  e.target.value='';
+};
+
+// Flatten: DTCG ($value) or plain nested
+function flatten(obj,prefix='',out={}){
+  for(const[k,v]of Object.entries(obj)){
+    if(k.startsWith('$'))continue;
+    const p=prefix?prefix+'.'+k:k;
+    if(v&&typeof v==='object'&&!Array.isArray(v)){
+      if('$value' in v)out[p]=v.$value;
+      else if('value' in v&&typeof v.value!=='object')out[p]=v.value;
+      else flatten(v,p,out);
+    }else out[p]=v;
+  }return out;
+}
+const ALIAS=/^\{([^}]+)\}$/;
+function resolve(flat){
+  const res={};
+  for(const name of Object.keys(flat)){
+    const chain=[name];let cur=flat[name],issue=null;const seen=new Set([name]);
+    while(typeof cur==='string'&&ALIAS.test(cur.trim())){
+      const ref=cur.trim().match(ALIAS)[1];
+      if(seen.has(ref)){issue='Zirkulär';chain.push(ref);cur=null;break;}
+      if(!(ref in flat)){issue='Fehlt: '+ref;chain.push(ref);cur=null;break;}
+      seen.add(ref);chain.push(ref);cur=flat[ref];
+    }
+    res[name]={value:cur,chain,issue};
+  }return res;
+}
+// Color parsing
+function parseColor(v){
+  if(v&&typeof v==='object'){ // DTCG 2025 color object
+    if(Array.isArray(v.components)&&(v.colorSpace||'srgb')==='srgb')return[...v.components.map(c=>c*255),v.alpha??1];
+    if(v.hex)return parseColor(v.hex);return null;
+  }
+  if(typeof v!=='string')return null;const s=v.trim();
+  let m=s.match(/^#([0-9a-f]{3,8})$/i);
+  if(m){let h=m[1];if(h.length<=4)h=[...h].map(c=>c+c).join('');const n=h.match(/../g).map(x=>parseInt(x,16));return[n[0],n[1],n[2],n.length>3?n[3]/255:1];}
+  m=s.match(/^rgba?\(([^)]+)\)$/i);
+  if(m){const p=m[1].split(/[\s,\/]+/).filter(Boolean).map(parseFloat);return[p[0],p[1],p[2],p[3]??1];}
+  return null;
+}
+const lin=c=>{c/=255;return c<=.03928?c/12.92:Math.pow((c+.055)/1.055,2.4)};
+const lum=([r,g,b])=>.2126*lin(r)+.7152*lin(g)+.0722*lin(b);
+function blend(fg,bg){const a=fg[3];return[fg[0]*a+bg[0]*(1-a),fg[1]*a+bg[1]*(1-a),fg[2]*a+bg[2]*(1-a),1];}
+function ratio(fg,bg){const f=fg[3]<1?blend(fg,bg):fg;const a=lum(f),b=lum(bg);return(Math.max(a,b)+.05)/(Math.min(a,b)+.05);}
+const show=v=>v==null?'—':typeof v==='object'?JSON.stringify(v):String(v);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+let modes=[],names=[];
+function run(){
+  modes=[];
+  for(const c of modesEl.children){
+    const name=c.querySelector('input').value.trim()||'Modus '+(modes.length+1);
+    const txt=c.querySelector('textarea').value.trim();if(!txt)continue;
+    try{modes.push({name,res:resolve(flatten(JSON.parse(txt)))});}
+    catch(e){modes.push({name,error:e.message,res:{}});}
+  }
+  const set=new Set();modes.forEach(m=>Object.keys(m.res).forEach(k=>set.add(k)));
+  names=[...set].sort();
+  $('#out').hidden=false;
+  renderStats();renderTable();fillSelects();renderContrast();
+}
+$('#run').onclick=run;
+function issuesOf(n){const out=[];modes.forEach(m=>{const r=m.res[n];if(!r)out.push(m.name+': fehlt in diesem Modus');else if(r.issue)out.push(m.name+': '+r.issue);});return out;}
+function renderStats(){
+  const broken=names.filter(n=>issuesOf(n).length).length;
+  const aliases=names.filter(n=>modes.some(m=>m.res[n]&&m.res[n].chain.length>1)).length;
+  const errs=modes.filter(m=>m.error).map(m=>`<div class="err">${esc(m.name)}: JSON nicht lesbar (${esc(m.error)})</div>`).join('');
+  $('#stats').innerHTML=`<div><b>${names.length}</b>Tokens</div><div><b>${modes.length}</b>Modi</div><div><b>${aliases}</b>mit Alias</div><div><b class="${broken?'err':'okc'}">${broken}</b>mit Problemen</div>`+errs;
+}
+function renderTable(){
+  const q=$('#q').value.toLowerCase(),only=$('#onlyIssues').checked;
+  let h=`<thead><tr><th>Token</th>${modes.map(m=>`<th>${esc(m.name)}</th>`).join('')}</tr></thead><tbody>`;
+  let shown=0;
+  for(const n of names){
+    if(q&&!n.toLowerCase().includes(q))continue;
+    const iss=issuesOf(n);if(only&&!iss.length)continue;
+    if(++shown>2000)break;
+    h+=`<tr><td><code>${esc(n)}</code></td>`;
+    for(const m of modes){
+      const r=m.res[n];
+      if(!r){h+=`<td class="wc">nicht vorhanden</td>`;continue;}
+      const col=parseColor(r.value);
+      h+=`<td>${col?`<span class="sw" style="background:${esc(show(r.value))}"></span>`:''}${r.issue?`<span class="err">${esc(r.issue)}</span>`:`<code>${esc(show(r.value))}</code>`}${r.chain.length>1?`<div class="chain">${r.chain.slice(1).map(esc).join(' → ')}</div>`:''}</td>`;
+    }
+    h+='</tr>';
+  }
+  if(!shown)h+=`<tr><td colspan="${modes.length+1}">Keine Treffer.</td></tr>`;
+  $('#tbl').innerHTML=h+'</tbody>';
+}
+$('#q').oninput=renderTable;$('#onlyIssues').onchange=renderTable;
+
+const isFg=n=>/(^|[.\-_/])(text|fg|foreground|on[-_]|icon|content|label)/i.test(n);
+const isBg=n=>/(^|[.\-_/])(bg|background|surface|fill|canvas|layer|base)(?![-_.]?(gray|grey|blue))/i.test(n)&&!isFg(n);
+function colorNames(){return names.filter(n=>modes.some(m=>m.res[n]&&parseColor(m.res[n].value)));}
+function fillSelects(){
+  const cn=colorNames();const opt=cn.map(n=>`<option>${esc(n)}</option>`).join('');
+  $('#fg').innerHTML='<option value="">Vordergrund wählen</option>'+opt;
+  $('#bgs').innerHTML='<option value="">Hintergrund wählen</option>'+opt;
+  $('#pair').textContent='';
+}
+function pairInfo(){
+  const f=$('#fg').value,b=$('#bgs').value;if(!f||!b){$('#pair').textContent='';return;}
+  const min=+$('#min').value;
+  $('#pair').innerHTML=modes.map(m=>{const fc=parseColor(m.res[f]?.value),bc=parseColor(m.res[b]?.value);
+    if(!fc||!bc)return`${esc(m.name)}: —`;const r=ratio(fc,bc);return`${esc(m.name)}: <b class="${r>=min?'okc':'err'}">${r.toFixed(2)}</b>`;}).join(' / ');
+}
+$('#fg').onchange=pairInfo;$('#bgs').onchange=pairInfo;
+function renderContrast(){
+  pairInfo();
+  const min=+$('#min').value,onlyFail=$('#onlyFail').checked;
+  const cn=colorNames(),fgs=cn.filter(isFg),bgs=cn.filter(isBg);
+  let h=`<thead><tr><th>Text</th><th>Fläche</th>${modes.map(m=>`<th>${esc(m.name)}</th>`).join('')}</tr></thead><tbody>`,rows=0;
+  for(const f of fgs)for(const b of bgs){
+    const cells=modes.map(m=>{const fc=parseColor(m.res[f]?.value),bc=parseColor(m.res[b]?.value);return fc&&bc?ratio(fc,bc):null;});
+    if(onlyFail&&!cells.some(r=>r!=null&&r<min))continue;
+    if(++rows>1500)break;
+    h+=`<tr><td><code>${esc(f)}</code></td><td><code>${esc(b)}</code></td>${cells.map((r,i)=>{if(r==null)return'<td>—</td>';const m=modes[i];
+      return`<td><span class="sw" style="background:${esc(show(m.res[b].value))};box-shadow:inset 0 0 0 4px ${esc(show(m.res[f].value))}"></span><b class="${r>=min?'okc':'err'}">${r.toFixed(2)}</b></td>`}).join('')}</tr>`;
+  }
+  if(!fgs.length||!bgs.length)h+=`<tr><td colspan="${modes.length+2}">Keine Text- oder Flächen-Tokens am Namen erkannt. Nutze die Einzelauswahl oben.</td></tr>`;
+  else if(!rows)h+=`<tr><td colspan="${modes.length+2}" class="okc">Alle ${fgs.length*bgs.length} Paare erreichen ${String(min).replace('.',',')} : 1.</td></tr>`;
+  $('#ctbl').innerHTML=h+'</tbody>';
+}
+$('#min').onchange=renderContrast;$('#onlyFail').onchange=renderContrast;
+
+function download(name,text,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+const csvq=s=>`"${String(s).replace(/"/g,'""')}"`;
+$('#csv').onclick=()=>{
+  const head=['token',...modes.flatMap(m=>[m.name,m.name+' alias'])];
+  const lines=[head.map(csvq).join(',')];
+  for(const n of names)lines.push([n,...modes.flatMap(m=>{const r=m.res[n];return r?[r.issue||show(r.value),r.chain.slice(1).join(' > ')]:['',''];})].map(csvq).join(','));
+  download('tokens-aufgeloest.csv','﻿'+lines.join('\n'),'text/csv');
+};
+$('#flat').onclick=()=>{const o={};modes.forEach(m=>{o[m.name]={};names.forEach(n=>{if(m.res[n])o[m.name][n]=m.res[n].issue?null:m.res[n].value;});});download('tokens-aufgeloest.json',JSON.stringify(o,null,2),'application/json');};
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Werkbank Designsysteme</title>
+<style>
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;margin:0 0 8px}p.lead{color:var(--muted);margin:0 0 32px}
+ul{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+a.card:hover{border-color:var(--accent)}a.card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.meta{font-size:13px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.card h2{font-size:18px;margin:4px 0}.card p{margin:0;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+<h1>Werkbank Designsysteme</h1>
+<p class="lead">Jeden Tag ein kleines Tool für ein echtes Problem aus Foren, Reddit und Hacker News. Alles läuft im Browser, keine Daten verlassen die Seite.</p>
+<ul>
+<!-- NEUE TOOLS HIER OBEN EINFÜGEN -->
+  <li><a class="card" href="tools/001-token-aufloeser/index.html">
+    <div class="meta"><span>001</span><span>Tokens / Barrierefreiheit</span><span>14.11.2026</span></div>
+    <h2>Token-Auflöser</h2>
+    <p>Löst Aliase je Modus auf, findet kaputte und zirkuläre Verweise, prüft den Kontrast aller Text/Fläche-Paare und exportiert eine CSV mit Endwerten.</p>
+  </a></li>
+</ul>
+</main>
+</body>
+</html>
