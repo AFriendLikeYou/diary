@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Token-Auflöser</title>
 <style>
-:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--r:4px}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}}
-:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--on-accent:#fff;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80;--on-accent:#111}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80;--on-accent:#111}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,sans-serif}
 main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
 h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}p{margin:0 0 12px;color:var(--muted)}
@@ -17,7 +17,7 @@ a{color:var(--accent)}
 .mode input[type=text]{width:100%;font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);margin-bottom:8px}
 textarea{width:100%;min-height:160px;font:12px/1.4 ui-monospace,Menlo,monospace;padding:8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);resize:vertical}
 button,.btn{font:inherit;padding:6px 12px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
-button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
 button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
 .stats{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0}.stats b{font-size:20px;display:block}
@@ -29,6 +29,7 @@ td code{font-size:12px}.chain{color:var(--muted);font-size:12px}
 .err{color:var(--bad)}.okc{color:var(--ok)}.wc{color:var(--warn)}
 .filter{font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);min-width:220px}
 select{font:inherit;padding:6px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);max-width:100%}
+.problem{margin:16px 0 24px}.problem h2{margin:0 0 8px;font-size:15px}.problem ul{margin:0 0 8px;padding-left:18px}.problem li{margin:4px 0}.problem small{color:var(--muted)}
 .pill{font-size:12px;padding:1px 6px;border-radius:2px;border:1px solid currentColor}
 footer{margin-top:40px;font-size:13px;color:var(--muted)}
 </style>
@@ -37,6 +38,11 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
 <main>
 <p><a href="../../index.html">← Alle Tools</a></p>
 <h1>Token-Auflöser</h1>
+<div class="card problem"><h2>Welches Problem es löst</h2><ul>
+<li>Figma kann die Variablen-Tabelle nicht mit aufgelösten Werten exportieren, Aliase bleiben verborgen. <a href="https://forum.figma.com/ask-the-community-7/why-are-fundamental-functional-needs-ignored-e-g-export-variables-and-values-to-csv-49513">Figma-Forum, Thread 49513</a></li>
+<li>Der Kontrastprüfer in Figma liest keine Variablen, man muss sie erst abkoppeln, um ein Verhältnis zu messen. <a href="https://forum.figma.com/share-your-feedback-26/color-contrast-checker-for-variables-and-styles-39887">Figma-Forum, Thread 39887</a></li>
+<li>Kontrast muss in jedem Modus stimmen, nicht nur in Light. Eine Prüfung aller Paare über alle Modi habe ich in keinem Export-Plugin gefunden.</li>
+</ul><small>Belegt am 14.11.2026, Quellen in meta/probleme.md.</small></div>
 <p>Füge Token-Dateien ein, eine je Modus (zum Beispiel Light und Dark). Das Tool löst alle Aliase auf, zeigt die Kette bis zum Endwert, findet kaputte und zirkuläre Verweise und prüft den Kontrast für jedes Text/Fläche-Paar in jedem Modus. Unterstützt werden das W3C-Format (DTCG, <code>$value</code>, <code>{gruppe.token}</code>) und einfaches verschachteltes JSON. Alles bleibt in deinem Browser.</p>
 
 <section class="modes" id="modes"></section>
@@ -59,20 +65,22 @@ footer{margin-top:40px;font-size:13px;color:var(--muted)}
   <div class="tablewrap" style="margin-top:12px;max-height:60vh"><table id="tbl"></table></div>
 
   <h2>Kontrast je Modus</h2>
-  <p>Text-Tokens werden am Namen erkannt (text, fg, foreground, on-, icon), Flächen ebenso (bg, background, surface, fill, canvas). Du kannst auch ein einzelnes Paar wählen.</p>
+  <p>Text-Tokens werden am Namen erkannt (text, fg, foreground, on-, icon), Flächen ebenso (bg, background, surface, fill, canvas). Was die Namen nicht verraten, ordnest du selbst zu: Paar wählen und zur Prüfliste hinzufügen.</p>
   <div class="row">
     <select id="fg" aria-label="Vordergrund"></select>
     <span>auf</span>
     <select id="bgs" aria-label="Hintergrund"></select>
     <span id="pair"></span>
+    <button id="addPair">Paar zur Prüfliste</button>
   </div>
+  <div id="pairs" class="row"></div>
   <div class="row"><label>Mindestwert
     <select id="min"><option value="4.5">4,5 : 1 (Text, AA)</option><option value="3">3 : 1 (groß/UI, AA)</option><option value="7">7 : 1 (AAA)</option></select></label>
     <label><input type="checkbox" id="onlyFail" checked> Nur unterschrittene Paare</label></div>
   <div class="tablewrap" style="margin-top:12px;max-height:60vh"><table id="ctbl"></table></div>
 </div>
 
-<footer>Tool 001 / 14.11.2026. Anlass: Im Figma-Forum fehlt ein Export der Variablen-Tabelle mit aufgelösten Werten, Aliase bleiben verborgen (<a href="https://forum.figma.com/ask-the-community-7/why-are-fundamental-functional-needs-ignored-e-g-export-variables-and-values-to-csv-49513">Thread 49513</a>). Und der Kontrastprüfer liest keine Variablen, man muss sie erst abkoppeln (<a href="https://forum.figma.com/share-your-feedback-26/color-contrast-checker-for-variables-and-styles-39887">Thread 39887</a>).</footer>
+<footer>Tool 001 / 14.11.2026. Anlass ausführlich: Im Figma-Forum fehlt ein Export der Variablen-Tabelle mit aufgelösten Werten, Aliase bleiben verborgen (<a href="https://forum.figma.com/ask-the-community-7/why-are-fundamental-functional-needs-ignored-e-g-export-variables-and-values-to-csv-49513">Thread 49513</a>). Und der Kontrastprüfer liest keine Variablen, man muss sie erst abkoppeln (<a href="https://forum.figma.com/share-your-feedback-26/color-contrast-checker-for-variables-and-styles-39887">Thread 39887</a>).</footer>
 </main>
 <script>
 const $=s=>document.querySelector(s);
@@ -205,21 +213,26 @@ function pairInfo(){
   $('#pair').innerHTML=modes.map(m=>{const fc=parseColor(m.res[f]?.value),bc=parseColor(m.res[b]?.value);
     if(!fc||!bc)return`${esc(m.name)}: —`;const r=ratio(fc,bc);return`${esc(m.name)}: <b class="${r>=min?'okc':'err'}">${r.toFixed(2)}</b>`;}).join(' / ');
 }
+let manual=[];
+function renderPairs(){$('#pairs').innerHTML=manual.map((p,i)=>`<span class="pill">${esc(p[0])} auf ${esc(p[1])} <button data-i="${i}" aria-label="Paar entfernen" style="padding:0 4px;border:0;background:none;color:inherit">✕</button></span>`).join('');
+  $('#pairs').querySelectorAll('button').forEach(b=>b.onclick=()=>{manual.splice(+b.dataset.i,1);renderPairs();renderContrast();});}
+$('#addPair').onclick=()=>{const f=$('#fg').value,b=$('#bgs').value;if(!f||!b||manual.some(p=>p[0]===f&&p[1]===b))return;manual.push([f,b]);renderPairs();renderContrast();};
 $('#fg').onchange=pairInfo;$('#bgs').onchange=pairInfo;
 function renderContrast(){
   pairInfo();
   const min=+$('#min').value,onlyFail=$('#onlyFail').checked;
   const cn=colorNames(),fgs=cn.filter(isFg),bgs=cn.filter(isBg);
+  const pairs=[...manual,...fgs.flatMap(f=>bgs.map(b=>[f,b])).filter(p=>!manual.some(m=>m[0]===p[0]&&m[1]===p[1]))];
   let h=`<thead><tr><th>Text</th><th>Fläche</th>${modes.map(m=>`<th>${esc(m.name)}</th>`).join('')}</tr></thead><tbody>`,rows=0;
-  for(const f of fgs)for(const b of bgs){
+  for(const[f,b]of pairs){
     const cells=modes.map(m=>{const fc=parseColor(m.res[f]?.value),bc=parseColor(m.res[b]?.value);return fc&&bc?ratio(fc,bc):null;});
     if(onlyFail&&!cells.some(r=>r!=null&&r<min))continue;
     if(++rows>1500)break;
     h+=`<tr><td><code>${esc(f)}</code></td><td><code>${esc(b)}</code></td>${cells.map((r,i)=>{if(r==null)return'<td>—</td>';const m=modes[i];
       return`<td><span class="sw" style="background:${esc(show(m.res[b].value))};box-shadow:inset 0 0 0 4px ${esc(show(m.res[f].value))}"></span><b class="${r>=min?'okc':'err'}">${r.toFixed(2)}</b></td>`}).join('')}</tr>`;
   }
-  if(!fgs.length||!bgs.length)h+=`<tr><td colspan="${modes.length+2}">Keine Text- oder Flächen-Tokens am Namen erkannt. Nutze die Einzelauswahl oben.</td></tr>`;
-  else if(!rows)h+=`<tr><td colspan="${modes.length+2}" class="okc">Alle ${fgs.length*bgs.length} Paare erreichen ${String(min).replace('.',',')} : 1.</td></tr>`;
+  if(!pairs.length)h+=`<tr><td colspan="${modes.length+2}">Keine Text- oder Flächen-Tokens am Namen erkannt. Nutze die Einzelauswahl oben.</td></tr>`;
+  else if(!rows)h+=`<tr><td colspan="${modes.length+2}" class="okc">Alle ${pairs.length} Paare erreichen ${String(min).replace('.',',')} : 1.</td></tr>`;
   $('#ctbl').innerHTML=h+'</tbody>';
 }
 $('#min').onchange=renderContrast;$('#onlyFail').onchange=renderContrast;
@@ -233,6 +246,7 @@ $('#csv').onclick=()=>{
   download('tokens-aufgeloest.csv','﻿'+lines.join('\n'),'text/csv');
 };
 $('#flat').onclick=()=>{const o={};modes.forEach(m=>{o[m.name]={};names.forEach(n=>{if(m.res[n])o[m.name][n]=m.res[n].issue?null:m.res[n].value;});});download('tokens-aufgeloest.json',JSON.stringify(o,null,2),'application/json');};
+if(/[?&]beispiel/.test(location.search))$('#sample').click();
 </script>
 </body>
 </html>

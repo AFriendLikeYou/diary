@@ -87,7 +87,13 @@ Pfad: `tools/<nnn>-<slug>/index.html` (laufende Nummer, dreistellig).
 - Light und Dark (`prefers-color-scheme`), Handy-Breite ohne
   Querscrollen, Tastaturbedienung, sichtbarer Fokus.
 - Ein **Beispiel laden**-Knopf, damit man es sofort ausprobieren kann.
-- Oben: was es löst in zwei Sätzen. Unten: Anlass mit Link zur Quelle.
+- Oben direkt unter dem Titel eine Box **„Welches Problem es löst“**: zwei bis
+  drei Punkte, jeder mit Link zur Quelle, in der echte Menschen das Problem
+  schildern. Ohne Beleg kein Tool. Muster: `tools/001-token-aufloeser`.
+- `?beispiel` in der URL lädt das Beispiel automatisch (für Screenshots).
+- **Selbst ansehen:** Screenshot per Headless Chrome mit `?beispiel` in Light
+  und Dark prüfen (Kontrast der eigenen Knöpfe! Text auf Akzentfarbe braucht
+  ein eigenes `--on-accent`).
 - Link zurück zur Sammelseite (`../../index.html`).
 - **Testen:** die Kernlogik mit Node prüfen (Funktionen aus dem Script
   herauslösen oder per `node -e`), mindestens das Beispiel durchrechnen.
