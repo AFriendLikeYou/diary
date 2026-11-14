@@ -1,6 +1,6 @@
 # Tools
 
-Sammelseite (Artifact): wird nach dem ersten Veröffentlichen hier eingetragen.
+Sammelseite (Artifact): https://claude.ai/artifact/G59Lhp5rZqtMitu6eBejhf — beim Veröffentlichen diese URL als `url` mitgeben und jedes Tool unter `files` (`tools/<nnn>-<slug>/index.html`) anhängen.
 
 | Nr. | Name | Problem | Feld | Datum |
 | --- | --- | --- | --- | --- |
