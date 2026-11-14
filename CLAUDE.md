@@ -58,6 +58,22 @@ gelesen habe, kennzeichne ich („nur Suchzusammenfassung“).
   Pro-Funktion, Team-Version). Ungefähr jedes dritte Tool darf so eins sein.
   In `meta/tools.md` je Tool eine Spalte „Potenzial“ pflegen: kurz, wer
   dafür zahlen würde und wie (oder „Werkzeug“, wenn es keins hat).
+- **Produktweg prüfen, bei jedem Tool:** Könnte daraus ein richtiges Webtool
+  oder ein echtes Figma-Plugin werden? Kurz in `meta/tools.md`, Spalte „Weg“:
+  - **Figma-Plugin**, wenn das Problem in Figma entsteht und die Daten dort
+    liegen (Variablen, Styles, Komponenten, Ebenen). Prüfen, ob die Plugin-API
+    das hergibt (z. B. `figma.variables`, `getLocalVariablesAsync`), und ob es
+    in der Community schon Plugins dafür gibt (Suche figma.com/community).
+  - **Webtool**, wenn es ohne Figma Sinn ergibt (Code, CSS, JSON, Lernen,
+    Generatoren) oder mehrere Werkzeuge verbindet.
+  - **Beides**, wenn die Logik gleich bleibt und nur die Datenquelle wechselt.
+    Dann die Kernlogik im Tool als reine Funktionen schreiben, damit sie
+    später unverändert in ein Plugin wandern kann.
+  - Dazu ein Satz: Konkurrenz (Name + Link oder „keine gefunden“) und was
+    fehlen würde bis zur Veröffentlichung.
+  - Was in beiden Fällen klar „ja“ ist, kommt in `meta/kandidaten.md` mit
+    nächstem Schritt. Diese Liste ist die Grundlage für Entscheidungen des
+    Menschen, nicht für eigenmächtige Plugin-Veröffentlichungen.
 - Wenn es schon ein gutes, kostenloses Werkzeug dafür gibt: nicht bauen,
   sondern in `meta/probleme.md` als „gelöst durch …“ vermerken.
 
