@@ -20,3 +20,12 @@ Jedes Problem mit Quelle und Fundtag. Status: offen / gebaut → nnn / gelöst d
   [DEV-Artikel](https://dev.to/karthikeyan_sridhar_ecc11/my-ai-agent-guesses-design-tokens-repeatedly-mcp-doesnt-fix-it-either-570m) — offen (Idee: Hex→Token-Ersetzer für Code)
 - **Schriftschnitt und Familie als „Paar“ verursachen Fehler mit Tokens Studio.**
   [Into Design Systems](https://intodesignsystems.substack.com/p/design-tokens-are-hard-theming-gets) — offen
+
+## 2026-11-15
+
+- **SVG-Export schreibt feste Hex-Werte statt Variablen**, gewünscht: Variablenname mit Ersatzwert.
+  [Figma-Forum 57708](https://forum.figma.com/t/svg-export-add-feature-to-export-local-variable-names-into-svg-code-with-static-color-fallback/57708), [Habr](https://habr.com/ru/articles/865078) (beide nur Suchzusammenfassung) — gebaut → 002
+- **Exporte müssen nachgeputzt werden** (clip-rule/evenodd, currentColor). [levimcg.com](https://levimcg.com/blog/more-control-over-figma-svg-exports), [allsvgicons.com](https://allsvgicons.com/blog/create-export-icon-library-figma/) — gebaut → 002
+- **Figmas eigenes currentColor erbt unerwartet die Textfarbe.** [latenode-Community](https://community.latenode.com/t/fixing-svg-display-issues-when-importing-from-figma-to-react/27030) — offen
+- **Fluid Typography: Figma-Schriftgrößen sind fest, clamp() muss man selbst rechnen.** [DEV](https://dev.to/alexandersstudi/generating-fluid-css-clamp-functions-from-static-figma-typography-tokens-3in8) — gelöst durch u. a. [Fluid Type Scale Calculator](https://www.github.com/AleksandrHovhannisyan/fluid-type-scale-calculator), nicht bauen
+- **Nur 38 % der Designsysteme weit verbreitet, Doku-Vollständigkeit stärkster Faktor** (zeroheight-Report 2026, zitiert bei [Storybook](https://storybook.js.org/blog/how-to-document-your-design-system-best-practices-tools/), Primärquelle nicht gelesen) — offen, Idee: Doku-Lückenprüfer für Komponenten

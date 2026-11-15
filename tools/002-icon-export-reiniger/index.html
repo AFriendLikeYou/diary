@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Icon-Export-Reiniger</title>
+<style>
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--on-accent:#fff;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}p{margin:0 0 12px;color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.problem{margin:16px 0 24px}.problem h2{margin:0 0 8px;font-size:15px}.problem ul{margin:0 0 8px;padding-left:18px}.problem li{margin:4px 0}.problem small{color:var(--muted)}
+textarea{width:100%;min-height:140px;font:12px/1.4 ui-monospace,Menlo,monospace;padding:8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);resize:vertical}
+button,.btn{font:inherit;padding:6px 12px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,.drop:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type=text]{font:inherit;padding:5px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);min-width:0;width:100%}
+select{font:inherit;padding:5px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.drop{border:1px dashed var(--border);border-radius:var(--r);padding:24px;text-align:center;color:var(--muted);margin-bottom:12px}
+.drop.over{border-color:var(--accent);color:var(--text)}
+.colors{display:grid;gap:8px}
+.crow{display:grid;grid-template-columns:auto 110px 150px 1fr;gap:8px;align-items:center}
+@media (max-width:640px){.crow{grid-template-columns:auto 1fr}.crow select,.crow input{grid-column:1/-1}}
+.sw{width:20px;height:20px;border-radius:2px;border:1px solid var(--border)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.icon{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:12px;font-size:12px}
+.icon .pv{display:flex;gap:12px;justify-content:center;align-items:center;height:56px}
+.icon .pv span{display:flex;width:32px;height:32px}.icon .pv span svg{width:100%;height:100%}
+.icon .pv .tint{color:var(--accent)}
+.icon .nm{font-weight:600;word-break:break-all;margin-top:8px}.icon .meta{color:var(--muted)}
+.warn{color:var(--warn)}.okc{color:var(--ok)}.err{color:var(--bad)}
+ul.issues{margin:0;padding-left:18px}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+code{font-size:12px}
+</style>
+</head>
+<body>
+<main>
+<p><a href="../../index.html">← Alle Tools</a></p>
+<h1>Icon-Export-Reiniger</h1>
+<div class="card problem"><h2>Welches Problem es löst</h2><ul>
+<li>Figma schreibt beim SVG-Export feste Hex-Werte, auch wenn das Icon mit Variablen gefärbt ist. Gewünscht wird der Variablenname mit Hex als Ersatzwert. <a href="https://forum.figma.com/t/svg-export-add-feature-to-export-local-variable-names-into-svg-code-with-static-color-fallback/57708">Figma-Forum</a>, dasselbe bei <a href="https://habr.com/ru/articles/865078">Habr</a></li>
+<li>Teams putzen jeden Export von Hand oder per Skript nach: <code>clip-rule</code>/<code>evenodd</code> entfernen, Schwarz durch <code>currentColor</code> ersetzen. <a href="https://levimcg.com/blog/more-control-over-figma-svg-exports">levimcg.com</a>, <a href="https://allsvgicons.com/blog/create-export-icon-library-figma/">allsvgicons.com</a></li>
+<li>Werkzeuge wie SVGOMG verkleinern einzelne Dateien, ordnen Farben aber keinen Tokens zu und prüfen nicht, ob ein ganzes Set einheitlich ist (gleiche viewBox, gleiche Strichstärke).</li>
+</ul><small>Belegt am 15.11.2026, Quellen in meta/probleme.md.</small></div>
+
+<p>Zieh mehrere SVG-Dateien hierher oder füge Markup ein. Das Tool sammelt alle Farben des Sets, du ordnest jede einer Regel zu: <code>currentColor</code>, eine CSS-Variable mit Ersatzwert, oder unverändert. Dann bereinigt es jede Datei und prüft das Set auf Ausreißer. Alles bleibt in deinem Browser.</p>
+
+<div class="drop" id="drop" tabindex="0">SVG-Dateien hier ablegen oder <label class="btn">auswählen <input type="file" id="files" accept=".svg,image/svg+xml" multiple hidden></label></div>
+<textarea id="paste" spellcheck="false" placeholder="Oder SVG-Markup einfügen, mehrere hintereinander möglich" aria-label="SVG-Markup"></textarea>
+<div class="row">
+  <button id="addPaste">Eingefügtes übernehmen</button>
+  <button id="sample">Beispiel laden</button>
+  <button id="clear">Alles leeren</button>
+</div>
+
+<div id="out" hidden>
+  <h2>Farben im Set</h2>
+  <p>Jede gefundene Farbe einmal. Regel wählen, bei Variable den Namen eintragen, etwa <code>--icon-primary</code>.</p>
+  <div class="colors" id="colors"></div>
+
+  <h2>Optionen</h2>
+  <div class="row">
+    <label><input type="checkbox" id="oSize" checked> width/height entfernen (viewBox bleibt)</label>
+    <label><input type="checkbox" id="oClip" checked> Figma-Clip-Rechteck, leere defs und clip-rule entfernen</label>
+    <label><input type="checkbox" id="oIds" checked> ids und data-Attribute entfernen</label>
+    <label><input type="checkbox" id="oA11y" checked> <code>aria-hidden="true"</code> setzen</label>
+  </div>
+
+  <h2>Prüfung des Sets</h2>
+  <div class="card" id="report"></div>
+
+  <h2>Ergebnis</h2>
+  <p>Links Original, Mitte bereinigt in Textfarbe, rechts bereinigt in Akzentfarbe. Wenn rechts nichts die Farbe wechselt, ist die Farbe noch fest im Icon.</p>
+  <div class="row">
+    <button class="primary" id="dlSprite">Sprite herunterladen</button>
+    <button id="dlAll">Einzeln herunterladen</button>
+    <button id="copyCss">CSS-Variablen kopieren</button>
+    <span id="msg" role="status"></span>
+  </div>
+  <div class="grid" id="grid" style="margin-top:12px"></div>
+</div>
+
+<footer>Tool 002 / 15.11.2026. Die Prüfung meldet Ausreißer, wenn sich viewBox, Strichstärke oder Füllart von der Mehrheit im Set unterscheiden.</footer>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let icons=[];      // {name, src}
+let rules={};      // hex -> {mode:'current'|'var'|'keep', name}
+
+// ---- Kernlogik (reine Funktionen, übertragbar in ein Figma-Plugin) ----
+const NAMED={black:'#000000',white:'#ffffff',red:'#ff0000',blue:'#0000ff',green:'#008000',gray:'#808080',grey:'#808080'};
+function normColor(v){
+  if(!v)return null;v=v.trim().toLowerCase();
+  if(v==='none'||v==='transparent'||v==='currentcolor'||v.startsWith('url(')||v.startsWith('var('))return null;
+  if(NAMED[v])return NAMED[v];
+  let m=v.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/);if(m){let h=m[1];if(h.length===3)h=[...h].map(c=>c+c).join('');return'#'+h;}
+  m=v.match(/^rgba?\(\s*(\d+)[ ,]+(\d+)[ ,]+(\d+)/);if(m)return'#'+[m[1],m[2],m[3]].map(n=>(+n).toString(16).padStart(2,'0')).join('');
+  return null;
+}
+const COLOR_ATTRS=['fill','stroke','stop-color','color'];
+function parse(src){const d=new DOMParser().parseFromString(src,'image/svg+xml');const svg=d.documentElement;if(svg.nodeName!=='svg'||d.querySelector('parsererror'))return null;return svg;}
+function walk(el,fn){fn(el);for(const c of[...el.children])walk(c,fn);}
+function styleProps(el){const o={};(el.getAttribute('style')||'').split(';').forEach(p=>{const[k,...v]=p.split(':');if(k&&v.length)o[k.trim()]=v.join(':').trim();});return o;}
+function setStyle(el,o){const s=Object.entries(o).map(([k,v])=>k+':'+v).join(';');if(s)el.setAttribute('style',s);else el.removeAttribute('style');}
+const HIDDEN=['clipPath','mask'];
+function walkVisible(el,fn){if(HIDDEN.includes(el.nodeName))return;fn(el);for(const c of[...el.children])walkVisible(c,fn);}
+function collectColors(svg){
+  const found={};
+  walkVisible(svg,el=>{
+    for(const a of COLOR_ATTRS){const c=normColor(el.getAttribute(a));if(c)found[c]=(found[c]||0)+1;}
+    const st=styleProps(el);for(const a of COLOR_ATTRS){const c=normColor(st[a]);if(c)found[c]=(found[c]||0)+1;}
+  });return found;
+}
+function analyse(svg){
+  const vb=svg.getAttribute('viewBox')||(svg.getAttribute('width')&&svg.getAttribute('height')?`0 0 ${parseFloat(svg.getAttribute('width'))} ${parseFloat(svg.getAttribute('height'))}`:'fehlt');
+  const sw=new Set();let strokes=0,fills=0;
+  (function rec(el,inF,inS,inW){
+    if(HIDDEN.includes(el.nodeName))return;
+    const st=styleProps(el);const s=st.stroke||el.getAttribute('stroke')||inS,f=st.fill||el.getAttribute('fill')||inF,w=st['stroke-width']||el.getAttribute('stroke-width')||inW;
+    if(['path','circle','rect','line','polyline','polygon','ellipse'].includes(el.nodeName)){
+      const hasS=s&&s!=='none',hasF=f!=='none';if(hasS){strokes++;sw.add(String(parseFloat(w||1)));}if(hasF)fills++;}
+    for(const c of[...el.children])rec(c,f,s,w);
+  })(svg,undefined,undefined,undefined);
+  return{viewBox:vb.trim().replace(/\s+/g,' '),strokeWidths:[...sw].sort().join('/')||'—',style:strokes&&!fills?'Kontur':fills&&!strokes?'Fläche':strokes&&fills?'gemischt':'leer'};
+}
+function replaceColor(v,rules){
+  const c=normColor(v);if(!c||!rules[c])return v;const r=rules[c];
+  if(r.mode==='current')return'currentColor';
+  if(r.mode==='var'&&r.name){const n=r.name.startsWith('--')?r.name:'--'+r.name;return`var(${n}, ${c})`;}
+  return v;
+}
+function clean(src,rules,o){
+  const svg=parse(src);if(!svg)return null;
+  walk(svg,el=>{
+    for(const a of COLOR_ATTRS)if(el.hasAttribute(a))el.setAttribute(a,replaceColor(el.getAttribute(a),rules));
+    const st=styleProps(el);let ch=false;for(const a of COLOR_ATTRS)if(st[a]){const n=replaceColor(st[a],rules);if(n!==st[a]){st[a]=n;ch=true;}}
+    if(o.clip){delete st['clip-rule'];delete st['fill-rule'];ch=true;}
+    if(ch)setStyle(el,st);
+    if(o.clip){el.removeAttribute('clip-rule');if(el.getAttribute('fill-rule')==='nonzero')el.removeAttribute('fill-rule');}
+    if(o.ids){[...el.attributes].forEach(a=>{if(a.name.startsWith('data-'))el.removeAttribute(a.name);});}
+  });
+  if(o.clip){
+    // clip-path, das nur ein volles Rechteck der viewBox ist, entfernen (typischer Figma-Export)
+    svg.querySelectorAll('clipPath').forEach(cp=>{
+      const kids=[...cp.children];const vb=(svg.getAttribute('viewBox')||'').split(/\s+/).map(parseFloat);
+      const full=kids.length===1&&kids[0].nodeName==='rect'&&parseFloat(kids[0].getAttribute('width'))===vb[2]&&parseFloat(kids[0].getAttribute('height'))===vb[3];
+      if(full){const id=cp.getAttribute('id');svg.querySelectorAll('[clip-path]').forEach(g=>{if(g.getAttribute('clip-path')===`url(#${id})`){g.removeAttribute('clip-path');if(g.nodeName==='g'&&!g.attributes.length){while(g.firstChild)g.parentNode.insertBefore(g.firstChild,g);g.remove();}}});cp.remove();}
+    });
+    svg.querySelectorAll('defs').forEach(d=>{if(!d.children.length)d.remove();});
+  }
+  if(o.ids){const used=new Set();walk(svg,el=>[...el.attributes].forEach(a=>{const m=a.value.match(/url\(#([^)]+)\)/);if(m)used.add(m[1]);if(a.name.endsWith('href')&&a.value[0]==='#')used.add(a.value.slice(1));}));walk(svg,el=>{if(el.id&&!used.has(el.id))el.removeAttribute('id');});}
+  if(o.size){svg.removeAttribute('width');svg.removeAttribute('height');}
+  if(o.a11y)svg.setAttribute('aria-hidden','true');
+  let out=new XMLSerializer().serializeToString(svg);
+  out=out.replace(/\s+xmlns:xlink="[^"]*"(?![\s\S]*xlink:)/,'').replace(/>\s+</g,'><');
+  return out;
+}
+function setReport(list){
+  const props=['viewBox','strokeWidths','style'];const labels={viewBox:'viewBox',strokeWidths:'Strichstärke',style:'Füllart'};
+  const majority={};props.forEach(p=>{const c={};list.forEach(i=>c[i.a[p]]=(c[i.a[p]]||0)+1);majority[p]=Object.entries(c).sort((a,b)=>b[1]-a[1])[0]?.[0];});
+  const out=[];list.forEach(i=>props.forEach(p=>{if(i.a[p]!==majority[p])out.push({name:i.name,label:labels[p],val:i.a[p],maj:majority[p]});}));
+  return{majority,out};
+}
+// ---- Oberfläche ----
+function opts(){return{size:$('#oSize').checked,clip:$('#oClip').checked,ids:$('#oIds').checked,a11y:$('#oA11y').checked};}
+function addSources(arr){
+  for(const{name,src}of arr){
+    const parts=src.match(/<svg[\s\S]*?<\/svg>/gi)||[];
+    parts.forEach((p,i)=>{if(parse(p))icons.push({name:(name||'icon')+(parts.length>1?'-'+(i+1):''),src:p});});
+  }
+  render();
+}
+function render(){
+  $('#out').hidden=!icons.length;if(!icons.length)return;
+  const all={};icons.forEach(i=>{const c=collectColors(parse(i.src));for(const[k,v]of Object.entries(c))all[k]=(all[k]||0)+v;});
+  const top=Object.entries(all).sort((a,b)=>b[1]-a[1])[0]?.[0];
+  for(const k of Object.keys(all))if(!rules[k])rules[k]={mode:k===top?'current':'var',name:''};
+  $('#colors').innerHTML=Object.entries(all).sort((a,b)=>b[1]-a[1]).map(([c,n])=>{const r=rules[c];return`<div class="crow"><span class="sw" style="background:${c}"></span><code>${c} (${n}×)</code>
+    <select data-c="${c}" aria-label="Regel für ${c}"><option value="current"${r.mode==='current'?' selected':''}>currentColor</option><option value="var"${r.mode==='var'?' selected':''}>CSS-Variable</option><option value="keep"${r.mode==='keep'?' selected':''}>unverändert</option></select>
+    <input type="text" data-n="${c}" value="${esc(r.name)}" placeholder="--icon-akzent" aria-label="Variablenname für ${c}" ${r.mode==='var'?'':'disabled'}></div>`;}).join('')||'<p>Keine festen Farben gefunden.</p>';
+  $('#colors').querySelectorAll('select').forEach(s=>s.onchange=()=>{rules[s.dataset.c].mode=s.value;render();});
+  $('#colors').querySelectorAll('input').forEach(i=>i.onchange=()=>{rules[i.dataset.n].name=i.value.trim();renderIcons();});
+  renderIcons();
+}
+let cleaned=[];
+function renderIcons(){
+  const o=opts();
+  cleaned=icons.map(i=>{const out=clean(i.src,rules,o);const a=analyse(parse(i.src));const left=Object.keys(collectColors(parse(out||'<svg/>'))).length;return{...i,out,a,left,saved:Math.round((1-out.length/i.src.length)*100)};});
+  const{majority,out}=setReport(cleaned);
+  const fixed=cleaned.filter(c=>c.left).length;
+  const missingVar=Object.entries(rules).filter(([c,r])=>r.mode==='var'&&!r.name).map(([c])=>c);
+  $('#report').innerHTML=`<p>${cleaned.length} Icons. Mehrheit: viewBox <code>${esc(majority.viewBox)}</code>, Strichstärke <code>${esc(majority.strokeWidths)}</code>, ${esc(majority.style)}.</p>`+
+   (out.length?`<p class="warn">${out.length} Ausreißer:</p><ul class="issues">${out.map(x=>`<li><b>${esc(x.name)}</b>: ${x.label} <code>${esc(x.val)}</code> statt <code>${esc(x.maj)}</code></li>`).join('')}</ul>`:'<p class="okc">Das Set ist einheitlich.</p>')+
+   (missingVar.length?`<p class="warn">Ohne Variablennamen, bleibt fest: ${missingVar.map(c=>`<code>${c}</code>`).join(', ')}</p>`:'')+
+   (fixed?`<p class="warn">${fixed} Icons enthalten nach der Bereinigung noch feste Farben.</p>`:'<p class="okc">Keine festen Farben mehr in den bereinigten Icons.</p>');
+  $('#grid').innerHTML=cleaned.map((c,i)=>`<div class="icon"><div class="pv"><span title="Original">${c.src}</span><span title="bereinigt">${c.out}</span><span class="tint" title="bereinigt, Akzentfarbe">${c.out}</span></div>
+    <div class="nm">${esc(c.name)}</div><div class="meta">${c.saved>0?c.saved+' % kleiner':'gleich groß'} / ${esc(c.a.style)}</div><div class="row"><button data-copy="${i}">Kopieren</button></div></div>`).join('');
+  $('#grid').querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copy(cleaned[+b.dataset.copy].out,'Kopiert: '+cleaned[+b.dataset.copy].name));
+}
+['#oSize','#oClip','#oIds','#oA11y'].forEach(s=>$(s).onchange=renderIcons);
+function copy(t,m){navigator.clipboard?.writeText(t).then(()=>msg(m),()=>msg('Kopieren nicht erlaubt, bitte manuell'));}
+function msg(t){$('#msg').textContent=t;setTimeout(()=>$('#msg').textContent='',2500);}
+function slug(s){return s.toLowerCase().replace(/\.svg$/,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'icon';}
+function download(name,text){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type:'image/svg+xml'}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);}
+$('#dlSprite').onclick=()=>{
+  const sym=cleaned.map(c=>{const svg=parse(c.out);const vb=svg.getAttribute('viewBox')||'0 0 24 24';return`<symbol id="${slug(c.name)}" viewBox="${vb}">${svg.innerHTML}</symbol>`;}).join('');
+  download('icons-sprite.svg',`<svg xmlns="http://www.w3.org/2000/svg" style="display:none">${sym}</svg>`);msg('Einbinden mit <svg><use href="#name"/></svg>');
+};
+$('#dlAll').onclick=()=>cleaned.forEach((c,i)=>setTimeout(()=>download(slug(c.name)+'.svg',c.out),i*150));
+$('#copyCss').onclick=()=>{const v=Object.entries(rules).filter(([c,r])=>r.mode==='var'&&r.name).map(([c,r])=>`  ${r.name.startsWith('--')?r.name:'--'+r.name}: ${c};`);copy(`:root {\n${v.join('\n')||'  /* keine Variablen zugeordnet */'}\n}`,'CSS kopiert');};
+$('#addPaste').onclick=()=>{const t=$('#paste').value;if(t.trim()){addSources([{name:'eingefuegt',src:t}]);$('#paste').value='';}};
+$('#clear').onclick=()=>{icons=[];rules={};render();};
+$('#files').onchange=async e=>{addSources(await Promise.all([...e.target.files].map(async f=>({name:f.name.replace(/\.svg$/i,''),src:await f.text()}))));e.target.value='';};
+const drop=$('#drop');
+drop.ondragover=e=>{e.preventDefault();drop.classList.add('over');};drop.ondragleave=()=>drop.classList.remove('over');
+drop.ondrop=async e=>{e.preventDefault();drop.classList.remove('over');const fs=[...e.dataTransfer.files].filter(f=>/svg/i.test(f.type)||/\.svg$/i.test(f.name));addSources(await Promise.all(fs.map(async f=>({name:f.name.replace(/\.svg$/i,''),src:await f.text()}))));};
+drop.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();$('#files').click();}};
+
+// Beispiel: typische Figma-Exporte mit Clip-Rechteck, festen Farben und einem Ausreißer
+const SAMPLE=[
+ {name:'search',src:`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_12_3)"><circle cx="11" cy="11" r="7" stroke="#1A1A1A" stroke-width="2"/><path d="M16 16L21 21" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/></g><defs><clipPath id="clip0_12_3"><rect width="24" height="24" fill="white"/></clipPath></defs></svg>`},
+ {name:'heart',src:`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/></svg>`},
+ {name:'alert',src:`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M12 3L22 20H2L12 3Z" stroke="#1A1A1A" stroke-width="2" stroke-linejoin="round"/><path d="M12 10V14" stroke="#B3261E" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="17" r="1" fill="#B3261E"/></svg>`},
+ {name:'star-alt',src:`<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 2l2.4 5 5.6.8-4 3.9.9 5.5L10 14.6 5.1 17.2 6 11.7 2 7.8l5.6-.8L10 2z" stroke="#1A1A1A" stroke-width="1.5" stroke-linejoin="round"/></svg>`}
+];
+$('#sample').onclick=()=>{icons=[];rules={'#b3261e':{mode:'var',name:'--icon-critical'}};addSources(SAMPLE);};
+if(/[?&]beispiel/.test(location.search))$('#sample').click();
+</script>
+</body>
+</html>
