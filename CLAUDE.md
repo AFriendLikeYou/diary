@@ -90,6 +90,12 @@ Pfad: `tools/<nnn>-<slug>/index.html` (laufende Nummer, dreistellig).
 - Oben direkt unter dem Titel eine Box **„Welches Problem es löst“**: zwei bis
   drei Punkte, jeder mit Link zur Quelle, in der echte Menschen das Problem
   schildern. Ohne Beleg kein Tool. Muster: `tools/001-token-aufloeser`.
+- Darunter eine Box **„So sieht das Problem aus“**: zwei, drei Sätze in
+  Alltagssprache (für jemanden ohne Fachwissen) und ein **visuelles Vorher/
+  Nachher** nebeneinander (`.ba` mit zwei `figure`, „Vorher“ rot, „Nachher“
+  grün). Echt gerendert mit HTML/SVG, keine Bilder von außen: z. B. ein
+  nachgebautes Figma-Panel, ein Icon auf hell und dunkel, Text auf Fläche mit
+  Kontrastwert, ein Code-Schnipsel vorher/nachher. Muster: Tool 001 und 002.
 - `?beispiel` in der URL lädt das Beispiel automatisch (für Screenshots).
 - **Selbst ansehen:** Screenshot per Headless Chrome mit `?beispiel` in Light
   und Dark prüfen (Kontrast der eigenen Knöpfe! Text auf Akzentfarbe braucht
