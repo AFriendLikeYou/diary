@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abstands-Augenmaß</title>
+<style>
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--on-accent:#fff;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--block:#c9c9c2;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80;--block:#5a5a56}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80;--block:#5a5a56}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,sans-serif}
+main{max-width:900px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}p{margin:0 0 12px;color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.explain{margin:0 0 24px}.explain h2{font-size:15px;margin:0 0 4px}.explain>p{margin:0 0 12px}
+.ba{display:grid;gap:12px;grid-template-columns:1fr 1fr}@media (max-width:640px){.ba{grid-template-columns:1fr}}
+.ba figure{margin:0;border:1px solid var(--border);border-radius:var(--r);padding:12px;background:var(--bg);min-width:0}
+.ba figcaption{font-size:13px;font-weight:600;margin-bottom:8px}.ba figcaption.bad{color:var(--bad)}.ba figcaption.good{color:var(--ok)}
+.ba .note{font-size:13px;color:var(--muted);margin-top:8px}
+.steps{display:grid;gap:6px}
+.step{display:grid;grid-template-columns:44px 1fr;align-items:center;font:12px/1 ui-monospace,Menlo,monospace}
+.step i{display:flex;align-items:center}.step i::before,.step i::after{content:"";width:28px;height:14px;background:var(--block);border-radius:2px}
+.problem{margin:16px 0 24px}.problem h2{margin:0 0 8px;font-size:15px}.problem ul{margin:0 0 8px;padding-left:18px}.problem li{margin:4px 0}.problem small{color:var(--muted)}
+button,.btn{font:inherit;padding:8px 14px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+input[type=text]{font:14px/1.4 ui-monospace,Menlo,monospace;padding:8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);width:100%;min-width:0}
+select{font:inherit;padding:7px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text)}
+label{display:block;font-weight:600;margin-bottom:4px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.stage{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}
+.pane{height:230px;border:1px solid var(--border);border-radius:var(--r);background:var(--surface);position:relative;overflow:hidden}
+.pane .grp{position:absolute;display:flex}
+.pane .grp b{display:block;background:var(--block);border-radius:2px}
+.pane .tag{position:absolute;left:8px;top:6px;font-size:12px;color:var(--muted)}
+.pane .val{position:absolute;right:8px;bottom:6px;font:600 13px/1 ui-monospace,Menlo,monospace}
+.answers{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.answers button{padding:10px 6px}
+kbd{font:11px/1 ui-monospace,Menlo,monospace;border:1px solid var(--border);border-radius:2px;padding:1px 4px;color:var(--muted)}
+.fb{min-height:24px;margin:12px 0 0;font-weight:600}.fb.ok{color:var(--ok)}.fb.no{color:var(--bad)}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border)}th{font-size:13px;color:var(--muted);font-weight:600}
+td.num{font-family:ui-monospace,Menlo,monospace;white-space:nowrap}
+.okc{color:var(--ok)}.warn{color:var(--warn)}.err{color:var(--bad)}
+pre.code{margin:8px 0 0;font:12px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px}
+.big{font-size:20px;font-weight:600;color:var(--text);margin:0 0 4px}
+h2:focus{outline:none}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+code{font-size:12px}
+</style>
+</head>
+<body>
+<main>
+<p><a href="../../index.html">← Alle Tools</a></p>
+<h1>Abstands-Augenmaß</h1>
+<div class="card problem"><h2>Welches Problem es löst</h2><ul>
+<li>Benachbarte Stufen einer Abstandsskala lassen sich mit bloßem Auge schwer auseinanderhalten, etwa 12 gegen 16. Das macht es schwer, im Team einheitlich zu bleiben. <a href="https://designsystems.com/space-grids-and-layouts">designsystems.com (Figma)</a></li>
+<li>Zu viele Stufen werden uneinheitlich benutzt, und Zwischenwerte wie 13 oder 22 schleichen sich ein. <a href="https://webgency.github.io/design-system/foundations/anti-patterns/off-scale-spacing">JM Family Design System</a>, <a href="https://uxdesign.cc/spatial-scale-design-system-168d375dcbe6">UX Collective</a></li>
+<li>Vorhandene Spiele wie <a href="https://www.creativebloq.com/news/spot-ui-design-flaws-with-this-addictive-quiz">Can't Unsee</a> prüfen allgemeine UI-Details. Ob die Stufen der <em>eigenen</em> Skala unterscheidbar sind, prüft keins, das ich gefunden habe.</li>
+</ul><small>Belegt am 21.11.2026 (Suchzusammenfassungen), Quellen in meta/probleme.md.</small></div>
+
+<div class="card explain"><h2>So sieht das Problem aus</h2>
+<p>Ein Designsystem legt fest, welche Abstände erlaubt sind, zum Beispiel 8, 12 oder 16 Pixel. Liegen die Stufen zu dicht beieinander, sieht niemand mehr den Unterschied. Dann wählt jeder nach Gefühl, und die Seiten wirken unruhig. Eine gute Skala hat nur Stufen, die man auf einen Blick erkennt.</p>
+<div class="ba">
+<figure><figcaption class="bad">Vorher: 10 Stufen, Nachbarn kaum zu trennen</figcaption>
+<div class="steps" id="baBefore"></div>
+<div class="note">Welche Zeile ist 12, welche 14? Ohne Zahl davor rät man.</div></figure>
+<figure><figcaption class="good">Nachher: 6 Stufen, jede klar erkennbar</figcaption>
+<div class="steps" id="baAfter"></div>
+<div class="note">Jede Stufe ist deutlich größer als die davor.</div></figure>
+</div></div>
+
+<section id="setup">
+<p>Trag die Stufen deiner Abstandsskala ein. Das Spiel zeigt dir je zwei Abstände nebeneinander, du sagst, welcher größer ist. Am Ende siehst du, welche Nachbarn du verwechselst, und bekommst einen Vorschlag für eine schlankere Skala. Alles bleibt in deinem Browser.</p>
+<label for="scale">Skala in Pixel</label>
+<input type="text" id="scale" value="4, 8, 12, 16, 24, 32" spellcheck="false" autocomplete="off" aria-describedby="scaleHint">
+<p id="scaleHint" style="margin-top:4px;font-size:13px">Mindestens zwei Werte zwischen 1 und 96, getrennt durch Komma oder Leerzeichen.</p>
+<div class="row">
+  <label for="reps" style="margin:0;font-weight:400">Länge</label>
+  <select id="reps"><option value="2">Normal (jedes Paar 2×)</option><option value="1">Kurz (1×)</option><option value="4">Gründlich (4×)</option></select>
+  <button class="primary" id="start">Spiel starten</button>
+  <button id="sample">Beispiel laden</button>
+  <span id="msg" role="alert" class="err"></span>
+</div>
+</section>
+
+<section id="play" hidden>
+<h2 id="roundTitle" tabindex="-1">Runde 1</h2>
+<p>Wo ist die Lücke zwischen den beiden Blöcken größer?</p>
+<div class="stage">
+  <div class="pane" id="paneA"></div>
+  <div class="pane" id="paneB"></div>
+</div>
+<div class="answers" id="answers">
+  <button data-a="a">Links größer <kbd>←</kbd></button>
+  <button data-a="g">Gleich <kbd>↓</kbd></button>
+  <button data-a="b">Rechts größer <kbd>→</kbd></button>
+</div>
+<p class="fb" id="fb" role="status"></p>
+<div class="row"><button class="primary" id="next" hidden>Weiter <kbd style="color:inherit;border-color:currentColor">Enter</kbd></button><button id="abort">Abbrechen</button></div>
+</section>
+
+<section id="result" hidden>
+<h2 id="resTitle" tabindex="-1">Ergebnis</h2>
+<p class="big" id="resBig"></p>
+<p id="resSub"></p>
+<div class="card" style="padding:8px 8px 4px;overflow-x:auto"><table><thead><tr><th>Paar</th><th>Sprung</th><th>Richtig</th><th>Urteil</th></tr></thead><tbody id="resRows"></tbody></table></div>
+<h2>Vorschlag</h2>
+<div class="card"><p id="sugText" style="color:var(--text)"></p><pre class="code" id="sugCss"></pre>
+<div class="row"><button class="primary" id="copy">CSS-Variablen kopieren</button><button id="again">Noch einmal spielen</button><button id="playSug">Mit dem Vorschlag spielen</button><span id="copyMsg" role="status"></span></div></div>
+</section>
+
+<footer>Tool 003 / 21.11.2026. Die Abstände werden in echten CSS-Pixeln gezeigt, Zoom und Bildschirm verändern den Eindruck. Wenige Runden geben nur einen Hinweis, kein Messergebnis; für mehr Sicherheit „Gründlich“ wählen. Ein Paar gilt als unsicher, wenn weniger als drei Viertel der Antworten stimmen.</footer>
+</main>
+<script>
+// CORE-START  (reine Funktionen, ohne DOM)
+function parseScale(s){return[...new Set(String(s).split(/[^0-9.]+/).map(Number).filter(n=>n>0&&n<=96))].sort((a,b)=>a-b);}
+function rng(seed){let a=seed>>>0;return()=>{a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+function shuffle(arr,r){const a=arr.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+// Jede Runde: {pair:Index des unteren Werts oder -1 bei „gleich“, a, b, answer:'a'|'b'|'g'}
+function buildRounds(scale,reps,r){
+  const out=[];
+  for(let i=0;i<scale.length-1;i++)for(let k=0;k<reps;k++){
+    const hiLeft=r()<.5;out.push({pair:i,a:hiLeft?scale[i+1]:scale[i],b:hiLeft?scale[i]:scale[i+1],answer:hiLeft?'a':'b'});
+  }
+  const eq=Math.max(1,Math.round((scale.length-1)*reps/4));
+  for(let k=0;k<eq;k++){const v=scale[Math.floor(r()*scale.length)];out.push({pair:-1,a:v,b:v,answer:'g'});}
+  return shuffle(out,r);
+}
+function score(scale,rounds,answers){
+  const pairs=scale.slice(0,-1).map((lo,i)=>({lo,hi:scale[i+1],n:0,ok:0}));const equal={n:0,ok:0};let ok=0;
+  rounds.forEach((rd,i)=>{const hit=answers[i]===rd.answer;if(hit)ok++;const t=rd.pair<0?equal:pairs[rd.pair];t.n++;if(hit)t.ok++;});
+  return{pairs,equal,ok,total:rounds.length};
+}
+const THRESHOLD=.75;
+function confused(p){return p.n>0&&p.ok/p.n<THRESHOLD;}
+// Streicht bei einem unsicheren Paar den oberen Wert, solange der untere noch in der Skala steht.
+function suggest(scale,stats){
+  const kept=[scale[0]],dropped=[];
+  for(let i=1;i<scale.length;i++){
+    if(confused(stats.pairs[i-1])&&kept[kept.length-1]===scale[i-1]&&i<scale.length-1)dropped.push(scale[i]);
+    else if(confused(stats.pairs[i-1])&&kept[kept.length-1]===scale[i-1]&&i===scale.length-1&&kept.length>1){dropped.push(kept.pop());kept.push(scale[i]);}
+    else kept.push(scale[i]);
+  }
+  return{kept,dropped};
+}
+function pct(lo,hi){return Math.round((hi-lo)/lo*100);}
+function toCss(scale){return':root {\n'+scale.map((v,i)=>`  --space-${i+1}: ${v}px;`).join('\n')+'\n}';}
+// Für die Demo-Ansicht: antwortet richtig, wenn der Sprung mindestens ein Viertel beträgt.
+function simulate(rounds){return rounds.map(rd=>rd.pair<0?'g':(Math.abs(rd.a-rd.b)/Math.min(rd.a,rd.b)>=.25?rd.answer:'g'));}
+// CORE-END
+
+const $=s=>document.querySelector(s);
+const SAMPLE='4, 6, 8, 10, 12, 14, 16, 20, 24, 32';
+let scale=[],rounds=[],answers=[],idx=0,locked=false,demo=false;
+const rand=rng(Date.now());
+
+function stepsHtml(vals){return vals.map(v=>`<div class="step"><span>${v}</span><i style="gap:${v}px"></i></div>`).join('');}
+$('#baBefore').innerHTML=stepsHtml(parseScale(SAMPLE));
+$('#baAfter').innerHTML=stepsHtml([4,8,12,16,24,32]);
+
+function show(id){for(const s of['setup','play','result'])$('#'+s).hidden=s!==id;}
+function drawPane(el,gap,dir,label,reveal){
+  const s1=36+Math.floor(rand()*28),s2=36+Math.floor(rand()*28),thick=dir==='column'?70+Math.floor(rand()*30):44+Math.floor(rand()*20);
+  const ox=12+Math.floor(rand()*16),oy=28+Math.floor(rand()*30);
+  const b=(len)=>dir==='column'?`<b style="width:${thick}px;height:${len}px"></b>`:`<b style="width:${len}px;height:${thick}px"></b>`;
+  el.dataset.gap=gap;
+  el.innerHTML=`<span class="tag">${label}</span><div class="grp" style="left:${ox}px;top:${oy}px;flex-direction:${dir};gap:${gap}px">${b(s1)}${b(s2)}</div><span class="val" hidden>${gap} px</span>`;
+}
+function drawRound(){
+  const rd=rounds[idx];locked=false;
+  $('#roundTitle').textContent=`Runde ${idx+1} von ${rounds.length}`;
+  const maxGap=Math.max(...scale),wide=$('#paneA').clientWidth>=maxGap+170;
+  const dir=wide&&rand()<.5?'row':'column';
+  for(const p of[$('#paneA'),$('#paneB')])p.style.height=Math.max(230,maxGap+200)+'px';
+  drawPane($('#paneA'),rd.a,dir,'Links');drawPane($('#paneB'),rd.b,dir,'Rechts');
+  $('#fb').textContent='';$('#fb').className='fb';$('#next').hidden=true;
+  for(const b of document.querySelectorAll('#answers button'))b.disabled=false;
+}
+function answer(a){
+  if(locked||$('#play').hidden)return;locked=true;
+  const rd=rounds[idx];answers[idx]=a;const hit=a===rd.answer;
+  for(const v of document.querySelectorAll('.pane .val'))v.hidden=false;
+  for(const b of document.querySelectorAll('#answers button'))b.disabled=true;
+  const truth=rd.answer==='g'?`Beide waren ${rd.a} px.`:`Links ${rd.a} px, rechts ${rd.b} px.`;
+  $('#fb').textContent=(hit?'Richtig. ':'Daneben. ')+truth;$('#fb').className='fb '+(hit?'ok':'no');
+  const n=$('#next');n.hidden=false;n.firstChild.textContent=idx===rounds.length-1?'Zum Ergebnis ':'Weiter ';n.focus();
+}
+function next(){if(!locked)return;idx++;if(idx>=rounds.length)finish();else{drawRound();}}
+function start(vals){
+  const s=vals||parseScale($('#scale').value);
+  if(s.length<2){$('#msg').textContent='Bitte mindestens zwei verschiedene Werte eintragen.';$('#scale').focus();return;}
+  $('#msg').textContent='';scale=s;demo=false;
+  rounds=buildRounds(scale,+$('#reps').value,rand);answers=[];idx=0;show('play');drawRound();$('#roundTitle').focus();
+}
+function finish(){
+  const st=score(scale,rounds,answers),sg=suggest(scale,st);
+  $('#resBig').textContent=`${st.ok} von ${st.total} richtig`+(demo?' (Demo, simuliert)':'');
+  const bad=st.pairs.filter(confused).length;
+  $('#resSub').textContent=(bad?`${bad} von ${st.pairs.length} Nachbarpaaren hast du nicht sicher unterschieden.`:'Alle Nachbarpaare hast du sicher unterschieden.')+(st.equal.n?` Gleiche Abstände erkannt: ${st.equal.ok} von ${st.equal.n}.`:'');
+  $('#resRows').innerHTML=st.pairs.map(p=>`<tr><td class="num">${p.lo} → ${p.hi}</td><td class="num">+${pct(p.lo,p.hi)} %</td><td class="num">${p.ok} / ${p.n}</td><td class="${confused(p)?'warn':'okc'}">${confused(p)?'unsicher':'klar erkennbar'}</td></tr>`).join('');
+  $('#sugText').textContent=sg.dropped.length?`Ohne ${sg.dropped.join(', ')} bleiben ${sg.kept.length} Stufen: ${sg.kept.join(', ')}. Die neuen Nachbarn sind noch nicht geprüft, spiel den Vorschlag am besten einmal durch.`:'Nichts zu streichen: Die Skala kann so bleiben.';
+  $('#sugCss').textContent=toCss(sg.kept);$('#playSug').hidden=!sg.dropped.length;$('#playSug').dataset.s=sg.kept.join(',');
+  $('#copyMsg').textContent='';show('result');$('#resTitle').focus();
+}
+$('#start').onclick=()=>start();
+$('#scale').addEventListener('keydown',e=>{if(e.key==='Enter')start();});
+$('#sample').onclick=()=>{$('#scale').value=SAMPLE;$('#msg').textContent='';$('#scale').focus();};
+$('#answers').onclick=e=>{const b=e.target.closest('button');if(b)answer(b.dataset.a);};
+$('#next').onclick=next;
+$('#abort').onclick=()=>{show('setup');$('#scale').focus();};
+$('#again').onclick=()=>start(scale);
+$('#playSug').onclick=e=>{$('#scale').value=e.currentTarget.dataset.s.replace(/,/g,', ');start();};
+$('#copy').onclick=async()=>{try{await navigator.clipboard.writeText($('#sugCss').textContent);$('#copyMsg').textContent='Kopiert.';}catch{$('#copyMsg').textContent='Kopieren nicht möglich, bitte von Hand markieren.';}};
+document.addEventListener('keydown',e=>{
+  if($('#play').hidden||e.metaKey||e.ctrlKey||e.altKey)return;
+  const m={ArrowLeft:'a',ArrowRight:'b',ArrowDown:'g'}[e.key];
+  if(m&&!locked){e.preventDefault();answer(m);}
+});
+const q=new URLSearchParams(location.search);
+if(['light','dark'].includes(q.get('theme')))document.documentElement.dataset.theme=q.get('theme');
+if(q.has('beispiel')){
+  $('#scale').value=SAMPLE;
+  if(q.get('beispiel')==='ergebnis'){scale=parseScale(SAMPLE);rounds=buildRounds(scale,2,rand);answers=simulate(rounds);demo=true;finish();}
+  else if(q.get('beispiel')==='spiel'){start();}
+}
+</script>
+</body>
+</html>
