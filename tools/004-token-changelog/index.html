@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token-Changelog</title>
+<style>
+:root{--bg:#fff;--surface:#f6f6f4;--border:#d9d9d4;--text:#1a1a1a;--muted:#5e5e5a;--accent:#2457c5;--on-accent:#fff;--ok:#1d7a3a;--warn:#a35a00;--bad:#b3261e;--r:4px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}}
+:root[data-theme="dark"]{--bg:#1b1b1a;--surface:#252524;--border:#3d3d3b;--text:#ecece8;--muted:#a8a8a2;--accent:#7fa4ff;--on-accent:#111;--ok:#5cc47e;--warn:#e0a54a;--bad:#ff8a80}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:32px 0 8px}h3{font-size:15px;margin:20px 0 6px}p{margin:0 0 12px;color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px}
+.explain{margin:0 0 24px}.explain h2{font-size:15px;margin:0 0 4px}.explain>p{margin:0 0 12px}
+.ba{display:grid;gap:12px;grid-template-columns:1fr 1fr}@media (max-width:640px){.ba{grid-template-columns:1fr}}
+.ba figure{margin:0;border:1px solid var(--border);border-radius:var(--r);padding:12px;background:var(--bg);min-width:0}
+.ba figcaption{font-size:13px;font-weight:600;margin-bottom:8px}.ba figcaption.bad{color:var(--bad)}.ba figcaption.good{color:var(--ok)}
+.ba .note{font-size:13px;color:var(--muted);margin-top:8px}
+.notice{border:1px solid var(--border);border-radius:var(--r);padding:10px;font-size:13px;background:var(--surface)}
+.notice b{display:block}.notice span{color:var(--muted)}
+.log{font-size:13px;margin:0;padding:0;list-style:none;display:grid;gap:6px}.log b{display:inline-block;min-width:52px}
+.problem{margin:16px 0 24px}.problem h2{margin:0 0 8px;font-size:15px}.problem ul{margin:0 0 8px;padding-left:18px}.problem li{margin:4px 0}.problem small{color:var(--muted)}
+.two{display:grid;gap:12px;grid-template-columns:1fr 1fr}@media (max-width:640px){.two{grid-template-columns:1fr}}
+label{display:block;font-weight:600;margin-bottom:4px}
+textarea{width:100%;min-height:180px;font:12px/1.4 ui-monospace,Menlo,monospace;padding:8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);resize:vertical}
+button,.btn{font:inherit;padding:6px 12px;border-radius:var(--r);border:1px solid var(--border);background:var(--bg);color:var(--text);cursor:pointer}
+.btn{display:inline-block;font-weight:400;margin:6px 0 0}
+button.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,.btn:focus-within{outline:2px solid var(--accent);outline-offset:2px}
+input[type=text]{font:inherit;padding:5px 8px;border:1px solid var(--border);border-radius:var(--r);background:var(--bg);color:var(--text);width:110px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:12px}.row label{margin:0;font-weight:400}
+.big{font-size:20px;font-weight:600;color:var(--text);margin:0 0 4px}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--border);vertical-align:top}th{color:var(--muted);font-weight:600}
+td.m,code{font-family:ui-monospace,Menlo,monospace;font-size:12px;overflow-wrap:anywhere}
+h2:focus{outline:none}
+.sw{display:inline-block;width:12px;height:12px;border-radius:2px;border:1px solid var(--border);vertical-align:-1px;margin-right:4px}
+.major{color:var(--bad)}.minor{color:var(--warn)}.patch{color:var(--ok)}
+.tag{font-size:12px;font-weight:600;white-space:nowrap}
+pre.code{margin:8px 0 0;font:12px/1.5 ui-monospace,Menlo,monospace;white-space:pre-wrap;word-break:break-word;background:var(--bg);border:1px solid var(--border);padding:8px;border-radius:2px;max-height:320px;overflow:auto}
+.err{color:var(--bad)}
+footer{margin-top:40px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="../../index.html">← Alle Tools</a></p>
+<h1>Token-Changelog</h1>
+<div class="card problem"><h2>Welches Problem es löst</h2><ul>
+<li>Nach einem Library-Update sieht man nicht, was sich geändert hat. Im Figma-Forum wird seit Jahren ein Vorher/Nachher gewünscht, ausdrücklich auch für Variablen. <a href="https://forum.figma.com/t/preview-of-what-changes-have-been-made-exactly-to-each-component-before-publishing-them/8807">Figma-Forum 8807</a>, <a href="https://forum.figma.com/t/design-system-features-publishing-reviews-change-logs-variable-analytics/90022">Figma-Forum 90022</a></li>
+<li>Ob eine Token-Änderung etwas kaputt macht (entfernt, umbenannt, Typ geändert), muss man von Hand aus zwei JSON-Ständen herauslesen. Regeln dafür gibt es, etwa: Entfernen ist ein Major. <a href="https://opensource.adobe.com/spectrum-design-data/spec/evolution">Spectrum Design Data</a>, <a href="https://designtokens.substack.com/p/how-to-manage-breaking-changes-in">Design Tokens (Substack)</a></li>
+<li>Adobes <a href="https://app.unpkg.com/@adobe/token-diff-generator@2.5.1/files/README.md">token-diff-generator</a> kann das, aber nur auf der Kommandozeile und nur für Spectrum-Tokens mit UUID. Ein Werkzeug im Browser für beliebige Token-Dateien habe ich nicht gefunden.</li>
+</ul><small>Belegt am 22.11.2026 (Suchzusammenfassungen), Quellen in meta/probleme.md.</small></div>
+
+<div class="card explain"><h2>So sieht das Problem aus</h2>
+<p>Ein Designsystem ändert sich laufend: Eine Farbe bekommt einen neuen Namen, eine andere fällt weg. Wer das System benutzt, erfährt meist nur „es gab ein Update“. Ob danach etwas im eigenen Produkt nicht mehr stimmt, merkt man erst, wenn es kaputt ist. Ein Changelog sagt vorher, was sich ändert und was man tun muss.</p>
+<div class="ba">
+<figure><figcaption class="bad">Vorher: nur eine Meldung</figcaption>
+<div class="notice"><b>Library „Tokens“ wurde aktualisiert</b><span>7 Variablen geändert</span></div>
+<div class="note">Welche? Bricht etwas? Niemand weiß es.</div></figure>
+<figure><figcaption class="good">Nachher: lesbarer Changelog</figcaption>
+<ul class="log">
+<li><b class="major">Major</b> <code>color.brand</code> entfernt, 1 Verweis bricht</li>
+<li><b class="major">Major</b> <code>color.text.default</code> heißt jetzt <code>color.text.primary</code></li>
+<li><b class="minor">Minor</b> <code>space.xl</code> neu</li>
+<li><b class="patch">Patch</b> <code>color.blue.500</code> <i class="sw" style="background:#2457c5"></i>→ <i class="sw" style="background:#1d4fd8"></i></li>
+</ul>
+<div class="note">Nächste Version: 3.0.0</div></figure>
+</div></div>
+
+<p>Füge den alten und den neuen Stand deiner Tokens ein (DTCG mit <code>$value</code> oder Style Dictionary mit <code>value</code>). Das Tool findet Neues, Entferntes, Umbenanntes, geänderte Werte und Verweise, die ins Leere zeigen, und schlägt die nächste Versionsnummer vor. Alles bleibt in deinem Browser.</p>
+
+<div class="two">
+<div><label for="a">Alter Stand</label><textarea id="a" spellcheck="false" placeholder='{ "color": { "brand": { "$value": "#b91109", "$type": "color" } } }'></textarea>
+<label class="btn">Datei wählen <input type="file" id="fa" accept=".json,application/json" hidden></label></div>
+<div><label for="b">Neuer Stand</label><textarea id="b" spellcheck="false"></textarea>
+<label class="btn">Datei wählen <input type="file" id="fb" accept=".json,application/json" hidden></label></div>
+</div>
+<div class="row">
+  <label for="ver">Aktuelle Version</label><input type="text" id="ver" value="1.0.0" inputmode="decimal" autocomplete="off">
+  <button class="primary" id="run">Vergleichen</button>
+  <button id="sample">Beispiel laden</button>
+  <span id="msg" role="alert" class="err"></span>
+</div>
+
+<section id="out" hidden>
+<h2 id="outTitle" tabindex="-1">Ergebnis</h2>
+<p class="big" id="big"></p>
+<p id="sub"></p>
+<div id="sections"></div>
+<h2>Changelog</h2>
+<div class="card"><pre class="code" id="md"></pre>
+<div class="row"><button class="primary" id="copyMd">Markdown kopieren</button><button id="copyMap">Umbenennungen als JSON kopieren</button><span id="copyMsg" role="status"></span></div></div>
+</section>
+
+<footer>Tool 004 / 22.11.2026. Einstufung: Major, wenn ein Token entfernt oder umbenannt wird, seinen Typ wechselt oder ein Verweis ins Leere zeigt. Minor bei neuen oder als veraltet markierten Tokens. Patch bei geänderten Werten und Beschreibungen. Umbenennungen werden erkannt, wenn ein entferntes und ein neues Token denselben Wert und Typ haben; bei mehreren Möglichkeiten gewinnt der ähnlichste Name. Das bleibt eine Vermutung, bitte prüfen.</footer>
+</main>
+<script>
+// CORE-START (reine Funktionen, ohne DOM)
+function isToken(o){return o&&typeof o==='object'&&!Array.isArray(o)&&('$value'in o||('value'in o&&(typeof o.value!=='object'||o.value===null||'type'in o||'$type'in o||Array.isArray(o.value)||!Object.values(o.value).some(v=>v&&typeof v==='object'&&('value'in v||'$value'in v)))));}
+function flatten(json){
+  const out={};
+  (function walk(node,path,type){
+    if(!node||typeof node!=='object'||Array.isArray(node))return;
+    const t=node.$type||type;
+    if(isToken(node)){
+      const dep=node.$deprecated??node.deprecated??node.$extensions?.deprecated??false;
+      out[path.join('.')]={value:'$value'in node?node.$value:node.value,type:node.$type||node.type||type||'',description:node.$description||node.description||node.comment||'',deprecated:!!dep};
+      return;
+    }
+    for(const k of Object.keys(node)){if(k.startsWith('$'))continue;walk(node[k],path.concat(k),t);}
+  })(json,[],'');
+  return out;
+}
+function vkey(t){return (t.type||'')+'|'+JSON.stringify(t.value).toLowerCase();}
+function refs(value){const s=typeof value==='string'?value:JSON.stringify(value);return[...new Set([...s.matchAll(/\{([^{}]+)\}/g)].map(m=>m[1].replace(/\.\$?value$/,'')))];}
+function similarity(a,b){const A=a.split('.'),B=b.split('.');let n=0;for(const s of A)if(B.includes(s))n++;const last=A[A.length-1]===B[B.length-1]?.5:0;const parent=A.slice(0,-1).join('.')===B.slice(0,-1).join('.')?.5:0;return n/Math.max(A.length,B.length)+last+parent;}
+function diff(a,b){
+  const A=flatten(a),B=flatten(b);
+  let removed=Object.keys(A).filter(k=>!(k in B)),added=Object.keys(B).filter(k=>!(k in A));
+  const cands=[];
+  for(const r of removed)for(const x of added)if(vkey(A[r])===vkey(B[x]))cands.push({from:r,to:x,score:similarity(r,x)});
+  cands.sort((p,q)=>q.score-p.score||p.from.localeCompare(q.from));
+  const renamed=[],usedF=new Set(),usedT=new Set();
+  for(const c of cands){if(usedF.has(c.from)||usedT.has(c.to))continue;usedF.add(c.from);usedT.add(c.to);
+    const alt=cands.filter(o=>o!==c&&(o.from===c.from||o.to===c.to)).length;renamed.push({from:c.from,to:c.to,value:A[c.from].value,sure:alt===0});}
+  removed=removed.filter(k=>!usedF.has(k));added=added.filter(k=>!usedT.has(k));
+  const changed=[],typeChanged=[],deprecated=[],described=[];
+  for(const k of Object.keys(A)){if(!(k in B))continue;const o=A[k],n=B[k];
+    if((o.type||'')!==(n.type||'')&&o.type&&n.type)typeChanged.push({name:k,from:o.type,to:n.type});
+    else if(JSON.stringify(o.value)!==JSON.stringify(n.value))changed.push({name:k,from:o.value,to:n.value,type:n.type});
+    else if(o.description!==n.description)described.push({name:k});
+    if(!o.deprecated&&n.deprecated)deprecated.push({name:k,hint:n.description});}
+  const broken=[];
+  for(const k of Object.keys(B))for(const r of refs(B[k].value))if(!(r in B)){const mv=renamed.find(x=>x.from===r);broken.push({name:k,ref:r,hint:mv?mv.to:''});}
+  const level=removed.length||renamed.length||typeChanged.length||broken.length?'major':added.length||deprecated.length?'minor':changed.length||described.length?'patch':'none';
+  return{removed:removed.map(k=>({name:k,value:A[k].value})),added:added.map(k=>({name:k,value:B[k].value})),renamed,changed,typeChanged,deprecated,described,broken,level,countA:Object.keys(A).length,countB:Object.keys(B).length};
+}
+function bump(version,level){const m=String(version).trim().match(/^v?(\d+)\.(\d+)\.(\d+)$/);if(!m)return null;let[x,y,z]=[+m[1],+m[2],+m[3]];
+  if(level==='major'){x++;y=0;z=0;}else if(level==='minor'){y++;z=0;}else if(level==='patch')z++;return`${x}.${y}.${z}`;}
+function show(v){return typeof v==='string'?v:JSON.stringify(v);}
+function cssName(path){return'--'+path.replace(/[.\s_]+/g,'-').replace(/[^a-zA-Z0-9-]/g,'').toLowerCase();}
+function markdown(d,from,to,date){
+  const L=[`## ${to||'Nächste Version'}${date?' ('+date+')':''}`,''];
+  if(d.level==='none'){L.push('Keine Änderungen an den Tokens.');return L.join('\n');}
+  const sec=(t,rows)=>{if(rows.length){L.push('### '+t,'',...rows,'');}};
+  sec('Major: bricht bestehenden Code',[
+    ...d.removed.map(r=>`- Entfernt: \`${r.name}\` (war ${show(r.value)})`),
+    ...d.renamed.map(r=>`- Umbenannt: \`${r.from}\` → \`${r.to}\`${r.sure?'':' (vermutet, bitte prüfen)'}`),
+    ...d.typeChanged.map(r=>`- Typ geändert: \`${r.name}\` von ${r.from} zu ${r.to}`),
+    ...d.broken.map(r=>`- Verweis ins Leere: \`${r.name}\` zeigt auf \`${r.ref}\`${r.hint?`, vermutlich jetzt \`${r.hint}\``:''}`)]);
+  sec('Minor: neu, nichts bricht',[
+    ...d.added.map(r=>`- Neu: \`${r.name}\` = ${show(r.value)}`),
+    ...d.deprecated.map(r=>`- Veraltet: \`${r.name}\`${r.hint?' ('+r.hint+')':''}`)]);
+  sec('Patch: Werte und Texte',[
+    ...d.changed.map(r=>`- Wert: \`${r.name}\` ${show(r.from)} → ${show(r.to)}`),
+    ...d.described.map(r=>`- Beschreibung geändert: \`${r.name}\``)]);
+  if(d.renamed.length){L.push('### Was zu tun ist','',...d.renamed.map(r=>`- \`${cssName(r.from)}\` ersetzen durch \`${cssName(r.to)}\``),'');}
+  return L.join('\n').trim();
+}
+function renameMap(d){const o={};for(const r of d.renamed)o[r.from]=r.to;return o;}
+// CORE-END
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SAMPLE_A={color:{$type:'color',blue:{500:{$value:'#2457c5'},700:{$value:'#173a8a'}},gray:{900:{$value:'#1a1a1a'},100:{$value:'#f6f6f4'}},brand:{$value:'#b91109',$description:'Markenrot'},text:{default:{$value:'{color.gray.900}'},link:{$value:'{color.blue.500}'}},bg:{page:{$value:'{color.gray.100}'}},badge:{$value:'{color.brand}'}},space:{$type:'dimension',sm:{$value:'8px'},md:{$value:'16px'},lg:{$value:'24px'}},radius:{card:{$value:'4px',$type:'dimension'}},font:{weight:{bold:{$value:'700',$type:'string'}}}};
+const SAMPLE_B={color:{$type:'color',blue:{500:{$value:'#1d4fd8'},700:{$value:'#173a8a'}},gray:{900:{$value:'#1a1a1a'},100:{$value:'#f6f6f4'}},text:{primary:{$value:'{color.gray.900}'},link:{$value:'{color.blue.500}',$deprecated:true,$description:'Nutze color.text.action'},action:{$value:'{color.blue.700}'}},bg:{page:{$value:'{color.gray.100}'}},badge:{$value:'{color.brand}'}},space:{$type:'dimension',sm:{$value:'8px'},md:{$value:'16px'},lg:{$value:'24px'},xl:{$value:'32px'}},radius:{card:{$value:'6px',$type:'dimension'}},font:{weight:{bold:{$value:700,$type:'fontWeight'}}}};
+let last=null;
+const isColor=v=>typeof v==='string'&&/^#([0-9a-f]{3,4}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(v);
+const val=v=>(isColor(v)?`<i class="sw" style="background:${esc(v)}"></i>`:'')+esc(show(v));
+function table(head,rows){return`<div class="wrap"><table><thead><tr>${head.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td class="m">${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
+function render(d){
+  const names={major:'Major',minor:'Minor',patch:'Patch',none:'Keine Änderung'};
+  const next=bump($('#ver').value,d.level);
+  $('#big').innerHTML=`<span class="${d.level}">${names[d.level]}</span>`+(next&&d.level!=='none'?`: ${esc($('#ver').value.trim().replace(/^v/,''))} → ${next}`:'');
+  $('#sub').textContent=`${d.countA} Tokens vorher, ${d.countB} nachher. `+(next?'':'Die Version habe ich nicht als x.y.z erkannt, deshalb ohne Vorschlag. ')+
+    ({major:'Mindestens eine Änderung bricht bestehenden Code.',minor:'Es kommt Neues dazu, nichts bricht.',patch:'Nur Werte oder Beschreibungen ändern sich.',none:'Beide Stände sind gleich.'}[d.level]);
+  const S=[];const sec=(lv,title,html)=>S.push(`<h3><span class="tag ${lv}">${names[lv]}</span> / ${title}</h3>${html}`);
+  if(d.removed.length)sec('major',`Entfernt (${d.removed.length})`,table(['Token','Letzter Wert'],d.removed.map(r=>[esc(r.name),val(r.value)])));
+  if(d.renamed.length)sec('major',`Umbenannt (${d.renamed.length})`,table(['Alt','Neu','Wert','Sicherheit'],d.renamed.map(r=>[esc(r.from),esc(r.to),val(r.value),r.sure?'eindeutig':'vermutet, bitte prüfen'])));
+  if(d.typeChanged.length)sec('major',`Typ geändert (${d.typeChanged.length})`,table(['Token','Alt','Neu'],d.typeChanged.map(r=>[esc(r.name),esc(r.from),esc(r.to)])));
+  if(d.broken.length)sec('major',`Verweise ins Leere (${d.broken.length})`,table(['Token','Zeigt auf','Hinweis'],d.broken.map(r=>[esc(r.name),esc(r.ref),r.hint?'vermutlich jetzt '+esc(r.hint):'Ziel fehlt im neuen Stand'])));
+  if(d.added.length)sec('minor',`Neu (${d.added.length})`,table(['Token','Wert'],d.added.map(r=>[esc(r.name),val(r.value)])));
+  if(d.deprecated.length)sec('minor',`Als veraltet markiert (${d.deprecated.length})`,table(['Token','Hinweis'],d.deprecated.map(r=>[esc(r.name),esc(r.hint||'')])));
+  if(d.changed.length)sec('patch',`Wert geändert (${d.changed.length})`,table(['Token','Alt','Neu'],d.changed.map(r=>[esc(r.name),val(r.from),val(r.to)])));
+  if(d.described.length)sec('patch',`Beschreibung geändert (${d.described.length})`,table(['Token'],d.described.map(r=>[esc(r.name)])));
+  $('#sections').innerHTML=S.join('');
+  const today=new Date().toISOString().slice(0,10);
+  $('#md').textContent=markdown(d,$('#ver').value,next,today);
+  $('#copyMap').hidden=!d.renamed.length;$('#copyMsg').textContent='';
+  $('#out').hidden=false;
+}
+function run(focus){
+  let a,b;$('#msg').textContent='';
+  try{a=JSON.parse($('#a').value);}catch(e){$('#msg').textContent='Alter Stand ist kein gültiges JSON: '+e.message;$('#a').focus();return;}
+  try{b=JSON.parse($('#b').value);}catch(e){$('#msg').textContent='Neuer Stand ist kein gültiges JSON: '+e.message;$('#b').focus();return;}
+  last=diff(a,b);
+  if(!last.countA&&!last.countB){$('#msg').textContent='Keine Tokens gefunden. Erwartet werden Einträge mit $value oder value.';$('#out').hidden=true;return;}
+  render(last);if(focus)$('#outTitle').focus();
+}
+function loadSample(){$('#a').value=JSON.stringify(SAMPLE_A,null,2);$('#b').value=JSON.stringify(SAMPLE_B,null,2);$('#ver').value='2.3.1';}
+$('#run').onclick=()=>run(true);
+$('#sample').onclick=()=>{loadSample();run(true);};
+for(const[f,t]of[['#fa','#a'],['#fb','#b']])$(f).onchange=async e=>{const file=e.target.files[0];if(file){$(t).value=await file.text();}};
+const copy=async(text,ok)=>{try{await navigator.clipboard.writeText(text);$('#copyMsg').textContent=ok;}catch{$('#copyMsg').textContent='Kopieren nicht möglich, bitte von Hand markieren.';}};
+$('#copyMd').onclick=()=>copy($('#md').textContent,'Changelog kopiert.');
+$('#copyMap').onclick=()=>copy(JSON.stringify(renameMap(last),null,2),'Umbenennungen kopiert.');
+const q=new URLSearchParams(location.search);
+if(['light','dark'].includes(q.get('theme')))document.documentElement.dataset.theme=q.get('theme');
+if(q.has('beispiel')){loadSample();run(false);}
+</script>
+</body>
+</html>
